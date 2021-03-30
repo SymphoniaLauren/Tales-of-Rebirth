@@ -1,0 +1,2 @@
+python extract_compressed.py
+pause
