@@ -40,7 +40,7 @@ def unpack():
                 if not c_result[0]:
                     continue
                 dec = new_location + '.d'
-                subprocess.run(['compto', '-d', new_location, dec])
+                subprocess.run(['comptoe', '-d', new_location, dec])
                 os.remove(new_location)
                 os.rename(dec, new_location)
     json.dump(c_data, c_json, indent=4)
