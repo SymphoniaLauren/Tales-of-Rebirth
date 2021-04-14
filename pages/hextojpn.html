@@ -13,20 +13,18 @@ function convert() {
  for(var i = 0; i < hex.length; i += 2) {
   teil = hex.substring(i, i + 2);
   
-  if (teil == '01') {
-    document.getElementById('sjis').value += "\n";
-  }
+  if (teil == '01') {document.getElementById('sjis').value += "\n";}
   
-  if(isNaN(torh_to_unicode[teil]))  {   
+  else if(isNaN(torh_to_unicode[teil]))  {   
     teil = hex.substring(i, i + 4);
     if(isNaN(torh_to_unicode[teil]))
       teil = "3F"; // QUESTION MARK
     else
       i += 2;      
   }
- 
-  document.getElementById('sjis').value += String.fromCharCode(torh_to_unicode[teil]);
   
+  document.getElementById('sjis').value += String.fromCharCode(torh_to_unicode[teil]);
+
  }
 }
 </script>
