@@ -1,8 +1,10 @@
-<html>
+<!doctype html>
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
   <title>Tales of Rebirth - Hex to Japanese</title>
+  
   <script src="hextojpn.js" type="text/javascript"></script>
   <script language="javascript">
     function convert() {
@@ -31,17 +33,23 @@
 </head>
 
 <body>
-  hex:<br />
-  <textarea name="hex" id="hex" style="width:700px; height:75px;font-size:12px"></textarea><br />
-  <input type="submit" onClick="convert(); return false;"><br /><br />
 
-  sjis: (agth /hb or /hs)<br />
-  <textarea name="sjis" id="sjis" style="width:700px; height:50px"></textarea><br />
-  <br />
-  <a href="jpntohex.html">Japanese to Hex</a>
-  <br /><br />
-  Changes:<br />
-  v0.0.1 Original code from http://freaka.freehostia.com/charset_js.html<br />
+    <h1>Tales of Rebirth (PS2)</h1>
+    <h2>Hex to Japanese</h2>
+
+    <form>
+        <label for="fname">HEX Input</label><br>
+        <textarea name="hex" id="hex" rows="7" cols="77" name="hex"></textarea><br>
+
+        <label for="lname">Japanese Output</label><br>
+        <textarea name="sjis" id="sjis" rows="7" cols="77" name="jpn"></textarea><br><br>
+
+        <input type="submit" onClick="convert(); return false;">
+      </form>
+	  
+	<p>
+		Note: v0.0.1 Original code from <a href="http://freaka.freehostia.com/charset_js.html">http://freaka.freehostia.com</a>
+	</p>
 </body>
 
 </html>
