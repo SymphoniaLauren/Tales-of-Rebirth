@@ -1,5 +1,4 @@
 torh_to_unicode = new Object();
-torh_to_unicode["01"] = 0xFF0D; // ０
 torh_to_unicode["9940"] = 0xFF10; // ０
 torh_to_unicode["9941"] = 0xFF11; // １
 torh_to_unicode["9942"] = 0xFF12; // ２
