@@ -1,3 +1,12 @@
+//GAME NAME:		Tales of destiny 2
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("G:\TalesHacking\TOR\GitProject\Tales-of-Rebirth\ps2\MenuScripts\BaseScripts\abcde\ToR.tbl", Table_0)
+
+
+
+
 
 //Text $128520
 #WRITE(ptr,$106AB0)
@@ -2118,7 +2127,7 @@
 //Text $12A318
 #WRITE(ptr,$107804)
 「我ら…蒼き海…蒼き空…蒼き都市に生まれん[LINE]
- 　愛しき海愛しき空…かの海と空守り伝えん」[END]
+ 愛しき海愛しき空…かの海と空守り伝えん」[END]
 // current address: $12A36E
 
 
@@ -2645,3 +2654,543 @@
 海賊王アイフリードが愛用していた手鏡。[LINE]
 自分の姿が[Red]大きく見える[White]という噂。[END]
 // current address: $129ADA
+
+
+
+
+
+//Text $FFFFFFFFFFF0101B
+#WRITE(ptr,$107B60)
+{<$10>[END]
+// current address: $1FFFFFFFFFF0101E
+
+//Text $FFFFFFFFFFF037D1
+#WRITE(ptr,$107B64)
+[END]
+// current address: $1FFFFFFFFFF037D2
+
+
+
+
+
+//Text $FFFFFFFFFFF01001
+#WRITE(ptr,$107B78)
+( <$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF038F6
+#WRITE(ptr,$107B7C)
+C<$14><$08>[END]
+// current address: $1FFFFFFFFFF038FA
+
+
+
+
+
+//Text $FFFFFFFFFFF01001
+#WRITE(ptr,$107B90)
+( <$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF038FB
+#WRITE(ptr,$107B94)
+&<$14>[END]
+// current address: $1FFFFFFFFFF038FE
+
+
+
+
+
+//Text $FFFFFFFFFFF01002
+#WRITE(ptr,$107BA8)
+ <$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF03933
+#WRITE(ptr,$107BAC)
+<$90><$06>[END]
+// current address: $1FFFFFFFFFF03936
+
+
+
+
+
+//Text $FFFFFFFFFFF01007
+#WRITE(ptr,$107BC0)
+$-<$10><$80><$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF0382C
+#WRITE(ptr,$107BC4)
+$[END]
+// current address: $1FFFFFFFFFF0382E
+
+
+
+
+
+//Text $FFFFFFFFFFF0100B
+#WRITE(ptr,$107BD8)
+<$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF03906
+#WRITE(ptr,$107BDC)
+<$02>[lessthan]<$04>[END]
+// current address: $1FFFFFFFFFF0390A
+
+
+
+
+
+//Text $FFFFFFFFFFF01013
+#WRITE(ptr,$107BF0)
+{0[END]
+// current address: $1FFFFFFFFFF01016
+
+//Text $FFFFFFFFFFF03859
+#WRITE(ptr,$107BF4)
+<$10>[END]
+// current address: $1FFFFFFFFFF0385B
+
+
+
+
+
+//Text $FFFFFFFFFFF01017
+#WRITE(ptr,$107C08)
+{ [END]
+// current address: $1FFFFFFFFFF0101A
+
+//Text $FFFFFFFFFFF03870
+#WRITE(ptr,$107C0C)
+P<$CB><$0B><$0C>[END]
+// current address: $1FFFFFFFFFF03875
+
+
+
+
+
+//Text $FFFFFFFFFFF01007
+#WRITE(ptr,$107C20)
+$-<$10><$80><$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF03899
+#WRITE(ptr,$107C24)
+[END]
+// current address: $1FFFFFFFFFF0389A
+
+
+
+
+
+//Text $FFFFFFFFFFF0101A
+#WRITE(ptr,$107C38)
+<$B3>{<$10>[END]
+// current address: $1FFFFFFFFFF0101E
+
+//Text $FFFFFFFFFFF038BD
+#WRITE(ptr,$107C3C)
+[END]
+// current address: $1FFFFFFFFFF038BE
+
+
+
+
+
+//Text $FFFFFFFFFFF01007
+#WRITE(ptr,$107C50)
+$-<$10><$80><$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF03977
+#WRITE(ptr,$107C54)
+<$7F>p[END]
+// current address: $1FFFFFFFFFF0397A
+
+
+
+
+
+//Text $FFFFFFFFFFF0100B
+#WRITE(ptr,$107C68)
+<$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF03A00
+#WRITE(ptr,$107C6C)
+,[END]
+// current address: $1FFFFFFFFFF03A02
+
+
+
+
+
+//Text $FFFFFFFFFFF01009
+#WRITE(ptr,$107C80)
+<$10><$80><$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF039A1
+#WRITE(ptr,$107C84)
+[END]
+// current address: $1FFFFFFFFFF039A2
+
+
+
+
+
+//Text $FFFFFFFFFFF01011
+#WRITE(ptr,$107C98)
+[END]
+// current address: $1FFFFFFFFFF01012
+
+//Text $FFFFFFFFFFF03955
+#WRITE(ptr,$107C9C)
+[END]
+// current address: $1FFFFFFFFFF03956
+
+
+
+
+
+//Text $FFFFFFFFFFF01008
+#WRITE(ptr,$107CB0)
+-<$10><$80><$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF039F4
+#WRITE(ptr,$107CB4)
+<$13>[END]
+// current address: $1FFFFFFFFFF039F6
+
+
+
+
+
+//Text $FFFFFFFFFFF0100A
+#WRITE(ptr,$107CC8)
+<$80><$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF039C9
+#WRITE(ptr,$107CCC)
+[LINE]
+e<$8C>-<$90><$80>[END]
+// current address: $1FFFFFFFFFF039D0
+
+
+
+
+
+//Text $FFFFFFFFFFF0100D
+#WRITE(ptr,$107CE0)
+[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF039B8
+#WRITE(ptr,$107CE4)
+-<$A8>`[END]
+// current address: $1FFFFFFFFFF039BC
+
+
+
+
+
+//Text $FFFFFFFFFFF01001
+#WRITE(ptr,$107CF8)
+( <$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF03A1A
+#WRITE(ptr,$107CFC)
+[END]
+// current address: $1FFFFFFFFFF03A1B
+
+
+
+
+
+//Text $FFFFFFFFFFF01001
+#WRITE(ptr,$107D10)
+( <$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF03A31
+#WRITE(ptr,$107D14)
+<$A9>b<$AC>t<$CE><$0B><$0C><$D0><$A9><$84>$<$1F>[END]
+// current address: $1FFFFFFFFFF03A3E
+
+
+
+
+
+//Text $FFFFFFFFFFF0100C
+#WRITE(ptr,$107D28)
+P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF03A36
+#WRITE(ptr,$107D2C)
+<$0B><$0C><$D0><$A9><$84>$<$1F>[END]
+// current address: $1FFFFFFFFFF03A3E
+
+
+
+
+
+//Text $FFFFFFFFFFF01008
+#WRITE(ptr,$107D40)
+-<$10><$80><$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF03AAB
+#WRITE(ptr,$107D44)
+<$96>- [END]
+// current address: $1FFFFFFFFFF03AAF
+
+
+
+
+
+//Text $FFFFFFFFFFF01005
+#WRITE(ptr,$107D58)
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF03AFE
+#WRITE(ptr,$107D5C)
+<$05>$<$04>[END]
+// current address: $1FFFFFFFFFF03B02
+
+
+
+
+
+//Text $FFFFFFFFFFF01007
+#WRITE(ptr,$107D70)
+$-<$10><$80><$02>P[END]
+// current address: $1FFFFFFFFFF0100E
+
+//Text $FFFFFFFFFFF03A0F
+#WRITE(ptr,$107D74)
+$<$C0>柏<$0C><$08>[END]
+// current address: $1FFFFFFFFFF03A16
+
+
+
+
+
+//Text $FFFFFFFFFFF01017
+#WRITE(ptr,$107D88)
+{ [END]
+// current address: $1FFFFFFFFFF0101A
+
+//Text $FFFFFFFFFFF03A4D
+#WRITE(ptr,$107D8C)
+<$A9>B<$96>2[END]
+// current address: $1FFFFFFFFFF03A52
+
+
+
+
+
+//Text $FFFFFFFFFFF0101D
+#WRITE(ptr,$107DA0)
+[END]
+// current address: $1FFFFFFFFFF0101E
+
+//Text $FFFFFFFFFFF03ADD
+#WRITE(ptr,$107DA4)
+([END]
+// current address: $1FFFFFFFFFF03ADF
+
+
+
+
+
+//Text $FFFFFFFFFFF01010
+#WRITE(ptr,$107DB8)
+@[END]
+// current address: $1FFFFFFFFFF01012
+
+//Text $FFFFFFFFFFF03ABE
+#WRITE(ptr,$107DBC)
+"<$96>- [END]
+// current address: $1FFFFFFFFFF03AC3
+
+
+
+
+
+//Text $FFFFFFFFFFF01003
+#WRITE(ptr,$107DD0)
+<$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF03B11
+#WRITE(ptr,$107DD4)
+<$FF>@<$10>[END]
+// current address: $1FFFFFFFFFF03B15
+
+
+
+
+
+//Text $FFFFFFFFFFF01024
+#WRITE(ptr,$107DE8)
+<$08>[END]
+// current address: $1FFFFFFFFFF01026
+
+//Text $FFFFFFFFFFF03B68
+#WRITE(ptr,$107DEC)
+-0[END]
+// current address: $1FFFFFFFFFF03B6B
+
+
+
+
+
+//Text $FFFFFFFFFFF01003
+#WRITE(ptr,$107E00)
+<$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF03AB7
+#WRITE(ptr,$107E04)
+$<$05>[END]
+// current address: $1FFFFFFFFFF03ABA
+
+
+
+
+
+//Text $FFFFFFFFFFF01001
+#WRITE(ptr,$107E18)
+( <$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF03B9C
+#WRITE(ptr,$107E1C)
+l3C<$94><$F7><$FF><$A3><$14><$C0><$A9>B<$96>-8[END]
+// current address: $1FFFFFFFFFF03BAB
+
+
+
+
+
+//Text $FFFFFFFFFFF01003
+#WRITE(ptr,$107E30)
+<$02>[LINE]
+[END]
+// current address: $1FFFFFFFFFF01006
+
+//Text $FFFFFFFFFFF03BA6
+#WRITE(ptr,$107E34)
+B<$96>-8[END]
+// current address: $1FFFFFFFFFF03BAB
+
+
+
+
+
+//Text $FFFFFFFFFFF015AF
+#WRITE(ptr,$107E48)
+'<$80><$FF><$BD>'P[END]
+// current address: $1FFFFFFFFFF015B6
+
+//Text $FFFFFFFFFFF01851
+#WRITE(ptr,$107E4C)
+[LINE]
+D<$8C><$84>x<$06><$0C>|[END]
+// current address: $1FFFFFFFFFF0185A
+
+
+
+
+
+//Text $FFFFFFFFFFF01760
+#WRITE(ptr,$107E60)
+[END]
+// current address: $1FFFFFFFFFF01761
+
+//Text $FFFFFFFFFFF011AC
+#WRITE(ptr,$107E64)
+[END]
+// current address: $1FFFFFFFFFF011AD
+
+
+
+
+
+//Text $FFFFFFFFFFF011C0
+#WRITE(ptr,$107E78)
+<$1A>[END]
+// current address: $1FFFFFFFFFF011C2
+
+//Text $FFFFFFFFFFF01720
+#WRITE(ptr,$107E7C)
+<$FF><$FF><$03>[lessthan]<$F7><$FF>c4[END]
+// current address: $1FFFFFFFFFF01729
+
+
+
+
+
+//Text $FFFFFFFFFFF01391
+#WRITE(ptr,$107E90)
+[END]
+// current address: $1FFFFFFFFFF01392
+
+//Text $FFFFFFFFFFF01B7E
+#WRITE(ptr,$107E94)
+P[END]
+// current address: $1FFFFFFFFFF01B80
+
+
+
+
+
+//Text $FFFFFFFFFFF01A7A
+#WRITE(ptr,$107EA8)
+<$83>[END]
+// current address: $1FFFFFFFFFF01A7C
+
+//Text $FFFFFFFFFFF0149E
+#WRITE(ptr,$107EAC)
+<$08>5<$A9><$14>[END]
+// current address: $1FFFFFFFFFF014A3
+
+
+
+
+
+//Text $FFFFFFFFFFF01743
+#WRITE(ptr,$107EC0)
+[END]
+// current address: $1FFFFFFFFFF01744
+
+//Text $FFFFFFFFFFF012B9
+#WRITE(ptr,$107EC4)
+<$1F><$C3><$8E><$10>[END]
+// current address: $1FFFFFFFFFF012BE
+
+
+
+
+
+//Text $FFFFFFFFFFF01014
+#WRITE(ptr,$107ED8)
+0[END]
+// current address: $1FFFFFFFFFF01016
+
+
