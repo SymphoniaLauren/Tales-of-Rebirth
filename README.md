@@ -1,5 +1,9 @@
 # Tales-of-Rebirth
 
+##
+Spreadsheet with Info: https://docs.google.com/spreadsheets/d/1-XwzS7F0SaLlXwv1KS6RcTEYYORH2DDb1bMRy5VM5oo/edit?usp=sharing  
+DIscord Server: 
+
 ## Font
 There is a table in the ELF file to change the width: `0xcb240`
 
@@ -12,3 +16,5 @@ There is a table in the ELF file to change the width: `0xcb240`
 ![alt text](https://github.com/pnvnd/Tales-of-Rebirth/blob/main/tor_base.png?raw=true)  
 
 ![alt text](https://github.com/pnvnd/Tales-of-Rebirth/blob/main/pak1.png?raw=true)  
+
+![alt text](https://github.com/pnvnd/Tales-of-Rebirth/blob/main/scpk.png?raw=true)  
