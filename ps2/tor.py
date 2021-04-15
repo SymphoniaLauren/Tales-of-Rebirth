@@ -9,7 +9,7 @@ import string
 
 tags = {0x5: 'color', 0xB: 'name', 0xF: 'voice', 0x06: 'size', 0xC: 'item', 0xD: 'button'}
 names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda',
-         7: 'Claire/Agarte', 8:'Agarte/Claire', 9:'Annie (NPC)'}
+         7: 'Claire_Agarte', 8:'Agarte_Claire', 9:'Annie (NPC)'}
 colors = {1: 'Blue', 2: 'Red', 3: 'Purple', 4: 'Green', 5: 'Cyan', 6: 'Yellow', 7: 'White'}
 
 pointer_begin = 0xD76B0
