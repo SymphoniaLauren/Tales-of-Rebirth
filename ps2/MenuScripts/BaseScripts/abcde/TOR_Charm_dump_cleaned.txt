@@ -1,4 +1,5 @@
-//Charm
+
+
 //Text $128520
 #WRITE(ptr,$106AB0)
 ディレイチェック[END]
@@ -291,8 +292,9 @@
 
 //Text $127DE8
 #WRITE(ptr,$106C7C)
-敵を倒した時に<$0D><$38>[END]
-// current address: $127DF9
+敵を倒した時に[Circle_copy]を押していると[LINE]
+きめ台詞を吐いてＲＧを０にする護符。[END]
+// current address: $127E2F
 
 
 
@@ -425,7 +427,7 @@
 
 //Text $127B90
 #WRITE(ptr,$106D54)
-移動速度が<$31><$2E><$32>倍になるブーツ。[LINE]
+移動速度が1.2倍になるブーツ。[LINE]
 [END]
 // current address: $127BAF
 

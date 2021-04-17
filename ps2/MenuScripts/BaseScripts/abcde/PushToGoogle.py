@@ -56,8 +56,8 @@ def cleanData(dfData):
 
 
 
-googleId = '1TFCn8B0YztEQwAPspLSqNWlHoaOFN6oq8NuBOjoHr1c'
-fileName = 'TOR_Weapon_dump_cleaned.txt'
+googleId = '1wCZunRi7xm-piJgKiJDqeXznzW4IS0Xb4Dr_VWidej4'
+fileName = 'TOR_Names_dump_cleaned.txt'
 finalList = parseText(fileName)
 writeColumn(finalList, googleId)
     
