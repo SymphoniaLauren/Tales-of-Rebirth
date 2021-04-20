@@ -160,7 +160,7 @@ def get_extension(data):
         extension = 'pak3'
     elif data[:4] == b'anp3':
         extension = 'anp3'
-    elif data[:4} == b'EFFE'
+    elif data[:4] == b'EFFE':
         extension = 'effe'
     else:
         pass
@@ -484,10 +484,10 @@ def insert_theirsce():
                                     else:
                                         txt += (struct.pack('B', int(split[0][1:], 16)))
                                     txt += (struct.pack('<I', int(split[1][:8], 16)))
-                                if c in in inames:
+                                if c in inames:
                                     txt += struct.pack('B', 0xB)
                                     txt += struct.pack('<I', inames[c[1:-1]])
-                                if c in in icolors:
+                                if c in icolors:
                                     txt += struct.pack('B', 0x5)
                                     txt += struct.pack('<I', icolors[c[1:-1]])
                             else:
