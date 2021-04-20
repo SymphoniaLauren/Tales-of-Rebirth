@@ -8,8 +8,7 @@ import shutil
 import string
 
 tags = {0x5: 'color', 0xB: 'name'}
-names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda',
-         7: 'Claire'}
+names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda', 7: 'Claire'}
 
 pointer_begin = 0xD76B0
 pointer_end   = 0xE60C8
@@ -162,7 +161,7 @@ def extract_dat():
     f = open('DAT.bin', 'rb')
     mkdir('DAT')
     #json_file = open('DAT.json', 'w')
-    json_file = open('dat.json', 'r')
+    json_file = open('DAT.json', 'r')
     #json_data = {}
     json_data = json.load(json_file)
     pointers = get_pointers()
@@ -558,6 +557,8 @@ if __name__ == '__main__':
     elif sys.argv[1] == '4':
         extract_mfh()
     elif sys.argv[1] == '10':
+        extract_dat()
+    elif sys.argv[1] == '11':
         export_tbl()
     elif sys.argv[1] == '?':
         print("Usage:")
@@ -566,5 +567,6 @@ if __name__ == '__main__':
         print("python tor.py 3: Pack everything in DAT folder DAT.BIN, also requires new_SLPS_254.50")
         print("python tor.py 4: Extract MFH files")
         print("python tor.py 10: Export tbl.tbl from tbl.json to use with abcde, Cartographer, Atlas")
+        print("python tor.py 11: Extract DAT.BIN")
     else:
         sys.exit(1)
