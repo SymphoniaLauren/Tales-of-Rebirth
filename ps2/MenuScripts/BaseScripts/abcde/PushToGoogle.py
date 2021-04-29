@@ -22,8 +22,12 @@ def parseText(fileName):
         
         if "//Text " in line:
             start=i
-        if "// current" in line:    
-            finalList.append("".join(dfLines['Text'][start:i]))
+            textOffset = line[line.find("$")+1:].replace("\n","")
+        if "WRITE" in line:
+            pointer = line[line.find("$")+1:].replace(")\n","")
+        if "// current" in line:  
+            ele = ["".join(dfLines['Text'][start:i]), textOffset, pointer]
+            finalList.append(ele)
     
     return finalList
 
@@ -56,8 +60,9 @@ def cleanData(dfData):
 
 
 
-googleId = '1JaPk7AALcpfWK0HO-XpFhnoNnBFZ2KFW3_yGQw6dIHg'
-fileName = 'TOR_Artes_dump_cleaned.txt'
+googleId = '1LoH0p2M2A9Avu2JVn49Jc-ZCbZjjBUi5ilf2qpqesVI'
+fileName = 'TODDC_SynopsisSave_dump_cleaned.txt'
 finalList = parseText(fileName)
+df= pd.DataFrame(finalList, columns=['Text', 'TextOffset','Pointer'])
 writeColumn(finalList, googleId)
     
