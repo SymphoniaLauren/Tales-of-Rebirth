@@ -7,8 +7,11 @@ import subprocess
 import shutil
 import string
 
-tags = {0x5: 'color', 0xB: 'name'}
-names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda', 7: 'Claire'}
+tags = {0x5: 'color', 0xB: 'name', 0xF: 'voice', 0x06: 'size', 0xC: 'item', 0xD: 'button'}
+names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda',
+         7: 'Claire/Agarte', 8:'Agarte/Claire', 9:'Annie (NPC)', 0x1FFF: 'OnScreenChar'}
+colors = {1: 'Blue', 2: 'Red', 3: 'Purple', 4: 'Green', 5: 'Cyan', 6: 'Yellow', 7: 'White'}
+
 
 pointer_begin = 0xD76B0
 pointer_end   = 0xE60C8
@@ -36,18 +39,21 @@ def get_pointers():
     f.close()
     return pointers
 
-def compress_comptoe(name, ctype=1):
+def compress_compto(name, ctype=1):
     c = '-c%d' % ctype
-    subprocess.run(['comptoe', c, name, name + '.c'])
+    subprocess.run(['compto', c, name, name + '.c'])
 
-def decompress_comptoe(name):
-    subprocess.run(['comptoe', '-d', name, name + '.d'])
+def decompress_compto(name):
+    subprocess.run(['compto', '-d', name, name + '.d'])
 
 def decompress_folder(name):
     for f in os.listdir(name):
         if f.endswith('d'):
             continue
-        subprocess.run(['comptoe', '-d', name + f, name + f + '.d'])
+        subprocess.run(['compto', '-d', name + f, name + f + '.d'])
+
+def extract_pak1(name):
+    subprocess.run(['pakcomposer','-d', name, '-1', '-u', '-v', '-x'])
 
 # by flame1234
 def decode(param):
@@ -111,19 +117,19 @@ def is_pak3(data):
         return True
     return False
 
-def move_sced():
-    mkdir('SCED')
-    sced_dir = os.getcwd() + '/sced/'
+def move_theirsce():
+    mkdir('THEIRSCE')
+    theirsce_dir = os.getcwd() + '/theirsce/'
     
     for folder in os.listdir('scpk'):
         if not os.path.isdir('scpk/' + folder):
             continue
         for sce in os.listdir('scpk/' + folder):
-            if sce.endswith('.sced'):
+            if sce.endswith('.theirsce'):
                 f = sce
                 break
-        new_name = '%s_%s.sced' % (folder, f.split('.')[0])
-        shutil.copy(os.path.join('scpk',folder,f), sced_dir + new_name)
+        new_name = '%s_%s.theirsce' % (folder, f.split('.')[0])
+        shutil.copy(os.path.join('scpk',folder,f), theirsce_dir + new_name)
         print (new_name)
 
 def move_scpk_packed():
@@ -153,6 +159,10 @@ def get_extension(data):
         extension = 'pak1'
     elif is_pak3(data):
         extension = 'pak3'
+    elif data[:4] == b'anp3':
+        extension = 'anp3'
+    elif data[:4] == b'EFFE':
+        extension = 'effe'
     else:
         pass
     return extension
@@ -161,7 +171,7 @@ def extract_dat():
     f = open('DAT.bin', 'rb')
     mkdir('DAT')
     #json_file = open('DAT.json', 'w')
-    json_file = open('DAT.json', 'r')
+    json_file = open('dat.json', 'r')
     #json_data = {}
     json_data = json.load(json_file)
     pointers = get_pointers()
@@ -250,18 +260,23 @@ def extract_scpk():
             ext = 'bin'
             if len(data) >= 0x10:
                 if data[0xA:0xE] == b'THEI':
-                    ext = 'sced'
+                    ext = 'theirsce'
             if i == 0:
                 ext = 'mfh'
+            if len(data) > 0x04:
+                if is_pak1(data):
+                    ext = 'pak1'
             fname = 'scpk/%s/%02d.%s' % (file.split('.')[0], i, ext)
             o = open(fname, 'wb')
             json_data[index][i] = data[0]
             o.write(data)
             o.close()
-            if ext in ('mfh', 'sced'):
-                decompress_comptoe(fname)
+            if ext in ('mfh', 'theirsce'):
+                decompress_compto(fname)
                 os.remove(fname)
                 os.rename(fname + '.d', fname)
+            if ext in ('pak1'):
+                extract_pak1(fname)
 
         f.close()
         
@@ -273,7 +288,7 @@ def pack_scpk():
     json_data = json.load(json_file)
     json_file.close()
 
-    for name in os.listdir('sced_new'):
+    for name in os.listdir('theirsce_new'):
         folder = name.split('_')[0]
         if os.path.isdir('scpk/' + folder):
             sizes = []
@@ -286,10 +301,10 @@ def pack_scpk():
                 fname = 'scpk/%s/%s' % (folder, file)
                 f = open(fname, 'rb')
                 ctype = json_data[folder][index]
-                if file.endswith('sced'):
+                if file.endswith('theirsce'):
                     if ctype != 0:
-                        fname = 'sced_new/' + name
-                        compress_comptoe(fname, ctype)
+                        fname = 'theirsce_new/' + name
+                        compress_compto(fname, ctype)
                         comp = open(fname + '.c', 'rb')
                         read = comp.read()
                         comp.close()
@@ -298,7 +313,7 @@ def pack_scpk():
                         read = f.read()
                 elif file.endswith('mfh'):
                     if ctype != 0:
-                        compress_comptoe(fname, ctype)
+                        compress_compto(fname, ctype)
                         comp = open(fname + '.c', 'rb')
                         read = comp.read()
                         comp.close()
@@ -321,7 +336,7 @@ def pack_scpk():
             o.write(data)
             o.close()
 
-def extract_sced():
+def extract_theirsce():
     mkdir('TXT')
     #json_file = open('TBL.json', 'w')
     #json_data = {}
@@ -333,18 +348,18 @@ def extract_sced():
     json_data = json.load(json_file)
     json_file.close()
 
-    sced_file = open('SCED.json', 'w')
-    sced_data = {}
+    theirsce_file = open('THEIRSCE.json', 'w')
+    theirsce_data = {}
     
-    for name in os.listdir('sced/'):
-        f = open('sced/' + name, 'rb')
+    for name in os.listdir('theirsce/'):
+        f = open('theirsce/' + name, 'rb')
         header = f.read(8)
         if header != b'THEIRSCE':
             continue
-        sced_data[name] = []
+        theirsce_data[name] = []
         pointer_block = struct.unpack('<L', f.read(4))[0]
         text_block = struct.unpack('<L', f.read(4))[0]
-        fsize = os.path.getsize('sced/' + name)
+        fsize = os.path.getsize('theirsce/' + name)
         text_pointers = []
         addrs = []
         f.seek(pointer_block, 0)
@@ -354,7 +369,7 @@ def extract_sced():
             if b == b'\xF8':
                 addr = struct.unpack('<H', f.read(2))[0]
                 if (addr < fsize - text_block) and (addr > 0):
-                    #sced_data[name].append(f.tell() - 2)
+                    #theirsce_data[name].append(f.tell() - 2)
                     addrs.append(f.tell() - 2)
                     text_pointers.append(addr)
                     
@@ -367,7 +382,7 @@ def extract_sced():
             b = f.read(1)
             if b != b'\x00':
                 continue
-            sced_data[name].append(addrs[i])
+            theirsce_data[name].append(addrs[i])
             b = f.read(1)
             while b != b'\x00':
                 b = ord(b)
@@ -379,12 +394,16 @@ def extract_sced():
                 elif b == 0x1:
                     o.write('\n')
                 elif b in (0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xB, 0xC, 0xD, 0xE, 0xF):
-                    b2 = struct.unpack('<L', f.read(4))[0]
+                    b2 = struct.unpack("<L", f.read(4))[0]
                     if b in tags:
-                        if b == 0xB and b2 in names:
-                            o.write('<%s>' % names[b2])
+                        tag_name = tags.get(b)
+                        tag_param = None
+                        if (tag_name+'s') in globals():
+                            tag_param = eval("%ss.get(b2, None)" % tag_name)
+                        if tag_param != None:
+                            o.write("<%s>" % tag_param)
                         else:
-                            o.write('<%s:%08X>' % (tags[b], b2))
+                            o.write("<%s:%X>" % (tag_name, b2))
                     else:
                         o.write('<%02X:%08X>' % (b, b2))
                 elif chr(b) in printable:
@@ -407,32 +426,33 @@ def extract_sced():
                 else:
                     o.write('{%02X}' % b)
                 b = f.read(1)
-            o.write('\n-----------------------\n')
+            o.write('\n[ENDBLOCK]\n')
         f.close()
         o.close()
 
     #json.dump(json_data, json_file, indent=4)
-    json.dump(sced_data, sced_file, indent=4)
+    json.dump(theirsce_data, theirsce_file, indent=4)
 
-def insert_sced():
+def insert_theirsce():
     json_file = open('TBL.json', 'r')
-    sced_json = open('SCED.json', 'r')
+    theirsce_json = open('THEIRSCE.json', 'r')
     table = json.load(json_file)
-    sced_data = json.load(sced_json)
+    theirsce_data = json.load(theirsce_json)
     json_file.close()
-    sced_json.close()
+    theirsce_json.close()
     
     itable = dict([[i,struct.pack('>H', int(j))] for j,i in table.items()])
     itags = dict([[i,j] for j,i in tags.items()])
     inames = dict([[i,j] for j,i in names.items()])
+    icolors = dict([[i,j] for j,i in colors.items()])
     
-    mkdir('SCED_NEW/')
+    mkdir('THEIRSCE_NEW/')
 
     for name in os.listdir('txt_en'):
         f = open('txt_en/' + name, 'r', encoding='utf8')
         name = name[:-4]
-        sced = open('sced/' + name, 'rb')
-        o = open('sced_new/' + name, 'wb')
+        theirsce = open('theirsce/' + name, 'rb')
+        o = open('theirsce_new/' + name, 'wb')
 
         txts = []
         sizes = []
@@ -443,7 +463,7 @@ def insert_sced():
             if len(line) > 0:
                 if line[0] == '#':
                     continue
-            if line == '-----------------------':
+            if line == '[ENDBLOCK]':
                 if len(line) == 0:
                     txts.append(b'\x00')
                 else:
@@ -468,9 +488,12 @@ def insert_sced():
                                     else:
                                         txt += (struct.pack('B', int(split[0][1:], 16)))
                                     txt += (struct.pack('<I', int(split[1][:8], 16)))
-                                else:
+                                if c in inames:
                                     txt += struct.pack('B', 0xB)
                                     txt += struct.pack('<I', inames[c[1:-1]])
+                                if c in icolors:
+                                    txt += struct.pack('B', 0x5)
+                                    txt += struct.pack('<I', icolors[c[1:-1]])
                             else:
                                 for c2 in c:
                                     if c2 in itable.keys():
@@ -481,16 +504,16 @@ def insert_sced():
                 
         f.close()
         
-        sced.seek(0xC, 0)
-        pointer_block = struct.unpack('<L', sced.read(4))[0]
-        sced.seek(0, 0)
-        header = sced.read(pointer_block)
+        theirsce.seek(0xC, 0)
+        pointer_block = struct.unpack('<L', theirsce.read(4))[0]
+        theirsce.seek(0, 0)
+        header = theirsce.read(pointer_block)
         o.write(header + b'\x00')
-        sced.close()
+        theirsce.close()
 
         pos = 1
         for i in range(len(txts)):
-            o.seek(sced_data[name][i], 0)
+            o.seek(theirsce_data[name][i], 0)
             o.write(struct.pack('<H', pos))
             pos += sizes[i]
 
@@ -531,18 +554,18 @@ def extract_mfh():
             break
 
 def extract_files():
-    print ("Extracting fpb...")
+    print ("Extracting BIN...")
     extract_dat()
-    print ("Extracting scpk...")
+    print ("Extracting SCPK...")
     extract_scpk()
     extract_mfh()
     print ("Extracting script...")
-    move_sced()
-    extract_sced()
+    move_theirsce()
+    extract_theirsce()
 
 def insert_files():
     print ("Inserting script...")
-    insert_sced()
+    insert_theirsce()
     print ("Packing scpk...")
     pack_scpk()
     move_scpk_packed()
@@ -556,17 +579,9 @@ if __name__ == '__main__':
         pack_dat()
     elif sys.argv[1] == '4':
         extract_mfh()
+    elif sys.argv[1] == '5':
+        extract_theirsce()
     elif sys.argv[1] == '10':
-        extract_dat()
-    elif sys.argv[1] == '11':
         export_tbl()
-    elif sys.argv[1] == '?':
-        print("Usage:")
-        print("python tor.py 1: Extracting file requires DAT.BIN, SLPS_254.50, and comptoe.exe")
-        print("python tor.py 2: Insert text from TXT_EN folder, then copy from SCPK_PACKED to DAT")
-        print("python tor.py 3: Pack everything in DAT folder DAT.BIN, also requires new_SLPS_254.50")
-        print("python tor.py 4: Extract MFH files")
-        print("python tor.py 10: Export tbl.tbl from tbl.json to use with abcde, Cartographer, Atlas")
-        print("python tor.py 11: Extract DAT.BIN")
     else:
         sys.exit(1)
