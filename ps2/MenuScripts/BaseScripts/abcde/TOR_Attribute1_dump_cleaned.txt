@@ -1,0 +1,334 @@
+
+//Text $120588
+#WRITE(ptr,$103904)
+斬撃攻撃力[END]
+// current address: $120593
+
+//Text $120578
+#WRITE(ptr,$103908)
+打撃攻撃力[END]
+// current address: $120583
+
+//Text $120568
+#WRITE(ptr,$10390C)
+斬撃防御力[END]
+// current address: $120573
+
+//Text $120558
+#WRITE(ptr,$103910)
+打撃防御力[END]
+// current address: $120563
+
+//Text $120548
+#WRITE(ptr,$103914)
+術攻撃力[END]
+// current address: $120551
+
+//Text $120538
+#WRITE(ptr,$103918)
+術防御力[END]
+// current address: $120541
+
+//Text $120528
+#WRITE(ptr,$10391C)
+HP回復力[END]
+// current address: $120531
+
+//Text $120518
+#WRITE(ptr,$103920)
+FG回復力[END]
+// current address: $120521
+
+//Text $120510
+#WRITE(ptr,$103924)
+最大HP[END]
+// current address: $120517
+
+//Text $1204F8
+#WRITE(ptr,$103928)
+通常攻撃によるFG回復量[END]
+// current address: $12050F
+
+//Text $1204E0
+#WRITE(ptr,$10392C)
+撃破時のHP回復量[END]
+// current address: $1204F1
+
+//Text $1204C8
+#WRITE(ptr,$103930)
+撃破時のFG回復量[END]
+// current address: $1204D9
+
+//Text $1204B8
+#WRITE(ptr,$103934)
+敵ＲＧ低下[END]
+// current address: $1204C3
+
+//Text $1204A0
+#WRITE(ptr,$103938)
+上昇効果継続時間[END]
+// current address: $1204B1
+
+//Text $120488
+#WRITE(ptr,$10393C)
+減少効果継続時間[END]
+// current address: $120499
+
+//Text $120478
+#WRITE(ptr,$103940)
+チャージ速度[END]
+// current address: $120485
+
+//Text $120468
+#WRITE(ptr,$103944)
+詠唱時間[END]
+// current address: $120471
+
+//Text $120458
+#WRITE(ptr,$103948)
+気絶時間[END]
+// current address: $120461
+
+//Text $120588
+#WRITE(ptr,$10394C)
+斬撃攻撃力[END]
+// current address: $120593
+
+//Text $120578
+#WRITE(ptr,$103950)
+打撃攻撃力[END]
+// current address: $120583
+
+//Text $120450
+#WRITE(ptr,$103954)
+？[END]
+// current address: $120453
+
+//Text $120450
+#WRITE(ptr,$103958)
+？[END]
+// current address: $120453
+
+//Text $120548
+#WRITE(ptr,$10395C)
+術攻撃力[END]
+// current address: $120551
+
+//Text $120518
+#WRITE(ptr,$103960)
+FG回復力[END]
+// current address: $120521
+
+//Text $120448
+#WRITE(ptr,$103964)
+覚醒率[END]
+// current address: $12044F
+
+//Text $120568
+#WRITE(ptr,$103968)
+斬撃防御力[END]
+// current address: $120573
+
+//Text $120558
+#WRITE(ptr,$10396C)
+打撃防御力[END]
+// current address: $120563
+
+//Text $120450
+#WRITE(ptr,$103970)
+？[END]
+// current address: $120453
+
+//Text $120450
+#WRITE(ptr,$103974)
+？[END]
+// current address: $120453
+
+//Text $120538
+#WRITE(ptr,$103978)
+術防御力[END]
+// current address: $120541
+
+//Text $120528
+#WRITE(ptr,$10397C)
+HP回復力[END]
+// current address: $120531
+
+//Text $120448
+#WRITE(ptr,$103980)
+覚醒率[END]
+// current address: $12044F
+
+//Text $120428
+#WRITE(ptr,$103984)
+潜在能力が覚醒しました！[END]
+// current address: $120441
+
+//Text $120408
+#WRITE(ptr,$103988)
+継承武具能力が付与されました！[END]
+// current address: $120427
+
+//Text $1203D8
+#WRITE(ptr,$10398C)
+継承能力にイレギュラーが起こりました！！[END]
+// current address: $120401
+
+//Text $1203C8
+#WRITE(ptr,$103990)
+グレード取得率[END]
+// current address: $1203D7
+
+//Text $1203B8
+#WRITE(ptr,$103994)
+SMASH POINT[END]
+// current address: $1203C4
+
+//Text $120398
+#WRITE(ptr,$103998)
+奥義習得：派生元の術技を選択[END]
+// current address: $1203B5
+
+//Text $120378
+#WRITE(ptr,$10399C)
+奥義として習得する術技を選択[END]
+// current address: $120395
+
+//Text $120300
+#WRITE(ptr,$1039A0)
+習得すると、各スマッシュポイントを[LINE]
+消費します。よろしいですか？[LINE]
+[S14][Grey]----[LINE]
+[S14][Yellow][Circle_ani]習得する [Cross_ani]やめる[END]
+// current address: $120374
+
+//Text $1202E8
+#WRITE(ptr,$1039A4)
+[TAG_019]を習得しました！[END]
+// current address: $1202FE
+
+//Text $1202C8
+#WRITE(ptr,$1039A8)
+キャラレベルが足りません[END]
+// current address: $1202E1
+
+//Text $1202A8
+#WRITE(ptr,$1039AC)
+スマッシュポイントが足りません[END]
+// current address: $1202C7
+
+//Text $120290
+#WRITE(ptr,$1039B0)
+すでに習得しています[END]
+// current address: $1202A5
+
+//Text $120270
+#WRITE(ptr,$1039B4)
+武具継承：強化した武具を選択[END]
+// current address: $12028D
+
+//Text $120240
+#WRITE(ptr,$1039B8)
+能力を受け継ぐ未強化・未継承の武具を選択[END]
+// current address: $120269
+
+//Text $120230
+#WRITE(ptr,$1039BC)
+EPが足りません[END]
+// current address: $12023F
+
+//Text $120228
+#WRITE(ptr,$1039C0)
+奥義[END]
+// current address: $12022D
+
+//Text $1201E8
+#WRITE(ptr,$1039C4)
+[Green][TAG_015]は[LINE]
+称号『[TAG_016]』を取得しました。[LINE]
+[Yellow][TAG_017][TAG_018][END]
+// current address: $120223
+
+//Text $120150
+#WRITE(ptr,$1039C8)
+[Green][TAG_015]たちは[LINE]
+称号『[TAG_016]』を取得しました。[LINE]
+[Yellow][TAG_017][TAG_018][TAG_019][LINE]
+[TAG_020][TAG_021][TAG_022][LINE]
+[TAG_023][TAG_024][TAG_025][LINE]
+[TAG_026][TAG_027][TAG_028][LINE]
+[TAG_029][TAG_030][TAG_031][LINE]
+[TAG_032][TAG_033][TAG_034][END]
+// current address: $1201E4
+
+//Text $120120
+#WRITE(ptr,$1039CC)
+[Green][TAG_015]は[LINE]
+称号『[TAG_016]』を失いました。[LINE]
+[END]
+// current address: $12014A
+
+//Text $1200B8
+#WRITE(ptr,$1039D0)
+[TAG_015][TAG_016][LINE]
+[TAG_017][TAG_018][LINE]
+[TAG_019][TAG_020][LINE]
+[TAG_021][TAG_022][LINE]
+[TAG_023][TAG_024][LINE]
+[TAG_025][TAG_026][LINE]
+[TAG_027][TAG_028][LINE]
+[TAG_029][TAG_030][LINE]
+[TAG_031][TAG_032][LINE]
+[END]
+// current address: $12011C
+
+//Text $1200A0
+#WRITE(ptr,$1039D4)
+補正を受けていません。[END]
+// current address: $1200B7
+
+
+//Text $120090
+#WRITE(ptr,$1039DC)
+最大ＨＰ＋[END]
+// current address: $12009B
+
+//Text $120080
+#WRITE(ptr,$1039E0)
+斬撃攻撃力＋[END]
+// current address: $12008D
+
+//Text $120070
+#WRITE(ptr,$1039E4)
+打撃攻撃力＋[END]
+// current address: $12007D
+
+//Text $120060
+#WRITE(ptr,$1039E8)
+術攻撃力＋[END]
+// current address: $12006B
+
+//Text $120050
+#WRITE(ptr,$1039EC)
+斬撃防御力＋[END]
+// current address: $12005D
+
+//Text $120040
+#WRITE(ptr,$1039F0)
+打撃防御力＋[END]
+// current address: $12004D
+
+//Text $120030
+#WRITE(ptr,$1039F4)
+術防御力＋[END]
+// current address: $12003B
+
+//Text $120020
+#WRITE(ptr,$1039F8)
+ＨＰ回復力＋[END]
+// current address: $12002D
+
+//Text $120010
+#WRITE(ptr,$1039FC)
+ＦＧ回復力＋[END]
+// current address: $12001D
