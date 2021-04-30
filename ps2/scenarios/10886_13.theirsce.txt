@@ -1,0 +1,80 @@
+ユリスの領域・上層
+[ENDBLOCK]
+ユリスの領域・上層
+[ENDBLOCK]
+----{17}{CB}{E8}{38}{3C}{05}{8C}{80}
+[ENDBLOCK]
+f_fall[0] = {17}{38}{9C}{05}{80}
+[ENDBLOCK]
+{17}{CB}{EC}{38}{40}{05}{8C}{80}
+[ENDBLOCK]
+i_fire_num[1] = {17}{38}{40}{05}{80}
+[ENDBLOCK]
+i_fire_num[2] = {17}{38}{44}{05}{80}
+[ENDBLOCK]
+i_fire_num[3] = {17}{38}{48}{05}{80}
+[ENDBLOCK]
+i_fire_num[4] = {17}{38}{4C}{05}{80}
+[ENDBLOCK]
+i_fire_num[5] = {17}{38}{50}{05}{80}
+[ENDBLOCK]
+i_fire_num[6] = {17}{38}{54}{05}{80}
+[ENDBLOCK]
+i_fire_num[7] = {17}{38}{58}{05}{80}
+[ENDBLOCK]
+i_fire_num[8] = {17}{38}{5C}{05}{80}, HNO={17}{D0}{08}{04}{38}{5C}{05}{8C}{C8}{15}{E0}{0C}{80}  
+[ENDBLOCK]
+i_fire_num[4] = {17}{38}{4C}{05}{80}
+[ENDBLOCK]
+=== hno = {17}{22}{22}{80} ===
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+<Green>『フォルスボタン（<button:32>ボタン）』を押して
+<Veigue>のフォルスを火の玉に当てると
+足場を作る事ができます。
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+<Green>画面右下にアイコンが表示される場所で
+足場のほうを向いて『<button:30>ボタン』を押すと
+足場に飛び移れます。
+(注意：助走は必要ありません。)
+[ENDBLOCK]
+<Tytree>
+[ENDBLOCK]
+<voice:42000060>大丈夫か、なんて聞かないぜ。
+立てるよな？
+
+[ENDBLOCK]
+<Veigue>
+[ENDBLOCK]
+<voice:42000061>ああ……
+おまえのパンチに比べたら、
+これくらいの事……
+
+[ENDBLOCK]
+select
+[ENDBLOCK]
+<7:0><size:140>休憩しますか？
+　はい　
+　いいえ　
+[ENDBLOCK]
+ユリスの領域・上層
+[ENDBLOCK]
+<Green><size:140><7:0><14:80000002>{19}{34}{04}{80} has joined the party.
+[ENDBLOCK]
+<Green><size:140><7:0><14:80000002>{19}{34}{10}{80} is now travelling with you.
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+-----------------B---------------------
+[ENDBLOCK]
+-----------------D---------------------
+[ENDBLOCK]
+--------------------------E----
+[ENDBLOCK]
+-----------------C---------------------
+[ENDBLOCK]
+------------------num = {17}{34}{04}{80}
+[ENDBLOCK]
