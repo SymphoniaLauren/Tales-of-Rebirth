@@ -92,64 +92,64 @@ frame1 = LabelFrame(window, text="Unpack", padx=5, pady=5)
 frame1.grid(row=1, column=0, padx=10, pady=10)
 
 btn_unpackFPB = Button(frame1, text="Unpack DAT", command = extract_dat)
-btn_unpackFPB.grid(row=0, column=0)
+btn_unpackFPB.grid(row=0, column=0, sticky='news')
 
 btn_unpackSCPK = Button(frame1, text="Unpack SCPK", command = extract_scpk)
-btn_unpackSCPK.grid(row=1, column=0)
+btn_unpackSCPK.grid(row=1, column=0, sticky='news')
 
 btn_THEIRSCE = Button(frame1, text="Unpack THEIRSCE", command = extract_theirsce)
-btn_THEIRSCE.grid(row=2, column=0)
+btn_THEIRSCE.grid(row=2, column=0, sticky='news')
 
 btn_unpackPAK1 = Button(frame1, text="Unpack PAK1", command = extract_pak1)
-btn_unpackPAK1.grid(row=3, column=0)
+btn_unpackPAK1.grid(row=3, column=0, sticky='news')
 
 btn_unpackPAK2 = Button(frame1, text="Unpack PAK2", command = extract_pak2_theirsce)
-btn_unpackPAK2.grid(row=4, column=0)
+btn_unpackPAK2.grid(row=4, column=0, sticky='news')
 
 btn_unpackMFH = Button(frame1, text="Unpack MFH", command = extract_mfh)
-btn_unpackMFH.grid(row=5, column=0)
+btn_unpackMFH.grid(row=5, column=0, sticky='news')
 
 frame2 = LabelFrame(window, text="Re-pack", padx=5, pady=5)
 frame2.grid(row=1, column=1, padx=10, pady=10)
 
 btn_packDAT = Button(frame2, text="Pack DAT", command = pack_dat)
-btn_packDAT.grid(row=0, column=0)
+btn_packDAT.grid(row=0, column=0, sticky='news')
 
 btn_packSCPK = Button(frame2, text="Pack SCPK", command = pack_scpk)
-btn_packSCPK.grid(row=1, column=0)
+btn_packSCPK.grid(row=1, column=0, sticky='news')
 
 btn_packTHEIRSCE = Button(frame2, text="Pack THEIRSCE", command = insert_theirsce)
-btn_packTHEIRSCE.grid(row=2, column=0)
+btn_packTHEIRSCE.grid(row=2, column=0, sticky='news')
 
 btn_packPAK1 = Button(frame2, text="Pack PAK1", command = donothing)
-btn_packPAK1.grid(row=3, column=0)
+btn_packPAK1.grid(row=3, column=0, sticky='news')
 
 btn_packPAK2 = Button(frame2, text="Pack PAK2", command = donothing)
-btn_packPAK2.grid(row=4, column=0)
+btn_packPAK2.grid(row=4, column=0, sticky='news')
 
 btn_packMFH = Button(frame2, text="Pack MFH", command = donothing)
-btn_packMFH.grid(row=5, column=0)
+btn_packMFH.grid(row=5, column=0, sticky='news')
 
 frame3 = LabelFrame(window, text="Misc.", padx=5, pady=5)
 frame3.grid(row=1, column=2, padx=10, pady=10)
 
 btn_sortFPB = Button(frame3, text="Sort DAT", command = unpack)
-btn_sortFPB.grid(row=0, column=0)
+btn_sortFPB.grid(row=0, column=0, sticky='news')
 
 btn_unpackMOVIE = Button(frame3, text="Unpack MOVIE", command = extract_mov)
-btn_unpackMOVIE.grid(row=1, column=0)
+btn_unpackMOVIE.grid(row=1, column=0, sticky='news')
 
 btn_extractTMSK = Button(frame3, text="Extract TMSK", command = extract_tmsk)
-btn_extractTMSK.grid(row=2, column=0)
+btn_extractTMSK.grid(row=2, column=0, sticky='news')
 
 btn_extractTMRC = Button(frame3, text="Extract TMRC", command = extract_tmrc)
-btn_extractTMRC.grid(row=3, column=0)
+btn_extractTMRC.grid(row=3, column=0, sticky='news')
 
 btn_pakMOV = Button(frame3, text="Pack Movie (Broken)", command = donothing)
-btn_pakMOV.grid(row=4, column=0)
+btn_pakMOV.grid(row=4, column=0, sticky='news')
 
 btn_getPWD = Button(frame3, text="Export TBL", command = export_tbl)
-btn_getPWD.grid(row=5, column=0)
+btn_getPWD.grid(row=5, column=0, sticky='news')
 
 #Set working directory for GUI
 cwd = Label(window, text = "Current Working Directory: " + os.getcwd(), bd=1, relief=SUNKEN, anchor=W)
