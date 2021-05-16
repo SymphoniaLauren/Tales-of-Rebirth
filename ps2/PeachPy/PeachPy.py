@@ -70,7 +70,7 @@ filemenu = Menu(menubar, tearoff=0)
 menubar.add_cascade(label="File", menu=filemenu)
 filemenu.add_command(label="Change Work Directory", command= work_dir)
 filemenu.add_separator()
-filemenu.add_command(label="Exit", command=window.quit)
+filemenu.add_command(label="Exit", command=window.destroy)
 
 helpmenu = Menu(menubar, tearoff=0)
 helpmenu.add_command(label="About", command=about)
@@ -80,12 +80,7 @@ window.config(menu=menubar)
 
 #window.iconbitmap("peachpy.ico")
 label = Label(window, text = "PeachPy unpacks resources from Tales of Rebirth (PS2) and repacks them.")
-#label.pack(padx = 200, pady = 50)
 label.grid(row=0, column=0, columnspan=4)
-
-
-#path_SLPS = Label(window, text = "Path to SLPS_251.72")
-#path_SLPS.pack(anchor="w")
 
 
 frame1 = LabelFrame(window, text="Unpack", padx=5, pady=5)
@@ -151,9 +146,9 @@ btn_pakMOV.grid(row=4, column=0, sticky='news')
 btn_getPWD = Button(frame3, text="Export TBL", command = export_tbl)
 btn_getPWD.grid(row=5, column=0, sticky='news')
 
-#Set working directory for GUI
+#Status bar
 cwd = Label(window, text = "Current Working Directory: " + os.getcwd(), bd=1, relief=SUNKEN, anchor=W)
-cwd.grid(row=5, column=0, columnspan=4, sticky=W+E)
+cwd.grid(row=5, column=0, columnspan=4, sticky='news')
 
 
 
