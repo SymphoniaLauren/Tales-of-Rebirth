@@ -33,6 +33,11 @@ def donothing():
    button = Button(filewin, text="Do nothing button")
    button.pack()
 
+
+"""
+Menu Bar Start
+"""
+
 def about():
    about_win = Toplevel(window)
 
@@ -60,6 +65,8 @@ Graphical Interface Start
 """
 
 window = Tk()
+
+window.resizable(False, False)
 
 window.title("PeachPy - Tales of Rebirth (PS2) Tool")
 
@@ -146,10 +153,11 @@ btn_pakMOV.grid(row=4, column=0, sticky='news')
 btn_getPWD = Button(frame3, text="Export TBL", command = export_tbl)
 btn_getPWD.grid(row=5, column=0, sticky='news')
 
-#Status bar
+"""
+Status Bar Start
+"""
 cwd = Label(window, text = "Current Working Directory: " + os.getcwd(), bd=1, relief=SUNKEN, anchor=W)
 cwd.grid(row=5, column=0, columnspan=4, sticky='news')
-
 
 
 window.mainloop()
