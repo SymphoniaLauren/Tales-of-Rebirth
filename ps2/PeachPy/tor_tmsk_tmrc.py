@@ -106,9 +106,15 @@ def extract_tmrc():
     f.close()
 
 if __name__ == '__main__':
-    if sys.argv[1] == '1':
+    if sys.argv[1] == 'extract' and sys.argv[2] == 'tmsk':
         extract_tmsk()
-    if sys.argv[1] == '2':
+    elif sys.argv[1] == 'extract' and sys.argv[2] == 'tmrc':
         extract_tmrc()
+    elif sys.argv[1] == 'help':
+        print('Tales of Rebirth Skit Image to TIM2 Converter\n')
+        print('By SymphoniaLauren\n')
+        print('USAGE:\n')
+        print('python tor_tmsk_tmrc.py extract [tmsk]/[tmrc]\n')
+        print('TMSK is what I call the skit faces, TMRC are the little animated tiles\nfor the small parts like the eyes and mouth')
     else:
         sys.exit(1)

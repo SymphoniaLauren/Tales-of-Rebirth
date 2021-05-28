@@ -7,9 +7,9 @@ import subprocess
 import shutil
 import string
 
-tags = {0x5: 'color', 0xB: 'name', 0xF: 'voice', 0x06: 'size', 0xC: 'item', 0xD: 'button'}
+tags = {0x5: 'color', 0xB: 'name', 0xF: 'voice', 0x6: 'size', 0xC: 'item', 0xD: 'button'}
 names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda',
-         7: 'Claire/Agarte', 8:'Agarte/Claire', 9:'Annie (NPC)', 0x1FFF: 'OnScreenChar'}
+         7: 'Claire_Agarte', 8:'Agarte_Claire', 9:'Annie (NPC)', 0x1FFF: 'OnScreenChar'}
 colors = {1: 'Blue', 2: 'Red', 3: 'Purple', 4: 'Green', 5: 'Cyan', 6: 'Yellow', 7: 'White'}
 
 
@@ -275,8 +275,8 @@ def extract_scpk():
                 decompress_compto(fname)
                 os.remove(fname)
                 os.rename(fname + '.d', fname)
-            if ext in ('pak1'):
-                extract_pak1(fname)
+            #if ext in ('pak1'):
+                #extract_pak1(fname)
 
         f.close()
         
@@ -296,36 +296,37 @@ def pack_scpk():
             data = bytearray()
             listdir = os.listdir('scpk/' + folder)
             for file in listdir:
-                read = bytearray()
-                index = str(int(file.split('.')[0]))
-                fname = 'scpk/%s/%s' % (folder, file)
-                f = open(fname, 'rb')
-                ctype = json_data[folder][index]
-                if file.endswith('theirsce'):
-                    if ctype != 0:
-                        fname = 'theirsce_new/' + name
-                        compress_compto(fname, ctype)
-                        comp = open(fname + '.c', 'rb')
-                        read = comp.read()
-                        comp.close()
-                        os.remove(fname + '.c')
+                if os.path.isfile(os.path.join('scpk/' + folder, file)):
+                    read = bytearray()
+                    index = str(int(file.split('.')[0]))
+                    fname = 'scpk/%s/%s' % (folder, file)
+                    f = open(fname, 'rb')
+                    ctype = json_data[folder][index]
+                    if file.endswith('theirsce'):
+                        if ctype != 0:
+                            fname = 'theirsce_new/' + name
+                            compress_compto(fname, ctype)
+                            comp = open(fname + '.c', 'rb')
+                            read = comp.read()
+                            comp.close()
+                            os.remove(fname + '.c')
+                        else:
+                            read = f.read()
+                    elif file.endswith('mfh'):
+                        if ctype != 0:
+                            compress_compto(fname, ctype)
+                            comp = open(fname + '.c', 'rb')
+                            read = comp.read()
+                            comp.close()
+                            os.remove(fname + '.c')
+                        else:
+                            read = f.read()
                     else:
                         read = f.read()
-                elif file.endswith('mfh'):
-                    if ctype != 0:
-                        compress_compto(fname, ctype)
-                        comp = open(fname + '.c', 'rb')
-                        read = comp.read()
-                        comp.close()
-                        os.remove(fname + '.c')
-                    else:
-                        read = f.read()
-                else:
-                    read = f.read()
-                data += read
-                sizes.append(len(read))
-                f.close()
-                
+                    data += read
+                    sizes.append(len(read))
+                    f.close()
+                    
             o.write(b'\x53\x43\x50\x4B\x01\x00\x0F\x00')
             o.write(struct.pack('<L', len(sizes)))
             o.write(b'\x00' * 4)
@@ -403,7 +404,7 @@ def extract_theirsce():
                         if tag_param != None:
                             o.write("<%s>" % tag_param)
                         else:
-                            o.write("<%s:%X>" % (tag_name, b2))
+                            o.write("<%s:%08X>" % (tag_name, b2))
                     else:
                         o.write('<%02X:%08X>' % (b, b2))
                 elif chr(b) in printable:
@@ -571,17 +572,26 @@ def insert_files():
     move_scpk_packed()
             
 if __name__ == '__main__':
-    if sys.argv[1] == '1':
-        extract_files()
-    elif sys.argv[1] == '2':
-        insert_files()
-    elif sys.argv[1] == '3':
-        pack_dat()
-    elif sys.argv[1] == '4':
-        extract_mfh()
-    elif sys.argv[1] == '5':
-        extract_theirsce()
-    elif sys.argv[1] == '10':
-        export_tbl()
+    if sys.argv[1] == 'unpack':
+        if sys.argv[2] == 'dat':
+            extract_files()
+        elif sys.argv[2] == 'mfh':
+           extract_mfh()
+        elif sys.argv[2] == 'theirsce':
+            extract_theirsce()
+    elif sys.argv[1] == 'pack':
+        if sys.argv[2] == 'scpk':
+            insert_files()
+        elif sys.argv == 'dat':
+            pack_dat()
+    elif sys.argv[1] == 'export':
+        if sys.argv[2] == 'table':
+            export_tbl()
+    elif sys.argv[1] == 'help':
+        print('Tales of Rebirth DAT Extraction Tool\n')
+        print('By Alizor, SymphoniaLauren, and Ethanol\n')
+        print('USAGE:\n')
+        print('python tor.py [pack]/[unpack] [dat]/[theirsce]/[scpk]/[mfh]\n')
+
     else:
         sys.exit(1)

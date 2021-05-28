@@ -50,8 +50,14 @@ def extract_mov():
     f.close()
 
 if __name__ == '__main__':
-    if sys.argv[1] == '1':
+    if sys.argv[1] == 'unpack' and sys.argv[2] == 'mov':
         extract_mov()
+    elif sys.argv[1] == 'help':
+        print('Tales of Rebirth MOV.bin extraction tool\n')
+        print('By SymphoniaLauren\n')
+        print('USAGE:\n')
+        print('python tor_mov.py [pack]/[unpack] mov\n')
+        print('Currently pack mov is not supported yet oops.')
     else:
         sys.exit(1)
 
