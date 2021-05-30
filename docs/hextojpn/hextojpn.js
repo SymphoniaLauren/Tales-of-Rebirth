@@ -4677,3 +4677,24 @@ torh_to_unicode["EC39"] = 0x908A; // 邊
 torh_to_unicode["EC3A"] = 0x9AD9; // 髙
 torh_to_unicode["EC3B"] = 0x6E15; // 渕
 torh_to_unicode["EC3C"] = 0x5EE3; // 廣
+
+window.onload = function () { document.getElementById("hex").addEventListener("input", convert); };
+function convert() {
+  var hex = document.getElementById('hex').value.toUpperCase();
+  hex = hex.replace(/[^0-9A-F]+/g, "");
+  document.getElementById('sjis').value = "";
+  var Teil;
+  for (var i = 0; i < hex.length; i += 2) {
+	teil = hex.substring(i, i + 2);
+	if (isNaN(torh_to_unicode[teil])) {
+	  teil = hex.substring(i, i + 4);
+	  i += 2;
+	}
+	if (teil == '01') {
+	  document.getElementById('sjis').value += "\n";
+	}
+	else {
+	  document.getElementById('sjis').value += String.fromCharCode(torh_to_unicode[teil]);
+	}
+  }
+}
