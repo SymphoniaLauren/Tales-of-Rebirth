@@ -7,6 +7,13 @@ import subprocess
 import shutil
 import string
 
+#Prevents PC becoming hostage
+from subprocess import CREATE_NO_WINDOW
+
+# Needed for copying SLPS file and rename to new_SLPS and repack DAT.BIN
+# Comment out to avoid overwriting SLPS
+from shutil import copyfile
+
 tags = {0x5: 'color', 0xB: 'name', 0xF: 'voice', 0x6: 'size', 0xC: 'item', 0xD: 'button'}
 names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda',
          7: 'Claire_Agarte', 8:'Agarte_Claire', 9:'Annie (NPC)', 0x1FFF: 'OnScreenChar'}
@@ -224,6 +231,7 @@ def pack_dat():
         buffer += (size + remainder)
         sectors.append(buffer)
 
+    copyfile('SLPS_254.50', 'new_SLPS_254.50') # Comment this out to avoid overwriting new_SLPS_251.72
     u = open('new_SLPS_254.50', 'r+b')
     u.seek(pointer_begin)
     

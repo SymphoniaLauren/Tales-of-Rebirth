@@ -3,19 +3,13 @@
 
 from tor import *
 from tor_mov import *
-from tor_pak2 import *
+#from tor_pak2 import *
 from tor_tmsk_tmrc import *
 from unpack_folders import *
 
 from tkinter import *
 from tkinter import filedialog
 import tkinter.messagebox as box
-
-#Prevents PC becoming hostage
-from subprocess import CREATE_NO_WINDOW
-
-#Copy SLPS file and rename to new_SLPS
-from shutil import copyfile
 
 #For Hyperlinks in the GUI
 import webbrowser
@@ -32,6 +26,14 @@ def donothing():
    filewin = Toplevel(window)
    button = Button(filewin, text="Do nothing button")
    button.pack()
+
+def extract_scenario():
+    move_theirsce()
+    extract_theirsce()
+
+def insert_scenario():
+    pack_scpk()
+    move_scpk_packed()
 
 
 """
@@ -99,13 +101,13 @@ btn_unpackFPB.grid(row=0, column=0, sticky='news')
 btn_unpackSCPK = Button(frame1, text="Unpack SCPK", command = extract_scpk)
 btn_unpackSCPK.grid(row=1, column=0, sticky='news')
 
-btn_THEIRSCE = Button(frame1, text="Unpack THEIRSCE", command = extract_theirsce)
+btn_THEIRSCE = Button(frame1, text="Unpack THEIRSCE", command = extract_scenario)
 btn_THEIRSCE.grid(row=2, column=0, sticky='news')
 
 btn_unpackPAK1 = Button(frame1, text="Unpack PAK1", command = extract_pak1)
 btn_unpackPAK1.grid(row=3, column=0, sticky='news')
 
-btn_unpackPAK2 = Button(frame1, text="Unpack PAK2", command = extract_pak2_theirsce)
+btn_unpackPAK2 = Button(frame1, text="Unpack PAK2", command = donothing)
 btn_unpackPAK2.grid(row=4, column=0, sticky='news')
 
 btn_unpackMFH = Button(frame1, text="Unpack MFH", command = extract_mfh)
@@ -117,7 +119,7 @@ frame2.grid(row=1, column=1, padx=10, pady=10)
 btn_packDAT = Button(frame2, text="Pack DAT", command = pack_dat)
 btn_packDAT.grid(row=0, column=0, sticky='news')
 
-btn_packSCPK = Button(frame2, text="Pack SCPK", command = pack_scpk)
+btn_packSCPK = Button(frame2, text="Pack SCPK", command = insert_scenario)
 btn_packSCPK.grid(row=1, column=0, sticky='news')
 
 btn_packTHEIRSCE = Button(frame2, text="Pack THEIRSCE", command = insert_theirsce)
