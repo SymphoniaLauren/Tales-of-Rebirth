@@ -41,19 +41,19 @@ def get_pointers():
 
 def compress_compto(name, ctype=1):
     c = '-c%d' % ctype
-    subprocess.run(['compto', c, name, name + '.c'])
+    subprocess.run(['compto', c, name, name + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 def decompress_compto(name):
-    subprocess.run(['compto', '-d', name, name + '.d'])
+    subprocess.run(['compto', '-d', name, name + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 def decompress_folder(name):
     for f in os.listdir(name):
         if f.endswith('d'):
             continue
-        subprocess.run(['compto', '-d', name + f, name + f + '.d'])
+        subprocess.run(['compto', '-d', name + f, name + f + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 def extract_pak1(name):
-    subprocess.run(['pakcomposer','-d', name, '-1', '-u', '-v', '-x'])
+    subprocess.run(['pakcomposer','-d', name, '-1', '-u', '-x'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 # by flame1234
 def decode(param):
