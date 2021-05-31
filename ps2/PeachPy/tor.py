@@ -7,6 +7,13 @@ import subprocess
 import shutil
 import string
 
+#Prevents PC becoming hostage
+from subprocess import CREATE_NO_WINDOW
+
+# Needed for copying SLPS file and rename to new_SLPS and repack DAT.BIN
+# Comment out to avoid overwriting SLPS
+from shutil import copyfile
+
 tags = {0x5: 'color', 0xB: 'name', 0xF: 'voice', 0x6: 'size', 0xC: 'item', 0xD: 'button'}
 names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda',
          7: 'Claire_Agarte', 8:'Agarte_Claire', 9:'Annie (NPC)', 0x1FFF: 'OnScreenChar'}
@@ -41,19 +48,19 @@ def get_pointers():
 
 def compress_compto(name, ctype=1):
     c = '-c%d' % ctype
-    subprocess.run(['compto', c, name, name + '.c'])
+    subprocess.run(['compto', c, name, name + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 def decompress_compto(name):
-    subprocess.run(['compto', '-d', name, name + '.d'])
+    subprocess.run(['compto', '-d', name, name + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 def decompress_folder(name):
     for f in os.listdir(name):
         if f.endswith('d'):
             continue
-        subprocess.run(['compto', '-d', name + f, name + f + '.d'])
+        subprocess.run(['compto', '-d', name + f, name + f + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 def extract_pak1(name):
-    subprocess.run(['pakcomposer','-d', name, '-1', '-u', '-v', '-x'])
+    subprocess.run(['pakcomposer','-d', name, '-1', '-u', '-x'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
 # by flame1234
 def decode(param):
@@ -224,6 +231,7 @@ def pack_dat():
         buffer += (size + remainder)
         sectors.append(buffer)
 
+    copyfile('SLPS_254.50', 'new_SLPS_254.50') # Comment this out to avoid overwriting new_SLPS_251.72
     u = open('new_SLPS_254.50', 'r+b')
     u.seek(pointer_begin)
     
