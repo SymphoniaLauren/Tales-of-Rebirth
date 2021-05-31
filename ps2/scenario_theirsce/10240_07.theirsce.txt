@@ -12,9 +12,12 @@
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　武器を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　武器を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Weapons
+　Talk
+　Cancel
 
 [ENDBLOCK]
 また来てくれよな。
@@ -29,9 +32,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　武器を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　武器を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Weapons
+　Talk
+　Cancel
 
 [ENDBLOCK]
 また来てくれよな。
@@ -169,9 +175,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　防具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　防具を買う　
+#　世間話をする　
+#　やめる
+<07:00000000><size:00000140>　Buy Armor
+　Talk
+　Cancel
 
 [ENDBLOCK]
 いつでもいらっしゃい。
@@ -262,7 +271,8 @@ select
 ポプラさんには
 冷たくしたしのう……
 [ENDBLOCK]
-女の子
+#女の子
+Girl
 [ENDBLOCK]
 みんなが、ガジュマと
 ヒューマが仲良くするのは

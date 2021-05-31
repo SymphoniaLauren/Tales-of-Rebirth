@@ -108,9 +108,12 @@ notice
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　道具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　道具を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Supplies
+　Talk
+　Cancel
 [ENDBLOCK]
 準備は万端かな？
 [ENDBLOCK]
@@ -156,7 +159,8 @@ select
 [ENDBLOCK]
 ミャーオーン♪
 [ENDBLOCK]
-カレギア兵
+#カレギア兵
+Soldier
 [ENDBLOCK]
 お披露目の儀式はカレギア城にて、
 <Blue>ゴルドバの日<White>に行われる。

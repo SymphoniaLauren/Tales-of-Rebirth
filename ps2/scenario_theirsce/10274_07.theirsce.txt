@@ -41,9 +41,12 @@
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　武器を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　武器を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Weapons
+　Talk
+　Cancel
 [ENDBLOCK]
 ウチの品ぞろえはどうじゃ？
 
@@ -62,9 +65,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　武器を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　武器を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Weapons
+　Talk
+　Cancel
 [ENDBLOCK]
 ウチの品ぞろえはどうじゃ？
 
@@ -79,9 +85,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　武器を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　武器を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Weapons
+　Talk
+　Cancel
 [ENDBLOCK]
 ヒューマもガジュマも関係ない！
 この状況をなんとかしてくれ!!
@@ -94,9 +103,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　武器を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　武器を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Weapons
+　Talk
+　Cancel
 [ENDBLOCK]
 ウチの品ぞろえはどうじゃ？
 
@@ -144,9 +156,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　防具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　防具を買う　
+#　世間話をする　
+#　やめる
+<07:00000000><size:00000140>　Buy Armor
+　Talk
+　Cancel
 [ENDBLOCK]
 用心用心ですよ。
 [ENDBLOCK]
@@ -162,9 +177,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　防具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　防具を買う　
+#　世間話をする　
+#　やめる
+<07:00000000><size:00000140>　Buy Armor
+　Talk
+　Cancel
 [ENDBLOCK]
 用心用心ですよ。
 [ENDBLOCK]
@@ -176,9 +194,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　防具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　防具を買う　
+#　世間話をする　
+#　やめる
+<07:00000000><size:00000140>　Buy Armor
+　Talk
+　Cancel
 [ENDBLOCK]
 た、助けて……！
 [ENDBLOCK]
@@ -188,9 +209,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　防具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　防具を買う　
+#　世間話をする　
+#　やめる
+<07:00000000><size:00000140>　Buy Armor
+　Talk
+　Cancel
 [ENDBLOCK]
 用心用心ですよ。
 [ENDBLOCK]
@@ -245,9 +269,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　道具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　道具を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Supplies
+　Talk
+　Cancel
 [ENDBLOCK]
 またどうぞ。
 [ENDBLOCK]
@@ -263,9 +290,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　道具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　道具を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Supplies
+　Talk
+　Cancel
 [ENDBLOCK]
 またどうぞ。
 [ENDBLOCK]
@@ -275,9 +305,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>　道具を買う　
-　世間話をする　
-　やめる　
+#<07:00000000><size:00000140>　道具を買う　
+#　世間話をする　
+#　やめる　
+<07:00000000><size:00000140>　Buy Supplies
+　Talk
+　Cancel
 [ENDBLOCK]
 またどうぞ。
 [ENDBLOCK]
@@ -330,7 +363,10 @@ notice
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000120>バトルブックを読みますか？
-　はい
-　いいえ
+#<07:00000000><size:00000120>バトルブックを読みますか？
+#　はい
+#　いいえ
+<07:00000000><size:00000120>Read the Battlebook?
+　Yes
+　No
 [ENDBLOCK]
