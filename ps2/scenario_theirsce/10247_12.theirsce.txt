@@ -122,7 +122,8 @@ Well, how should I go about this?
 #Numbers use codes in the form <09:########> in base 16.
 #So 60 in base 16 is 60/16 = 3 Remainder 12, 0x30 + 0x0C = 0x3C.
 #Also subdue was implied I think.
-<voice:0B00000E><0E:80000002>Without using Force, subdue the 
+#yeeting the 0E tag because I think it might be screwing stuff
+<voice:0B00000E>Without using Force, subdue the 
 target without injuring him within <09:0000003C> seconds.
 [ENDBLOCK]
 <Mao>

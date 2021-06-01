@@ -7,13 +7,6 @@ import subprocess
 import shutil
 import string
 
-#Prevents PC becoming hostage
-from subprocess import CREATE_NO_WINDOW
-
-# Needed for copying SLPS file and rename to new_SLPS and repack DAT.BIN
-# Comment out to avoid overwriting SLPS
-from shutil import copyfile
-
 tags = {0x5: 'color', 0xB: 'name', 0xF: 'voice', 0x6: 'size', 0xC: 'item', 0xD: 'button'}
 names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda',
          7: 'Claire_Agarte', 8:'Agarte_Claire', 9:'Annie (NPC)', 0x1FFF: 'OnScreenChar'}
@@ -48,19 +41,19 @@ def get_pointers():
 
 def compress_compto(name, ctype=1):
     c = '-c%d' % ctype
-    subprocess.run(['compto', c, name, name + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+    subprocess.run(['compto', c, name, name + '.c'])
 
 def decompress_compto(name):
-    subprocess.run(['compto', '-d', name, name + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+    subprocess.run(['compto', '-d', name, name + '.d'])
 
 def decompress_folder(name):
     for f in os.listdir(name):
         if f.endswith('d'):
             continue
-        subprocess.run(['compto', '-d', name + f, name + f + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+        subprocess.run(['compto', '-d', name + f, name + f + '.d'])
 
 def extract_pak1(name):
-    subprocess.run(['pakcomposer','-d', name, '-1', '-u', '-x'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
+    subprocess.run(['pakcomposer','-d', name, '-1', '-u', '-v', '-x'])
 
 # by flame1234
 def decode(param):
@@ -231,7 +224,6 @@ def pack_dat():
         buffer += (size + remainder)
         sectors.append(buffer)
 
-    copyfile('SLPS_254.50', 'new_SLPS_254.50') # Comment this out to avoid overwriting new_SLPS_251.72
     u = open('new_SLPS_254.50', 'r+b')
     u.seek(pointer_begin)
     
@@ -454,6 +446,14 @@ def insert_theirsce():
     itags = dict([[i,j] for j,i in tags.items()])
     inames = dict([[i,j] for j,i in names.items()])
     icolors = dict([[i,j] for j,i in colors.items()])
+    unames = []
+    for i in names.values():
+        nam = "<" + str(i) + ">"
+        unames.append(nam)
+    ucolors = []
+    for i in colors.values():
+        col = "<" + str(i) + ">"
+        ucolors.append(col)
     
     mkdir('THEIRSCE_NEW/')
 
@@ -494,13 +494,14 @@ def insert_theirsce():
                                     split = c.split(':') 
                                     if split[0][1:] in itags.keys():
                                         txt += (struct.pack('B', itags[split[0][1:]]))
+                                        txt += (struct.pack('<I', int(split[1][:8], 16)))
                                     else:
                                         txt += (struct.pack('B', int(split[0][1:], 16)))
-                                    txt += (struct.pack('<I', int(split[1][:8], 16)))
-                                if c in inames:
+                                        txt += (struct.pack('<I', int(split[1][:8], 16)))
+                                if c in unames:
                                     txt += struct.pack('B', 0xB)
                                     txt += struct.pack('<I', inames[c[1:-1]])
-                                if c in icolors:
+                                if c in ucolors:
                                     txt += struct.pack('B', 0x5)
                                     txt += struct.pack('<I', icolors[c[1:-1]])
                             else:
@@ -590,14 +591,17 @@ if __name__ == '__main__':
     elif sys.argv[1] == 'pack':
         if sys.argv[2] == 'scpk':
             insert_files()
-        elif sys.argv == 'dat':
+        elif sys.argv[2] == 'dat':
             pack_dat()
+        elif sys.argv[2] == 'theirsce':
+            insert_theirsce()
     elif sys.argv[1] == 'export':
         if sys.argv[2] == 'table':
             export_tbl()
     elif sys.argv[1] == 'help':
         print('Tales of Rebirth DAT Extraction Tool\n')
         print('By Alizor, SymphoniaLauren, and Ethanol\n')
+        print('Also Pnvnd wrote a single line of code I guess\n')
         print('USAGE:\n')
         print('python tor.py [pack]/[unpack] [dat]/[theirsce]/[scpk]/[mfh]\n')
 
