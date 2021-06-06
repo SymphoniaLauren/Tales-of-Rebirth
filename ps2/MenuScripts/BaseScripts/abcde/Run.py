@@ -6,9 +6,14 @@ from HelperFunctions import *
 if __name__ == "__main__":
     
     
-    fileName = sys.argv[1]
+    helper = Helper()
+    sourceFile = sys.argv[1]
+    baseheader = sys.argv[2]
+    fileName = sys.argv[3]
+    
+    
     #Run the script
-    runscript(fileName)
+    helper.runscript(sourceFile, fileName)
     
     #Clean the dump file
-    clean(fileName+"_dump.txt")
+    helper.cleanDump(fileName+"_dump.txt", baseheader)

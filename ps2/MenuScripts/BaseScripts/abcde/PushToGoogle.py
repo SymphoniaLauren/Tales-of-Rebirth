@@ -9,7 +9,7 @@ import re
 
 def parseText(fileName):
     
-    fread = open(os.path.join(os.getcwd(),"MenuScripts","BaseScripts","abcde", fileName),encoding="utf-8", mode="r")
+    fread = open(os.path.join(os.getcwd(), fileName),encoding="utf-8", mode="r")
     lines = fread.readlines()
     
     start=0
@@ -41,7 +41,8 @@ def writeColumn(finalList, googleId):
     
     
     #update the first sheet with df, starting at cell B2. 
-    df=pd.DataFrame({"Japanese":finalList, "English":finalList})
+    dfTemp = pd.DataFrame(finalList, columns=['Text','Offset','Pointer'])
+    df=pd.DataFrame({"Japanese":dfTemp['Text'].tolist(), "English":dfTemp['Text'].tolist()})
     wks.set_dataframe(df,(1,0))
 
 def findall(p, s):
@@ -60,8 +61,8 @@ def cleanData(dfData):
 
 
 
-googleId = '1LoH0p2M2A9Avu2JVn49Jc-ZCbZjjBUi5ilf2qpqesVI'
-fileName = 'TODDC_SynopsisSave_dump_cleaned.txt'
+googleId = '1rU6gCJhsbSEXrxufcuyRcjKK8ckYaRrpQBnfkQ21CoU'
+fileName = 'TODDC_SkitName_Dump_cleaned.txt'
 finalList = parseText(fileName)
 df= pd.DataFrame(finalList, columns=['Text', 'TextOffset','Pointer'])
 writeColumn(finalList, googleId)

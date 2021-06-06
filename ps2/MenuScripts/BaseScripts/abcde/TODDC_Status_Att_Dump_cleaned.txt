@@ -1,0 +1,375 @@
+//GAME NAME:		Tales of destiny - DC (PS2)
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("F:\PythonCode\TOD_GoogleDoc\abcde\toddc.tbl", Table_0)
+
+
+
+
+
+//Text $1A5328
+#WRITE(ptr,$187AB0)
+ [END]
+// current address: $1A532A
+
+//Text $1A5320
+#WRITE(ptr,$187AB4)
+SIMPLE[END]
+// current address: $1A5327
+
+//Text $1A5318
+#WRITE(ptr,$187AB8)
+NORMAL[END]
+// current address: $1A531F
+
+//Text $1A5310
+#WRITE(ptr,$187ABC)
+SECOND[END]
+// current address: $1A5317
+
+//Text $1A5308
+#WRITE(ptr,$187AC0)
+HARD[END]
+// current address: $1A530D
+
+//Text $1A5300
+#WRITE(ptr,$187AC4)
+EVIL[END]
+// current address: $1A5305
+
+//Text $1A52F8
+#WRITE(ptr,$187AC8)
+CHAOS[END]
+// current address: $1A52FE
+
+//Text $1A52E8
+#WRITE(ptr,$187ACC)
+[TAG_015] ＋<$04>[LINE]
+[END]
+// current address: $1A52F3
+
+//Text $1A52E0
+#WRITE(ptr,$187AD0)
+P<$94> ATK[END]
+// current address: $1A52E7
+
+//Text $1A52D0
+#WRITE(ptr,$187AD4)
+M. ATK[END]
+// current address: $1A52D7
+
+//Text $1A52C8
+#WRITE(ptr,$187AD8)
+P. DEF[END]
+// current address: $1A52CF
+
+//Text $1A52B8
+#WRITE(ptr,$187ADC)
+M. DEF[END]
+// current address: $1A52BF
+
+//Text $1A52B0
+#WRITE(ptr,$187AE0)
+ACC[END]
+// current address: $1A52B4
+
+//Text $1A52A8
+#WRITE(ptr,$187AE4)
+EVA[END]
+// current address: $1A52AC
+
+//Text $1A52A0
+#WRITE(ptr,$187AE8)
+CRT[END]
+// current address: $1A52A4
+
+//Text $1A5298
+#WRITE(ptr,$187AEC)
+VIT[END]
+// current address: $1A529C
+
+//Text $1A5288
+#WRITE(ptr,$187AF0)
+Min CC[END]
+// current address: $1A528F
+
+//Text $1A5278
+#WRITE(ptr,$187AF4)
+Max CC[END]
+// current address: $1A527F
+
+//Text $1A5270
+#WRITE(ptr,$187AF8)
+Slash[END]
+// current address: $1A5276
+
+//Text $1A5268
+#WRITE(ptr,$187AFC)
+Blow[END]
+// current address: $1A526D
+
+//Text $1A5260
+#WRITE(ptr,$187B00)
+Shot[END]
+// current address: $1A5265
+
+//Text $1A5258
+#WRITE(ptr,$187B04)
+Sonic[END]
+// current address: $1A525E
+
+//Text $1A5250
+#WRITE(ptr,$187B08)
+Earth[END]
+// current address: $1A5256
+
+//Text $1A5248
+#WRITE(ptr,$187B0C)
+Water[END]
+// current address: $1A524E
+
+//Text $1A5240
+#WRITE(ptr,$187B10)
+Fire[END]
+// current address: $1A5245
+
+//Text $1A5238
+#WRITE(ptr,$187B14)
+Wind[END]
+// current address: $1A523D
+
+//Text $1A5230
+#WRITE(ptr,$187B18)
+Light[END]
+// current address: $1A5236
+
+//Text $1A5228
+#WRITE(ptr,$187B1C)
+Dark[END]
+// current address: $1A522D
+
+//Text $1A5220
+#WRITE(ptr,$187B20)
+--[END]
+// current address: $1A5223
+
+//Text $1A5218
+#WRITE(ptr,$187B24)
+Stone[END]
+// current address: $1A521E
+
+//Text $1A5210
+#WRITE(ptr,$187B28)
+Waste[END]
+// current address: $1A5216
+
+//Text $1A5208
+#WRITE(ptr,$187B2C)
+Poison[END]
+// current address: $1A520F
+
+//Text $1A5200
+#WRITE(ptr,$187B30)
+Sleep[END]
+// current address: $1A5206
+
+//Text $1A51F7
+#WRITE(ptr,$187B34)
+Paralyze[END]
+// current address: $1A5200
+
+//Text $1A51F0
+#WRITE(ptr,$187B38)
+Seal[END]
+// current address: $1A51F5
+
+//Text $1A51E7
+#WRITE(ptr,$187B3C)
+Downsize[END]
+// current address: $1A51F0
+
+//Text $1A51E0
+#WRITE(ptr,$187B40)
+Stop[END]
+// current address: $1A51E5
+
+//Text $1A51D8
+#WRITE(ptr,$187B44)
+-PAUSE-[END]
+// current address: $1A51E0
+
+//Text $1A51D0
+#WRITE(ptr,$187B48)
+Unknown[END]
+// current address: $1A51D8
+
+//Text $1A51C8
+#WRITE(ptr,$187B4C)
+Flying[END]
+// current address: $1A51CF
+
+//Text $1A51C0
+#WRITE(ptr,$187B50)
+Insect[END]
+// current address: $1A51C7
+
+//Text $1A51B0
+#WRITE(ptr,$187B54)
+Aquatic[END]
+// current address: $1A51B8
+
+//Text $1A51A8
+#WRITE(ptr,$187B58)
+Reptile[END]
+// current address: $1A51B0
+
+//Text $1A51A0
+#WRITE(ptr,$187B5C)
+Plant[END]
+// current address: $1A51A6
+
+//Text $1A5198
+#WRITE(ptr,$187B60)
+Beast[END]
+// current address: $1A519E
+
+//Text $1A5190
+#WRITE(ptr,$187B64)
+Amorph.[END]
+// current address: $1A5198
+
+//Text $1A5188
+#WRITE(ptr,$187B68)
+Dragon[END]
+// current address: $1A518F
+
+//Text $1A5180
+#WRITE(ptr,$187B6C)
+Machine[END]
+// current address: $1A5188
+
+//Text $1A5178
+#WRITE(ptr,$187B70)
+Human[END]
+// current address: $1A517E
+
+//Text $1A5170
+#WRITE(ptr,$187B74)
+Ghost[END]
+// current address: $1A5176
+
+//Text $1A5168
+#WRITE(ptr,$187B78)
+Object[END]
+// current address: $1A516F
+
+//Text $1A5160
+#WRITE(ptr,$187B7C)
+Undead[END]
+// current address: $1A5167
+
+//Text $1A5150
+#WRITE(ptr,$187B80)
+Bioweapon[END]
+// current address: $1A515A
+
+//Text $1A5140
+#WRITE(ptr,$187B84)
+[Sign_Slash]Slash[END]
+// current address: $1A514B
+
+//Text $1A5130
+#WRITE(ptr,$187B88)
+[Sign_Strike]Blow[END]
+// current address: $1A513A
+
+//Text $1A5120
+#WRITE(ptr,$187B8C)
+[Sign_Shot]Shot[END]
+// current address: $1A512A
+
+//Text $1A5110
+#WRITE(ptr,$187B90)
+[Sign_Sonic]Sonic[END]
+// current address: $1A511B
+
+//Text $1A5100
+#WRITE(ptr,$187B94)
+[Sign_Earth]Earth[END]
+// current address: $1A510B
+
+//Text $1A50F0
+#WRITE(ptr,$187B98)
+[Sign_Wind]Wind[END]
+// current address: $1A50FA
+
+//Text $1A50E0
+#WRITE(ptr,$187B9C)
+[Sign_Fire]Fire[END]
+// current address: $1A50EA
+
+//Text $1A50D0
+#WRITE(ptr,$187BA0)
+[Sign_Water]Water[END]
+// current address: $1A50DB
+
+//Text $1A50C0
+#WRITE(ptr,$187BA4)
+[Sign_Light]Light[END]
+// current address: $1A50CB
+
+//Text $1A50B0
+#WRITE(ptr,$187BA8)
+[Sign_Dark]Dark[END]
+// current address: $1A50BA
+
+//Text $1A50A8
+#WRITE(ptr,$187BAC)
+？[END]
+// current address: $1A50AB
+
+//Text $1A5098
+#WRITE(ptr,$187BB0)
++P. ATK[END]
+// current address: $1A50A0
+
+//Text $1A5088
+#WRITE(ptr,$187BB4)
++M. ATK[END]
+// current address: $1A5090
+
+//Text $1A5078
+#WRITE(ptr,$187BB8)
++P. DEF[END]
+// current address: $1A5080
+
+//Text $1A5068
+#WRITE(ptr,$187BBC)
++M. DEF[END]
+// current address: $1A5070
+
+//Text $1A5058
+#WRITE(ptr,$187BC0)
++KCC[END]
+// current address: $1A505D
+
+//Text $1A5048
+#WRITE(ptr,$187BC4)
++EVA[END]
+// current address: $1A504D
+
+//Text $1A5038
+#WRITE(ptr,$187BC8)
++CRT[END]
+// current address: $1A503D
+
+//Text $1A5030
+#WRITE(ptr,$187BCC)
+＋体力[END]
+// current address: $1A5037
+
+//Text $1A5008
+#WRITE(ptr,$187BD0)
+テストプレイポイント：[TAG_015]に到達[END]
+// current address: $1A502A

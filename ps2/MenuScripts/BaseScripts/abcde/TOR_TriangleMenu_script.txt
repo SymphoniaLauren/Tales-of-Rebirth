@@ -1,0 +1,14 @@
+#GAME NAME:			Tales of Rebirth
+#BLOCK NAME:		TriangleMenu
+#TYPE:		NORMAL
+#METHOD:		          POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$8
+#POINTER TABLE STOP:	$833
+#POINTER SIZE:		$04
+#POINTER SPACE:		$00
+#ATLAS PTRS:		Yes
+#BASE POINTER:		$-0		//add $FF000 to each pointer to get
+#TABLE:			ToR.tbl	//the string address
+#COMMENTS:		No
+#END BLOCK
