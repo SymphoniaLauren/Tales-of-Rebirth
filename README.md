@@ -2,7 +2,7 @@
 
 ##
 Spreadsheet with Info: https://docs.google.com/spreadsheets/d/1-XwzS7F0SaLlXwv1KS6RcTEYYORH2DDb1bMRy5VM5oo/edit?usp=sharing  
-DIscord Server: TBD
+Discord Server: https://discord.gg/BTrhvGKk8R
 
 ## Font
 There is a table in the ELF file to change the width: `0xcb240`
