@@ -6,6 +6,10 @@ import re
 import subprocess
 import shutil
 import string
+import argparse
+import textwrap
+
+SCRIPT_VERSION = "0.1"
 
 tags = {0x5: 'color', 0xB: 'name', 0xF: 'voice', 0x6: 'size', 0xC: 'item', 0xD: 'button'}
 names = {1: 'Veigue', 2: 'Mao', 3: 'Eugene', 4: 'Annie', 5: 'Tytree', 6: 'Hilda',
@@ -570,29 +574,62 @@ def insert_files():
     move_scpk_packed()
             
 if __name__ == '__main__':
-    if sys.argv[1] == 'unpack':
-        if sys.argv[2] == 'dat':
-            extract_files()
-        elif sys.argv[2] == 'mfh':
-           extract_mfh()
-        elif sys.argv[2] == 'theirsce':
-            extract_theirsce()
-    elif sys.argv[1] == 'pack':
-        if sys.argv[2] == 'scpk':
-            insert_files()
-        elif sys.argv[2] == 'dat':
-            pack_dat()
-        elif sys.argv[2] == 'theirsce':
-            insert_theirsce()
-    elif sys.argv[1] == 'export':
-        if sys.argv[2] == 'table':
-            export_tbl()
-    elif sys.argv[1] == 'help':
-        print('Tales of Rebirth DAT Extraction Tool\n')
-        print('By Alizor, SymphoniaLauren, and Ethanol\n')
-        print('Also Pnvnd wrote a single line of code I guess\n')
-        print('USAGE:\n')
-        print('python tor.py [pack]/[unpack] [dat]/[theirsce]/[scpk]/[mfh]\n')
+    print(textwrap.dedent(f'''\
 
-    else:
-        sys.exit(1)
+         Tales of Rebirth DAT Extraction Tool v. {SCRIPT_VERSION}
+         ----------------------------------------------
+         By Alizor, SymphoniaLauren, and Ethanol
+         Also Pnvnd wrote a single line of code I guess
+        '''))
+    
+    #Init argument parser
+    parser = argparse.ArgumentParser()
+
+    #Add arguments, obviously
+    parser.add_argument('--version', action='version', version='%(prog)s ' + SCRIPT_VERSION)
+
+    sp = parser.add_subparsers(title='Available actions',
+                        required=True,
+                        dest='action')
+                        
+    sp_unpack = sp.add_parser('unpack',
+                            help='Unpacks some file types into more useful ones.')
+    sp_unpack.add_argument('file',
+                    choices=['dat', 'mfh', 'theirsce'],
+                    metavar='file type',
+                    help='Unpacks file containers.')
+
+    sp_pack = sp.add_parser('pack', help='Packs some file types into the originals.')
+    sp_pack.add_argument('file',
+                    choices=['scpk', 'dat', 'theirsce'],
+                    metavar='file type',
+                    help='Inserts back files into their containers.')
+
+    sp_export = sp.add_parser('export', help='Exports, I guess.')
+    sp_export.add_argument('file',
+                    choices=['table'],
+                    metavar='file type',
+                    help='Exports data.')
+                    
+    args = parser.parse_args()
+    #print(vars(args))
+
+    if args.action == 'unpack':
+        if args.file == 'dat':
+            extract_files()
+        if args.file == 'mfh':
+           extract_mfh()
+        if args.file == 'theirsce':
+            extract_theirsce()
+    
+    if args.action == 'pack':
+        if args.file == 'scpk':
+            insert_files()
+        if args.file == 'dat':
+            pack_dat()
+        if args.file == 'theirsce':
+            insert_theirsce()
+
+    if args.action == 'export':
+        if args.file == 'table':
+            export_tbl()
