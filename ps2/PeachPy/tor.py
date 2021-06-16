@@ -55,37 +55,26 @@ def decompress_folder(name):
 def extract_pak1(name):
     subprocess.run(['pakcomposer','-d', name, '-1', '-u', '-v', '-x'])
 
-# by flame1234
-def decode(param):
-    a2 = param
-    a3 = 0x993F
-    a1 = 0x9940
-    if  a3 >= a2:
-        a2 = a1
-    a1 = a2 >> 8
-    a0 = a2 & 0xFF
-    t0 = True if a1 < 0xE0 else False
-    v1 = a1 - 0x40
-    a3 = a0 - 1
-    a2 = True if a0 < 0x80 else False
-    if t0 == False:
-        a1 = v1 & 0xFFFF
-    t1 = a1 - 0x99
-    t0 = t1 & 0xFFFF
-    v0 = 0xBB
-    a1 = t0 * v0
-    if a2 == False:
-        a0 = a3 & 0xFFFF
-    t2 = True if a0 < 0x5D else False
-    v1 = a0 - 1
-    if t2 == False:
-        a0 = v1 & 0xFFFF
-    t5 = a0 - 0x40
-    t4 = t5 & 0xFFFF
-    t3 = a1 + t4
-    v0 = t3 & 0xFFFF
+def decode(codepoint):
+    base_codePoint = 0x9940
 
-    return v0
+    if codepoint < base_codePoint:
+        codepoint = base_codePoint
+
+    upper_byte = codepoint >> 8
+    lower_byte = codepoint & 0xFF
+
+    if upper_byte >= 0xE0:
+        upper_byte = upper_byte - 0x40
+    if lower_byte >= 0x80:
+        lower_byte = lower_byte - 0x01
+    if lower_byte >= 0x5D:
+        lower_byte = lower_byte - 0x01
+
+    resulting_character = lower_byte - 0x40
+    resulting_character = resulting_character + ((upper_byte - 0x99) * 0xBB)
+
+    return resulting_character
 
 def is_pak0(data):
     files = struct.unpack('<I', data[:4])[0]
