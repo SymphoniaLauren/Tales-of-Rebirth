@@ -153,37 +153,43 @@ def decode(codepoint):
     return resulting_character
 
 
-def is_pak0(data):
+def get_pak_type(data):
+    is_aligned = False
     files = struct.unpack("<I", data[:4])[0]
-    index = 4
-    total = 4 + files * 4
-    if total > len(data):
-        return False
-    for i in range(files):
-        size = struct.unpack("<I", data[index : index + 4])[0]
-        total += size
-        index += 4
-    if total == len(data):
-        return True
-    return False
+    first_entry = struct.unpack("<I", data[4:8])[0]
 
+    # Expectations
+    pak1_header_size = 4 + (files * 8)
+    pakN_header_size = 4 + (files * 4)
 
-def is_pak1(data):
-    files = struct.unpack("<I", data[:4])[0]
-    offset = 4 + (files * 8)
-    next_byte = struct.unpack("<I", data[4:8])[0]
-    if next_byte == offset:
-        return True
-    return False
+    # Check for alignment
+    if first_entry % 0x10 == 0:
+        is_aligned = True
+        aligned_pak1_size = pak1_header_size + (0x10 - (pak1_header_size % 0x10))
+        aligned_pakN_size = pakN_header_size + (0x10 - (pakN_header_size % 0x10))
 
+    # First test pak0 (hope there are no aligned pak0 files...)
+    if len(data) > pakN_header_size:
+        calculated_size = 0
+        for i in range(4, files, 4):
+            calculated_size += struct.unpack("<I", data[i : i + 4])[0]
+        if calculated_size == len(data):
+            return "pak0"
 
-def is_pak3(data):
-    files = struct.unpack("<I", data[:4])[0]
-    offset = 4 + (files * 4)
-    next_byte = struct.unpack("<I", data[4:8])[0]
-    if next_byte == offset:
-        return True
-    return False
+    # Test for pak1 & pak3
+    if is_aligned:
+        if aligned_pak1_size == first_entry:
+            return "pak1"
+        elif aligned_pakN_size == first_entry:
+            return "pak3"
+    else:
+        if pak1_header_size == first_entry:
+            return "pak1"
+        elif pakN_header_size == first_entry:
+            return "pak3"
+
+    # Didn't match anything
+    return None
 
 
 def move_theirsce():
@@ -214,33 +220,38 @@ def is_compressed(data):
 
 
 def get_extension(data):
-    extension = "bin"
     if data[:4] == b"SCPK":
-        extension = "scpk"
-    elif data[:4] == b"TIM2":
-        extension = "tim2"
-    elif data[0xB:0xE] == b"ELF":
-        extension = "irx"
-    elif data[0xA:0xE] == b"IECS":
-        extension = "iecs"
-    elif (
-        data[:16] == b"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-    ):
-        extension = "at3"
-    elif is_pak0(data):
-        extension = "pak0"
-    elif is_pak1(data):
-        extension = "pak1"
-    elif is_pak3(data):
-        extension = "pak3"
-    elif data[:4] == b"anp3":
-        extension = "anp3"
-    elif data[:4] == b"EFFE":
-        extension = "effe"
-    else:
-        pass
-    return extension
+        return "scpk"
 
+    if data[:4] == b"TIM2":
+        return "tim2"
+        
+    if data[0xB:0xE] == b"ELF":
+        return "irx"
+
+    if data[0xA:0xE] == b"IECS":
+        return "iecs"
+
+    if data[:16] == b"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00":
+        return "at3"
+
+    if data[:4] == b"anp3":
+        return "anp3"
+
+    if data[:4] == b"EFFE":
+        return "effe"
+
+    is_pak = get_pak_type(data)
+    if is_pak != None:
+        return is_pak
+
+    # Didn't match anything
+    return "bin"
+
+
+# ============================
+#      EXTRACT FUNCTIONS
+# ============================
 
 def extract_dat(args):
     output_folder = get_directory_path(args.dat_path) + os.path.sep + "DAT"
