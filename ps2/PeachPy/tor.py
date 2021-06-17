@@ -313,7 +313,7 @@ def extract_scpk():
             if i == 0:
                 ext = "mfh"
             if len(data) > 0x04:
-                if is_pak1(data):
+                if get_pak_type(data) == "pak1":
                     ext = "pak1"
             fname = "scpk/%s/%02d.%s" % (file.split(".")[0], i, ext)
             o = open(fname, "wb")
