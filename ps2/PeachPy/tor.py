@@ -59,6 +59,14 @@ PRINTABLE_CHARS = "".join(
 )
 
 
+# ============================
+#      UTILITY FUNCTIONS
+# ============================
+
+def get_file_name(path):
+    return os.path.splitext(os.path.basename(path))[0]
+
+
 def get_dat_folder_file_list(dirName, recurse=True):
     # create a list of file and sub directories
     # names in the given directory
@@ -248,7 +256,7 @@ def extract_dat(args):
         f.seek(start, 0)
         size = end - start
         if size == 0:
-            # json_data[i] = 'dummy'
+            # Ignore 0 byte files
             continue
         data = f.read(size)
         extension = get_extension(data)
@@ -261,63 +269,6 @@ def extract_dat(args):
         print("Writing file %05d/%05d..." % (i, total_files), end="\r")
 
     f.close()
-
-
-def get_file_name(path):
-    return os.path.splitext(os.path.basename(path))[0]
-
-
-def pack_dat(args):
-    sectors = [0]
-    remainders = []
-    buffer = 0
-
-    output_dat_path = args.dat_out_path
-    output_dat = open(output_dat_path, "wb")
-
-    print("Packing files into %s..." % os.path.basename(output_dat_path))
-
-    file_list = get_dat_folder_file_list(args.dat_folder_path)
-    
-    previous = -1
-    dummies = 0
-
-    for file in sorted(file_list, key=get_file_name):
-        size = 0
-        remainder = 0
-        current = int(get_file_name(file))
-        if current != previous + 1:
-            while previous < current - 1:
-                remainders.append(remainder)
-                buffer += size + remainder
-                sectors.append(buffer)
-                previous += 1
-                dummies += 1
-
-        f = open(file, "rb")
-        output_dat.write(f.read())
-        size = os.path.getsize(file)
-        remainder = 0x40 - (size % 0x40)
-        if remainder == 0x40:
-            remainder = 0
-        output_dat.write(b"\x00" * remainder)
-        f.close()
-
-        remainders.append(remainder)
-        buffer += size + remainder
-        sectors.append(buffer)
-        previous += 1
-
-        print("Writing file %05d/%05d..." % (current - dummies, len(file_list)), end="\r")
-
-    output_elf = open(args.elf_out_path, "r+b")
-    output_elf.seek(POINTERS_BEGIN)
-
-    for i in range(len(sectors) - 1):
-        output_elf.write(struct.pack("<L", sectors[i] + remainders[i]))
-
-    output_dat.close()
-    output_elf.close()
 
 
 def extract_scpk():
@@ -368,62 +319,6 @@ def extract_scpk():
         f.close()
 
     json.dump(json_data, json_file, indent=4)
-
-
-def pack_scpk():
-    mkdir("SCPK_PACKED")
-    json_file = open("SCPK.json", "r")
-    json_data = json.load(json_file)
-    json_file.close()
-
-    for name in os.listdir("theirsce_new"):
-        folder = name.split("_")[0]
-        if os.path.isdir("scpk/" + folder):
-            sizes = []
-            o = open("scpk_packed/%s.SCPK" % folder, "wb")
-            data = bytearray()
-            listdir = os.listdir("scpk/" + folder)
-            for file in listdir:
-                if os.path.isfile(os.path.join("scpk/" + folder, file)):
-                    read = bytearray()
-                    index = str(int(file.split(".")[0]))
-                    fname = "scpk/%s/%s" % (folder, file)
-                    f = open(fname, "rb")
-                    ctype = json_data[folder][index]
-                    if file.endswith("theirsce"):
-                        if ctype != 0:
-                            fname = "theirsce_new/" + name
-                            compress_compto(fname, ctype)
-                            comp = open(fname + ".c", "rb")
-                            read = comp.read()
-                            comp.close()
-                            os.remove(fname + ".c")
-                        else:
-                            read = f.read()
-                    elif file.endswith("mfh"):
-                        if ctype != 0:
-                            compress_compto(fname, ctype)
-                            comp = open(fname + ".c", "rb")
-                            read = comp.read()
-                            comp.close()
-                            os.remove(fname + ".c")
-                        else:
-                            read = f.read()
-                    else:
-                        read = f.read()
-                    data += read
-                    sizes.append(len(read))
-                    f.close()
-
-            o.write(b"\x53\x43\x50\x4B\x01\x00\x0F\x00")
-            o.write(struct.pack("<L", len(sizes)))
-            o.write(b"\x00" * 4)
-
-            for i in range(len(sizes)):
-                o.write(struct.pack("<L", sizes[i]))
-
-            o.write(data)
-            o.close()
 
 
 def extract_theirsce():
@@ -522,6 +417,147 @@ def extract_theirsce():
 
     # json.dump(json_data, json_file, indent=4)
     json.dump(theirsce_data, theirsce_file, indent=4)
+
+
+def extract_mfh():
+    print("Extracting mfh...")
+    mkdir("MFH")
+    for folder in os.listdir("scpk"):
+        for name in os.listdir("scpk/" + folder):
+            f = open("scpk/" + folder + "/" + name, "rb")
+            f.read(4)
+            pointers = []
+            for i in range(0, 3):
+                pointers.append(struct.unpack("<I", f.read(4))[0])
+            pointers.append(os.path.getsize("scpk/" + folder + "/" + name))
+            mkdir("mfh/" + folder)
+            for i in range(0, 3):
+                ext = ""
+                if i == 0:
+                    ext = "tm2"
+                elif i == 1:
+                    ext = "pani"
+                else:
+                    ext = "map"
+                o = open("mfh/" + folder + "/" + "%02d.%s" % (i, ext), "wb")
+                f.seek(pointers[i], 0)
+                o.write(f.read(pointers[i + 1] - pointers[i]))
+            break
+
+
+# ============================
+#      INSERT FUNCTIONS
+# ============================
+
+def pack_dat(args):
+    sectors = [0]
+    remainders = []
+    buffer = 0
+
+    output_dat_path = args.dat_out_path
+    output_dat = open(output_dat_path, "wb")
+
+    print("Packing files into %s..." % os.path.basename(output_dat_path))
+
+    file_list = get_dat_folder_file_list(args.dat_folder_path)
+
+    previous = -1
+    dummies = 0
+
+    for file in sorted(file_list, key=get_file_name):
+        size = 0
+        remainder = 0
+        current = int(get_file_name(file))
+        if current != previous + 1:
+            while previous < current - 1:
+                remainders.append(remainder)
+                buffer += size + remainder
+                sectors.append(buffer)
+                previous += 1
+                dummies += 1
+
+        f = open(file, "rb")
+        output_dat.write(f.read())
+        size = os.path.getsize(file)
+        remainder = 0x40 - (size % 0x40)
+        if remainder == 0x40:
+            remainder = 0
+        output_dat.write(b"\x00" * remainder)
+        f.close()
+
+        remainders.append(remainder)
+        buffer += size + remainder
+        sectors.append(buffer)
+        previous += 1
+
+        print(
+            "Writing file %05d/%05d..." % (current - dummies, len(file_list)), end="\r"
+        )
+
+    output_elf = open(args.elf_out_path, "r+b")
+    output_elf.seek(POINTERS_BEGIN)
+
+    for i in range(len(sectors) - 1):
+        output_elf.write(struct.pack("<L", sectors[i] + remainders[i]))
+
+    output_dat.close()
+    output_elf.close()
+
+
+def pack_scpk():
+    mkdir("SCPK_PACKED")
+    json_file = open("SCPK.json", "r")
+    json_data = json.load(json_file)
+    json_file.close()
+
+    for name in os.listdir("theirsce_new"):
+        folder = name.split("_")[0]
+        if os.path.isdir("scpk/" + folder):
+            sizes = []
+            o = open("scpk_packed/%s.SCPK" % folder, "wb")
+            data = bytearray()
+            listdir = os.listdir("scpk/" + folder)
+            for file in listdir:
+                if os.path.isfile(os.path.join("scpk/" + folder, file)):
+                    read = bytearray()
+                    index = str(int(file.split(".")[0]))
+                    fname = "scpk/%s/%s" % (folder, file)
+                    f = open(fname, "rb")
+                    ctype = json_data[folder][index]
+                    if file.endswith("theirsce"):
+                        if ctype != 0:
+                            fname = "theirsce_new/" + name
+                            compress_compto(fname, ctype)
+                            comp = open(fname + ".c", "rb")
+                            read = comp.read()
+                            comp.close()
+                            os.remove(fname + ".c")
+                        else:
+                            read = f.read()
+                    elif file.endswith("mfh"):
+                        if ctype != 0:
+                            compress_compto(fname, ctype)
+                            comp = open(fname + ".c", "rb")
+                            read = comp.read()
+                            comp.close()
+                            os.remove(fname + ".c")
+                        else:
+                            read = f.read()
+                    else:
+                        read = f.read()
+                    data += read
+                    sizes.append(len(read))
+                    f.close()
+
+            o.write(b"\x53\x43\x50\x4B\x01\x00\x0F\x00")
+            o.write(struct.pack("<L", len(sizes)))
+            o.write(b"\x00" * 4)
+
+            for i in range(len(sizes)):
+                o.write(struct.pack("<L", sizes[i]))
+
+            o.write(data)
+            o.close()
 
 
 def insert_theirsce():
@@ -624,6 +660,10 @@ def insert_theirsce():
         o.close()
 
 
+# ============================
+#      INSERT FUNCTIONS
+# ============================
+
 def export_tbl():
     json_file = open("TBL.json", "r")
     table = json.load(json_file)
@@ -631,32 +671,6 @@ def export_tbl():
     f = open("tbl.tbl", "w", encoding="utf8")
     for k in sorted(table):
         f.write("%04X=%s\n" % (int(k), table[k]))
-
-
-def extract_mfh():
-    print("Extracting mfh...")
-    mkdir("MFH")
-    for folder in os.listdir("scpk"):
-        for name in os.listdir("scpk/" + folder):
-            f = open("scpk/" + folder + "/" + name, "rb")
-            f.read(4)
-            pointers = []
-            for i in range(0, 3):
-                pointers.append(struct.unpack("<I", f.read(4))[0])
-            pointers.append(os.path.getsize("scpk/" + folder + "/" + name))
-            mkdir("mfh/" + folder)
-            for i in range(0, 3):
-                ext = ""
-                if i == 0:
-                    ext = "tm2"
-                elif i == 1:
-                    ext = "pani"
-                else:
-                    ext = "map"
-                o = open("mfh/" + folder + "/" + "%02d.%s" % (i, ext), "wb")
-                f.seek(pointers[i], 0)
-                o.write(f.read(pointers[i + 1] - pointers[i]))
-            break
 
 
 def extract_files(args):
@@ -722,14 +736,14 @@ def get_arguments(argv=None):
         "file",
         choices=["scpk", "dat", "theirsce"],
         metavar="file type",
-        help="Inserts back files into their containers.",
+        help="Inserts files back into their containers.",
     )
 
     sp_pack.add_argument(
         "--dat-out-path",
         metavar="dat_out_path",
         default="DAT.BIN",
-        help="Specify custom DAT.BIN file path.",
+        help="Specify custom DAT.BIN output file path.",
         type=os.path.abspath,
     )
 
