@@ -8,6 +8,7 @@ import shutil
 import string
 import argparse
 import textwrap
+from pathlib import Path
 
 # Constants
 TAGS = {
@@ -51,9 +52,29 @@ LOW_BITS = 0x3F
 COMMON_TAG = r"(<\w+:?\w+>)"
 HEX_TAG = r"(\{[0-9A-F]{2}\})"
 
+VALID_FILE_NAME = r"([0-9]{5})(?:\.\w+)$"
+
 PRINTABLE_CHARS = "".join(
     (string.digits, string.ascii_letters, string.punctuation, " ")
 )
+
+
+def get_dat_folder_file_list(dirName, recurse=True):
+    # create a list of file and sub directories
+    # names in the given directory
+    listOfFile = os.listdir(dirName)
+    allFiles = list()
+    # Iterate over all the entries
+    for entry in listOfFile:
+        # Create full path
+        fullPath = os.path.join(dirName, entry)
+        # If entry is a directory then get the list of files in this directory
+        if os.path.isdir(fullPath) and recurse:
+            allFiles = allFiles + get_dat_folder_file_list(fullPath, False)
+        elif re.search(VALID_FILE_NAME, fullPath):
+            allFiles.append(fullPath)
+
+    return allFiles
 
 
 def mkdir(name):
@@ -213,17 +234,14 @@ def get_extension(data):
     return extension
 
 
-def extract_dat(dat_path="DAT.bin", elf_path="SLPS_254.50"):
-    f = open(os.path.abspath(dat_path), "rb")
-    mkdir(get_directory_path(dat_path) + os.path.sep + "DAT")
+def extract_dat(args):
+    output_folder = get_directory_path(args.dat_path) + os.path.sep + "DAT"
+    f = open(args.dat_path, "rb")
 
-    # json_file = open('DAT.json', 'w')
-    json_file = open("dat.json", "r")
-    # json_data = {}
-    json_data = json.load(json_file)
-    pointers = get_pointers(elf_path)
+    pointers = get_pointers(args.elf_path)
+    total_files = len(pointers)
 
-    for i in range(len(pointers) - 1):
+    for i in range(total_files - 1):
         remainder = pointers[i] & LOW_BITS
         start = pointers[i] & HIGH_BITS
         end = (pointers[i + 1] & HIGH_BITS) - remainder
@@ -233,53 +251,73 @@ def extract_dat(dat_path="DAT.bin", elf_path="SLPS_254.50"):
             # json_data[i] = 'dummy'
             continue
         data = f.read(size)
-        # extension = get_extension(data)
-        extension = json_data["%05d" % i]
-        # json_data['%05d' % i] = extension
-        o = open("DAT/" + "%05d.%s" % (i, extension), "wb")
+        extension = get_extension(data)
+
+        final_path = output_folder + "/%s/%05d.%s" % (extension.upper(), i, extension)
+        Path(get_directory_path(final_path)).mkdir(parents=True, exist_ok=True)
+        o = open(final_path, "wb")
         o.write(data)
         o.close()
+        print("Writing file %05d/%05d..." % (i, total_files), end="\r")
 
-    # json.dump(json_data, json_file, indent=4)
     f.close()
 
 
-def pack_dat(dat_folder_path, dat_out_path, elf_out_path):
+def get_file_name(path):
+    return os.path.splitext(os.path.basename(path))[0]
+
+
+def pack_dat(args):
     sectors = [0]
     remainders = []
     buffer = 0
-    json_file = open("dat.json", "r")
-    json_data = json.load(json_file)
-    json_file.close()
-    o = open("DAT_NEW.BIN", "wb")
 
-    print("Packing DAT.bin...")
+    output_dat_path = args.dat_out_path
+    output_dat = open(output_dat_path, "wb")
 
-    for k, v in json_data.items():
+    print("Packing files into %s..." % os.path.basename(output_dat_path))
+
+    file_list = get_dat_folder_file_list(args.dat_folder_path)
+    
+    previous = -1
+    dummies = 0
+
+    for file in sorted(file_list, key=get_file_name):
         size = 0
         remainder = 0
-        if v != "dummy":
-            print(k)
-            f = open("dat/%s.%s" % (k, v), "rb")
-            o.write(f.read())
-            size = os.path.getsize("dat/%s.%s" % (k, v))
-            remainder = 0x40 - (size % 0x40)
-            if remainder == 0x40:
-                remainder = 0
-            o.write(b"\x00" * remainder)
-            f.close()
+        current = int(get_file_name(file))
+        if current != previous + 1:
+            while previous < current - 1:
+                remainders.append(remainder)
+                buffer += size + remainder
+                sectors.append(buffer)
+                previous += 1
+                dummies += 1
+
+        f = open(file, "rb")
+        output_dat.write(f.read())
+        size = os.path.getsize(file)
+        remainder = 0x40 - (size % 0x40)
+        if remainder == 0x40:
+            remainder = 0
+        output_dat.write(b"\x00" * remainder)
+        f.close()
+
         remainders.append(remainder)
         buffer += size + remainder
         sectors.append(buffer)
+        previous += 1
 
-    u = open("new_SLPS_254.50", "r+b")
-    u.seek(POINTERS_BEGIN)
+        print("Writing file %05d/%05d..." % (current - dummies, len(file_list)), end="\r")
+
+    output_elf = open(args.elf_out_path, "r+b")
+    output_elf.seek(POINTERS_BEGIN)
 
     for i in range(len(sectors) - 1):
-        u.write(struct.pack("<L", sectors[i] + remainders[i]))
+        output_elf.write(struct.pack("<L", sectors[i] + remainders[i]))
 
-    o.close()
-    u.close()
+    output_dat.close()
+    output_elf.close()
 
 
 def extract_scpk():
@@ -623,7 +661,7 @@ def extract_mfh():
 
 def extract_files(args):
     print("Extracting BIN...")
-    extract_dat(args.dat_path, args.elf_path)
+    extract_dat(args)
     # print ("Extracting SCPK...")
     # extract_scpk()
     # extract_mfh()
@@ -667,6 +705,7 @@ def get_arguments(argv=None):
         metavar="DAT_PATH",
         default="DAT.BIN",
         help="Specify custom DAT.BIN file path.",
+        type=os.path.abspath,
     )
 
     sp_unpack.add_argument(
@@ -674,6 +713,7 @@ def get_arguments(argv=None):
         metavar="ELF_PATH",
         default="SLPS_254.50",
         help="Specify custom SLPS_254.50 (a.k.a ELF) file path.",
+        type=os.path.abspath,
     )
 
     # PAK commands
@@ -686,17 +726,19 @@ def get_arguments(argv=None):
     )
 
     sp_pack.add_argument(
-        "--dat-path",
-        metavar="dat_path",
+        "--dat-out-path",
+        metavar="dat_out_path",
         default="DAT.BIN",
         help="Specify custom DAT.BIN file path.",
+        type=os.path.abspath,
     )
 
     sp_pack.add_argument(
-        "--dat-folder_path",
+        "--dat-folder-path",
         metavar="dat_folder_path",
         default="DAT",
         help="Specify custom dat folder path.",
+        type=os.path.abspath,
     )
 
     sp_pack.add_argument(
@@ -704,6 +746,15 @@ def get_arguments(argv=None):
         metavar="elf_path",
         default="SLPS_254.50",
         help="Specify custom SLPS_254.50 (a.k.a ELF) file path.",
+        type=os.path.abspath,
+    )
+
+    sp_pack.add_argument(
+        "--elf-out-path",
+        metavar="elf_out_path",
+        default="NEW_SLPS_254.50",
+        help="Specify custom SLPS_254.50 (a.k.a ELF) output file path.",
+        type=os.path.abspath,
     )
 
     # Export commands
@@ -733,7 +784,8 @@ if __name__ == "__main__":
 
     if args.action == "unpack":
         if args.file == "dat":
-            extract_files(args)
+            # extract_files(args)
+            extract_dat(args)
         if args.file == "mfh":
             extract_mfh()
         if args.file == "theirsce":
@@ -743,7 +795,7 @@ if __name__ == "__main__":
         if args.file == "scpk":
             insert_files()
         if args.file == "dat":
-            pack_dat()
+            pack_dat(args)
         if args.file == "theirsce":
             insert_theirsce()
 
