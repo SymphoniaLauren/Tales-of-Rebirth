@@ -224,22 +224,35 @@ def get_extension(data):
         return "scpk"
 
     if data[:4] == b"TIM2":
-        return "tim2"
-        
+        return "tm2"
+
     if data[0xB:0xE] == b"ELF":
         return "irx"
 
     if data[0xA:0xE] == b"IECS":
         return "iecs"
 
-    if data[:16] == b"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00":
+    if data[:16] == b"\x00" * 0x10:
         return "at3"
+
+    if data[:8] == b"THEIRSCE":
+        return "theirsce"
+
+    if data[:3] == b"MFH":
+        return "mfh"
 
     if data[:4] == b"anp3":
         return "anp3"
 
     if data[:4] == b"EFFE":
         return "effe"
+
+    # 0x####BD27 is the masked addiu sp,sp,#### mips instruction
+    if data[2:4] == b"\xBD\x27":
+        return "md1"
+
+    if data[6:8] == b"\xBD\x27":
+        return "md2"  # It's still md1 though
 
     is_pak = get_pak_type(data)
     if is_pak != None:
