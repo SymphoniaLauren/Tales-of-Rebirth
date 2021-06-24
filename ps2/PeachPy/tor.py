@@ -339,54 +339,51 @@ def extract_dat(args):
     f.close()
 
 
-def extract_scpk():
-    mkdir("SCPK")
-    json_file = open("SCPK.json", "w")
-    json_data = {}
+def extract_single_scpk(file):
+    file_name = get_file_name(file)
+    folder_path = get_directory_path(file)
 
-    for file in os.listdir("DAT"):
-        if not file.endswith("scpk"):
-            continue
-        f = open("DAT/%s" % file, "rb")
-        header = f.read(4)
-        if header != b"SCPK":
-            f.close()
-            continue
-        mkdir("scpk/%s" % file.split(".")[0])
-        index = file.split(".")[0]
-        json_data[index] = {}
-        f.read(4)
-        files = struct.unpack("<L", f.read(4))[0]
-        f.read(4)
-        sizes = []
-        for i in range(files):
-            sizes.append(struct.unpack("<L", f.read(4))[0])
-        for i in range(files):
-            data = f.read(sizes[i])
-            ext = "bin"
-            if len(data) >= 0x10:
-                if data[0xA:0xE] == b"THEI":
-                    ext = "theirsce"
-            if i == 0:
-                ext = "mfh"
-            if len(data) > 0x04:
-                if get_pak_type(data) == "pak1":
-                    ext = "pak1"
-            fname = "scpk/%s/%02d.%s" % (file.split(".")[0], i, ext)
-            o = open(fname, "wb")
-            json_data[index][i] = data[0]
-            o.write(data)
-            o.close()
-            if ext in ("mfh", "theirsce"):
-                decompress_compto(fname)
-                os.remove(fname)
-                os.rename(fname + ".d", fname)
-            # if ext in ('pak1'):
-            # extract_pak1(fname)
-
+    f = open(file, "rb")
+    header = f.read(4)
+    if header != b"SCPK":
         f.close()
+        # sys.exit(f"{file} is not a .scpk file!")
+        print(f"{file} is not a .scpk file!")
+        return
 
-    json.dump(json_data, json_file, indent=4)
+    f.read(4)
+    files = struct.unpack("<L", f.read(4))[0]
+    f.read(4)
+    sizes = []
+    base_path = "%s/%s" % (folder_path, file_name)
+    Path(base_path).mkdir(parents=True, exist_ok=True)
+    for i in range(files):
+        sizes.append(struct.unpack("<L", f.read(4))[0])
+
+    for i in range(files):
+        data = f.read(sizes[i])
+
+        if is_compressed(data):
+            c_type = struct.unpack("<b", data[:1])[0]
+            data = comptolib.decompress_data(data)
+            extension = get_extension(data)
+            out_path = base_path + "/%02d.%d.%s" % (i, c_type, extension)
+        else:
+            extension = get_extension(data)
+            out_path = base_path + "/%02d.%s" % (i, extension)
+
+        with open(out_path, "wb") as output:
+            output.write(data)
+
+    f.close()
+
+
+def extract_scpk(args):
+    if os.path.isfile(args.scpk_path):
+        extract_single_scpk(args.scpk_path)
+    elif os.path.isdir(args.scpk_path):
+        for file in get_dat_folder_file_list(args.scpk_path, recurse=False):
+            extract_single_scpk(file)
 
 
 def extract_theirsce():
