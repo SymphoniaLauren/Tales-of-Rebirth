@@ -340,11 +340,9 @@ def extract_dat(args):
                 extension,
             )
 
-        final_path = output_folder + "/%s/%05d.%s" % (extension.upper(), i, extension)
         Path(get_directory_path(final_path)).mkdir(parents=True, exist_ok=True)
-        o = open(final_path, "wb")
-        o.write(data)
-        o.close()
+        with open(final_path, "wb") as output:
+            output.write(data)
         print("Writing file %05d/%05d..." % (i, total_files), end="\r")
 
     f.close()
