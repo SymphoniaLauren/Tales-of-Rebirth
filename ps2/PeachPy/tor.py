@@ -536,6 +536,7 @@ def pack_dat(args):
         size = 0
         remainder = 0
         current = int(get_file_name(file))
+
         if current != previous + 1:
             while previous < current - 1:
                 remainders.append(remainder)
@@ -544,8 +545,14 @@ def pack_dat(args):
                 previous += 1
                 dummies += 1
 
-        f = open(file, "rb")
-        output_dat.write(f.read())
+        comp_type = re.search(VALID_FILE_NAME, file).group(2)
+        if comp_type == None:
+            with open(file, "rb") as f:
+                data = f.read()
+        else:
+            data = comptolib.compress_data(data, version=comp_type)
+
+        output_dat.write(data)
         size = os.path.getsize(file)
         remainder = 0x40 - (size % 0x40)
         if remainder == 0x40:
