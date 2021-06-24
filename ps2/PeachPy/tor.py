@@ -239,20 +239,27 @@ def get_extension(data):
     if data[:4] == b"TIM2":
         return "tm2"
 
-    if data[0xB:0xE] == b"ELF":
+    if data[:4] == b"\x7FELF":
         return "irx"
 
-    if data[0xA:0xE] == b"IECS":
-        return "iecs"
+    if data[:8] == b"IECSsreV":
+        if data[0x50:0x58] == b"IECSigaV":
+            return "hd"
+        elif data[0x30:0x38] == b"IECSidiM":
+            return "sq"
 
     if data[:16] == b"\x00" * 0x10:
-        return "at3"
+        if data[16:18] != b"\x00\x00":
+            return "bd"
 
     if data[:8] == b"THEIRSCE":
         return "theirsce"
 
     if data[:3] == b"MFH":
         return "mfh"
+
+    if data[:4] == b"EBG\x00":
+        return "ebg"
 
     if data[:4] == b"anp3":
         return "anp3"
@@ -261,15 +268,21 @@ def get_extension(data):
         return "effe"
 
     # 0x####BD27 is the masked addiu sp,sp,#### mips instruction
+    # These are overlay files, containing compiled MIPS assembly
     if data[2:4] == b"\xBD\x27":
-        return "md1"
+        return "ovl"
 
     if data[6:8] == b"\xBD\x27":
-        return "md2"  # It's still md1 though
+        return "ovl"
 
     is_pak = get_pak_type(data)
     if is_pak != None:
         return is_pak
+    
+    if len(data) > 0x400:
+        size = struct.unpack("<I", data[0x400:0x404])[0]
+        if len(data) == size + 0x400:
+            return "tmsk"
 
     # Didn't match anything
     return "bin"
