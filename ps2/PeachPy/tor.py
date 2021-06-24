@@ -155,6 +155,10 @@ def decode(codepoint):
 
 def get_pak_type(data):
     is_aligned = False
+
+    if len(data) < 0x8:
+        return None
+
     files = struct.unpack("<I", data[:4])[0]
     first_entry = struct.unpack("<I", data[4:8])[0]
 
@@ -171,9 +175,9 @@ def get_pak_type(data):
     # First test pak0 (hope there are no aligned pak0 files...)
     if len(data) > pakN_header_size:
         calculated_size = 0
-        for i in range(4, files, 4):
+        for i in range(4, (files + 1) * 4, 4):
             calculated_size += struct.unpack("<I", data[i : i + 4])[0]
-        if calculated_size == len(data):
+        if calculated_size == len(data) - pakN_header_size:
             return "pak0"
 
     # Test for pak1 & pak3
@@ -187,6 +191,14 @@ def get_pak_type(data):
             return "pak1"
         elif pakN_header_size == first_entry:
             return "pak3"
+
+    # Test for pak2
+    offset = struct.unpack("<I", data[0:4])[0]
+
+    if data[offset:offset+8] == b"THEIRSCE":
+        return "pak2"
+    elif data[offset:offset+8] == b"IECSsreV":
+        return "apak"
 
     # Didn't match anything
     return None
