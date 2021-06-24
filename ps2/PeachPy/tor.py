@@ -227,8 +227,15 @@ def move_scpk_packed():
 
 
 def is_compressed(data):
-    if struct.unpack("<L", data[1:5])[0] == len(data) - 9:
+    if len(data) < 0x09:
+        return False
+
+    expected_size = struct.unpack("<L", data[1:5])[0]
+    tail_data = abs(len(data) - (expected_size + 9))
+    if expected_size == len(data) - 9:
         return True
+    elif tail_data <= 0x10 and data[expected_size + 9 :] == b"#" * tail_data:
+        return True # SCPK files have these trailing "#" bytes :(
     return False
 
 
