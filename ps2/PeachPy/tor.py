@@ -68,6 +68,10 @@ def get_file_name(path):
     return os.path.splitext(os.path.basename(path))[0]
 
 
+def get_parent_folder(path):
+    return os.path.normpath(os.path.join(path, os.pardir))
+
+
 def get_dat_folder_file_list(dirName, recurse=True):
     # create a list of file and sub directories
     # names in the given directory
@@ -740,7 +744,7 @@ def insert_theirsce():
 
 
 # ============================
-#      INSERT FUNCTIONS
+#      EXPORT FUNCTIONS
 # ============================
 
 def export_tbl():
@@ -771,6 +775,11 @@ def insert_files():
     move_scpk_packed()
 
 
+def check_arguments(parser, args):
+    if args.file == "scpk" and not args.scpk_path:
+        parser.error("scpk requires --scpk-path.")
+
+
 def get_arguments(argv=None):
     # Init argument parser
     parser = argparse.ArgumentParser()
@@ -784,13 +793,23 @@ def get_arguments(argv=None):
 
     # Unpack commands
     sp_unpack = sp.add_parser(
-        "unpack", help="Unpacks some file types into more useful ones."
+        "unpack",
+        description="Unpacks some file types into more useful ones.",
+        formatter_class=argparse.RawTextHelpFormatter,
     )
     sp_unpack.add_argument(
         "file",
-        choices=["dat", "mfh", "theirsce"],
+        choices=["dat", "mfh", "theirsce", "scpk"],
         metavar="FILE",
-        help="Unpacks file containers.",
+        help="Options: dat, mfh, theirsce, scpk",
+    )
+
+    sp_unpack.add_argument(
+        "--scpk-path",
+        metavar="DAT_PATH",
+        # default="SCPK/",
+        help="Specify custom DAT.BIN file path.",
+        type=os.path.abspath,
     )
 
     sp_unpack.add_argument(
@@ -856,7 +875,10 @@ def get_arguments(argv=None):
         "file", choices=["table"], metavar="file type", help="Exports data."
     )
 
-    return parser.parse_args(argv)
+    args = parser.parse_args()
+    check_arguments(parser, args)
+
+    return args
 
 
 if __name__ == "__main__":
@@ -883,6 +905,8 @@ if __name__ == "__main__":
             extract_mfh()
         if args.file == "theirsce":
             extract_theirsce()
+        if args.file == "scpk":
+            extract_scpk(args)
 
     if args.action == "pack":
         if args.file == "scpk":
@@ -895,3 +919,5 @@ if __name__ == "__main__":
     if args.action == "export":
         if args.file == "table":
             export_tbl()
+
+    print("Done!")
