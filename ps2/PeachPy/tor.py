@@ -806,7 +806,7 @@ def get_arguments(argv=None):
         "--scpk-path",
         metavar="DAT_PATH",
         # default="SCPK/",
-        help="Specify custom DAT.BIN file path.",
+        help="Specify custom SCPK file/folder path.",
         type=os.path.abspath,
     )
 
