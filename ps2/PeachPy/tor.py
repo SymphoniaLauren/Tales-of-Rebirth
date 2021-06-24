@@ -9,6 +9,7 @@ import string
 import argparse
 import textwrap
 from pathlib import Path
+import comptolib
 
 # Constants
 TAGS = {
@@ -52,7 +53,7 @@ LOW_BITS = 0x3F
 COMMON_TAG = r"(<\w+:?\w+>)"
 HEX_TAG = r"(\{[0-9A-F]{2}\})"
 
-VALID_FILE_NAME = r"([0-9]{5})(?:\.\w+)$"
+VALID_FILE_NAME = r"([0-9]{5})(?:\.)?([1,3])?\.(\w+)$"
 
 PRINTABLE_CHARS = "".join(
     (string.digits, string.ascii_letters, string.punctuation, " ")
@@ -295,7 +296,25 @@ def extract_dat(args):
             # Ignore 0 byte files
             continue
         data = f.read(size)
-        extension = get_extension(data)
+        file_name = "%05d" % i
+
+        if is_compressed(data):
+            c_type = struct.unpack("<b", data[:1])[0]
+            data = comptolib.decompress_data(data)
+            extension = get_extension(data)
+            final_path = output_folder + "/%s/%s.%d.%s" % (
+                extension.upper(),
+                file_name,
+                c_type,
+                extension,
+            )
+        else:
+            extension = get_extension(data)
+            final_path = output_folder + "/%s/%s.%s" % (
+                extension.upper(),
+                file_name,
+                extension,
+            )
 
         final_path = output_folder + "/%s/%05d.%s" % (extension.upper(), i, extension)
         Path(get_directory_path(final_path)).mkdir(parents=True, exist_ok=True)
