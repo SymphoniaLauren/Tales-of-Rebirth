@@ -304,8 +304,8 @@ def get_extension(data):
 # ============================
 
 def extract_dat(args):
-    output_folder = get_directory_path(args.dat_path) + os.path.sep + "DAT"
-    f = open(args.dat_path, "rb")
+    output_folder = args.output
+    f = open(args.input, "rb")
 
     pointers = get_pointers(args.elf_path)
     total_files = len(pointers)
@@ -345,6 +345,7 @@ def extract_dat(args):
             output.write(data)
         print("Writing file %05d/%05d..." % (i, total_files), end="\r")
 
+    print("Writing file %05d/%05d..." % (i, total_files))
     f.close()
 
 
@@ -388,10 +389,10 @@ def extract_single_scpk(file):
 
 
 def extract_scpk(args):
-    if os.path.isfile(args.scpk_path):
-        extract_single_scpk(args.scpk_path)
-    elif os.path.isdir(args.scpk_path):
-        for file in get_dat_folder_file_list(args.scpk_path, recurse=False):
+    if os.path.isfile(args.input):
+        extract_single_scpk(args.input)
+    elif os.path.isdir(args.input):
+        for file in get_dat_folder_file_list(args.input, recurse=False):
             extract_single_scpk(file)
 
 
@@ -528,12 +529,12 @@ def pack_dat(args):
     remainders = []
     buffer = 0
 
-    output_dat_path = args.dat_out_path
+    output_dat_path = args.output
     output_dat = open(output_dat_path, "wb")
 
     print("Packing files into %s..." % os.path.basename(output_dat_path))
 
-    file_list = get_dat_folder_file_list(args.dat_folder_path)
+    file_list = get_dat_folder_file_list(args.output)
 
     previous = -1
     dummies = 0
@@ -575,7 +576,8 @@ def pack_dat(args):
             "Writing file %05d/%05d..." % (current - dummies, len(file_list)), end="\r"
         )
 
-    output_elf = open(args.elf_out_path, "r+b")
+    print("Writing file %05d/%05d..." % (current - dummies, len(file_list)))
+    output_elf = open(args.elf_out, "r+b")
     output_elf.seek(POINTERS_BEGIN)
 
     for i in range(len(sectors) - 1):
@@ -745,6 +747,7 @@ def insert_theirsce():
 #      EXPORT FUNCTIONS
 # ============================
 
+
 def export_tbl():
     json_file = open("TBL.json", "r")
     table = json.load(json_file)
@@ -774,8 +777,20 @@ def insert_files():
 
 
 def check_arguments(parser, args):
-    if args.file == "scpk" and not args.scpk_path:
-        parser.error("scpk requires --scpk-path.")
+    if not args.elf:
+        args.elf = get_directory_path(args.input) + "/SLPS_254.50"
+    
+    if not args.elf_out:
+        args.elf = get_directory_path(args.input) + "/NEW_SLPS_254.50"
+
+    if not args.output:
+        if not os.path.isdir(args.input):
+            args.output = get_directory_path(args.input)
+            args.output += "/" + get_file_name(args.input)
+        else:
+            args.output = args.input
+
+    #parser.error("scpk requires --scpk-path.")
 
 
 def get_arguments(argv=None):
@@ -803,27 +818,32 @@ def get_arguments(argv=None):
     )
 
     sp_unpack.add_argument(
-        "--scpk-path",
-        metavar="DAT_PATH",
-        # default="SCPK/",
-        help="Specify custom SCPK file/folder path.",
+        "--input",
+        metavar="input_path",
+        required=True,
+        help="Specify input file path.",
         type=os.path.abspath,
     )
 
     sp_unpack.add_argument(
-        "--dat-path",
-        metavar="DAT_PATH",
-        default="DAT.BIN",
-        help="Specify custom DAT.BIN file path.",
+        "--output",
+        metavar="output_path",
+        help="Specify output path.",
         type=os.path.abspath,
     )
 
     sp_unpack.add_argument(
-        "--elf-path",
-        metavar="ELF_PATH",
-        default="SLPS_254.50",
+        "--elf",
+        metavar="elf_path",
+        dest="elf_path",
         help="Specify custom SLPS_254.50 (a.k.a ELF) file path.",
         type=os.path.abspath,
+    )
+
+    sp_unpack.add_argument(
+        "--no-decompress",
+        store=True,
+        help="Don't decompress compto files.",
     )
 
     # PAK commands
@@ -831,28 +851,28 @@ def get_arguments(argv=None):
     sp_pack.add_argument(
         "file",
         choices=["scpk", "dat", "theirsce"],
-        metavar="file type",
+        metavar="FILE",
         help="Inserts files back into their containers.",
     )
 
     sp_pack.add_argument(
-        "--dat-out-path",
-        metavar="dat_out_path",
+        "--input",
+        metavar="input_path",
         default="DAT.BIN",
         help="Specify custom DAT.BIN output file path.",
         type=os.path.abspath,
     )
 
     sp_pack.add_argument(
-        "--dat-folder-path",
-        metavar="dat_folder_path",
+        "--output",
+        metavar="output_path",
         default="DAT",
         help="Specify custom dat folder path.",
         type=os.path.abspath,
     )
 
     sp_pack.add_argument(
-        "--elf-path",
+        "--elf",
         metavar="elf_path",
         default="SLPS_254.50",
         help="Specify custom SLPS_254.50 (a.k.a ELF) file path.",
@@ -860,8 +880,8 @@ def get_arguments(argv=None):
     )
 
     sp_pack.add_argument(
-        "--elf-out-path",
-        metavar="elf_out_path",
+        "--elf-out",
+        metavar="elf_output_path",
         default="NEW_SLPS_254.50",
         help="Specify custom SLPS_254.50 (a.k.a ELF) output file path.",
         type=os.path.abspath,
