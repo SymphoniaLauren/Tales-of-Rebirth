@@ -1,27 +1,37 @@
 notice
 [ENDBLOCK]
-<Red>料理<Green>が実行可能になりました。
+#<Red>料理<Green>が実行可能になりました。
+<Green>You can now <Red>Cook<Green>.
 [ENDBLOCK]
-スールズ
+#スールズ
+Sulz
 [ENDBLOCK]
-スールズ
+#スールズ
+Sulz
 [ENDBLOCK]
 
 [ENDBLOCK]
-<07:00000000>『案内板』
-↑　集会所
-→　村出口
+#<07:00000000>『案内板』
+#↑　集会所
+#→　村出口
+<07:00000000>『Guidepost』
+↑　Meeting House
+→　Village Exit
 [ENDBLOCK]
 #女の人
 Woman
 [ENDBLOCK]
-さっき、クレアが家の方に
-歩いていったわよ。
+#さっき、クレアが家の方に
+#歩いていったわよ。
+Claire just walked by,
+heading to her house.
 
 [ENDBLOCK]
-私、思わず叫び声を
-あげちゃった……
-もう、大丈夫……なの？
+#私、思わず叫び声を
+#あげちゃった……
+#もう、大丈夫……なの？
+I screamed out loud...
+Is she... back to normal?
 [ENDBLOCK]
 あら、<Veigue>のお友達？
 どうもです。
@@ -99,9 +109,12 @@ Woman
 #女の子
 Girl
 [ENDBLOCK]
-<Veigue>……
-集会所って……
-もう使ってもいいの？
+#<Veigue>……
+#集会所って……
+#もう使ってもいいの？
+<Veigue>...
+The meeting house...
+Can I use it now?
 [ENDBLOCK]
 <Veigue>が……
 コワイの……
@@ -109,8 +122,10 @@ Girl
 #女の子
 Girl
 [ENDBLOCK]
-きゃっ……
-凍らせないで……!!
+#きゃっ……
+#凍らせないで……!!
+Yikes...
+Don't freeze me...!!
 [ENDBLOCK]
 氷の中って……やっぱり
 冷たいんだろうな……
@@ -163,29 +178,47 @@ Woman
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Red>バトルブック<Green>は
-敵の情報や戦闘用語など
-戦闘に関する様々な事が
-記述されています。
+#<Red>バトルブック<Green>は
+#敵の情報や戦闘用語など
+#戦闘に関する様々な事が
+#記述されています。
+<Green>The <Red>Battle Book<Green> describes things such
+as enemy information, terms used for battle,
+and contains explanations for various parts
+of the battle system.
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>旅が進むにつれ、新しい敵や
-知識が追加されていくので
-こまめにチェックしておけば、
-有利に戦う事ができるでしょう。
+#<Green>旅が進むにつれ、新しい敵や
+#知識が追加されていくので
+#こまめにチェックしておけば、
+#有利に戦う事ができるでしょう。
+#maybe having too much fun with this
+<Green>As you continue on your journey, new
+information about enemies and combat
+mechanics will be added. Check the
+Battle Book frequently to always
+be at the top of your game!
 
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>戦闘に関する記録は
-バトルブックの<Red>戦闘履歴<Green>で
-確認する事ができます。
+#<Green>戦闘に関する記録は
+#バトルブックの<Red>戦闘履歴<Green>で
+#確認する事ができます。
+<Green>Your accomplishments in battle are
+also recorded in the <Red>Records<Green>
+section of the Battle Book.
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>バトルブックを読みますか？
-　 はい　
-　 いいえ　
+#NOTE: The extra space is important for the menus. 
+#<07:00000000><size:00000140>バトルブックを読みますか？
+#　 はい　
+#　 いいえ　
+#
+<07:00000000><size:00000140>Read the Battle Book?
+　 Yes 
+　 No 　
 
 [ENDBLOCK]
