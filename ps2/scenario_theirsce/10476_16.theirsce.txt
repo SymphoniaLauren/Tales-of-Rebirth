@@ -172,9 +172,12 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>食べますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>食べますか？
+#　はい　
+#　いいえ　
+<07:00000000><size:00000140>Try a bite?
+Yes
+No
 [ENDBLOCK]
 notice
 [ENDBLOCK]
@@ -186,29 +189,37 @@ notice
 [ENDBLOCK]
 <Veigue>
 [ENDBLOCK]
-うまい……
+#うまい……
+Tasty...
 [ENDBLOCK]
 <Mao>
 [ENDBLOCK]
-おいしい!!
-おいしいヨ!!
+#おいしい!!
+#おいしいヨ!!
+Hey, this is
+super tasty!
 [ENDBLOCK]
 <Eugene>
 [ENDBLOCK]
-これはうまいな……
+#これはうまいな……
+This is delicious...
 [ENDBLOCK]
 <Annie>
 [ENDBLOCK]
-おいしい……
+#おいしい……
+It's delicious...
 [ENDBLOCK]
 <Tytree>
 [ENDBLOCK]
-うめえぜ、
-こいつぁ、五つ星だ！
+#うめえぜ、
+#こいつぁ、五つ星だ！
+This is delish!
+I give it five stars!
 [ENDBLOCK]
 <Hilda>
 [ENDBLOCK]
-おいしいわね……
+#おいしいわね……
+It's delicious...
 
 [ENDBLOCK]
 

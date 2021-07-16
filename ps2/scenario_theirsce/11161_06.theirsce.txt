@@ -149,56 +149,85 @@ No
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-料理情報屋
+#料理情報屋
+Recipe Guru
 [ENDBLOCK]
-こちらは今回が
-初めてでいらっしゃるようですね。
+#こちらは今回が
+#初めてでいらっしゃるようですね。
+It looks like it's
+your first time here.
 [ENDBLOCK]
-当部署ではカレギア各地の
-<Cyan>おいしいものレシピ<White>について
-耳寄りな情報を無料で提供しております。
+#当部署ではカレギア各地の
+#<Cyan>おいしいものレシピ<White>について
+#耳寄りな情報を無料で提供しております。
+My job is to provide information
+about the <Cyan>delicious recipes<White>
+all throughout Callegea,
+free of charge.
+[ENDBLOCK]
+#もし、よきレシピがこちらでも手に入れば、
+#お客様にご教授いたしますので、
+#お気軽にいつでもお立ち寄りください。
+If we find any good recipes,
+we'll teach them to you, so feel
+free to stop by whenever you like.
 
 [ENDBLOCK]
-もし、よきレシピがこちらでも手に入れば、
-お客様にご教授いたしますので、
-お気軽にいつでもお立ち寄りください。
-
-[ENDBLOCK]
-とっておきの鶏肉に、
-とっておきのでんぷん粉、
-とっておきの油で揚げた唐揚げがありますよ。
+#とっておきの鶏肉に、
+#とっておきのでんぷん粉、
+#とっておきの油で揚げた唐揚げがありますよ。
+#Lit. The best chicken, the best starch, fried in the best oil is fried chicken. 
+#If you don't think that the reference is appropriate please let me know.
+Take the best chicken,
+slather it in the best batter,
+fry it in the best oil and
+it'll be finger-lickin' good.
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>食べますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>食べますか？
+#　はい　
+#　いいえ　
+<07:00000000><size:00000140>Try a bite?
+Yes
+No
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>『<item:20000004>』を食べました。
+#<Green>『<item:20000004>』を食べました。
+<Green>Ate <item:20000004>.
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>『<item:20000004>』のレシピを入手しました。
+#<Green>『<item:20000004>』のレシピを入手しました。
+<Green>Learned the recipe for <item:20000004>.
 [ENDBLOCK]
-新鮮な歯ごたえと甘味のある
-ジューシーな野菜で作った
-野菜サラダがありますよ。
+#新鮮な歯ごたえと甘味のある
+#ジューシーな野菜で作った
+#野菜サラダがありますよ。
+#新鮮な歯ごたえ->Fresh texture (I have never heard "fresh texture in reference to salad, but I am no Gordan Ramsey for what it's worth.)
+#This line is boring but Salad is boring so whatever.
+I have a salad here made with
+fresh, sweet, juicy vegetables.
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>食べますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>食べますか？
+#　はい　
+#　いいえ　
+<07:00000000><size:00000140>Try a bite?
+Yes
+No
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>『<item:20000008>』を食べました。
+#<Green>『<item:20000008>』を食べました。
+<Green>Ate <item:20000008>.
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>『<item:20000008>』のレシピを入手しました。
+#<Green>『<item:20000008>』のレシピを入手しました。
+<Green>Learned the recipe for <item:20000008>.
 [ENDBLOCK]
 天然もの、ぴっちぴちとれたての魚介類に、
 極上のホワイトソースとチーズをからめた
@@ -206,61 +235,83 @@ notice
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>食べますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>食べますか？
+#　はい　
+#　いいえ　
+<07:00000000><size:00000140>Try a bite?
+Yes
+No
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>『<item:2000000D>』を食べました。
+#<Green>『<item:2000000D>』を食べました。
+<Green>Ate <item:2000000D>.
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>『<item:2000000D>』のレシピを入手しました。
+#<Green>『<item:2000000D>』のレシピを入手しました。
+<Green>Learned the recipe for <item:2000000D>.
 [ENDBLOCK]
-マーボーとカレーの優雅な共演！
-ファンタスティックな美味、
-マーボーカレーがありますよ！
+#マーボーとカレーの優雅な共演！
+#ファンタスティックな美味、
+#マーボーカレーがありますよ！
+Today's main event
+stars Mabo and Curry!
+It's the fantastic delicacy
+known as...Mabo Curry!
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>食べますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>食べますか？
+#　はい　
+#　いいえ　
+<07:00000000><size:00000140>Try a bite?
+Yes
+No
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>『<item:20000014>』を食べました。
+#<Green>『<item:20000014>』を食べました。
+<Green>Ate <item:20000014>.
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>『<item:20000014>』のレシピを入手しました。
+#<Green>『<item:20000014>』のレシピを入手しました。
+<Green>Learned the recipe for <item:20000014>.
 [ENDBLOCK]
 <Veigue>
 [ENDBLOCK]
-うまい……
+#うまい……
+Tasty...
 [ENDBLOCK]
 <Mao>
 [ENDBLOCK]
-おいしい!!
-おいしいヨ!!
+#おいしい!!
+#おいしいヨ!!
+Hey, this is
+super tasty!
 [ENDBLOCK]
 <Eugene>
 [ENDBLOCK]
-これはうまいな……
+#これはうまいな……
+This is delicious...
 [ENDBLOCK]
 <Annie>
 [ENDBLOCK]
-おいしい……
+#おいしい……
+It's delicious...
 [ENDBLOCK]
 <Tytree>
 [ENDBLOCK]
-うめえぜ、
-こいつぁ、五つ星だ！
+#うめえぜ、
+#こいつぁ、五つ星だ！
+This is delish!
+I give it five stars!
 [ENDBLOCK]
 <Hilda>
 [ENDBLOCK]
-おいしいわね……
+#おいしいわね……
+It's delicious...
 
 [ENDBLOCK]
 
@@ -269,148 +320,248 @@ notice
 [ENDBLOCK]
 <Veigue>
 [ENDBLOCK]
-からい……
-しかし……うまい……
+#からい……
+#しかし……うまい……
+It might be spicy...
+but it tastes good.
 [ENDBLOCK]
 <Mao>
 [ENDBLOCK]
-うわぁ!!
-カレーとマーボーが混ざってるヨ!!
+#うわぁ!!
+#カレーとマーボーが混ざってるヨ!!
+#Lit. 混ざってる -> Blend together so that they are one.
+Woah! I can't tell
+the Mabo from the Curry!
 [ENDBLOCK]
 <Eugene>
 [ENDBLOCK]
-うーむ……
-何とも微妙な味わいだな……
-[ENDBLOCK]
+#うーむ……
+#何とも微妙な味わいだな……
+#Note: Went for bimyou-> Subtle as difficult to describe
+Hmm...
+The flavor is rather
+difficult to describe...
 <Annie>
 [ENDBLOCK]
-不思議な味ですね……
+#不思議な味ですね……
+What a peculiar flavor...
 [ENDBLOCK]
 <Tytree>
 [ENDBLOCK]
-おれは、
-からいモンはダメなんだよなぁ……
+#おれは、
+#からいモンはダメなんだよなぁ……
+Man, I can't handle
+spicy food...
 [ENDBLOCK]
 <Hilda>
 [ENDBLOCK]
-二種類のからさが混ざり合って……
-不思議なハーモニーを奏でているわ……
+#二種類のからさが混ざり合って……
+#不思議なハーモニーを奏でているわ……
+#Lit. They're playing(as in an instrument) a strange harmony. Tried to keep musical theme (Hilda is a musician, plays the cello C:)
+Two different types of
+spiciness melded together...
+This composition has a
+strange harmony to it...
 [ENDBLOCK]
 
 [ENDBLOCK]
 …………
 [ENDBLOCK]
-調合師
+#調合師
+Elixer Mixer
 [ENDBLOCK]
-ロートリキッドと
-ブラオリキッド、
-グリューンリキッドと、
-ゲルプリキッド
-ヴィオレットリキッド。
+#ロートリキッドと
+#ブラオリキッド、
+#グリューンリキッドと、
+#ゲルプリキッド
+#ヴィオレットリキッド。
+Rot Liquid,
+Blau Liquid,
+Gruen Liquid,
+Gelb Liquid,
+and Violett Liquid.
 [ENDBLOCK]
-この五つを調合すると
-エリクシールができるけど、
-交換する？
+#この五つを調合すると
+#エリクシールができるけど、
+#交換する？
+If I mix these together
+I can make an Elixer for you.
+How about it?
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>交換しますか？
-　はい　
-　いいえ
+#<07:00000000><size:00000140>交換しますか？
+#　はい　
+#　いいえ
+<07:00000000><size:00000140>Exchange Liquids?
+Yes
+No
 [ENDBLOCK]
-ロートリキッドと
-ブラオリキッド、
-グリューンリキッドと、
-ゲルプリキッド、
-ヴィオレットリキッド。
+#ロートリキッドと
+#ブラオリキッド、
+#グリューンリキッドと、
+#ゲルプリキッド、
+#ヴィオレットリキッド。
+Rot Liquid,
+Blau Liquid,
+Gruen Liquid,
+Gelb Liquid,
+and Violett Liquid.
 [ENDBLOCK]
-この五つを持ってきたら、
-調合して、エリクシールを
-作ってあげるわよ。
+#この五つを持ってきたら、
+#調合して、エリクシールを
+#作ってあげるわよ。
+If you bring these five 
+things to me, I can mix them 
+into an Elixer for you.
 [ENDBLOCK]
-なんでもアルヴァン山脈を
-越える行商人の間では
-<item:20000001>が非常食になってるとか。
+#なんでもアルヴァン山脈を
+#越える行商人の間では
+#<item:20000001>が非常食になってるとか。
+I'm told that travellers going over
+the Alvan Mountains eat <item:20000001>s 
+as emergency rations.
 [ENDBLOCK]
-ミナールの食堂には
-めったにメニューに出さないという
-<item:20000002>があると言われてますよ。
+#ミナールの食堂には
+#めったにメニューに出さないという
+#<item:20000002>があると言われてますよ。
+They say that though the restaurant
+in Minal rarely has <item:20000002>
+listed on the menu, they still serve it.
 [ENDBLOCK]
-ペトナジャンカの隠れた名品、
-<item:20000003>はもう手に入れましたか？
+#ペトナジャンカの隠れた名品、
+#<item:20000003>はもう手に入れましたか？
+Have you acquired Petnadjanka's
+elusive specialty, <item:20000003>?
 [ENDBLOCK]
-サニイタウンの宿屋の食事は
-おいしい<item:20000005>が売りなんですって。
+#サニイタウンの宿屋の食事は
+#おいしい<item:20000005>が売りなんですって。
+The sell delicious <item:20000005>
+at the inn in Sannytown.
 [ENDBLOCK]
-アニカマルの人々は
-ほぼ毎日が<item:20000006>っていうくらいに
-<item:20000006>好きの人が多いそうですよ。
+#アニカマルの人々は
+#ほぼ毎日が<item:20000006>っていうくらいに
+#<item:20000006>好きの人が多いそうですよ。
+The people of Anikamal eat lots
+of <item:20000006> everyday, so
+there's lot's of folks who love <item:20000006>.
 [ENDBLOCK]
-バビログラードには<item:20000007>を上手に作る
-ガジュマの女の子が住んでいるとか。
-一度食べさせてもらっては？
+#バビログラードには<item:20000007>を上手に作る
+#ガジュマの女の子が住んでいるとか。
+#一度食べさせてもらっては？
+There's a girl in Babilograd
+who makes the best <item:20000007>.
+Why don't you go try some?
 [ENDBLOCK]
-バルカでは最高の<item:20000009>を
-出してくれる店があるとか。
-バルカの隠れた目玉らしいです。
+#バルカでは最高の<item:20000009>を
+#出してくれる店があるとか。
+#バルカの隠れた目玉らしいです。
+#目玉 -> Something that catches customer's eyes and is frequently purchased.
+There's a store in Balka that
+serves the best <item:20000009>.
+It's Balka's hidden specialty.
 [ENDBLOCK]
-ミナールの酒場の主人は
-すごくおいしい<item:2000000A>を
-作れるそうなんです。
+#ミナールの酒場の主人は
+#すごくおいしい<item:2000000A>を
+#作れるそうなんです。
+The host at the bar in
+Minal can make one
+mean <item:2000000A>.
 [ENDBLOCK]
-ラジルダの宿屋はたまに
-サービスをしてくれるんですよ。
-もしかしたら、おいしいものが食べられるかも。
+#ラジルダの宿屋はたまに
+#サービスをしてくれるんですよ。
+#もしかしたら、おいしいものが食べられるかも。
+The inn in Razilda sometimes
+throws in a little something
+extra for their guests.
+Perhaps it's something tasty.
 [ENDBLOCK]
-ピピスタに住む主婦の間で
-はやりの<item:2000000C>。
-あなたも食べさせてもらっては？
+#ピピスタに住む主婦の間で
+#はやりの<item:2000000C>。
+#あなたも食べさせてもらっては？
+<item:2000000C> is popular amongst
+the housewives in Pipista.
+Have you tried some yet?
 [ENDBLOCK]
-キョグエンの食材屋には
-サービスで<item:2000000E>が
-置いてあるみたいですね。
+#キョグエンの食材屋には
+#サービスで<item:2000000E>が
+#置いてあるみたいですね。
+It looks like <item:2000000E>
+might be given out for free
+at the Grocery in Kyogen.
 [ENDBLOCK]
-寒いところならではの<item:2000000F>。
-ノルゼンの民家では毎日のように
-食べられているとか。
+#寒いところならではの<item:2000000F>。
+#ノルゼンの民家では毎日のように
+#食べられているとか。
+<item:2000000F> is common in cold areas.
+One of the households in Nolzen
+eats it almost everyday.
 [ENDBLOCK]
-ベルサスの宿屋は
-たまに気前のいいサービスをしてくれます。
-もちろん買い物をすれば、の話ですがね。
+#ベルサスの宿屋は
+#たまに気前のいいサービスをしてくれます。
+#もちろん買い物をすれば、の話ですがね。
+Belsas's Inn is sometimes generous
+with the freebies. That is, if
+you buy something from them.
 [ENDBLOCK]
-北の方の人知れぬ里に<item:20000011>という
-それはとてもおいしい料理があるとか。
+#北の方の人知れぬ里に<item:20000011>という
+#それはとてもおいしい料理があるとか。
+In a northern village unknown
+to most, there's a very
+delicious food known as <item:20000011>.
 [ENDBLOCK]
-好漁の時はバルカ港で
-おいしいお刺身が
-食べられる事があるんですよ。
+#好漁の時はバルカ港で
+#おいしいお刺身が
+#食べられる事があるんですよ。
+When it's fishing season,
+you can eat some delicious
+sashimi at Balka Harbor.
 [ENDBLOCK]
-バビログラードへ行くまでの登山洞内に
-伝説のレシピがあったとかなかったとか。
+#バビログラードへ行くまでの登山洞内に
+#伝説のレシピがあったとかなかったとか。
+There may or may not be
+a legendary recipe in
+the Climber's Cavern
+on the way to Babilograd.
 [ENDBLOCK]
-キョグエンのものしりじいさんは
-色んな事を知っているそうですよ。
-もしかしたら、おいしい料理の事も
-教えてくれるかも。
+#キョグエンのものしりじいさんは
+#色んな事を知っているそうですよ。
+#もしかしたら、おいしい料理の事も
+#教えてくれるかも。
+There's a wise old man in
+Kyogen who knows lots of stuff.
+Maybe he knows about some
+good food as well.
 [ENDBLOCK]
-ミナールの酒場では
-普通のサラダではないすごい
-サラダのレシピがあるそうです。
-
+#ミナールの酒場では
+#普通のサラダではないすごい
+#サラダのレシピがあるそうです。
+There's a great recipe for
+salad at the Bar in Minal.
+But it's not your usual salad!
 [ENDBLOCK]
-ちょっとやそっとの事では
-教えてくれそうにないですけど。
+#ちょっとやそっとの事では
+#教えてくれそうにないですけど。
+To put it simply, I have
+nothing to share with you. 
 [ENDBLOCK]
-お料理とは関係ないんですけど……
-カレーズってけっこう迷いやすい
-構造でしょ？
+#お料理とは関係ないんですけど……
+#カレーズってけっこう迷いやすい
+#構造でしょ？
+Well, this has nothing to do
+with cooking...but isn't Karez
+really easy to get lost in?
 [ENDBLOCK]
-あなたたちも迷子に
-なったんじゃありません？
+#あなたたちも迷子に
+#なったんじゃありません？
+Have you folks gotten
+lost in there as well?
 [ENDBLOCK]
-ただいまこちらには
-特にこれといった料理の情報は
-ありませんね。
+#ただいまこちらには
+#特にこれといった料理の情報は
+#ありませんね。
+We have no information
+on recipes at the moment.
 [ENDBLOCK]
 select
 [ENDBLOCK]
