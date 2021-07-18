@@ -913,23 +913,36 @@ No
 無駄じゃなかったわ……！
 
 [ENDBLOCK]
-馬車屋
+#馬車屋
+Coachman
 [ENDBLOCK]
-申し訳ありません。
-馬車は運休となっております。
+#申し訳ありません。
+#馬車は運休となっております。
+My apologies.
+The horse carriage is not in
+service at the moment.
 [ENDBLOCK]
-<0E:80000002>お金が足りないようですね。
-馬車のご利用料金は
-<09:0000012C>ガルドになります。
+#<0E:80000002>お金が足りないようですね。
+#馬車のご利用料金は
+#<09:0000012C>ガルドになります。
+You don't have enough money.
+You need <09:0000012C> Gald to
+ride the horse carriage.
 [ENDBLOCK]
-<0E:80000002>馬車をご利用になりますか？
-料金は定額で<09:0000012C>ガルドになります。
+#<0E:80000002>馬車をご利用になりますか？
+#料金は定額で<09:0000012C>ガルドになります。
+Do you need a ride on the
+horse carriage? It costs 
+<09:0000012C> Gald per trip.
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140><0E:80000002>馬車を利用しますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140><0E:80000002>馬車を利用しますか？
+#　はい　
+#　いいえ　
+<07:00000000><size:00000140>Ride the Horse Carriage?
+Yes
+No
 [ENDBLOCK]
 
 [ENDBLOCK]
@@ -939,45 +952,73 @@ select
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140><0E:80000002>馬車で{18}{48}{18}{05}{28}{B8}{04}{88}{80}に移動します。
-料金<09:0000012C>ガルド
-　はい　
-　いいえ　
+#<07:00000000><size:00000140><0E:80000002>馬車で{18}{48}{F4}{0C}{28}{B8}{04}{88}{80}に移動します。
+#料金<09:0000012C>ガルド
+#　はい　
+#　いいえ　
+<07:00000000><size:00000140>To go to {18}{48}{18}{05}{28}{B8}{04}{88}{80}
+it'll be <09:0000012C> Gald.
+Yes
+No
 [ENDBLOCK]
-　スールズ　
+#　スールズ　
+#
+Sulz
 
 [ENDBLOCK]
-　ミナール　
+#　ミナール　
+#
+Minal
 
 [ENDBLOCK]
-　ペトナジャンカ　
+#　ペトナジャンカ　
+#
+Petnadjanka
 
 [ENDBLOCK]
-　サニイタウン　
+#　サニイタウン　
+#
+Sannytown
 
 [ENDBLOCK]
-　アニカマル　
+#　アニカマル　
+#
+Anikamal
 
 [ENDBLOCK]
-　バビログラード　
+#　バビログラード　
+#
+Babilograd
 
 [ENDBLOCK]
-　ラジルダ　
+#　ラジルダ　
+#
+Razilda
 
 [ENDBLOCK]
-　ピピスタ　
+#　ピピスタ　
+#
+Pipista
 
 [ENDBLOCK]
-　キョグエン　
+#　キョグエン　
+#
+Kyogen
 
 [ENDBLOCK]
-　ノルゼン　
+#　ノルゼン　
+#
+Nolzen
 
 [ENDBLOCK]
-　モクラド　
+#　モクラド　
+#
+Mocrado
 
 [ENDBLOCK]
-　馬車に乗らない　
+#　馬車に乗らない　
+#
+Don't ride the carriage.
 
 [ENDBLOCK]
 select
