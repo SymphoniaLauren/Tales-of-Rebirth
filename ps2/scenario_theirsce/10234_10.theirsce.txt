@@ -669,7 +669,7 @@ why I wanted to protect her...
 #何もしてやれないのか!!
 #何もしてやらない -> Can't do nothing. Needs review.
 <voice:0C0000D6>Am I not able to do 
-anything for Claire!!
+anything for Claire!?
 [ENDBLOCK]
 <Eugene>
 [ENDBLOCK]
@@ -762,7 +762,7 @@ notice
 #<Red>称号<Green>は各キャラクターに与えられるもので、
 #取得する事で、戦闘パラメータに
 #ボーナスが付きます。
-<Green>All characters can aqcuire
+<Green>All characters can acquire
 <Red>Titles<Green>, and bonuses will
 be applied to their stats.
 [ENDBLOCK]
@@ -771,10 +771,9 @@ notice
 #<Green>取得した称号のボーナスは
 #<Red>合計加算<Green>されますので、
 #どの称号を名乗るかは自由です。
-<Green><Green>The stat bonuses of all acquired 
-titles are added <Red>together<Green>, so feel 
+<Green>The stat bonuses of all acquired 
+titles <Red>stack up<Green>, so feel 
 free to equip whatever titles you like.
-and they 
 [ENDBLOCK]
 notice
 [ENDBLOCK]
@@ -958,9 +957,9 @@ be at the top of your game!
 [ENDBLOCK]
 notice
 [ENDBLOCK]
-<Green>戦闘に関する記録は
-バトルブックの<Red>戦闘履歴<Green>で
-確認する事ができます。
+#<Green>戦闘に関する記録は
+#バトルブックの<Red>戦闘履歴<Green>で
+#確認する事ができます。
 <Green>Your accomplishments in battle are
 also recorded in the <Red>Records<Green>
 section of the Battle Book.
@@ -972,7 +971,7 @@ select
 #　 はい　
 #　 いいえ　
 #
-<07:00000000><size:00000140>Read the Battlebook?
+<07:00000000><size:00000140>Read the Battle Book?
 　 Yes 
 　 No 　
 
@@ -1201,13 +1200,18 @@ your's as well...
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>休憩しますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>休憩しますか？
+#　はい
+#　いいえ　
+<07:00000000><size:00000140>Would you like to rest?
+Yes
+No
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:00000140><07:00000000>{19}{34}{04}{80} joined the party.
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:00000140><07:00000000>{19}{34}{10}{80} is now travelling with you.
 [ENDBLOCK]
 notice
 [ENDBLOCK]

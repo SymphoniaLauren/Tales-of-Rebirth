@@ -422,13 +422,7 @@ for interrupting.
 [ENDBLOCK]
 #<voice:0C000015>クレアさんだって危ない目に
 #あったのにね……
-#Abunai me ni au -> be exposed to danger
-#she no likey the sufferings of others
-#Mao's pretty much saying she seems more
-#upset hearing about others suffering
-#than having been stuck in an ice cube for a year.
 #Lit. Claire too was in danger and yet...
-#This one was localized on my part. Please review.
 <voice:0C000015>Claire seemed real upset 
 just now despite being through 
 a whole lot herself...
@@ -718,7 +712,7 @@ about you.
 #ずっとこの家の世話になって来た。
 <voice:0C00003B>I was dependent on your 
 family the entire time 
-you were in the ice.
+you were frozen.
 [ENDBLOCK]
 <Veigue>
 [ENDBLOCK]
@@ -1583,13 +1577,18 @@ Zapie
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>休憩しますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>休憩しますか？
+#　はい
+#　いいえ　
+<07:00000000><size:00000140>Would you like to rest?
+Yes
+No
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:00000140><07:00000000>{19}{34}{04}{80} joined the party.
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:00000140><07:00000000>{19}{34}{10}{80} is now travelling with you.
 [ENDBLOCK]
 notice
 [ENDBLOCK]

@@ -1,47 +1,77 @@
 notice
 [ENDBLOCK]
-<Red>料理<Green>が実行可能になりました。
+#<Red>料理<Green>が実行可能になりました。
+<Green>You can now <Red>Cook<Green>.
 [ENDBLOCK]
-宿屋・食材屋
+#宿屋・食材屋
+Inn・Grocery Store
 [ENDBLOCK]
-スールズ・宿屋・食材屋
+#スールズ・宿屋・食材屋
+Sulz・Inn・Grocery Store
 [ENDBLOCK]
-スールズ
-[ENDBLOCK]
-
-[ENDBLOCK]
-<07:00000000>『スールズ遠景』
-二十年以上前、村を訪れた画家を
-無理やり泊め、描かせたもの。
-スールズ近くの山から見下ろした
-光景を描いたもの。
-かなりぞんざいに描かれている。
+#スールズ
+Sulz
 [ENDBLOCK]
 
 [ENDBLOCK]
-<07:00000000>『駄馬』
-二十年以上前、村を訪れた画家を
-無理やり泊め、描かせたもの。
-その画家がなぜこの絵を描いたかは
-不明だが、何か強い意志のような
-ものを感じる迫力ある作品。
+#<07:00000000>『スールズ遠景』
+#二十年以上前、村を訪れた画家を
+#無理やり泊め、描かせたもの。
+#スールズ近くの山から見下ろした
+#光景を描いたもの。
+#かなりぞんざいに描かれている。
+<07:00000000> "Sulz in the distance"
+More than 20 years ago, an artist
+who visited the village was forced
+to stay and paint this picture.
+This is a painting of a scene
+looking down from a mountain near Sulz.
+It is drawn quite crudely.
 [ENDBLOCK]
 
 [ENDBLOCK]
-<07:00000000>『壁の絵』
-二十年以上前、強引にここに
-泊めさせられ、何枚もの絵を
-描かされた旅の画家が、住人の
-目を盗んで描いた花の絵。
-花言葉「翼をください」
+#<07:00000000>『駄馬』
+#二十年以上前、村を訪れた画家を
+#無理やり泊め、描かせたもの。
+#その画家がなぜこの絵を描いたかは
+#不明だが、何か強い意志のような
+#ものを感じる迫力ある作品。
+<07:00000000> "Workhorse"
+More than 20 years ago, an artist
+who visited the village was forced
+to stay and paint this picture.
+It is unclear why the artist painted
+this picture, but it is a powerful work
+of art with a strong sense of will.
 [ENDBLOCK]
-宿屋「白銀亭」
+
 [ENDBLOCK]
-うちに<Veigue>は
-泊めちゃならないって
-言われてんだよ。
+#<07:00000000>『壁の絵』
+#二十年以上前、強引にここに
+#泊めさせられ、何枚もの絵を
+#描かされた旅の画家が、住人の
+#目を盗んで描いた花の絵。
+#花言葉「翼をください」
+<07:00000000> "Wall Painting"
+More than 20 years ago, a traveling artist
+was forced to stay here and paint a number
+of flower pictures, which he did under
+the watchful eyes of the residents.
+Title: Please Give Me Wings
 [ENDBLOCK]
-自分の家に帰ったらどうだ？
+#宿屋「白銀亭」
+Inn "Silver House"
+[ENDBLOCK]
+#うちに<Veigue>は
+#泊めちゃならないって
+#言われてんだよ。
+I was told that you
+can't stay here
+overnight, <Veigue>.
+[ENDBLOCK]
+#自分の家に帰ったらどうだ？
+Why don't you go
+back to your house?
 [ENDBLOCK]
 <Veigue>の友達？
 [ENDBLOCK]
@@ -91,13 +121,18 @@ notice
 [ENDBLOCK]
 泊まっていくかい？
 [ENDBLOCK]
-食材屋「雪割草」
+#食材屋「雪割草」
+Grocery Store "Snowflake"
 [ENDBLOCK]
-クレアが戻って来て、
-よかったの、<Veigue>。
+#クレアが戻って来て、
+#よかったの、<Veigue>。
+Good work bringing
+Claire back, <Veigue>.
 [ENDBLOCK]
-早く家に戻ってやらなくて
-良いのかの？
+#早く家に戻ってやらなくて
+#良いのかの？
+Shouldn't you be
+heading home now?
 [ENDBLOCK]
 <Veigue>んとこの
 お客さんかの？
@@ -179,12 +214,17 @@ notice
 これをやるから、
 実際にやってみるといい。
 [ENDBLOCK]
-宿屋のおかみ
+#宿屋のおかみ
+Innkeeper's wife
 [ENDBLOCK]
-<Veigue>……あまりウチに
-来ないでほしいねぇ……
+#<Veigue>……あまりウチに
+#来ないでほしいねぇ……
+<Veigue>... I hope you
+don't come by too often...
 [ENDBLOCK]
-ウチの子にも近寄らないでおくれ。
+#ウチの子にも近寄らないでおくれ。
+Please stay away from
+my child as well.
 [ENDBLOCK]
 <Veigue>の知り合いかい？
 [ENDBLOCK]
@@ -269,13 +309,18 @@ notice
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>休憩しますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>休憩しますか？
+#　はい
+#　いいえ　
+<07:00000000><size:00000140>Would you like to rest?
+Yes
+No
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:00000140><07:00000000>{19}{34}{04}{80} joined the party.
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:00000140><07:00000000>{19}{34}{10}{80} is now travelling with you.
 [ENDBLOCK]
 notice
 [ENDBLOCK]

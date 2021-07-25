@@ -1,59 +1,89 @@
-民家
+#民家
+Private House
 [ENDBLOCK]
-スールズ・民家
+#スールズ・民家
+Sulz - Private House
 [ENDBLOCK]
-スールズ
-[ENDBLOCK]
-
-[ENDBLOCK]
-<07:00000000>『食材置き場』
-年中涼しいスールズでは、
-半地下に食材置き場を作るのが
-一般的。ひんやりしている。
-
+#スールズ
+Sulz
 [ENDBLOCK]
 
 [ENDBLOCK]
-<07:00000000>『スールズ式ストーブ』
-室内の暖房だけではなく、
-調理用の加熱器にもなる優れもの。
-室内を乾燥させないように
-お湯を沸かすのも生活の知恵。
+#<07:00000000>『食材置き場』
+#年中涼しいスールズでは、
+#半地下に食材置き場を作るのが
+#一般的。ひんやりしている。
+<07:00000000> "Pantry"
+In Sulz, where it's cold all year round,
+it's common to build a food storage area
+in the semi-basement.
 
 [ENDBLOCK]
-サム
+
 [ENDBLOCK]
-誰？　どこから来た人？
-<Veigue>のお友達？
+#<07:00000000>『スールズ式ストーブ』
+#室内の暖房だけではなく、
+#調理用の加熱器にもなる優れもの。
+#室内を乾燥させないように
+#お湯を沸かすのも生活の知恵。
+<07:00000000> "Sulz-type Stove"
+It is not only used for room heating,
+but also excellent for cooking.
+It is also common knowledge to boil
+water so that the room does not dry out.
+
+[ENDBLOCK]
+#サム
+Sam
+[ENDBLOCK]
+#誰？　どこから来た人？
+#<Veigue>のお友達？
+Who are you? Where are
+you from? Are you
+<Veigue>'s friends?
 [ENDBLOCK]
 やっぱり人を
 凍らせちゃうの？
 [ENDBLOCK]
+#<Veigue>!!
+#僕、何も悪い事してないよ？
 <Veigue>!!
-僕、何も悪い事してないよ？
+I didn't do anything wrong, I promise!
 [ENDBLOCK]
-だから、凍らせないで？
+#だから、凍らせないで？
+So please don't freeze me, okay?
 [ENDBLOCK]
-クレアちゃん、かわいそう……
+#クレアちゃん、かわいそう……
+Poor Claire...
 [ENDBLOCK]
-クレアちゃん、助けにいくの？
+#クレアちゃん、助けにいくの？
+Are you going to rescue Claire?
 [ENDBLOCK]
-え、お父さん？　知らないよ？
-さっきまで家の前で働いてたけど……
+#え、お父さん？　知らないよ？
+#さっきまで家の前で働いてたけど……
+Oh, my dad? You don't know?
+He was just working in front
+of the house til just now...
 [ENDBLOCK]
-お父さんに、トムくんとは
-遊ぶなって言われちゃった……
-どうして？
+#お父さんに、トムくんとは
+#遊ぶなって言われちゃった……
+#どうして？
+My father told me I
+couldn't play with
+Tom...why's that?
 [ENDBLOCK]
 最近、うちの父ちゃん、
 窓の外を見てため息ばかり……
 ……どうして？
 [ENDBLOCK]
-村のみんなで
-ピーチパイを……？
+#村のみんなで
+#ピーチパイを……？
+Everyone in the village
+is going to eat peach pie?
 [ENDBLOCK]
-じゃあ、トムくんも
-来るかな？
+#じゃあ、トムくんも
+#来るかな？
+So, is Tom going too?
 [ENDBLOCK]
 「ろうどうは、とおとい」！
 [ENDBLOCK]
@@ -68,7 +98,8 @@
 疲れちゃったから、
 休憩中……
 [ENDBLOCK]
-サムの母親
+#サムの母親
+Sam's mother
 [ENDBLOCK]
 クレアちゃん、かわいそうにね……
 [ENDBLOCK]
@@ -76,10 +107,13 @@
 この辺りでは
 見ない顔だけど……
 [ENDBLOCK]
-<Veigue>、悪いけど
-あんたが来ると
-うちの子供が怖がるの、
-凍らされるって。
+#<Veigue>、悪いけど
+#あんたが来ると
+#うちの子供が怖がるの、
+#凍らされるって。
+I'm sorry <Veigue>, but my kids
+get scared when you come over,
+they think you'll freeze them.
 [ENDBLOCK]
 そりゃ、あんたが助けに
 行くのがスジってもんよ。
@@ -172,13 +206,18 @@
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>休憩しますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>休憩しますか？
+#　はい
+#　いいえ　
+<07:00000000><size:00000140>Would you like to rest?
+Yes
+No
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:00000140><07:00000000>{19}{34}{04}{80} joined the party.
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:00000140><07:00000000>{19}{34}{10}{80} is now travelling with you.
 [ENDBLOCK]
 notice
 [ENDBLOCK]

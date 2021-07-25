@@ -1,6 +1,7 @@
 notice
 [ENDBLOCK]
-<Red>料理<Green>が実行可能になりました。
+#<Red>料理<Green>が実行可能になりました。
+<Green>You can now <Red>Cook<Green>.
 [ENDBLOCK]
 #スールズ
 Sulz
@@ -13,8 +14,9 @@ House
 [ENDBLOCK]
 
 [ENDBLOCK]
-<07:00000000>『案内板』
+#<07:00000000>『案内板』
 #←　村出口
+<07:00000000>『Guidepost』
 ← Village Exit
 [ENDBLOCK]
 #サムの父親
@@ -223,13 +225,18 @@ seeing you later...
 [ENDBLOCK]
 select
 [ENDBLOCK]
-<07:00000000><size:00000140>休憩しますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>休憩しますか？
+#　はい
+#　いいえ　
+<07:00000000><size:00000140>Would you like to rest?
+Yes
+No
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:00000140><07:00000000>{19}{34}{04}{80} joined the party.
 [ENDBLOCK]
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:00000140><07:00000000>{19}{34}{10}{80} is now travelling with you.
 [ENDBLOCK]
 notice
 [ENDBLOCK]
