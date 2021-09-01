@@ -1,57 +1,93 @@
 <07:00000000><size:00000118><08:00000040><color:2080FFFF>  - Tutorial -<size:00000100><08:00000000><color:80C0C0C0>
 
 [ENDBLOCK]
-<07:00000000>チュートリアルを見ますか？
+#<07:00000000>チュートリアルを見ますか？
+#　
+#<color:2040C040>
+<07:00000000>View Tutorial?
 　
 <color:2040C040>
 [ENDBLOCK]
+#
+#　
+#<color:80000000><size:000000C0><button:00000030>見る　<button:00000031>すぐ始める
 
 　
-<color:80000000><size:000000C0><button:00000030>見る　<button:00000031>すぐ始める
+<color:80000000><size:000000C0><button:00000030> Watch　<button:00000031> Skip
 [ENDBLOCK]
-<07:00000000>再チャレンジしますか？
+#<07:00000000>再チャレンジしますか？
+#　
+#<color:80000000><size:000000C0><button:00000030>する　<button:00000031>しない
+<07:00000000>Retry?
 　
-<color:80000000><size:000000C0><button:00000030>する　<button:00000031>しない
+<color:80000000><size:000000C0><button:00000030> Yes　<button:00000031> No
 [ENDBLOCK]
-タックル
+#タックル
+Tackle
 [ENDBLOCK]
-なにも持ってないときに<button:00000030>で
-タックルをします
+#なにも持ってないときに<button:00000030>で
+#タックルをします
+When you aren't holding anything
+you can use the <button:00000030> button to tackle.
 [ENDBLOCK]
-倒れたキャラクターはアイテム同様
-持つことも、<button:00000030>で投げることもできます。
+#倒れたキャラクターはアイテム同様
+#持つことも、<button:00000030>で投げることもできます。
+Any character you knock down can be
+held like an item and thrown with <button:00000030>.
 [ENDBLOCK]
-アイテム「おけ」
+#アイテム「おけ」
+Item: Bucket
 [ENDBLOCK]
-発動すると、大量のお湯が落ちてきます。
+#発動すると、大量のお湯が落ちてきます。
+When activated, a torrent of hot
+water will fall onto the stage.
 [ENDBLOCK]
-中心近くにいるとダメージをうけます。
+#中心近くにいるとダメージをうけます。
+If you find yourself inside
+of the stream, you'll take damage.
 [ENDBLOCK]
-アイテム「ホール」
+#アイテム「ホール」
+Item: Hole
 [ENDBLOCK]
-発動すると、周囲のものを引きつける
-ブラックホールが出現します。
+#発動すると、周囲のものを引きつける
+#ブラックホールが出現します。
+When activated, it spawns a Black Hole
+that sucks in its surroundings.
 [ENDBLOCK]
-また、周囲のものを引きはなす
-ホワイトホールも存在します。
+#また、周囲のものを引きはなす
+#ホワイトホールも存在します。
+There's also a White Hole
+that repels everything.
 [ENDBLOCK]
-アイテム「ジャンプ」
+#アイテム「ジャンプ」
+Item: Jump Stand
 [ENDBLOCK]
-発動すると、ジャンプ台が出現します。
+#発動すると、ジャンプ台が出現します。
+When activated, a Jump Stand will appear.
 [ENDBLOCK]
-・タックル
-・アイテム「おけ」
+#・タックル
+#・アイテム「おけ」
+・Tackling
+・Item: Bucket
 [ENDBLOCK]
-・アイテム「ホール」
+#・アイテム「ホール」
+・Item: Hole
 [ENDBLOCK]
-・アイテム「ジャンプ」
+#・アイテム「ジャンプ」
+・Item: Jumpstand
 [ENDBLOCK]
-倒せ！
-ギンナル
+#倒せ！
+#ギンナル
+Throwdown!
+Vs. Ginnar!
 [ENDBLOCK]
-倒せ！
-ユシア、ドルンブ
+#倒せ！
+#ユシア、ドルンブ
+Throwdown!
+Vs. Yucia & Dorn
 [ENDBLOCK]
-倒せ！
-漆黒の翼
+#倒せ！
+#漆黒の翼
+Throwdown!
+Vs. The Dark Wings
 [ENDBLOCK]
