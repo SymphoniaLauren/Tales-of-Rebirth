@@ -1,0 +1,415 @@
+//GAME NAME:		Tales of Rebirth
+
+//BLOCK #000 NAME:		Dreamer01
+//POINTER #0 @ $8 - STRING #0 @ $16C
+//ザ・テストメッセージ[LINE]
+//なのです[END]
+[END]
+// current address: $18A
+
+//POINTER #1 @ $C - STRING #1 @ $18A
+//[Red]DEBUG[No_Color]テキストが無い[END]
+[END]
+// current address: $1A8
+
+//POINTER #2 @ $10 - STRING #2 @ $1A8
+//待機[END]
+Wait[END]
+// current address: $1AD
+
+//POINTER #3 @ $14 - STRING #3 @ $1AD
+//アイテムを取る[END]
+Grab Item[END]
+// current address: $1BC
+
+//POINTER #4 @ $18 - STRING #4 @ $1BC
+//どっかに投げる[END]
+Throw[END]
+// current address: $1CB
+
+//POINTER #5 @ $1C - STRING #5 @ $1CB
+//移動[END]
+Move[END]
+// current address: $1D0
+
+//POINTER #6 @ $20 - STRING #6 @ $1D0
+//投げる[END]
+Run[END]
+// current address: $1D7
+
+//POINTER #7 @ $24 - STRING #7 @ $1D7
+//タックル[END]
+Tackle[END]
+// current address: $1E0
+
+//POINTER #8 @ $28 - STRING #8 @ $1E0
+- rsv -[END]
+// current address: $1E8
+
+//POINTER #9 @ $2C - STRING #9 @ $1E8
+- rsv -[END]
+// current address: $1F0
+
+//POINTER #10 @ $30 - STRING #10 @ $1F0
+- rsv -[END]
+// current address: $1F8
+
+//POINTER #11 @ $34 - STRING #11 @ $1F8
+- rsv -[END]
+// current address: $200
+
+//POINTER #12 @ $38 - STRING #12 @ $200
+- rsv -[END]
+// current address: $208
+
+//POINTER #13 @ $3C - STRING #13 @ $208
+[Veigue][END]
+// current address: $20E
+
+//POINTER #14 @ $40 - STRING #14 @ $20E
+[Mao][END]
+// current address: $214
+
+//POINTER #15 @ $44 - STRING #15 @ $214
+[Eugene][END]
+// current address: $21A
+
+//POINTER #16 @ $48 - STRING #16 @ $21A
+[Annie][END]
+// current address: $220
+
+//POINTER #17 @ $4C - STRING #17 @ $220
+[Tytree][END]
+// current address: $226
+
+//POINTER #18 @ $50 - STRING #18 @ $226
+[Hilda][END]
+// current address: $22C
+
+//POINTER #19 @ $54 - STRING #19 @ $22C
+//ギンナル[END]
+Ginnar[END]
+// current address: $235
+
+//POINTER #20 @ $58 - STRING #20 @ $235
+//ユシア[END]
+Yucia[END]
+// current address: $23C
+
+//POINTER #21 @ $5C - STRING #21 @ $23C
+//ドルンブ[END]
+Dorn[END]
+// current address: $245
+
+//POINTER #22 @ $60 - STRING #22 @ $245
+//場外[END]
+Out-of-Bounds[END]
+// current address: $24A
+
+//POINTER #23 @ $64 - STRING #23 @ $24A
+GAME[END]
+// current address: $24F
+
+//POINTER #24 @ $68 - STRING #24 @ $24F
+//ミッション[END]
+Mission[END]
+// current address: $25A
+
+//POINTER #25 @ $6C - STRING #25 @ $25A
+//カスタム[END]
+Freeplay[END]
+// current address: $263
+
+//POINTER #26 @ $70 - STRING #26 @ $263
+NUMBER[END]
+// current address: $26A
+
+//POINTER #27 @ $74 - STRING #27 @ $26A
+ORDER[END]
+// current address: $270
+
+//POINTER #28 @ $78 - STRING #28 @ $270
+PLAYER[END]
+// current address: $277
+
+//POINTER #29 @ $7C - STRING #29 @ $277
+//０人[END]
+0[END]
+// current address: $27C
+
+//POINTER #30 @ $80 - STRING #30 @ $27C
+//１人[END]
+1[END]
+// current address: $281
+
+//POINTER #31 @ $84 - STRING #31 @ $281
+//２人[END]
+2[END]
+// current address: $286
+
+//POINTER #32 @ $88 - STRING #32 @ $286
+//３人[END]
+3[END]
+// current address: $28B
+
+//POINTER #33 @ $8C - STRING #33 @ $28B
+//４人[END]
+4[END]
+// current address: $290
+
+//POINTER #34 @ $90 - STRING #34 @ $290
+COMPUTER[END]
+// current address: $299
+
+//POINTER #35 @ $94 - STRING #35 @ $299
+STAGE[END]
+// current address: $29F
+
+//POINTER #36 @ $98 - STRING #36 @ $29F
+//テスト[END]
+Test[END]
+// current address: $2A6
+
+//POINTER #37 @ $9C - STRING #37 @ $2A6
+//牧場[END]
+Farm[END]
+// current address: $2AB
+
+//POINTER #38 @ $A0 - STRING #38 @ $2AB
+//崖岸[END]
+Cliff[END]
+// current address: $2B0
+
+//POINTER #39 @ $A4 - STRING #39 @ $2B0
+//牢獄[END]
+Jail[END]
+// current address: $2B5
+
+//POINTER #40 @ $A8 - STRING #40 @ $2B5
+//銭湯[END]
+Bathhouse[END]
+// current address: $2BA
+
+//POINTER #41 @ $AC - STRING #41 @ $2BA
+//墓場[END]
+Graveyard[END]
+// current address: $2BF
+
+//POINTER #42 @ $B0 - STRING #42 @ $2BF
+//どこか[END]
+Anywhere[END]
+// current address: $2C6
+
+//POINTER #43 @ $B4 - STRING #43 @ $2C6
+LIMIT[END]
+// current address: $2CC
+
+//POINTER #44 @ $B8 - STRING #44 @ $2CC
+//なし[END]
+None[END]
+// current address: $2D1
+
+//POINTER #45 @ $BC - STRING #45 @ $2D1
+//３０[END]
+30[END]
+// current address: $2D6
+
+//POINTER #46 @ $C0 - STRING #46 @ $2D6
+//９０[END]
+90[END]
+// current address: $2DB
+
+//POINTER #47 @ $C4 - STRING #47 @ $2DB
+//１８０[END]
+180[END]
+// current address: $2E2
+
+//POINTER #48 @ $C8 - STRING #48 @ $2E2
+SCORE[END]
+// current address: $2E8
+
+//POINTER #49 @ $CC - STRING #49 @ $2E8
+//なし[END]
+None[END]
+// current address: $2ED
+
+//POINTER #50 @ $D0 - STRING #50 @ $2ED
+//３０[END]
+30[END]
+// current address: $2F2
+
+//POINTER #51 @ $D4 - STRING #51 @ $2F2
+//１００[END]
+100[END]
+// current address: $2F9
+
+//POINTER #52 @ $D8 - STRING #52 @ $2F9
+//２５０[END]
+250[END]
+// current address: $300
+
+//POINTER #53 @ $DC - STRING #53 @ $300
+CHAIN[END]
+// current address: $306
+
+//POINTER #54 @ $E0 - STRING #54 @ $306
+ITEM[END]
+// current address: $30B
+
+//POINTER #55 @ $E4 - STRING #55 @ $30B
+//なし[END]
+None[END]
+// current address: $310
+
+//POINTER #56 @ $E8 - STRING #56 @ $310
+//炎[END]
+Fireball[END]
+// current address: $313
+
+//POINTER #57 @ $EC - STRING #57 @ $313
+//爆弾[END]
+Bomb[END]
+// current address: $318
+
+//POINTER #58 @ $F0 - STRING #58 @ $318
+//ホーミング[END]
+Heatseeker[END]
+// current address: $323
+
+//POINTER #59 @ $F4 - STRING #59 @ $323
+//いろいろ[END]
+Whatever[END]
+// current address: $32C
+
+//POINTER #60 @ $F8 - STRING #60 @ $32C
+1P[END]
+// current address: $32F
+
+//POINTER #61 @ $FC - STRING #61 @ $32F
+2P[END]
+// current address: $332
+
+//POINTER #62 @ $100 - STRING #62 @ $332
+3P[END]
+// current address: $335
+
+//POINTER #63 @ $104 - STRING #63 @ $335
+4P[END]
+// current address: $338
+
+//POINTER #64 @ $108 - STRING #64 @ $338
+NPC[END]
+// current address: $33C
+
+//POINTER #65 @ $10C - STRING #65 @ $33C
+HP[END]
+// current address: $33F
+
+//POINTER #66 @ $110 - STRING #66 @ $33F
+★[END]
+// current address: $342
+
+//POINTER #67 @ $114 - STRING #67 @ $342
+★★★[END]
+// current address: $349
+
+//POINTER #68 @ $118 - STRING #68 @ $349
+★★★★★[END]
+// current address: $354
+
+//POINTER #69 @ $11C - STRING #69 @ $354
+RECOVERY[END]
+// current address: $35D
+
+//POINTER #70 @ $120 - STRING #70 @ $35D
+//全快[END]
+All[END]
+// current address: $362
+
+//POINTER #71 @ $124 - STRING #71 @ $362
+//＋１[END]
++1[END]
+// current address: $367
+
+//POINTER #72 @ $128 - STRING #72 @ $367
+//しない[END]
+None[END]
+// current address: $36E
+
+//POINTER #73 @ $12C - STRING #73 @ $36E
+//ランダム[END]
+Random[END]
+// current address: $377
+
+//POINTER #74 @ $130 - STRING #74 @ $377
+ですかばり!![END]
+// current address: $384
+
+//POINTER #75 @ $134 - STRING #75 @ $384
+  *[END]
+// current address: $388
+
+//POINTER #76 @ $138 - STRING #76 @ $388
+－[END]
+// current address: $38B
+
+//POINTER #77 @ $13C - STRING #77 @ $38B
+[Red]赤色[No_Color]で表示されている項目を調整してください。[END]
+Please fix the [Red]Red[No_Color] entries.[END]
+// current address: $3C2
+
+//POINTER #78 @ $140 - STRING #78 @ $3C2
+//[Circle_ani]ゲーム開始  [Left+Right_blink][L1_ani][R1_ani]変更  [Cross_ani]夢から覚める[END]
+[Circle_ani] Start Game  [Left+Right_blink][L1_ani][R1_ani] Change  [Cross_ani] Wake Up[END]
+// current address: $3FE
+
+//POINTER #79 @ $144 - STRING #79 @ $3FE
+//[Circle_ani][Cross_ani]ポーズ解除  [Triangle_ani]終了する[END]
+[Circle_ani][Cross_ani] Unpause [Triangle_ani] Finish[END]
+// current address: $424
+
+//POINTER #80 @ $148 - STRING #80 @ $424
+//[Circle_ani][Cross_ani]ポーズ解除  [Triangle_ani]夢から覚める[END]
+[Circle_ani][Cross_ani] Unpause  [Triangle_ani] Wake Up[END]
+// current address: $44E
+
+//POINTER #81 @ $14C - STRING #81 @ $44E
+//[Circle_ani][Cross_ani]ポーズ解除[END]
+[Circle_ani][Cross_ani] Unpause[END]
+// current address: $463
+
+//POINTER #82 @ $150 - STRING #82 @ $463
+//未設定[END]
+Not Set[END]
+// current address: $46A
+
+//POINTER #83 @ $154 - STRING #83 @ $46A
+//時間いっぱい逃げろ！[END]
+Run Out the Clock![END]
+// current address: $47F
+
+//POINTER #84 @ $158 - STRING #84 @ $47F
+//[Font6]★を[TAG_016]個集めろ！[END]
+Collect [TAG_016] ★'s![END]
+// current address: $498
+
+//POINTER #85 @ $15C - STRING #85 @ $498
+//同時操作だ！[END]
+Synchro-Play!
+// current address: $4A5
+
+//POINTER #86 @ $160 - STRING #86 @ $4A5
+//逃げるが勝ち？[END]
+Flee to Win?END]
+// current address: $4B4
+
+//POINTER #87 @ $164 - STRING #87 @ $4B4
+//グミをつなげ！[END]
+Join the Gels!
+// current address: $4C3
+
+//POINTER #88 @ $168 - STRING #88 @ $4C3
+//グミをつなげ！[END]
+Join the Gels![END]
+// current address: $4D2
+
