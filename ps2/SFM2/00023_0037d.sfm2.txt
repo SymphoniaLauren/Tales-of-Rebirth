@@ -1,0 +1,156 @@
+<07:00000000><size:00000118><08:00000040><color:2080FFFF>  - Tutorial -<size:00000100><08:00000000><color:80C0C0C0>
+
+[ENDBLOCK]
+#<07:00000000>チュートリアルを見ますか？
+#　
+#<color:2040C040>
+<07:00000000>View tutorial?
+　
+<color:2040C040>
+[ENDBLOCK]
+#
+#　
+#<color:80000000><size:000000C0><button:00000030>見る　<button:00000031>すぐ始める
+
+　
+<color:80000000><size:000000C0><button:00000030> Watch　<button:00000031> Skip
+[ENDBLOCK]
+#<07:00000000>再チャレンジしますか？
+#　
+#<color:80000000><size:000000C0><button:00000030>する　<button:00000031>しない
+<07:00000000>Retry?
+　
+<color:80000000><size:000000C0><button:00000030> Yes　<button:00000031> No
+[ENDBLOCK]
+#体力　（★）
+Life　（★）
+[ENDBLOCK]
+#キャラクターの頭上にある★は
+#そのキャラクターの体力値です。
+The ★s above a character's head
+show the amount of life they have.
+[ENDBLOCK]
+#ダメージを受けると減っていき
+#なくなると倒れます。
+You'll lose a ★ if you take damage.
+If you run out, that's game over.
+[ENDBLOCK]
+#場外　（ステージ）
+Out-of-Bounds (Stage)
+[ENDBLOCK]
+#ステージを離れると場外となり
+#強制的にステージに戻されます。
+If you wander off of the stage,
+you'll be forced back onto it.
+[ENDBLOCK]
+#持つ、投げる
+Holding and Throwing
+[ENDBLOCK]
+#アイテムは持つことができます。
+Items can be held.
+[ENDBLOCK]
+#持っているアイテムは発動しません。<color:206060D0>（例外あり）
+Held items will remain inactive.
+<color:206060D0>(With some exceptions.)
+[ENDBLOCK]
+#持っているアイテムは、<button:00000030>で
+#投げることができます。
+You can throw a held item
+by using the <button:00000030> button.
+[ENDBLOCK]
+#投げられたアイテムは、地面にぶつかって
+#すぐに発動します。<color:206060D0>（例外あり）
+Thrown items will activate upon hitting
+the ground. <color:206060D0>(With some exceptions.)
+[ENDBLOCK]
+#アイテム「地形隆起」
+Item: Landscaper
+[ENDBLOCK]
+#発動すると、四方の地面を盛り上げます。
+This item raises the ground in four directions.
+[ENDBLOCK]
+#盛り上がった地面を乗り越えての
+#移動はできません。
+Travelling over the risen
+ground is not possible.
+[ENDBLOCK]
+#アイテム「炎」
+Item: Fireball
+[ENDBLOCK]
+#発動すると、四方に火の玉をばらまきます。
+This item sends out fireballs
+in four directions.
+[ENDBLOCK]
+#触れるとダメージをうけます。
+If you touch one of the
+fireballs, you'll take damage.
+[ENDBLOCK]
+#アイテム「爆弾」
+Item: Bomb
+[ENDBLOCK]
+#カウントが０になると爆発します。
+Bombs explode when the countdown reaches 0.
+[ENDBLOCK]
+#爆発にまきこまれると
+#ダメージをうけます。
+If you're in range of the 
+explosion, you'll take damage.
+[ENDBLOCK]
+#アイテム「いん石」
+Item: Meteor
+[ENDBLOCK]
+#発動すると、しばらくの間
+#いん石がふってきます。
+Meteors will rain down 
+while this item is active.
+[ENDBLOCK]
+#いん石は発動時に出た受け皿で
+#はね返すことができます。
+A shield is created when the item first
+activates that can be used as protection
+[ENDBLOCK]
+#いん石に当たるとダメージをうけます。
+If you're hit by a meteor,
+you'll take damage.
+[ENDBLOCK]
+#アイテム「ホーミング」
+Item: Heatseeker
+[ENDBLOCK]
+#発動すると、キャラクターを追う
+#光のタマが発射されます。
+When active, a ball of light
+will chase each character.
+[ENDBLOCK]
+#当たるとダメージをうけます。
+If you make contact,
+you'll take damage.
+[ENDBLOCK]
+#アイテム「レーザー」
+Item: Laser
+[ENDBLOCK]
+#発動すると、ステージ内に緑のラインが
+#走ります。
+This item spawns a green 
+laser across the stage.
+[ENDBLOCK]
+#ラインの色が赤くなってから
+#当たるとダメージをうけます。
+If you touch the line after it
+becomes red, you'll take damage.
+[ENDBLOCK]
+#・体力　（★）
+#・場外　（ステージ）
+#・アイテム
+#　　「地形隆起」「炎」「爆弾」
+#　　「いん石」「ホーミング」「レーザー」
+#・持つ、投げる
+・Life　（★）
+・Out-of-Bounds (Stage)
+・Items
+　　 Landscaper, Fireball, Bomb,
+　 　Meteor, Heatseeker, Laser
+・Holding and Throwing
+[ENDBLOCK]
+#時間いっぱい逃げろ！
+Run Out the Clock!
+[ENDBLOCK]
