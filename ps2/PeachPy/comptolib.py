@@ -95,9 +95,9 @@ def decompress_data(input: bytes, raw: bool=False, version: int=3)->bytes:
     return output
 
 def compress_file(input: str, output: str, raw: bool=False, version: int=3):
-    error = compto_fdecode(input, output, raw, version)
+    error = compto_fdecode(input.encode('utf-8'), output.encode('utf-8'), raw, version)
     RaiseError(error)
 
 def decompress_file(input: str, output: str, raw: bool=False, version: int=3):
-    error = compto_fencode(input, output, raw, version)
+    error = compto_fencode(input.encode('utf-8'), output.encode('utf-8'), raw, version)
     RaiseError(error)
