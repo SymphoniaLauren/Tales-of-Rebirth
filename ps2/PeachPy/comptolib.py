@@ -84,8 +84,8 @@ def decompress_data(input: bytes, raw: bool=False, version: int=3)->bytes:
         input_size = len(input)
         output_size = input_size * 10
     else:
-        version ,= struct.unpack('<b', input[:1])
-        input_size, output_size = struct.unpack('<2L', input[1:9])
+        version ,= struct.unpack("<b", input[:1])
+        input_size, output_size = struct.unpack("<2L", input[1:9])
         
     output = b"\x00" * output_size
     input = input[9:]
@@ -95,9 +95,9 @@ def decompress_data(input: bytes, raw: bool=False, version: int=3)->bytes:
     return output
 
 def compress_file(input: str, output: str, raw: bool=False, version: int=3):
-    error = compto_fdecode(input.encode('utf-8'), output.encode('utf-8'), raw, version)
+    error = compto_fencode(input.encode("utf-8"), output.encode("utf-8"), raw, version)
     RaiseError(error)
 
 def decompress_file(input: str, output: str, raw: bool=False, version: int=3):
-    error = compto_fencode(input.encode('utf-8'), output.encode('utf-8'), raw, version)
+    error = compto_fdecode(input.encode("utf-8"), output.encode("utf-8"), raw, version)
     RaiseError(error)
