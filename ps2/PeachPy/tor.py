@@ -462,6 +462,54 @@ def theirsce_to_text(theirsce: bytes, output: str):
     o.close()
 
 
+def extract_scenarios(args):
+    i = 1
+    out = get_parent_folder(args.input) + "/EXTRACTED/SCENARIO/"
+    os.makedirs(out, exist_ok=True)
+    scpk_folder = get_parent_folder(args.input) + "/DAT/SCPK"
+    for file in os.listdir(scpk_folder):
+        file_path = scpk_folder + "/" + file
+        if os.path.isfile(file_path) and file.endswith(".scpk"):
+            with open(file_path, "rb") as scpk:
+                theirsce = get_theirsce_from_scpk(scpk)
+
+            if theirsce == None:
+                continue
+            name = re.search(VALID_FILE_NAME, file).group(1)
+            theirsce_to_text(io.BytesIO(theirsce), out + name + ".txt")
+            
+            print("Writing file %05d.." % i, end="\r") # Not healthy
+            i += 1
+
+    print("Writing file %05d..." % (i-1))
+
+
+def get_theirsce_from_scpk(scpk)->bytes:
+    header = scpk.read(4)
+
+    if header != b"SCPK":
+        # sys.exit(f"{file} is not a .scpk file!")
+        raise ValueError("File is not a .scpk file!")
+
+    scpk.read(4)
+    files = struct.unpack("<L", scpk.read(4))[0]
+    scpk.read(4)
+    sizes = []
+    for i in range(files):
+        sizes.append(struct.unpack("<L", scpk.read(4))[0])
+
+    for i in range(files):
+        data = scpk.read(sizes[i])
+
+        if is_compressed(data):
+            data = comptolib.decompress_data(data)
+        
+        if data[:8] == b"THEIRSCE":
+            return data
+
+    return None
+
+
 def extract_single_scpk(file):
     file_name = get_file_name(file)
     folder_path = get_directory_path(file)
@@ -795,6 +843,8 @@ def extract_all(args):
     extract_dat(args)
     print("Extracting Skit text (pak2 files)...")
     extract_skits(args)
+    print("Extracting Scenario text (scpk files)...")
+    extract_scenarios(args)
 
 
 def check_arguments(parser, args):
@@ -944,8 +994,8 @@ if __name__ == "__main__":
             extract_dat(args)
         if args.file == "mfh":
             extract_mfh()
-        if args.file == "theirsce":
-            extract_theirsce()
+        #if args.file == "theirsce":
+            #extract_theirsce()
         if args.file == "scpk":
             extract_scpk(args)
 
