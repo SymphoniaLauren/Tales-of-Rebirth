@@ -33,8 +33,13 @@ def insert_padded_chunk(file: bytes, chunk: bytes, alignment: int = 4):
 
 
 def get_theirsce_from_pak2(file: bytes)->bytes:
-    offsets = struct.unpack("<2I", file[:8])
-    return file[offsets[0] : offsets[1]]
+    offsets = struct.unpack("<3I", file[:12])
+
+    # Handle null 2nd offset because of course that's a thing
+    if offsets[1] == 0:
+        return file[offsets[0] : offsets[2]]
+    else:
+        return file[offsets[0] : offsets[1]]
 
 
 def get_data(file: bytes)->pak2_file:
@@ -44,10 +49,13 @@ def get_data(file: bytes)->pak2_file:
     data.slot_count = struct.unpack("<H", file[0x1A:0x1C])[0]  # 0x20 always
     data.image_count = struct.unpack("<H", file[0x1C:0x1E])[0]
 
-    data.chunks.theirsce = file[offsets[0] : offsets[1]]
-
-    size = struct.unpack("<I", file[offsets[1] : offsets[1] + 4])[0] + 0x10
-    data.chunks.lipsync = file[offsets[1] : offsets[1] + size]
+    # Handle null 2nd offset because of course that's a thing
+    if offsets[1] == 0:
+        data.chunks.theirsce = file[offsets[0] : offsets[2]]
+    else:
+        data.chunks.theirsce = file[offsets[0] : offsets[1]]
+        size = struct.unpack("<I", file[offsets[1] : offsets[1] + 4])[0] + 0x10
+        data.chunks.lipsync = file[offsets[1] : offsets[1] + size]
 
     data.chunks.unused = file[offsets[2] : offsets[2] + (data.char_count * 4)]
     data.chunks.image_unk1 = file[offsets[3] : offsets[3] + (data.slot_count * 4)]
