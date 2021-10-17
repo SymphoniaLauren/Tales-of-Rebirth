@@ -351,6 +351,27 @@ def extract_dat(args):
     f.close()
 
 
+def extract_skits(args):
+    i = 1
+    out = get_parent_folder(args.input) + "/EXTRACTED/SKITS/"
+    os.makedirs(out, exist_ok=True)
+    pak2_folder = get_parent_folder(args.input) + "/DAT/PAK2"
+    for file in os.listdir(pak2_folder):
+        file_path = pak2_folder + "/" + file
+        if os.path.isfile(file_path) and file.endswith(".pak2"):
+            with open(file_path, "rb") as pak:
+                data = pak.read()
+            theirsce = pak2.get_theirsce_from_pak2(data)
+            name = re.search(VALID_FILE_NAME, file).group(1)
+            theirsce_to_text(theirsce, out + name + ".txt")
+            
+            print("Writing file %05d/1172..." % i, end="\r") # Not healthy
+            i += 1
+
+    print("Writing file %05d/1172..." % i-1)
+    return
+
+
 def theirsce_to_text(theirsce: bytes, output: str):
     json_file = open("tbl.json", "r")
     json_data = json.load(json_file)
@@ -765,9 +786,9 @@ def insert_files():
 
 def extract_all(args):
     print("Extracting DAT file...")
-    #extract_dat(args)
+    extract_dat(args)
     print("Extracting Skit text (pak2 files)...")
-    #extract_skits(args)
+    extract_skits(args)
 
 
 def check_arguments(parser, args):
