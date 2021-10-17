@@ -10,6 +10,8 @@ import argparse
 import textwrap
 from pathlib import Path
 import comptolib
+import pak2
+import io
 
 # Constants
 TAGS = {
@@ -44,14 +46,14 @@ COLORS = {
     7: "White",
 }
 
-SCRIPT_VERSION = "0.1"
+SCRIPT_VERSION = "0.2"
 POINTERS_BEGIN = 0xD76B0  # Offset to DAT.BIN pointer list start in SLPS_254.50 file
-POINTERS_END = 0xE60C8  # Offset to DAT.BIN pointer list end in SLPS_254.50 file
-HIGH_BITS = 0xFFFFFFC0
-LOW_BITS = 0x3F
+POINTERS_END   = 0xE60C8  # Offset to DAT.BIN pointer list end in SLPS_254.50 file
+HIGH_BITS      = 0xFFFFFFC0
+LOW_BITS       = 0x3F
 
 COMMON_TAG = r"(<\w+:?\w+>)"
-HEX_TAG = r"(\{[0-9A-F]{2}\})"
+HEX_TAG    = r"(\{[0-9A-F]{2}\})"
 
 VALID_FILE_NAME = r"([0-9]{5})(?:\.)?([1,3])?\.(\w+)$"
 
@@ -775,13 +777,19 @@ def insert_files():
     pack_scpk()
     move_scpk_packed()
 
+def extract_all(args):
+    print("Extracting DAT file...")
+    #extract_dat(args)
+    print("Extracting Skit text (pak2 files)...")
+    #extract_skits(args)
+
 
 def check_arguments(parser, args):
-    if not args.elf:
-        args.elf = get_directory_path(args.input) + "/SLPS_254.50"
+    if not args.elf_path:
+        args.elf_path = get_directory_path(args.input) + "/SLPS_254.50"
     
-    if not args.elf_out:
-        args.elf = get_directory_path(args.input) + "/NEW_SLPS_254.50"
+    if hasattr(args, "elf_out") and not args.elf_out:
+        args.elf_out = get_directory_path(args.input) + "/NEW_SLPS_254.50"
 
     if not args.output:
         if not os.path.isdir(args.input):
@@ -812,9 +820,9 @@ def get_arguments(argv=None):
     )
     sp_unpack.add_argument(
         "file",
-        choices=["dat", "mfh", "theirsce", "scpk"],
+        choices=["all", "dat", "mfh", "theirsce", "scpk"],
         metavar="FILE",
-        help="Options: dat, mfh, theirsce, scpk",
+        help="Options: all, dat, mfh, theirsce, scpk",
     )
 
     sp_unpack.add_argument(
@@ -842,7 +850,7 @@ def get_arguments(argv=None):
 
     sp_unpack.add_argument(
         "--no-decompress",
-        store=True,
+        action="store_true",
         help="Don't decompress compto files.",
     )
 
@@ -916,6 +924,8 @@ if __name__ == "__main__":
     print(vars(args))
 
     if args.action == "unpack":
+        if args.file == "all":
+            extract_all(args)
         if args.file == "dat":
             # extract_files(args)
             extract_dat(args)
