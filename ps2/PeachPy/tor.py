@@ -351,6 +351,90 @@ def extract_dat(args):
     f.close()
 
 
+def theirsce_to_text(theirsce: bytes, output: str):
+    json_file = open("tbl.json", "r")
+    json_data = json.load(json_file)
+    json_file.close()
+
+    o = open(output, "w+", encoding="utf-8")
+
+    header = theirsce.read(8)
+    if header != b"THEIRSCE":
+        raise ValueError("No THEIRSCE header")
+    
+    pointer_block = struct.unpack("<L", theirsce.read(4))[0]
+    text_block = struct.unpack("<L", theirsce.read(4))[0]
+    fsize = len(theirsce)
+    text_pointers = []
+    addrs = []
+    theirsce.seek(pointer_block, 0)
+
+    while theirsce.tell() < text_block:
+        b = theirsce.read(1)
+        if b == b"\xF8":
+            addr = struct.unpack("<H", theirsce.read(2))[0]
+            if (addr < fsize - text_block) and (addr > 0):
+                # theirsce_data[name].append(theirsce.tell() - 2)
+                addrs.append(theirsce.tell() - 2)
+                text_pointers.append(addr)
+
+    if len(text_pointers) == 0:
+        return o
+
+    for i in range(len(text_pointers)):
+        theirsce.seek(text_block + text_pointers[i] - 1, 0)
+        b = theirsce.read(1)
+        if b != b"\x00":
+            continue
+
+        b = theirsce.read(1)
+        while b != b"\x00":
+            b = ord(b)
+            if (b >= 0x99 and b <= 0x9F) or (b >= 0xE0 and b <= 0xEB):
+                c = (b << 8) + ord(theirsce.read(1))
+                # if str(c) not in json_data.keys():
+                #    json_data[str(c)] = char_index[decode(c)]
+                o.write(json_data[str(c)])
+            elif b == 0x1:
+                o.write("\n")
+            elif b in (0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xB, 0xC, 0xD, 0xE, 0xF):
+                b2 = struct.unpack("<L", theirsce.read(4))[0]
+                if b in TAGS:
+                    tag_name = TAGS.get(b)
+                    tag_param = None
+                    if (tag_name.upper() + "S") in globals():
+                        tag_param = eval("%sS.get(b2, None)" % tag_name.upper())
+                    if tag_param != None:
+                        o.write("<%s>" % tag_param)
+                    else:
+                        o.write("<%s:%08X>" % (tag_name, b2))
+                else:
+                    o.write("<%02X:%08X>" % (b, b2))
+            elif chr(b) in PRINTABLE_CHARS:
+                o.write(chr(b))
+            elif b >= 0xA1 and b < 0xE0:
+                o.write(struct.pack("B", b).decode("cp932"))
+            elif b in (0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x18, 0x19):
+                o.write("{%02X}" % b)
+                next_b = b""
+                while next_b != b"\x80":
+                    next_b = theirsce.read(1)
+                    o.write("{%02X}" % ord(next_b))
+            elif b == 0x81:
+                next_b = theirsce.read(1)
+                if next_b == b"\x40":
+                    o.write("　")
+                else:
+                    o.write("{%02X}" % b)
+                    o.write("{%02X}" % ord(next_b))
+            else:
+                o.write("{%02X}" % b)
+            b = theirsce.read(1)
+        o.write("\n[ENDBLOCK] - 0x%06X\n" % addrs[i])
+    
+    o.close()
+
+
 def extract_single_scpk(file):
     file_name = get_file_name(file)
     folder_path = get_directory_path(file)
@@ -396,104 +480,6 @@ def extract_scpk(args):
     elif os.path.isdir(args.input):
         for file in get_dat_folder_file_list(args.input, recurse=False):
             extract_single_scpk(file)
-
-
-def extract_theirsce():
-    mkdir("TXT")
-    # json_file = open('TBL.json', 'w')
-    # json_data = {}
-    # char_file = open('00015.bin', 'r', encoding='cp932')
-    # char_index = char_file.read()
-    # char_file.close()
-
-    json_file = open("tbl.json", "r")
-    json_data = json.load(json_file)
-    json_file.close()
-
-    theirsce_file = open("THEIRSCE.json", "w")
-    theirsce_data = {}
-
-    for name in os.listdir("theirsce/"):
-        f = open("theirsce/" + name, "rb")
-        header = f.read(8)
-        if header != b"THEIRSCE":
-            continue
-        theirsce_data[name] = []
-        pointer_block = struct.unpack("<L", f.read(4))[0]
-        text_block = struct.unpack("<L", f.read(4))[0]
-        fsize = os.path.getsize("theirsce/" + name)
-        text_pointers = []
-        addrs = []
-        f.seek(pointer_block, 0)
-
-        while f.tell() < text_block:
-            b = f.read(1)
-            if b == b"\xF8":
-                addr = struct.unpack("<H", f.read(2))[0]
-                if (addr < fsize - text_block) and (addr > 0):
-                    # theirsce_data[name].append(f.tell() - 2)
-                    addrs.append(f.tell() - 2)
-                    text_pointers.append(addr)
-
-        if len(text_pointers) == 0:
-            continue
-
-        o = open("txt/" + name + ".txt", "w", encoding="utf-8")
-        for i in range(len(text_pointers)):
-            f.seek(text_block + text_pointers[i] - 1, 0)
-            b = f.read(1)
-            if b != b"\x00":
-                continue
-            theirsce_data[name].append(addrs[i])
-            b = f.read(1)
-            while b != b"\x00":
-                b = ord(b)
-                if (b >= 0x99 and b <= 0x9F) or (b >= 0xE0 and b <= 0xEB):
-                    c = (b << 8) + ord(f.read(1))
-                    # if str(c) not in json_data.keys():
-                    #    json_data[str(c)] = char_index[decode(c)]
-                    o.write(json_data[str(c)])
-                elif b == 0x1:
-                    o.write("\n")
-                elif b in (0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xB, 0xC, 0xD, 0xE, 0xF):
-                    b2 = struct.unpack("<L", f.read(4))[0]
-                    if b in TAGS:
-                        tag_name = TAGS.get(b)
-                        tag_param = None
-                        if (tag_name + "s") in globals():
-                            tag_param = eval("%ss.get(b2, None)" % tag_name)
-                        if tag_param != None:
-                            o.write("<%s>" % tag_param)
-                        else:
-                            o.write("<%s:%08X>" % (tag_name, b2))
-                    else:
-                        o.write("<%02X:%08X>" % (b, b2))
-                elif chr(b) in PRINTABLE_CHARS:
-                    o.write(chr(b))
-                elif b >= 0xA1 and b < 0xE0:
-                    o.write(struct.pack("B", b).decode("cp932"))
-                elif b in (0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x18, 0x19):
-                    o.write("{%02X}" % b)
-                    next_b = b""
-                    while next_b != b"\x80":
-                        next_b = f.read(1)
-                        o.write("{%02X}" % ord(next_b))
-                elif b == 0x81:
-                    next_b = f.read(1)
-                    if next_b == b"\x40":
-                        o.write("　")
-                    else:
-                        o.write("{%02X}" % b)
-                        o.write("{%02X}" % ord(next_b))
-                else:
-                    o.write("{%02X}" % b)
-                b = f.read(1)
-            o.write("\n[ENDBLOCK]\n")
-        f.close()
-        o.close()
-
-    # json.dump(json_data, json_file, indent=4)
-    json.dump(theirsce_data, theirsce_file, indent=4)
 
 
 def extract_mfh():
