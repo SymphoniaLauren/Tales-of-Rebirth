@@ -415,7 +415,13 @@ def theirsce_to_text(theirsce: bytes, output: str):
                 c = (b << 8) + ord(theirsce.read(1))
                 # if str(c) not in json_data.keys():
                 #    json_data[str(c)] = char_index[decode(c)]
-                o.write(json_data[str(c)])
+                try:
+                    o.write(json_data[str(c)])
+                except KeyError:
+                    b_u = (c >> 8) & 0xff
+                    b_l = c & 0xff
+                    o.write("{%02X}" % b_u)
+                    o.write("{%02X}" % b_l)
             elif b == 0x1:
                 o.write("\n")
             elif b in (0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xB, 0xC, 0xD, 0xE, 0xF):
