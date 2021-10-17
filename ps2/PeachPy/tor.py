@@ -363,12 +363,12 @@ def extract_skits(args):
                 data = pak.read()
             theirsce = pak2.get_theirsce_from_pak2(data)
             name = re.search(VALID_FILE_NAME, file).group(1)
-            theirsce_to_text(theirsce, out + name + ".txt")
+            theirsce_to_text(io.BytesIO(theirsce), out + name + ".txt")
             
-            print("Writing file %05d/1172..." % i, end="\r") # Not healthy
+            print("Writing file %05d" % i, end="\r")
             i += 1
 
-    print("Writing file %05d/1172..." % i-1)
+    print("Writing file %05d..." % (i-1))
     return
 
 
@@ -385,7 +385,7 @@ def theirsce_to_text(theirsce: bytes, output: str):
     
     pointer_block = struct.unpack("<L", theirsce.read(4))[0]
     text_block = struct.unpack("<L", theirsce.read(4))[0]
-    fsize = len(theirsce)
+    fsize = theirsce.getbuffer().nbytes
     text_pointers = []
     addrs = []
     theirsce.seek(pointer_block, 0)
