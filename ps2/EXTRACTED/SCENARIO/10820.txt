@@ -1,0 +1,83 @@
+ウォンティガの聖殿・九階
+[ENDBLOCK] - 0x0000DD
+ウォンティガの聖殿
+[ENDBLOCK] - 0x0000E0
+max={17}{34}{04}{80}
+[ENDBLOCK] - 0x00032E
+trpno={17}{34}{0C}{80}
+[ENDBLOCK] - 0x00034A
+石像
+[ENDBLOCK] - 0x0004C2
+悲しみは怒りへの引き金。
+悲しみの青き炎を忘れ
+怒りの赤き炎のみを鎮めよ。
+[ENDBLOCK] - 0x0004C5
+<Mao>
+[ENDBLOCK] - 0x00076E
+<voice:2F00002C><Annie>!?
+[ENDBLOCK] - 0x000771
+<Eugene>
+[ENDBLOCK] - 0x0007A4
+<voice:2F00002D>おまえが何を見せられているのか、
+俺たちにはわからない。
+だが、おまえはひとりじゃない。
+[ENDBLOCK] - 0x0007A7
+<Eugene>
+[ENDBLOCK] - 0x0007DB
+<voice:2F00002E>立つんだ、<Annie>。
+聖獣の試練に負けるな。
+[ENDBLOCK] - 0x0007DE
+<Eugene>
+[ENDBLOCK] - 0x00082B
+<voice:2F00002F><Annie>……
+[ENDBLOCK] - 0x00082E
+select
+[ENDBLOCK] - 0x000DA8
+<07:00000000><size:00000140>休憩しますか？
+　はい　
+　いいえ　
+[ENDBLOCK] - 0x000DAB
+<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+[ENDBLOCK] - 0x00142F
+<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+[ENDBLOCK] - 0x00147D
+notice
+[ENDBLOCK] - 0x0014DD
+点火{17}{38}{44}{04}{80}番
+[ENDBLOCK] - 0x001A60
+Add_fire_ALL
+[ENDBLOCK] - 0x001A92
+error
+[ENDBLOCK] - 0x001AB5
+青点火{17}{34}{10}{80}番
+[ENDBLOCK] - 0x001AF5
+ddd点火{17}{34}{10}{80}番
+[ENDBLOCK] - 0x001B44
+点火中{17}{34}{10}{80}番
+[ENDBLOCK] - 0x001B6E
+bl={17}{34}{04}{C1}{8D}{80}
+[ENDBLOCK] - 0x001B7A
+d点火{17}{34}{04}{C1}{8D}{80}番
+[ENDBLOCK] - 0x001BA1
+dd点火{17}{38}{44}{04}{80}番
+[ENDBLOCK] - 0x001BE7
+dddd点火{17}{38}{44}{04}{80}番
+[ENDBLOCK] - 0x001C46
+check_add_fire
+[ENDBLOCK] - 0x001C78
+eff_end, get_force_now = {17}{38}{58}{05}{80}
+[ENDBLOCK] - 0x001D30
+カウンター{17}{38}{F0}{04}{80}
+[ENDBLOCK] - 0x001DD6
+f_del_flag[{17}{34}{04}{C9}{F5}{8D}{80}] = {17}{38}{3C}{05}{34}{04}{C9}{F5}{8D}{88}{80} 
+[ENDBLOCK] - 0x001E47
+炎勢{17}{38}{24}{05}{34}{04}{C9}{F5}{8D}{88}{80}
+[ENDBLOCK] - 0x001E95
+消火{17}{34}{04}{C9}{F5}{8D}{80}番
+[ENDBLOCK] - 0x001ED4
+青消火{17}{34}{04}{C9}{F5}{8D}{80}番
+[ENDBLOCK] - 0x001F21
+check_del_fire
+[ENDBLOCK] - 0x001F74
+{17}{38}{48}{04}{80}から引火
+[ENDBLOCK] - 0x001FD1

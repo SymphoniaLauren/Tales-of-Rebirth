@@ -1,0 +1,170 @@
+聖火台
+[ENDBLOCK] - 0x0000FA
+聖火台
+[ENDBLOCK] - 0x0000FD
+男の人
+[ENDBLOCK] - 0x0004C1
+キミたちのおかげでずいぶん
+良石が集まったよ。
+当分は困らないね。
+[ENDBLOCK] - 0x0004DA
+今、私は自分の武器を
+グレードアップさせるが
+マイブームだ。
+[ENDBLOCK] - 0x0004FC
+だが、なかなか強化するための
+よい石がなくてな。
+[ENDBLOCK] - 0x000512
+ひとつ、
+分けてもらえないだろうか。
+[ENDBLOCK] - 0x000528
+この前は石を
+分けてもらってありがとう。
+[ENDBLOCK] - 0x000541
+また、なんかいい石を
+分けてもらえるのかな？
+[ENDBLOCK] - 0x000557
+select
+[ENDBLOCK] - 0x00056B
+<07:00000000><size:00000140>分けてあげますか？
+　はい　
+　いいえ　
+
+[ENDBLOCK] - 0x00056E
+うーむ、そりゃ残念だ。
+いい石がもらえたら、
+お礼はするんだが……
+[ENDBLOCK] - 0x0005BE
+　斬錬石　
+
+[ENDBLOCK] - 0x0005E1
+<Red>　斬錬石　<color:80000000>
+
+[ENDBLOCK] - 0x0005EC
+　打錬石　
+
+[ENDBLOCK] - 0x0005FF
+<Red>　打錬石　<color:80000000>
+
+[ENDBLOCK] - 0x00060A
+　術錬石　
+
+[ENDBLOCK] - 0x00061D
+<Red>　術錬石　<color:80000000>
+
+[ENDBLOCK] - 0x000628
+　回錬石　
+
+[ENDBLOCK] - 0x00063B
+<Red>　回錬石　<color:80000000>
+
+[ENDBLOCK] - 0x000646
+　醒錬石　
+
+[ENDBLOCK] - 0x000659
+<Red>　醒錬石　<color:80000000>
+
+[ENDBLOCK] - 0x000664
+<07:00000000><size:00000140>　何を分けてあげますか？　
+{18}{48}{D0}{04}{80}{18}{48}{D4}{04}{80}{18}{48}{D8}{04}{80}{18}{48}{DC}{04}{80}{18}{48}{E0}{04}{80}　何もあげない　
+[ENDBLOCK] - 0x00066C
+select
+[ENDBLOCK] - 0x00067A
+notice
+[ENDBLOCK] - 0x0006D2
+<Green>あなたは斬錬石を
+持っていません。
+[ENDBLOCK] - 0x0006D5
+notice
+[ENDBLOCK] - 0x000717
+<Green>あなたは打錬石を
+持っていません。
+[ENDBLOCK] - 0x00071A
+notice
+[ENDBLOCK] - 0x00075C
+<Green>あなたは術錬石を
+持っていません。
+[ENDBLOCK] - 0x00075F
+notice
+[ENDBLOCK] - 0x0007A2
+<Green>あなたは回錬石を
+持っていません。
+[ENDBLOCK] - 0x0007A5
+notice
+[ENDBLOCK] - 0x0007E8
+<Green>あなたは醒錬石を
+持っていません。
+[ENDBLOCK] - 0x0007EB
+ありがとう。
+これでまたひとつ、
+武器を強くできるよ。
+[ENDBLOCK] - 0x000831
+お礼に
+これをあげよう。
+[ENDBLOCK] - 0x000847
+いい石を見つけたら、
+また持ってきておくれ。
+お礼はできると思うからさ。
+[ENDBLOCK] - 0x000866
+ありがとう。
+これでまたひとつ、
+武器を強くできるよ。
+[ENDBLOCK] - 0x000894
+お礼に
+これをあげよう。
+[ENDBLOCK] - 0x0008AA
+<Veigue>
+[ENDBLOCK] - 0x000970
+<voice:29000000>このあたりだな。
+[ENDBLOCK] - 0x000973
+<Mao>
+[ENDBLOCK] - 0x0009A7
+<voice:29000001>何だろ、この台……？
+[ENDBLOCK] - 0x0009AA
+<Eugene>
+[ENDBLOCK] - 0x000AC1
+<voice:29000002>聖火台のようだな。
+古代の人々は、ここで何かの
+儀式を行っていたのかもしれん。
+[ENDBLOCK] - 0x000AC4
+<Mao>
+[ENDBLOCK] - 0x000AE4
+<voice:29000003>だったら、同じ儀式をやれば、
+何かがわかるかもしれないネ。
+[ENDBLOCK] - 0x000AE7
+<Veigue>
+[ENDBLOCK] - 0x000B09
+<voice:29000004>ああ……だが、どうすれば……
+[ENDBLOCK] - 0x000B0C
+<Annie>
+[ENDBLOCK] - 0x000B27
+<voice:29000005><Cyan>聖壇<White>に書かれてた、
+「強き心に強き翼を持て」って言葉に
+何かありそうだと思いませんか？
+[ENDBLOCK] - 0x000B2A
+<Veigue>
+[ENDBLOCK] - 0x000B52
+<voice:29000006>強き心、強き翼、か……
+[ENDBLOCK] - 0x000B55
+select
+[ENDBLOCK] - 0x00124C
+<07:00000000><size:00000140>休憩しますか？
+　はい　
+　いいえ　
+[ENDBLOCK] - 0x00124F
+<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+[ENDBLOCK] - 0x0018D3
+<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+[ENDBLOCK] - 0x001921
+notice
+[ENDBLOCK] - 0x001981
+d_x  = %d
+[ENDBLOCK] - 0x002026
+d_z  = %d
+[ENDBLOCK] - 0x00202E
+d_xz = %d
+[ENDBLOCK] - 0x002036
+pow = %d
+[ENDBLOCK] - 0x002397
+pow = %d
+[ENDBLOCK] - 0x0024E4
