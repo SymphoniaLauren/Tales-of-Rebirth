@@ -738,14 +738,14 @@ this all of a sudden?
 #<voice:22000024>突然なんかじゃないよ!!　前から
 #ずっと思ってたんだ。ヒューマは
 #ガジュマを馬鹿にしてるってね!!
-All of a suddenーyeah, right!
+<voice:22000024>All of a suddenーyeah, right!
 I've always thought that you
 Huma take us Gajuma for fools!
 [ENDBLOCK] - 0x002EB7
-<voice:22000025>自分たちばっかりキレイで
-楽な仕事をして、つらくて汚い仕事は
-全部ガジュマにやらせるんだ!!
-You keep all the nice easy jobs
+#<voice:22000025>自分たちばっかりキレイで
+#楽な仕事をして、つらくて汚い仕事は
+#全部ガジュマにやらせるんだ!!
+<voice:22000025>You keep all the nice easy jobs
 for yourselves while making all
 the Gajuma do your dirty work!
 [ENDBLOCK] - 0x002ECD
@@ -905,13 +905,18 @@ some delicious peach pies!
 [ENDBLOCK] - 0x0037B4
 select
 [ENDBLOCK] - 0x004107
-<07:00000000><size:00000140>休憩しますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>休憩しますか？
+#　はい
+#　いいえ　
+<07:00000000><size:00000140>Would you like to rest?
+Yes
+No　
 [ENDBLOCK] - 0x00410A
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80} joined the party.
 [ENDBLOCK] - 0x00478E
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80} is now travelling with you.
 [ENDBLOCK] - 0x0047DC
 notice
 [ENDBLOCK] - 0x00483C

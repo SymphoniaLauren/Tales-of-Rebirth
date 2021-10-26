@@ -99,7 +99,7 @@ So, is Tom going too?
 #父ちゃんと母ちゃんの
 #受け売りだけどね。
 ...I think. I'm just
-repearing what my Mom
+repeating what my Mom
 and Dad tell me.
 [ENDBLOCK] - 0x00050E
 #母ちゃんに言われて、
@@ -130,7 +130,7 @@ seen your face around here.
 #凍らされるって。
 I'm sorry <Veigue>, but my child
 gets scared when you come over.
-He things that you'll freeze him.
+He thinks that you'll freeze him.
 [ENDBLOCK] - 0x0005EC
 #そりゃ、あんたが助けに
 #行くのがスジってもんよ。
@@ -244,7 +244,7 @@ show my face to anyone...
 #そりゃ、みんなと仲良く
 #パイは食べたいけど……
 But I want to get along
-and eat piw with everyone...
+and eat pie with everyone...
 [ENDBLOCK] - 0x00095D
 #俺、ヒューマたちに
 #ヒドイ事言っちゃったもんな……
@@ -278,13 +278,18 @@ I guess I'll go...
 [ENDBLOCK] - 0x0009C9
 select
 [ENDBLOCK] - 0x000FB5
-<07:00000000><size:00000140>休憩しますか？
-　はい　
-　いいえ　
+#<07:00000000><size:00000140>休憩しますか？
+#　はい
+#　いいえ　
+<07:00000000><size:00000140>Would you like to rest?
+Yes
+No
 [ENDBLOCK] - 0x000FB8
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{04}{80} joined the party.
 [ENDBLOCK] - 0x00163C
-<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+#<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:00000140><07:00000000><0E:80000002>{19}{34}{10}{80} is now travelling with you.
 [ENDBLOCK] - 0x00168A
 notice
 [ENDBLOCK] - 0x0016EA
