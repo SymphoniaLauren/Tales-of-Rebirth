@@ -71,11 +71,12 @@ def compress_data(input: bytes, raw: bool=False, version: int=3):
     input_size = len(input)
     output_size = ((input_size * 9) // 8) + 10
     output = b"\x00" * output_size
-    error = compto_encode(version, input, input_size, output, ctypes.byref(ctypes.c_uint(output_size)))
+    output_size = ctypes.c_uint(output_size)
+    error = compto_encode(version, input, input_size, output, ctypes.byref(output_size))
     RaiseError(error)
     
     if not raw:
-        output = struct.pack("<b", version) + struct.pack("<2L", *(input_size, output_size)) + output
+        output = struct.pack("<b", version) + struct.pack("<2L", *(input_size, output_size.value)) + output[:output_size.value]
     
     return output
 

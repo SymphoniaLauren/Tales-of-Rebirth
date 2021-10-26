@@ -55,7 +55,7 @@ LOW_BITS       = 0x3F
 COMMON_TAG = r"(<\w+:?\w+>)"
 HEX_TAG    = r"(\{[0-9A-F]{2}\})"
 
-VALID_FILE_NAME = r"([0-9]{5})(?:\.)?([1,3])?\.(\w+)$"
+VALID_FILE_NAME = r"([0-9]{2,5})(?:\.)?([1,3])?\.(\w+)$"
 
 PRINTABLE_CHARS = "".join(
     (string.digits, string.ascii_letters, string.punctuation, " ")
@@ -706,6 +706,42 @@ def pack_scpk():
             o.close()
 
 
+def pack_single_scpk(input: str)->bytes:
+    if not os.path.isdir(input):
+        raise ValueError("Expected folder as input")
+
+    listdir = os.listdir(input)
+    data = bytearray()
+    sizes = []
+    o = io.BytesIO()
+    for file in sorted(listdir):
+        fpath = os.path.join(input, file)
+        if os.path.isfile(fpath):
+            read = bytearray()
+            ctype = re.search(VALID_FILE_NAME, file).group(2)
+
+            with open(fpath, "rb") as f:
+                if ctype != None:
+                    read = comptolib.compress_data(f.read(), version=int(ctype))
+                else:
+                    read = f.read()
+            
+            data += read
+            sizes.append(len(read))
+
+    o.write(b"\x53\x43\x50\x4B\x01\x00\x0F\x00")
+    o.write(struct.pack("<L", len(sizes)))
+    o.write(b"\x00" * 4)
+
+    for i in range(len(sizes)):
+        o.write(struct.pack("<L", sizes[i]))
+    
+    o.write(data)
+    
+    return o.getvalue()
+
+
+
 def insert_theirsce():
     json_file = open("TBL.json", "r")
     theirsce_json = open("THEIRSCE.json", "r")
@@ -848,7 +884,7 @@ def extract_all(args):
 
 
 def check_arguments(parser, args):
-    if not args.elf_path:
+    if hasattr(args, "elf_path") and not args.elf_path:
         args.elf_path = get_directory_path(args.input) + "/SLPS_254.50"
     
     if hasattr(args, "elf_out") and not args.elf_out:
@@ -1001,7 +1037,8 @@ if __name__ == "__main__":
 
     if args.action == "pack":
         if args.file == "scpk":
-            insert_files()
+            with open(args.output, "wb+") as o:
+                o.write(pack_single_scpk(args.input))
         if args.file == "dat":
             pack_dat(args)
         if args.file == "theirsce":
