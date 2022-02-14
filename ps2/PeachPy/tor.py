@@ -955,6 +955,7 @@ def get_arguments(argv=None):
 
     # PAK commands
     sp_pack = sp.add_parser("pack", help="Packs some file types into the originals.")
+    
     sp_pack.add_argument(
         "file",
         choices=["scpk", "dat", "theirsce"],
