@@ -1,0 +1,3426 @@
+<MenuText>
+  <Strings>
+    <Section>Triangle Menu</Section>
+    <Entry>
+      <PointerOffset>100</PointerOffset>
+      <JapaneseText>　</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1000</PointerOffset>
+      <JapaneseText>CUSTOMIZE OVER</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1004</PointerOffset>
+      <JapaneseText>武器防具がありません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1008</PointerOffset>
+      <JapaneseText>宝石がありません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1016</PointerOffset>
+      <JapaneseText>- 継承元 -</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1020</PointerOffset>
+      <JapaneseText>- 継承先 -</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1024</PointerOffset>
+      <JapaneseText>継承しますか？
+&lt;size:000000C0&gt;（&lt;04:00000002&gt;は失われます）
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;実行　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1028</PointerOffset>
+      <JapaneseText>名称「&lt;04:00000002&gt;」を
+引き継ぎますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;引き継ぐ　&lt;button:00000031&gt;引き継がない</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1032,1012,1128</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000032&gt;説明切替　&lt;button:00000034&gt;&lt;button:00000035&gt;リスト切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1036</PointerOffset>
+      <JapaneseText>- 合成１ -</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>104</PointerOffset>
+      <JapaneseText>？</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1040</PointerOffset>
+      <JapaneseText>- 合成２ -</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1044</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;&lt;Yellow&gt;&lt;04:00000003&gt;　（&lt;04:00000004&gt;）&lt;color:80000000&gt;が
+作成できます。
+合成しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;実行　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1052</PointerOffset>
+      <JapaneseText>購入</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1056</PointerOffset>
+      <JapaneseText>売却</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1068,324</PointerOffset>
+      <JapaneseText>武具継承</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1072</PointerOffset>
+      <JapaneseText>名称変更</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1080</PointerOffset>
+      <JapaneseText>店を出る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1084</PointerOffset>
+      <JapaneseText>渡す</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1088</PointerOffset>
+      <JapaneseText>食材屋</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1092,416</PointerOffset>
+      <JapaneseText>GALD</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1096</PointerOffset>
+      <JapaneseText>TOTAL</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1100</PointerOffset>
+      <JapaneseText>これでいいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;買う　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1104</PointerOffset>
+      <JapaneseText>これでいいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;売る　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1108</PointerOffset>
+      <JapaneseText>これでいいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;渡す　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1112</PointerOffset>
+      <JapaneseText>ガルドが足りません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1116</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;を
+装備しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;装備する　&lt;button:00000031&gt;しない</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>112</PointerOffset>
+      <JapaneseText>☆</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1120</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;購入　&lt;button:0000001C&gt;&lt;button:00000034&gt;&lt;button:00000035&gt;個数変更　&lt;button:00000032&gt;説明切替　&lt;button:00000033&gt;キャラ切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1124</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;売却　&lt;button:0000001C&gt;個数変更　&lt;button:00000032&gt;説明切替　&lt;button:00000033&gt;キャラ切替　&lt;button:00000034&gt;&lt;button:00000035&gt;リスト切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1136</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;渡す　&lt;button:0000001C&gt;&lt;button:00000034&gt;&lt;button:00000035&gt;個数変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1140</PointerOffset>
+      <JapaneseText>メッセージ速度</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1144</PointerOffset>
+      <JapaneseText>メッセージの表示速度を変更します。
+表示速度１の時はフェードしません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1148</PointerOffset>
+      <JapaneseText>戦闘ランク</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1152</PointerOffset>
+      <JapaneseText>戦闘時の難易度を変更します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1156</PointerOffset>
+      <JapaneseText>戦闘キーカスタマイズ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>116</PointerOffset>
+      <JapaneseText>●</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1160</PointerOffset>
+      <JapaneseText>戦闘時のキー配置を変更します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1164</PointerOffset>
+      <JapaneseText>カメラ左右回転方向</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1168</PointerOffset>
+      <JapaneseText>フィールド上での&lt;button:00000034&gt;&lt;button:00000035&gt;による回転方向を
+変更します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1172</PointerOffset>
+      <JapaneseText>上下移動方向</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1176</PointerOffset>
+      <JapaneseText>シャオルーンに乗っているときの&lt;button:00000013&gt;による
+移動方向を変更します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1180</PointerOffset>
+      <JapaneseText>カメラ自動回転</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1184</PointerOffset>
+      <JapaneseText>フィールド上でのカメラをキャラの向きに自動補正
+します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1188</PointerOffset>
+      <JapaneseText>カメラ慣性</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1192</PointerOffset>
+      <JapaneseText>フィールド上でのカメラの移動に慣性を加えます。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1196</PointerOffset>
+      <JapaneseText>画面位置</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>12</PointerOffset>
+      <JapaneseText>test message 0</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>120</PointerOffset>
+      <JapaneseText>■</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1200</PointerOffset>
+      <JapaneseText>画面の表示位置を調整します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1204</PointerOffset>
+      <JapaneseText>振動</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1208</PointerOffset>
+      <JapaneseText>コントローラの振動の有無を変更します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1212</PointerOffset>
+      <JapaneseText>NORMAL</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1216</PointerOffset>
+      <JapaneseText>REVERSE</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1228</PointerOffset>
+      <JapaneseText>戦闘中ヘルプ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1232</PointerOffset>
+      <JapaneseText>ＯＮにすると戦闘中に入力したボタンアクションの
+説明が左上に表示されます。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1236</PointerOffset>
+      <JapaneseText>戦闘中カメラ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>124</PointerOffset>
+      <JapaneseText>◆</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1240</PointerOffset>
+      <JapaneseText>[ターゲット]
+　プレイヤーのターゲットを画面内に表示します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1244</PointerOffset>
+      <JapaneseText>[パーティ]
+　パーティキャラを画面内に表示します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1248</PointerOffset>
+      <JapaneseText>[エネミー]
+　敵全員を画面内に表示します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1252</PointerOffset>
+      <JapaneseText>[オール]
+　キャラクター全員を画面内に表示します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1256,1608</PointerOffset>
+      <JapaneseText>ボリューム</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1260</PointerOffset>
+      <JapaneseText>曲や効果音等の再生ボリュームを変更します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1264</PointerOffset>
+      <JapaneseText>ウィンドウカラー</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1268</PointerOffset>
+      <JapaneseText>ウィンドウの背景色を変更します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1272</PointerOffset>
+      <JapaneseText>メニュー背景</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1276</PointerOffset>
+      <JapaneseText>メニュー画面の背景色を変更します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>128</PointerOffset>
+      <JapaneseText>０</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1280,332</PointerOffset>
+      <JapaneseText>サウンドモード</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1284</PointerOffset>
+      <JapaneseText>ゲーム中に使用される曲や音声のテストを行う
+メニューを開きます。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1288</PointerOffset>
+      <JapaneseText>自動メッセージ送り</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1292</PointerOffset>
+      <JapaneseText>ＯＮにするとボタンを押さなくても自動で
+メッセージを送るようになります。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1300</PointerOffset>
+      <JapaneseText>ＯＮにすると音響をステレオ再生します。
+ＯＦＦだとモノラルで再生されます。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1304</PointerOffset>
+      <JapaneseText>初見チャットキャンセル</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1308</PointerOffset>
+      <JapaneseText>ＯＮにすると初めて見るチャットでも
+キャンセル出来るようになります。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1312</PointerOffset>
+      <JapaneseText>初回プレイ向け解説</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1316</PointerOffset>
+      <JapaneseText>ＯＮにするとプレイに役立つ説明を表示します。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>132</PointerOffset>
+      <JapaneseText>１</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1320</PointerOffset>
+      <JapaneseText>全ての変更を破棄して
+元に戻しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;戻す　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1324</PointerOffset>
+      <JapaneseText>全てをデフォルトに戻しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;戻す　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1328</PointerOffset>
+      <JapaneseText>操作説明などを含みますので、初回プレイの場合に
+ＯＦＦの設定をすると、ゲームを進めるのが困難に
+なる場合がありますのでご注意ください。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1336,1604</PointerOffset>
+      <JapaneseText>効果音</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1340</PointerOffset>
+      <JapaneseText>音声</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1344</PointerOffset>
+      <JapaneseText>チャット</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1348</PointerOffset>
+      <JapaneseText>パン</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1352</PointerOffset>
+      <JapaneseText>STANDARD</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1356</PointerOffset>
+      <JapaneseText>CAUTION</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>136</PointerOffset>
+      <JapaneseText>２</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1360</PointerOffset>
+      <JapaneseText>SYSTEM</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1364</PointerOffset>
+      <JapaneseText>R</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1368</PointerOffset>
+      <JapaneseText>G</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1372</PointerOffset>
+      <JapaneseText>B</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1376</PointerOffset>
+      <JapaneseText>A</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1384</PointerOffset>
+      <JapaneseText>パーティ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1388</PointerOffset>
+      <JapaneseText>エネミー</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1392</PointerOffset>
+      <JapaneseText>オール</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1396,108</PointerOffset>
+      <JapaneseText>★</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>140</PointerOffset>
+      <JapaneseText>３</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1400</PointerOffset>
+      <JapaneseText>攻撃</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1404,280</PointerOffset>
+      <JapaneseText>術技</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1412</PointerOffset>
+      <JapaneseText>メニュー</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1416</PointerOffset>
+      <JapaneseText>隊列</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1420,1380</PointerOffset>
+      <JapaneseText>ターゲット</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1428</PointerOffset>
+      <JapaneseText>ジャンプ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1432</PointerOffset>
+      <JapaneseText>&lt;button:0000001C&gt;変更　&lt;button:00000034&gt;元に戻す　&lt;button:00000035&gt;デフォルト　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1436</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;変更　&lt;button:00000034&gt;元に戻す　&lt;button:00000035&gt;デフォルト　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>144</PointerOffset>
+      <JapaneseText>４</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1440</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;＋&lt;button:0000001F&gt;変更　&lt;button:00000034&gt;元に戻す　&lt;button:00000035&gt;デフォルト　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1444</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;&lt;button:00000031&gt;&lt;button:00000032&gt;&lt;button:00000033&gt;&lt;button:00000034&gt;&lt;button:00000035&gt;&lt;button:00000036&gt;&lt;button:00000037&gt;変更　&lt;button:00000014&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1448</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;＋&lt;button:0000001C&gt;変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1452</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000034&gt;元に戻す　&lt;button:00000035&gt;デフォルト　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1456</PointerOffset>
+      <JapaneseText>Ｇ{99}{65}{99}{70}{99}{68}</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1460</PointerOffset>
+      <JapaneseText>防御行動</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1464</PointerOffset>
+      <JapaneseText>最大ヒット</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1468</PointerOffset>
+      <JapaneseText>攻略度</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1472</PointerOffset>
+      <JapaneseText>Ｅｘ{99}{74}</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1476</PointerOffset>
+      <JapaneseText>弱点</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>148</PointerOffset>
+      <JapaneseText>５</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1480</PointerOffset>
+      <JapaneseText>鋼体</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1484</PointerOffset>
+      <JapaneseText>半減</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1488,1408</PointerOffset>
+      <JapaneseText>防御</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1492,300</PointerOffset>
+      <JapaneseText>アイテム</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1496</PointerOffset>
+      <JapaneseText>グレード獲得率</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1500</PointerOffset>
+      <JapaneseText>?</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1504,708,1624</PointerOffset>
+      <JapaneseText>？？？</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1508</PointerOffset>
+      <JapaneseText>NAME▼</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1512</PointerOffset>
+      <JapaneseText>LEVEL▼</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1516</PointerOffset>
+      <JapaneseText>EXP▼</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>152</PointerOffset>
+      <JapaneseText>６</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1520</PointerOffset>
+      <JapaneseText>GALD▼</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1524</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;敵リスト　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1528</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;選択　&lt;button:00000033&gt;位置変更　&lt;button:00000035&gt;ソート　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1532</PointerOffset>
+      <JapaneseText>&lt;button:00000034&gt;&lt;button:00000035&gt;キャラ切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1536</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;下線先表示　&lt;button:0000001C&gt;下線移動　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1540</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;&lt;button:00000031&gt;閉じる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1544</PointerOffset>
+      <JapaneseText>あいうえおぁぃぅぇぉアイウエオァィゥェォかきくけこがぎぐげごカキクケコガギグゲゴさしすせそざじずぜぞサシスセソザジズゼゾたちつてとだぢづでどタチツテトダヂヅデドなにぬねの　　　ー～ナニヌネノ　　　　　はひふへほばびぶべぼハヒフヘホバビブベボまみむめもぱぴぷぺぽマミムメモパピプペポや　ゆ　よゃゅょっ　ヤ　ユ　ヨャュョッ　らりるれろわをん　　ラリルレロワ{9A}{8C}ン　ヴＡＢＣＤＥＦＧＨＩ{99}{53}{99}{65}{99}{66}ｃ{99}{68}ｅ{99}{6A}{99}{6B}{99}{6C}ｉ{99}{6E}ＫＬＭＮＯＰ{99}{5A}ＲＳＴ{99}{6F}{99}{70}{99}{71}{99}{72}ｏ{99}{74}{99}{75}{99}{76}{99}{77}{99}{78}{99}{5F}Ｖ{99}{61}Ｘ{99}{63}Ｚ　　　　{99}{79}{99}{7A}{99}{7B}ｘ{99}{7D}{99}{7E}　　　　１２３４５６７８９０{9A}{A9}{9A}{AA}{9A}{AB}{9A}{AC}{9A}{AD}{9A}{AE}{9A}{AF}{9A}{B0}{9A}{B1}{9A}{B2}＋－×／＝！？％＆☆・{99}{80}．{99}{9A}{99}{99}：（）「」</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1548</PointerOffset>
+      <JapaneseText>決定</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1552</PointerOffset>
+      <JapaneseText>入力</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1556</PointerOffset>
+      <JapaneseText>元に戻す</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>156</PointerOffset>
+      <JapaneseText>７</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1560</PointerOffset>
+      <JapaneseText>デフォルト</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1564</PointerOffset>
+      <JapaneseText>入力を取りやめますか？
+&lt;size:000000C0&gt;（入力の反映は文字リスト上で&lt;button:00000033&gt;）&lt;size:00000100&gt;
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;やめる　&lt;button:00000031&gt;入力を続ける</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1568</PointerOffset>
+      <JapaneseText>デフォルトはありません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1572</PointerOffset>
+      <JapaneseText>入力を取りやめることはできません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1576</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000032&gt;削除　&lt;button:00000034&gt;&lt;button:00000035&gt;位置変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1580</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000032&gt;削除　&lt;button:00000034&gt;&lt;button:00000035&gt;位置変更</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1584</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;入力　&lt;button:00000032&gt;削除　&lt;button:00000033&gt;決定　&lt;size:00000100&gt;&lt;button:00000036&gt;&lt;button:00000037&gt;&lt;size:80000000&gt;位置変更　&lt;size:00000100&gt;&lt;button:00000034&gt;&lt;size:80000000&gt;元に戻す　&lt;size:00000100&gt;&lt;button:00000035&gt;&lt;size:80000000&gt;デフォルト　&lt;button:00000031&gt;戻る　　　</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1588,1332</PointerOffset>
+      <JapaneseText>曲</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1592</PointerOffset>
+      <JapaneseText>シナリオ音声</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1596</PointerOffset>
+      <JapaneseText>戦闘音声</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>16</PointerOffset>
+      <JapaneseText>日本語とかとか
+あいうえおかきくけこさしすせそた</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>160</PointerOffset>
+      <JapaneseText>８</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1600</PointerOffset>
+      <JapaneseText>チャット音声</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1612,1296</PointerOffset>
+      <JapaneseText>ステレオ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1616,1220</PointerOffset>
+      <JapaneseText>ON</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1620,1224</PointerOffset>
+      <JapaneseText>OFF</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1628</PointerOffset>
+      <JapaneseText>自動でリストが開きます</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1632</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;で別メニューを開きます</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1636</PointerOffset>
+      <JapaneseText>このままサウンドモードに進みます。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>164</PointerOffset>
+      <JapaneseText>９</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1640</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;リスト　&lt;button:00000033&gt;再生／一時停止　&lt;button:00000032&gt;停止　&lt;size:00000100&gt;&lt;button:00000034&gt;&lt;button:00000035&gt;&lt;size:80000000&gt;スキップ　&lt;size:00000100&gt;&lt;button:00000037&gt;&lt;size:80000000&gt;繰返し設定　&lt;button:00000031&gt;戻る　　　</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1648</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000033&gt;再生　&lt;button:00000032&gt;停止　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1652</PointerOffset>
+      <JapaneseText>&lt;button:0000001C&gt;変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1656</PointerOffset>
+      <JapaneseText>概要</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1660</PointerOffset>
+      <JapaneseText>RECIPE</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1664</PointerOffset>
+      <JapaneseText>TOPPING</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1668</PointerOffset>
+      <JapaneseText>効能</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1676</PointerOffset>
+      <JapaneseText>&lt;Yellow&gt;オート料理&lt;color:80000000&gt;は現在設定されていません。
+設定項目は料理リスト上で&lt;button:00000033&gt;を押すと表示されます。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>168</PointerOffset>
+      <JapaneseText>
+　
+</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1680</PointerOffset>
+      <JapaneseText>&lt;04:00000002&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1684</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;を料理しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;料理する　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1688</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;HP回復&lt;Yellow&gt;&lt;04:00000003&gt;&lt;color:80000000&gt;%</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1692</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;RG&lt;Yellow&gt;&lt;04:00000004&gt;&lt;color:80000000&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1696</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;HP回復&lt;Yellow&gt;&lt;04:00000003&gt;&lt;color:80000000&gt;%追加</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1700</PointerOffset>
+      <JapaneseText>シークレットファクター「&lt;04:00000005&gt;」</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1704</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;を料理しました。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1708</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;を
+料理できませんでした。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1712</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;HPが&lt;Yellow&gt;&lt;04:00000008&gt;&lt;color:80000000&gt;%回復しました。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1716</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;RGが&lt;Yellow&gt;&lt;04:00000009&gt;&lt;color:80000000&gt;増えました。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>172</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1720</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;RGが&lt;Yellow&gt;&lt;04:00000009&gt;&lt;color:80000000&gt;減りました。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1724</PointerOffset>
+      <JapaneseText>特殊効果「&lt;Yellow&gt;&lt;04:0000000A&gt;&lt;color:80000000&gt;」。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1728</PointerOffset>
+      <JapaneseText>特殊効果「&lt;Yellow&gt;&lt;04:0000000B&gt;&lt;color:80000000&gt;」。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1732</PointerOffset>
+      <JapaneseText>&lt;Yellow&gt;シークレットファクター&lt;color:80000000&gt;発生。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1736</PointerOffset>
+      <JapaneseText>
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;料理メニュー終了　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1740</PointerOffset>
+      <JapaneseText>レシピを持っていません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1744</PointerOffset>
+      <JapaneseText>単体ＨＰ割合のチェック</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1748</PointerOffset>
+      <JapaneseText>単体ＨＰ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1752</PointerOffset>
+      <JapaneseText>全体ＨＰ割合のチェック</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1756</PointerOffset>
+      <JapaneseText>全体ＨＰ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>176</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1764</PointerOffset>
+      <JapaneseText>誰かのＨＰが２０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1768</PointerOffset>
+      <JapaneseText>誰かのＨＰが４０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1772</PointerOffset>
+      <JapaneseText>誰かのＨＰが６０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1776</PointerOffset>
+      <JapaneseText>誰かのＨＰが８０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>180</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1800,1848</PointerOffset>
+      <JapaneseText>８０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1804,1780</PointerOffset>
+      <JapaneseText>（いつでも）</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1808,1760</PointerOffset>
+      <JapaneseText>設定なし</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1812</PointerOffset>
+      <JapaneseText>全員のＨＰ合計が２０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1816</PointerOffset>
+      <JapaneseText>全員のＨＰ合計が４０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1820</PointerOffset>
+      <JapaneseText>全員のＨＰ合計が６０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1824</PointerOffset>
+      <JapaneseText>全員のＨＰ合計が８０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1828</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1832,92,1784,1672,1852,1424</PointerOffset>
+      <JapaneseText>－</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1836,1788</PointerOffset>
+      <JapaneseText>２０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>184</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1840,1792</PointerOffset>
+      <JapaneseText>４０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1844,1796</PointerOffset>
+      <JapaneseText>６０％以下</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1856</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000033&gt;オート料理設定　&lt;button:00000032&gt;オート料理登録切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1860</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000032&gt;オート料理登録切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1864</PointerOffset>
+      <JapaneseText>EMPTY</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1868</PointerOffset>
+      <JapaneseText>BROKEN</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1872</PointerOffset>
+      <JapaneseText>OLD</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1876</PointerOffset>
+      <JapaneseText>CLEAR</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>188</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1880,316</PointerOffset>
+      <JapaneseText>セーブ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1884,320</PointerOffset>
+      <JapaneseText>ロード</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1888,344</PointerOffset>
+      <JapaneseText>中断</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1892</PointerOffset>
+      <JapaneseText>再開</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1896</PointerOffset>
+      <JapaneseText>クリア回数</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1900</PointerOffset>
+      <JapaneseText>メモリーカード差込口１</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1904</PointerOffset>
+      <JapaneseText>メモリーカード（ＰＳ２）</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1908</PointerOffset>
+      <JapaneseText>&lt;04:00000005&gt;を中止しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1912</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;に、&lt;04:00000002&gt;が
+{E4}{B4}入されていません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1916</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;は
+フォーマットされていません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>192</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1920</PointerOffset>
+      <JapaneseText>このゲームのセーブデータがありません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1924</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;は
+このゲームのデータを新規作成する為の
+空き容量が足りません。
+新規作成には&lt;font:80000002&gt;&lt;04:00000003&gt;KB以上の空き容量が必要です。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1928</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;は
+このゲームの中断データを新規作成する為の
+空き容量が足りません。
+新規作成には&lt;font:80000002&gt;&lt;04:00000004&gt;KB以上の空き容量が必要です。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1932</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;に
+アクセスできません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1936</PointerOffset>
+      <JapaneseText>選択中のデータに上書きセーブします。
+よろしいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1940</PointerOffset>
+      <JapaneseText>データを新規作成します。よろしいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1944</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;は
+フォーマットされていません。フォーマットしますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000033&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1948</PointerOffset>
+      <JapaneseText>選択中のデータをロードします。よろしいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1952</PointerOffset>
+      <JapaneseText>変更されたコメントを
+選択中のデータに上書きセーブします。
+よろしいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1956</PointerOffset>
+      <JapaneseText>ゲームを中断しますか？
+ただし、再開後は中断データが
+なくなりますのでご注意ください
+　
+よろしいですか？
+
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>196</PointerOffset>
+      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1960</PointerOffset>
+      <JapaneseText>ゲームを中断しますか？
+ただし、再開後は中断データが
+なくなりますのでご注意ください
+&lt;size:000000E0&gt;（中断データは上書きされます）&lt;size:00000100&gt;
+　
+よろしいですか？
+
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1964</PointerOffset>
+      <JapaneseText>&lt;04:00000005&gt;中です。&lt;04:00000002&gt;を
+抜いたり、電源を切ったりしないでください。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1968</PointerOffset>
+      <JapaneseText>フォーマット中です。&lt;04:00000002&gt;を
+抜いたり、電源を切ったりしないでください。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1972</PointerOffset>
+      <JapaneseText>コメントをセーブ中です。
+&lt;04:00000002&gt;を抜いたり
+電源を切ったりしないでください。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1976</PointerOffset>
+      <JapaneseText>空き容量の確認中です。
+&lt;04:00000002&gt;を抜いたり
+電源を切ったりしないでください。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1980</PointerOffset>
+      <JapaneseText>&lt;04:00000005&gt;に失敗しました。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1984</PointerOffset>
+      <JapaneseText>フォーマットに失敗しました。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1988</PointerOffset>
+      <JapaneseText>&lt;04:00000005&gt;が完了しました！</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1992</PointerOffset>
+      <JapaneseText>フォーマットが完了しました！</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1996</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;の
+チェック中です。
+&lt;04:00000002&gt;を抜いたり、電源を
+切らないでください。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20</PointerOffset>
+      <JapaneseText>test message 2</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>200</PointerOffset>
+      <JapaneseText>パール</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2000</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000032&gt;コメント表示　&lt;button:00000033&gt;コメント編集　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2004</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000032&gt;コメント表示　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2008</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;の
+空き容量が不足しています。
+　
+このゲームのデータをセーブする為には最低
+以下の空き容量が必要です。
+　
+・　セーブデータ（新規作成）　&lt;04:00000003&gt;KB以上
+・　中断データ（新規作成）　&lt;04:00000004&gt;KB以上
+　
+このままゲームを開始しますか？
+
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2012</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;に
+アクセスできません。
+　
+このままゲームを開始しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2016</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;に&lt;04:00000002&gt;が
+{E4}{B4}入されていません。
+　
+このゲームのデータをセーブする為には最低
+以下の空き容量が必要です。
+　
+・　セーブデータ（新規作成）　&lt;04:00000003&gt;KB以上
+・　中断データ（新規作成）　&lt;04:00000004&gt;KB以上
+　
+このままゲームを開始しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2020</PointerOffset>
+      <JapaneseText>街</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2024</PointerOffset>
+      <JapaneseText>ダンジョン</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2028</PointerOffset>
+      <JapaneseText>発見物</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2032</PointerOffset>
+      <JapaneseText>あか</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2036</PointerOffset>
+      <JapaneseText>あお</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>204</PointerOffset>
+      <JapaneseText>オニキス</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2040</PointerOffset>
+      <JapaneseText>みどり</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2044</PointerOffset>
+      <JapaneseText>きいろ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2048</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;移動／店リスト　&lt;button:00000032&gt;倍率切替　&lt;button:00000034&gt;&lt;button:00000035&gt;リスト切替　&lt;button:00000051&gt;カーソル　&lt;button:00000033&gt;サルベージ　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2052</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;店リスト　&lt;button:00000032&gt;倍率切替　&lt;button:00000034&gt;&lt;button:00000035&gt;リスト切替　&lt;button:00000033&gt;サルベージ　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2056,1048,908</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000032&gt;説明切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2060</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000034&gt;ライン　&lt;button:00000051&gt;カーソル　&lt;button:00000033&gt;&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2064</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;移動／店リスト　&lt;button:00000032&gt;倍率切替　&lt;button:00000034&gt;&lt;button:00000035&gt;リスト切替　&lt;button:00000051&gt;カーソル　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2068</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;店リスト　&lt;button:00000032&gt;倍率切替　&lt;button:00000034&gt;&lt;button:00000035&gt;リスト切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2072</PointerOffset>
+      <JapaneseText>－　進行中　－</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>208</PointerOffset>
+      <JapaneseText>トパーズ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2080</PointerOffset>
+      <JapaneseText>GRADE</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2084</PointerOffset>
+      <JapaneseText>購入額が所持額を超えています。
+いくつかの項目を諦めてください。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2088</PointerOffset>
+      <JapaneseText>これでいいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;決定　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2092</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;購入切替　&lt;button:00000031&gt;終了</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2096,2076</PointerOffset>
+      <JapaneseText>&lt;button:00000031&gt;&lt;button:00000032&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>212</PointerOffset>
+      <JapaneseText>エメラルド</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>216</PointerOffset>
+      <JapaneseText>サファイア</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>220</PointerOffset>
+      <JapaneseText>ダイアモンド</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>224</PointerOffset>
+      <JapaneseText>遺跡</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>228</PointerOffset>
+      <JapaneseText>動物</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>232</PointerOffset>
+      <JapaneseText>植物</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>236</PointerOffset>
+      <JapaneseText>自然現象</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>24</PointerOffset>
+      <JapaneseText>&lt;Red&gt;DEBUG&lt;color:80000000&gt;テキストが無い</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>240</PointerOffset>
+      <JapaneseText>昆虫</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>244</PointerOffset>
+      <JapaneseText>財宝</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>248</PointerOffset>
+      <JapaneseText>メニューを終了しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;終了する　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>252</PointerOffset>
+      <JapaneseText>セーブを終了しますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;はい　&lt;button:00000031&gt;いいえ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>256,1644</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>260</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>264</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>268</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;使う　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>272</PointerOffset>
+      <JapaneseText>&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>276</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;&lt;button:00000031&gt;送る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>28</PointerOffset>
+      <JapaneseText>GAMEMODE &lt;04:00000001&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>284,1064</PointerOffset>
+      <JapaneseText>エンハンス</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>288</PointerOffset>
+      <JapaneseText>作戦</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>292</PointerOffset>
+      <JapaneseText>料理</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>296</PointerOffset>
+      <JapaneseText>カスタム</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>304,1060</PointerOffset>
+      <JapaneseText>装備</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>308</PointerOffset>
+      <JapaneseText>バトルブック</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>312</PointerOffset>
+      <JapaneseText>ステータス</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>32</PointerOffset>
+      <JapaneseText>ARG &lt;04:00000002&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>328,1076</PointerOffset>
+      <JapaneseText>宝石合成</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>336</PointerOffset>
+      <JapaneseText>あらすじ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>340</PointerOffset>
+      <JapaneseText>GRADE SHOP</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>348</PointerOffset>
+      <JapaneseText>貸し出し中の本　：　</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>352</PointerOffset>
+      <JapaneseText>今は一冊も借りていない。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>356</PointerOffset>
+      <JapaneseText>歴史書</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>36</PointerOffset>
+      <JapaneseText>RETURN &lt;04:00000003&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>360</PointerOffset>
+      <JapaneseText>哲学書</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>364</PointerOffset>
+      <JapaneseText>辞典</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>368</PointerOffset>
+      <JapaneseText>図鑑</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>372</PointerOffset>
+      <JapaneseText>恋愛小説</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>376</PointerOffset>
+      <JapaneseText>推理小説</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>380</PointerOffset>
+      <JapaneseText>歴史小説</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>384</PointerOffset>
+      <JapaneseText>伝記</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>388</PointerOffset>
+      <JapaneseText>旅行記</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>392</PointerOffset>
+      <JapaneseText>冒険小説</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>396</PointerOffset>
+      <JapaneseText>詩集</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>40</PointerOffset>
+      <JapaneseText>PARTY &lt;04:00000004&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>400</PointerOffset>
+      <JapaneseText>画集</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>404</PointerOffset>
+      <JapaneseText>NO</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>408</PointerOffset>
+      <JapaneseText>LV</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>412</PointerOffset>
+      <JapaneseText>/</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>420</PointerOffset>
+      <JapaneseText>TIME</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>424</PointerOffset>
+      <JapaneseText>NPC</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>428</PointerOffset>
+      <JapaneseText>PLACE</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>432</PointerOffset>
+      <JapaneseText>&lt;04:00000002&gt;を戦闘に参加する
+メンバーに入れてください。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>436</PointerOffset>
+      <JapaneseText>戦闘に参加するメンバーに
+戦闘可能なキャラがいません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>44</PointerOffset>
+      <JapaneseText>選択中のデータを削除します。
+よろしいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;削除　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>440</PointerOffset>
+      <JapaneseText>戦闘に参加するメンバーに
+戦闘可能なキャラがいませんので
+このメニューは選べません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>444</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000037&gt;操作切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>448</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000033&gt;入替　&lt;button:00000037&gt;操作切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>452</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000033&gt;あらすじブック　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>456</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;　&lt;size:000000E0&gt;&lt;04:00000002&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>460</PointerOffset>
+      <JapaneseText>ＬＶ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>464</PointerOffset>
+      <JapaneseText>ＨＰ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>468</PointerOffset>
+      <JapaneseText>ＦＧ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>472</PointerOffset>
+      <JapaneseText>Ｎｅｘ{99}{78}</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>476</PointerOffset>
+      <JapaneseText>攻撃力</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>48</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;の&lt;04:00000002&gt;を
+アンフォーマットしますか？
+データは全て消えてしまいますので
+キャンセル時は慎重に&lt;button:00000031&gt;を押してください
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;アンフォーマット　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>480</PointerOffset>
+      <JapaneseText>防御力</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>484</PointerOffset>
+      <JapaneseText>回復力</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>488,580</PointerOffset>
+      <JapaneseText>斬撃</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>500</PointerOffset>
+      <JapaneseText>状態</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>504</PointerOffset>
+      <JapaneseText>衝撃</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>512</PointerOffset>
+      <JapaneseText>潜在</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>516</PointerOffset>
+      <JapaneseText>　&lt;font:80000001&gt;&lt;08:00000040&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>52</PointerOffset>
+      <JapaneseText>選択中のデータ以降に連続でセーブしていきます。
+&lt;button:00000031&gt;押しっぱなしでセーブを途中終了できます。
+よろしいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;オートセーブ　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>520</PointerOffset>
+      <JapaneseText>&lt;button:00000034&gt;&lt;button:00000035&gt;キャラ切替　&lt;button:00000030&gt;名称変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>524</PointerOffset>
+      <JapaneseText>&lt;button:00000034&gt;&lt;button:00000035&gt;キャラ切替　&lt;button:00000030&gt;称号変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>528</PointerOffset>
+      <JapaneseText>&lt;button:00000034&gt;&lt;button:00000035&gt;キャラ切替　&lt;button:00000030&gt;名称変更　&lt;button:00000033&gt;画像切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>532</PointerOffset>
+      <JapaneseText>&lt;button:00000034&gt;&lt;button:00000035&gt;キャラ切替　&lt;button:00000030&gt;称号変更　&lt;button:00000033&gt;画像切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>536</PointerOffset>
+      <JapaneseText>新規</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>548,792</PointerOffset>
+      <JapaneseText>防具</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>56</PointerOffset>
+      <JapaneseText>削除中です。&lt;04:00000002&gt;を抜いたり
+電源を切ったりしないでください</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>560</PointerOffset>
+      <JapaneseText>貴重</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>564</PointerOffset>
+      <JapaneseText>&lt;Yellow&gt;&lt;04:00000002&gt;　&lt;White&gt;&lt;04:00000001&gt;　&lt;font:80000002&gt;&lt;Yellow&gt;x&lt;04:00000003&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>568</PointerOffset>
+      <JapaneseText>使う</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>572</PointerOffset>
+      <JapaneseText>捨てる　&lt;font:80000002&gt;&lt;Yellow&gt;x&lt;04:00000004&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>576</PointerOffset>
+      <JapaneseText>やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>584,492</PointerOffset>
+      <JapaneseText>打撃</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>588,496</PointerOffset>
+      <JapaneseText>術撃</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>592</PointerOffset>
+      <JapaneseText>衝撃値</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>596</PointerOffset>
+      <JapaneseText>ＦＧ回復</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>60</PointerOffset>
+      <JapaneseText>アンフォーマット中です。&lt;04:00000002&gt;を抜いたり
+電源を切ったりしないでください</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>604</PointerOffset>
+      <JapaneseText>斬防</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>608</PointerOffset>
+      <JapaneseText>打防</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>612</PointerOffset>
+      <JapaneseText>術防</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>616</PointerOffset>
+      <JapaneseText>衝吸収</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>620</PointerOffset>
+      <JapaneseText>ＨＰ回復</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>624,508,600,872</PointerOffset>
+      <JapaneseText>属性</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>628,540</PointerOffset>
+      <JapaneseText>道具</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>632</PointerOffset>
+      <JapaneseText>薬</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>636</PointerOffset>
+      <JapaneseText>食材</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>64</PointerOffset>
+      <JapaneseText>連続セーブ中です。&lt;04:00000002&gt;を抜いたり
+電源を切ったりしないでください
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000031&gt;押しっぱなしでこのセーブ終了後オートセーブを終了</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>640</PointerOffset>
+      <JapaneseText>チケット</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>644</PointerOffset>
+      <JapaneseText>剣</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>648</PointerOffset>
+      <JapaneseText>槍</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>652</PointerOffset>
+      <JapaneseText>武具</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>656</PointerOffset>
+      <JapaneseText>杖</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>660</PointerOffset>
+      <JapaneseText>グローブ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>664</PointerOffset>
+      <JapaneseText>カード</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>668</PointerOffset>
+      <JapaneseText>トンファー</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>68</PointerOffset>
+      <JapaneseText>KEY HELP</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>680,672,676</PointerOffset>
+      <JapaneseText>鎧</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>684,692</PointerOffset>
+      <JapaneseText>服</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>688</PointerOffset>
+      <JapaneseText>ローブ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>696,552,796</PointerOffset>
+      <JapaneseText>宝石</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>704</PointerOffset>
+      <JapaneseText>貴重品</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>716</PointerOffset>
+      <JapaneseText>使用できません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>72</PointerOffset>
+      <JapaneseText>,</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>720</PointerOffset>
+      <JapaneseText>装備できません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>724</PointerOffset>
+      <JapaneseText>今は使うことができません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>728</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;は
+捨てることはできません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>732</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;は
+なくなりました。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>736</PointerOffset>
+      <JapaneseText>その&lt;04:00000001&gt;は&lt;04:00000005&gt;が
+装備中ですが捨てますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;捨てる　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>740</PointerOffset>
+      <JapaneseText>その&lt;04:00000001&gt;は&lt;04:00000005&gt;が
+装備中です。
+装備中の武器は捨てられません。
+装備を変えますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;装備メニュー　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>744</PointerOffset>
+      <JapaneseText>---</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>748</PointerOffset>
+      <JapaneseText>捨てていくアイテム</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>752</PointerOffset>
+      <JapaneseText>これでいいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;終了する　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>756</PointerOffset>
+      <JapaneseText>全身に聖気をまとったような
+気がする。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>76</PointerOffset>
+      <JapaneseText>、</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>760</PointerOffset>
+      <JapaneseText>全身に邪気をまとったような
+気がする。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>764</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;使う　&lt;button:00000032&gt;説明切替　&lt;button:00000033&gt;捨てる　&lt;button:00000034&gt;&lt;button:00000035&gt;リスト切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>768</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:0000001C&gt;&lt;button:00000034&gt;&lt;button:00000035&gt;個数変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>772,1132</PointerOffset>
+      <JapaneseText>&lt;button:00000034&gt;&lt;button:00000035&gt;リスト切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>776</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;装備　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>780</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;入替　&lt;button:00000031&gt;終了</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>784</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;使う　&lt;button:00000032&gt;説明切替　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>788,544</PointerOffset>
+      <JapaneseText>武器</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8</PointerOffset>
+      <JapaneseText>今度のテイルズオブは
+リバースとか言うんです</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>80</PointerOffset>
+      <JapaneseText>:</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>800,700,556</PointerOffset>
+      <JapaneseText>護符</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>808,712</PointerOffset>
+      <JapaneseText>NO ITEM</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>812</PointerOffset>
+      <JapaneseText>その&lt;04:00000001&gt;は&lt;04:00000003&gt;が
+装備中ですがどうしますか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;外して装備　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>816</PointerOffset>
+      <JapaneseText>武器を外すことはできません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>820</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;変更　&lt;button:00000032&gt;説明切替　&lt;button:00000033&gt;はずす　&lt;button:00000034&gt;&lt;button:00000035&gt;キャラ切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>832</PointerOffset>
+      <JapaneseText>UP</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>836</PointerOffset>
+      <JapaneseText>FRONT</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>84</PointerOffset>
+      <JapaneseText> </JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>840</PointerOffset>
+      <JapaneseText>BACK</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>844</PointerOffset>
+      <JapaneseText>DOWN</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>848</PointerOffset>
+      <JapaneseText>&lt;button:00000036&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>852</PointerOffset>
+      <JapaneseText>&lt;button:00000037&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>856</PointerOffset>
+      <JapaneseText>オート</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>860</PointerOffset>
+      <JapaneseText>セミオート</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>864</PointerOffset>
+      <JapaneseText>マニュアル</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>868,804</PointerOffset>
+      <JapaneseText>-</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>876</PointerOffset>
+      <JapaneseText>奥義</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>88</PointerOffset>
+      <JapaneseText>
+</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>880</PointerOffset>
+      <JapaneseText>NO SKILL</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>884</PointerOffset>
+      <JapaneseText>NO PARAMETER TEXT</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>888</PointerOffset>
+      <JapaneseText>まだ覚えられません</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>892</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;変更　&lt;button:00000032&gt;説明切替　&lt;button:00000033&gt;はずす　&lt;button:00000018&gt;奥義習得　&lt;size:40000100&gt;&lt;button:00000051&gt;&lt;size:80000000&gt;ＦＣ　&lt;size:00000100&gt;&lt;button:00000034&gt;&lt;button:00000035&gt;&lt;size:80000000&gt;キャラ切替　&lt;size:00000100&gt;&lt;button:00000036&gt;&lt;button:00000037&gt;&lt;size:80000000&gt;操作切替　&lt;button:00000031&gt;戻る        </JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>896</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;変更　&lt;button:00000032&gt;説明切替　&lt;button:00000033&gt;はずす　&lt;size:40000100&gt;&lt;button:00000051&gt;&lt;size:80000000&gt;ＦＣ　&lt;size:00000100&gt;&lt;button:00000034&gt;&lt;button:00000035&gt;&lt;size:80000000&gt;キャラ切替　&lt;size:00000100&gt;&lt;button:00000036&gt;&lt;button:00000037&gt;&lt;size:80000000&gt;操作切替　&lt;button:00000031&gt;戻る        </JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>900</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;変更　&lt;button:00000032&gt;説明切替　&lt;button:00000033&gt;はずす　&lt;button:00000037&gt;操作切替　&lt;button:00000034&gt;&lt;button:00000035&gt;キャラ切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>904,824</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000032&gt;説明切替　&lt;button:00000034&gt;&lt;button:00000035&gt;設定個所切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>912,828</PointerOffset>
+      <JapaneseText>&lt;button:00000034&gt;&lt;button:00000035&gt;設定個所切替　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>916</PointerOffset>
+      <JapaneseText>&lt;color:20C08080&gt;&lt;08:00000020&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>920</PointerOffset>
+      <JapaneseText>&lt;color:80000000&gt;&lt;08:80000000&gt;</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>924</PointerOffset>
+      <JapaneseText>攻撃力上昇</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>928</PointerOffset>
+      <JapaneseText>防御力上昇</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>932</PointerOffset>
+      <JapaneseText>術攻撃力上昇</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>936</PointerOffset>
+      <JapaneseText>術防御力上昇</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>940</PointerOffset>
+      <JapaneseText>ＨＰ回復力上昇</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>944</PointerOffset>
+      <JapaneseText>ＦＧ回復力上昇</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>948</PointerOffset>
+      <JapaneseText>作戦行動</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>952</PointerOffset>
+      <JapaneseText>攻撃頻度</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>956</PointerOffset>
+      <JapaneseText>術技条件</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>96</PointerOffset>
+      <JapaneseText>＋</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>960</PointerOffset>
+      <JapaneseText>作戦名にあわせたおすすめ設定を行います。
+よろしいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;設定　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>964</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;変更　&lt;button:00000033&gt;隊列　&lt;button:00000034&gt;&lt;button:00000035&gt;作戦切替　&lt;button:00000037&gt;作戦名変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>968</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;選択　&lt;button:00000033&gt;戦術　&lt;button:00000034&gt;&lt;button:00000035&gt;作戦切替　&lt;button:00000037&gt;作戦名変更　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>972</PointerOffset>
+      <JapaneseText>&lt;button:00000030&gt;決定　&lt;button:00000033&gt;おすすめ隊列　&lt;button:00000031&gt;戻る</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>976</PointerOffset>
+      <JapaneseText>装備中</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>980</PointerOffset>
+      <JapaneseText>全て</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>984</PointerOffset>
+      <JapaneseText>EP</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>988</PointerOffset>
+      <JapaneseText>消費ＥＰ</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>992</PointerOffset>
+      <JapaneseText>&lt;04:00000001&gt;でいいですか？
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;button:00000030&gt;実行　&lt;button:00000031&gt;やめる</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>996</PointerOffset>
+      <JapaneseText>カスタムに必要なポイントが足りません。</JapaneseText>
+      <EnglishText></EnglishText>
+      <Notes></Notes>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+</MenuText>
