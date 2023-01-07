@@ -1,6 +1,6 @@
 <SceneText>
   <Speakers>
-    <Section>Speakers</Section>
+    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -11,7 +11,7 @@
     </Entry>
     <Entry>
       <PointerOffset>420,456</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
@@ -20,34 +20,34 @@
     <Entry>
       <PointerOffset>481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481</PointerOffset>
       <JapaneseText>おじいさん</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Old Man</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1126,1126,1126,1126</PointerOffset>
       <JapaneseText>宿屋「やすらぎ」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Innkeeper</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1174,2904,4393</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6238</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -55,26 +55,26 @@
     <Entry>
       <PointerOffset>166</PointerOffset>
       <JapaneseText>モクラド村・宿屋・食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Mocrado Village - Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>169</PointerOffset>
       <JapaneseText>モクラド村</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Mocrado Village</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>178</PointerOffset>
       <JapaneseText>宿屋・食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>423</PointerOffset>
@@ -297,11 +297,11 @@
     <Entry>
       <PointerOffset>1154</PointerOffset>
       <JapaneseText>いらっしゃいませ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1177</PointerOffset>
@@ -318,29 +318,29 @@
     <Entry>
       <PointerOffset>1241</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>26</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1282</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>27</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1347</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>28</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1438</PointerOffset>
@@ -394,7 +394,7 @@
     <Entry>
       <PointerOffset>1579</PointerOffset>
       <JapaneseText>ナイラさんに占ってもらった人は、
-占いの結果だけではなく、庇女の
+占いの結果だけではなく、彼女の
 人柄にも元気をもらうんです……</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -464,40 +464,44 @@
 　はい　
 　いいえ　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk17:340c&gt; Gald to rest. Spend the night?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4396</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6064</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6142</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

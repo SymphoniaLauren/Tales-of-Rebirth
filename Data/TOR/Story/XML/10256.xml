@@ -1,6 +1,6 @@
 <SceneText>
   <Speakers>
-    <Section>Speakers</Section>
+    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -12,42 +12,42 @@
     <Entry>
       <PointerOffset>754,1020,1227,1466</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>791,956,977,1041,1248,1304,1405,1500</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>927,1277,1333,1371</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3016</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4861</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -55,18 +55,18 @@
     <Entry>
       <PointerOffset>239</PointerOffset>
       <JapaneseText>アルヴァン山脈</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Alvan Mountains</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>242</PointerOffset>
       <JapaneseText>アルヴァン山脈</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Alvan Mountains</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>757</PointerOffset>
@@ -184,12 +184,15 @@ Claire.</EnglishText>
       <VoiceId>0f00002a</VoiceId>
       <JapaneseText>おまえの気持ちはわかる。
 だが、ここで体力を使い果たして、
-どうやって庇女を救う？</JapaneseText>
-      <EnglishText/>
+どうやって彼女を救う？</JapaneseText>
+      <EnglishText>I understand how you feel,
+&lt;Veigue&gt;. But how do you intend to save
+her if you use up all of your
+energy here?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1307</PointerOffset>
@@ -205,25 +208,28 @@ Claire.</EnglishText>
       <PointerOffset>1336</PointerOffset>
       <VoiceId>0f00002c</VoiceId>
       <JapaneseText>サレたちに追いつけば、
-ただで庇女を返してもらえると
+ただで彼女を返してもらえると
 思うのか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>When we catch up to Saleh, do
+you expect him to just let her go?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1374</PointerOffset>
       <VoiceId>0f00002d</VoiceId>
-      <JapaneseText>庇女に追いつく事だけが
+      <JapaneseText>彼女に追いつく事だけが
 目的じゃない。
 それを忘れるな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Catching up with Claire isn't
+the only thing that we'll have to
+do. Don't forget that.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1408</PointerOffset>
@@ -265,29 +271,31 @@ I'll be zipping down the mountain!
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4687</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>20</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4765</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

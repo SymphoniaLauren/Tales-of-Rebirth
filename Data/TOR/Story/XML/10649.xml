@@ -1,6 +1,6 @@
 <SceneText>
   <Speakers>
-    <Section>Speakers</Section>
+    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -11,7 +11,7 @@
     </Entry>
     <Entry>
       <PointerOffset>357</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
@@ -20,34 +20,34 @@
     <Entry>
       <PointerOffset>382,382,382,382</PointerOffset>
       <JapaneseText>武器屋「烈刃」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Weapon Shop</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>853,2590,5284</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2119,2119,2119,2119</PointerOffset>
       <JapaneseText>防具屋「獣王のおきて」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Armor Shop</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7129</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -55,31 +55,31 @@
     <Entry>
       <PointerOffset>183</PointerOffset>
       <JapaneseText>首都バルカ・装備品屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Capital City Balka - Weapon Shop</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>186</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Capital City Balka</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>195</PointerOffset>
       <JapaneseText>装備品屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Weapon Shop</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>360</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『獣面のヨロイ（非売品）』
-獅子王と呼ばれ、武術に洲でていた
+獅子王と呼ばれ、武術に秀でていた
 第十六代ガガーイ王の使っていた、
 胸にライオンのレリーフが入った
 大迫力のヨロイ。</JapaneseText>
@@ -180,11 +180,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　武器を買う　
 　世間話をする　
 　やめる　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Weapons
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>964</PointerOffset>
@@ -535,10 +537,10 @@
     <Entry>
       <PointerOffset>2434</PointerOffset>
       <JapaneseText>いらっしゃいませ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome.</EnglishText>
       <Notes/>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2514</PointerOffset>
@@ -551,29 +553,31 @@
     <Entry>
       <PointerOffset>2539</PointerOffset>
       <JapaneseText>いらっしゃいませ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome.</EnglishText>
       <Notes/>
       <Id>53</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2564</PointerOffset>
       <JapaneseText>いらっしゃいませ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome.</EnglishText>
       <Notes/>
       <Id>54</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2593</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　防具を買う　
 　世間話をする　
 　やめる　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Armor
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>55</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2701</PointerOffset>
@@ -587,18 +591,18 @@
     <Entry>
       <PointerOffset>2726</PointerOffset>
       <JapaneseText>また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back again!</EnglishText>
       <Notes/>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2751</PointerOffset>
       <JapaneseText>また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back again!</EnglishText>
       <Notes/>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2838</PointerOffset>
@@ -675,10 +679,10 @@
     <Entry>
       <PointerOffset>3122</PointerOffset>
       <JapaneseText>また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back again!</EnglishText>
       <Notes/>
       <Id>67</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3238</PointerOffset>
@@ -907,29 +911,31 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>90</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6955</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>91</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7033</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>92</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

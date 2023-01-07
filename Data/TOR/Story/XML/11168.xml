@@ -1,6 +1,6 @@
 <SceneText>
   <Speakers>
-    <Section>Speakers</Section>
+    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -12,34 +12,34 @@
     <Entry>
       <PointerOffset>645,645,645,645,645</PointerOffset>
       <JapaneseText>男の子</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Boy</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>774,1271,2432,3360,3527,4355,6259</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1382,1447,1545,1610,1708,1773,1872,1937,2031,2119,2485,8104</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2366,2366,2366,3032,3032,3032,3032</PointerOffset>
       <JapaneseText>行商人</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Peddler</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2954,2954,2954</PointerOffset>
@@ -52,10 +52,10 @@
     <Entry>
       <PointerOffset>3243,3243,3243</PointerOffset>
       <JapaneseText>船員</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sailor</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -63,18 +63,18 @@
     <Entry>
       <PointerOffset>202</PointerOffset>
       <JapaneseText>ラジルダ港</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Razilda Harbor</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>205</PointerOffset>
       <JapaneseText>ラジルダ港</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Razilda Harbor</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>673</PointerOffset>
@@ -334,7 +334,7 @@
     </Entry>
     <Entry>
       <PointerOffset>2601</PointerOffset>
-      <JapaneseText>まだ読み完わってないから、
+      <JapaneseText>まだ読み終わってないから、
 僕の冒険と比べることはできないな。
 悪いけど、また後できてよ。</JapaneseText>
       <EnglishText/>
@@ -515,47 +515,53 @@
     <Entry>
       <PointerOffset>3274</PointerOffset>
       <JapaneseText>定期船は欠航となっております。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Regular boat service
+is currently cancelled.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3312</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;お金が足りないようですね。
 定期船のご利用料金は
 一律&lt;nmb:012c&gt;ガルドです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;You seem to be short of money.
+The fee for embarking is a flat 
+rate of &lt;nmb:012c&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3340</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;定期船をご利用なさいますか？
 料金は一律&lt;nmb:012c&gt;ガルドです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;Do you want to embark?
+The fee is &lt;nmb:012c&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3363</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;定期船を利用しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Embark?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3438</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>51</Id>
@@ -564,11 +570,11 @@
     <Entry>
       <PointerOffset>3243</PointerOffset>
       <JapaneseText>船員</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sailor</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3513</PointerOffset>
@@ -595,129 +601,131 @@
       <PointerOffset>4493</PointerOffset>
       <JapaneseText>　ミナール　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Minal</EnglishText>
       <Notes/>
       <Id>55</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4532</PointerOffset>
       <JapaneseText>　サニイタウン　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sunnytown</EnglishText>
       <Notes/>
       <Id>56</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4571</PointerOffset>
       <JapaneseText>　バビログラード港　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Babilograd Harbor</EnglishText>
       <Notes/>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4611</PointerOffset>
       <JapaneseText>　バルカ港　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Balka Harbor</EnglishText>
       <Notes/>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4652</PointerOffset>
       <JapaneseText>　ラジルダ港　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Razilda Harbor</EnglishText>
       <Notes/>
       <Id>59</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4692</PointerOffset>
       <JapaneseText>　ノルゼン　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Nolzen</EnglishText>
       <Notes/>
       <Id>60</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4732</PointerOffset>
       <JapaneseText>　ベルサス港　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Belsas Harbor</EnglishText>
       <Notes/>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4796</PointerOffset>
       <JapaneseText>　ノルゼン　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Nolzen</EnglishText>
       <Notes/>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4837</PointerOffset>
       <JapaneseText>　ベルサス港　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Belsas Harbor</EnglishText>
       <Notes/>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4877</PointerOffset>
       <JapaneseText>　ミナール　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Minal</EnglishText>
       <Notes/>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4922</PointerOffset>
       <JapaneseText>　定期船に乗らない　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Don't Embark</EnglishText>
       <Notes/>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6262</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7930</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>67</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8008</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -1,6 +1,6 @@
 <SceneText>
   <Speakers>
-    <Section>Speakers</Section>
+    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -12,38 +12,38 @@
     <Entry>
       <PointerOffset>614,614,614,614,614,614</PointerOffset>
       <JapaneseText>宿屋「快食快眠」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Inn</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>798,2598,5324,6813</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1275,1327</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2459,2459,2459,2459,2459,2459</PointerOffset>
       <JapaneseText>食材屋「食前食後」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grocer</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3966,4002,4038</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
@@ -52,10 +52,10 @@
     <Entry>
       <PointerOffset>8658</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -63,75 +63,78 @@
     <Entry>
       <PointerOffset>192</PointerOffset>
       <JapaneseText>宿屋・食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>198</PointerOffset>
       <JapaneseText>ペトナジャンカ・宿屋・食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Petnadjanka - Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>201</PointerOffset>
       <JapaneseText>ペトナジャンカ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Petnadjanka</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>652</PointerOffset>
       <JapaneseText>うちのガジュマは
 働き者だよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Our Gajuma's a hardworker.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>674</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;んとこは見張ってないと、
 すぐさぼるガジュマがいるから
 大変だねえ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Those Gajumas would slack off
+if you're not watching them, &lt;Tytree&gt;.
+We can't have that.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>731</PointerOffset>
       <JapaneseText>揺れ、揺れ……
 揺れてるわ……！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It-It's...
+Shaking...!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>753</PointerOffset>
       <JapaneseText>一体、何!?</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What do you want!?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>778</PointerOffset>
       <JapaneseText>当宿へようこそ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome to our Inn!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>801</PointerOffset>
@@ -139,204 +142,228 @@
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Rest
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>863</PointerOffset>
       <JapaneseText>また、おいでなさい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come again!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>976</PointerOffset>
       <JapaneseText>一体、工場の方で
 ナニが起こってるのかしらねえ……
 気になるわぁ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Looks like there's something
+happening at the factory...
+I wonder what?</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1026</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;が暴走……!!
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;'s gone berserk!?</EnglishText>
       <Notes/>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1048</PointerOffset>
       <JapaneseText>……暴走……って……何？
 走り回る……事……？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hm... What do you mean by that anyway?
+Did he start running around...
+or something...?</EnglishText>
       <Notes/>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1112</PointerOffset>
       <JapaneseText>よく眠って、よくお食べなさい。
 敵に勝つには、それが基本！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Make sure to eat well and
+sleep well so you can win
+against those bastards!</EnglishText>
       <Notes/>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1134</PointerOffset>
       <JapaneseText>そしてセレーナちゃんを
 取り戻しなさい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>And get our dearest
+Selena back!</EnglishText>
       <Notes/>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1172</PointerOffset>
       <JapaneseText>うちのベッドは特別仕様、
 よく眠れるベッドなの。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Our beds are really special, you know?
+It'll help you sleep better.</EnglishText>
       <Notes/>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1194</PointerOffset>
       <JapaneseText>よく眠って、
 大きくおなりなさい。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>You get some good sleep
+so you can grow properly.</EnglishText>
       <Notes/>
       <Id>17</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1233</PointerOffset>
       <JapaneseText>うちのベッドは特別仕様、
 よく眠れるベッドなの。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Our beds are really special, you know?
+It'll help you sleep better.</EnglishText>
       <Notes/>
       <Id>18</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1255</PointerOffset>
       <JapaneseText>よく眠って、
 大きくおなりなさい。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>You get some good sleep
+so you can grow properly.</EnglishText>
       <Notes/>
       <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1278</PointerOffset>
       <JapaneseText>あの、わたし……
 そんなに小さい……ですか？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Uhm... Am I... really
+that small...?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>20</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1330</PointerOffset>
       <JapaneseText>あ、いえ……
 なんでもないです……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Oh- uhh... Nevermind...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1361</PointerOffset>
       <JapaneseText>よく眠って、よくお食べ……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Eat well and sleep well...</EnglishText>
       <Notes/>
       <Id>22</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1400</PointerOffset>
       <JapaneseText>あらあら、それ以上は
 育たないかしら？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Oh my, will you grow
+ever more taller?</EnglishText>
       <Notes/>
       <Id>23</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1464</PointerOffset>
       <JapaneseText>セレーナちゃんが戻ってきて、
 この街も平和が戻ってきたわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The town's finally at peace
+now that Selena's here.</EnglishText>
       <Notes/>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1486</PointerOffset>
       <JapaneseText>他の街は
 どうなのかしらねえ……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I wonder how it's like for
+other towns as well...?</EnglishText>
       <Notes/>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1511</PointerOffset>
       <JapaneseText>あなたたちがセレーナちゃんを
 取り戻してくれたの？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Were you the ones who
+got our dear Selena back?</EnglishText>
       <Notes/>
       <Id>26</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1533</PointerOffset>
       <JapaneseText>そうよねえ……&lt;Tytree&gt;だけでは
 もうひとつ頼りないし……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>That makes sense... You can't
+really trust &lt;Tytree&gt; to do it
+by himself...</EnglishText>
       <Notes/>
       <Id>27</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1597</PointerOffset>
       <JapaneseText>相変わらず、この街は平穏よ。
 安心して、お出かけしてらっしゃい。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Haah... The city's as peaceful as
+ever... You don't worry about me,
+go out and see things!</EnglishText>
       <Notes/>
       <Id>28</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1619</PointerOffset>
       <JapaneseText>疲れたら、うちを使いなさい。
 ……タダにはできないけどね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>And feel free to come back here
+when you need to rest... It won't
+be free though!</EnglishText>
       <Notes/>
       <Id>29</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1644</PointerOffset>
@@ -344,68 +371,83 @@
 種族間のもめ事が
 起こってるっていうじゃない？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>You know how in other cities,
+there's some interspecies conflict
+going on?</EnglishText>
       <Notes/>
       <Id>30</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1666</PointerOffset>
       <JapaneseText>この街は
 もともとガジュマが少ないから
 そういう事もないけれど……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This city has always had a low
+population of Gajumas, so that
+was never the case, but...</EnglishText>
       <Notes/>
       <Id>31</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1716</PointerOffset>
       <JapaneseText>外から来たガジュマが
 工場で働くようになったみたいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It seems like some Gajumas
+came here from outside and
+started working in the factory.</EnglishText>
       <Notes/>
       <Id>32</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1738</PointerOffset>
       <JapaneseText>あの人たちは家がないから、
 うちの店を利用してくれるからいいけど……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I've been letting them stay here
+since they didn't have a place
+to sleep in, but...</EnglishText>
       <Notes/>
       <Id>33</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1760</PointerOffset>
       <JapaneseText>他の街みたいに、
 ゴタゴタするのはゴメンだわね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It would be a problem if
+they started picking a fight
+with Humas just like in 
+other cities.</EnglishText>
       <Notes/>
       <Id>34</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1824</PointerOffset>
       <JapaneseText>ガジュマが増えてから
 ヒューマがなんだか
-庇らの悪口を言うように
+彼らの悪口を言うように
 なったのよね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ever since the number of Gajumas
+in this city increased, Humas here
+have started talking badly about
+them.</EnglishText>
       <Notes/>
       <Id>35</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1846</PointerOffset>
       <JapaneseText>あんたはそんな事ないわよね、
 &lt;Tytree&gt;？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You wouldn't do that,
+would you, &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <Id>36</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1884</PointerOffset>
@@ -413,76 +455,90 @@
 ヒューマがなんだか
 ガジュマの悪口を言うように
 なったのよね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ever since the number of Gajumas
+in this city increased, Humas here
+have started talking badly about
+them.</EnglishText>
       <Notes/>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1906</PointerOffset>
       <JapaneseText>私？　私は言わないわよ。
 だって一緒に商売してるんだもの。
 平和にやりたいわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What about me? No, never! I've
+spent my life working with one,
+after all. I just want to live in peace!</EnglishText>
       <Notes/>
       <Id>38</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1931</PointerOffset>
       <JapaneseText>私はただ平穏に
 暮らしたいだけなの。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I just want to 
+live in peace.</EnglishText>
       <Notes/>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1953</PointerOffset>
       <JapaneseText>あまり
 もめて欲しくないわよ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I don't really want to
+pick a fight with others...</EnglishText>
       <Notes/>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2017</PointerOffset>
       <JapaneseText>ジルバ様が
 お城で変な演説をなさるもんだから、
 ガジュマがなんか企んでるのよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ever since Lady Zilva made that strange
+speech at the castle, the Gajumas seem
+to have started scheming something.</EnglishText>
       <Notes/>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2039</PointerOffset>
       <JapaneseText>あんたの姉さんも、
 色々、仲立ちしようと
 がんばってるみたいだけどねえ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Your sister seems to be trying
+her best to mediate between
+the two, though...</EnglishText>
       <Notes/>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2077</PointerOffset>
       <JapaneseText>あんたもヒューマに
 不満を抱いてるの？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Are you also dissatisfied
+with Humas?</EnglishText>
       <Notes/>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2114</PointerOffset>
       <JapaneseText>やめましょうよ。
 何の得にもならないわよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please, let's stop this... This
+isn't gonna lead to anything
+fruitful.</EnglishText>
       <Notes/>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2139</PointerOffset>
@@ -490,94 +546,109 @@
 演説をされてから、
 ガジュマたちがちょっと
 興奮してるのよね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Gajumas have grown excited
+after Lady Zilva gave her speech
+in support of them.</EnglishText>
       <Notes/>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2161</PointerOffset>
       <JapaneseText>反ヒューマが増えてるの。
 あんたたち、気をつけなさいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Thus, those who hold malicious
+feelings against Humas are slowly
+growing... Be careful...</EnglishText>
       <Notes/>
       <Id>46</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2209</PointerOffset>
       <JapaneseText>工場のゴタゴタは
 収まったみたいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like the mess at the
+factory's finally under control.</EnglishText>
       <Notes/>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2231</PointerOffset>
       <JapaneseText>でも一時的な
 ものじゃないかしら。心配だわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But I'm afraid that it 
+might be temporary...</EnglishText>
       <Notes/>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2256</PointerOffset>
       <JapaneseText>やっぱり私が心配してたとおりね。
 種族だなんだって
 工場でもめてるらしいわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It's just what I feared... Humas 
+and Gajumas... They're fighting
+at the factory...</EnglishText>
       <Notes/>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2278</PointerOffset>
       <JapaneseText>うちは食材屋のおかみさんとも
 仲良くやってるわよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm getting along well with
+the missus here.</EnglishText>
       <Notes/>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2328</PointerOffset>
       <JapaneseText>工場のゴタゴタは
 収まったみたいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like the mess at the
+factory's finally under control.</EnglishText>
       <Notes/>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2350</PointerOffset>
       <JapaneseText>でも一時的な
 ものじゃないかしら。心配だわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But I'm afraid that it 
+might be temporary...</EnglishText>
       <Notes/>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2375</PointerOffset>
       <JapaneseText>ペトナジャンカに
 わざわざ旅の途中に立ち寄るって
 奇特な人は少ないわね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>There's no end to odd people
+stopping by Petnadjanka on
+the way to the city.</EnglishText>
       <Notes/>
       <Id>53</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2397</PointerOffset>
       <JapaneseText>あら、あなた方が奇特だって
 言ってるわけじゃないわよ。
 ほほほほ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Oh, I didn't mean to say you
+guys are weird or anything!
+Hahahaha...!!</EnglishText>
       <Notes/>
       <Id>54</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2497</PointerOffset>
@@ -594,21 +665,23 @@
     <Entry>
       <PointerOffset>2553</PointerOffset>
       <JapaneseText>何？　何かしら!?</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What may that be?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>56</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2578</PointerOffset>
       <JapaneseText>「よく食べる子はよく育つ！」
 今日の夕食の用意はうちでどうぞ♪</JapaneseText>
-      <EnglishText/>
+      <EnglishText>"Children who eat well grow
+up properly!" Please, enjoy
+the dinner I shall serve you!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2601</PointerOffset>
@@ -616,114 +689,129 @@
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Food
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2663</PointerOffset>
       <JapaneseText>いつでも
 いらっしゃい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back anytime.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>59</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2702</PointerOffset>
       <JapaneseText>どれも新鮮よ♪</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Everything I have is
+fresh, you know!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>60</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2730</PointerOffset>
       <JapaneseText>お好きなものは
 あった？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Did you find
+what you like?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2832</PointerOffset>
       <JapaneseText>工場の方で
 何かあったみたいだけど……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>It seems like there's something
+happening in the factory, but...</EnglishText>
       <Notes/>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2854</PointerOffset>
       <JapaneseText>……どうでもいいわね……
 それより商売、商売♪</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm sure it's nothing bad!
+Anyways, come on!
+Buy something!</EnglishText>
       <Notes/>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2904</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;……大丈夫なの？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Are you alright... &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2926</PointerOffset>
       <JapaneseText>あなた方でなんとか
 してくれるのよね？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>All of you can
+handle this, right?</EnglishText>
       <Notes/>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2990</PointerOffset>
       <JapaneseText>セレーナちゃんを連れてかれて
 落ち込んでない？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Aren't you depressed that
+they took Selene away?</EnglishText>
       <Notes/>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3012</PointerOffset>
       <JapaneseText>そんな時こそ、
 うちの食材がおすすめよ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is the time for you
+to take my ingredients
+and move forward!</EnglishText>
       <Notes/>
       <Id>67</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3034</PointerOffset>
       <JapaneseText>鉄分、ミネラル、カルシウム。
 もりもりとって元気になりなさい！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Iron, Minerals, Calcium.
+Take these properly and
+grow healthy!</EnglishText>
       <Notes/>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3059</PointerOffset>
       <JapaneseText>気分が後ろ向きの時は
 おいしいものを食べなさい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Nothing beats a plate of
+good food whenever you're in
+a bad mood!</EnglishText>
       <Notes/>
       <Id>69</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3081</PointerOffset>
@@ -740,10 +828,11 @@
       <JapaneseText>セレーナちゃん、
 戻ってきたわね。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like Selena's
+finally come home!</EnglishText>
       <Notes/>
       <Id>71</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3167</PointerOffset>
@@ -759,40 +848,45 @@
       <PointerOffset>3192</PointerOffset>
       <JapaneseText>お腹は空いてない？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Aren't you hungry?</EnglishText>
       <Notes/>
       <Id>73</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3214</PointerOffset>
       <JapaneseText>私は……
 空いてきたわ……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Me...?
+...I am.</EnglishText>
       <Notes/>
       <Id>74</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3264</PointerOffset>
       <JapaneseText>よその街は種族問題で
 揺れてるらしいけど……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I've heard that other towns
+are having trouble between
+races, but...</EnglishText>
       <Notes/>
       <Id>75</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3286</PointerOffset>
       <JapaneseText>みんな、カルシウムが
 足りてない証拠よね。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is just proof that
+everyone's in need
+of calcium!</EnglishText>
       <Notes/>
       <Id>76</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3336</PointerOffset>
@@ -819,10 +913,12 @@
       <JapaneseText>&lt;Tytree&gt;、
 そろそろ戻ってきてくれない？
 近頃、お客さんが少なくて。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Isn't it time for you to come
+back, &lt;Tytree&gt;? I've haven't
+been getting customers lately.</EnglishText>
       <Notes/>
       <Id>79</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3444</PointerOffset>
@@ -839,83 +935,94 @@
       <JapaneseText>そしたら、
 新鮮な食材のある店として
 うちの宣伝にもなるしね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It would be a great way to
+advertise my store as a
+place with fresh ingredients.</EnglishText>
       <Notes/>
       <Id>81</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3491</PointerOffset>
       <JapaneseText>近頃、お客さんが
 少ないのよね……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I haven't had lots of
+customers lately...</EnglishText>
       <Notes/>
       <Id>82</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3513</PointerOffset>
       <JapaneseText>みんなケンカばかりでさ、
 本当やになっちゃうわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Everyone just keeps fighting.
+I'm so sick of it!</EnglishText>
       <Notes/>
       <Id>83</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3535</PointerOffset>
       <JapaneseText>あんなにケンカして、
 お腹空かないのかしら？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Perhaps they're just quarreling
+because they're hungry...</EnglishText>
       <Notes/>
       <Id>84</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3597</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;はいつになったら、
 ペトナジャンカに戻ってくるの？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>When are you coming
+back here, &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <Id>85</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3619</PointerOffset>
       <JapaneseText>みんな、待ってるわよ。
 特に子供たちがね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Everyone's been waiting for
+you, especially the kids.</EnglishText>
       <Notes/>
       <Id>86</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3644</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;は子供に
 人気があるの。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;'s really popular
+with children, you know!</EnglishText>
       <Notes/>
       <Id>87</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3666</PointerOffset>
       <JapaneseText>……精神年齢が近いのよね。
 あ、これ本人には内緒。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You keep this a secret, but...
+He's popular because he's
+around their age mentally!</EnglishText>
       <Notes/>
       <Id>88</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3709</PointerOffset>
       <JapaneseText>うちの工場でも、
 なんか種族の事で
 もめてるみたいだわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It seems like there's some kind
+of racial dispute at the factory.</EnglishText>
       <Notes/>
       <Id>89</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3731</PointerOffset>
@@ -931,37 +1038,42 @@
       <PointerOffset>3795</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;はいつになったら、
 ペトナジャンカに戻ってくるの？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>When are you coming
+back here, &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <Id>91</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3817</PointerOffset>
       <JapaneseText>みんな、待ってるわよ。
 特に子供たちがね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Everyone's been waiting for
+you, especially the kids.</EnglishText>
       <Notes/>
       <Id>92</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3842</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;は子供に
 人気があるの。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;'s really popular
+with children, you know!</EnglishText>
       <Notes/>
       <Id>93</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3864</PointerOffset>
       <JapaneseText>……精神年齢が近いのよね。
 あ、これ本人には内緒。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You keep this a secret, but...
+He's popular because he's
+around their age mentally!</EnglishText>
       <Notes/>
       <Id>94</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3907</PointerOffset>
@@ -977,10 +1089,10 @@
       <PointerOffset>3929</PointerOffset>
       <JapaneseText>食べてばっかりでも
 ダメよね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But eating alone is not enough!</EnglishText>
       <Notes/>
       <Id>96</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3969</PointerOffset>
@@ -989,21 +1101,27 @@
 『ノビビーとユウの日記』
 『煙突掃除の少年たち』
 いずれも古い本ばかり。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;- Annals of Petnadjanka -
+- Callegea: A History of Money -
+- Nobibi and Yu's Diary -
+- Chimneysweepers -
+All books are weathered with age.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>97</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4005</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『？？？の設計図』
 どうしてここに貼ってあるかは不明。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;- A Blueprint of ??? -
+You have no idea why it's sticked
+on here.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>98</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4041</PointerOffset>
@@ -1013,11 +1131,16 @@
 二人が並んでいるものが一枚ある。
 「当店の創始者、ノビビーとユウ」
 と記されている。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;- Old Portraits -
+There's a picture of a Gajuma
+and a Huma and one with two
+together. Written below is
+"Nobibi and Yu: Founders of 
+Eat Well, Sleep Well"</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>99</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5327</PointerOffset>
@@ -1025,40 +1148,44 @@
 　はい　
 　いいえ　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk17:340c&gt; Gald to rest. Spend the night?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>100</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6816</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>101</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8484</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>102</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8562</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>103</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -1,6 +1,6 @@
 <SceneText>
   <Speakers>
-    <Section>Speakers</Section>
+    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -11,7 +11,7 @@
     </Entry>
     <Entry>
       <PointerOffset>677,3025,3290</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
@@ -20,90 +20,90 @@
     <Entry>
       <PointerOffset>935,1062,1108,1225,1489,1513,1960,2015,2187,2242,2414,2469,2641,2696,7778</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1137,1537,1907,2134,2361,2588,3537,5933</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1248,1248,1248,1248,1248,1248,1248,1248,1248</PointerOffset>
       <JapaneseText>食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grocer</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1771,1771,1771,1771,1771,1771,1771</PointerOffset>
       <JapaneseText>料理情報屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Recipe Guru</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2816,3081</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2852,3117</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2888,3153</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2925,3190</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2962,3227</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2999,3264</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
       <Notes/>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3416,3416,3416,3416</PointerOffset>
       <JapaneseText>調合師</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Elixir Mixer</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -111,18 +111,18 @@
     <Entry>
       <PointerOffset>148</PointerOffset>
       <JapaneseText>食材調達施設</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Farm Fresh Groceries</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>151</PointerOffset>
       <JapaneseText>食材調達施設</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Farm Fresh Groceries</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>680</PointerOffset>
@@ -130,39 +130,43 @@
 　頻度レベルアップ　
 　種類レベルアップ　
 　個数レベルアップ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;font:0000&gt;&lt;scale:00F0&gt;Buy Ingredients/Exchange Tickets
+Level Up Frequency
+Level Up Variety
+Level Up Amount</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>938</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Unk18:4414&gt;レベルは最大です。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Unk18:4414&gt; is at max level.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1065</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;所持金が足りません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;You don't have enough money.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1111</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;今の段階ではこれ以上
 レベルアップできません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;You cannot level it 
+up more than this currently.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1140</PointerOffset>
@@ -170,64 +174,70 @@
 よろしいですか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Raise the &lt;Unk18:4414&gt; Level.
+Is this alright?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1228</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;font:80000002&gt;&lt;item:0106&gt;の
 &lt;Unk18:4414&gt;レベルは&lt;Unk17:340cc18c&gt;になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;The &lt;item:0106&gt;'s &lt;Unk18:4414&gt; Level 
+is now &lt;Unk17:340cc18c&gt;.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1242</PointerOffset>
       <JapaneseText>頻度</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Frequency</EnglishText>
       <Notes/>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1242</PointerOffset>
       <JapaneseText>種類</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Variety</EnglishText>
       <Notes/>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1242</PointerOffset>
       <JapaneseText>個数</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Amount</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1264</PointerOffset>
       <JapaneseText>食材調達施設へようこそ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome to Farm 
+Fresh Groceries!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1286</PointerOffset>
       <JapaneseText>ここではいろんな食材を集めて、
 皆さんに提供しています。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We offer a wide variety
+of food products here.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1308</PointerOffset>
@@ -235,124 +245,145 @@
 を皆さんにお持ちいただくだけで、
 新鮮な食材を定期的に供給する
 システムとなっております。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Just by having the mysterious
+&lt;item:0106&gt; with you, you'll
+be supplied regularly with the
+freshest of ingredients.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1330</PointerOffset>
       <JapaneseText>この「&lt;item:0106&gt;」、通常は
 １００００ガルドで
 お分けしていますが……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Normally, the asking price
+for a &lt;item:0106&gt; is 10,000 Gald...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1352</PointerOffset>
       <JapaneseText>今ならなんと！
 特別期間限定キャンペーン中につき、
 無料でお分けしています！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But not right now!
+We've doing a limited time
+campaign where we're giving 
+them away for free!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1383</PointerOffset>
       <JapaneseText>各食材チケットをお持ちいただく事で、
 お客様には優先的に食材を
 配達する事ができます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you exhange food tickets
+with us, we'll make it our 
+priority to get ingredients
+delivered right to you!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1405</PointerOffset>
       <JapaneseText>ぜひ、お集め下さい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>So make sure to
+gather them up!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>18</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1427</PointerOffset>
       <JapaneseText>お持ちいただいた食材チケットで、
 使用されていない分と引き換えに
 当方の店で食材を購入する事も可能です。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You can purchase food
+items with any leftover
+tickets that you have.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1449</PointerOffset>
       <JapaneseText>また、マジカルポットレベルアップ
 キャンペーンも併せて実施中ですので
 この機会にぜひどうぞ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Also, we're doing a
+Magical Pot Level Up Campaign
+as well, so try to take
+advantage of that too!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>20</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1492</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Green&gt;食材のチケットはワールドマップ
 に点在しています。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Green&gt;You can find Food Tickets
+scattered about the World Map.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1516</PointerOffset>
       <JapaneseText>&lt;Green&gt;バトルブックに
 &lt;Red&gt;料理&lt;Green&gt;についての説明が追加されました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Information about &lt;Red&gt;Cooking&lt;Green&gt;
+was added to the Battle Book.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>22</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1540</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;バトルブックを読みますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;Read the Battle Book?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>23</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1725</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1796</PointerOffset>
       <JapaneseText>こちらは今回が
 初めてでいらっしゃるようですね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like it's
+your first time here.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1818</PointerOffset>
@@ -360,11 +391,14 @@
 &lt;Cyan&gt;おいしいものレシピ&lt;White&gt;について
 耳寄りな情報を無料で提供しております。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>My job is to provide information
+about the &lt;Cyan&gt;delicious recipes&lt;White&gt;
+all throughout Callegea,
+free of charge.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>26</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1840</PointerOffset>
@@ -372,305 +406,335 @@
 お客様にご教授いたしますので、
 お気軽にいつでもお立ち寄りください。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we find any good recipes,
+we'll teach them to you, so feel
+free to stop by whenever you like.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>27</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1887</PointerOffset>
       <JapaneseText>とっておきの鶏肉に、
 とっておきのでんぷん粉、
 とっておきの油で揚げた唐揚げがありますよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Here we have some fried chicken,
+made from the best chicken
+slathered in the best batter
+and fried in the best oil.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>28</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1910</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;食べますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Take a bite?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>29</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1963</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:20000004&gt;』を食べました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Ate "&lt;item:20000004&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>30</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2018</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:20000004&gt;』のレシピを入手しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Obtained recipe for "&lt;item:20000004&gt;"!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>31</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2114</PointerOffset>
       <JapaneseText>新鮮な歯ごたえと甘味のある
 ジューシーな野菜で作った
 野菜サラダがありますよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I have a salad here made with
+fresh, sweet, juicy vegetables.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>32</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2137</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;食べますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Take a bite?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>33</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2190</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:20000008&gt;』を食べました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Ate "&lt;item:20000008&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>34</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2245</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:20000008&gt;』のレシピを入手しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Obtained recipe for "&lt;item:20000008&gt;"!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>35</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2341</PointerOffset>
       <JapaneseText>天然もの、ぴっちぴちとれたての魚介類に、
 極上のホワイトソースとチーズをからめた
 海鮮グラタンがありますよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Here's some freshly caught all-natural
+seafood, drenched in the most scrumptious
+white sauce and cheese to make the dish
+known as Seafood Gratin.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>36</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2364</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;食べますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Take a bite?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2417</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:2000000d&gt;』を食べました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Ate "&lt;item:2000000D&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>38</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2472</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:2000000d&gt;』のレシピを入手しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Obtained recipe for "&lt;item:2000000D&gt;"!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2568</PointerOffset>
-      <JapaneseText>マーボーとカレーの優餓な共演！
+      <JapaneseText>マーボーとカレーの優雅な共演！
 ファンタスティックな美味、
 マーボーカレーがありますよ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Today's main event
+stars Mabo and Curry!
+It's the fantastic delicacy
+known as... Mabo Curry!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2591</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;食べますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Take a bite?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2644</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:20000014&gt;』を食べました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Ate "&lt;item:20000014&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2699</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:20000014&gt;』のレシピを入手しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Obtained recipe for "&lt;item:20000014&gt;"!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2819</PointerOffset>
       <JapaneseText>うまい……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It's good...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2855</PointerOffset>
       <JapaneseText>おいしい!!
 おいしいヨ!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is so good!!
+It's so dang tasty!!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2891</PointerOffset>
       <JapaneseText>これはうまいな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is delicious...</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>46</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2928</PointerOffset>
       <JapaneseText>おいしい……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Delicious...</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2965</PointerOffset>
       <JapaneseText>うめえぜ、
 こいつぁ、五つ星だ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Mmmm tasty!
+I rate it 5/5!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3002</PointerOffset>
       <JapaneseText>おいしいわね……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This tastes delicious... </EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3028</PointerOffset>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3084</PointerOffset>
       <JapaneseText>からい……
 しかし……うまい……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It might be spicy...
+but it tastes good.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3120</PointerOffset>
       <JapaneseText>うわぁ!!
 カレーとマーボーが混ざってるヨ!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Woah! I can't tell
+the Mabo from the Curry!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3156</PointerOffset>
       <JapaneseText>うーむ……
 何とも微妙な味わいだな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hmm...
+The flavor is rather
+difficult to describe...</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>53</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3193</PointerOffset>
       <JapaneseText>不思議な味ですね……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What a peculiar flavor...</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>54</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3230</PointerOffset>
       <JapaneseText>おれは、
 からいモンはダメなんだよなぁ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Man, I can't handle
+spicy food...</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>55</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3267</PointerOffset>
       <JapaneseText>二種類のからさが混ざり合って……
 不思議なハーモニーを奏でているわ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Two different types of
+spiciness melded together...
+This composition has a
+strange harmony to it...</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
       <Id>56</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3293</PointerOffset>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3495</PointerOffset>
@@ -679,33 +743,41 @@
 グリューンリキッドと、
 ゲルプリキッド
 ヴィオレットリキッド。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Red Liquid,
+Blue Liquid,
+Green Liquid,
+Orange Liquid,
+and Purple Liquid.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3517</PointerOffset>
       <JapaneseText>この五つを調合すると
 エリクシールができるけど、
 交換する？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If I mix these together
+I can make an Elixir for you.
+How about it?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>59</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3540</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;交換しますか？
 　はい　
 　いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Exchange Liquids?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>60</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3659</PointerOffset>
@@ -714,178 +786,216 @@
 グリューンリキッドと、
 ゲルプリキッド、
 ヴィオレットリキッド。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Red Liquid,
+Blue Liquid,
+Green Liquid,
+Orange Liquid,
+and Purple Liquid.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3681</PointerOffset>
       <JapaneseText>この五つを持ってきたら、
 調合して、エリクシールを
 作ってあげるわよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If I mix these together
+I can make an Elixir for you.
+How about it?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3731</PointerOffset>
       <JapaneseText>なんでもアルヴァン山脈を
 越える行商人の間では
 &lt;item:20000001&gt;が非常食になってるとか。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm told that travellers going over
+the Alvan Mountains eat &lt;item:20000001&gt;s 
+as emergency rations.</EnglishText>
       <Notes/>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3774</PointerOffset>
       <JapaneseText>ミナールの食堂には
 めったにメニューに出さないという
 &lt;item:20000002&gt;があると言われてますよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>They say that though the restaurant
+in Minal rarely has &lt;item:20000002&gt;
+listed on the menu, they still serve it.</EnglishText>
       <Notes/>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3817</PointerOffset>
       <JapaneseText>ペトナジャンカの隠れた名品、
 &lt;item:20000003&gt;はもう手に入れましたか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Have you acquired Petnadjanka's
+elusive specialty, &lt;item:20000003&gt;?</EnglishText>
       <Notes/>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3861</PointerOffset>
       <JapaneseText>サニイタウンの宿屋の食事は
 おいしい&lt;item:20000005&gt;が売りなんですって。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The sell delicious &lt;item:20000005&gt;
+at the inn in Sannytown.</EnglishText>
       <Notes/>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3905</PointerOffset>
       <JapaneseText>アニカマルの人々は
 ほぼ毎日が&lt;item:20000006&gt;っていうくらいに
 &lt;item:20000006&gt;好きの人が多いそうですよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The people of Anikamal eat lots
+of &lt;item:20000006&gt; everyday, so
+there's lot's of folks who love &lt;item:20000006&gt;.</EnglishText>
       <Notes/>
       <Id>67</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3949</PointerOffset>
       <JapaneseText>バビログラードには&lt;item:20000007&gt;を上手に作る
 ガジュマの女の子が住んでいるとか。
 一度食べさせてもらっては？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>There's a girl in Babilograd
+who makes the best &lt;item:20000007&gt;.
+Why don't you go try some?</EnglishText>
       <Notes/>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3993</PointerOffset>
       <JapaneseText>バルカでは最高の&lt;item:20000009&gt;を
 出してくれる店があるとか。
 バルカの隠れた目玉らしいです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>There's a store in Balka that
+serves the best &lt;item:20000009&gt;.
+It's Balka's hidden specialty.</EnglishText>
       <Notes/>
       <Id>69</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4037</PointerOffset>
-      <JapaneseText>ミナールの酒場の惹人は
+      <JapaneseText>ミナールの酒場の主人は
 すごくおいしい&lt;item:2000000a&gt;を
 作れるそうなんです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The host at the bar in
+Minal can make one
+mean &lt;item:2000000a&gt;.</EnglishText>
       <Notes/>
       <Id>70</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4090</PointerOffset>
       <JapaneseText>ラジルダの宿屋はたまに
 サービスをしてくれるんですよ。
 もしかしたら、おいしいものが食べられるかも。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The inn in Razilda sometimes
+throws in a little something
+extra for their guests.
+Perhaps it's something tasty.</EnglishText>
       <Notes/>
       <Id>71</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4134</PointerOffset>
-      <JapaneseText>ピピスタに住む惹婦の間で
+      <JapaneseText>ピピスタに住む主婦の間で
 はやりの&lt;item:2000000c&gt;。
 あなたも食べさせてもらっては？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;item:2000000c&gt; is popular amongst
+the housewives in Pipista.
+Have you tried some yet?</EnglishText>
       <Notes/>
       <Id>72</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4178</PointerOffset>
       <JapaneseText>キョグエンの食材屋には
 サービスで&lt;item:2000000e&gt;が
 置いてあるみたいですね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like &lt;item:2000000e&gt;
+might be given out for free
+at the Grocery in Kyogen.</EnglishText>
       <Notes/>
       <Id>73</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4222</PointerOffset>
       <JapaneseText>寒いところならではの&lt;item:2000000f&gt;。
 ノルゼンの民家では毎日のように
 食べられているとか。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;item:2000000f&gt; is common in cold areas.
+One of the households in Nolzen
+eats it almost everyday.</EnglishText>
       <Notes/>
       <Id>74</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4266</PointerOffset>
       <JapaneseText>ベルサスの宿屋は
 たまに気前のいいサービスをしてくれます。
 もちろん買い物をすれば、の話ですがね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Belsas's Inn is sometimes generous
+with the freebies. That is, if
+you buy something from them.</EnglishText>
       <Notes/>
       <Id>75</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4310</PointerOffset>
       <JapaneseText>北の方の人知れぬ里に&lt;item:20000011&gt;という
 それはとてもおいしい料理があるとか。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>In a northern village unknown
+to most, there's a very
+delicious food known as &lt;item:20000011&gt;.</EnglishText>
       <Notes/>
       <Id>76</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4354</PointerOffset>
       <JapaneseText>好漁の時はバルカ港で
 おいしいお刺身が
 食べられる事があるんですよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>When it's fishing season,
+you can eat some delicious
+sashimi at Balka Harbor.</EnglishText>
       <Notes/>
       <Id>77</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4398</PointerOffset>
       <JapaneseText>バビログラードへ行くまでの登山洞内に
 伝説のレシピがあったとかなかったとか。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>There may or may not be
+a legendary recipe in
+the Climber's Cavern
+on the way to Babilograd.</EnglishText>
       <Notes/>
       <Id>78</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4442</PointerOffset>
@@ -893,10 +1003,13 @@
 色んな事を知っているそうですよ。
 もしかしたら、おいしい料理の事も
 教えてくれるかも。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>There's a wise old man in
+Kyogen who knows lots of stuff.
+Maybe he knows about some
+good food as well.</EnglishText>
       <Notes/>
       <Id>79</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4486</PointerOffset>
@@ -904,77 +1017,86 @@
 普通のサラダではないすごい
 サラダのレシピがあるそうです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>There's a great recipe for
+salad at the Bar in Minal.
+But it's not your usual salad!</EnglishText>
       <Notes/>
       <Id>80</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4508</PointerOffset>
       <JapaneseText>ちょっとやそっとの事では
 教えてくれそうにないですけど。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>To put it simply, I have
+nothing to share with you.</EnglishText>
       <Notes/>
       <Id>81</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4552</PointerOffset>
       <JapaneseText>お料理とは関係ないんですけど……
 カレーズってけっこう迷いやすい
 構造でしょ？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Well, this has nothing to do
+with cooking...but isn't Karez
+really easy to get lost in?</EnglishText>
       <Notes/>
       <Id>82</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4574</PointerOffset>
       <JapaneseText>あなたたちも迷子に
 なったんじゃありません？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Have you folks gotten
+lost in there as well?</EnglishText>
       <Notes/>
       <Id>83</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4599</PointerOffset>
       <JapaneseText>ただいまこちらには
 特にこれといった料理の情報は
 ありませんね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We have no information
+on recipes at the moment.</EnglishText>
       <Notes/>
       <Id>84</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5936</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>85</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7604</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>86</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7682</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>87</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>
