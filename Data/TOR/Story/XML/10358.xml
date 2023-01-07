@@ -1,174 +1,176 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>733,997</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>761,1054,1185</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>952,1100</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1148</PointerOffset>
+      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1225,1249,4493</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2648</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>316</PointerOffset>
       <JapaneseText>カレーズ</JapaneseText>
-      <EnglishText>Karez</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>319</PointerOffset>
       <JapaneseText>カレーズ</JapaneseText>
-      <EnglishText>Karez</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>733</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>3</Id>
-      <Status>Done</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>736</PointerOffset>
-      <JapaneseText>&lt;voice:19000039&gt;岩があって通れないぞ。</JapaneseText>
-      <EnglishText>&lt;voice:19000039&gt;We can't go around this boulder.</EnglishText>
+      <VoiceId>19000039</VoiceId>
+      <JapaneseText>岩があって通れないぞ。</JapaneseText>
+      <EnglishText>We can't go around this
+boulder.</EnglishText>
       <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>764</PointerOffset>
+      <VoiceId>1900003a</VoiceId>
+      <JapaneseText>俺にまかせろ。</JapaneseText>
+      <EnglishText>Leave this to me.</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
       <Id>4</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>761</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
+      <PointerOffset>955</PointerOffset>
+      <VoiceId>1900003b</VoiceId>
+      <JapaneseText>ふぇぇ！　ビックリしたぁ！</JapaneseText>
+      <EnglishText>Whoa! Wasn't expecting that!</EnglishText>
       <Notes/>
+      <SpeakerId>2</SpeakerId>
       <Id>5</Id>
-      <Status>Done</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>764</PointerOffset>
-      <JapaneseText>&lt;voice:1900003a&gt;俺にまかせろ。</JapaneseText>
-      <EnglishText>&lt;voice:1900003A&gt;Leave this to me.</EnglishText>
+      <PointerOffset>1000</PointerOffset>
+      <VoiceId>1900003c</VoiceId>
+      <JapaneseText>砂だけじゃなく、バイラスまで、
+降ってくるとはな……</JapaneseText>
+      <EnglishText>So Viruses could fall out
+too,
+not just sand...</EnglishText>
       <Notes/>
+      <SpeakerId>0</SpeakerId>
       <Id>6</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>952</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText>&lt;Tytree&gt;</EnglishText>
+      <PointerOffset>1057</PointerOffset>
+      <VoiceId>1900003d</VoiceId>
+      <JapaneseText>上は井戸だったらしいな。
+多分、バイラスの巣にでもなって
+いたのが、崩れ落ちてきたんだろう。
+力加減が悪かった……すまん。</JapaneseText>
+      <EnglishText>It looks like there was a well
+overhead. It probably became a Virus nest
+and collapsed when I destroyed the
+boulder. I'm sorry... I guess I didn't
+know my own strength.</EnglishText>
       <Notes/>
+      <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>Done</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>955</PointerOffset>
-      <JapaneseText>&lt;voice:1900003b&gt;ふぇぇ！　ビックリしたぁ！</JapaneseText>
-      <EnglishText>&lt;voice:1900003B&gt;Whoa! Wasn't expecting that!</EnglishText>
+      <PointerOffset>1103</PointerOffset>
+      <VoiceId>1900003e</VoiceId>
+      <JapaneseText>気にすんなって！　でも、なんで
+井戸が使われなくなったんだろうな？</JapaneseText>
+      <EnglishText>No worries!  But I wonder why
+the well was abandoned?</EnglishText>
       <Notes/>
+      <SpeakerId>2</SpeakerId>
       <Id>8</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>997</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>9</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1000</PointerOffset>
-      <JapaneseText>&lt;voice:1900003c&gt;砂だけじゃなく、バイラスまで、
-降ってくるとはな……</JapaneseText>
-      <EnglishText>&lt;voice:1900003C&gt;So Veirases could fall out too,
-and not just sand...</EnglishText>
-      <Notes/>
-      <Id>10</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1054</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>11</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1057</PointerOffset>
-      <JapaneseText>&lt;voice:1900003d&gt;上は井戸だったらしいな。
-多分、バイラスの巣にでもなって
-いたのが、崩れ落ちてきたんだろう。
-力加減が悪かった……すまん。</JapaneseText>
-      <EnglishText>&lt;voice:1900003D&gt;It looks like there was a well up there.
-It probably became a Veiras' nest and
-collapsed when I broke the boulder.
-I didn't know my own strength...sorry.</EnglishText>
-      <Notes/>
-      <Id>12</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1100</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText>&lt;Tytree&gt;</EnglishText>
-      <Notes/>
-      <Id>13</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1103</PointerOffset>
-      <JapaneseText>&lt;voice:1900003e&gt;気にすんなって！　でも、なんで
-井戸が使われなくなったんだろうな？</JapaneseText>
-      <EnglishText>&lt;voice:1900003E&gt;Don't sweat it! But I wonder
-why the well dried up?</EnglishText>
-      <Notes/>
-      <Id>14</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1148</PointerOffset>
-      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText>&lt;Hilda&gt;</EnglishText>
-      <Notes/>
-      <Id>15</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>1151</PointerOffset>
-      <JapaneseText>&lt;voice:1900003f&gt;さあ……
+      <VoiceId>1900003f</VoiceId>
+      <JapaneseText>さあ……
 とにかく、同じような所があったら、
 力加減には気をつけろって事ね。</JapaneseText>
-      <EnglishText>&lt;voice:1900003F&gt;Who knows?
-In any case, if we come across the same
-thing again then we need to make sure
-we're cautious of how we deal with it.</EnglishText>
+      <EnglishText>Who knows? In any case, if we
+come across any more, then we need
+to be more delicate.</EnglishText>
       <Notes/>
-      <Id>16</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>9</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1185</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1188</PointerOffset>
-      <JapaneseText>&lt;voice:19000040&gt;ああ。注意しよう。</JapaneseText>
-      <EnglishText>&lt;voice:19000040&gt;Right. Let's be careful.</EnglishText>
+      <VoiceId>19000040</VoiceId>
+      <JapaneseText>ああ。注意しよう。</JapaneseText>
+      <EnglishText>Right. We need to be careful.</EnglishText>
       <Notes/>
-      <Id>18</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1225</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>19</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>10</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -176,115 +178,91 @@ we're cautious of how we deal with it.</EnglishText>
       <JapaneseText>&lt;Green&gt;&lt;Eugene&gt;の鋼のフォルスで
 水路をふさいでいる岩を
 壊すことができます。</JapaneseText>
-      <EnglishText>&lt;Green&gt;Eugene's Force of Steel can be used to
-break rocks blocking the waterway.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>20</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1249</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>21</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1252</PointerOffset>
       <JapaneseText>&lt;Green&gt;『フォルスボタン（&lt;icon:32&gt;ボタン）』を押している
 長さで破壊力が変わるので、
 力加減に注意して岩を壊しましょう。</JapaneseText>
-      <EnglishText>&lt;Green&gt;How long you hold the &lt;icon:32&gt; button determines
-your destructive power, so be careful and use
-the right amount of strength to destroy the rocks.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>22</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2648</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2651</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <SpeakerId>5</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4319</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>25</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4397</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>26</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4493</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6194</PointerOffset>
       <JapaneseText>d_x  = %d</JapaneseText>
-      <EnglishText>d_x  = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>28</Id>
-      <Status>Done</Status>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6202</PointerOffset>
       <JapaneseText>d_z  = %d</JapaneseText>
-      <EnglishText>d_z  = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>29</Id>
-      <Status>Done</Status>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6210</PointerOffset>
       <JapaneseText>d_xz = %d</JapaneseText>
-      <EnglishText>d_xz = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>30</Id>
-      <Status>Done</Status>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7075</PointerOffset>
       <JapaneseText>pow = %d</JapaneseText>
-      <EnglishText>pow = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>31</Id>
-      <Status>Done</Status>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7408</PointerOffset>
       <JapaneseText>pow = %d</JapaneseText>
-      <EnglishText>pow = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>32</Id>
-      <Status>Done</Status>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -1,40 +1,80 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>467,541,568,614,660,706</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>731,731,731,731,731,731,731,731,731,731,731,731,731,731,731,731,731,731</PointerOffset>
+      <JapaneseText>装飾屋「王都の誉れ」</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1527,3014,4901</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2505,2505,2505,2505,2505,2505,2505,2505,2505,2505,2505,2505</PointerOffset>
+      <JapaneseText>道具屋「霧のとばり」</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6746</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>207</PointerOffset>
       <JapaneseText>首都バルカ・雑貨屋</JapaneseText>
-      <EnglishText>Capital City Balka - General Store</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>210</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
-      <EnglishText>Capital City Balka</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>240</PointerOffset>
       <JapaneseText>雑貨屋</JapaneseText>
-      <EnglishText>General Store</EnglishText>
-      <Notes/>
-      <Id>3</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>467</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
-      <Status>Done</Status>
+      <Id>3</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>470</PointerOffset>
@@ -42,20 +82,11 @@
 商品のラッピング用のグッズ。
 割としゃれている。
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt; "Drawer's Contents" (Bottom Row)
-Goods for wrapping products.
-It is rather stylish. </EnglishText>
-      <Notes/>
-      <Id>5</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>541</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>4</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>544</PointerOffset>
@@ -63,20 +94,11 @@ It is rather stylish. </EnglishText>
 割とモノがいいウェットティッシュ。
 おそうじに便利で重宝する。
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt; "Drawer's Contents" (Top Row)
-Wet wipes that are in good quality
-Useful for cleaning up. </EnglishText>
-      <Notes/>
-      <Id>7</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>568</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>571</PointerOffset>
@@ -85,21 +107,11 @@ Useful for cleaning up. </EnglishText>
 食べると甘ずっぱく、傷口に当てると
 強烈にしみるが、よく効く。
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt; "Potted Orange Aloe" (Upper)
-A rather rare potted orange aloe plant.
-It is sweet when eaten and stings intensely 
-when applied to wounds, but it works well. </EnglishText>
-      <Notes/>
-      <Id>9</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>614</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>10</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>617</PointerOffset>
@@ -107,23 +119,11 @@ when applied to wounds, but it works well. </EnglishText>
 雪原に塔がそびえる光景が描かれている。
 百年以上前の作品で、少々変色している。
 この塔が実在のものかどうかは不明。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt; "The Ancient Tower".
-This painting depicts a scene 
-of a tower rising in a snowy field.
-It is more than a hundred years old 
-and a little discolored.
-It is unclear if this tower is real or not.</EnglishText>
-      <Notes/>
-      <Id>11</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>660</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>12</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>663</PointerOffset>
@@ -132,26 +132,13 @@ It is unclear if this tower is real or not.</EnglishText>
 儀式の様子を色鮮やかに描いた作品。
 ミマーナ女王は人気が高く、
 数多くの絵画のモデルとなった。
-彼女を支えつづけた夫のジーレイは、
+庇女を支えつづけた夫のジーレイは、
 この絵をとても気に入っていたという。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt; "Her Majesty's Coronation Ceremony"
-This is a colorful depiction of the unveiling 
-ceremony of the fifth Queen Mimana.
-Queen Mimana was very popular and 
-became a model for many paintings.
-Her husband, Zillei, who continued to support 
-her, was said to be very fond of this painting.</EnglishText>
-      <Notes/>
-      <Id>13</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>706</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>14</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>709</PointerOffset>
@@ -159,42 +146,32 @@ her, was said to be very fond of this painting.</EnglishText>
 旅の画家が霧に包まれたカレギア城を
 力強く重いタッチで描き上げた作品。
 この絵を使った絵ハガキが人気。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt; "The Misty Royal Castle"
-A traveling artist paints the castle of Callegea 
-shrouded in mist with a strong and heavy touch.
-Postcards using this painting are popular.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>15</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>731</PointerOffset>
-      <JapaneseText>装飾屋「王都の誉れ」</JapaneseText>
-      <EnglishText>General Store "Royal City's Honor"</EnglishText>
-      <Notes/>
-      <Id>16</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>773</PointerOffset>
       <JapaneseText>ヒューマの小娘が
 この私に何用で？</JapaneseText>
-      <EnglishText>What does this little 
-Huma girl want here?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>17</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>795</PointerOffset>
       <JapaneseText>お金をお持ちでないなら、
 すぐに当店をお出になった方が
 よろしいかと存知ますが。</JapaneseText>
-      <EnglishText>If you don't have any money, you'd 
-better leave our store right away.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>18</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>845</PointerOffset>
@@ -204,17 +181,19 @@ better leave our store right away.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>19</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>916</PointerOffset>
       <JapaneseText>薬をお探しで？
 </JapaneseText>
-      <EnglishText>Are you looking for medicine? </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>20</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>938</PointerOffset>
@@ -224,7 +203,8 @@ better leave our store right away.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>21</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -232,11 +212,11 @@ better leave our store right away.</EnglishText>
       <JapaneseText>当店の品々は、王家ご用達の
 気品に満ちたものばかり……
 </JapaneseText>
-      <EnglishText>Our products are filled with 
-the elegance of royalty.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>22</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1028</PointerOffset>
@@ -244,30 +224,32 @@ the elegance of royalty.</EnglishText>
 醜く汚れたヒューマには
 似合わないと思いますよ……
 </JapaneseText>
-      <EnglishText>It suits honorable Gajuma, but I don't 
-think it'll look good on ugly, dirty Huma...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1122</PointerOffset>
       <JapaneseText>取り扱い品が新しく
 なりましたのです。
 </JapaneseText>
-      <EnglishText>We have some new products. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1144</PointerOffset>
       <JapaneseText>見ていかれませんか？
 </JapaneseText>
-      <EnglishText>Would you like to take a look? </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>25</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1169</PointerOffset>
@@ -275,40 +257,43 @@ think it'll look good on ugly, dirty Huma...</EnglishText>
 どれもヒューマに似合わない
 高級品ばかり。
 </JapaneseText>
-      <EnglishText>We have a new range of products, all of which 
-are high class and not suitable for Huma. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>26</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1191</PointerOffset>
       <JapaneseText>見ていくだけにしておいた方が
 よいと思われますが？
 </JapaneseText>
-      <EnglishText>I think it would be better to just windowshop? </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1247</PointerOffset>
       <JapaneseText>取り扱い品が新しく
 なりましたのです。
 </JapaneseText>
-      <EnglishText>We have some new products. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>28</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1269</PointerOffset>
       <JapaneseText>見ていかれませんか？
 </JapaneseText>
-      <EnglishText>Would you like to take a look? </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>29</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1325</PointerOffset>
@@ -317,7 +302,8 @@ are high class and not suitable for Huma. </EnglishText>
 愚かなヒューマに！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>30</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -325,19 +311,20 @@ are high class and not suitable for Huma. </EnglishText>
       <JapaneseText>お客様にもっとも篤き信頼を
 置いていただいてる当店は
 今年をもって創業７５０年でございます。</JapaneseText>
-      <EnglishText>This year marks the 750th anniversary of the establishment 
-of our store, which is the most trusted by our customers.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>31</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1399</PointerOffset>
       <JapaneseText>何がおいりようでしょうか。</JapaneseText>
-      <EnglishText>What can I do for you?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>32</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>25</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1460</PointerOffset>
@@ -347,7 +334,8 @@ of our store, which is the most trusted by our customers.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>33</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -358,66 +346,57 @@ of our store, which is the most trusted by our customers.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>34</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>27</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1527</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>35</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1530</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　装飾品を買う　
 　世間話をする　
 　やめる</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;　Buy Accessories　
-　Talk　
-　Cancel</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>36</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>28</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1609</PointerOffset>
       <JapaneseText>……どうも、
 ありがとうございます。
 </JapaneseText>
-      <EnglishText>Thank you very much. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>37</Id>
-      <Status>Editing</Status>
+      <Id>29</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1743</PointerOffset>
       <JapaneseText>またのご来店を
 お待ちしております。</JapaneseText>
-      <EnglishText>We look forward to seeing you again.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>38</Id>
-      <Status>Editing</Status>
+      <Id>30</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1779</PointerOffset>
       <JapaneseText>またのご来店がありませんよう、
 心の底からお願い申し上げます。</JapaneseText>
-      <EnglishText>We sincerely hope that you 
-will not have to visit us again.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>39</Id>
-      <Status>Editing</Status>
+      <Id>31</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1810</PointerOffset>
       <JapaneseText>またのご来店を
 お待ちしております。</JapaneseText>
-      <EnglishText>We look forward to seeing you again.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>40</Id>
-      <Status>Editing</Status>
+      <Id>32</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1877</PointerOffset>
@@ -427,7 +406,7 @@ will not have to visit us again.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>41</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -436,10 +415,10 @@ will not have to visit us again.</EnglishText>
 あんなにうっとうしい生き物
 なのでしょうね？
 </JapaneseText>
-      <EnglishText>Why are Humas such annoying creatures? </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>42</Id>
-      <Status>Editing</Status>
+      <Id>34</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1962</PointerOffset>
@@ -449,7 +428,7 @@ will not have to visit us again.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>43</Id>
+      <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -458,10 +437,10 @@ will not have to visit us again.</EnglishText>
 私、とても不愉快な気分に
 なるんです……
 </JapaneseText>
-      <EnglishText>I feel very uncomfortable when any Huma is near me...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>44</Id>
-      <Status>Editing</Status>
+      <Id>36</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2020</PointerOffset>
@@ -469,11 +448,10 @@ will not have to visit us again.</EnglishText>
 すぐに外に出て行って
 くださいませ。
 </JapaneseText>
-      <EnglishText>So please don't talk to me, and 
-please leave immediately. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>45</Id>
-      <Status>Editing</Status>
+      <Id>37</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2078</PointerOffset>
@@ -481,10 +459,10 @@ please leave immediately. </EnglishText>
 あんなにうっとうしい生き物
 なのでしょうね？
 </JapaneseText>
-      <EnglishText>Why are Humas such annoying creatures? </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>46</Id>
-      <Status>Editing</Status>
+      <Id>38</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2100</PointerOffset>
@@ -494,7 +472,7 @@ please leave immediately. </EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>47</Id>
+      <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -503,10 +481,10 @@ please leave immediately. </EnglishText>
 私、とても不愉快な気分に
 なるんです……
 </JapaneseText>
-      <EnglishText>I feel very uncomfortable when any Huma is near me...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>48</Id>
-      <Status>Editing</Status>
+      <Id>40</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2158</PointerOffset>
@@ -514,46 +492,41 @@ please leave immediately. </EnglishText>
 すぐに外に出て行って
 くださいませ。
 </JapaneseText>
-      <EnglishText>So please don't talk to me, and 
-please leave immediately. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>49</Id>
-      <Status>Editing</Status>
+      <Id>41</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2227</PointerOffset>
       <JapaneseText>ヒューマたちは、以前から
-私たちガジュマの事を低脳で醜い
+私たちガジュマの事を低膿で醜い
 ヤツらだと思っていたそうです。
 </JapaneseText>
-      <EnglishText>The Huma have always thought that 
-we were ugly and contemptible. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>50</Id>
-      <Status>Editing</Status>
+      <Id>42</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2249</PointerOffset>
       <JapaneseText>それを言うなら、私だって
 同じ事を思っていましたよ。
 </JapaneseText>
-      <EnglishText>And you know what? 
-I was thinking the same 
-thing about them. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>51</Id>
-      <Status>Editing</Status>
+      <Id>43</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2285</PointerOffset>
       <JapaneseText>ガジュマとヒューマ、どちらが
 美しく優れた種族なのか……
 </JapaneseText>
-      <EnglishText>Which is the more beautiful and 
-superior species, Gajuma or Huma?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>52</Id>
-      <Status>Editing</Status>
+      <Id>44</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2307</PointerOffset>
@@ -561,22 +534,20 @@ superior species, Gajuma or Huma?</EnglishText>
 考えれば、議論するまでもない
 話でございますね……
 </JapaneseText>
-      <EnglishText>Considering which species the Queen 
-is, there's really no argument here. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>53</Id>
-      <Status>Editing</Status>
+      <Id>45</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2363</PointerOffset>
       <JapaneseText>正直、ヒューマに対して、
 たくさん思うところはあります。
 </JapaneseText>
-      <EnglishText>To be honest, I have a lot 
-of thoughts about Huma. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>54</Id>
-      <Status>Editing</Status>
+      <Id>46</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2385</PointerOffset>
@@ -584,95 +555,86 @@ of thoughts about Huma. </EnglishText>
 この危機に立ち向かおうと
 し始めているようです……
 </JapaneseText>
-      <EnglishText>But on the surface, it seems that people are 
-starting to work together to fight this crisis...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>55</Id>
-      <Status>Editing</Status>
+      <Id>47</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2407</PointerOffset>
       <JapaneseText>私は……私は……
 </JapaneseText>
-      <EnglishText>I'm... I...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>56</Id>
-      <Status>Editing</Status>
+      <Id>48</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2457</PointerOffset>
       <JapaneseText>うちの装飾品は、王家より
 あつい信頼をたまわる
 すばらしいものばかり。</JapaneseText>
-      <EnglishText>Our ornaments are all wonderful things that 
-have been trusted by the royal family.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>57</Id>
-      <Status>Editing</Status>
+      <Id>49</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2479</PointerOffset>
       <JapaneseText>見るだけでも価値が
 あると思いますよ。</JapaneseText>
-      <EnglishText>I think it's worth it just to 
-be able to look at them.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>58</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2505</PointerOffset>
-      <JapaneseText>道具屋「霧のとばり」</JapaneseText>
-      <EnglishText>Item Shop</EnglishText>
-      <Notes/>
-      <Id>59</Id>
-      <Status>Editing</Status>
+      <Id>50</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2547</PointerOffset>
       <JapaneseText>お城へ行きたい？</JapaneseText>
-      <EnglishText>You want to visit the castle?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>60</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>51</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2569</PointerOffset>
       <JapaneseText>じゃあ、この店を出て、
 左にまっすぐ行って
 正面の門をくぐりな。</JapaneseText>
-      <EnglishText>Then, head out of this store, 
-make a straight left, and go 
-through the front gate.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>61</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>52</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2591</PointerOffset>
       <JapaneseText>街の外に出られるぜ。</JapaneseText>
-      <EnglishText>That'll get you out of the city.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>62</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>53</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2613</PointerOffset>
       <JapaneseText>城？　ふん、知るか。</JapaneseText>
-      <EnglishText>The castle? No idea.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>63</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>54</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2663</PointerOffset>
       <JapaneseText>へい、いらっしゃい！
 見てってもらえるかな？</JapaneseText>
-      <EnglishText>Hey, welcome!
-Want to have a look around?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>64</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>55</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2734</PointerOffset>
@@ -680,61 +642,63 @@ Want to have a look around?</EnglishText>
 ヒューマが賢いなんて言ったの
 どこのどいつだ!?
 </JapaneseText>
-      <EnglishText>You want medicine?
-I thought you Huma had brains. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>65</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>56</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2756</PointerOffset>
       <JapaneseText>道具屋で薬探すバカは
 ガジュマにはいないぜ！
 </JapaneseText>
-      <EnglishText>Because no Gajuma is stupid enough to 
-go to a tool shop and look for medicine! </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>66</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>57</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2813</PointerOffset>
       <JapaneseText>身なりのいいお嬢さんだが、
 あんた、挙動不審だな。
 </JapaneseText>
-      <EnglishText>You're a well-dressed young lady, 
-but you're acting quite suspicious. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>67</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>58</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2835</PointerOffset>
       <JapaneseText>強盗や万引きは
 カンベンしてくれよ！</JapaneseText>
-      <EnglishText>No robberies or shoplifting, please!</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>68</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>59</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2908</PointerOffset>
       <JapaneseText>おおう……!!
 なんか地面が揺れてるよぉ……</JapaneseText>
-      <EnglishText>Ohhh!!
-The ground is shaking...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>69</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>60</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2946</PointerOffset>
       <JapaneseText>いらっしゃい、だんな！
 </JapaneseText>
-      <EnglishText>Welcome, sir! </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>70</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>61</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2971</PointerOffset>
@@ -742,53 +706,41 @@ The ground is shaking...</EnglishText>
 でも商売だしなぁ。
 とりあえず、何？
 </JapaneseText>
-      <EnglishText>Oh... Huma, eh?
-I guess we are a business after all...
-Anyway, what do you want?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>71</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3014</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>72</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>62</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3017</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　道具を買う
 　世間話をする　
 　やめる　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Items
-Talk
-Cancel</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>73</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>63</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3075</PointerOffset>
       <JapaneseText>へい、どーも！
 </JapaneseText>
-      <EnglishText>Hey, welcome! </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>74</Id>
-      <Status>Editing</Status>
+      <Id>64</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3196</PointerOffset>
       <JapaneseText>儀式前は何かと入用になるもんだ。
 あれこれ買っておいたほうがいいよ。
 </JapaneseText>
-      <EnglishText>Before the ceremony, you'll need 
-a lot of our things.
-You'd better buy plenty of stuff. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>75</Id>
-      <Status>Editing</Status>
+      <Id>65</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3246</PointerOffset>
@@ -796,53 +748,49 @@ You'd better buy plenty of stuff. </EnglishText>
 俺も見に行くから、何か買うなら
 今のうちに買ってくれよな
 </JapaneseText>
-      <EnglishText>The ceremony will start soon.
-I'll be there to see it, so if you want to buy 
-something, buy it now while you can.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>76</Id>
-      <Status>Editing</Status>
+      <Id>66</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3309</PointerOffset>
       <JapaneseText>もうヒューマと仲良しごっこを
-してる時代は終わった！
+してる時代は完わった！
 </JapaneseText>
-      <EnglishText>The days of playing nice with the Huma are over! </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>77</Id>
-      <Status>Editing</Status>
+      <Id>67</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3331</PointerOffset>
       <JapaneseText>ヒューマとの戦いに向けて
 俺たちも準備を始めないとな！
 </JapaneseText>
-      <EnglishText>We've got to start getting ourselves 
-ready for a fight with the Huma! </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>78</Id>
-      <Status>Editing</Status>
+      <Id>68</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3367</PointerOffset>
       <JapaneseText>ふん、ヒューマが……
 </JapaneseText>
-      <EnglishText>Hmm, the Huma... </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>79</Id>
-      <Status>Editing</Status>
+      <Id>69</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3450</PointerOffset>
       <JapaneseText>ここのところ、急に売上が
 落ちて来たんだよ……
 </JapaneseText>
-      <EnglishText>Sales have been dropping 
-rapidly for a while now...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>80</Id>
-      <Status>Editing</Status>
+      <Id>70</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3472</PointerOffset>
@@ -850,11 +798,10 @@ rapidly for a while now...</EnglishText>
 ケチばっかりつけやがるから、
 ぶっとばしてやったんだ。
 </JapaneseText>
-      <EnglishText>Because some Huma customers were 
-being very stingy, I had to beat them up. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>81</Id>
-      <Status>Editing</Status>
+      <Id>71</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3494</PointerOffset>
@@ -862,12 +809,10 @@ being very stingy, I had to beat them up. </EnglishText>
 さっぱり来なくなったよ。
 ま、別にいいんだけどさ。
 </JapaneseText>
-      <EnglishText>Since then, the Humas in town 
-have stopped showing up.
-That's fine by me, though! </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>82</Id>
-      <Status>Editing</Status>
+      <Id>72</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3530</PointerOffset>
@@ -875,66 +820,48 @@ That's fine by me, though! </EnglishText>
 客には違いないから、あんたにも
 売ってやるけどな……
 </JapaneseText>
-      <EnglishText>Gajuma or Huma, you're still my 
-customer, so I'll sell to you too. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>83</Id>
-      <Status>Editing</Status>
+      <Id>73</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3552</PointerOffset>
       <JapaneseText>ウチの品物にケチつけやがったら
 ただじゃ済まさねえからな！</JapaneseText>
-      <EnglishText>But I won't let you get away
-if you dare to complain about
-my goods!</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>84</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4901</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>85</Id>
-      <Status>Editing</Status>
+      <Id>74</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4904</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>86</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>75</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6572</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>87</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>76</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6650</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>88</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6746</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>89</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>77</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

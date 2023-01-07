@@ -1,32 +1,104 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>396,444,471</PointerOffset>
+      <JapaneseText/>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>496,496,496,496,496,2906,2928,2997,3146</PointerOffset>
+      <JapaneseText>ハック</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>867,5002</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1063,1630,1702,1776,1805,1878,2030,2618,3094</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1147,2114</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1373,1555,1673,1730,1842,2357,2536,2682</PointerOffset>
+      <JapaneseText>ドバル</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2514,2968</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2884,3058</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6847</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>191</PointerOffset>
       <JapaneseText>ピピスタ・酋長の家</JapaneseText>
-      <EnglishText>Pipista - Chief's House</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>194</PointerOffset>
       <JapaneseText>ピピスタ・酋長の家</JapaneseText>
-      <EnglishText>Pipista - Chief's House</EnglishText>
-      <Notes/>
-      <Id>2</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>396</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>3</Id>
-      <Status>Done</Status>
+      <Id>2</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>399</PointerOffset>
@@ -38,16 +110,9 @@
 四角いくぼみがある。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>444</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>447</PointerOffset>
@@ -57,16 +122,9 @@
 何やら文字らしきものも記されている。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>4</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>471</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>474</PointerOffset>
@@ -78,46 +136,38 @@
 記されている。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>5</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>496</PointerOffset>
-      <JapaneseText>ハック</JapaneseText>
-      <EnglishText>Hack</EnglishText>
-      <Notes/>
-      <Id>9</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>552</PointerOffset>
       <JapaneseText>助けてくれて、ありがとう。
 何もお礼してなかったね。</JapaneseText>
-      <EnglishText>Thank you for helping me the other day.
-I forgot my manners and didn't thank you
-at all.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>10</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>574</PointerOffset>
       <JapaneseText>これ、あげるよ。</JapaneseText>
-      <EnglishText>Here, take this.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>11</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>605</PointerOffset>
       <JapaneseText>なんだか不思議ないわれのある
 杖らしいんだ。大切に使ってよ。</JapaneseText>
-      <EnglishText>It's said to have a 
-mysterious use. 
-Take good care of it.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>12</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>636</PointerOffset>
@@ -126,7 +176,8 @@ Take good care of it.</EnglishText>
 助けられっぱなしだよね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>13</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -136,16 +187,9 @@ Take good care of it.</EnglishText>
 わからないけど。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>14</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>10</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>867</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>15</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>870</PointerOffset>
@@ -153,529 +197,372 @@ Take good care of it.</EnglishText>
 &lt;item:012b&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>16</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1063</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>1066</PointerOffset>
-      <JapaneseText>&lt;voice:28000076&gt;捧げ物はこれです。
+      <VoiceId>28000076</VoiceId>
+      <JapaneseText>捧げ物はこれです。
 後は、&lt;Mao&gt;……頼む。</JapaneseText>
-      <EnglishText>&lt;voice:28000076&gt;This is the offering.
-&lt;Mao&gt;...if you would.</EnglishText>
+      <EnglishText>This is the offering. &lt;Mao&gt;, if
+you would.</EnglishText>
       <Notes/>
-      <Id>18</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>12</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1147</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>19</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1150</PointerOffset>
-      <JapaneseText>&lt;voice:28000077&gt;オッケー！　まかせといて！
+      <VoiceId>28000077</VoiceId>
+      <JapaneseText>オッケー！　まかせといて！
 ちちんぷいぷい！</JapaneseText>
-      <EnglishText>&lt;voice:28000077&gt;Okay! Just leave it to me!
+      <EnglishText>Okay! Leave it to me!
 Firecazam!!</EnglishText>
       <Notes/>
-      <Id>20</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1373</PointerOffset>
-      <JapaneseText>ドバル</JapaneseText>
-      <EnglishText>Doval</EnglishText>
-      <Notes/>
-      <Id>21</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>13</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1376</PointerOffset>
-      <JapaneseText>&lt;voice:28000078&gt;おまえたち!!
+      <VoiceId>28000078</VoiceId>
+      <JapaneseText>おまえたち!!
 なんという事を!!</JapaneseText>
-      <EnglishText>&lt;voice:28000078&gt;What do you people
-think you're doing!?</EnglishText>
+      <EnglishText>What do you people think you're
+doing?!</EnglishText>
       <Notes/>
-      <Id>22</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1555</PointerOffset>
-      <JapaneseText>ドバル</JapaneseText>
-      <EnglishText>Doval</EnglishText>
-      <Notes/>
-      <Id>23</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>14</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1558</PointerOffset>
-      <JapaneseText>&lt;voice:28000079&gt;せ、&lt;Yellow&gt;聖なる鳥&lt;White&gt;……!!
+      <VoiceId>28000079</VoiceId>
+      <JapaneseText>せ、&lt;Yellow&gt;聖なる鳥&lt;White&gt;……!!
 おお……これが我らの……
 &lt;Yellow&gt;聖なる鳥&lt;White&gt;なのか……
 素晴らしい……</JapaneseText>
-      <EnglishText>&lt;voice:28000079&gt;T-the &lt;Yellow&gt;Phoenix&lt;White&gt;...!
-Ooh... So this is our...
-Our &lt;Yellow&gt;Phoenix&lt;White&gt;...
-It's magnificent!</EnglishText>
+      <EnglishText>Th-the &lt;Yellow&gt;Sacred
+Bird&lt;White&gt;! Ooh... So this is our
+&lt;Yellow&gt;Sacred Bird&lt;White&gt;... It's
+magnificent!</EnglishText>
       <Notes/>
-      <Id>24</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>15</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1630</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>25</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1633</PointerOffset>
-      <JapaneseText>&lt;voice:2800007a&gt;ドバル酋長、約束どおり、
+      <VoiceId>2800007a</VoiceId>
+      <JapaneseText>ドバル酋長、約束どおり、
 ハックを解放していただけますか？</JapaneseText>
-      <EnglishText>&lt;voice:2800007A&gt;Chief Doval, as promised,
-will you release Hack from custody?</EnglishText>
+      <EnglishText>Chief Doval, will you release
+Hack from custody as you promised?</EnglishText>
       <Notes/>
-      <Id>26</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1673</PointerOffset>
-      <JapaneseText>ドバル</JapaneseText>
-      <EnglishText>Doval</EnglishText>
-      <Notes/>
-      <Id>27</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>16</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1676</PointerOffset>
-      <JapaneseText>&lt;voice:2800007b&gt;……ううむ……約束は
+      <VoiceId>2800007b</VoiceId>
+      <JapaneseText>……ううむ……約束は
 守らねばなるまい……
 よかろう……解放しよう。</JapaneseText>
-      <EnglishText>&lt;voice:2800007B&gt;...Hm... Well, a promise is a promise.
-Very well... I'll release him.</EnglishText>
+      <EnglishText>...Hmm, Well, a promise is a
+promise. Very well, I'll have him
+released.</EnglishText>
       <Notes/>
-      <Id>28</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>17</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1702</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>29</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1705</PointerOffset>
-      <JapaneseText>&lt;voice:2800007c&gt;できましたら、ハックに&lt;Cyan&gt;聖壇&lt;White&gt;を
+      <VoiceId>2800007c</VoiceId>
+      <JapaneseText>できましたら、ハックに&lt;Cyan&gt;聖壇&lt;White&gt;を
 もっと詳しく調べさせてやって
 いただけませんか？</JapaneseText>
-      <EnglishText>&lt;voice:2800007C&gt;If at all possible, would you allow
-Hack to do further research on the
-sacred &lt;Cyan&gt;altar&lt;White&gt;?</EnglishText>
+      <EnglishText>If at all possible, would you
+allow Hack to conduct further
+research of the &lt;Cyan&gt;sacred
+altar&lt;White&gt;?</EnglishText>
       <Notes/>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1730</PointerOffset>
-      <JapaneseText>ドバル</JapaneseText>
-      <EnglishText>Doval</EnglishText>
-      <Notes/>
-      <Id>31</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>18</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1733</PointerOffset>
-      <JapaneseText>&lt;voice:2800007d&gt;……それは……</JapaneseText>
-      <EnglishText>&lt;voice:2800007D&gt;Well, that's a bit...</EnglishText>
+      <VoiceId>2800007d</VoiceId>
+      <JapaneseText>……それは……</JapaneseText>
+      <EnglishText>Well, that's a bit...</EnglishText>
       <Notes/>
-      <Id>32</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>19</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1776</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>33</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1779</PointerOffset>
-      <JapaneseText>&lt;voice:2800007e&gt;ハックはヒューマですが、
+      <VoiceId>2800007e</VoiceId>
+      <JapaneseText>ハックはヒューマですが、
 知識も深く、礼儀をわきまえた若者です。
 ここに忍び込んだのも、真の&lt;Cyan&gt;聖壇&lt;White&gt;の姿を
 知りたかったからに他なりません。</JapaneseText>
-      <EnglishText>&lt;voice:2800007E&gt;Hack is a Huma, but his knowledge is vast and
-he's a respectable young man. His only reason
-for sneaking into this place was in order to further
-broaden his knowledge of the sacred &lt;Cyan&gt;altar&lt;White&gt;.</EnglishText>
+      <EnglishText>Hack may be a Huma, but he is a
+respectable young man who possesses vast
+knowledge. The only reason he snuck in
+here was because he wanted to truly
+understand the &lt;Cyan&gt;sacred altar&lt;White&gt;.</EnglishText>
       <Notes/>
-      <Id>34</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>20</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1805</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>35</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1808</PointerOffset>
-      <JapaneseText>&lt;voice:2800007f&gt;ハックの&lt;Cyan&gt;聖壇&lt;White&gt;への敬意と理解なくして、
+      <VoiceId>2800007f</VoiceId>
+      <JapaneseText>ハックの&lt;Cyan&gt;聖壇&lt;White&gt;への敬意と理解なくして、
 我々が&lt;Yellow&gt;聖なる鳥&lt;White&gt;をよみがえらせる事など
 できなかったはずです……</JapaneseText>
-      <EnglishText>&lt;voice:2800007F&gt;Were it not for Hack's respect and understanding
-of the &lt;Cyan&gt;altar&lt;White&gt; itself, we would not have been able
-to revive the &lt;Yellow&gt;Phoenix&lt;White&gt;.</EnglishText>
+      <EnglishText>Were it not for Hack's respect
+and understanding of the
+&lt;Cyan&gt;altar&lt;White&gt;, we would not have been able to
+revive the &lt;Yellow&gt;Sacred Bird&lt;White&gt;.</EnglishText>
       <Notes/>
-      <Id>36</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1842</PointerOffset>
-      <JapaneseText>ドバル</JapaneseText>
-      <EnglishText>Doval</EnglishText>
-      <Notes/>
-      <Id>37</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>21</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1845</PointerOffset>
-      <JapaneseText>&lt;voice:28000080&gt;……わかった……
+      <VoiceId>28000080</VoiceId>
+      <JapaneseText>……わかった……
 &lt;Yellow&gt;聖なる鳥&lt;White&gt;とあんたの顔に
 免じて調査を許そう。
 あんたたちからそう伝えてくれ。</JapaneseText>
-      <EnglishText>&lt;voice:28000080&gt;...I understand.
-I will allow him to do further investigation
-out of consideration for the &lt;Yellow&gt;Phoenix&lt;White&gt; and
-your efforts. You can tell him yourself.</EnglishText>
+      <EnglishText>...I understand. I will allow
+him to investigate it further out
+of consideration for the
+&lt;Yellow&gt;Sacred Bird&lt;White&gt; and your efforts.
+You can tell him yourself.</EnglishText>
       <Notes/>
-      <Id>38</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>22</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1878</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>39</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1881</PointerOffset>
-      <JapaneseText>&lt;voice:28000081&gt;ありがとうございます。</JapaneseText>
-      <EnglishText>&lt;voice:28000081&gt;Thank you very much.</EnglishText>
+      <VoiceId>28000081</VoiceId>
+      <JapaneseText>ありがとうございます。</JapaneseText>
+      <EnglishText>Thank you very much.</EnglishText>
       <Notes/>
-      <Id>40</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>23</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2030</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>41</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2033</PointerOffset>
-      <JapaneseText>&lt;voice:28000076&gt;捧げ物はこれです。
+      <VoiceId>28000076</VoiceId>
+      <JapaneseText>捧げ物はこれです。
 後は、&lt;Mao&gt;……頼む。</JapaneseText>
-      <EnglishText>&lt;voice:28000076&gt;This is the offering.
-&lt;Mao&gt;...if you would.</EnglishText>
+      <EnglishText>This is the offering. &lt;Mao&gt;,
+if
+you would.</EnglishText>
       <Notes/>
-      <Id>42</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>24</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2114</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>43</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2117</PointerOffset>
-      <JapaneseText>&lt;voice:2800006d&gt;オッケー！　まかせといて！
+      <VoiceId>2800006d</VoiceId>
+      <JapaneseText>オッケー！　まかせといて！
 ちちんぷいぷい！</JapaneseText>
-      <EnglishText>&lt;voice:2800006D&gt;Okay! Just leave it to me!
+      <EnglishText>Okay! Leave it to
+me!
 Firecazam!!</EnglishText>
       <Notes/>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2357</PointerOffset>
-      <JapaneseText>ドバル</JapaneseText>
-      <EnglishText>Doval</EnglishText>
-      <Notes/>
-      <Id>45</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>25</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2360</PointerOffset>
-      <JapaneseText>&lt;voice:2800006e&gt;……何も起こらないではないか？
+      <VoiceId>2800006e</VoiceId>
+      <JapaneseText>……何も起こらないではないか？
 ……約束を覚えているだろうな？
 &lt;Cyan&gt;聖壇&lt;White&gt;を汚しおって……おまえたちも
 あのヒューマと一緒に処刑だ！</JapaneseText>
-      <EnglishText>&lt;voice:2800006E&gt;...Nothing's happening.
-Did you forget what I told you?
-If you defile the sacred &lt;Cyan&gt;altar&lt;White&gt;, you will
-be punished just the same as that Huma!</EnglishText>
+      <EnglishText>...Nothing's happening. Have
+you forgotten your promise to me?
+Defile the &lt;Cyan&gt;altar&lt;White&gt;, and
+I'll have all of you and that Huma
+executed!</EnglishText>
       <Notes/>
-      <Id>46</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>26</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2514</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText>&lt;Tytree&gt;</EnglishText>
-      <Notes/>
-      <Id>47</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2517</PointerOffset>
-      <JapaneseText>&lt;voice:2800006f&gt;わぁぁぁぁぁッ!!
+      <VoiceId>2800006f</VoiceId>
+      <JapaneseText>わぁぁぁぁぁッ!!
 ま、待ってくれ酋長さんよ!!
 もっとちゃんと調べてくるからさ！</JapaneseText>
-      <EnglishText>&lt;voice:2800006F&gt;Whoa, whoa!
-W-wait a second, Chief Doval! We just need
-to do a little more investigating, that's all!</EnglishText>
+      <EnglishText>Whoa, whoa! W-wait a second,
+Chief Doval! We just need to do a
+little more investigating!</EnglishText>
       <Notes/>
-      <Id>48</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2536</PointerOffset>
-      <JapaneseText>ドバル</JapaneseText>
-      <EnglishText>Doval</EnglishText>
-      <Notes/>
-      <Id>49</Id>
+      <SpeakerId>6</SpeakerId>
+      <Id>27</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2539</PointerOffset>
-      <JapaneseText>&lt;voice:28000070&gt;いや、許さん……!!
+      <VoiceId>28000070</VoiceId>
+      <JapaneseText>いや、許さん……!!
 そもそも、おまえたちヒューマを
 この部屋に入れる事さえ汚らわしい!!</JapaneseText>
-      <EnglishText>&lt;voice:28000070&gt;No, I stand by what I said!
-Besides, just the very fact of you Huma being
-in this room has already defiled it enough!</EnglishText>
+      <EnglishText>No, I stand by what I said!
+Besides, just the presence of Huma in
+this room has already defiled it
+enough!</EnglishText>
       <Notes/>
-      <Id>50</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>28</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2618</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>51</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2621</PointerOffset>
-      <JapaneseText>&lt;voice:28000071&gt;酋長！　待ってください！
+      <VoiceId>28000071</VoiceId>
+      <JapaneseText>酋長！　待ってください！
 申し訳ありません。
 もう一度だけ、機会を与えてください。</JapaneseText>
-      <EnglishText>&lt;voice:28000071&gt;Chief! Please wait!
-We offer our sincerest apologies for this.
+      <EnglishText>Chief! Please wait! We offer
+our sincerest apologies for this.
 Please, grant us just one more chance.</EnglishText>
       <Notes/>
-      <Id>52</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2682</PointerOffset>
-      <JapaneseText>ドバル</JapaneseText>
-      <EnglishText>Doval</EnglishText>
-      <Notes/>
-      <Id>53</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>29</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2685</PointerOffset>
-      <JapaneseText>&lt;voice:28000072&gt;……これ以上いい加減な事をして
+      <VoiceId>28000072</VoiceId>
+      <JapaneseText>……これ以上いい加減な事をして
 &lt;Cyan&gt;聖壇&lt;White&gt;を汚すような事があれば、
 今度こそは許さんぞ。
 それを忘れるな。</JapaneseText>
-      <EnglishText>&lt;voice:28000072&gt;...If you do something even half this reckless
-to the sacred &lt;Cyan&gt;altar&lt;White&gt; again, you will not be given
-a third chance. Make sure you don't forget that.</EnglishText>
+      <EnglishText>...If you do anything even half
+as reckless to the
+&lt;Cyan&gt;altar&lt;White&gt; again, you will not be given a
+third chance. Don't forget that.</EnglishText>
       <Notes/>
-      <Id>54</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>30</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2884</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>55</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2887</PointerOffset>
-      <JapaneseText>&lt;voice:28000089&gt;何か、&lt;Cyan&gt;聖壇&lt;White&gt;の事はわかったか？</JapaneseText>
-      <EnglishText>&lt;voice:28000089&gt;Have you learned anything
-about the &lt;Cyan&gt;altar&lt;White&gt;?</EnglishText>
+      <VoiceId>28000089</VoiceId>
+      <JapaneseText>何か、&lt;Cyan&gt;聖壇&lt;White&gt;の事はわかったか？</JapaneseText>
+      <EnglishText>Have you learned anything about
+the &lt;Cyan&gt;altar&lt;White&gt;?</EnglishText>
       <Notes/>
-      <Id>56</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2906</PointerOffset>
-      <JapaneseText>ハック</JapaneseText>
-      <EnglishText>Hack</EnglishText>
-      <Notes/>
-      <Id>57</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>31</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2909</PointerOffset>
-      <JapaneseText>&lt;voice:2800008a&gt;この絵は、ピピスタの近くに
+      <VoiceId>2800008a</VoiceId>
+      <JapaneseText>この絵は、ピピスタの近くに
 広がるツルベナ荒野に描かれている
 巨大な地上絵と同じものだよ。</JapaneseText>
-      <EnglishText>&lt;voice:2800008A&gt;This image is identical to the
+      <EnglishText>This image is identical to the
 massive geoglyph that covers the
-surface of the Silvena Wasteland
-on the outskirts of Pipista.</EnglishText>
+surface of the Crvena Wasteland on the
+outskirts of Pipista.</EnglishText>
       <Notes/>
-      <Id>58</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2928</PointerOffset>
-      <JapaneseText>ハック</JapaneseText>
-      <EnglishText>Hack</EnglishText>
-      <Notes/>
-      <Id>59</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>32</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2931</PointerOffset>
-      <JapaneseText>&lt;voice:2800008b&gt;そして、古代カレギア文字で
+      <VoiceId>2800008b</VoiceId>
+      <JapaneseText>そして、古代カレギア文字で
 こう書かれている……
 &lt;Cyan&gt;「強き心に強き翼を持て」&lt;White&gt;と。</JapaneseText>
-      <EnglishText>&lt;voice:2800008B&gt;Also, there's an inscription written
-in Ancient Callegean. It says...
-"&lt;Cyan&gt;a strong heart yields strong wings&lt;White&gt;."</EnglishText>
+      <EnglishText>There's also an inscription in
+Ancient Callegean that reads "&lt;Cyan&gt;a
+strong heart yields strong
+wings&lt;White&gt;."</EnglishText>
       <Notes/>
-      <Id>60</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>33</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2968</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText>&lt;Tytree&gt;</EnglishText>
-      <Notes/>
-      <Id>61</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2971</PointerOffset>
-      <JapaneseText>&lt;voice:2800008c&gt;それはどういう意味なんだ？</JapaneseText>
-      <EnglishText>&lt;voice:2800008C&gt;What's that mean?</EnglishText>
+      <VoiceId>2800008c</VoiceId>
+      <JapaneseText>それはどういう意味なんだ？</JapaneseText>
+      <EnglishText>What does that mean?</EnglishText>
       <Notes/>
-      <Id>62</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2997</PointerOffset>
-      <JapaneseText>ハック</JapaneseText>
-      <EnglishText>Hack</EnglishText>
-      <Notes/>
-      <Id>63</Id>
+      <SpeakerId>6</SpeakerId>
+      <Id>34</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3000</PointerOffset>
-      <JapaneseText>&lt;voice:2800008d&gt;さあ、それはもう少し
+      <VoiceId>2800008d</VoiceId>
+      <JapaneseText>さあ、それはもう少し
 調べてみない事には……</JapaneseText>
-      <EnglishText>&lt;voice:2800008D&gt;I don't know. Maybe if I
-study it a little more...</EnglishText>
+      <EnglishText>I don't know. I'll just have to
+study it a bit more...</EnglishText>
       <Notes/>
-      <Id>64</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>35</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3058</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>65</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3061</PointerOffset>
-      <JapaneseText>&lt;voice:2800008e&gt;ならば、その地上絵のところへ
+      <VoiceId>2800008e</VoiceId>
+      <JapaneseText>ならば、その地上絵のところへ
 行って、調べるしかないな。</JapaneseText>
-      <EnglishText>&lt;voice:2800008E&gt;In that case, why don't we go
-and look at this geoglyph ourselves?</EnglishText>
+      <EnglishText>In that case, why don't we go
+check out that geoglyph ourselves?</EnglishText>
       <Notes/>
-      <Id>66</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>36</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3094</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>67</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3097</PointerOffset>
-      <JapaneseText>&lt;voice:2800008f&gt;ああ、行こう。</JapaneseText>
-      <EnglishText>&lt;voice:2800008F&gt;Good idea.</EnglishText>
+      <VoiceId>2800008f</VoiceId>
+      <JapaneseText>ああ、行こう。</JapaneseText>
+      <EnglishText>Good idea.</EnglishText>
       <Notes/>
-      <Id>68</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3146</PointerOffset>
-      <JapaneseText>ハック</JapaneseText>
-      <EnglishText>Hack</EnglishText>
-      <Notes/>
-      <Id>69</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>37</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3149</PointerOffset>
-      <JapaneseText>&lt;voice:28000090&gt;僕は、この場所の調査を続けるよ。
+      <VoiceId>28000090</VoiceId>
+      <JapaneseText>僕は、この場所の調査を続けるよ。
 やっとドバル酋長の許しを
 得た事だしね。</JapaneseText>
-      <EnglishText>&lt;voice:28000090&gt;I'm going to finish my research,
-since Chief Doval finally gave
-me permission and everything.</EnglishText>
+      <EnglishText>I'm going to stay here and
+continue my research, now that Chief
+Doval has finally given me
+permission.</EnglishText>
       <Notes/>
-      <Id>70</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5002</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>71</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>38</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -683,36 +570,29 @@ me permission and everything.</EnglishText>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>72</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>39</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6673</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>73</Id>
-      <Status>Editing</Status>
+      <SpeakerId>8</SpeakerId>
+      <Id>40</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6751</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>74</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6847</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>75</Id>
-      <Status>Editing</Status>
+      <SpeakerId>8</SpeakerId>
+      <Id>41</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -1,32 +1,80 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2079,3862,4016,4296,4615,4769,5049,7851</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2681,3905,4059,4199,4339,4658,4812,4952,5092,9696</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3095</PointerOffset>
+      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3120,3120,3190,3190,3190,3190,3190,3190,3190,3190,3190,3190,3190,3190,3190,3190,5453,5453,5453,5453</PointerOffset>
+      <JapaneseText>男の人</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4422,4473,5175,5226</PointerOffset>
+      <JapaneseText/>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5515,5573,5757,5849</PointerOffset>
+      <JapaneseText>&lt;Claire&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>1120</PointerOffset>
       <JapaneseText>製鉄工場</JapaneseText>
-      <EnglishText>Steelworks Factory</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1123</PointerOffset>
       <JapaneseText>製鉄工場</JapaneseText>
-      <EnglishText>Steelworks Factory</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2079</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2082</PointerOffset>
@@ -34,117 +82,100 @@
 動かしますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;There is a lever.
-Pull it?
-　Yes　
-　No　</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>4</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2528</PointerOffset>
       <JapaneseText>さわるんじゃない。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2681</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>6</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2684</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;レバーを倒しました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;You pulled the lever.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>7</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2831</PointerOffset>
       <JapaneseText>柵が閉まっている……</JapaneseText>
-      <EnglishText>The fence is shut closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>8</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2869</PointerOffset>
       <JapaneseText>柵が閉まってるよ。</JapaneseText>
-      <EnglishText>The fence is shut closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>9</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2907</PointerOffset>
       <JapaneseText>鉄柵が閉まっているな。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>10</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2946</PointerOffset>
       <JapaneseText>鉄の柵が閉まってますね。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>11</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2985</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているな。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>12</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3024</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているわ。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>13</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3064</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているわ……</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>14</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3075</PointerOffset>
       <JapaneseText>鉄の柵が閉まっている。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>15</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3095</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
-      <Notes/>
-      <Id>16</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3120</PointerOffset>
-      <JapaneseText>男の人</JapaneseText>
-      <EnglishText>Man</EnglishText>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3144</PointerOffset>
@@ -152,7 +183,8 @@ Pull it?
 大変な事になる。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>18</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -162,16 +194,9 @@ Pull it?
 触るなよっっっっっ!!</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>19</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>15</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3190</PointerOffset>
-      <JapaneseText>男の人</JapaneseText>
-      <EnglishText>Man</EnglishText>
-      <Notes/>
-      <Id>20</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3232</PointerOffset>
@@ -180,7 +205,8 @@ Pull it?
 ビビってないで仕事しろってんだよな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>21</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -190,7 +216,8 @@ Pull it?
 くだらない噂が広まってるぜ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>22</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -200,7 +227,8 @@ Pull it?
 言い出すヤツがでる始末だ……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>23</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -210,7 +238,8 @@ Pull it?
 ビビってないで仕事しろってんだよな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>24</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -220,7 +249,8 @@ Pull it?
 ビビってないで仕事しろってんだよな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>25</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -230,7 +260,8 @@ Pull it?
 ブローチにしてやったのが最後だ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>26</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -240,7 +271,8 @@ Pull it?
 お前も鉄があるなら、磨いてやるよ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>27</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -250,7 +282,8 @@ Pull it?
 ブローチにしてやったぜ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>28</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -259,7 +292,8 @@ Pull it?
 おう、まかせとけ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>29</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -269,7 +303,8 @@ Pull it?
 寸分たがわねえ仕上がりだぜ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>30</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -278,7 +313,8 @@ Pull it?
 いつでも言ってくれよ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>31</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -288,7 +324,8 @@ Pull it?
 みせるぜ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>32</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -296,12 +333,11 @@ Pull it?
       <JapaneseText>この工場に恨みを持ったヤツの怨念が
 溶鉱炉に出るようになったんだって、
 昨日の夜に仲間から聞いたよ……</JapaneseText>
-      <EnglishText>I heard from a buddy of mine last night that the 
-blast furnace is now filled with the ghost of 
-someone who has a grudge against this factory. </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>33</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>28</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3744</PointerOffset>
@@ -310,16 +346,9 @@ someone who has a grudge against this factory. </EnglishText>
 みせるぜ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>34</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>29</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3862</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>35</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3865</PointerOffset>
@@ -327,36 +356,20 @@ someone who has a grudge against this factory. </EnglishText>
 　持っていく　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Take the plate with you?
-　Take it　
-　Cancel　</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>36</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3905</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>37</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>30</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3908</PointerOffset>
       <JapaneseText>&lt;Green&gt;原版を手に入れました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;You took the plate.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>38</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4016</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>39</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>31</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4019</PointerOffset>
@@ -364,53 +377,30 @@ someone who has a grudge against this factory. </EnglishText>
 　戻す　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Put back the plate?
-　Return it　
-　Cancel　</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>40</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4059</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>41</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>32</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4062</PointerOffset>
       <JapaneseText>&lt;Green&gt;原版を戻しました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;You put back the plate.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>42</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4199</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>43</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>33</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4202</PointerOffset>
       <JapaneseText>原版は四つまでしか
 持つ事ができません。</JapaneseText>
-      <EnglishText>You can only have up to four plates.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4296</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>45</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>34</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4299</PointerOffset>
@@ -418,76 +408,42 @@ someone who has a grudge against this factory. </EnglishText>
 　戻す　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Put back the plate?
-　Return it　
-　Cancel　</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>46</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4339</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>47</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>35</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4342</PointerOffset>
       <JapaneseText>&lt;Green&gt;原版を戻しました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;You put back the plate.</EnglishText>
-      <Notes/>
-      <Id>48</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4422</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>49</Id>
-      <Status>Done</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>36</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4425</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『製鉄用の道具』
 製鉄用の道具につき
 持ち出し禁止。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Tools for Working Steel"
-Tools used for steelworks are 
-prohibited to take outside.</EnglishText>
-      <Notes/>
-      <Id>50</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4473</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>51</Id>
-      <Status>Done</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>37</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4476</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『製鉄用の原版』
 細かい模様が刻まれた
 鉄を作るための型。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Steel Plate"
-A mold for making steel with 
-fine patterns engraved on it.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>52</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4615</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>53</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>38</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4618</PointerOffset>
@@ -495,36 +451,20 @@ fine patterns engraved on it.</EnglishText>
 　持っていく　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Take the plate with you?
-　Take it　
-　Cancel　</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>54</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4658</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>55</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>39</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4661</PointerOffset>
       <JapaneseText>&lt;Green&gt;原版を手に入れました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;You took the plate.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>56</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4769</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>57</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>40</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4772</PointerOffset>
@@ -532,53 +472,30 @@ fine patterns engraved on it.</EnglishText>
 　戻す　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Put back the plate?
-　Return it　
-　Cancel　</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>58</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4812</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>59</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>41</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4815</PointerOffset>
       <JapaneseText>&lt;Green&gt;原版を戻しました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;You put back the plate.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>60</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4952</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>61</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>42</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4955</PointerOffset>
       <JapaneseText>原版は四つまでしか
 持つ事ができません。</JapaneseText>
-      <EnglishText>You can only have up to four plates.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>62</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5049</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>63</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>43</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5052</PointerOffset>
@@ -586,191 +503,137 @@ fine patterns engraved on it.</EnglishText>
 　戻す　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Put back the plate?
-　Return it　
-　Cancel　</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>64</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5092</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>65</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>44</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5095</PointerOffset>
       <JapaneseText>&lt;Green&gt;原版を戻しました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;You put back the plate.</EnglishText>
-      <Notes/>
-      <Id>66</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5175</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>67</Id>
-      <Status>Done</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>45</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5178</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『製鉄用の道具』
 製鉄用の道具につき
 持ち出し禁止。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Tools for Working Steel"
-Tools used for steelworks are 
-prohibited to take outside.</EnglishText>
-      <Notes/>
-      <Id>68</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5226</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>69</Id>
-      <Status>Done</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>46</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5229</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『製鉄用の原版』
 細かい模様が刻まれた
 鉄を作るための型。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Steel Plate"
-A mold for making steel with 
-fine patterns engraved on it.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>70</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5453</PointerOffset>
-      <JapaneseText>男の人</JapaneseText>
-      <EnglishText>Man</EnglishText>
-      <Notes/>
-      <Id>71</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5515</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>72</Id>
-      <Status>Done</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>47</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5518</PointerOffset>
-      <JapaneseText>&lt;voice:370000bd&gt;立てこもっている人たちが、
+      <VoiceId>370000bd</VoiceId>
+      <JapaneseText>立てこもっている人たちが、
 部屋から出たくなるような
 何かを起こせば……</JapaneseText>
-      <EnglishText>&lt;voice:370000BD&gt;Perhaps if something happened, something
-to make them want to leave that room...</EnglishText>
+      <EnglishText>They've barricaded themselves
+in there, but perhaps if something
+were to happen that would make them
+feel compelled to leave that room...</EnglishText>
       <Notes/>
-      <Id>73</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>48</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5573</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>74</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>5576</PointerOffset>
-      <JapaneseText>&lt;voice:370000be&gt;あのレバーは……</JapaneseText>
-      <EnglishText>&lt;voice:370000BE&gt;That lever!</EnglishText>
+      <VoiceId>370000be</VoiceId>
+      <JapaneseText>あのレバーは……</JapaneseText>
+      <EnglishText>That lever...</EnglishText>
       <Notes/>
-      <Id>75</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>49</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5637</PointerOffset>
-      <JapaneseText>&lt;voice:370000bf&gt;コラッ!!</JapaneseText>
-      <EnglishText>&lt;voice:370000BF&gt;Hey!!</EnglishText>
+      <VoiceId>370000bf</VoiceId>
+      <JapaneseText>コラッ!!</JapaneseText>
+      <EnglishText>Hey!!</EnglishText>
       <Notes/>
-      <Id>76</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>50</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5695</PointerOffset>
-      <JapaneseText>&lt;voice:370000c0&gt;触るなよっ！</JapaneseText>
-      <EnglishText>&lt;voice:370000C0&gt;Don't touch that!</EnglishText>
+      <VoiceId>370000c0</VoiceId>
+      <JapaneseText>触るなよっ！</JapaneseText>
+      <EnglishText>Don't touch that!</EnglishText>
       <Notes/>
-      <Id>77</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>51</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5732</PointerOffset>
-      <JapaneseText>&lt;voice:370000c1&gt;速度調節できない素人が
+      <VoiceId>370000c1</VoiceId>
+      <JapaneseText>速度調節できない素人が
 機械をいじったら、
 大変な事になるんだ！</JapaneseText>
-      <EnglishText>&lt;voice:370000C1&gt;Someone without the proper training to control the
-velocity of this machine shouldn't be operating it!
+      <EnglishText>Someone without the proper
+training to control the speed of the
+machine shouldn't be operating it!
 Things could get really bad!</EnglishText>
       <Notes/>
-      <Id>78</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>52</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5757</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>79</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>5760</PointerOffset>
-      <JapaneseText>&lt;voice:370000c2&gt;大変な事……？
+      <VoiceId>370000c2</VoiceId>
+      <JapaneseText>大変な事……？
 どうなるのですか？</JapaneseText>
-      <EnglishText>&lt;voice:370000C2&gt;“Really bad?”
-How so, if I may ask?</EnglishText>
+      <EnglishText>"Really bad?" How so, if I may
+ask?</EnglishText>
       <Notes/>
-      <Id>80</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>53</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5782</PointerOffset>
-      <JapaneseText>&lt;voice:370000c3&gt;機械が熱くなって、
+      <VoiceId>370000c3</VoiceId>
+      <JapaneseText>機械が熱くなって、
 工場の中が蒸し風呂みたいに
 なるんだ。</JapaneseText>
-      <EnglishText>&lt;voice:370000C3&gt;The machine might overheat, and cause
-this entire factory to feel like a sauna inside.</EnglishText>
+      <EnglishText>The machine would overheat, and
+cause the entire factory to feel like
+a sauna.</EnglishText>
       <Notes/>
-      <Id>81</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>54</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5849</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>82</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5852</PointerOffset>
-      <JapaneseText>&lt;voice:370000c4&gt;（これだわ……）</JapaneseText>
-      <EnglishText>&lt;voice:370000C4&gt;(That will work.)</EnglishText>
+      <VoiceId>370000c4</VoiceId>
+      <JapaneseText>（これだわ……）</JapaneseText>
+      <EnglishText>(That could work.)</EnglishText>
       <Notes/>
-      <Id>83</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7851</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>84</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>55</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -778,36 +641,29 @@ this entire factory to feel like a sauna inside.</EnglishText>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>85</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>56</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9522</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>86</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>57</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9600</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>87</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9696</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>88</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>58</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -1,177 +1,186 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1600</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1646,2069,2100</PointerOffset>
+      <JapaneseText>ハック</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1687</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2038</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2149,2287</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3726</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5571</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>179</PointerOffset>
       <JapaneseText>イーフォンの聖殿</JapaneseText>
-      <EnglishText>Shrine of Eephon</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>182</PointerOffset>
       <JapaneseText>イーフォンの聖殿</JapaneseText>
-      <EnglishText>Shrine of Eephon</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1600</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>3</Id>
-      <Status>Done</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1603</PointerOffset>
-      <JapaneseText>&lt;voice:2b000060&gt;うわっ、この向こう、
+      <VoiceId>2b000060</VoiceId>
+      <JapaneseText>うわっ、この向こう、
 何も見えないヨ!?</JapaneseText>
-      <EnglishText>&lt;voice:2B000060&gt;Whoa, you can't see
-anything in here!</EnglishText>
+      <EnglishText>Whoa, you can't see anything in
+here!</EnglishText>
       <Notes/>
-      <Id>4</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1646</PointerOffset>
-      <JapaneseText>ハック</JapaneseText>
-      <EnglishText>Hack</EnglishText>
-      <Notes/>
-      <Id>5</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1649</PointerOffset>
-      <JapaneseText>&lt;voice:2b000061&gt;誰かいるのか!?
+      <VoiceId>2b000061</VoiceId>
+      <JapaneseText>誰かいるのか!?
 助けて、助けてくれー!!</JapaneseText>
-      <EnglishText>&lt;voice:2B000061&gt;Is someone there?!
-Please, help me!</EnglishText>
+      <EnglishText>Is anyone there?! Please, help
+me!</EnglishText>
       <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>4</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1690</PointerOffset>
+      <VoiceId>2b000062</VoiceId>
+      <JapaneseText>ハックの声だ！
+行くぜ、みんな!!</JapaneseText>
+      <EnglishText>That's Hack's voice! Come on,
+guys!</EnglishText>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>5</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2041</PointerOffset>
+      <VoiceId>2b000063</VoiceId>
+      <JapaneseText>大丈夫か？</JapaneseText>
+      <EnglishText>Are you alright?</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
       <Id>6</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1687</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText>&lt;Tytree&gt;</EnglishText>
-      <Notes/>
-      <Id>7</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1690</PointerOffset>
-      <JapaneseText>&lt;voice:2b000062&gt;ハックの声だ！
-行くぜ、みんな!!</JapaneseText>
-      <EnglishText>&lt;voice:2B000062&gt;That's Hack's voice!
-Come on, guys!</EnglishText>
-      <Notes/>
-      <Id>8</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2038</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>9</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2041</PointerOffset>
-      <JapaneseText>&lt;voice:2b000063&gt;大丈夫か？</JapaneseText>
-      <EnglishText>&lt;voice:2B000063&gt;Are you all right?</EnglishText>
-      <Notes/>
-      <Id>10</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2069</PointerOffset>
-      <JapaneseText>ハック</JapaneseText>
-      <EnglishText>Hack</EnglishText>
-      <Notes/>
-      <Id>11</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>2072</PointerOffset>
-      <JapaneseText>&lt;voice:2b000064&gt;逃げようとしたら、
+      <VoiceId>2b000064</VoiceId>
+      <JapaneseText>逃げようとしたら、
 足をひねっちゃって……
 でも助かった。ありがとう。</JapaneseText>
-      <EnglishText>&lt;voice:2B000064&gt;Well, I twisted my ankle trying
-to run away...
-But I'm fine now, thanks to you guys!</EnglishText>
+      <EnglishText>Well, I twisted my ankle trying
+to run away... But I'm fine now,
+thanks to you guys!</EnglishText>
       <Notes/>
-      <Id>12</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2100</PointerOffset>
-      <JapaneseText>ハック</JapaneseText>
-      <EnglishText>Hack</EnglishText>
-      <Notes/>
-      <Id>13</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>7</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2103</PointerOffset>
-      <JapaneseText>&lt;voice:2b000065&gt;いつもいつも、すまない。
+      <VoiceId>2b000065</VoiceId>
+      <JapaneseText>いつもいつも、すまない。
 キミたちに助けられるのは
 これで三度目だよね。</JapaneseText>
-      <EnglishText>&lt;voice:2B000065&gt;Sorry for always causing trouble.
-This must be the third time that
-you've had to rescue me.</EnglishText>
+      <EnglishText>Sorry for always getting into
+trouble. This has to have been the third
+time you've rescued me.</EnglishText>
       <Notes/>
-      <Id>14</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>8</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2149</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText>&lt;Annie&gt;</EnglishText>
-      <Notes/>
-      <Id>15</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2152</PointerOffset>
-      <JapaneseText>&lt;voice:2b000066&gt;ちょっと足を
+      <VoiceId>2b000066</VoiceId>
+      <JapaneseText>ちょっと足を
 見せてください……</JapaneseText>
-      <EnglishText>&lt;voice:2B000066&gt;Please allow me to
-examine your ankle...</EnglishText>
+      <EnglishText>Please allow me to examine your
+ankle...</EnglishText>
       <Notes/>
-      <Id>16</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>9</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2287</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText>&lt;Annie&gt;</EnglishText>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2290</PointerOffset>
-      <JapaneseText>&lt;voice:2b000067&gt;これは、少し冷やした方がいいですね。
+      <VoiceId>2b000067</VoiceId>
+      <JapaneseText>これは、少し冷やした方がいいですね。
 いったん街へ帰りましょう。</JapaneseText>
-      <EnglishText>&lt;voice:2B000067&gt;You need a cold compress for the swelling.
-Let's return to town for the moment, all right?</EnglishText>
+      <EnglishText>You're going to need a cold
+compress for this. Let's get you back to
+town.</EnglishText>
       <Notes/>
-      <Id>18</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3726</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>19</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>10</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -179,36 +188,29 @@ Let's return to town for the moment, all right?</EnglishText>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>20</Id>
-      <Status>Editing</Status>
+      <SpeakerId>5</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5397</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>21</Id>
-      <Status>Editing</Status>
+      <SpeakerId>6</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5475</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>22</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5571</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <SpeakerId>6</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

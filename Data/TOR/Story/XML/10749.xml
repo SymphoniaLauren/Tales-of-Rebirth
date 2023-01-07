@@ -1,28 +1,52 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5824,5848,5890,5914,9132</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7287</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>910</PointerOffset>
       <JapaneseText>イーフォンの聖殿</JapaneseText>
-      <EnglishText>Shrine of Eephon</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>913</PointerOffset>
       <JapaneseText>イーフォンの聖殿</JapaneseText>
-      <EnglishText>Shrine of Eephon</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1181</PointerOffset>
-      <JapaneseText>&lt;icon:1f&gt;：スクロール　　&lt;icon:31&gt;：終了</JapaneseText>
+      <JapaneseText>&lt;icon:1f&gt;：スクロール　　&lt;icon:31&gt;：完了</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
@@ -30,7 +54,7 @@
     </Entry>
     <Entry>
       <PointerOffset>1940</PointerOffset>
-      <JapaneseText/>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
@@ -38,7 +62,7 @@
     </Entry>
     <Entry>
       <PointerOffset>2147</PointerOffset>
-      <JapaneseText/>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
@@ -46,7 +70,7 @@
     </Entry>
     <Entry>
       <PointerOffset>2214</PointerOffset>
-      <JapaneseText/>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>6</Id>
@@ -55,10 +79,10 @@
     <Entry>
       <PointerOffset>2356</PointerOffset>
       <JapaneseText>&lt;Unk17:3404&gt;</JapaneseText>
-      <EnglishText>&lt;Unk17:3404&gt;</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>7</Id>
-      <Status>Done</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3618</PointerOffset>
@@ -95,38 +119,21 @@
     <Entry>
       <PointerOffset>4642</PointerOffset>
       <JapaneseText>&lt;Unk17:3404&gt;</JapaneseText>
-      <EnglishText>&lt;Unk17:3404&gt;</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>12</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5824</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>13</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5827</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;Tytree&gt;のフォルスを使い、
 ツタを伸ばして足場を移動しながら
 出口を目指します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;With the use of &lt;Tytree&gt;'s Force,
-extend the ivy and move around the 
-scaffolding to reach the exit.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>14</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5848</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5851</PointerOffset>
@@ -135,98 +142,68 @@ scaffolding to reach the exit.</EnglishText>
 それ以外はツタを横に伸ばす事ができます。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>16</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>14</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5890</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5893</PointerOffset>
       <JapaneseText>&lt;Green&gt;レバーは足場の切り替えスイッチです。
 レバーを切り替えると、
 足場の位置も切り替わります。</JapaneseText>
-      <EnglishText>&lt;Green&gt; The lever is a switch for the scaffolding.
-When you change the lever's position, the 
-position of the scaffold also changes.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>18</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5914</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>19</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5917</PointerOffset>
       <JapaneseText>&lt;Green&gt;レバーは直接操作しなくても、
 離れた場所から&lt;Tytree&gt;のフォルスで
 操作する事ができます。</JapaneseText>
-      <EnglishText>&lt;Green&gt;The lever can be operated from afar using &lt;Tytree&gt;'s Force.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>20</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7287</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>21</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7290</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>22</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>8958</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9036</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>24</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9132</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>25</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>15063</PointerOffset>
       <JapaneseText>i= &lt;Unk17:384404&gt;, len= &lt;Unk17:3410&gt;</JapaneseText>
-      <EnglishText>i= &lt;Unk17:384404&gt;, len= &lt;Unk17:3410&gt;</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>26</Id>
-      <Status>Done</Status>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>
