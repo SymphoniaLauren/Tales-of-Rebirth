@@ -1,39 +1,71 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset></PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>383,383,383,383,383</PointerOffset>
+      <JapaneseText>雑貨屋「餓々」</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>505,3061</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1446,1482,1518,1554,1590</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4906</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>169</PointerOffset>
       <JapaneseText>装飾品・道具屋</JapaneseText>
-      <EnglishText>Accessory and Item Shop</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>181</PointerOffset>
       <JapaneseText>キョグエン</JapaneseText>
-      <EnglishText>Kyogen</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>184</PointerOffset>
       <JapaneseText>キョグエン</JapaneseText>
-      <EnglishText>Kyogen</EnglishText>
-      <Notes/>
-      <Id>3</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>383</PointerOffset>
-      <JapaneseText>雑貨屋「雅々」</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -43,36 +75,29 @@
 外から聞こえて来るのよ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>443</PointerOffset>
       <JapaneseText>最上級を越える防音加工を
 してもらわなくちゃ……</JapaneseText>
-      <EnglishText>I have to get more higher quality
-materials for it...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>6</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>485</PointerOffset>
       <JapaneseText>色々取りそろえていますよ。
 ごゆっくりご覧ください。</JapaneseText>
-      <EnglishText>I have all sorts of products.
-Please take your time and look through it.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>7</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>505</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>8</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>508</PointerOffset>
@@ -82,126 +107,116 @@ Please take your time and look through it.</EnglishText>
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;What can I help you with?
-Buy Accessories
-Buy Items
-Talk
-Cancel</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>9</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>579</PointerOffset>
       <JapaneseText>またどうぞー。
 </JapaneseText>
-      <EnglishText>See you again.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>10</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>620</PointerOffset>
       <JapaneseText>またどうぞー。
 </JapaneseText>
-      <EnglishText>See you again.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>11</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>717</PointerOffset>
       <JapaneseText>この隣に住んでる
 物知りじいさんは
 色んな事を知ってますよ。</JapaneseText>
-      <EnglishText>The wise old man who lives
-next door knows a lot.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>12</Id>
-      <Status>Editing</Status>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>749</PointerOffset>
       <JapaneseText>ま、話半分に聞いといた方が
 いいですけどね。
 </JapaneseText>
-      <EnglishText>Well, it's best if you take his
-stories with a grain of salt however.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>13</Id>
-      <Status>Editing</Status>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>794</PointerOffset>
       <JapaneseText>&lt;Cyan&gt;幻の庭&lt;White&gt;……？
 ああ、また物知りじいさんの話？</JapaneseText>
-      <EnglishText>The &lt;Cyan&gt;Garden of Illusions&lt;White&gt;...? Have you 
-been talking to that old coot again?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>14</Id>
-      <Status>Editing</Status>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>826</PointerOffset>
       <JapaneseText>そんなのウソに決まってる
 じゃないですか。</JapaneseText>
-      <EnglishText>Of course it isn't real.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>871</PointerOffset>
       <JapaneseText>大きな声じゃ、言えませんが
 ワン・ギン様は犯罪まがいの行為で、
 今の財産を手に入れたそうですよ。</JapaneseText>
-      <EnglishText>You guys didn't hear it from me,
-but apparently Wan Gin obtained his
-wealth through illegal means.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>16</Id>
-      <Status>Editing</Status>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>893</PointerOffset>
       <JapaneseText>とにかく黒い噂の
 絶えない人です。</JapaneseText>
-      <EnglishText>Anyways, he's a man always 
-surrounded with shady rumors.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>17</Id>
-      <Status>Editing</Status>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>943</PointerOffset>
       <JapaneseText>オークションのお客さんで
 この街がにぎわうのは
 悪い事ではないのですが……</JapaneseText>
-      <EnglishText>It's not bad for this town to
-be visited by a lot of 
-auction-goers, but...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>18</Id>
-      <Status>Editing</Status>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>965</PointerOffset>
       <JapaneseText>今ひとつスッキリしない
 気分ですね。</JapaneseText>
-      <EnglishText>I don't really feel good
-about it...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>19</Id>
-      <Status>Editing</Status>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1015</PointerOffset>
       <JapaneseText>また盗賊が出たんですか？
 </JapaneseText>
-      <EnglishText>Did thieves appeared again? </EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>20</Id>
-      <Status>Editing</Status>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1037</PointerOffset>
@@ -209,110 +224,97 @@ about it...</EnglishText>
 日常茶飯事なんですよ、
 こんな事は。
 </JapaneseText>
-      <EnglishText>Again? Well, this always
-happened every day.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>21</Id>
-      <Status>Editing</Status>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1059</PointerOffset>
       <JapaneseText>最近では街の者は
 あまり騒がなくなりました。
 </JapaneseText>
-      <EnglishText>The people in this town have
-been quiet lately...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>22</Id>
-      <Status>Editing</Status>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1109</PointerOffset>
       <JapaneseText>盗賊騒ぎも、いつもどおり
-終わりましたね。
+完わりましたね。
 </JapaneseText>
-      <EnglishText>And as usual...
-Those thieves are gone...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1131</PointerOffset>
       <JapaneseText>お金のない人なんて
 あんなもんです。</JapaneseText>
-      <EnglishText>Well that's just how people
-without money are.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1181</PointerOffset>
       <JapaneseText>ベルサスで色々あったそうですね。
 あの街にもお金持ちはいますけど、
 本物じゃないんですよね……</JapaneseText>
-      <EnglishText>I heard a lot happened in Belsas.
-There's some wealthy people in that 
-town, but it seems that wasn't the case...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>25</Id>
-      <Status>Editing</Status>
+      <Id>23</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1203</PointerOffset>
       <JapaneseText>本当のお金持ちは、
 細かい事は気にしないから、
 争ったりしないもの。</JapaneseText>
-      <EnglishText>True wealthy people don't fret
-over the smallest things, which
-is why they don't really complain.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>26</Id>
-      <Status>Editing</Status>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1270</PointerOffset>
       <JapaneseText>キョグエンは、世の中の
 騒ぎとは無縁の街ですよ。</JapaneseText>
-      <EnglishText>Kyogen is a town free from
-this world's problems.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <Id>25</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1292</PointerOffset>
       <JapaneseText>やっぱり、お金の力かしら。
 みんな心が広いのよね。
 </JapaneseText>
-      <EnglishText>As I thought, people's hearts will 
-always be open when you have money.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>28</Id>
-      <Status>Editing</Status>
+      <Id>26</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1359</PointerOffset>
       <JapaneseText>世の中は大変な事になってる
 みたいですけど、平気です。</JapaneseText>
-      <EnglishText>I hear that the world is going through
-tough times, but it's quite peaceful here.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>29</Id>
-      <Status>Editing</Status>
+      <Id>27</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1381</PointerOffset>
       <JapaneseText>私、お金はたっぷりあるし、
 いざとなればお金で何とか
 なるでしょうから。</JapaneseText>
-      <EnglishText>I have lots of money saved up.
-If anything happens, I can just
-pay my way to safety.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>30</Id>
-      <Status>Editing</Status>
+      <Id>28</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1406</PointerOffset>
@@ -320,20 +322,10 @@ pay my way to safety.</EnglishText>
 最近、そう面白い話も
 ありませんねえ……
 </JapaneseText>
-      <EnglishText>That's true... There
-hasn't been anything interesting
-happening lately...</EnglishText>
-      <Notes/>
-      <Id>31</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1446</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>32</Id>
-      <Status>Done</Status>
+      <Id>29</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1449</PointerOffset>
@@ -343,23 +335,11 @@ happening lately...</EnglishText>
 ２５００万ガルド。
 原則、セットでないと買えないはずなのに、
 なぜか一冊だけない。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Great Callegean Encyclopedia: All 8 Volumes -
-A set of encyclopedias containing
-all that you can know about Callegea.
-                                                   (2500 Gald) 
-You're supposed to buy it as a set, but
-for some reason its missing one volume.</EnglishText>
-      <Notes/>
-      <Id>33</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1482</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>34</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>30</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1485</PointerOffset>
@@ -367,21 +347,11 @@ for some reason its missing one volume.</EnglishText>
 面白半分で買った人がこわがり、
 結局はいつも、店に戻ってくるので、
 今は非売品になっている。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Figure with a Scary Face (Not for Sale) -
-People who buy these often get scared
-and end up refunding it. It is currently
-not for sale.</EnglishText>
-      <Notes/>
-      <Id>35</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1518</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>36</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>31</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1521</PointerOffset>
@@ -390,26 +360,13 @@ not for sale.</EnglishText>
 作るはずだった巨大な馬像の試作版。
 本物は作成途中に反対派の手によって
 壊されてしまった。
-店の主人が気に入っているので、
+店の惹人が気に入っているので、
 なかなか手放さない。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Statue of a Neighing Horse -
-A prototype of a giant statue in Balka that 
-a world-famous sculptor was supposed to 
-make. The real one was destroyed by 
-enemies during its creation.
-The shop owner has taken a liking
-to it, and refuses to sell it to people.</EnglishText>
-      <Notes/>
-      <Id>37</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1554</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>38</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>32</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1557</PointerOffset>
@@ -418,22 +375,11 @@ to it, and refuses to sell it to people.</EnglishText>
 誰かが割ったわけではなく、
 割れているのが、もともとの形。
 もちろん割れているので、使えない。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Statue of a Cracked Pot -
-A statue of a pot with a cracked bottom.
-(For ornamental uses). While it is cracked,
-it is how it is and not caused by anyone.
-Because of its broken bottom, it can't be used.</EnglishText>
-      <Notes/>
-      <Id>39</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1590</PointerOffset>
-      <JapaneseText/>
       <EnglishText/>
       <Notes/>
-      <Id>40</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>33</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1593</PointerOffset>
@@ -441,57 +387,40 @@ Because of its broken bottom, it can't be used.</EnglishText>
 「商品見本用。
 　お申し付けくだされば、
 　商品をお出しします。」</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Ornament Display Case -
-"For product samples.
-       Simply ask, and we will bring you
-       the actual product."</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>41</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3061</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>42</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>34</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3064</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>43</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>35</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4732</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>44</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>36</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4810</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>45</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4906</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>46</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>37</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -1,64 +1,107 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset></PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3590,6241</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3655,6191,6322</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5018</PointerOffset>
+      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6273</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7682</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9527</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>867</PointerOffset>
       <JapaneseText>製鉄工場・密林化</JapaneseText>
-      <EnglishText>Steelworks Factory - Dense forest</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>870</PointerOffset>
       <JapaneseText>製鉄工場・密林化</JapaneseText>
-      <EnglishText>Steelworks Factory - Dense forest</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3590</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>3</Id>
-      <Status>Done</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3593</PointerOffset>
-      <JapaneseText>&lt;voice:13000049&gt;近いヨ！　きっとこの奥だ！</JapaneseText>
-      <EnglishText>&lt;voice:13000049&gt;He's close!
-He must be back there!</EnglishText>
+      <VoiceId>13000049</VoiceId>
+      <JapaneseText>近いヨ！　きっとこの奥だ！</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>4</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3655</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>5</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3658</PointerOffset>
-      <JapaneseText>&lt;voice:1300004a&gt;入るぞ……！</JapaneseText>
-      <EnglishText>&lt;voice:1300004A&gt;I'm going in!</EnglishText>
+      <VoiceId>1300004a</VoiceId>
+      <JapaneseText>入るぞ……！</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>6</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>4</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3717</PointerOffset>
       <JapaneseText>い</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>7</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -66,7 +109,7 @@ He must be back there!</EnglishText>
       <JapaneseText>ろ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -74,96 +117,80 @@ He must be back there!</EnglishText>
       <JapaneseText>は</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>9</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4879</PointerOffset>
       <JapaneseText>柵が閉まっている……</JapaneseText>
-      <EnglishText>The fence is shut closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>10</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4900</PointerOffset>
       <JapaneseText>柵が閉まってるよ。</JapaneseText>
-      <EnglishText>The fence is shut closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>11</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4921</PointerOffset>
       <JapaneseText>鉄柵が閉まっているな。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>12</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4943</PointerOffset>
       <JapaneseText>鉄の柵が閉まってますね。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>13</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4965</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているな。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>14</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4987</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているわ。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4998</PointerOffset>
       <JapaneseText>鉄の柵が閉まっている。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>16</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5018</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6191</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>18</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6194</PointerOffset>
       <JapaneseText>再生した!?</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>19</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>15</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6241</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>20</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6244</PointerOffset>
@@ -172,16 +199,9 @@ He must be back there!</EnglishText>
 感じだったヨ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>21</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>16</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6273</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>22</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6276</PointerOffset>
@@ -189,108 +209,87 @@ He must be back there!</EnglishText>
 断たなければ先に進めないな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>23</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>17</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6322</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>24</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6325</PointerOffset>
       <JapaneseText>行くぞ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>25</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>18</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7682</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>26</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7685</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9353</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>28</Id>
-      <Status>Editing</Status>
+      <SpeakerId>5</SpeakerId>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9431</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>29</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9527</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>30</Id>
-      <Status>Editing</Status>
+      <SpeakerId>5</SpeakerId>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>13753</PointerOffset>
       <JapaneseText>d_x  = %d</JapaneseText>
-      <EnglishText>d_x  = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>31</Id>
-      <Status>Done</Status>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>13761</PointerOffset>
       <JapaneseText>d_z  = %d</JapaneseText>
-      <EnglishText>d_z  = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>32</Id>
-      <Status>Done</Status>
+      <Id>23</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>13769</PointerOffset>
       <JapaneseText>d_xz = %d</JapaneseText>
-      <EnglishText>d_xz = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>33</Id>
-      <Status>Done</Status>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>14634</PointerOffset>
       <JapaneseText>pow = %d</JapaneseText>
-      <EnglishText>pow = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>34</Id>
-      <Status>Done</Status>
+      <Id>25</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>14967</PointerOffset>
       <JapaneseText>pow = %d</JapaneseText>
-      <EnglishText>pow = %d</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>35</Id>
-      <Status>Done</Status>
+      <Id>26</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

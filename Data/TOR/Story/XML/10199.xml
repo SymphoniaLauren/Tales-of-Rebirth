@@ -1,52 +1,109 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset></PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1411,7482,7882</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3256,7280,7407,7453,7570,7834,7858</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4645,4666,4691,4893,4946,4967,5212,5855,5939,6056,6078,6100,6122,6168,6843,7022</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4875</PointerOffset>
+      <JapaneseText>&lt;Claire&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5262,5601,5675,6447</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5733,5753,5799,5819</PointerOffset>
+      <JapaneseText>SELECT</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6394</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7593,7593,7593,7593,7593,7593,7593,7593,7593</PointerOffset>
+      <JapaneseText>食材屋</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
-    <Entry>
-      <PointerOffset>1411</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>1</Id>
-      <Status>Editing</Status>
-    </Entry>
     <Entry>
       <PointerOffset>1414</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>2</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>1</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3082</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>3</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>2</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3160</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>4</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3256</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>5</Id>
-      <Status>Editing</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>3</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4560</PointerOffset>
@@ -54,48 +111,26 @@ No</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4645</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4648</PointerOffset>
       <JapaneseText>スコープイン</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>5</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4666</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>9</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4669</PointerOffset>
       <JapaneseText>スコープアウト</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>10</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>6</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4691</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>11</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4694</PointerOffset>
@@ -117,80 +152,45 @@ No</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>12</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>7</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4875</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>13</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4878</PointerOffset>
       <JapaneseText>&lt;Claire&gt;ウィンドウ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>14</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>8</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4893</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>15</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4896</PointerOffset>
       <JapaneseText>下側のウィンドウ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>16</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4946</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4949</PointerOffset>
       <JapaneseText>&lt;item:051a&gt;は取れる</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>18</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>10</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4967</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>19</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4970</PointerOffset>
       <JapaneseText>&lt;item:051a&gt;は取れない</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>20</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>11</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5212</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>21</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5215</PointerOffset>
@@ -212,86 +212,58 @@ noticeフラグ
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>22</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5262</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>23</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>5265</PointerOffset>
-      <JapaneseText>&lt;voice:0b000022&gt;これが、
+      <VoiceId>0b000022</VoiceId>
+      <JapaneseText>これが、
 そのフォルスの具現化したもの。
 フォルスキューブさ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000022&gt;This here is a materialization of Force.
-It's called a Force Cube.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5280</PointerOffset>
       <JapaneseText>同期命令スルー</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>25</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5601</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>26</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>5604</PointerOffset>
-      <JapaneseText>&lt;voice:0b000022&gt;これが、
+      <VoiceId>0b000022</VoiceId>
+      <JapaneseText>これが、
 そのフォルスの具現化したもの。
 フォルスキューブさ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000022&gt;This here is a materialization of Force.
-It's called a Force Cube.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5626</PointerOffset>
       <JapaneseText>ウエイトを抜ける</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>28</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5675</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>29</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5678</PointerOffset>
       <JapaneseText>&lt;item:0000&gt;と表示してみる</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>30</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>17</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5733</PointerOffset>
-      <JapaneseText>SELECT</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>31</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5736</PointerOffset>
@@ -299,16 +271,9 @@ It's called a Force Cube.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>32</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>18</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5753</PointerOffset>
-      <JapaneseText>SELECT</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>33</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5756</PointerOffset>
@@ -316,16 +281,9 @@ It's called a Force Cube.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>34</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>19</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5799</PointerOffset>
-      <JapaneseText>SELECT</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>35</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5802</PointerOffset>
@@ -333,16 +291,9 @@ It's called a Force Cube.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>36</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>20</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5819</PointerOffset>
-      <JapaneseText>SELECT</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>37</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5822</PointerOffset>
@@ -350,186 +301,101 @@ It's called a Force Cube.</EnglishText>
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>38</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>21</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5855</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>39</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5858</PointerOffset>
       <JapaneseText>今のグレードは &lt;Unk17:c82ac0c0e08d&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>40</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>22</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5939</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>41</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5942</PointerOffset>
       <JapaneseText>・２００００ガルドもらう
 ・アイテムを＋５する
-・アイテムを－５する
+・アイテムを−５する
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>42</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>23</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6056</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>43</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6059</PointerOffset>
       <JapaneseText>マップ内最大連続勝利：&lt;Unk17:323c&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>44</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>24</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6078</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>45</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6081</PointerOffset>
       <JapaneseText>マップ内最短戦闘時間：&lt;Unk17:3240&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>46</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>25</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6100</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>47</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6103</PointerOffset>
       <JapaneseText>マップ内最大連続ヒット：&lt;Unk17:3244&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>48</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>26</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6122</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>49</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6125</PointerOffset>
       <JapaneseText>止めを刺したキャラ：&lt;Unk19:1248&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>50</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>27</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6168</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>51</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6171</PointerOffset>
       <JapaneseText>カウンターが切れてます</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>52</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>28</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6394</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>53</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6397</PointerOffset>
       <JapaneseText>&lt;item:0201&gt;はあと&lt;Unk17:ca01e10e&gt;個持てる</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>54</Id>
+      <SpeakerId>6</SpeakerId>
+      <Id>29</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6447</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>55</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6450</PointerOffset>
       <JapaneseText>&lt;item:0001&gt;はあと&lt;Unk17:c1e10e&gt;個持てる</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>56</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>30</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6818</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>57</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6828</PointerOffset>
-      <JapaneseText>＋</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>58</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6843</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>59</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6846</PointerOffset>
       <JapaneseText>&lt;font:0002&gt;アイテム数を&lt;Unk18:4414&gt;&lt;Unk17:3404&gt;しました</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>60</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -537,16 +403,8 @@ It's called a Force Cube.</EnglishText>
       <JapaneseText>リリース版</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>61</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7022</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>62</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>7025</PointerOffset>
@@ -554,77 +412,29 @@ It's called a Force Cube.</EnglishText>
 　頻度レベルアップ　
 　種類レベルアップ　
 　個数レベルアップ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;font:0000&gt;&lt;scale:00F0&gt;Buy Ingredients/Exchange Tickets
-Level Up Frequency
-Level Up Variety
-Level Up Amount</EnglishText>
-      <Notes/>
-      <Id>63</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7201</PointerOffset>
-      <JapaneseText>頻度</JapaneseText>
-      <EnglishText>Frequency</EnglishText>
-      <Notes/>
-      <Id>64</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7221</PointerOffset>
-      <JapaneseText>種類</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>65</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>33</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7241</PointerOffset>
-      <JapaneseText>個数</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>66</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7280</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>67</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7283</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Unk18:4414&gt;レベルは最大です。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>68</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>34</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7407</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>69</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7410</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;所持金が足りません。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>70</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>35</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7453</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>71</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7456</PointerOffset>
@@ -632,16 +442,9 @@ Level Up Amount</EnglishText>
 レベルアップできません。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>72</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>36</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7482</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>73</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7485</PointerOffset>
@@ -651,16 +454,9 @@ Level Up Amount</EnglishText>
 　いいえ　</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>74</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>37</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7570</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>75</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7573</PointerOffset>
@@ -668,23 +464,17 @@ Level Up Amount</EnglishText>
 &lt;Unk18:4414&gt;レベルは&lt;Unk17:340cc18c&gt;になりました。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>76</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>38</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7593</PointerOffset>
-      <JapaneseText>食材屋</JapaneseText>
-      <EnglishText>Grocer</EnglishText>
-      <Notes/>
-      <Id>77</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7609</PointerOffset>
       <JapaneseText>食材調達施設へようこそ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>78</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -693,7 +483,8 @@ Level Up Amount</EnglishText>
 皆さんに提供しています。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>79</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>40</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -702,13 +493,11 @@ Level Up Amount</EnglishText>
 を皆さんにお持ちいただくだけで、
 新鮮な食材を定期的に供給する
 システムとなっております。</JapaneseText>
-      <EnglishText>Just by having the mysterious
-&lt;item:0106&gt; with you, you'll
-be supplied regularly with the
-freshest of ingredients.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>80</Id>
-      <Status>Editing</Status>
+      <SpeakerId>7</SpeakerId>
+      <Id>41</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7675</PointerOffset>
@@ -717,7 +506,8 @@ freshest of ingredients.</EnglishText>
 お分けしていますが……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>81</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -727,7 +517,8 @@ freshest of ingredients.</EnglishText>
 無料でお分けしています！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>82</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -737,7 +528,8 @@ freshest of ingredients.</EnglishText>
 配達する事ができます。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>83</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>44</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -745,7 +537,8 @@ freshest of ingredients.</EnglishText>
       <JapaneseText>ぜひ、お集め下さい。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>84</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>45</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -755,7 +548,8 @@ freshest of ingredients.</EnglishText>
 当方の店で食材を購入する事も可能です。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>85</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -765,16 +559,9 @@ freshest of ingredients.</EnglishText>
 この機会にぜひどうぞ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>86</Id>
+      <SpeakerId>7</SpeakerId>
+      <Id>47</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7834</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>87</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7837</PointerOffset>
@@ -782,16 +569,9 @@ freshest of ingredients.</EnglishText>
 に点在しています。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>88</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>48</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7858</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>89</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7861</PointerOffset>
@@ -799,28 +579,20 @@ freshest of ingredients.</EnglishText>
 &lt;Red&gt;料理&lt;Green&gt;についての説明が追加されました。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>90</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>49</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7882</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>91</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7885</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;バトルブックを読みますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;Read the Battle Book?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>92</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>50</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

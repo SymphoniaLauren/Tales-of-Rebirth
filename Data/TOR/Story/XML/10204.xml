@@ -1,6 +1,22 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset></PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1684</PointerOffset>
+      <JapaneseText>豹男</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
@@ -29,19 +45,12 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1684</PointerOffset>
-      <JapaneseText>豹男</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>1687</PointerOffset>
       <JapaneseText>ＴＥＳＴ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -49,7 +58,7 @@
       <JapaneseText>FORCE -EXT TRAP</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

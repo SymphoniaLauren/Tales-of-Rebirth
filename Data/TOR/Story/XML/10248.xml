@@ -1,753 +1,537 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
+    <Section>Speakers</Section>
+    <Entry>
+      <PointerOffset></PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2172,2255,2733,2833,2890,3084,3405,3615,3701,3786,4013,4076,4216</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2209,2683,2704,2940,3055</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2298,2466,2514,2646,2762,2791,2812,2854,2911,2967,3012,3113,3181,3220,3339</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3680</PointerOffset>
+      <JapaneseText>ザピィ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3731,3885,4113,4135</PointerOffset>
+      <JapaneseText>&lt;Claire&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5712</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7557</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
       <PointerOffset>581</PointerOffset>
       <JapaneseText>スールズ</JapaneseText>
-      <EnglishText>Sulz</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>584</PointerOffset>
       <JapaneseText>スールズ</JapaneseText>
-      <EnglishText>Sulz</EnglishText>
+      <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2172</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>3</Id>
-      <Status>Done</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2175</PointerOffset>
-      <JapaneseText>&lt;voice:0b00001e&gt;オレの氷とおまえの炎……
+      <VoiceId>0b00001e</VoiceId>
+      <JapaneseText>オレの氷とおまえの炎……
 同じなのか……？
 この力は一体……？</JapaneseText>
-      <EnglishText>&lt;voice:0B00001E&gt;My ice and your fire...
-Are they the same?
-What is this power...?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>4</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2209</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>5</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2212</PointerOffset>
-      <JapaneseText>&lt;voice:0b00001f&gt;おまえのその力は&lt;Red&gt;フォルス&lt;White&gt;という。
+      <VoiceId>0b00001f</VoiceId>
+      <JapaneseText>おまえのその力は&lt;Red&gt;フォルス&lt;White&gt;という。
 使い方を誤らなければ、この先、
 おまえにとって大きな助けとなる。</JapaneseText>
-      <EnglishText>&lt;voice:0B00001F&gt;It's a power known as &lt;Red&gt;Force&lt;White&gt;.
-Use it properly and it will become a
-great asset to you from here on out.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>6</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2255</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>7</Id>
-      <Status>Done</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>4</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2258</PointerOffset>
-      <JapaneseText>&lt;voice:0b000020&gt;フォルス……？</JapaneseText>
-      <EnglishText>&lt;voice:0B000020&gt;Force?</EnglishText>
+      <VoiceId>0b000020</VoiceId>
+      <JapaneseText>フォルス……？</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>8</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2298</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>9</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2301</PointerOffset>
-      <JapaneseText>&lt;voice:0b000021&gt;そう、フォルス。</JapaneseText>
-      <EnglishText>&lt;voice:0B000021&gt;Yup, Force.</EnglishText>
+      <VoiceId>0b000021</VoiceId>
+      <JapaneseText>そう、フォルス。</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>10</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2466</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>11</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2469</PointerOffset>
-      <JapaneseText>&lt;voice:0b000022&gt;これが、
+      <VoiceId>0b000022</VoiceId>
+      <JapaneseText>これが、
 そのフォルスの具現化したもの。
 フォルスキューブさ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000022&gt;This here is a materialization of Force.
-It's called a Force Cube.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>12</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2514</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>13</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2517</PointerOffset>
-      <JapaneseText>&lt;voice:0b000023&gt;ボクたちは旅をしている。
+      <VoiceId>0b000023</VoiceId>
+      <JapaneseText>ボクたちは旅をしている。
 ボクやキミのような能力……
 フォルスを持った仲間を探すために。
 ボクたちの世界を救うために。</JapaneseText>
-      <EnglishText>&lt;voice:0B000023&gt;We're on a journey.
-A journey to find more people who
-can use Force like you and me.
-A journey...to save the world.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>14</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2646</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>15</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2649</PointerOffset>
-      <JapaneseText>&lt;voice:0b000024&gt;すべてはフォルスによって
+      <VoiceId>0b000024</VoiceId>
+      <JapaneseText>すべてはフォルスによって
 起こったコトなんだよ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000024&gt;All this happened because of
-Force, you know.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>16</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2683</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2686</PointerOffset>
-      <JapaneseText>&lt;voice:0b000025&gt;フォルスは
+      <VoiceId>0b000025</VoiceId>
+      <JapaneseText>フォルスは
 生命と精神のパワーが生み出す
 &lt;Cyan&gt;特殊能力&lt;White&gt;の事だ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000025&gt;Force is a &lt;Cyan&gt;special ability&lt;White&gt; born
-of both life and spirit.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>18</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2704</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>19</Id>
-      <Status>Done</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2707</PointerOffset>
-      <JapaneseText>&lt;voice:0b000026&gt;フォルスはもともと
+      <VoiceId>0b000026</VoiceId>
+      <JapaneseText>フォルスはもともと
 俺のような&lt;Cyan&gt;ガジュマ&lt;White&gt;にしか
 発現しないものだった。</JapaneseText>
-      <EnglishText>&lt;voice:0B000026&gt;Originally, it only manifested
-in &lt;Cyan&gt;Gajuma&lt;White&gt; such as myself.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>20</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2733</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>21</Id>
-      <Status>Done</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2736</PointerOffset>
-      <JapaneseText>&lt;voice:0b000027&gt;だったら、なぜ……
+      <VoiceId>0b000027</VoiceId>
+      <JapaneseText>だったら、なぜ……
 オレやそいつのような
 &lt;Cyan&gt;ヒューマ&lt;White&gt;にそんな力が……</JapaneseText>
-      <EnglishText>&lt;voice:0B000027&gt;If that's the case, then why can
-&lt;Cyan&gt;Huma&lt;White&gt; like him and me use it?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>22</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2762</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>23</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2765</PointerOffset>
-      <JapaneseText>&lt;voice:0b000028&gt;ある時から、ヒューマの中にも
+      <VoiceId>0b000028</VoiceId>
+      <JapaneseText>ある時から、ヒューマの中にも
 フォルス能力者が現れるように
 なったんだよ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000028&gt;Something happened not long ago.
-Ever since then, Force has started
-appearing in Huma.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>24</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2791</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>25</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2794</PointerOffset>
-      <JapaneseText>&lt;voice:0b000029&gt;今では、ガジュマやヒューマという
+      <VoiceId>0b000029</VoiceId>
+      <JapaneseText>今では、ガジュマやヒューマという
 種族の区別なく、色々な種類の
 フォルスを持った能力者がいるんだ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000029&gt;Any person of any race could be
-a Force bearer. There are all kinds
-of Force doing the rounds right now.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>26</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2812</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>27</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2815</PointerOffset>
-      <JapaneseText>&lt;voice:0b00002a&gt;キミのフォルスは「氷」。</JapaneseText>
-      <EnglishText>&lt;voice:0B00002A&gt;Yours is the Force of Ice.</EnglishText>
+      <VoiceId>0b00002a</VoiceId>
+      <JapaneseText>キミのフォルスは「氷」。</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>28</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2833</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>29</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2836</PointerOffset>
-      <JapaneseText>&lt;voice:0b00002b&gt;&lt;Yellow&gt;氷のフォルス&lt;White&gt;……</JapaneseText>
-      <EnglishText>&lt;voice:0B00002B&gt;The &lt;Yellow&gt;Force of Ice&lt;White&gt;......</EnglishText>
+      <VoiceId>0b00002b</VoiceId>
+      <JapaneseText>&lt;Yellow&gt;氷のフォルス&lt;White&gt;……</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2854</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>31</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2857</PointerOffset>
-      <JapaneseText>&lt;voice:0b00002c&gt;キミは、氷を自在に
+      <VoiceId>0b00002c</VoiceId>
+      <JapaneseText>キミは、氷を自在に
 操るコトができるでしょ？</JapaneseText>
-      <EnglishText>&lt;voice:0B00002C&gt;You can manipulate ice
-at will, right?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>32</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2890</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>33</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2893</PointerOffset>
-      <JapaneseText>&lt;voice:0b00002d&gt;今はな……
+      <VoiceId>0b00002d</VoiceId>
+      <JapaneseText>今はな……
 だが、クレアの氷だけは
 どうする事もできない……</JapaneseText>
-      <EnglishText>&lt;voice:0B00002D&gt;Now I can, but...
-I can't seem to do anything
-about the ice around Claire.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>34</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2911</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>35</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2914</PointerOffset>
-      <JapaneseText>&lt;voice:0b00002e&gt;それはキミのフォルスが
+      <VoiceId>0b00002e</VoiceId>
+      <JapaneseText>それはキミのフォルスが
 暴走した時の氷だからだヨ。</JapaneseText>
-      <EnglishText>&lt;voice:0B00002E&gt;That's because this ice is from
-when your Force went berserk.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>36</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2940</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>37</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2943</PointerOffset>
-      <JapaneseText>&lt;voice:0b00002f&gt;心の力であるフォルスは、
+      <VoiceId>0b00002f</VoiceId>
+      <JapaneseText>心の力であるフォルスは、
 持つ者の心が不安定だと
 過度に反応し、制御できなくなる。</JapaneseText>
-      <EnglishText>&lt;voice:0B00002F&gt;As a power that comes from the heart,
-Force can't be well controlled if the
-bearer's emotions become unstable.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>38</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2967</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>39</Id>
-      <Status>Done</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2970</PointerOffset>
-      <JapaneseText>&lt;voice:0b000030&gt;キミの力の覚醒は突然のコトだった。
+      <VoiceId>0b000030</VoiceId>
+      <JapaneseText>キミの力の覚醒は突然のコトだった。
 準備ができていなかったキミの心は
-力を制御できずに、彼女を……</JapaneseText>
-      <EnglishText>&lt;voice:0B000030&gt;Your power's awakening was sudden.
-You were unprepared, your heart couldn't
-control it, and she was, well...</EnglishText>
+力を制御できずに、庇女を……</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>40</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3012</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>41</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3015</PointerOffset>
-      <JapaneseText>&lt;voice:0b000031&gt;それがフォルスの暴走なんだ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000031&gt;This is what happens when
-Force goes berserk.</EnglishText>
+      <VoiceId>0b000031</VoiceId>
+      <JapaneseText>それがフォルスの暴走なんだ。</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>42</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3055</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>43</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3058</PointerOffset>
-      <JapaneseText>&lt;voice:0b000032&gt;この氷は、今のおまえの能力では
+      <VoiceId>0b000032</VoiceId>
+      <JapaneseText>この氷は、今のおまえの能力では
 消す事は不可能だ。</JapaneseText>
-      <EnglishText>&lt;voice:0B000032&gt;It'll be impossible for someone of your
-current ability to remove this ice.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3084</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>45</Id>
-      <Status>Done</Status>
+      <SpeakerId>1</SpeakerId>
+      <Id>23</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3087</PointerOffset>
-      <JapaneseText>&lt;voice:0b000033&gt;……どうすればクレアは……</JapaneseText>
-      <EnglishText>&lt;voice:0B000033&gt;Then how can I help her?</EnglishText>
+      <VoiceId>0b000033</VoiceId>
+      <JapaneseText>……どうすればクレアは……</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>46</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3113</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>47</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3116</PointerOffset>
-      <JapaneseText>&lt;voice:0b000034&gt;ここはボクに任せて、&lt;Veigue&gt;。
+      <VoiceId>0b000034</VoiceId>
+      <JapaneseText>ここはボクに任せて、&lt;Veigue&gt;。
 キミが&lt;Yellow&gt;氷&lt;White&gt;ならボクは&lt;Yellow&gt;炎&lt;White&gt;。
 &lt;Yellow&gt;氷&lt;White&gt;を溶かすには……</JapaneseText>
-      <EnglishText>&lt;voice:0B000034&gt;Leave this to me, &lt;Veigue&gt;.
-You're ice and I'm fire.
-In order to melt ice...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>48</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3181</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>49</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>25</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3184</PointerOffset>
-      <JapaneseText>&lt;voice:0b000035&gt;&lt;Yellow&gt;炎&lt;White&gt;を近づければいい。</JapaneseText>
-      <EnglishText>&lt;voice:0B000035&gt;You just have to
-turn up the &lt;Yellow&gt;heat&lt;White&gt;.</EnglishText>
+      <VoiceId>0b000035</VoiceId>
+      <JapaneseText>&lt;Yellow&gt;炎&lt;White&gt;を近づければいい。</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>50</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3220</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>51</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>26</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3223</PointerOffset>
-      <JapaneseText>&lt;voice:0b000036&gt;フォルスの炎よ!!
-氷の眠りから彼女を解き放て!!</JapaneseText>
-      <EnglishText>&lt;voice:0B000036&gt;O Force of Fire, release her
-from her icy slumber!</EnglishText>
+      <VoiceId>0b000036</VoiceId>
+      <JapaneseText>フォルスの炎よ!!
+氷の眠りから庇女を解き放て!!</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>52</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3339</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>53</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>27</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3342</PointerOffset>
-      <JapaneseText>&lt;voice:0b000037&gt;今だヨ、&lt;Veigue&gt;!!
+      <VoiceId>0b000037</VoiceId>
+      <JapaneseText>今だヨ、&lt;Veigue&gt;!!
 氷を砕いて!!</JapaneseText>
-      <EnglishText>&lt;voice:0B000037&gt;Now, &lt;Veigue&gt;!
-Break the ice!</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>54</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3405</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>55</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>28</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3408</PointerOffset>
-      <JapaneseText>&lt;voice:0b000038&gt;うぉぉぉぉぉ!!</JapaneseText>
-      <EnglishText>&lt;voice:0B000038&gt;Huaaah!!</EnglishText>
+      <VoiceId>0b000038</VoiceId>
+      <JapaneseText>うぉぉぉぉぉ!!</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>56</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3615</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>57</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>29</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3618</PointerOffset>
-      <JapaneseText>&lt;voice:0b000039&gt;クレア!!</JapaneseText>
-      <EnglishText>&lt;voice:0B000039&gt;Claire!</EnglishText>
+      <VoiceId>0b000039</VoiceId>
+      <JapaneseText>クレア!!</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>58</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3680</PointerOffset>
-      <JapaneseText>ザピィ</JapaneseText>
-      <EnglishText>Zapie</EnglishText>
-      <Notes/>
-      <Id>59</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>30</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3683</PointerOffset>
-      <JapaneseText>&lt;voice:0b00003a&gt;キーッ!!</JapaneseText>
-      <EnglishText>&lt;voice:0B00003A&gt;Kii!</EnglishText>
+      <VoiceId>0b00003a</VoiceId>
+      <JapaneseText>キーッ!!</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>60</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3701</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>61</Id>
-      <Status>Done</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>31</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3704</PointerOffset>
-      <JapaneseText>&lt;voice:0b00003b&gt;……クレア!!
+      <VoiceId>0b00003b</VoiceId>
+      <JapaneseText>……クレア!!
 生きている……のか……？</JapaneseText>
-      <EnglishText>&lt;voice:0B00003B&gt;Claire!
-Are you...alive?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>62</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3731</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>63</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>32</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3734</PointerOffset>
-      <JapaneseText>&lt;voice:0b00003c&gt;……&lt;Veigue&gt;……？</JapaneseText>
-      <EnglishText>&lt;voice:0B00003C&gt;...&lt;Veigue&gt;?</EnglishText>
+      <VoiceId>0b00003c</VoiceId>
+      <JapaneseText>……&lt;Veigue&gt;……？</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>64</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3786</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>65</Id>
-      <Status>Done</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>33</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3789</PointerOffset>
-      <JapaneseText>&lt;voice:0b00003d&gt;クレア……！
+      <VoiceId>0b00003d</VoiceId>
+      <JapaneseText>クレア……！
 どこも痛くないか？
 気分は……？</JapaneseText>
-      <EnglishText>&lt;voice:0B00003D&gt;Claire!
-Does it hurt anywhere?
-Do you feel okay?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>66</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3885</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>67</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>34</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3888</PointerOffset>
-      <JapaneseText>&lt;voice:0b00003e&gt;うん……私……</JapaneseText>
-      <EnglishText>&lt;voice:0B00003E&gt;Um... I'm...</EnglishText>
+      <VoiceId>0b00003e</VoiceId>
+      <JapaneseText>うん……私……</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>68</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4013</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>69</Id>
-      <Status>Done</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>35</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4016</PointerOffset>
-      <JapaneseText>&lt;voice:0b00003f&gt;クレア……</JapaneseText>
-      <EnglishText>&lt;voice:0B00003F&gt;Claire...</EnglishText>
+      <VoiceId>0b00003f</VoiceId>
+      <JapaneseText>クレア……</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>70</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4076</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>71</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>36</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4079</PointerOffset>
-      <JapaneseText>&lt;voice:0b000040&gt;……クレア……
+      <VoiceId>0b000040</VoiceId>
+      <JapaneseText>……クレア……
 震えているのか？</JapaneseText>
-      <EnglishText>&lt;voice:0B000040&gt;Claire...
-Are you shivering?</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>72</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4113</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>73</Id>
-      <Status>Done</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>37</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4116</PointerOffset>
-      <JapaneseText>&lt;voice:0b000041&gt;……う、ううん。
+      <VoiceId>0b000041</VoiceId>
+      <JapaneseText>……う、ううん。
 違うの、&lt;Veigue&gt;……
 </JapaneseText>
-      <EnglishText>&lt;voice:0B000041&gt;N-No...
-I'm fine, &lt;Veigue&gt;</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>74</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4135</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText>&lt;Claire&gt;</EnglishText>
-      <Notes/>
-      <Id>75</Id>
-      <Status>Done</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>38</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4138</PointerOffset>
-      <JapaneseText>&lt;voice:0b000042&gt;……ここは少し寒いわ……
+      <VoiceId>0b000042</VoiceId>
+      <JapaneseText>……ここは少し寒いわ……
 太陽にあたりたいな……</JapaneseText>
-      <EnglishText>&lt;voice:0B000042&gt;It's just a little cold in here...
-I think I'd like to feel the sun...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>76</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4216</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>77</Id>
-      <Status>Done</Status>
+      <SpeakerId>4</SpeakerId>
+      <Id>39</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4219</PointerOffset>
-      <JapaneseText>&lt;voice:0b000043&gt;クレア!!</JapaneseText>
-      <EnglishText>&lt;voice:0B000043&gt;Claire!</EnglishText>
+      <VoiceId>0b000043</VoiceId>
+      <JapaneseText>クレア!!</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>78</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5712</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>79</Id>
-      <Status>Editing</Status>
+      <SpeakerId>0</SpeakerId>
+      <Id>40</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5715</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>80</Id>
-      <Status>Editing</Status>
+      <SpeakerId>5</SpeakerId>
+      <Id>41</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7383</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>81</Id>
-      <Status>Editing</Status>
+      <SpeakerId>6</SpeakerId>
+      <Id>42</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7461</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>82</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7557</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>83</Id>
-      <Status>Editing</Status>
+      <SpeakerId>6</SpeakerId>
+      <Id>43</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

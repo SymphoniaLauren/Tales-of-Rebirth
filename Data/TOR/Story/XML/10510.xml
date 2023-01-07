@@ -1,31 +1,95 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
-  </Speakers>
-  <Strings>
-    <Section>Story</Section>
+    <Section>Speakers</Section>
     <Entry>
-      <PointerOffset>703</PointerOffset>
-      <JapaneseText>製鉄工場・密林化</JapaneseText>
-      <EnglishText>Steelworks Factory - Dense forest</EnglishText>
+      <PointerOffset></PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
       <Notes/>
-      <Id>1</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>706</PointerOffset>
-      <JapaneseText>製鉄工場・密林化</JapaneseText>
-      <EnglishText>Steelworks Factory - Dense forest</EnglishText>
-      <Notes/>
-      <Id>2</Id>
-      <Status>Editing</Status>
+      <Id>-1</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2375</PointerOffset>
       <JapaneseText>&lt;Unk19:d0ff1fc80ce00c&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2416,3667,3844,4673,5828,6905</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2623,4402,5125,5332,5522,5734</PointerOffset>
+      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2899,3244,3747,3812,3966,4031,4467,4711,4898,5980</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3715,3876,3934,5884,5918</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3780,3999,6938</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6047,8622</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>10467</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Speakers>
+  <Strings>
+    <Section>Story</Section>
+    <Entry>
+      <PointerOffset>703</PointerOffset>
+      <JapaneseText>製鉄工場・密林化</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>706</PointerOffset>
+      <JapaneseText>製鉄工場・密林化</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -35,16 +99,9 @@
 他の方法を考えないと！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2416</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>5</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2419</PointerOffset>
@@ -52,7 +109,8 @@
 氷が溶けたら元に戻っちゃった。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -60,7 +118,8 @@
       <JapaneseText>&lt;Mao&gt;のフォルスではだめか……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>7</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -69,7 +128,8 @@
 他の方法を考えなきゃ……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -77,7 +137,8 @@
       <JapaneseText>やっかいな花だな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>9</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -86,7 +147,8 @@
 先に進めないみたいですね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>10</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -95,7 +157,8 @@
 いけないんだよな……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>11</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -103,7 +166,8 @@
       <JapaneseText>めんどくさい花ね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>12</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -111,72 +175,36 @@
       <JapaneseText>この花をどうにかしなければ……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>13</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>11</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2623</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
-      <Notes/>
-      <Id>14</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2899</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>15</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2902</PointerOffset>
       <JapaneseText>今だ!!　一気に行くぞ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>16</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>12</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3244</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>17</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3247</PointerOffset>
       <JapaneseText>今だ!!　一気に行くぞ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>18</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>13</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3667</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>19</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3670</PointerOffset>
       <JapaneseText>あの花、元に戻っちゃってる！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>20</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>14</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3715</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>21</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3718</PointerOffset>
@@ -185,32 +213,18 @@
 フォルスでなんとかできないのか……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>22</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>15</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3747</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>23</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3750</PointerOffset>
       <JapaneseText>&lt;Mao&gt;の&lt;Yellow&gt;炎&lt;White&gt;は通用しなかった……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>24</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>16</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3780</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText>&lt;Annie&gt;</EnglishText>
-      <Notes/>
-      <Id>25</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3783</PointerOffset>
@@ -219,32 +233,18 @@
 火力があれば、燃えるかも……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>26</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>17</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3812</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>27</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3815</PointerOffset>
       <JapaneseText>そんなものがどこに……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>28</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>18</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3844</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>29</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3847</PointerOffset>
@@ -253,32 +253,18 @@
 それを使えば？</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>30</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>19</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3876</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>31</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3879</PointerOffset>
       <JapaneseText>いい考えだ。探そう。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>32</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>20</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3934</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>33</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3937</PointerOffset>
@@ -288,32 +274,18 @@
 できればいいのだが……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>34</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>21</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3966</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>35</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3969</PointerOffset>
       <JapaneseText>&lt;Mao&gt;の&lt;Yellow&gt;炎&lt;White&gt;は通用しなかった……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>36</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>22</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3999</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText>&lt;Annie&gt;</EnglishText>
-      <Notes/>
-      <Id>37</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4002</PointerOffset>
@@ -321,24 +293,18 @@
 &lt;Yellow&gt;すごい火力&lt;White&gt;があれば……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>38</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>23</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4031</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>39</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4034</PointerOffset>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText>...</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>40</Id>
-      <Status>Editing</Status>
+      <SpeakerId>3</SpeakerId>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4307</PointerOffset>
@@ -346,7 +312,8 @@
 強い火力にはなりそうもないな……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>41</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -356,7 +323,8 @@
 強い火にはならないよ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>42</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -366,7 +334,8 @@
 有効ではないな……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>43</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -376,7 +345,8 @@
 強い火力は期待できませんね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>44</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -385,79 +355,44 @@
 あまり有効ではないな……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>45</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>29</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4402</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
-      <Notes/>
-      <Id>46</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4467</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>47</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4470</PointerOffset>
       <JapaneseText>しばらくおとなしくしていろ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>48</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>30</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4673</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>49</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4676</PointerOffset>
       <JapaneseText>ダメだ……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>50</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>31</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4711</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>51</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4714</PointerOffset>
       <JapaneseText>炎がだめなら、こうするまでだ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>52</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>32</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4898</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>53</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4901</PointerOffset>
       <JapaneseText>しばらくおとなしくしていろ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>54</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -465,7 +400,8 @@
       <JapaneseText>花は凍っている……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>55</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -473,7 +409,8 @@
       <JapaneseText>花は凍ってるよ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>56</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -481,7 +418,8 @@
       <JapaneseText>花は凍っているな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>57</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -489,7 +427,8 @@
       <JapaneseText>花は凍っていますね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>58</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -497,7 +436,8 @@
       <JapaneseText>花は凍ってるぜ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>59</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -505,7 +445,8 @@
       <JapaneseText>花は凍ってるわね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>60</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -513,16 +454,9 @@
       <JapaneseText>花が凍っている。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>61</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>40</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5125</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
-      <Notes/>
-      <Id>62</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5193</PointerOffset>
@@ -530,7 +464,8 @@
 弱っている間ならもしかして……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>63</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -539,7 +474,8 @@
 弱っている間ならたぶん……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>64</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -548,7 +484,8 @@
 弱っている間ならもしや……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>65</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -557,7 +494,8 @@
 弱っている間ならきっと……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>66</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>44</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -566,7 +504,8 @@
 弱っている間ならたぶん……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>67</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>45</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -575,7 +514,8 @@
 弱っている間ならもしかして……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>68</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -584,23 +524,17 @@
 弱っている間ならもしかして……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>69</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>47</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5332</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
-      <Notes/>
-      <Id>70</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5383</PointerOffset>
       <JapaneseText>やっとおとなしくなったか。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>71</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -609,7 +543,8 @@
 しおれたみたいだね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>72</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>49</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -618,7 +553,8 @@
 耐えられなかったようだな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>73</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>50</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -627,7 +563,8 @@
 しおれたみたいですね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>74</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>51</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -636,7 +573,8 @@
 ちょっとかわいそうだな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>75</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>52</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -645,7 +583,8 @@
 耐えられなかったみたいね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>76</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>53</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -654,88 +593,72 @@
 しおれたようだ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>77</Id>
+      <SpeakerId>2</SpeakerId>
+      <Id>54</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5522</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
-      <Notes/>
-      <Id>78</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5595</PointerOffset>
       <JapaneseText>柵が閉まっている……</JapaneseText>
-      <EnglishText>The fence is shut closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>79</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>55</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5616</PointerOffset>
       <JapaneseText>柵が閉まってるよ。</JapaneseText>
-      <EnglishText>The fence is shut closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>80</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>56</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5637</PointerOffset>
       <JapaneseText>鉄柵が閉まっているな。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>81</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>57</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5659</PointerOffset>
       <JapaneseText>鉄の柵が閉まってますね。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>82</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>58</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5681</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているな。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>83</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>59</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5703</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているわ。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>84</Id>
-      <Status>Editing</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>60</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5714</PointerOffset>
       <JapaneseText>鉄の柵が閉まっている。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>85</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5734</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
-      <Notes/>
-      <Id>86</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5828</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>87</Id>
-      <Status>Done</Status>
+      <SpeakerId>2</SpeakerId>
+      <Id>61</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5831</PointerOffset>
@@ -743,48 +666,27 @@
 元に戻っちゃったよ!!</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>88</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>62</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5884</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>89</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5887</PointerOffset>
       <JapaneseText>あの巨大な花が叫ぶのと……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>90</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>63</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5918</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;</EnglishText>
-      <Notes/>
-      <Id>91</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5921</PointerOffset>
       <JapaneseText>この花が復活したのは同時だった。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>92</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>64</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5980</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;</EnglishText>
-      <Notes/>
-      <Id>93</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5983</PointerOffset>
@@ -792,16 +694,9 @@
 大元を叩くしかないようだな。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>94</Id>
+      <SpeakerId>3</SpeakerId>
+      <Id>65</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6047</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>95</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6050</PointerOffset>
@@ -811,7 +706,8 @@
 　いいえ　</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>96</Id>
+      <SpeakerId>6</SpeakerId>
+      <Id>66</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -819,16 +715,8 @@
       <JapaneseText>&lt;Unk17:d0ff1fc80de00c&gt;,&lt;Unk17:d0ff1fc80ee00c&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>97</Id>
+      <Id>67</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6905</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText>&lt;Mao&gt;</EnglishText>
-      <Notes/>
-      <Id>98</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6908</PointerOffset>
@@ -836,16 +724,9 @@
 すごい生命力！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>99</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>68</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6938</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText>&lt;Annie&gt;</EnglishText>
-      <Notes/>
-      <Id>100</Id>
-      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6941</PointerOffset>
@@ -854,52 +735,38 @@
 完全に停止していたわ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>101</Id>
+      <SpeakerId>5</SpeakerId>
+      <Id>69</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8622</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText>Select</EnglishText>
-      <Notes/>
-      <Id>102</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8625</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
-Yes
-No</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>103</Id>
-      <Status>Editing</Status>
+      <SpeakerId>6</SpeakerId>
+      <Id>70</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>10293</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>104</Id>
-      <Status>Editing</Status>
+      <SpeakerId>7</SpeakerId>
+      <Id>71</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>10371</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <EnglishText/>
       <Notes/>
-      <Id>105</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10467</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText>Notice</EnglishText>
-      <Notes/>
-      <Id>106</Id>
-      <Status>Editing</Status>
+      <SpeakerId>7</SpeakerId>
+      <Id>72</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>
