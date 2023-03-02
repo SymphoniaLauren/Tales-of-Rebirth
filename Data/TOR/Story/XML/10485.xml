@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,35 +9,11 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>903,997,1032,1068,1104,1140,1176,1212,1248,1284,1320,1356,1392,1428,1508,1544,1579,2421</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1450,1472,2207,2343</PointerOffset>
+      <PointerOffset>2207,2343,1450,1472</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1622,4025</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1743,2493,5870</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
+      <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,232 +21,89 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2421,903,997,1032,1068,1104,1140,1176,1212,1248,1284,1320,1356,1392,1428,1508,1544,1579</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2493,1743</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1622,4025</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
-      <PointerOffset>906</PointerOffset>
-      <JapaneseText>このあたりはサニイタウン地方だな。
-確かサニイタウンの街は
-島の上に作られていたはず……
-だが……</JapaneseText>
+      <PointerOffset>2210</PointerOffset>
+      <VoiceId>35000050</VoiceId>
+      <JapaneseText>……なんかこの地図……変じゃない？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1000</PointerOffset>
-      <JapaneseText>スールズか……
-村のみんなは
-どうしているだろうな……</JapaneseText>
+      <PointerOffset>2273</PointerOffset>
+      <VoiceId>35000051</VoiceId>
+      <JapaneseText>変？　何が変だって言うんだ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1035</PointerOffset>
-      <JapaneseText>このあたりはミナール地方……
-&lt;Annie&gt;に初めて会ったのも
-このあたりだったな……</JapaneseText>
+      <PointerOffset>2346</PointerOffset>
+      <VoiceId>35000052</VoiceId>
+      <JapaneseText>……わからないけど、
+なんだか違和感があるのよ……
+あんたはどう思う？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1071</PointerOffset>
-      <JapaneseText>ペトナジャンカ……
-&lt;Tytree&gt;の生まれ故郷か。
-特に変わったところはないが……</JapaneseText>
+      <PointerOffset>2424</PointerOffset>
+      <VoiceId>35000053</VoiceId>
+      <JapaneseText>……違和感……この地図に……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1107</PointerOffset>
-      <JapaneseText>この一帯は砂漠だったな。
-アニカマルやオアシスも
-このあたりだった。</JapaneseText>
+      <PointerOffset>2496</PointerOffset>
+      <JapaneseText>気になる場所にポインタを移動して
+&lt;icon:30&gt;ボタンを押して下さい。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1143</PointerOffset>
-      <JapaneseText>バビログラード……
-昔は蒼獣信仰が今よりも
-盛んだったというが……
-地図では何も変わりはないようだな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1179</PointerOffset>
-      <JapaneseText>バルカ地方だ。
-この古い地図の時代から、
-ここには都が置かれていたようだな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1215</PointerOffset>
-      <JapaneseText>ラジルダだな。
-今とはほとんど
-何も変わりはないが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1251</PointerOffset>
-      <JapaneseText>ここに巨大な地上絵が
-あったな。
-ピピスタもこのあたり……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1287</PointerOffset>
-      <JapaneseText>キョグエン地方……
-このあたりに地図に違和感を
-感じる原因があるとは思えないが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1323</PointerOffset>
-      <JapaneseText>ノルゼンか。スールズと同じ
-北辺の街なのに、何故あんなに
-たくさん雪が降るのか……
-確かにそれは不思議だが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1359</PointerOffset>
-      <JapaneseText>この辺にはモクラド村があったな。
-この地図の描かれた時代にも
-村があったかどうかは
-これを見る限りではわからない。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1395</PointerOffset>
-      <JapaneseText>今いる場所、ベルサス地方だ。
-スールズとは高い山をひとつ隔てていて
-あまりなじみのない街だが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1431</PointerOffset>
-      <JapaneseText>古代カレギア文字だな……
-なんと書いてあるんだろう……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1453</PointerOffset>
-      <JapaneseText>「カレギア王国全図」
-あとは……「希望……ともに分かち
-偉大な栄光の下に……」</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1475</PointerOffset>
-      <JapaneseText>文字がかすれていて
-全文は読み取れないわね……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1511</PointerOffset>
-      <JapaneseText>太陽か……
-航海では目印として
-重要なんだろうな……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1547</PointerOffset>
-      <JapaneseText>月だな。
-月の昇る方角を
-示しているのだろうか。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1582</PointerOffset>
-      <JapaneseText>このあたりには、
-特別、今の地図と
-変わったところはないが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1625</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;古代の地図を抜けますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -283,90 +115,245 @@
 &lt;icon:32&gt;&lt;Green&gt;：操作説明
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>906</PointerOffset>
+      <JapaneseText>このあたりはサニイタウン地方だな。
+確かサニイタウンの街は
+島の上に作られていたはず……
+だが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1000</PointerOffset>
+      <JapaneseText>スールズか……
+村のみんなは
+どうしているだろうな……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1035</PointerOffset>
+      <JapaneseText>このあたりはミナール地方……
+&lt;Annie&gt;に初めて会ったのも
+このあたりだったな……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1071</PointerOffset>
+      <JapaneseText>ペトナジャンカ……
+&lt;Tytree&gt;の生まれ故郷か。
+特に変わったところはないが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1107</PointerOffset>
+      <JapaneseText>この一帯は砂漠だったな。
+アニカマルやオアシスも
+このあたりだった。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1143</PointerOffset>
+      <JapaneseText>バビログラード……
+昔は蒼獣信仰が今よりも
+盛んだったというが……
+地図では何も変わりはないようだな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1179</PointerOffset>
+      <JapaneseText>バルカ地方だ。
+この古い地図の時代から、
+ここには都が置かれていたようだな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1215</PointerOffset>
+      <JapaneseText>ラジルダだな。
+今とはほとんど
+何も変わりはないが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1251</PointerOffset>
+      <JapaneseText>ここに巨大な地上絵が
+あったな。
+ピピスタもこのあたり……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1287</PointerOffset>
+      <JapaneseText>キョグエン地方……
+このあたりに地図に違和感を
+感じる原因があるとは思えないが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1323</PointerOffset>
+      <JapaneseText>ノルゼンか。スールズと同じ
+北辺の街なのに、何故あんなに
+たくさん雪が降るのか……
+確かにそれは不思議だが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1359</PointerOffset>
+      <JapaneseText>この辺にはモクラド村があったな。
+この地図の描かれた時代にも
+村があったかどうかは
+これを見る限りではわからない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1395</PointerOffset>
+      <JapaneseText>今いる場所、ベルサス地方だ。
+スールズとは高い山をひとつ隔てていて
+あまりなじみのない街だが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1431</PointerOffset>
+      <JapaneseText>古代カレギア文字だな……
+なんと書いてあるんだろう……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1453</PointerOffset>
+      <JapaneseText>「カレギア王国全図」
+あとは……「希望……ともに分かち
+偉大な栄光の下に……」</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2210</PointerOffset>
-      <VoiceId>35000050</VoiceId>
-      <JapaneseText>……なんかこの地図……変じゃない？</JapaneseText>
+      <PointerOffset>1475</PointerOffset>
+      <JapaneseText>文字がかすれていて
+全文は読み取れないわね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2273</PointerOffset>
-      <VoiceId>35000051</VoiceId>
-      <JapaneseText>変？　何が変だって言うんだ？</JapaneseText>
+      <PointerOffset>1511</PointerOffset>
+      <JapaneseText>太陽か……
+航海では目印として
+重要なんだろうな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2346</PointerOffset>
-      <VoiceId>35000052</VoiceId>
-      <JapaneseText>……わからないけど、
-なんだか違和感があるのよ……
-あんたはどう思う？</JapaneseText>
+      <PointerOffset>1547</PointerOffset>
+      <JapaneseText>月だな。
+月の昇る方角を
+示しているのだろうか。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2424</PointerOffset>
-      <VoiceId>35000053</VoiceId>
-      <JapaneseText>……違和感……この地図に……？</JapaneseText>
+      <PointerOffset>1582</PointerOffset>
+      <JapaneseText>このあたりには、
+特別、今の地図と
+変わったところはないが……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2496</PointerOffset>
-      <JapaneseText>気になる場所にポインタを移動して
-&lt;icon:30&gt;ボタンを押して下さい。</JapaneseText>
+      <PointerOffset>1625</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;古代の地図を抜けますか？
+　はい　
+　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>4028</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
       <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5696</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5774</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

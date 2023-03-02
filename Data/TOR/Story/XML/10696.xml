@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,19 +9,11 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>332,355</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464,1464</PointerOffset>
+      <PointerOffset>1464,1464</PointerOffset>
       <JapaneseText>？？？？</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>1</Id>
+      <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -30,7 +21,7 @@
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -38,7 +29,7 @@
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>3</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,7 +37,7 @@
       <JapaneseText>フェニア</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -54,7 +45,7 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -62,7 +53,7 @@
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -70,15 +61,15 @@
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>7</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5532,5662,11645</PointerOffset>
+      <PointerOffset>5532,5571,5596,5621,5662</PointerOffset>
       <JapaneseText>notice</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -86,20 +77,865 @@
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>332,355</PointerOffset>
+      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
+    <Entry>
+      <PointerOffset>1134</PointerOffset>
+      <JapaneseText>焔の塔・九階</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1145</PointerOffset>
+      <JapaneseText>フェニアの聖殿・九階</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1134</PointerOffset>
+      <JapaneseText>焔の塔・九階</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1145</PointerOffset>
+      <JapaneseText>フェニアの聖殿・九階</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>1672</PointerOffset>
+      <VoiceId>2a000053</VoiceId>
+      <JapaneseText>よくここまでたどり着きましたね。
+さあ、最後の扉を開くのです。
+あなたの炎で……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1702</PointerOffset>
+      <VoiceId>2a000054</VoiceId>
+      <JapaneseText>……みんな下がってて。
+いっくヨー!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2183</PointerOffset>
+      <VoiceId>2a000055</VoiceId>
+      <JapaneseText>ようこそ……
+いえ、おかえりなさい……
+私は火の聖獣フェニア。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2234</PointerOffset>
+      <VoiceId>2a000056</VoiceId>
+      <JapaneseText>おかえりなさい？
+どういう事だ……？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2424</PointerOffset>
+      <VoiceId>2a000057</VoiceId>
+      <JapaneseText>お久しぶりですね、
+オルセルグ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2461</PointerOffset>
+      <VoiceId>2a000058</VoiceId>
+      <JapaneseText>……オルセルグ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2483</PointerOffset>
+      <VoiceId>2a000059</VoiceId>
+      <JapaneseText>あなたの本当の名前です。
+古代カレギア語で
+「けがれなき瞳」という意味です。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2529</PointerOffset>
+      <VoiceId>2a00005a</VoiceId>
+      <JapaneseText>けがれなき瞳……オルセルグ……
+なんだかピンと来ないんですけど……
+&lt;Cyan&gt;&lt;Mao&gt;&lt;White&gt;って呼んでもらっても……
+……いいかな？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2551</PointerOffset>
+      <VoiceId>2a00005b</VoiceId>
+      <JapaneseText>……&lt;Mao&gt;……
+今、私はあなただけに
+話しかけています。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2580</PointerOffset>
+      <VoiceId>2a00005c</VoiceId>
+      <JapaneseText>……ボクだけに？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2602</PointerOffset>
+      <VoiceId>2a00005d</VoiceId>
+      <JapaneseText>思い出しましたか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2630</PointerOffset>
+      <VoiceId>2a00005e</VoiceId>
+      <JapaneseText>う、うん……
+思い出したっていうか、
+ボクには、もともと
+記憶がなかったんだね……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2652</PointerOffset>
+      <VoiceId>2a00005f</VoiceId>
+      <JapaneseText>そう……あなたは私たち聖獣が
+&lt;Yellow&gt;ヒト&lt;White&gt;の世界を見るために
+力を合わせて生み出した存在。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2681</PointerOffset>
+      <VoiceId>2a000060</VoiceId>
+      <JapaneseText>ボクって、&lt;Yellow&gt;ヒト&lt;White&gt;でもなければ、
+聖獣でもないんだよね……
+ボクって一体、何なの？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2703</PointerOffset>
+      <VoiceId>2a000061</VoiceId>
+      <JapaneseText>だから、
+私はあなたに尋ねたのです。
+あなたは誰ですか……と。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2732</PointerOffset>
+      <VoiceId>2a000062</VoiceId>
+      <JapaneseText>ボクがボクの存在について
+決めろってコト？
+……そんなのできないよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2754</PointerOffset>
+      <VoiceId>2a000063</VoiceId>
+      <JapaneseText>なぜできないのですか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2783</PointerOffset>
+      <VoiceId>2a000064</VoiceId>
+      <JapaneseText>当たり前でしょ？
+今までボクは&lt;Yellow&gt;ヒト&lt;White&gt;だと
+思ってたんだヨ!?</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2817</PointerOffset>
+      <VoiceId>2a000065</VoiceId>
+      <JapaneseText>いきなり、&lt;Yellow&gt;違う存在&lt;White&gt;だなんて
+思えないよ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2839</PointerOffset>
+      <VoiceId>2a000066</VoiceId>
+      <JapaneseText>どうして、
+そう思えないのですか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2868</PointerOffset>
+      <VoiceId>2a000067</VoiceId>
+      <JapaneseText>うーん……どうしてって言われても、
+当たり前すぎて、そんなの
+考えたコトもなかったし……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2889</PointerOffset>
+      <VoiceId>2a000068</VoiceId>
+      <JapaneseText>うまく言えないけど……
+正体がわかっても、
+ボクはボクのコトを
+ボクだって思うし……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2923</PointerOffset>
+      <VoiceId>2a000069</VoiceId>
+      <JapaneseText>ん……もしかして、
+その辺に答があるのかな？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2951</PointerOffset>
+      <VoiceId>2a00006a</VoiceId>
+      <JapaneseText>&lt;Mao&gt;……
+あなたは賢い子ですね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2980</PointerOffset>
+      <VoiceId>2a00006b</VoiceId>
+      <JapaneseText>あのさ……さっきの質問だけど、
+今すぐ答を決めないとダメ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3002</PointerOffset>
+      <VoiceId>2a00006c</VoiceId>
+      <JapaneseText>……いいえ。
+答は決めるものではありません。
+自ずと導き出されるもの。
+私はいつまでも待ちます。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3029</PointerOffset>
+      <VoiceId>2a00006d</VoiceId>
+      <JapaneseText>でも、そうすると
+聖獣の力を貸してくれない、
+なんてコトにはならない？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3051</PointerOffset>
+      <VoiceId>2a00006e</VoiceId>
+      <JapaneseText>あなたが必要とするなら、
+私は喜んで力を貸しましょう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3073</PointerOffset>
+      <VoiceId>2a00006f</VoiceId>
+      <JapaneseText>ただし、
+心に迷いを抱いたまま力を使えば、
+&lt;Red&gt;火の力&lt;White&gt;があなたを焼き尽くすでしょう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3095</PointerOffset>
+      <VoiceId>2a000070</VoiceId>
+      <JapaneseText>それでも、
+私の力を求めますか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3123</PointerOffset>
+      <VoiceId>2a000071</VoiceId>
+      <JapaneseText>うん。
+ボクにはやるべきコトがあるし、
+みんなと一緒に&lt;Blue&gt;思念&lt;White&gt;を消そうって
+約束したから……だから……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3152</PointerOffset>
+      <VoiceId>2a000072</VoiceId>
+      <JapaneseText>ボクは……
+聖獣フェニアの力を求める!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3174</PointerOffset>
+      <VoiceId>2a000073</VoiceId>
+      <JapaneseText>……では、フォルスを。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3292</PointerOffset>
+      <VoiceId>2a000074</VoiceId>
+      <JapaneseText>さあ、受け取りなさい。
+&lt;Red&gt;火の力&lt;White&gt;を。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3335</PointerOffset>
+      <VoiceId>2a000075</VoiceId>
+      <JapaneseText>ナニコレ……すごいよ、この力……
+気を抜いたら、すぐにボクが
+燃えちゃいそうだヨ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3363</PointerOffset>
+      <VoiceId>2a000076</VoiceId>
+      <JapaneseText>これに負けない心の力が必要なんだね……
+&lt;Blue&gt;思念&lt;White&gt;を浄化するっていうのは、
+それだけ大変なコトなんだネ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3552</PointerOffset>
+      <VoiceId>2a000077</VoiceId>
+      <JapaneseText>&lt;Mao&gt;、パワーアップ!!
+……の巻!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3756</PointerOffset>
+      <VoiceId>2a000078</VoiceId>
+      <JapaneseText>聖獣フェニアからもらったヨ！
+熱い力をネ!!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3796</PointerOffset>
+      <VoiceId>2a000079</VoiceId>
+      <JapaneseText>なあ……今、一体、
+何を話してたんだ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3832</PointerOffset>
+      <VoiceId>2a00007a</VoiceId>
+      <JapaneseText>それはえっと……
+イロイロ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3935</PointerOffset>
+      <VoiceId>2a00007b</VoiceId>
+      <JapaneseText>もしかして、
+記憶を取り戻したのか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3964</PointerOffset>
+      <VoiceId>2a00007c</VoiceId>
+      <JapaneseText>う、うん……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3995</PointerOffset>
+      <VoiceId>2a00007d</VoiceId>
+      <JapaneseText>えっ!?
+じゃあ、ホントの名前とか
+家族とか、わかったのかよ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4031</PointerOffset>
+      <VoiceId>2a00007e</VoiceId>
+      <JapaneseText>うん……でも、今は何も言えない。
+しばらくは&lt;Mao&gt;のままでいるコトに
+するヨ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4062</PointerOffset>
+      <VoiceId>2a00007f</VoiceId>
+      <JapaneseText>どういうこったい？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4091</PointerOffset>
+      <VoiceId>2a000080</VoiceId>
+      <JapaneseText>……そういうこったい!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4178</PointerOffset>
+      <VoiceId>2a000081</VoiceId>
+      <JapaneseText>聖獣フェニア、
+私にも力を与えて！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4356</PointerOffset>
+      <VoiceId>2a000082</VoiceId>
+      <JapaneseText>私の力を、あなたに
+与える事はできません。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4405</PointerOffset>
+      <VoiceId>2a000083</VoiceId>
+      <JapaneseText>なぜ？　なぜ私じゃダメなの!?
+私には力が必要なのに……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4615</PointerOffset>
+      <VoiceId>2a000084</VoiceId>
+      <JapaneseText>次の聖獣への道を
+示しましょう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>54</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4813</PointerOffset>
+      <VoiceId>2a000085</VoiceId>
+      <JapaneseText>&lt;Cyan&gt;「雲海にそびえし古の塔をめざせ」&lt;White&gt;</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>55</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4834</PointerOffset>
+      <VoiceId>2a000086</VoiceId>
+      <JapaneseText>&lt;Cyan&gt;雲海にそびえし古の塔&lt;White&gt;……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4856</PointerOffset>
+      <VoiceId>2a000087</VoiceId>
+      <JapaneseText>目を逸らさずに、
+現実と真実を見つめる事です。
+そこにあなたたちの進むべき道が
+見つかるはずです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4878</PointerOffset>
+      <VoiceId>2a000088</VoiceId>
+      <JapaneseText>皆さん……どうか、
+この子を導いてください。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4927</PointerOffset>
+      <VoiceId>2a000089</VoiceId>
+      <JapaneseText>まるで、
+親みたいな言い方だな？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4971</PointerOffset>
+      <VoiceId>2a00008a</VoiceId>
+      <JapaneseText>そうだよ。
+だって、フェニアは
+ボクのお母さんなんだもん!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>60</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5082</PointerOffset>
+      <VoiceId>2a00008b</VoiceId>
+      <JapaneseText>ええーッ!?</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>61</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5133</PointerOffset>
+      <VoiceId>2a00008c</VoiceId>
+      <JapaneseText>……なんてネ!!
+さあ、出発だ!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5391</PointerOffset>
+      <VoiceId>2a00008d</VoiceId>
+      <JapaneseText>オルセルグ……いいえ、&lt;Mao&gt;。
+私はいつでもあなたを見守っています。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5427</PointerOffset>
+      <VoiceId>2a00008e</VoiceId>
+      <JapaneseText>……うん、行ってきます……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>64</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5535</PointerOffset>
+      <JapaneseText>&lt;Green&gt;&lt;Mao&gt;は
+奥義『ブレイジングハーツ』が
+習得可能になりました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>65</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>66</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>67</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>68</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5665</PointerOffset>
+      <JapaneseText>&lt;Green&gt;&lt;Red&gt;称号喪失&lt;Green&gt;があったため、&lt;Mao&gt;の称号が
+&lt;Cyan&gt;「&lt;item:10000017&gt;」&lt;Green&gt;にセットされました。
+称号の再変更はステータス画面で行って下さい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>69</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>9803</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>70</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
       <PointerOffset>137</PointerOffset>
       <JapaneseText>……前に来た時には、
 こんなものはなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>1</Id>
+      <Id>71</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>166</PointerOffset>
+      <JapaneseText>ラッキー!!　前に来た時には
+何もなかったのに！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>72</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>195</PointerOffset>
+      <JapaneseText>うむ……以前、ここには
+何もなかったと思うが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>73</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>225</PointerOffset>
+      <JapaneseText>まさか、こんなところに……
+とても意外な感じね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>74</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>255</PointerOffset>
+      <JapaneseText>おう、こんなとこに発見が！
+おどろき桃の木だぜ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>75</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>285</PointerOffset>
+      <JapaneseText>こんなところに……
+そう、こんな事もあるのね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>76</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>304</PointerOffset>
+      <JapaneseText>初めてのアイテム会話</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>77</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -108,19 +944,9 @@
 何か見つかる場合が
 あるという事か……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>166</PointerOffset>
-      <JapaneseText>ラッキー!!　前に来た時には
-何もなかったのに！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
+      <Id>78</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -129,19 +955,9 @@
 調べに行ったら、
 新しい発見があるかもネ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>195</PointerOffset>
-      <JapaneseText>うむ……以前、ここには
-何もなかったと思うが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
+      <Id>79</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -149,19 +965,9 @@
       <JapaneseText>一度行った場所でも、
 新しい発見があるかもしれんな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>225</PointerOffset>
-      <JapaneseText>まさか、こんなところに……
-とても意外な感じね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
+      <Id>80</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -169,19 +975,9 @@
       <JapaneseText>一度行った場所でも、こうやって
 調べたら何かみつかるかも……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>255</PointerOffset>
-      <JapaneseText>おう、こんなとこに発見が！
-おどろき桃の木だぜ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
+      <Id>81</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -190,19 +986,9 @@
 もういっぺん行ってみたら、
 何か見つかるかもしれないな！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>285</PointerOffset>
-      <JapaneseText>こんなところに……
-そう、こんな事もあるのね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>11</Id>
+      <Id>82</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -212,907 +998,18 @@
 かもしれないって事ね……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>304</PointerOffset>
-      <JapaneseText>初めてのアイテム会話</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>13</Id>
+      <Id>83</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>312</PointerOffset>
       <JapaneseText>初めてのアイテム会話</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1672</PointerOffset>
-      <VoiceId>2a000053</VoiceId>
-      <JapaneseText>よくここまでたどり着きましたね。
-さあ、最後の扉を開くのです。
-あなたの炎で……</JapaneseText>
-      <EnglishText>I see that you have arrived at
-last. Now it is time to unlock the
-final gate. Use your fire...</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1702</PointerOffset>
-      <VoiceId>2a000054</VoiceId>
-      <JapaneseText>……みんな下がってて。
-いっくヨー!!</JapaneseText>
-      <EnglishText>Step back, guys. Here I go!!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>16</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2183</PointerOffset>
-      <VoiceId>2a000055</VoiceId>
-      <JapaneseText>ようこそ……
-いえ、おかえりなさい……
-私は火の聖獣フェニア。</JapaneseText>
-      <EnglishText>Welcome... Or rather, welcome
-back. I am the Sacred Beast Fenia.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>17</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2234</PointerOffset>
-      <VoiceId>2a000056</VoiceId>
-      <JapaneseText>おかえりなさい？
-どういう事だ……？</JapaneseText>
-      <EnglishText>"Welcome back?" What do you
-mean?</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>18</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2424</PointerOffset>
-      <VoiceId>2a000057</VoiceId>
-      <JapaneseText>お久しぶりですね、
-オルセルグ……</JapaneseText>
-      <EnglishText>It has been so long, hasn't it?
-My Olselge...</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>19</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2461</PointerOffset>
-      <VoiceId>2a000058</VoiceId>
-      <JapaneseText>……オルセルグ？</JapaneseText>
-      <EnglishText>...Olselge?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>20</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2483</PointerOffset>
-      <VoiceId>2a000059</VoiceId>
-      <JapaneseText>あなたの本当の名前です。
-古代カレギア語で
-「けがれなき瞳」という意味です。</JapaneseText>
-      <EnglishText>That is your true name. In
-ancient Callegean, it means "Unclouded
-Eyes."</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>21</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2529</PointerOffset>
-      <VoiceId>2a00005a</VoiceId>
-      <JapaneseText>けがれなき瞳……オルセルグ……
-なんだかピンと来ないんですけど……
-&lt;Cyan&gt;&lt;Mao&gt;&lt;White&gt;って呼んでもらっても……
-……いいかな？</JapaneseText>
-      <EnglishText>Unclouded Eyes... Olselge...
-That doesn't exactly ring a bell.
-Would it be okay if you just...
-called me &lt;Cyan&gt;&lt;Mao&gt;&lt;White&gt;?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>22</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2551</PointerOffset>
-      <VoiceId>2a00005b</VoiceId>
-      <JapaneseText>……&lt;Mao&gt;……
-今、私はあなただけに
-話しかけています。</JapaneseText>
-      <EnglishText>...&lt;Mao&gt;... At present, I am
-speaking to you alone.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>23</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2580</PointerOffset>
-      <VoiceId>2a00005c</VoiceId>
-      <JapaneseText>……ボクだけに？</JapaneseText>
-      <EnglishText>Just me?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2602</PointerOffset>
-      <VoiceId>2a00005d</VoiceId>
-      <JapaneseText>思い出しましたか？</JapaneseText>
-      <EnglishText>Do you remember anything?</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2630</PointerOffset>
-      <VoiceId>2a00005e</VoiceId>
-      <JapaneseText>う、うん……
-思い出したっていうか、
-ボクには、もともと
-記憶がなかったんだね……</JapaneseText>
-      <EnglishText>Y-yeah... Or rather, I've
-realized that there's nothing for me to
-remember...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2652</PointerOffset>
-      <VoiceId>2a00005f</VoiceId>
-      <JapaneseText>そう……あなたは私たち聖獣が
-&lt;Yellow&gt;ヒト&lt;White&gt;の世界を見るために
-力を合わせて生み出した存在。</JapaneseText>
-      <EnglishText>Indeed. You are a creation
-brought forth by the combined powers of
-the Sacred Beasts so that we may
-see the world of &lt;Yellow&gt;Man&lt;White&gt;
-through your eyes.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>27</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2681</PointerOffset>
-      <VoiceId>2a000060</VoiceId>
-      <JapaneseText>ボクって、&lt;Yellow&gt;ヒト&lt;White&gt;でもなければ、
-聖獣でもないんだよね……
-ボクって一体、何なの？</JapaneseText>
-      <EnglishText>Wait, so I'm not a Sacred
-Beast, and I'm not
-&lt;Yellow&gt;Human&lt;White&gt; either... Then what in the
-world am I?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2703</PointerOffset>
-      <VoiceId>2a000061</VoiceId>
-      <JapaneseText>だから、
-私はあなたに尋ねたのです。
-あなたは誰ですか……と。</JapaneseText>
-      <EnglishText>That is precisely why I am
-asking "Who are you?"</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2732</PointerOffset>
-      <VoiceId>2a000062</VoiceId>
-      <JapaneseText>ボクがボクの存在について
-決めろってコト？
-……そんなのできないよ。</JapaneseText>
-      <EnglishText>So you mean I'm supposed to
-determine just what I am? I can't do
-that!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2754</PointerOffset>
-      <VoiceId>2a000063</VoiceId>
-      <JapaneseText>なぜできないのですか？</JapaneseText>
-      <EnglishText>Why can you not?</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2783</PointerOffset>
-      <VoiceId>2a000064</VoiceId>
-      <JapaneseText>当たり前でしょ？
-今までボクは&lt;Yellow&gt;ヒト&lt;White&gt;だと
-思ってたんだヨ!?</JapaneseText>
-      <EnglishText>Isn't it obvious? I thought I
-was a plain old
-&lt;Yellow&gt;Human&lt;White&gt; this entire time!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2817</PointerOffset>
-      <VoiceId>2a000065</VoiceId>
-      <JapaneseText>いきなり、&lt;Yellow&gt;違う存在&lt;White&gt;だなんて
-思えないよ……</JapaneseText>
-      <EnglishText>To suddenly have to think of
-myself as &lt;Yellow&gt;something
-else&lt;White&gt; just doesn't seem possible...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2839</PointerOffset>
-      <VoiceId>2a000066</VoiceId>
-      <JapaneseText>どうして、
-そう思えないのですか？</JapaneseText>
-      <EnglishText>Why do you you think it is not
-possible?</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>34</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2868</PointerOffset>
-      <VoiceId>2a000067</VoiceId>
-      <JapaneseText>うーん……どうしてって言われても、
-当たり前すぎて、そんなの
-考えたコトもなかったし……</JapaneseText>
-      <EnglishText>Well, how could I, you know?
-I've never thought of something so
-out there...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2889</PointerOffset>
-      <VoiceId>2a000068</VoiceId>
-      <JapaneseText>うまく言えないけど……
-正体がわかっても、
-ボクはボクのコトを
-ボクだって思うし……</JapaneseText>
-      <EnglishText>It's hard to put this into
-words, but... Even if I do know what I
-really am, I'm always going to just
-think of myself as "me."</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>36</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2923</PointerOffset>
-      <VoiceId>2a000069</VoiceId>
-      <JapaneseText>ん……もしかして、
-その辺に答があるのかな？</JapaneseText>
-      <EnglishText>Hm? ...Am I on the right track,
-you think?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>37</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2951</PointerOffset>
-      <VoiceId>2a00006a</VoiceId>
-      <JapaneseText>&lt;Mao&gt;……
-あなたは賢い子ですね。</JapaneseText>
-      <EnglishText>&lt;Mao&gt;... You are a wise boy.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>38</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2980</PointerOffset>
-      <VoiceId>2a00006b</VoiceId>
-      <JapaneseText>あのさ……さっきの質問だけど、
-今すぐ答を決めないとダメ？</JapaneseText>
-      <EnglishText>Um, hey... About your question,
-do I have to give you an answer
-right now?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>39</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3002</PointerOffset>
-      <VoiceId>2a00006c</VoiceId>
-      <JapaneseText>……いいえ。
-答は決めるものではありません。
-自ずと導き出されるもの。
-私はいつまでも待ちます。</JapaneseText>
-      <EnglishText>...No. The answer is not
-something you decide. It will come to you
-naturally. I will wait as long as it
-takes.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>40</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3029</PointerOffset>
-      <VoiceId>2a00006d</VoiceId>
-      <JapaneseText>でも、そうすると
-聖獣の力を貸してくれない、
-なんてコトにはならない？</JapaneseText>
-      <EnglishText>But does that mean you won't
-lend me your power unless I give you
-an answer, or something?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>41</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3051</PointerOffset>
-      <VoiceId>2a00006e</VoiceId>
-      <JapaneseText>あなたが必要とするなら、
-私は喜んで力を貸しましょう。</JapaneseText>
-      <EnglishText>If you are in need of it, I
-will gladly lend my strength to you.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>42</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3073</PointerOffset>
-      <VoiceId>2a00006f</VoiceId>
-      <JapaneseText>ただし、
-心に迷いを抱いたまま力を使えば、
-&lt;Red&gt;火の力&lt;White&gt;があなたを焼き尽くすでしょう。</JapaneseText>
-      <EnglishText>However, if you wield this
-&lt;Red&gt;Power of Flames&lt;White&gt; with a heart
-full of doubt, you shall be reduced
-to ashes.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>43</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3095</PointerOffset>
-      <VoiceId>2a000070</VoiceId>
-      <JapaneseText>それでも、
-私の力を求めますか？</JapaneseText>
-      <EnglishText>Knowing that, do you still seek
-my power?</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3123</PointerOffset>
-      <VoiceId>2a000071</VoiceId>
-      <JapaneseText>うん。
-ボクにはやるべきコトがあるし、
-みんなと一緒に&lt;Blue&gt;思念&lt;White&gt;を消そうって
-約束したから……だから……</JapaneseText>
-      <EnglishText>Yeah. There's something I gotta
-do. I promised everyone that I'd
-help them erase the
-&lt;Blue&gt;Will&lt;White&gt;, so... Please...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>45</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3152</PointerOffset>
-      <VoiceId>2a000072</VoiceId>
-      <JapaneseText>ボクは……
-聖獣フェニアの力を求める!!</JapaneseText>
-      <EnglishText>Sacred Beast Fenia... Grant me
-your power!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>46</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3174</PointerOffset>
-      <VoiceId>2a000073</VoiceId>
-      <JapaneseText>……では、フォルスを。</JapaneseText>
-      <EnglishText>Very well. Manifest your
-Force...</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>47</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3292</PointerOffset>
-      <VoiceId>2a000074</VoiceId>
-      <JapaneseText>さあ、受け取りなさい。
-&lt;Red&gt;火の力&lt;White&gt;を。</JapaneseText>
-      <EnglishText>Now take the &lt;Red&gt;Power of
-Flames&lt;White&gt; unto yourself.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>48</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3335</PointerOffset>
-      <VoiceId>2a000075</VoiceId>
-      <JapaneseText>ナニコレ……すごいよ、この力……
-気を抜いたら、すぐにボクが
-燃えちゃいそうだヨ……</JapaneseText>
-      <EnglishText>What is this...? It's a
-tremendous power... It's like I'll burst
-into flames if I slip up!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>49</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3363</PointerOffset>
-      <VoiceId>2a000076</VoiceId>
-      <JapaneseText>これに負けない心の力が必要なんだね……
-&lt;Blue&gt;思念&lt;White&gt;を浄化するっていうのは、
-それだけ大変なコトなんだネ。</JapaneseText>
-      <EnglishText>I have to be strong willed in
-order to handle it, don't I? I guess
-that just proved how tough it's
-going to be to purify the
-&lt;Blue&gt;Will&lt;White&gt;.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>50</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3552</PointerOffset>
-      <VoiceId>2a000077</VoiceId>
-      <JapaneseText>&lt;Mao&gt;、パワーアップ!!
-……の巻!!</JapaneseText>
-      <EnglishText>Thus closes another chapter of
-&lt;Mao&gt; powering up!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>51</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3756</PointerOffset>
-      <VoiceId>2a000078</VoiceId>
-      <JapaneseText>聖獣フェニアからもらったヨ！
-熱い力をネ!!!</JapaneseText>
-      <EnglishText>Fenia lent me her flaming hot
-power!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>52</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3796</PointerOffset>
-      <VoiceId>2a000079</VoiceId>
-      <JapaneseText>なあ……今、一体、
-何を話してたんだ？</JapaneseText>
-      <EnglishText>So... What were you guys even
-talking about just now?</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>53</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3832</PointerOffset>
-      <VoiceId>2a00007a</VoiceId>
-      <JapaneseText>それはえっと……
-イロイロ……</JapaneseText>
-      <EnglishText>Well, uh... Stuff.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>54</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3935</PointerOffset>
-      <VoiceId>2a00007b</VoiceId>
-      <JapaneseText>もしかして、
-記憶を取り戻したのか？</JapaneseText>
-      <EnglishText>Does that mean that your memory
-has come back to you?</EnglishText>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>55</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3964</PointerOffset>
-      <VoiceId>2a00007c</VoiceId>
-      <JapaneseText>う、うん……</JapaneseText>
-      <EnglishText>Um, yeah...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>56</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3995</PointerOffset>
-      <VoiceId>2a00007d</VoiceId>
-      <JapaneseText>えっ!?
-じゃあ、ホントの名前とか
-家族とか、わかったのかよ？</JapaneseText>
-      <EnglishText>Eh?! Then you know what your
-real name is and who your family are
-now?</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>57</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4031</PointerOffset>
-      <VoiceId>2a00007e</VoiceId>
-      <JapaneseText>うん……でも、今は何も言えない。
-しばらくは&lt;Mao&gt;のままでいるコトに
-するヨ。</JapaneseText>
-      <EnglishText>Yep... But I can't tell you
-anything just yet. I'm going to keep
-going as "Mao" for a little while
-longer.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>58</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4062</PointerOffset>
-      <VoiceId>2a00007f</VoiceId>
-      <JapaneseText>どういうこったい？</JapaneseText>
-      <EnglishText>What does THAT mean?</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>59</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4091</PointerOffset>
-      <VoiceId>2a000080</VoiceId>
-      <JapaneseText>……そういうこったい!!</JapaneseText>
-      <EnglishText>It means what it means!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>60</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4178</PointerOffset>
-      <VoiceId>2a000081</VoiceId>
-      <JapaneseText>聖獣フェニア、
-私にも力を与えて！</JapaneseText>
-      <EnglishText>Sacred Beast Fenia, grant me
-your power as well!</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>61</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4356</PointerOffset>
-      <VoiceId>2a000082</VoiceId>
-      <JapaneseText>私の力を、あなたに
-与える事はできません。</JapaneseText>
-      <EnglishText>That is something which I am
-unable to do.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>62</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4405</PointerOffset>
-      <VoiceId>2a000083</VoiceId>
-      <JapaneseText>なぜ？　なぜ私じゃダメなの!?
-私には力が必要なのに……</JapaneseText>
-      <EnglishText>Why not? Why am I not worthy!?
-I need your power in order to...</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>63</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4615</PointerOffset>
-      <VoiceId>2a000084</VoiceId>
-      <JapaneseText>次の聖獣への道を
-示しましょう。</JapaneseText>
-      <EnglishText>Allow me to show you the way to
-the next Sacred Beast.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>64</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4813</PointerOffset>
-      <VoiceId>2a000085</VoiceId>
-      <JapaneseText>&lt;Cyan&gt;「雲海にそびえし古の塔をめざせ」&lt;White&gt;</JapaneseText>
-      <EnglishText>“&lt;Cyan&gt;Seek the ancient tower
-which soars above the sea of
-clouds.&lt;White&gt;”</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>65</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4834</PointerOffset>
-      <VoiceId>2a000086</VoiceId>
-      <JapaneseText>&lt;Cyan&gt;雲海にそびえし古の塔&lt;White&gt;……</JapaneseText>
-      <EnglishText>&lt;Cyan&gt;The ancient tower which
-soars above a sea of clouds&lt;White&gt;...</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>66</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4856</PointerOffset>
-      <VoiceId>2a000087</VoiceId>
-      <JapaneseText>目を{9C}{5E}らさずに、
-現実と真実を見つめる事です。
-そこにあなたたちの進むべき道が
-見つかるはずです。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>67</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4878</PointerOffset>
-      <VoiceId>2a000088</VoiceId>
-      <JapaneseText>皆さん……どうか、
-この子を導いてください。</JapaneseText>
-      <EnglishText>Everyone, please bring guidance
-to this child.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>68</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4927</PointerOffset>
-      <VoiceId>2a000089</VoiceId>
-      <JapaneseText>まるで、
-親みたいな言い方だな？</JapaneseText>
-      <EnglishText>You know, that almost sounds
-like something a parent would say.</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>69</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4971</PointerOffset>
-      <VoiceId>2a00008a</VoiceId>
-      <JapaneseText>そうだよ。
-だって、フェニアは
-ボクのお母さんなんだもん!!</JapaneseText>
-      <EnglishText>That's true. I mean, Fenia IS
-my mom!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>70</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5082</PointerOffset>
-      <VoiceId>2a00008b</VoiceId>
-      <JapaneseText>ええーッ!?</JapaneseText>
-      <EnglishText>Ehhhhh?!</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>71</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5133</PointerOffset>
-      <VoiceId>2a00008c</VoiceId>
-      <JapaneseText>……なんてネ!!
-さあ、出発だ!!</JapaneseText>
-      <EnglishText>...Or something like that!
-Okay, let's get going!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>72</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5391</PointerOffset>
-      <VoiceId>2a00008d</VoiceId>
-      <JapaneseText>オルセルグ……いいえ、&lt;Mao&gt;。
-私はいつでもあなたを見守っています。</JapaneseText>
-      <EnglishText>Olselge... no, &lt;Mao&gt;. I will
-always be watching over you.</EnglishText>
-      <Notes/>
-      <SpeakerId>1,4</SpeakerId>
-      <Id>73</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5427</PointerOffset>
-      <VoiceId>2a00008e</VoiceId>
-      <JapaneseText>……うん、行ってきます……</JapaneseText>
-      <EnglishText>Got it. I'll be going now.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>74</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5535</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;Mao&gt;は
-奥義『ブレイジングハーツ』が
-習得可能になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;Mao&gt; can now learn the
-Fusion Force 'Blazing Hearts'.</EnglishText>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>75</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5571</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>76</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5596</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>77</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5621</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>78</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5665</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;Red&gt;称号喪失&lt;Green&gt;があったため、&lt;Mao&gt;の称号が
-&lt;Cyan&gt;「&lt;item:10000017&gt;」&lt;Green&gt;にセットされました。
-称号の再変更はステータス画面で行って下さい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>79</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5798</PointerOffset>
-      <JapaneseText>test</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>80</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9803</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>81</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11471</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>82</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11549</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>83</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14884</PointerOffset>
-      <JapaneseText>small</JapaneseText>
-      <EnglishText/>
       <Notes/>
       <Id>84</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15465</PointerOffset>
-      <JapaneseText>middle</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>85</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16046</PointerOffset>
-      <JapaneseText>large</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>86</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16816</PointerOffset>
-      <JapaneseText>ltom</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>87</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17694</PointerOffset>
-      <JapaneseText>mtos</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>88</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

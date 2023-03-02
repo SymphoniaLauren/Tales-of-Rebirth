@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,19 +9,11 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>398,434,470</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>495,495,495</PointerOffset>
+      <PointerOffset>495,495,495,495,495,495,495,495,495,495,495,495,495,495,495,495</PointerOffset>
       <JapaneseText>行商人</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>1</Id>
+      <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -30,33 +21,33 @@
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4363</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-  </Speakers>
-  <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>160</PointerOffset>
-      <JapaneseText>モクラド村・民家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
+      <PointerOffset>470,434,398</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Speakers>
+  <Strings>
+    <Section>system</Section>
+    <Entry>
       <PointerOffset>163</PointerOffset>
       <JapaneseText>モクラド村</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>160</PointerOffset>
+      <JapaneseText>モクラド村・民家</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -64,56 +55,21 @@
       <PointerOffset>172</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>401</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『書きかけのノート』
-「北の果て　凍てつく大地
-　実りなき耕野　実りなき人々
-　この地に到った者の心は皆、
-　穏やかなりし」</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>437</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『張り紙』
-「里なき者の住む村　モクラド
-　来る者拒まず　去る者追わず
-　空しき心の間隙はやがて
-　安らぎに満たされん」</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>473</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ベッド脇の本棚』
-並んでいる本はすべて詩集。
-額縁には、パステル調の絵が
-収められている。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>511</PointerOffset>
       <JapaneseText>どうも、こんにちは。
 なんか買っていきますか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -123,27 +79,27 @@
 　やめる　
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>8</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>596</PointerOffset>
       <JapaneseText>なんか買っていきませんか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>9</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>637</PointerOffset>
       <JapaneseText>ありがとうございます。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -152,16 +108,18 @@
 あの人はとても優しくて
 いい人だったよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>11</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>757</PointerOffset>
       <JapaneseText>……いい人だった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>12</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -170,8 +128,9 @@
 いい人だったよ……
 ……いい人だった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>13</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -180,8 +139,9 @@
 ナイラさんの事を、
 思い出してあげなよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>14</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -190,8 +150,9 @@
 久しぶりにノルゼンへ
 行ったんだけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>15</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -200,16 +161,18 @@
 すごく悪くなってて
 ビックリしたよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>16</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>915</PointerOffset>
       <JapaneseText>どうなってるのかねぇ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>17</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -217,8 +180,9 @@
       <JapaneseText>この地鳴りみたいなのは
 他の街でも聞こえてるのかな？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>18</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -227,8 +191,9 @@
 ガジュマが争ってるのを見て、
 色々考えたよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>19</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -237,8 +202,9 @@
 もしかしたら、ひとつの理想の
 関係なのかもね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>20</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -246,8 +212,9 @@
       <JapaneseText>山を越えてはるばると
 この北の大地へ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>21</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -255,8 +222,9 @@
       <JapaneseText>噂どおりにこんなところに
 村があったから、びっくりだよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>22</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -265,37 +233,70 @@
 ヒューマとガジュマの夫婦……
 ねえ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>23</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>2521</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>473</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ベッド脇の本棚』
+並んでいる本はすべて詩集。
+額縁には、パステル調の絵が
+収められている。</JapaneseText>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>437</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『張り紙』
+「里なき者の住む村　モクラド
+　来る者拒まず　去る者追わず
+　空しき心の間隙はやがて
+　安らぎに満たされん」</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
+    <Entry>
+      <PointerOffset>401</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『書きかけのノート』
+「北の果て　凍てつく大地
+　実りなき耕野　実りなき人々
+　この地に到った者の心は皆、
+　穏やかなりし」</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4189</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4267</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

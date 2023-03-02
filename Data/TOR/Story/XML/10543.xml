@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,27 +9,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>754,786,814,842,15221</PointerOffset>
-      <JapaneseText/>
+      <PointerOffset>961,2778,2778,2778,2778,2778,2778,17373,17395,17527,17560,9529,9582,11026,11187</PointerOffset>
+      <JapaneseText>ワン・ギン</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>961,961,2778,2778,2778,2778,2778,2778,9529,9582,11026,11187,16478,16500,16539,16561,16600,16622,16644,16666,16688,16710,16732,16811,16833,16954,17057,17097,17119,17141,17163,17185,17213,17273,17373,17395,17527,17560</PointerOffset>
-      <JapaneseText>ワン・ギン</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>969,969,1709,1709,1709,17805</PointerOffset>
+      <PointerOffset>969,1709,1709,1709,17805</PointerOffset>
       <JapaneseText>クウ・ホウ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -38,7 +29,7 @@
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>3</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,7 +37,7 @@
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -54,7 +45,7 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -62,7 +53,7 @@
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -70,11 +61,19 @@
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>15221,842,814,786,754</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5694,9250,16856,16977</PointerOffset>
+      <PointerOffset>9250,5694</PointerOffset>
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -82,8 +81,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7539</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>8837</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:344c&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>9</Id>
@@ -91,20 +90,20 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>319</PointerOffset>
-      <JapaneseText>キョグエン</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>322</PointerOffset>
       <JapaneseText>キョグエン</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>319</PointerOffset>
+      <JapaneseText>キョグエン</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -113,180 +112,136 @@
       <JapaneseText>ワン・ギンの屋敷
 オークション会場</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>757</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『書画』
-書道家ネイ・サンの作品。
-ある動物が跳ね遊ぶ様子を元に
-作られた文字。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>789</PointerOffset>
-      <JapaneseText>気絶している。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>817</PointerOffset>
-      <JapaneseText>気絶している。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>845</PointerOffset>
-      <JapaneseText>気絶している。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>1450</PointerOffset>
       <VoiceId>2c00007d</VoiceId>
       <JapaneseText>あの娘も、悪くないですね。
 キレイな服を着せて、
 身なりを整えてさしあげなさい。</JapaneseText>
-      <EnglishText>That girl isn't bad on the
-eyes. Get her cleaned up into some
-nicer clothes and see to it that she
-looks presentable.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1,2</SpeakerId>
-      <Id>8</Id>
-      <Status>Editing</Status>
+      <Id>4</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1488</PointerOffset>
       <VoiceId>2c00007e</VoiceId>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText>...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>1,2</SpeakerId>
-      <Id>9</Id>
-      <Status>Editing</Status>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2208</PointerOffset>
       <VoiceId>2c0000fd</VoiceId>
       <JapaneseText>何があった!?</JapaneseText>
-      <EnglishText>What happened?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>10</Id>
-      <Status>Editing</Status>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2306</PointerOffset>
       <VoiceId>2c0000fe</VoiceId>
       <JapaneseText>客に変装した盗賊たちが……</JapaneseText>
-      <EnglishText>There were bandits hidden among
-our guests...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>11</Id>
-      <Status>Editing</Status>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2335</PointerOffset>
       <VoiceId>2c0000ff</VoiceId>
       <JapaneseText>&lt;Claire&gt;はどこだ!?</JapaneseText>
-      <EnglishText>Where's &lt;Claire&gt;?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>12</Id>
-      <Status>Editing</Status>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2357</PointerOffset>
       <VoiceId>2c000100</VoiceId>
       <JapaneseText>……&lt;Claire&gt;？　娘は……
 もう……いない……</JapaneseText>
-      <EnglishText>...&lt;Claire&gt;? That girl is... no
-longer... here...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>13</Id>
-      <Status>Editing</Status>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2384</PointerOffset>
       <VoiceId>2c000101</VoiceId>
       <JapaneseText>いない？　どういう意味だ!!</JapaneseText>
-      <EnglishText>She's not here? What are you
-talking about?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>14</Id>
-      <Status>Editing</Status>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2406</PointerOffset>
       <VoiceId>2c000102</VoiceId>
       <JapaneseText>うぅ……</JapaneseText>
-      <EnglishText>Uuh...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2524</PointerOffset>
       <VoiceId>2c000103</VoiceId>
       <JapaneseText>気絶したみたいです。</JapaneseText>
-      <EnglishText>He appears to have lost
-consciousness.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>16</Id>
-      <Status>Editing</Status>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2553</PointerOffset>
       <VoiceId>2c000104</VoiceId>
       <JapaneseText>くそっ……&lt;Claire&gt;はどこだ!?</JapaneseText>
-      <EnglishText>Damnit... Where is &lt;Claire&gt;?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>17</Id>
-      <Status>Editing</Status>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2827</PointerOffset>
       <VoiceId>2c000126</VoiceId>
       <JapaneseText>お腹立ちはごもっともです。
 ……おいくらですか？</JapaneseText>
-      <EnglishText>You have good reason to be
-upset... How much would you like?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>18</Id>
-      <Status>Editing</Status>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2872</PointerOffset>
       <VoiceId>2c000127</VoiceId>
       <JapaneseText>なに？</JapaneseText>
-      <EnglishText>What?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>19</Id>
-      <Status>Editing</Status>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2894</PointerOffset>
@@ -294,13 +249,11 @@ upset... How much would you like?</EnglishText>
       <JapaneseText>お詫びと言ってはなんですが、
 お金ならいくらでも差し上げます。
 お望みの額をおっしゃって……</JapaneseText>
-      <EnglishText>As a token of my apology, I
-will offer you as much money as you
-like. Just name your price...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>20</Id>
-      <Status>Editing</Status>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2951</PointerOffset>
@@ -308,49 +261,43 @@ like. Just name your price...</EnglishText>
       <JapaneseText>いいかげんにしろ!!
 金、金、カネカネ……
 それが何だ!!</JapaneseText>
-      <EnglishText>What the hell is wrong with
-you?! Money, money, money, money! Who
-CARES?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>21</Id>
-      <Status>Editing</Status>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3010</PointerOffset>
       <VoiceId>2c00012a</VoiceId>
       <JapaneseText>だいたい、何のためにクレアさんを
 かどわかそうとしやがったんだ!?</JapaneseText>
-      <EnglishText>How about you tell us why you
-had Claire locked up in a room
-instead?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>22</Id>
-      <Status>Editing</Status>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3077</PointerOffset>
       <VoiceId>2c00012b</VoiceId>
       <JapaneseText>ほっほっほっ……お客様に
 ご満足いただくためでございます。</JapaneseText>
-      <EnglishText>Hohoho... I did it so that I
-could keep my guests
-&lt;Italics&gt;satisfied&lt;NoItalics&gt;...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3144</PointerOffset>
       <VoiceId>2c00012c</VoiceId>
       <JapaneseText>なんだと!?</JapaneseText>
-      <EnglishText>WHAT?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3166</PointerOffset>
@@ -358,56 +305,52 @@ could keep my guests
       <JapaneseText>もちろん、それなりの余禄は
 ございますけれども……
 ほほほ……</JapaneseText>
-      <EnglishText>Needless to say, that in and of
-itself is more than enough to line my
-pockets. Hohoho...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3261</PointerOffset>
       <VoiceId>2c00012f</VoiceId>
       <JapaneseText>このヤロウッ!!</JapaneseText>
-      <EnglishText>You son of a...!!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3334</PointerOffset>
       <VoiceId>2c000130</VoiceId>
       <JapaneseText>待ちなさいよ、&lt;Tytree&gt;！
 今ここで殴ったら……</JapaneseText>
-      <EnglishText>Calm down &lt;Tytree&gt;! If you
-start thowing hands, then we're not
-going to be able to...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <Id>23</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3374</PointerOffset>
       <VoiceId>2c000131</VoiceId>
       <JapaneseText>一発殴らせろ!!</JapaneseText>
-      <EnglishText>Just let me have one punch!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3727</PointerOffset>
       <VoiceId>2c000132</VoiceId>
       <JapaneseText>&lt;Veigue&gt;！</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
+      <Id>25</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3792</PointerOffset>
@@ -415,54 +358,71 @@ going to be able to...</EnglishText>
       <JapaneseText>いたたた……あなたたち……
 そんな事をしていいと
 思っているのですか？</JapaneseText>
-      <EnglishText>Ow, oww... Now see here...! Do
-you really think that kind of
-behavior is a good idea?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
+      <Id>26</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3863</PointerOffset>
       <VoiceId>2c000134</VoiceId>
       <JapaneseText>……クウ・ホウ、何をしている！
 早くこいつらをたたき出してしまえ！</JapaneseText>
-      <EnglishText>Ke Hao, don't just stand there!
-Hurry up and kick these brutes out of
-here!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>17376</PointerOffset>
+      <JapaneseText>それでは、さっそく
+オークションを開始いたします。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>17398</PointerOffset>
+      <JapaneseText>今回の商品は……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>17530</PointerOffset>
+      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;「&lt;item:0000&gt;」で
+ございます。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>17563</PointerOffset>
+      <JapaneseText>それでは、
+&lt;Unk17:380594&gt;ガルド
+からの開始です。
+参りましょう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>31</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5697</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
+      <PointerOffset>15224</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;font:0009&gt;&lt;Unk18:48a005&gt;</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
       <Id>32</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7365</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>33</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7443</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -471,20 +431,20 @@ here!</EnglishText>
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>35</Id>
+      <Notes/>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9532</PointerOffset>
       <JapaneseText>&lt;item:0000&gt;は
-&lt;Unk17:389405&gt;ガルドで
+&lt;Unk17:380594&gt;ガルドで
 落札されました。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>36</Id>
+      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -492,498 +452,122 @@ here!</EnglishText>
       <JapaneseText>&lt;item:0000&gt;は
 落札されませんでした。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11009</PointerOffset>
+      <JapaneseText>終了でよろしいですね？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10063</PointerOffset>
-      <JapaneseText>キャラ:&lt;Unk17:3408&gt; / 好み:&lt;Unk17:341c&gt; / 資金:&lt;Unk17:31b43408c18d88&gt; / 上限:&lt;Unk17:3458&gt;&lt;&lt;Unk17:38d404&gt;&gt; -&gt; つり上げ（つり上げ反応）</JapaneseText>
+      <PointerOffset>11160</PointerOffset>
+      <JapaneseText>現在、&lt;Unk17:380594&gt;ガルドです。
+もうありませんか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10106</PointerOffset>
-      <JapaneseText>キャラ:&lt;Unk17:3408&gt; / 好み:&lt;Unk17:341c&gt; / 資金:&lt;Unk17:31b43408c18d88&gt; / 上限:&lt;Unk17:3458&gt;&lt;&lt;Unk17:38d404&gt;&gt; -&gt; つり上げ（つり上げ反応）</JapaneseText>
+      <PointerOffset>11170</PointerOffset>
+      <JapaneseText>現在、&lt;Unk17:380594&gt;ガルドです。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10173</PointerOffset>
-      <JapaneseText>キャラ:&lt;Unk17:3408&gt; / 好み:&lt;Unk17:341c&gt; / 資金:&lt;Unk17:31b43408c18d88&gt; / 上限:&lt;Unk17:3458&gt;&lt;&lt;Unk17:38d404&gt;&gt; -&gt; 探り（探り反応）</JapaneseText>
+      <PointerOffset>17808</PointerOffset>
+      <JapaneseText>&lt;Unk17:380594&gt;ガルドで落札されました
+「&lt;item:0000&gt;」は、
+こちらになります。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
       <Id>40</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
-      <PointerOffset>10216</PointerOffset>
-      <JapaneseText>キャラ:&lt;Unk17:3408&gt; / 好み:&lt;Unk17:341c&gt; / 資金:&lt;Unk17:31b43408c18d88&gt; / 上限:&lt;Unk17:3458&gt;&lt;&lt;Unk17:38d404&gt;&gt; -&gt; 探り（探り反応）</JapaneseText>
+      <PointerOffset>845</PointerOffset>
+      <JapaneseText>気絶している。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
       <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
     <Entry>
-      <PointerOffset>10283</PointerOffset>
-      <JapaneseText>キャラ:&lt;Unk17:3408&gt; / 好み:&lt;Unk17:341c&gt; / 資金:&lt;Unk17:31b43408c18d88&gt; / 上限:&lt;Unk17:3458&gt;&lt;&lt;Unk17:38d404&gt;&gt; -&gt; つり上げ（通常）</JapaneseText>
+      <PointerOffset>817</PointerOffset>
+      <JapaneseText>気絶している。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
       <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
     <Entry>
-      <PointerOffset>10318</PointerOffset>
-      <JapaneseText>キャラ:&lt;Unk17:3408&gt; / 好み:&lt;Unk17:341c&gt; / 資金:&lt;Unk17:31b43408c18d88&gt; / 上限:&lt;Unk17:3458&gt;&lt;&lt;Unk17:38d404&gt;&gt; -&gt; 探り（通常）</JapaneseText>
+      <PointerOffset>789</PointerOffset>
+      <JapaneseText>気絶している。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
       <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
-      <PointerOffset>10848</PointerOffset>
-      <JapaneseText/>
+      <PointerOffset>5697</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>8</SpeakerId>
       <Notes/>
       <Id>44</Id>
-      <Status>Done</Status>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
-      <PointerOffset>8837</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:344c&gt;</JapaneseText>
+      <PointerOffset>757</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『書画』
+書道家ネイ・サンの作品。
+ある動物が跳ね遊ぶ様子を元に
+作られた文字。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8844</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:3448&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8851</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:3444&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8858</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:3440&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>48</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8865</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:343c&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>49</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8872</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:3438&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>50</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8879</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:3434&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8886</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:3430&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>52</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10999</PointerOffset>
-      <JapaneseText>現在、&lt;Unk17:389405&gt;ガルドです。
-落札でよろしいですね？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>53</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11009</PointerOffset>
-      <JapaneseText>完了でよろしいですね？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>54</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11160</PointerOffset>
-      <JapaneseText>現在、&lt;Unk17:389405&gt;ガルドです。
-もうありませんか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11170</PointerOffset>
-      <JapaneseText>現在、&lt;Unk17:389405&gt;ガルドです。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>56</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15224</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;font:0009&gt;&lt;Unk18:48a005&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>57</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15279</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;font:0009&gt;&lt;Unk18:48a005&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>58</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16076</PointerOffset>
-      <JapaneseText>&lt;icon:33&gt; 値段をつり上げる　&lt;icon:32&gt; 探りを入れる　&lt;icon:31&gt; あきらめる</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>59</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16481</PointerOffset>
-      <JapaneseText>おやおや。
-めずらしい方がおいでで。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>60</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16503</PointerOffset>
-      <JapaneseText>殴りつけるほどに嫌いな私が
-運営するオークションに
-何か御用でございますか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>61</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16542</PointerOffset>
-      <JapaneseText>いやいや、
-そう意固地にならずに。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>62</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16564</PointerOffset>
-      <JapaneseText>おいでになられたからには、
-何か手に入れなければならない
-品があるのでございましょう？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>63</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16603</PointerOffset>
-      <JapaneseText>どんなお方の懐から出ても
-お金はお金でございますからね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>64</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16625</PointerOffset>
-      <JapaneseText>参加なさるのなら、ぜひぜひ
-お楽しみくださいませ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>65</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16647</PointerOffset>
-      <JapaneseText>それでは当オークションの
-説明をいたしましょう。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>66</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16669</PointerOffset>
-      <JapaneseText>わたくしが商品の説明と
-開始価格を提示いたします。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>67</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16691</PointerOffset>
-      <JapaneseText>それが完わりますと
-オークションの開始となります。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>68</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16713</PointerOffset>
-      <JapaneseText>入札の際は、わたくしに価格を
-申しつけください。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>69</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16735</PointerOffset>
-      <JapaneseText>他のお客様の入札がなくなった時点で
-落札となり、最後に入札したお客様に
-商品をお持ち帰りいただきます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>70</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16814</PointerOffset>
-      <JapaneseText>ご来場いただき、まことに
-ありがとうございます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>71</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16836</PointerOffset>
-      <JapaneseText>オークションへの参加で
-よろしいですね？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>72</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16859</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;オークションに参加しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>73</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16957</PointerOffset>
-      <JapaneseText>オークションの説明を
-お聞きになりますか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>74</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16980</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;オークションの説明を聞きますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>75</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17060</PointerOffset>
-      <JapaneseText>かしこまりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>76</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17100</PointerOffset>
-      <JapaneseText>それでは当オークションの
-ご説明をいたしましょう。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>77</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17122</PointerOffset>
-      <JapaneseText>わたくしが商品の説明と
-開始価格を提示いたします。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>78</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17144</PointerOffset>
-      <JapaneseText>それが完わりますと
-オークションの開始となります。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>79</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17166</PointerOffset>
-      <JapaneseText>入札の際は、わたくしに価格を
-申しつけください。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>80</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17188</PointerOffset>
-      <JapaneseText>他のお客様の入札がなくなった時点で
-落札となり、最後に入札したお客様に
-商品をお持ち帰りいただきます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>81</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17216</PointerOffset>
-      <JapaneseText>それではオークション会場へ
-ご案内いたします。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>82</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17276</PointerOffset>
-      <JapaneseText>おやおや、参加なさらないのですか。
-それでは、またのお越しを
-お待ち申し上げます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>83</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17376</PointerOffset>
-      <JapaneseText>それでは、さっそく
-オークションを開始いたします。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>84</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17398</PointerOffset>
-      <JapaneseText>今回の商品は……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>85</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17530</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;「&lt;item:0000&gt;」で
-ございます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>86</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17563</PointerOffset>
-      <JapaneseText>それでは、
-&lt;Unk17:389405&gt;ガルド
-からの開始です。
-参りましょう。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>87</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>17808</PointerOffset>
-      <JapaneseText>&lt;Unk17:389405&gt;ガルドで落札されました
-「&lt;item:0000&gt;」は、
-こちらになります。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>88</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

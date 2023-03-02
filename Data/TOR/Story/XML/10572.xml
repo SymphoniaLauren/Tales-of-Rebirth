@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,61 +9,53 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>865,901,937,973,1009,1045,1081</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>2360,2360,2360,2360,2360</PointerOffset>
+      <JapaneseText>女の子</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1110,1110,1110,1110,1110,1110</PointerOffset>
-      <JapaneseText>道具屋「ゆきだるま」</JapaneseText>
+      <PointerOffset>4047,1215</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1215,4047</PointerOffset>
-      <JapaneseText>select</JapaneseText>
+      <PointerOffset>1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110,1110</PointerOffset>
+      <JapaneseText>道具屋「ゆきだるま」</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2360,2360,2360,2360,2360</PointerOffset>
-      <JapaneseText>女の子</JapaneseText>
+      <PointerOffset>1081,1045,1009,973,937,901,865</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>5892</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>443</PointerOffset>
-      <JapaneseText>ノルゼン・道具屋</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>446</PointerOffset>
       <JapaneseText>ノルゼン</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>443</PointerOffset>
+      <JapaneseText>ノルゼン・道具屋</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -72,100 +63,91 @@
       <PointerOffset>455</PointerOffset>
       <JapaneseText>道具屋</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
-      <PointerOffset>868</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『マフマフ用グミ新発売！』
-当店オリジナルのドングリグミを
-食べさせれば、かわいいマフマフは
-元気いっぱい、おなかいっぱい♪
-厳しい冬もへっちゃらですよ♪
-詳細はレジでおたずねください。</JapaneseText>
+      <PointerOffset>2409</PointerOffset>
+      <JapaneseText>危ないから外へ出ちゃダメって
+お母さんに言われたの……
+マフマフ、元気かな……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>904</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ライムグミ』
-ＨＰ回復力が一時的に上昇。
-スッキリ味。　８００ガルド。</JapaneseText>
+      <PointerOffset>2459</PointerOffset>
+      <JapaneseText>ねえ、バイラスはマフマフを
+いじめないよね？
+</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>940</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『グレープグミ』
-最大ＨＰの７５％が回復。
-巨峰果汁５％　２０００ガルド。</JapaneseText>
+      <PointerOffset>2481</PointerOffset>
+      <JapaneseText>マフマフがいじめられてたら
+助けてあげてね！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>976</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ピーチグミ』
-最大ＨＰの５０％が回復。
-とろける甘さ。　５００ガルド。</JapaneseText>
+      <PointerOffset>2531</PointerOffset>
+      <JapaneseText>マフマフがケガしてたら、
+治してあげてね！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1012</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ドングリグミ』
-マフマフ用のグミ。
-ドングリ味。</JapaneseText>
+      <PointerOffset>2556</PointerOffset>
+      <JapaneseText>マフマフってホントに
+かわいいから大好き！
+だから、毎日外で遊んでるの。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
-      <PointerOffset>1048</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『グミ販売優良店』
-グミを買うならこのお店で！
-おいしいヨ！</JapaneseText>
+      <PointerOffset>4050</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>1084</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『商品の棚』
-グミのビン詰やボトル類、
-特製センヌキなどが並んでいる。
-このセンヌキは使いやすいと
-評判の一品。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
       <PointerOffset>1148</PointerOffset>
       <JapaneseText>この地震、いつになったら
-完わるのかしら……</JapaneseText>
+終わるのかしら……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -174,18 +156,18 @@
 この街なんて簡単に
 呑まれちゃうわ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>12</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1195</PointerOffset>
       <JapaneseText>いらっしゃいませ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -195,18 +177,18 @@
 　やめる
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>14</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1279</PointerOffset>
       <JapaneseText>準備は万全かい？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -214,18 +196,18 @@
       <JapaneseText>色々そろってるよ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>16</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1346</PointerOffset>
       <JapaneseText>準備は万全かい？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>17</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -233,8 +215,9 @@
       <JapaneseText>&lt;Cyan&gt;幻の庭&lt;White&gt;……&lt;Cyan&gt;古の塔&lt;White&gt;？
 さあ、聞いた事ないねえ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>18</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -243,8 +226,9 @@
 旅をしてるみたいだけど、
 気をつけたほうがいいよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>19</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -252,8 +236,9 @@
       <JapaneseText>近頃、この街のヒューマと
 ガジュマはいがみ合っててね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>20</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -262,8 +247,9 @@
 なんて言われて、同じ種族の
 人にも狙われかねないからね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>21</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -271,8 +257,9 @@
       <JapaneseText>お客さんにこんな事を
 言うのは気が引けますけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>22</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -281,8 +268,9 @@
 やっぱりヒューマとガジュマは
 相容れない存在なんだって……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>23</Id>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -291,8 +279,9 @@
 ヒューマとガジュマの衝突が
 あったの……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>24</Id>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -301,8 +290,9 @@
 女王様を思い出したわ……
 やはりガジュマは、みんな同じね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>25</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -311,8 +301,9 @@
 兵隊さんたちが、
 大怪我したんですってね!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>26</Id>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -320,8 +311,9 @@
       <JapaneseText>治療に必要な物があったら
 遠慮なく言ってちょうだい！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>27</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -330,8 +322,9 @@
 がんばってみんなを手当てして
 やっとくれよ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>28</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -339,8 +332,9 @@
       <JapaneseText>治療に必要な物があったら
 遠慮なく言ってちょうだい！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>29</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -350,8 +344,9 @@
 ケガしてる人たちを助けて
 やっとくれ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>30</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -359,8 +354,9 @@
       <JapaneseText>ケガした人に、ヒューマも
 ガジュマもないもんね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>31</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -369,8 +365,9 @@
 少しだけ街が落ち着いたような
 気がするよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>32</Id>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -378,8 +375,9 @@
       <JapaneseText>あんたたちががんばってくれた
 おかげなのかねえ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>33</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -387,8 +385,9 @@
       <JapaneseText>なんだか、最近また街の
 雰囲気が悪くなってるのよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>34</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -397,8 +396,9 @@
 街の雰囲気がよくなったと
 思ったんだけどねえ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>35</Id>
+      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -406,8 +406,9 @@
       <JapaneseText>……ジルバって人の話が
 伝わった後からなんだけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>36</Id>
+      <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -416,16 +417,18 @@
 もうすぐガジュマの世界になるって
 思ってる人もいるそうよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>37</Id>
+      <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2114</PointerOffset>
       <JapaneseText>あんたは違う……わよね？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>38</Id>
+      <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -433,8 +436,9 @@
       <JapaneseText>……ねえ、あんたたち、
 旅の途中で聞いた事ないかしら？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>39</Id>
+      <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -443,8 +447,9 @@
 これからはガジュマを大事にするって
 言ったとか……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>40</Id>
+      <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -452,8 +457,9 @@
       <JapaneseText>ヒューマはどうなっちゃうの
 かしら……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>41</Id>
+      <Id>40</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -462,8 +468,9 @@
 仲良く暮らす事はできないの
 かしらね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>42</Id>
+      <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -471,8 +478,9 @@
       <JapaneseText>どうしてこんな風になって
 しまったのかしら……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>43</Id>
+      <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -481,8 +489,9 @@
 ギンナルさんたちのように、
 がんばるわよ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <Id>44</Id>
+      <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -490,90 +499,112 @@
       <JapaneseText>商売のやりづらい世の中に
 なって来たね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>1084</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『商品の棚』
+グミのビン詰やボトル類、
+特製センヌキなどが並んでいる。
+このセンヌキは使いやすいと
+評判の一品。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
       <Id>45</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
     <Entry>
-      <PointerOffset>2409</PointerOffset>
-      <JapaneseText>危ないから外へ出ちゃダメって
-お母さんに言われたの……
-マフマフ、元気かな……</JapaneseText>
+      <PointerOffset>1048</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『グミ販売優良店』
+グミを買うならこのお店で！
+おいしいヨ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-4</Section>
     <Entry>
-      <PointerOffset>2459</PointerOffset>
-      <JapaneseText>ねえ、バイラスはマフマフを
-いじめないよね？
-</JapaneseText>
+      <PointerOffset>1012</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ドングリグミ』
+マフマフ用のグミ。
+ドングリ味。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>47</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-5</Section>
     <Entry>
-      <PointerOffset>2481</PointerOffset>
-      <JapaneseText>マフマフがいじめられてたら
-助けてあげてね！</JapaneseText>
+      <PointerOffset>976</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ピーチグミ』
+最大ＨＰの５０％が回復。
+とろける甘さ。　５００ガルド。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-6</Section>
     <Entry>
-      <PointerOffset>2531</PointerOffset>
-      <JapaneseText>マフマフがケガしてたら、
-治してあげてね！</JapaneseText>
+      <PointerOffset>940</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『グレープグミ』
+最大ＨＰの７５％が回復。
+巨峰果汁５％　２０００ガルド。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>49</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-7</Section>
     <Entry>
-      <PointerOffset>2556</PointerOffset>
-      <JapaneseText>マフマフってホントに
-かわいいから大好き！
-だから、毎日外で遊んでるの。</JapaneseText>
+      <PointerOffset>904</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ライムグミ』
+ＨＰ回復力が一時的に上昇。
+スッキリ味。　８００ガルド。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>50</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-8</Section>
     <Entry>
-      <PointerOffset>4050</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
+      <PointerOffset>868</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『マフマフ用グミ新発売！』
+当店オリジナルのドングリグミを
+食べさせれば、かわいいマフマフは
+元気いっぱい、おなかいっぱい♪
+厳しい冬もへっちゃらですよ♪
+詳細はレジでおたずねください。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
       <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5718</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>52</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5796</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>53</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

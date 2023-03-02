@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -19,29 +18,32 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>148</PointerOffset>
-      <JapaneseText>登山洞</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>151</PointerOffset>
       <JapaneseText>登山洞</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>148</PointerOffset>
+      <JapaneseText>登山洞</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>390</PointerOffset>
       <JapaneseText>&lt;Green&gt;格子が開きました。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
@@ -49,8 +51,8 @@
       <PointerOffset>417</PointerOffset>
       <JapaneseText>&lt;Green&gt;格子が開いています。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>

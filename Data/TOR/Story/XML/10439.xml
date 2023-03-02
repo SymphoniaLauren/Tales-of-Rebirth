@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,64 +9,64 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>129,1752</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>1708,347</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>183,1927</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <PointerOffset>1752,129</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>237,1842</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <PointerOffset>1798,402</PointerOffset>
+      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>292,1882</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <PointerOffset>1842,237</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>347,1708</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
+      <PointerOffset>1882,292</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>402,1798</PointerOffset>
-      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
+      <PointerOffset>1927,183</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>437,484</PointerOffset>
-      <JapaneseText/>
+      <PointerOffset>1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032</PointerOffset>
+      <JapaneseText>オックス</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032,1032</PointerOffset>
-      <JapaneseText>オックス</JapaneseText>
+      <PointerOffset>437</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>7</Id>
@@ -81,24 +80,135 @@
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
+  </Speakers>
+  <Strings>
+    <Section>system</Section>
     <Entry>
-      <PointerOffset>5237</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>628</PointerOffset>
+      <JapaneseText>バビログラード</JapaneseText>
       <EnglishText/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>625</PointerOffset>
+      <JapaneseText>バビログラード</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>754</PointerOffset>
+      <JapaneseText>装備品屋・道具屋</JapaneseText>
+      <EnglishText/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>773</PointerOffset>
+      <JapaneseText>民家</JapaneseText>
+      <EnglishText/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>1711</PointerOffset>
+      <VoiceId>1c000061</VoiceId>
+      <JapaneseText>何も覚えてないって
+よくわかったな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1755</PointerOffset>
+      <VoiceId>1c000062</VoiceId>
+      <JapaneseText>以前、ワルトゥの暗示に
+かかった人たちを元に戻した時も、
+操られていた間の記憶が
+なかったからな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1801</PointerOffset>
+      <VoiceId>1c000063</VoiceId>
+      <JapaneseText>この家の旦那は、
+祭司の言葉で暗示を
+解かれたようね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1845</PointerOffset>
+      <VoiceId>1c000064</VoiceId>
+      <JapaneseText>フォルスの暗示を解くために
+ワルトゥが用意した協力者は
+祭司だったというわけだな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1885</PointerOffset>
+      <VoiceId>1c000065</VoiceId>
+      <JapaneseText>暗示を解くカギは
+音ではなくて
+言葉だったみたいですね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
-  </Speakers>
+    <Entry>
+      <PointerOffset>1930</PointerOffset>
+      <VoiceId>1c000066</VoiceId>
+      <JapaneseText>じゃ、その祭司さんのところに、
+リフトを動かすナゾナゾの
+答を聞きに行こう！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
   <Strings>
-    <Section>Story</Section>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>1057</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
     <Entry>
       <PointerOffset>132</PointerOffset>
       <JapaneseText>戒律か……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>1</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -106,9 +216,9 @@
       <JapaneseText>そっか……戒律のせいで
 しゃべれないんだったネ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>2</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -116,18 +226,18 @@
       <JapaneseText>戒律のせいで、男とは
 話せないようだな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>3</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>295</PointerOffset>
       <JapaneseText>戒律……ですね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>4</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -135,9 +245,9 @@
       <JapaneseText>そっか、戒律が
 あったんだったな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>5</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -145,70 +255,18 @@
       <JapaneseText>戒律のせいで、女と
 話せないんだったわね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>6</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>440</PointerOffset>
       <JapaneseText>…………</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>487</PointerOffset>
-      <JapaneseText>売りたそうにしているが、
-戒律のせいで、異性とは
-話ができないようだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>625</PointerOffset>
-      <JapaneseText>バビログラード</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>628</PointerOffset>
-      <JapaneseText>バビログラード</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>754</PointerOffset>
-      <JapaneseText>装備品屋・道具屋</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>773</PointerOffset>
-      <JapaneseText>民家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1057</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>13</Id>
+      <Notes/>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -216,9 +274,9 @@
       <JapaneseText>皆さん……一体、世の中は
 どうなってしまったんでしょう……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>14</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -228,18 +286,18 @@
 種族が違うと言うだけで、
 互いに憎み合っています……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>15</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1165</PointerOffset>
       <JapaneseText>僕もダナも……ますます……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>16</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -248,9 +306,9 @@
 ダナと再会できました……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>17</Id>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -259,9 +317,9 @@
 この街で、二人で生きるために
 何をすべきなのかを……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>18</Id>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -270,9 +328,9 @@
 でも、どうしたらいいのか……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>19</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -280,9 +338,9 @@
       <JapaneseText>僕とダナは種族は違いますが、
 気持ちはひとつです……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>20</Id>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -292,9 +350,9 @@
 きっと、いつかは……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>21</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -302,9 +360,9 @@
       <JapaneseText>なんだか不安にさせる音ですね。
 何も起こらなければいいのですが……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>22</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -313,9 +371,9 @@
 まとまらなくてはいけない時です。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>23</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -324,9 +382,9 @@
 生きる事にしました。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>24</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -336,9 +394,9 @@
 気がするんです……！
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>25</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -347,9 +405,9 @@
 戒律を破ったうえに……
 ガジュマのダナを……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>26</Id>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -357,122 +415,23 @@
       <JapaneseText>僕たちは許されざる者、
 なんでしょうか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>27</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>1711</PointerOffset>
-      <VoiceId>1c000061</VoiceId>
-      <JapaneseText>何も覚えてないって
-よくわかったな。</JapaneseText>
-      <EnglishText>Good call you made about that
-guy not remembering things.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1755</PointerOffset>
-      <VoiceId>1c000062</VoiceId>
-      <JapaneseText>以前、ワルトゥの暗示に
-かかった人たちを元に戻した時も、
-操られていた間の記憶が
-なかったからな。</JapaneseText>
-      <EnglishText>Yeah, it's because I remembered
-that people under Walto's hypnosis
-have no recollection of what
-happened.</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1801</PointerOffset>
-      <VoiceId>1c000063</VoiceId>
-      <JapaneseText>この家の旦那は、
-祭司の言葉で暗示を
-解かれたようね。</JapaneseText>
-      <EnglishText>That man was released from
-Walto's control due to something the
-priest said, correct?</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1845</PointerOffset>
-      <VoiceId>1c000064</VoiceId>
-      <JapaneseText>フォルスの暗示を解くために
-ワルトゥが用意した協力者は
-祭司だったというわけだな。</JapaneseText>
-      <EnglishText>Then that priest must be
-Walto's accomplice who releases the
-controlled townspeople once they're no
-longer of use.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1885</PointerOffset>
-      <VoiceId>1c000065</VoiceId>
-      <JapaneseText>暗示を解くカギは
-音ではなくて
-言葉だったみたいですね。</JapaneseText>
-      <EnglishText>It seems as though the catalyst
-is not a sound, but rather a word.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1930</PointerOffset>
-      <VoiceId>1c000066</VoiceId>
-      <JapaneseText>じゃ、その祭司さんのところに、
-リフトを動かすナゾナゾの
-答を聞きに行こう！</JapaneseText>
-      <EnglishText>Then let's find the priest and
-solve this puzzle once and for all to
-get that lift moving!</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3395</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5063</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>35</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5141</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>36</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

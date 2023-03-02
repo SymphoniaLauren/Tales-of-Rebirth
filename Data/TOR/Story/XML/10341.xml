@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -11,20 +10,20 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>142</PointerOffset>
-      <JapaneseText>サニイタウン</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>145</PointerOffset>
       <JapaneseText>サニイタウン</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>142</PointerOffset>
+      <JapaneseText>サニイタウン</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -32,7 +31,7 @@
       <PointerOffset>248</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
@@ -40,7 +39,7 @@
       <PointerOffset>268</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>

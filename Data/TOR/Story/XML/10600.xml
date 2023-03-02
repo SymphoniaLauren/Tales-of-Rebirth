@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,15 +9,15 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>813,887,961,1035</PointerOffset>
-      <JapaneseText/>
+      <PointerOffset>1608,1666,1726,1769,1791,1834,1865,2684,2784,2835,2887,2993,1098,1098,2312,2379,2401,2465,2487</PointerOffset>
+      <JapaneseText>フォグマ</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>848,922,996,1070,1644,1747,1812,2093,2357,2443,2515,2713,2813,2856,2965</PointerOffset>
+      <PointerOffset>1644,1747,1812,2713,2813,2856,2965,1070,996,922,848,2093,2357,2443,2515</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -26,8 +25,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1098,1098,1608,1666,1726,1769,1791,1834,1865,2312,2379,2401,2465,2487,2684,2784,2835,2887,2993</PointerOffset>
-      <JapaneseText>フォグマ</JapaneseText>
+      <PointerOffset>1398,1398,1398,1398,1304,1304,1304</PointerOffset>
+      <JapaneseText>門番</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
@@ -42,61 +41,53 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1304,1304,1304,1398,1398,1398,1398</PointerOffset>
-      <JapaneseText>門番</JapaneseText>
+      <PointerOffset>4556</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4556</PointerOffset>
-      <JapaneseText>select</JapaneseText>
+      <PointerOffset>1035,961,887,813</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>6401</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>291</PointerOffset>
-      <JapaneseText>ラジルダ・フォグマの家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>294</PointerOffset>
       <JapaneseText>ラジルダ</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>303</PointerOffset>
-      <JapaneseText>ラジルダ・ガジュマ族長の家</JapaneseText>
+      <PointerOffset>291</PointerOffset>
+      <JapaneseText>ラジルダ・フォグマの家</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>306</PointerOffset>
       <JapaneseText>ラジルダ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>303</PointerOffset>
+      <JapaneseText>ラジルダ・ガジュマ族長の家</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
@@ -104,7 +95,7 @@
       <PointerOffset>343</PointerOffset>
       <JapaneseText>フォグマの家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
@@ -112,224 +103,13 @@
       <PointerOffset>355</PointerOffset>
       <JapaneseText>ガジュマ族長の家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>816</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『本棚』
-「ガジュマ超越倫理実践論概論」
-「カレギア文学とその沿革」
-「バビログラード戦記録」
-難しい題名の本が並んでいる。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>851</PointerOffset>
-      <JapaneseText>やはり……
-&lt;Blue&gt;闇の力&lt;White&gt;に関する本は
-ないか……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>890</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『カウンター』
-厨房と食卓がつながっている
-機能的な作りになっている。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>925</PointerOffset>
-      <JapaneseText>特に何も
-変わったものはないが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>964</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ヒマワリの花』
-小型のドルチェジラソーレと
-いう名のヒマワリ。
-夏になると黄色い素晴らしい花を
-崎かせる。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>999</PointerOffset>
-      <JapaneseText>ヒマワリか……
-ん……何かひっかかるな……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1038</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『スイセンの花』
-水辺に崎く冬の花。
-これはラジルダ近辺に生育するもので、
-ラジリアンスイセンの名がある。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1073</PointerOffset>
-      <JapaneseText>スイセン……
-ん……どうも違和感が……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1135</PointerOffset>
-      <JapaneseText>よいか……&lt;Blue&gt;闇の力&lt;White&gt;にだけは、
-触れるでないぞ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1160</PointerOffset>
-      <JapaneseText>ヒューマがワシの家で
-何をしておるか！
-今すぐ出ていけ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1233</PointerOffset>
-      <JapaneseText>この家は、カレギア軍の
-管理下におかれている。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1255</PointerOffset>
-      <JapaneseText>用がなければ、
-すぐに退去するように。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1280</PointerOffset>
-      <JapaneseText>現在、この家の家宅捜索中だ。
-邪魔をしないでもらおう。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1333</PointerOffset>
-      <JapaneseText>ここはヒューマが
-来るところではない。
-出ていけ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1358</PointerOffset>
-      <JapaneseText>最近、ますますヒューマどもが
-増長する一方……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1380</PointerOffset>
-      <JapaneseText>こんな時、フォグマ様が
-いてくだされば……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1427</PointerOffset>
-      <JapaneseText>ヒューマが汚い足で
-フォグマ様のお住まいを
-汚しおって……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1449</PointerOffset>
-      <JapaneseText>早々に立ち去れぃ!!</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1474</PointerOffset>
-      <JapaneseText>一体、いつになったら
-フォグマ様は帰ってくるのか……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1496</PointerOffset>
-      <JapaneseText>いつまで我々は
-カレギア軍の言うとおりに
-しなければいけないのだ？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>1611</PointerOffset>
       <VoiceId>26000034</VoiceId>
@@ -337,14 +117,11 @@
 我々ガジュマにとって
 &lt;Blue&gt;闇の力&lt;White&gt;がどういうものであるか
 知ったうえでの質問か？</JapaneseText>
-      <EnglishText>So you want to know about the
-&lt;Blue&gt;Power of Shade&lt;White&gt;? And you ask
-this in spite of knowing how us
-Gajuma feel about it?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1647</PointerOffset>
@@ -353,49 +130,43 @@ Gajuma feel about it?</EnglishText>
 この街の者から聞きました。
 そして、古代の人々がどこかの
 泉に沈めたという事も……</JapaneseText>
-      <EnglishText>Yes, I've heard from the
-townspeople that it's considered to be an
-abomination. I've also heard that the people
-in ancient times sunk it to the
-bottom of a spring.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1669</PointerOffset>
       <VoiceId>26000036</VoiceId>
       <JapaneseText>それでも、その泉がどこか
 知りたいというのだな？</JapaneseText>
-      <EnglishText>And you want to know where said
-spring is, I assume?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1729</PointerOffset>
       <VoiceId>26000037</VoiceId>
       <JapaneseText>……教える事はできぬ。
 たとえ知っていたとしても……</JapaneseText>
-      <EnglishText>That's something I wouldn't be
-able to tell you even if I did know.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1750</PointerOffset>
       <VoiceId>26000038</VoiceId>
       <JapaneseText>知っていたとしても？</JapaneseText>
-      <EnglishText>Even if?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1772</PointerOffset>
@@ -404,15 +175,11 @@ able to tell you even if I did know.</EnglishText>
 &lt;Blue&gt;闇の力&lt;White&gt;を沈めた泉の「地図」を、
 ヒューマと協力して作り、
 この地に残したそうだ。</JapaneseText>
-      <EnglishText>Our ancestors, together with
-the Huma, created a map to the
-spring that the &lt;Blue&gt;Power of
-Shade&lt;White&gt; was submerged into, and it
-seems as though it remained here.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1794</PointerOffset>
@@ -421,38 +188,32 @@ seems as though it remained here.</EnglishText>
 そのようなものは伝わっておらぬ。
 我が祖先が、災いを恐れ、
 その地図を処分したのかもしれぬ……</JapaneseText>
-      <EnglishText>However, my family has been
-ruling for generations and yet no such
-thing has been passed down to me.
-Perhaps my ancestors had disposed of it
-out of fears that it may be used
-for evil.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1815</PointerOffset>
       <VoiceId>2600003b</VoiceId>
       <JapaneseText>泉の地図……</JapaneseText>
-      <EnglishText>A map to the spring...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>34</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1837</PointerOffset>
       <VoiceId>2600003c</VoiceId>
       <JapaneseText>ヒューマの手に渡ってなければ
 いいのだが……</JapaneseText>
-      <EnglishText>I just hope the Huma don't get
-their hands on it...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
-      <Status>Editing</Status>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1868</PointerOffset>
@@ -461,140 +222,21 @@ their hands on it...</EnglishText>
 触れるでない。
 触れれば、災いが降りかかる。
 よいな、触れるでないぞ。</JapaneseText>
-      <EnglishText>Something that was sealed away
-is not meant to be disturbed. You
-will be brought to ruin if you do
-so. You hear me? Don't go messing
-with it!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>36</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2096</PointerOffset>
-      <VoiceId>2600003e</VoiceId>
-      <JapaneseText>……これは？</JapaneseText>
-      <EnglishText>What's this?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>37</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2315</PointerOffset>
-      <VoiceId>2600003f</VoiceId>
-      <JapaneseText>おお、そこに描かれている&lt;Cyan&gt;紋章&lt;White&gt;は、
-我が一族の家紋であると同時に、
-ラジルダのガジュマを表すものだ。</JapaneseText>
-      <EnglishText>Ah, that right there is my
-family &lt;Cyan&gt;crest&lt;White&gt;, which also
-symbolizes the Gajuma here in Razilda.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>38</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2360</PointerOffset>
-      <VoiceId>26000040</VoiceId>
-      <JapaneseText>何かいわれがあるのですか？</JapaneseText>
-      <EnglishText>Does it have any special
-meaning?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>39</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2382</PointerOffset>
-      <VoiceId>26000041</VoiceId>
-      <JapaneseText>「闇において、我は勇気を得る。
-　闇において、我は愛を知る」</JapaneseText>
-      <EnglishText>"Amidst darkness, we find
-Courage. Amidst darkness, we know love."</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>40</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2404</PointerOffset>
-      <VoiceId>26000042</VoiceId>
-      <JapaneseText>かつて、忌むべき&lt;Blue&gt;闇の力&lt;White&gt;を恐れ、
-ヒューマとの戦いに苦しんだ我ら
-ガジュマの祖先が、自らをふるい
-立たせるためうたった&lt;Cyan&gt;詩&lt;White&gt;だ。</JapaneseText>
-      <EnglishText>While living in fear of that
-abominable &lt;Blue&gt;Power of Shade&lt;White&gt; and
-suffering in their conflict with the Huma
-over it, our ancestors composed that
-poem to raise their spirits.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>41</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2446</PointerOffset>
-      <VoiceId>26000043</VoiceId>
-      <JapaneseText>なるほど……&lt;Cyan&gt;紋章&lt;White&gt;には花がふたつ
-あしらわれているようですが、
-これにも何か意味が？</JapaneseText>
-      <EnglishText>I see. There seems to be two
-flowers on the crest. Is there any
-significant meaning behind those as well?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>42</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2468</PointerOffset>
-      <VoiceId>26000044</VoiceId>
-      <JapaneseText>「勇気」はヒマワリの花によって、
-「愛」はスイセンの花によって
-表されている。</JapaneseText>
-      <EnglishText>The sunflower symbolizes
-"courage," and the daffodil symbolizes
-"love."</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>43</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2490</PointerOffset>
-      <VoiceId>26000045</VoiceId>
-      <JapaneseText>よかったら、この旗をひとつ
-持っていくといい。</JapaneseText>
-      <EnglishText>If you'd like, you can take
-that flag with you.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2518</PointerOffset>
-      <VoiceId>26000046</VoiceId>
-      <JapaneseText>ありがとうございます。</JapaneseText>
-      <EnglishText>Thank you so very much.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>45</Id>
-      <Status>Editing</Status>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2687</PointerOffset>
       <VoiceId>2b000029</VoiceId>
       <JapaneseText>それで、私に話とは？</JapaneseText>
-      <EnglishText>What do you need to speak with
-me about?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>46</Id>
-      <Status>Editing</Status>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2716</PointerOffset>
@@ -602,13 +244,11 @@ me about?</EnglishText>
       <JapaneseText>はい、ハックという男を
 探しているのですが
 何かご存知ありませんか？</JapaneseText>
-      <EnglishText>I'm searching for a man by the
-name of Hack. I was wondering if
-you've seen him.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>47</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2787</PointerOffset>
@@ -616,13 +256,11 @@ you've seen him.</EnglishText>
       <JapaneseText>……以前にも忠告したはずだ。
 意図して閉ざされたものに
 触れるでない、とな。</JapaneseText>
-      <EnglishText>...I believe I've warned you
-that things that have been sealed
-away are not meant to be disturbed.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>48</Id>
-      <Status>Editing</Status>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2816</PointerOffset>
@@ -630,35 +268,32 @@ away are not meant to be disturbed.</EnglishText>
       <JapaneseText>……&lt;Blue&gt;闇の力&lt;White&gt;の事を
 おっしゃっているのですね？
 ハックとどんな関係が？</JapaneseText>
-      <EnglishText>...Are you referring to the
-&lt;Blue&gt;Power of Shade&lt;White&gt;? What does that
-have to do with Hack?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>49</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2838</PointerOffset>
       <VoiceId>2b00002d</VoiceId>
       <JapaneseText>……ハックの事は忘れろ。</JapaneseText>
-      <EnglishText>...Forget about Hack.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>50</Id>
-      <Status>Editing</Status>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2859</PointerOffset>
       <VoiceId>2b00002e</VoiceId>
       <JapaneseText>忘れろ？
 どういう事ですか？</JapaneseText>
-      <EnglishText>Forget about him? What do you
-mean?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>51</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2890</PointerOffset>
@@ -667,70 +302,388 @@ mean?</EnglishText>
 忌むべきものを起こしてはならん。
 その禁を破ろうとする者があれば、
 命を奪ってでも止めるまでの事。</JapaneseText>
-      <EnglishText>The &lt;Blue&gt;Power of Shade&lt;White&gt;
-is not to be disturbed. Such an
-abominable thing is not to be awakened.
-Anyone who violates this prohibition
-will be stopped, even if it means
-killing them.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>52</Id>
-      <Status>Editing</Status>
+      <Id>23</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2968</PointerOffset>
       <VoiceId>2b000030</VoiceId>
       <JapaneseText>ハックが&lt;Blue&gt;闇の力&lt;White&gt;の封印を解く
 &lt;Yellow&gt;カギ&lt;White&gt;を見つけた、と？</JapaneseText>
-      <EnglishText>Has Hack discovered the key to
-unlocking the &lt;Blue&gt;Power of
-Shade&lt;White&gt;?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>53</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2996</PointerOffset>
       <VoiceId>2b000031</VoiceId>
       <JapaneseText>知らん、何も話せん。
 帰れ、すぐにこの街から出ていけ。</JapaneseText>
-      <EnglishText>I have no idea. We're done
-here. Now, get out here and leave
-this town!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>54</Id>
-      <Status>Editing</Status>
+      <Id>25</Id>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>1427</PointerOffset>
+      <JapaneseText>ヒューマが汚い足で
+フォグマ様のお住まいを
+汚しおって……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1449</PointerOffset>
+      <JapaneseText>早々に立ち去れぃ!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1474</PointerOffset>
+      <JapaneseText>一体、いつになったら
+フォグマ様は帰ってくるのか……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1496</PointerOffset>
+      <JapaneseText>いつまで我々は
+カレギア軍の言うとおりに
+しなければいけないのだ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>1333</PointerOffset>
+      <JapaneseText>ここはヒューマが
+来るところではない。
+出ていけ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1358</PointerOffset>
+      <JapaneseText>最近、ますますヒューマどもが
+増長する一方……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1380</PointerOffset>
+      <JapaneseText>こんな時、フォグマ様が
+いてくだされば……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
+    <Entry>
+      <PointerOffset>1233</PointerOffset>
+      <JapaneseText>この家は、カレギア軍の
+管理下におかれている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1255</PointerOffset>
+      <JapaneseText>用がなければ、
+すぐに退去するように。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1280</PointerOffset>
+      <JapaneseText>現在、この家の家宅捜索中だ。
+邪魔をしないでもらおう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-3</Section>
+    <Entry>
+      <PointerOffset>1135</PointerOffset>
+      <JapaneseText>よいか……&lt;Blue&gt;闇の力&lt;White&gt;にだけは、
+触れるでないぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1160</PointerOffset>
+      <JapaneseText>ヒューマがワシの家で
+何をしておるか！
+今すぐ出ていけ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>4559</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>1038</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『スイセンの花』
+水辺に咲く冬の花。
+これはラジルダ近辺に生育するもので、
+ラジリアンスイセンの名がある。</JapaneseText>
+      <EnglishText/>
       <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1073</PointerOffset>
+      <JapaneseText>スイセン……
+ん……どうも違和感が……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>964</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ヒマワリの花』
+小型のドルチェジラソーレと
+いう名のヒマワリ。
+夏になると黄色い素晴らしい花を
+咲かせる。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>999</PointerOffset>
+      <JapaneseText>ヒマワリか……
+ん……何かひっかかるな……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
+    <Entry>
+      <PointerOffset>890</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『カウンター』
+厨房と食卓がつながっている
+機能的な作りになっている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>925</PointerOffset>
+      <JapaneseText>特に何も
+変わったものはないが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-4</Section>
+    <Entry>
+      <PointerOffset>816</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『本棚』
+「ガジュマ超越倫理実践論概論」
+「カレギア文学とその沿革」
+「バビログラード戦記録」
+難しい題名の本が並んでいる。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>851</PointerOffset>
+      <JapaneseText>やはり……
+&lt;Blue&gt;闇の力&lt;White&gt;に関する本は
+ないか……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-5</Section>
+    <Entry>
+      <PointerOffset>2096</PointerOffset>
+      <VoiceId>2600003e</VoiceId>
+      <JapaneseText>……これは？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2315</PointerOffset>
+      <VoiceId>2600003f</VoiceId>
+      <JapaneseText>おお、そこに描かれている&lt;Cyan&gt;紋章&lt;White&gt;は、
+我が一族の家紋であると同時に、
+ラジルダのガジュマを表すものだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2360</PointerOffset>
+      <VoiceId>26000040</VoiceId>
+      <JapaneseText>何かいわれがあるのですか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2382</PointerOffset>
+      <VoiceId>26000041</VoiceId>
+      <JapaneseText>「闇において、我は勇気を得る。
+　闇において、我は愛を知る」</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2404</PointerOffset>
+      <VoiceId>26000042</VoiceId>
+      <JapaneseText>かつて、忌むべき&lt;Blue&gt;闇の力&lt;White&gt;を恐れ、
+ヒューマとの戦いに苦しんだ我ら
+ガジュマの祖先が、自らをふるい
+立たせるためうたった&lt;Cyan&gt;詩&lt;White&gt;だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2446</PointerOffset>
+      <VoiceId>26000043</VoiceId>
+      <JapaneseText>なるほど……&lt;Cyan&gt;紋章&lt;White&gt;には花がふたつ
+あしらわれているようですが、
+これにも何か意味が？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2468</PointerOffset>
+      <VoiceId>26000044</VoiceId>
+      <JapaneseText>「勇気」はヒマワリの花によって、
+「愛」はスイセンの花によって
+表されている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2490</PointerOffset>
+      <VoiceId>26000045</VoiceId>
+      <JapaneseText>よかったら、この旗をひとつ
+持っていくといい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>54</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2518</PointerOffset>
+      <VoiceId>26000046</VoiceId>
+      <JapaneseText>ありがとうございます。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6227</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>56</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6305</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>57</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

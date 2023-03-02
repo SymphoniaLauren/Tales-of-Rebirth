@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,8 +9,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>676,712,748</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>3620,860</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
@@ -26,37 +25,29 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>860,3620</PointerOffset>
-      <JapaneseText>select</JapaneseText>
+      <PointerOffset>748,712,676</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>5465</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>412</PointerOffset>
-      <JapaneseText>ノルゼン・武器屋</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>415</PointerOffset>
       <JapaneseText>ノルゼン</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>412</PointerOffset>
+      <JapaneseText>ノルゼン・武器屋</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -64,112 +55,13 @@
       <PointerOffset>451</PointerOffset>
       <JapaneseText>武器屋</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>679</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『各種ナイフ（商品見本）』
-　ノルゼンの海で使っても、
-　決してさびる事のない高品質な
-　ナイフを取りそろえました。
-　海の男の必携品です。
-　凶暴なシャチとも戦えます！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>715</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『杖コレクション（試作品）』
-店惹が作成中のオリジナルの杖。
-「ツエー杖」「グラ杖」などと
-意味不明な名前が付いている。
-機能面の説明はない。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>751</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『投げトマホーク（非売品）』
-振り回して使うのではなく、
-投げて使うために、ビミョウな
-バランス調整がされた斧。
-コツをつかめば、ブーメランの
-ように戻ってくる。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>815</PointerOffset>
-      <JapaneseText>ずっと地面が揺れてて
-なんだか気持ち悪いよ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>840</PointerOffset>
-      <JapaneseText>いらっしゃい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>863</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　武器を買う
-　世間話をする
-　やめる</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>924</PointerOffset>
-      <JapaneseText>買ってかなきゃ、
-損だと思うよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>963</PointerOffset>
-      <JapaneseText>素晴らしい武器の数々を
-取り揃えているよ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>991</PointerOffset>
-      <JapaneseText>買わなきゃ損だよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>1095</PointerOffset>
       <JapaneseText>あんたたちは、ガジュマも
@@ -177,8 +69,9 @@
 種族の争いとは縁がなさそうだな。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>13</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -187,8 +80,9 @@
 頼まれて買い物に来たんじゃ
 ないよな？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>14</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -197,8 +91,9 @@
 ガジュマとヒューマのケンカが
 絶えないもんでね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>15</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -207,8 +102,9 @@
 使われた場合には処罰するって
 軍からお達しがあってね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>16</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -217,8 +113,9 @@
 どんな人なのか見てから
 売るようにしてるんだ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>17</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -227,8 +124,9 @@
 ほとんど武器なんて売れないよ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>18</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -237,8 +135,9 @@
 他の街からのお客さんもいないしさ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>19</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -248,8 +147,9 @@
 修理をやって食いつないでるよ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>20</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -258,8 +158,9 @@
 衝突が起こっちまったよ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>21</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -269,8 +170,9 @@
 おとがめはなかったけどね。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>22</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -280,8 +182,9 @@
 ケガしたんだって？
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>23</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -290,8 +193,9 @@
 護身用に武器をひとつ
 買って行ったらどうだい？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>24</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -300,8 +204,9 @@
 わけじゃないんだよ……
 は、はは……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>25</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -310,8 +215,9 @@
 ガジュマの治療もしてるん
 だってな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>26</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -320,8 +226,9 @@
 がんばってるのに、
 街の連中と来たら……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>27</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -330,8 +237,9 @@
 手当てして回ってるんだってな？
 がんばってくれよ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>28</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -340,8 +248,9 @@
 あとは、定期便が再開されれば
 ウチも商売になるんだけどなぁ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>29</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -351,8 +260,9 @@
 スカラベってヒューマらしい……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>30</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -361,8 +271,9 @@
 ウチの店に来た時も、イヤな感じ
 だったよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>31</Id>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -371,8 +282,9 @@
 ちょっといい気味だな。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>32</Id>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -380,8 +292,9 @@
       <JapaneseText>……ジルバ様ってのは、
 女王様の次に偉いんだろ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>33</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -391,8 +304,9 @@
 どうして女王様がやらない
 んだろうなぁ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>34</Id>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -402,8 +316,9 @@
 スカラベってヒューマらしい……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>35</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -412,8 +327,9 @@
 ウチの店に来た時も、イヤな感じ
 だったよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>36</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -422,8 +338,9 @@
 ちょっといい気味だな。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>37</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -432,8 +349,9 @@
 なんだか気持ち悪いよ……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>38</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -442,8 +360,9 @@
 静かな街だったのにな……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>39</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -452,8 +371,9 @@
 少しずつガマンすりゃ、きっと
 仲良くやれると思うんだけどね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>40</Id>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -463,8 +383,9 @@
 思ってるんだ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>41</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -472,8 +393,9 @@
       <JapaneseText>「漆黒のツララ」ってね！
 どうだい、いい名前だろ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>42</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -481,37 +403,137 @@
       <JapaneseText>ノルゼンの冬は厳しいけど、
 夏も厳しいぜ、ま、色々とね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>-1</SpeakerId>
       <Notes/>
-      <Id>43</Id>
+      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3623</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>815</PointerOffset>
+      <JapaneseText>ずっと地面が揺れてて
+なんだか気持ち悪いよ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>840</PointerOffset>
+      <JapaneseText>いらっしゃい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>863</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　武器を買う
+　世間話をする
+　やめる</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>924</PointerOffset>
+      <JapaneseText>買ってかなきゃ、
+損だと思うよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>963</PointerOffset>
+      <JapaneseText>素晴らしい武器の数々を
+取り揃えているよ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>991</PointerOffset>
+      <JapaneseText>買わなきゃ損だよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>751</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『投げトマホーク（非売品）』
+振り回して使うのではなく、
+投げて使うために、ビミョウな
+バランス調整がされた斧。
+コツをつかめば、ブーメランの
+ように戻ってくる。</JapaneseText>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
+    <Entry>
+      <PointerOffset>715</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『杖コレクション（試作品）』
+店主が作成中のオリジナルの杖。
+「ツエー杖」「グラ杖」などと
+意味不明な名前が付いている。
+機能面の説明はない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-4</Section>
+    <Entry>
+      <PointerOffset>679</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『各種ナイフ（商品見本）』
+　ノルゼンの海で使っても、
+　決してさびる事のない高品質な
+　ナイフを取りそろえました。
+　海の男の必携品です。
+　凶暴なシャチとも戦えます！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>44</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5291</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5369</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

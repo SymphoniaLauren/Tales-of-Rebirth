@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -49,73 +48,67 @@
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>4799</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>252</PointerOffset>
-      <JapaneseText>ギリオーヌの聖殿</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>255</PointerOffset>
       <JapaneseText>ギリオーヌの聖殿</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>252</PointerOffset>
+      <JapaneseText>ギリオーヌの聖殿</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>876</PointerOffset>
       <VoiceId>34000049</VoiceId>
       <JapaneseText>化け物……</JapaneseText>
-      <EnglishText>A monster...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>898</PointerOffset>
       <VoiceId>3400004a</VoiceId>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText>...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>929</PointerOffset>
       <VoiceId>3400004b</VoiceId>
       <JapaneseText>違う……違うわ……</JapaneseText>
-      <EnglishText>No... That's not who I am...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1180</PointerOffset>
       <VoiceId>34000061</VoiceId>
       <JapaneseText>何なの……ハーフって何なのよ!!</JapaneseText>
-      <EnglishText>Just... Just what is a Half,
-anyway?!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1221</PointerOffset>
@@ -123,22 +116,21 @@ anyway?!</EnglishText>
       <JapaneseText>誰も受け入れてくれなかったくせに……
 なのに、この身体を捨てたいって
 思っちゃいけないの!?</JapaneseText>
-      <EnglishText>I've never been accepted by
-anyone..</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1252</PointerOffset>
       <VoiceId>34000063</VoiceId>
       <JapaneseText>私は……私は何者なの!!</JapaneseText>
-      <EnglishText>Just... Just what am I?!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1422</PointerOffset>
@@ -146,51 +138,34 @@ anyone..</EnglishText>
       <JapaneseText>負けるな……&lt;Hilda&gt;……
 試練なんかに……
 試練なんかに負けるな……！</JapaneseText>
-      <EnglishText>Stay strong, &lt;Hilda&gt;... You
-can't let your trial get the best of
-you!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1452</PointerOffset>
       <VoiceId>34000065</VoiceId>
       <JapaneseText>……わかってるわ……</JapaneseText>
-      <EnglishText>...I know.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>2957</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
+      <Notes/>
       <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4625</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4703</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

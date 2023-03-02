@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,19 +9,11 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>644</PointerOffset>
-      <JapaneseText>ギンナル</JapaneseText>
+      <PointerOffset>814,780,746</PointerOffset>
+      <JapaneseText>カレギア兵</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>678</PointerOffset>
-      <JapaneseText>ユシア</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -30,12 +21,20 @@
       <JapaneseText>ドルンブ</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>678</PointerOffset>
+      <JapaneseText>ユシア</JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>746,780,814</PointerOffset>
-      <JapaneseText>カレギア兵</JapaneseText>
+      <PointerOffset>644</PointerOffset>
+      <JapaneseText>ギンナル</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
@@ -49,121 +48,116 @@
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>4085</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>171</PointerOffset>
-      <JapaneseText>バルカ収容所</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>174</PointerOffset>
       <JapaneseText>バルカ収容所</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>660</PointerOffset>
-      <JapaneseText>脱出に成功したようだな。
-急げよ、脱走犯たちよ！</JapaneseText>
+      <PointerOffset>171</PointerOffset>
+      <JapaneseText>バルカ収容所</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>830</PointerOffset>
+      <JapaneseText>何をしている？
+ここは立ち入り禁止だぞ。</JapaneseText>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>796</PointerOffset>
+      <JapaneseText>何をしている？
+ここは立ち入り禁止だぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
+    <Entry>
+      <PointerOffset>762</PointerOffset>
+      <JapaneseText>何をしている？
+ここは立ち入り禁止だぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-3</Section>
+    <Entry>
+      <PointerOffset>728</PointerOffset>
+      <JapaneseText>急ぐでやんス！
+儀式が始まるでやんスよ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-4</Section>
     <Entry>
       <PointerOffset>694</PointerOffset>
       <JapaneseText>モタモタしてると
 交代の時間になって、
 他の兵士が来るわよ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>728</PointerOffset>
-      <JapaneseText>急ぐでやんス！
-儀式が始まるでやんスよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>762</PointerOffset>
-      <JapaneseText>何をしている？
-ここは立ち入り禁止だぞ。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>796</PointerOffset>
-      <JapaneseText>何をしている？
-ここは立ち入り禁止だぞ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-5</Section>
     <Entry>
-      <PointerOffset>830</PointerOffset>
-      <JapaneseText>何をしている？
-ここは立ち入り禁止だぞ。</JapaneseText>
+      <PointerOffset>660</PointerOffset>
+      <JapaneseText>脱出に成功したようだな。
+急げよ、脱走犯たちよ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>2243</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
+      <Notes/>
       <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3911</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3989</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

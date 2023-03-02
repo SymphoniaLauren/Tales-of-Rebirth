@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,27 +9,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>295</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320</PointerOffset>
+      <JapaneseText>女の人</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>320,320</PointerOffset>
-      <JapaneseText>女の人</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>420,678,815,5196</PointerOffset>
+      <PointerOffset>420,678,815</PointerOffset>
       <JapaneseText>notice</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -38,25 +29,33 @@
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>295</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>135</PointerOffset>
-      <JapaneseText>ベルサス・民家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>138</PointerOffset>
       <JapaneseText>ベルサス・民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>135</PointerOffset>
+      <JapaneseText>ベルサス・民家</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -64,32 +63,22 @@
       <PointerOffset>205</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>298</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『足を組む美女』
-十数年前、ベルサスを訪れた画家、
-ケイトがこの家の奥さんにひと目ぼれし、
-強引にモデルになってもらって
-二日で描き上げた作品。なかなか美人。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>353</PointerOffset>
       <JapaneseText>辞典……辞典……
 はい、はい、はい。
 確かに借りたわねぇ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>5</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -98,123 +87,18 @@
 なんだか悪いわねぇ。
 はい、コレ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>6</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>423</PointerOffset>
       <JapaneseText>&lt;Green&gt;『辞典』を回収しました。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>605</PointerOffset>
-      <JapaneseText>私にあなたの持っている
-画集を貸してくれるの？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>628</PointerOffset>
-      <JapaneseText>　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>681</PointerOffset>
-      <JapaneseText>&lt;Green&gt;『画集』を貸し出しました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>703</PointerOffset>
-      <JapaneseText>ありがとうね。
-家事の息抜きに
-見させてもらうわ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>744</PointerOffset>
-      <JapaneseText>あらやだ、私の勘違い？
-ごめんなさいね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>794</PointerOffset>
-      <JapaneseText>あらっ。いらっしゃい。
-この画集は素晴らしかったわ。
-じゅうぶん息抜きさせてもらったわよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>818</PointerOffset>
-      <JapaneseText>&lt;Green&gt;『画集』を回収しました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>840</PointerOffset>
-      <JapaneseText>お礼といってはなんだけど、
-これを持っていってちょうだい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>879</PointerOffset>
-      <JapaneseText>ごめんなさい。
-この画集、もうちょっとだけ
-貸してちょうだいね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>912</PointerOffset>
-      <JapaneseText>さぁ、息抜きもしたことだし、
-がんばって部屋のお掃除でも
-しようかしら。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>949</PointerOffset>
-      <JapaneseText>家事って休みがないのよね。
-たまには画集でも見て
-息抜きをしたいわ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>18</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -223,8 +107,9 @@
 スカラベ様のガジュマ嫌いは
 相当なものよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>19</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -233,8 +118,9 @@
 早いところ街を出たほうがいいわよ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>20</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -243,8 +129,9 @@
 この街では、あまりガジュマと仲良く
 しないほうがいいわよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>21</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -252,8 +139,9 @@
       <JapaneseText>わかってもわからなくても
 いいから、覚えておきなさいね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>22</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -262,8 +150,9 @@
 あまりこの街をウロウロしない
 ほうがいいいよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>23</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -272,8 +161,9 @@
 橋の向こうに住んでる
 ガジュマのところにお行きよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>24</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -282,8 +172,9 @@
 みたいだから教えてあげるけど、
 橋の向こうへは行っちゃダメだよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>25</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -292,8 +183,9 @@
 ヒューマの事を良く思ってない
 からね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>26</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -302,8 +194,9 @@
 腹が立つ事も多いと思うけど、
 がまんするのよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>27</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -311,8 +204,9 @@
       <JapaneseText>それができないなら、
 すぐに街を出たほうがいいわ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>28</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -322,8 +216,9 @@
 でも、その分、目立つから
 気をつけるのよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>29</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -332,8 +227,9 @@
 ガジュマと話し合いなんて……
 これまでずっとはねつけてたのに。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>30</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -342,8 +238,9 @@
 見た目以上に腹黒い人……
 気をつけなさいね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>31</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -352,8 +249,9 @@
 街のみんなも、良く考えてくれると
 いいんだけどね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>32</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -361,8 +259,9 @@
       <JapaneseText>……あんな事があった後だし、
 軍が監視するのは仕方ないけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>33</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -371,8 +270,9 @@
 ヒューマとガジュマが仲直りするのも
 簡単じゃないわね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>34</Id>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -381,8 +281,9 @@
 軍が監視するのは仕方ないけど……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>35</Id>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -392,8 +293,9 @@
 簡単じゃないわね……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>36</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -402,8 +304,9 @@
 アガーテ様とまるで正反対ね……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>37</Id>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -412,8 +315,9 @@
 守るような事を言うなんて……
 心配よね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>38</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -421,8 +325,9 @@
       <JapaneseText>ヒューマとガジュマの対立が
 ますますひどくなってるわ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>39</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -430,8 +335,9 @@
       <JapaneseText>アガーテ様のあの演説の意味、
 もっとよく考えて欲しいわ……！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>40</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -439,8 +345,9 @@
       <JapaneseText>寒さがこたえて……
 私はここから祈らせてもらうわ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>41</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -448,8 +355,9 @@
       <JapaneseText>少しずつだけど、色々考える&lt;Yellow&gt;ヒト&lt;White&gt;が
 増えて来てるみたい……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>42</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -457,8 +365,9 @@
       <JapaneseText>この街の対立も、
 少しは減るかもしれないわね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>43</Id>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -466,8 +375,9 @@
       <JapaneseText>スカラベさんはこの街の有力者で、
 みんなに尊敬されてるけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>44</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -475,37 +385,152 @@
       <JapaneseText>私はあんまり、あの人の事、
 好きにはなれないのよね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>45</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>949</PointerOffset>
+      <JapaneseText>家事って休みがないのよね。
+たまには画集でも見て
+息抜きをしたいわ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>605</PointerOffset>
+      <JapaneseText>私にあなたの持っている
+画集を貸してくれるの？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>628</PointerOffset>
+      <JapaneseText>　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>681</PointerOffset>
+      <JapaneseText>&lt;Green&gt;『画集』を貸し出しました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>703</PointerOffset>
+      <JapaneseText>ありがとうね。
+家事の息抜きに
+見させてもらうわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>744</PointerOffset>
+      <JapaneseText>あらやだ、私の勘違い？
+ごめんなさいね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>794</PointerOffset>
+      <JapaneseText>あらっ。いらっしゃい。
+この画集は素晴らしかったわ。
+じゅうぶん息抜きさせてもらったわよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>818</PointerOffset>
+      <JapaneseText>&lt;Green&gt;『画集』を回収しました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>840</PointerOffset>
+      <JapaneseText>お礼といってはなんだけど、
+これを持っていってちょうだい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>879</PointerOffset>
+      <JapaneseText>ごめんなさい。
+この画集、もうちょっとだけ
+貸してちょうだいね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>912</PointerOffset>
+      <JapaneseText>さぁ、息抜きもしたことだし、
+がんばって部屋のお掃除でも
+しようかしら。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3354</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>298</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『足を組む美女』
+十数年前、ベルサスを訪れた画家、
+ケイトがこの家の奥さんにひと目ぼれし、
+強引にモデルになってもらって
+二日で描き上げた作品。なかなか美人。</JapaneseText>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5022</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5100</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

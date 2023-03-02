@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,19 +9,11 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1244,1266,1291,1313,1419,1606,3439,3592</PointerOffset>
-      <JapaneseText>石像</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>4218,4305</PointerOffset>
       <JapaneseText>？？？？？？</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>1</Id>
+      <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -30,7 +21,7 @@
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -38,7 +29,7 @@
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>3</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,7 +37,7 @@
       <JapaneseText>ウォンティガ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -54,12 +45,20 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4514</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1244,1266,1291,1313,1419,1606,3439,3592</PointerOffset>
+      <JapaneseText>石像</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>6</Id>
@@ -73,231 +72,58 @@
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>7749</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>196</PointerOffset>
-      <JapaneseText>ウォンティガの聖殿・一階</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>199</PointerOffset>
       <JapaneseText>ウォンティガの聖殿</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>877</PointerOffset>
-      <JapaneseText>game=&lt;Unk17:386405&gt; &lt;Unk17:38d404&gt; &lt;Unk17:38d804&gt; &lt;Unk17:38dc04&gt; &lt;Unk17:38e004&gt; &lt;Unk17:38e404&gt; &lt;Unk17:38e804&gt; &lt;Unk17:38ec04&gt; &lt;Unk17:38f004&gt; &lt;Unk17:38f404&gt; &lt;Unk17:38f804&gt; &lt;Unk17:38fc04&gt; &lt;Unk17:380005&gt; </JapaneseText>
+      <PointerOffset>196</PointerOffset>
+      <JapaneseText>ウォンティガの聖殿・一階</JapaneseText>
       <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>4221</PointerOffset>
+      <VoiceId>2f000005</VoiceId>
+      <JapaneseText>我が力を求めし者たちよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1247</PointerOffset>
-      <JapaneseText>過去を悔やみ、
-未来を憂う事なかれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1269</PointerOffset>
-      <JapaneseText>希望とは、
-一歩前に進む勇気なり。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1294</PointerOffset>
-      <JapaneseText>過去を悔やみ、
-未来を憂う事なかれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1316</PointerOffset>
-      <JapaneseText>希望とは、
-一歩前に進む勇気なり。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1422</PointerOffset>
-      <JapaneseText>時の流れを進めよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1609</PointerOffset>
-      <JapaneseText>時の流れを戻せ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1743</PointerOffset>
-      <JapaneseText>い</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2022</PointerOffset>
-      <JapaneseText>ろ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2460</PointerOffset>
-      <JapaneseText>は</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2487</PointerOffset>
-      <JapaneseText>に</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2516</PointerOffset>
-      <JapaneseText>ほ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2735</PointerOffset>
-      <JapaneseText>へ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2887</PointerOffset>
-      <JapaneseText>と</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3026</PointerOffset>
-      <JapaneseText>ち</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3139</PointerOffset>
-      <JapaneseText>り</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3372</PointerOffset>
-      <JapaneseText>成功-&gt;逆に回れ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3442</PointerOffset>
-      <JapaneseText>時の流れを戻せ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3595</PointerOffset>
-      <JapaneseText>過去を悔やみ、
-未来を憂う事なかれ。{02}希望とは、
-一歩前に進む勇気なり。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4221</PointerOffset>
-      <VoiceId>2f000005</VoiceId>
-      <JapaneseText>我が力を求めし者たちよ。</JapaneseText>
-      <EnglishText>Hear, ye who seek my power...</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>22</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>4286</PointerOffset>
       <VoiceId>2f000006</VoiceId>
       <JapaneseText>……この声は……!?</JapaneseText>
-      <EnglishText>Whose voice is this?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <Id>4</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4308</PointerOffset>
       <VoiceId>2f000007</VoiceId>
       <JapaneseText>私の名は、聖獣ウォンティガ。
 君たちはなぜ、私の力を求めるのか？</JapaneseText>
-      <EnglishText>I am the Sacred Beast known as
-Wontiga. Tell me, what brings you here
-in search of my power?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4352</PointerOffset>
@@ -306,14 +132,11 @@ in search of my power?</EnglishText>
 種族の争いを止めるため、
 かつてのような共存関係を
 取り戻すためだ。</JapaneseText>
-      <EnglishText>We need your power so that we
-can vanquish Geyorkias's
-&lt;Blue&gt;Will&lt;White&gt; and restore peace between the
-races.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4380</PointerOffset>
@@ -322,24 +145,21 @@ races.</EnglishText>
 心から望んでいるのか？
 異なる種族が共存できると、
 本当に信じているのか？</JapaneseText>
-      <EnglishText>Do you truly desire that from
-the bottom of your hearts? Do you
-truly believe that different races
-can coexist?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4420</PointerOffset>
       <VoiceId>2f00000a</VoiceId>
       <JapaneseText>当然だ！</JapaneseText>
-      <EnglishText>You bet!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4481</PointerOffset>
@@ -348,53 +168,118 @@ can coexist?</EnglishText>
 見せてもらおうではないか。
 その決意が本物であるならば、
 風は、君たちを私のもとへ誘うだろう。</JapaneseText>
-      <EnglishText>If that is so, then will you
-not prove to me your resolve? If
-you have truly resolved yourselves,
-then the wind shall guide you to
-where I reside.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4517</PointerOffset>
       <VoiceId>2f00000c</VoiceId>
       <JapaneseText>行こう。</JapaneseText>
-      <EnglishText>Let's go.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>1247</PointerOffset>
+      <JapaneseText>過去を悔やみ、
+未来を憂う事なかれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1269</PointerOffset>
+      <JapaneseText>希望とは、
+一歩前に進む勇気なり。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1294</PointerOffset>
+      <JapaneseText>過去を悔やみ、
+未来を憂う事なかれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1316</PointerOffset>
+      <JapaneseText>希望とは、
+一歩前に進む勇気なり。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1422</PointerOffset>
+      <JapaneseText>時の流れを進めよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1609</PointerOffset>
+      <JapaneseText>時の流れを戻せ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-0</Section>
+    <Entry>
+      <PointerOffset>3442</PointerOffset>
+      <JapaneseText>時の流れを戻せ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3595</PointerOffset>
+      <JapaneseText>過去を悔やみ、
+未来を憂う事なかれ。{02}希望とは、
+一歩前に進む勇気なり。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5907</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7575</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7653</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>32</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

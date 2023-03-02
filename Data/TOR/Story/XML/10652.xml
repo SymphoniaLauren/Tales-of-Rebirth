@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,11 +9,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>865,906,944,985,1038,1089,1260,1296,1341,1420,1447</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>2792</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1420,1447,1341,1296,1260,1038,1089,865,906,944,985</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -22,7 +29,7 @@
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>1</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -30,7 +37,7 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -38,57 +45,41 @@
       <JapaneseText>&lt;Unk19:d0ff1fc822e00c&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2792</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4637</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>259</PointerOffset>
-      <JapaneseText>首都バルカ・民家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>262</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>271</PointerOffset>
-      <JapaneseText>首都バルカ・ジベールの家</JapaneseText>
+      <PointerOffset>259</PointerOffset>
+      <JapaneseText>首都バルカ・民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>274</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>271</PointerOffset>
+      <JapaneseText>首都バルカ・ジベールの家</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
@@ -96,7 +87,7 @@
       <PointerOffset>575</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
@@ -104,171 +95,36 @@
       <PointerOffset>587</PointerOffset>
       <JapaneseText>ジベールの家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
-      <PointerOffset>868</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『書類かばん』
-使い込まれた皮製の書類かばん。
-色合いがなかなかいい感じ。
-</JapaneseText>
+      <PointerOffset>2795</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>909</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『かばんの中身』
-中には書類がつまっている。
-重要な機密かもしれない。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>947</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『書類かばん』
-使い込まれた皮製の書類かばん。
-色合いがなかなかいい感じ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>988</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『かばんの中身』
-ハックの旅行記の原稿が
-雑然と詰め込まれている。
-字はあまりうまくない。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1041</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『お皿の料理』
-中から甘い香りがする。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1092</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『大きなケーキ』
-大きなイチゴと見せかけて、
-巨大なサクランボのトッピング。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1128</PointerOffset>
-      <JapaneseText>うう、食べたーい！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1168</PointerOffset>
-      <JapaneseText>ううん、ウマそうだけど
-シロウトのふたつ星作品だな……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1191</PointerOffset>
-      <JapaneseText>クリームがすそまで
-キチンと塗ってあれば
-三ツ星なんだがなぁ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1217</PointerOffset>
-      <JapaneseText>サクランボケーキ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1263</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『黄色のマフマフ』　作／ハック
-ザピィそっくりなマフマフが
-飛び跳ねるさまが描かれている。
-ハックが旅先でスケッチしたもの。
-上手ではないが味がある。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1299</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『あの人と髪かざり』　作／ハック
-緑色の髪の女性の後姿。
-髪に飾られた赤い花は、
-ペトナジャンカあたりで
-よく見られる花。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1344</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『盆栽』　作／ジベール
-カレギア城の形に整えられた
-ピピスタサボテンの盆栽。
-市場に出せば、１０万ガルド以上の
-値段が付く傑作。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
       <PointerOffset>1423</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『コルクボード』
 旅先から送られて来た手紙の数々。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>20</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -279,38 +135,176 @@
 ピンチにあって、誰かに助けて
 もらった事ばかり書いてある。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>1344</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『盆栽』　作／ジベール
+カレギア城の形に整えられた
+ピピスタサボテンの盆栽。
+市場に出せば、１０万ガルド以上の
+値段が付く傑作。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
+    <Entry>
+      <PointerOffset>1299</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『あの人と髪かざり』　作／ハック
+緑色の髪の女性の後姿。
+髪に飾られた赤い花は、
+ペトナジャンカあたりで
+よく見られる花。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-4</Section>
+    <Entry>
+      <PointerOffset>1263</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『黄色のマフマフ』　作／ハック
+ザピィそっくりなマフマフが
+飛び跳ねるさまが描かれている。
+ハックが旅先でスケッチしたもの。
+上手ではないが味がある。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-5</Section>
+    <Entry>
+      <PointerOffset>1041</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『お皿の料理』
+中から甘い香りがする。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1092</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『大きなケーキ』
+大きなイチゴと見せかけて、
+巨大なサクランボのトッピング。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1128</PointerOffset>
+      <JapaneseText>うう、食べたーい！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1168</PointerOffset>
+      <JapaneseText>ううん、ウマそうだけど
+シロウトのふたつ星作品だな……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1191</PointerOffset>
+      <JapaneseText>クリームがすそまで
+キチンと塗ってあれば
+三ツ星なんだがなぁ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1217</PointerOffset>
+      <JapaneseText>サクランボケーキ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-6</Section>
+    <Entry>
+      <PointerOffset>868</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『書類かばん』
+使い込まれた皮製の書類かばん。
+色合いがなかなかいい感じ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>909</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『かばんの中身』
+中には書類がつまっている。
+重要な機密かもしれない。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>947</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『書類かばん』
+使い込まれた皮製の書類かばん。
+色合いがなかなかいい感じ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2795</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
+      <PointerOffset>988</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『かばんの中身』
+ハックの旅行記の原稿が
+雑然と詰め込まれている。
+字はあまりうまくない。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4463</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4541</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

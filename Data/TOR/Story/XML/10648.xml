@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,35 +9,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>695,740,785,8086,8199,8312,8427,8543,8659,8785,8931,9004,9262</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>2975,7976,6499,6686,6266,6346</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>810,810,810,810,810,810,810,6243,6323,6476,6619,6641,6663,6754,6825,6847,6881,6938,6966,6995,7017,7134,7182,7204,7252,7274,7398,7426,7486,7508,7542,7570</PointerOffset>
-      <JapaneseText>学芸員</JapaneseText>
+      <PointerOffset>8086,8199,8312,8427,8543,8659,8785,8931,9004,9262,785,740,695</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2975,6266,6346,6499,6686,7976</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4820,7081,8864,9095,9195</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,7 +29,15 @@
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9328,8864,9095,9195,7081,7347</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -54,7 +45,7 @@
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -62,7 +53,7 @@
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -70,7 +61,7 @@
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>7</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -78,7 +69,7 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -86,7 +77,7 @@
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>9</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -94,7 +85,7 @@
       <JapaneseText>クレア</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>10</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -102,25 +93,33 @@
       <JapaneseText>アガーテ</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>810,810,810,810,7542,7570,6966,6995,7017,7134,7182,7204,7252,7274,7398,7426,7486,7508,6938,6476,6619,6641,6663,6825,6847,6754,6881,6243,6323,810,810,810</PointerOffset>
+      <JapaneseText>学芸員</JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>200</PointerOffset>
-      <JapaneseText>首都バルカ博物館・展示室</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>203</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>200</PointerOffset>
+      <JapaneseText>首都バルカ博物館・展示室</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -128,532 +127,54 @@
       <PointerOffset>268</PointerOffset>
       <JapaneseText>博物館・展示室</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>698</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『カレギア王国紋章』
-我ら　ふたつの身体をひとつの心とし
-友愛と団結の旗の下　共に戦い歩み
-安らぎを大地にもたらさん。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>743</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『カレギア歴史大全』
-カレギアの歴史が
-つづられた歴史事典。
-長い歳月をかけて作られた。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>788</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『カレギア博物館へようこそ！』
-展示物にはお手を触れませんよう。
-なお、当館は禁煙となっております。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>848</PointerOffset>
-      <JapaneseText>何か珍しいものは……
-持っておらんようだの……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>902</PointerOffset>
-      <JapaneseText>ゴルドバの使っていた薬？
-むむむ……貴重品ゆえに
-やる事はできないな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>924</PointerOffset>
-      <JapaneseText>悪いな……薬が必要ならば、
-店を当たってくれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>958</PointerOffset>
-      <JapaneseText>何か珍しいものは……
-持っておらんようだの……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1026</PointerOffset>
-      <JapaneseText>当館では珍しいものがあれば、
-いつでも買い取りたいと
-思っておる。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1048</PointerOffset>
-      <JapaneseText>あんたらは……
-ふむ……むむむ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1070</PointerOffset>
-      <JapaneseText>……別段、珍しいものは
-持っておらんな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1495</PointerOffset>
-      <JapaneseText>take7</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1543</PointerOffset>
-      <JapaneseText>take8</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1559</PointerOffset>
-      <JapaneseText>take9</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1645</PointerOffset>
-      <JapaneseText>take10</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>2978</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>18</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>4646</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4724</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6246</PointerOffset>
-      <JapaneseText>旅のお方とお見受けするが、
-私の話を聞いては
-くれないだろうか？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6269</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　話を聞く　
-　先を急ぐ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6326</PointerOffset>
-      <JapaneseText>おお!　ありがたい。
-実は、キョグエンで開催されている
-オークションで、新たな展示用の品を
-落札してきてほしいんだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6349</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6479</PointerOffset>
-      <JapaneseText>たびたび申し訳ないが、
-新たな展示用の品を
-また落札してきてくれないか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6502</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6622</PointerOffset>
-      <JapaneseText>落札してきて欲しい品物は
-「&lt;Unk1A:38d004&gt;」だ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6644</PointerOffset>
-      <JapaneseText>予算は
-&lt;Unk17:38d404&gt;ガルドでお願いしたいのだが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6666</PointerOffset>
-      <JapaneseText>わかったかね？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>29</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6689</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
-　いいえ　
-　依頼を受けない　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6757</PointerOffset>
-      <JapaneseText>うむ……
-もう一度言うぞ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6828</PointerOffset>
-      <JapaneseText>うむ。頼んだぞ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>32</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6850</PointerOffset>
-      <JapaneseText>お金は、品物と引き換えで
-渡すので、心配しないでくれたまえ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>33</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6884</PointerOffset>
-      <JapaneseText>そうか……仕方がないな。
-気が変わったらいつでも
-声をかけてくれたまえ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6941</PointerOffset>
-      <JapaneseText>あなた方に依頼した品は
-「&lt;Unk1A:38d004&gt;」だ。
-&lt;Unk17:38d404&gt;ガルドでお願いしたい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>35</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6969</PointerOffset>
-      <JapaneseText>おお！　待ちかねたぞ！
-落札できたかね？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>36</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6998</PointerOffset>
-      <JapaneseText>ふむ……
-これは素晴らしい！
-ぜひ飾らせてもらうよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>37</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7020</PointerOffset>
-      <JapaneseText>これは約束の予算だ。
-受け取ってくれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7084</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;font:80000002&gt;&lt;scale:0140&gt;&lt;Green&gt;&lt;Unk17:38d404&gt;ガルド手に入れました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>39</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7137</PointerOffset>
-      <JapaneseText>これを目当てにした入館者も
-きっと増えるだろう。
-本当にありがとう！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>40</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7185</PointerOffset>
-      <JapaneseText>これだけ展示品の種類があれば
-大盛況間違いなしだ。
-本当にありがとう！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7207</PointerOffset>
-      <JapaneseText>これは感謝のしるしだ！
-ぜひ、ぜひ、受け取ってくれたまえ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>42</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7255</PointerOffset>
-      <JapaneseText>……ちゃちな謝礼だと思っているね？
-こういった世界の貢献者は、
-お金よりも名誉を重んじるのだよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>43</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7277</PointerOffset>
-      <JapaneseText>これならば、どうだ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>44</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7347</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7401</PointerOffset>
-      <JapaneseText>評判が良いのは
-どの展示品だと思う？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7429</PointerOffset>
-      <JapaneseText>わかった。
-参考にさせてもらうよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7489</PointerOffset>
-      <JapaneseText>ふむ……
-落札できなかったのか。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>48</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7511</PointerOffset>
-      <JapaneseText>私はいつまででも待っているから、
-あきらめずに頑張ってくれ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>49</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7545</PointerOffset>
-      <JapaneseText>評判が良いのは
-どの展示品だと思う？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>50</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7573</PointerOffset>
-      <JapaneseText>わかった。
-参考にさせてもらうよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7943</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>52</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7979</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk18:4464&gt;&lt;Unk18:4460&gt;&lt;Unk18:445c&gt;&lt;Unk18:4458&gt;&lt;Unk18:4454&gt;&lt;Unk18:4450&gt;&lt;Unk18:444c&gt;&lt;Unk18:4448&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>53</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
       <PointerOffset>8089</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『スールズ牛乳印のミルク缶』
 スールズではありふれた品だが、
 仰々しく飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>54</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>8112</PointerOffset>
       <JapaneseText>わざわざ飾る必要があるのか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>55</Id>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -662,18 +183,18 @@
 愛くるしいブッシュベイビーの像が
 飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>56</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>8225</PointerOffset>
       <JapaneseText>なんか、カワイイよね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>57</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -682,19 +203,19 @@
 初代カレギア王が武術の稽古の際に
 身につけていた鎧が飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>58</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>8338</PointerOffset>
-      <JapaneseText>このような由緒ある{9C}{5E}品こそ、
+      <JapaneseText>このような由緒ある逸品こそ、
 展示されるにふさわしい。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>59</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -703,9 +224,9 @@
 宮廷画家の作による抽象画。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>60</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -714,9 +235,9 @@
 確固としたテーマが込められた
 素晴らしい作品ですね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>61</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -726,9 +247,9 @@
 金のフライパンと銀のおたまが
 飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>62</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -737,9 +258,9 @@
 思う存分料理を作ってみたいぜ！
 伝説の料理ができるかもな！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>63</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -748,9 +269,9 @@
 千の音色を奏でると称される
 名匠作のチェロが飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>64</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -758,9 +279,9 @@
       <JapaneseText>たまには弾いてあげないと
 かわいそうよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>8</SpeakerId>
       <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>65</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -769,9 +290,9 @@
 ピピスタ特産の肌触りの柔らかな
 麻織物が飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>66</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -779,9 +300,9 @@
       <JapaneseText>特産物って言うだけあって
 素敵な麻織物よね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>67</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -789,9 +310,9 @@
       <JapaneseText>&lt;Green&gt;クレアは
 称号『&lt;item:1000009e&gt;』を取得しました。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>68</Id>
+      <Notes/>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -800,20 +321,20 @@
 ピピスタ特産の肌触りの柔らかな
 麻織物が飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>69</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9007</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『ゴージャスドレス』
-初代カレギア王否が着ていたという
+初代カレギア王妃が着ていたという
 ゴージャスなドレスが飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>70</Id>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -821,9 +342,9 @@
       <JapaneseText>きれい……
 私に……似合うかしら？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>71</Id>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -831,9 +352,9 @@
       <JapaneseText>&lt;Green&gt;クレアは
 称号『&lt;item:10000095&gt;』を取得しました。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>72</Id>
+      <Notes/>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -841,9 +362,9 @@
       <JapaneseText>きれい……
 私に……似合うかしら？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>10</SpeakerId>
       <Notes/>
-      <SpeakerId>11</SpeakerId>
-      <Id>73</Id>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -851,28 +372,468 @@
       <JapaneseText>&lt;Green&gt;アガーテは
 称号『&lt;item:10000095&gt;』を取得しました。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>74</Id>
+      <Notes/>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9265</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『ゴージャスドレス』
-初代カレギア王否が着ていたという
+初代カレギア王妃が着ていたという
 ゴージャスなドレスが飾られている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>75</Id>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>848</PointerOffset>
+      <JapaneseText>何か珍しいものは……
+持っておらんようだの……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>9328</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>902</PointerOffset>
+      <JapaneseText>ゴルドバの使っていた薬？
+むむむ……貴重品ゆえに
+やる事はできないな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>11</SpeakerId>
       <Notes/>
-      <Id>76</Id>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>924</PointerOffset>
+      <JapaneseText>悪いな……薬が必要ならば、
+店を当たってくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>958</PointerOffset>
+      <JapaneseText>何か珍しいものは……
+持っておらんようだの……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7545</PointerOffset>
+      <JapaneseText>評判が良いのは
+どの展示品だと思う？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7979</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk18:4464&gt;&lt;Unk18:4460&gt;&lt;Unk18:445c&gt;&lt;Unk18:4458&gt;&lt;Unk18:4454&gt;&lt;Unk18:4450&gt;&lt;Unk18:444c&gt;&lt;Unk18:4448&gt;</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7573</PointerOffset>
+      <JapaneseText>わかった。
+参考にさせてもらうよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6969</PointerOffset>
+      <JapaneseText>おお！　待ちかねたぞ！
+落札できたかね？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6998</PointerOffset>
+      <JapaneseText>ふむ……
+これは素晴らしい！
+ぜひ飾らせてもらうよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7020</PointerOffset>
+      <JapaneseText>これは約束の予算だ。
+受け取ってくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7084</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;font:80000002&gt;&lt;scale:0140&gt;&lt;Green&gt;&lt;Unk17:3804d4&gt;ガルド手に入れました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7137</PointerOffset>
+      <JapaneseText>これを目当てにした入館者も
+きっと増えるだろう。
+本当にありがとう！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7185</PointerOffset>
+      <JapaneseText>これだけ展示品の種類があれば
+大盛況間違いなしだ。
+本当にありがとう！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7207</PointerOffset>
+      <JapaneseText>これは感謝のしるしだ！
+ぜひ、ぜひ、受け取ってくれたまえ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7255</PointerOffset>
+      <JapaneseText>……ちゃちな謝礼だと思っているね？
+こういった世界の貢献者は、
+お金よりも名誉を重んじるのだよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7277</PointerOffset>
+      <JapaneseText>これならば、どうだ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7401</PointerOffset>
+      <JapaneseText>評判が良いのは
+どの展示品だと思う？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7429</PointerOffset>
+      <JapaneseText>わかった。
+参考にさせてもらうよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7489</PointerOffset>
+      <JapaneseText>ふむ……
+落札できなかったのか。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7511</PointerOffset>
+      <JapaneseText>私はいつまででも待っているから、
+あきらめずに頑張ってくれ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6941</PointerOffset>
+      <JapaneseText>あなた方に依頼した品は
+「&lt;Unk1A:3804d0&gt;」だ。
+&lt;Unk17:3804d4&gt;ガルドでお願いしたい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6479</PointerOffset>
+      <JapaneseText>たびたび申し訳ないが、
+新たな展示用の品を
+また落札してきてくれないか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6502</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6622</PointerOffset>
+      <JapaneseText>落札してきて欲しい品物は
+「&lt;Unk1A:3804d0&gt;」だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6644</PointerOffset>
+      <JapaneseText>予算は
+&lt;Unk17:3804d4&gt;ガルドでお願いしたいのだが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6666</PointerOffset>
+      <JapaneseText>わかったかね？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>54</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6689</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
+　いいえ　
+　依頼を受けない　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>55</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6828</PointerOffset>
+      <JapaneseText>うむ。頼んだぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6850</PointerOffset>
+      <JapaneseText>お金は、品物と引き換えで
+渡すので、心配しないでくれたまえ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6757</PointerOffset>
+      <JapaneseText>うむ……
+もう一度言うぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6884</PointerOffset>
+      <JapaneseText>そうか……仕方がないな。
+気が変わったらいつでも
+声をかけてくれたまえ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6246</PointerOffset>
+      <JapaneseText>旅のお方とお見受けするが、
+私の話を聞いては
+くれないだろうか？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>60</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6269</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　話を聞く　
+　先を急ぐ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>61</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6326</PointerOffset>
+      <JapaneseText>おお!　ありがたい。
+実は、キョグエンで開催されている
+オークションで、新たな展示用の品を
+落札してきてほしいんだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6349</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1026</PointerOffset>
+      <JapaneseText>当館では珍しいものがあれば、
+いつでも買い取りたいと
+思っておる。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>64</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1048</PointerOffset>
+      <JapaneseText>あんたらは……
+ふむ……むむむ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>65</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1070</PointerOffset>
+      <JapaneseText>……別段、珍しいものは
+持っておらんな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>66</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
+    <Entry>
+      <PointerOffset>788</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『カレギア博物館へようこそ！』
+展示物にはお手を触れませんよう。
+なお、当館は禁煙となっております。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>67</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-4</Section>
+    <Entry>
+      <PointerOffset>743</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『カレギア歴史大全』
+カレギアの歴史が
+つづられた歴史事典。
+長い歳月をかけて作られた。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>68</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-5</Section>
+    <Entry>
+      <PointerOffset>698</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『カレギア王国紋章』
+我ら　ふたつの身体をひとつの心とし
+友愛と団結の旗の下　共に戦い歩み
+安らぎを大地にもたらさん。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>69</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,61 +9,53 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>413,449,485,521,557</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>5235,2633,724</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>586,586,586,586,586</PointerOffset>
-      <JapaneseText>装備品屋「鋭きくちばし」</JapaneseText>
+      <PointerOffset>2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459</PointerOffset>
+      <JapaneseText>道具屋「風の羽」</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>724,2633,5235</PointerOffset>
-      <JapaneseText>select</JapaneseText>
+      <PointerOffset>586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586,586</PointerOffset>
+      <JapaneseText>装備品屋「鋭きくちばし」</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459,2459</PointerOffset>
-      <JapaneseText>道具屋「風の羽」</JapaneseText>
+      <PointerOffset>557,521,485,449,413</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>7080</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>172</PointerOffset>
-      <JapaneseText>ピピスタ・道具屋・装備品屋</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>175</PointerOffset>
       <JapaneseText>ピピスタ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>172</PointerOffset>
+      <JapaneseText>ピピスタ・道具屋・装備品屋</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -72,530 +63,45 @@
       <PointerOffset>184</PointerOffset>
       <JapaneseText>道具屋・装備品屋</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
-      <PointerOffset>416</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ピピスタのみやげもの』
-鳥の羽を使った魔よけのお守りや
-鳥のクチバシの形の置物などと
-いった、工芸品が並んでいる。
-「店長のおすすめ　ミニ・鳥柱」</JapaneseText>
+      <PointerOffset>5238</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>452</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『鳥の木の柱』
-店の入口に置かれているものと同じもの。
-死者は鳥になるという考えのもと、
-先祖を慰霊するために建てられる。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>488</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『湿原情景』
-ゼレン湿原の風景を墨で描いた絵。
-荒々しい筆致の中に
-細密な線も織り込まれている。
-湿原の情景がなまなましく表れている。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>524</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ピピスタのみやげもの』
-ツルベナ荒野の地上絵のポスターや
-石を削って作った置物などが
-並んでいる。
-「ドバル酋長のおすすめ　重石」</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>560</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ピピスタのみやげもの』
-鳥を模した置物や、小物、
-ピピスタの昔話の本などが
-並んでいる。
-「店員のおすすめ　秘密」</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>635</PointerOffset>
-      <JapaneseText>な、何なのこの音……
-すごく近くから聞こえるわ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>679</PointerOffset>
-      <JapaneseText>いらっしゃいませ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>704</PointerOffset>
-      <JapaneseText>……なに、かしら？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>727</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　武器を買う　
-　防具を買う　
-　世間話をする　
-　やめる　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>803</PointerOffset>
-      <JapaneseText>いつでもどうぞー。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>828</PointerOffset>
-      <JapaneseText>また……どうぞ？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>973</PointerOffset>
-      <JapaneseText>見るだけはタダ。
-気に入ったら買っておくれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1001</PointerOffset>
-      <JapaneseText>また来ておくれよ。
-いつでも見るだけはタダだよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1026</PointerOffset>
-      <JapaneseText>ヒューマ向けの品がないって
-思われちゃ困るからね……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1054</PointerOffset>
-      <JapaneseText>ムリして来なくていいから。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1117</PointerOffset>
-      <JapaneseText>見るだけはタダ。
-気に入ったら買っておくれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1145</PointerOffset>
-      <JapaneseText>近いうちに新しい武器が
-入荷する予定なのよ。
-また見に来てね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1170</PointerOffset>
-      <JapaneseText>ヒューマ向けの品がないって
-思われちゃ困るからね……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1198</PointerOffset>
-      <JapaneseText>近々、新しい商品も入荷する
-予定があるけど……
-ムリして来なくていいから。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1223</PointerOffset>
-      <JapaneseText>見るだけはタダ。
-気に入ったら買っておくれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1251</PointerOffset>
-      <JapaneseText>またどうぞ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1302</PointerOffset>
-      <JapaneseText>備えあれば憂いなし！
-さあ、買った買った！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1363</PointerOffset>
-      <JapaneseText>今、新商品の入荷を検討中なの。
-また見に来てちょうだい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1394</PointerOffset>
-      <JapaneseText>道中気をつけて！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1464</PointerOffset>
-      <JapaneseText>また、どうぞ……？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1520</PointerOffset>
-      <JapaneseText>また、どうぞ……？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>29</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1551</PointerOffset>
-      <JapaneseText>ここは、ガジュマの
-村なんだけどね……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1651</PointerOffset>
-      <JapaneseText>私は前々から思っていたのよ。
-同じガジュマといっても、
-色々あるってね……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1673</PointerOffset>
-      <JapaneseText>ようやくドバル様も、その事に
-気づいてくださったわ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>32</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1698</PointerOffset>
-      <JapaneseText>本当は&lt;Red&gt;劣等民&lt;White&gt;の
-ヒューマなんかには、
-売りたくないんだけどね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>33</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1720</PointerOffset>
-      <JapaneseText>こっちは商売だしさ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1769</PointerOffset>
-      <JapaneseText>最近、何かとケンカがあるけど、
-これもヒューマに対抗するため。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>35</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1791</PointerOffset>
-      <JapaneseText>&lt;Red&gt;ニ等民&lt;White&gt;には
-我慢してもらわなきゃね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>36</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1816</PointerOffset>
-      <JapaneseText>このピピスタはドバル様の下、
-強固な身分制度で団結したんだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>37</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1838</PointerOffset>
-      <JapaneseText>あんたら、ヒューマなんて
-もう怖くないね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1887</PointerOffset>
-      <JapaneseText>ちょっと子供が帰ってこないくらいで
-あんな大騒ぎしなくてもねぇ……
-その辺で遊んでるだけだよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>39</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1909</PointerOffset>
-      <JapaneseText>問題なのは、階級が違う者が
-一緒に遊んでるって事さね……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>40</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1934</PointerOffset>
-      <JapaneseText>あんたら、ヒューマが
-探しに行くだって？
-フン、勝手におしよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1983</PointerOffset>
-      <JapaneseText>本当に、人騒がせな
-子供らだよ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>42</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2005</PointerOffset>
-      <JapaneseText>大人が決めたルールが、
-そんなに気に入らないのかねぇ。
-反抗期なのかもしれないね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>43</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2030</PointerOffset>
-      <JapaneseText>ヒューマには、私たちの村に
-首を突っ込んでほしかないね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>44</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2089</PointerOffset>
-      <JapaneseText>あんた、何だってヒューマと
-一緒にいるんだい……
-気持ち悪くないかい？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2114</PointerOffset>
-      <JapaneseText>……ヒューマとは話したくないね。
-ガジュマには心ってもんが
-あるんだからね！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2183</PointerOffset>
-      <JapaneseText>ヒューマと協力なんて、
-本当にできると思うかい？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2205</PointerOffset>
-      <JapaneseText>何十年も生きてきて、
-ほとんど何もヒューマの事を
-知らないんだよ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>48</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2230</PointerOffset>
-      <JapaneseText>……何の用だい？
-ヒューマとムダ話するほど、
-ヒマじゃないよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>49</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2293</PointerOffset>
-      <JapaneseText>最近、村から緊張感みたいな
-ものがなくなってきたよ。
-これはこれで、暮らしやすいね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>50</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2318</PointerOffset>
-      <JapaneseText>……何だい……
-少しくらいならヒューマの話も……
-聞いてやらない事もないよ？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2356</PointerOffset>
-      <JapaneseText>ヒューマと一緒に歩いてる
-ガジュマなんて珍しいね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>52</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2378</PointerOffset>
-      <JapaneseText>大丈夫かい？
-ヒューマくさくないのかい？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>53</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2403</PointerOffset>
-      <JapaneseText>ヒューマってのは、
-欲深くて困るわ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>54</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2425</PointerOffset>
-      <JapaneseText>うちは１ガルドたりとも
-オマケしないからね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
       <PointerOffset>2497</PointerOffset>
       <JapaneseText>じ、地面が揺れてるわ……！
 ど、どうなってるの!?
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>56</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2535</PointerOffset>
       <JapaneseText>ゆっくり見ていって。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>57</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -603,9 +109,9 @@
       <JapaneseText>ヒュ、ヒューマが……
 何か……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>58</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -616,27 +122,27 @@
 　やめる　
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>59</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2712</PointerOffset>
       <JapaneseText>また来てくださいね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>60</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2737</PointerOffset>
       <JapaneseText>ヒューマと話しちゃった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>61</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -644,18 +150,18 @@
       <JapaneseText>道具はこちらになります。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>62</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2813</PointerOffset>
       <JapaneseText>また今度来てください。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>63</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -663,36 +169,36 @@
       <JapaneseText>ど、道具がほしいの？
 あ、あるけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>64</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2866</PointerOffset>
       <JapaneseText>ど、どうも……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>65</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2914</PointerOffset>
       <JapaneseText>装飾品はこちらです。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>66</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2942</PointerOffset>
       <JapaneseText>また今度来てください。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>67</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -700,18 +206,18 @@
       <JapaneseText>そ、装飾品がほしいの？
 な、ない事はないけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>68</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2995</PointerOffset>
       <JapaneseText>ま、また……来るの？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>69</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -719,8 +225,9 @@
       <JapaneseText>ドバル様に
 失礼のないように。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>70</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -728,8 +235,9 @@
       <JapaneseText>何といっても&lt;Red&gt;特等民&lt;White&gt;の中の
 &lt;Red&gt;特等民&lt;White&gt;、酋長ですからね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>71</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -738,8 +246,9 @@
 ドバル様の顔を拝めるだけでも
 あ、ありがたい事……よ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>72</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -748,8 +257,9 @@
 まったく……
 下等な人たちは困るわ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>73</Id>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -758,8 +268,9 @@
 肌はノッペリ、羽も角もない
 下の下の下の劣等種……だわ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>74</Id>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -767,8 +278,9 @@
       <JapaneseText>子供がいなくなった
 ですって？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>75</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -777,8 +289,9 @@
 砂漠しかないし、地上絵でも
 見にいったのかしら……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>76</Id>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -787,8 +300,9 @@
 いつも面倒な事が……
 お、起きるのよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>77</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -797,8 +311,9 @@
 最近はヒューマもウロウロしてて、
 危険だものね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>78</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -806,8 +321,9 @@
       <JapaneseText>あなたの連れのヒューマは
 何もしないでしょうね……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>79</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -816,8 +332,9 @@
 感謝なんて……しないわよ……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>80</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -825,8 +342,9 @@
       <JapaneseText>……あなた、トッポとレイを
 連れ帰って来た……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>81</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -834,8 +352,9 @@
       <JapaneseText>……あなたの連れも、
 少しは役に立ったのかしらね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>82</Id>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -844,8 +363,9 @@
 助けるなんて……どんな……
 下心があるの……かしら？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>83</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -854,8 +374,9 @@
 階級は、とりあえず取り消しに
 なったけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>84</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -864,8 +385,9 @@
 あれこれ困っちゃうのよ……
 声、かけないで……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>85</Id>
+      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -874,8 +396,9 @@
 ないのかもしれないわね……
 ガジュマも、ヒューマも……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>86</Id>
+      <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -884,8 +407,9 @@
 ほとんど出た事がないの。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>87</Id>
+      <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -894,8 +418,9 @@
 外にはヒューマもいるし……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>88</Id>
+      <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -904,8 +429,9 @@
 話したくないの……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>89</Id>
+      <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -914,37 +440,570 @@
 見慣れなくて……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>635</PointerOffset>
+      <JapaneseText>な、何なのこの音……
+すごく近くから聞こえるわ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>679</PointerOffset>
+      <JapaneseText>いらっしゃいませ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>704</PointerOffset>
+      <JapaneseText>……なに、かしら？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>727</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　武器を買う　
+　防具を買う　
+　世間話をする　
+　やめる　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>803</PointerOffset>
+      <JapaneseText>いつでもどうぞー。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>828</PointerOffset>
+      <JapaneseText>また……どうぞ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>973</PointerOffset>
+      <JapaneseText>見るだけはタダ。
+気に入ったら買っておくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1001</PointerOffset>
+      <JapaneseText>また来ておくれよ。
+いつでも見るだけはタダだよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1026</PointerOffset>
+      <JapaneseText>ヒューマ向けの品がないって
+思われちゃ困るからね……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1054</PointerOffset>
+      <JapaneseText>ムリして来なくていいから。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1117</PointerOffset>
+      <JapaneseText>見るだけはタダ。
+気に入ったら買っておくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1145</PointerOffset>
+      <JapaneseText>近いうちに新しい武器が
+入荷する予定なのよ。
+また見に来てね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1170</PointerOffset>
+      <JapaneseText>ヒューマ向けの品がないって
+思われちゃ困るからね……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1198</PointerOffset>
+      <JapaneseText>近々、新しい商品も入荷する
+予定があるけど……
+ムリして来なくていいから。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1223</PointerOffset>
+      <JapaneseText>見るだけはタダ。
+気に入ったら買っておくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>54</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1251</PointerOffset>
+      <JapaneseText>またどうぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>55</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1302</PointerOffset>
+      <JapaneseText>備えあれば憂いなし！
+さあ、買った買った！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1363</PointerOffset>
+      <JapaneseText>今、新商品の入荷を検討中なの。
+また見に来てちょうだい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1394</PointerOffset>
+      <JapaneseText>道中気をつけて！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1464</PointerOffset>
+      <JapaneseText>また、どうぞ……？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1520</PointerOffset>
+      <JapaneseText>また、どうぞ……？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>60</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1551</PointerOffset>
+      <JapaneseText>ここは、ガジュマの
+村なんだけどね……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>61</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1651</PointerOffset>
+      <JapaneseText>私は前々から思っていたのよ。
+同じガジュマといっても、
+色々あるってね……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1673</PointerOffset>
+      <JapaneseText>ようやくドバル様も、その事に
+気づいてくださったわ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1698</PointerOffset>
+      <JapaneseText>本当は&lt;Red&gt;劣等民&lt;White&gt;の
+ヒューマなんかには、
+売りたくないんだけどね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>64</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1720</PointerOffset>
+      <JapaneseText>こっちは商売だしさ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>65</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1769</PointerOffset>
+      <JapaneseText>最近、何かとケンカがあるけど、
+これもヒューマに対抗するため。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>66</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1791</PointerOffset>
+      <JapaneseText>&lt;Red&gt;ニ等民&lt;White&gt;には
+我慢してもらわなきゃね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>67</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1816</PointerOffset>
+      <JapaneseText>このピピスタはドバル様の下、
+強固な身分制度で団結したんだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>68</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1838</PointerOffset>
+      <JapaneseText>あんたら、ヒューマなんて
+もう怖くないね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>69</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1887</PointerOffset>
+      <JapaneseText>ちょっと子供が帰ってこないくらいで
+あんな大騒ぎしなくてもねぇ……
+その辺で遊んでるだけだよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>70</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1909</PointerOffset>
+      <JapaneseText>問題なのは、階級が違う者が
+一緒に遊んでるって事さね……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>71</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1934</PointerOffset>
+      <JapaneseText>あんたら、ヒューマが
+探しに行くだって？
+フン、勝手におしよ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>72</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1983</PointerOffset>
+      <JapaneseText>本当に、人騒がせな
+子供らだよ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>73</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2005</PointerOffset>
+      <JapaneseText>大人が決めたルールが、
+そんなに気に入らないのかねぇ。
+反抗期なのかもしれないね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>74</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2030</PointerOffset>
+      <JapaneseText>ヒューマには、私たちの村に
+首を突っ込んでほしかないね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>75</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2089</PointerOffset>
+      <JapaneseText>あんた、何だってヒューマと
+一緒にいるんだい……
+気持ち悪くないかい？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>76</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2114</PointerOffset>
+      <JapaneseText>……ヒューマとは話したくないね。
+ガジュマには心ってもんが
+あるんだからね！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>77</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2183</PointerOffset>
+      <JapaneseText>ヒューマと協力なんて、
+本当にできると思うかい？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>78</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2205</PointerOffset>
+      <JapaneseText>何十年も生きてきて、
+ほとんど何もヒューマの事を
+知らないんだよ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>79</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2230</PointerOffset>
+      <JapaneseText>……何の用だい？
+ヒューマとムダ話するほど、
+ヒマじゃないよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>80</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2293</PointerOffset>
+      <JapaneseText>最近、村から緊張感みたいな
+ものがなくなってきたよ。
+これはこれで、暮らしやすいね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>81</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2318</PointerOffset>
+      <JapaneseText>……何だい……
+少しくらいならヒューマの話も……
+聞いてやらない事もないよ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>82</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2356</PointerOffset>
+      <JapaneseText>ヒューマと一緒に歩いてる
+ガジュマなんて珍しいね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>83</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2378</PointerOffset>
+      <JapaneseText>大丈夫かい？
+ヒューマくさくないのかい？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>84</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2403</PointerOffset>
+      <JapaneseText>ヒューマってのは、
+欲深くて困るわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>85</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2425</PointerOffset>
+      <JapaneseText>うちは１ガルドたりとも
+オマケしないからね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>86</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
+    <Entry>
+      <PointerOffset>560</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ピピスタのみやげもの』
+鳥を模した置物や、小物、
+ピピスタの昔話の本などが
+並んでいる。
+「店員のおすすめ　秘密」</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>87</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-4</Section>
+    <Entry>
+      <PointerOffset>524</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ピピスタのみやげもの』
+ツルベナ荒野の地上絵のポスターや
+石を削って作った置物などが
+並んでいる。
+「ドバル酋長のおすすめ　重石」</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>88</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-5</Section>
+    <Entry>
+      <PointerOffset>488</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『湿原情景』
+ゼレン湿原の風景を墨で描いた絵。
+荒々しい筆致の中に
+細密な線も織り込まれている。
+湿原の情景がなまなましく表れている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>89</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-6</Section>
+    <Entry>
+      <PointerOffset>452</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『鳥の木の柱』
+店の入口に置かれているものと同じもの。
+死者は鳥になるという考えのもと、
+先祖を慰霊するために建てられる。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
       <Id>90</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-7</Section>
     <Entry>
-      <PointerOffset>5238</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
+      <PointerOffset>416</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ピピスタのみやげもの』
+鳥の羽を使った魔よけのお守りや
+鳥のクチバシの形の置物などと
+いった、工芸品が並んでいる。
+「店長のおすすめ　ミニ・鳥柱」</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
       <Id>91</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6906</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>92</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6984</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>93</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

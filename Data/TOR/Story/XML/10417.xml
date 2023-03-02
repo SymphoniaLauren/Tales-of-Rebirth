@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,35 +9,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1401,1518,7870</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>1584,2218,1584,2218,3335,3335,3335,3335</PointerOffset>
+      <JapaneseText>男の子</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1551</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1576,1576,1576,1576,1576,1576,2210,2210,2210,2210,2210,2210,3327,3327,3327,3327,3327</PointerOffset>
+      <PointerOffset>1576,2210,1576,2210,1576,2210,1576,2210,3327,3327,3327,3327,3327,3327,3327</PointerOffset>
       <JapaneseText>女の人</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1584,1584,1584,1584,1584,1584,2218,2218,2218,2218,2218,2218,3335,3335,3335,3335,3335</PointerOffset>
-      <JapaneseText>男の子</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,7 +29,7 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -54,7 +37,7 @@
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -62,7 +45,15 @@
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4468,1401,1518</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -70,144 +61,48 @@
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1551</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>819</PointerOffset>
-      <JapaneseText>登山洞</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>822</PointerOffset>
       <JapaneseText>登山洞</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>819</PointerOffset>
+      <JapaneseText>登山洞</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>1306</PointerOffset>
-      <JapaneseText>get_bg_anime_param(BG2,BG2Xy0_sikake_0,BGA_PNO)&lt;Unk17:c3c0c1e074&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1404</PointerOffset>
-      <JapaneseText>&lt;Green&gt;格子が開きました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1521</PointerOffset>
-      <JapaneseText>&lt;Green&gt;格子を閉じました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1532</PointerOffset>
-      <JapaneseText>get_bg_anime_param(BG2,BG2Xy0_sikake_0,BGA_PNO)&lt;Unk17:c3c0c1e074&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1554</PointerOffset>
-      <JapaneseText>&lt;Green&gt;レバーが壊れていて動かない。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1687</PointerOffset>
-      <JapaneseText>扉を開けるためには、
-&lt;Cyan&gt;ナカコ鉱石&lt;White&gt;が必要なんですね？
-どうか、その鉱石を……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1718</PointerOffset>
-      <JapaneseText>うぇーん！
-ママーっ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1762</PointerOffset>
-      <JapaneseText>だ、大丈夫よ！
-あのおじちゃんが
-レバーを直してくれるからね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1878</PointerOffset>
-      <JapaneseText>扉を開けるためには、
-「ナカコ鉱石」が必要なんですね？
-どうか、その鉱石を……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1909</PointerOffset>
-      <JapaneseText>うぇーん！
-ママーっ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1953</PointerOffset>
-      <JapaneseText>だ、大丈夫よ！
-あのおじちゃんが
-レバーを直してくれるからね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>2234</PointerOffset>
       <JapaneseText>うぇーん！　ママーっ！
 早く出たいよぉーっ!!
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>14</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -215,18 +110,18 @@
       <JapaneseText>だ、大丈夫？
 どこか痛いところはない？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>15</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2290</PointerOffset>
       <JapaneseText>どうしたんだ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>16</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -235,9 +130,9 @@
 出られなくなっちゃったのー！
 うぇーん!　出してよぉーっ!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>17</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -246,9 +141,9 @@
 絶対触らないようにと、
 注意していたんですが……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>18</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -256,9 +151,9 @@
       <JapaneseText>それなら、&lt;Eugene&gt;だな！
 扉を壊すなんて朝飯前だぜ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>19</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -267,9 +162,9 @@
 そんなことをしたら、洞窟の壁が
 崩落してしまうかもしれません!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>20</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -278,9 +173,9 @@
 扉を壊さずにお子さんを助ける
 方法を考えてみよう。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>21</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -288,27 +183,27 @@
       <JapaneseText>本当ですか……!?
 ありがとうございます！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>22</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2559</PointerOffset>
       <JapaneseText>……ううむ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>23</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2580</PointerOffset>
       <JapaneseText>どうした？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>24</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -317,9 +212,9 @@
 部品に見た事のない金属が
 使われているんだ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>25</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -327,9 +222,9 @@
       <JapaneseText>おお、こいつは
 &lt;Cyan&gt;ナカコ鋼&lt;White&gt;だぜ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>26</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -338,9 +233,9 @@
 かなり珍しい鉱石を
 加工して作ったものなんだ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>27</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -348,18 +243,18 @@
       <JapaneseText>だったら、それを探すしかないな。
 この親子のためにも急ごう。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>28</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2956</PointerOffset>
       <JapaneseText>どこへ行けばいい？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>29</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -368,9 +263,9 @@
 覚えがあるんだけど……
 誰だったっけなぁ……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>30</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -378,18 +273,18 @@
       <JapaneseText>鉱石は……&lt;Cyan&gt;ナカコ鉱石&lt;White&gt;は
 見つかったんですか!？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>31</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3404</PointerOffset>
       <JapaneseText>遅くなりましたが、ここに。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>32</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -398,9 +293,9 @@
 俺のフォルスで鉱石を
 加工するだけだ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>33</Id>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -408,9 +303,9 @@
       <JapaneseText>加工が難しいと言っていた
 ……できるのか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>34</Id>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -418,18 +313,18 @@
       <JapaneseText>とにかく、やってみるしか
 あるまい。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>35</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3969</PointerOffset>
       <JapaneseText>……よしっ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>36</Id>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -437,9 +332,9 @@
       <JapaneseText>うぇーん！
 ママーっ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>37</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -447,9 +342,9 @@
       <JapaneseText>よかった！
 本当によかった!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>38</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -457,9 +352,9 @@
       <JapaneseText>よく頑張ったな。
 偉いぞ。少年！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>39</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -467,9 +362,9 @@
       <JapaneseText>ほら、やさしいおじちゃんに、
 ちゃんとお礼を言いなさい。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>40</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -477,9 +372,9 @@
       <JapaneseText>助けてくれてありがとねっ！
 おじちゃん！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2,3</SpeakerId>
-      <Id>41</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -487,9 +382,9 @@
       <JapaneseText>おじちゃん……
 おじちゃんか……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>42</Id>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -497,46 +392,126 @@
       <JapaneseText>よっしゃ、行こうぜ、
 おじちゃん！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>43</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4468</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>44</Id>
+      <SpeakerId>5</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>1687</PointerOffset>
+      <JapaneseText>扉を開けるためには、
+&lt;Cyan&gt;ナカコ鉱石&lt;White&gt;が必要なんですね？
+どうか、その鉱石を……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1718</PointerOffset>
+      <JapaneseText>うぇーん！
+ママーっ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1762</PointerOffset>
+      <JapaneseText>だ、大丈夫よ！
+あのおじちゃんが
+レバーを直してくれるからね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1878</PointerOffset>
+      <JapaneseText>扉を開けるためには、
+「ナカコ鉱石」が必要なんですね？
+どうか、その鉱石を……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1909</PointerOffset>
+      <JapaneseText>うぇーん！
+ママーっ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1953</PointerOffset>
+      <JapaneseText>だ、大丈夫よ！
+あのおじちゃんが
+レバーを直してくれるからね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>6028</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>1404</PointerOffset>
+      <JapaneseText>&lt;Green&gt;格子が開きました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1521</PointerOffset>
+      <JapaneseText>&lt;Green&gt;格子を閉じました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1554</PointerOffset>
+      <JapaneseText>&lt;Green&gt;レバーが壊れていて動かない。</JapaneseText>
+      <EnglishText/>
       <SpeakerId>7</SpeakerId>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7696</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7774</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>47</Id>
+      <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

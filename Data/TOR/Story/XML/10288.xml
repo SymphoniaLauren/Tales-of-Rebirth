@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,59 +9,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>837,879,924,1088,1373,1494,1552,1677,1932,2049,2201,2316,2601,2659</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <PointerOffset>3017,3017,3017,3017,3017</PointerOffset>
+      <JapaneseText>トーマ</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>858,900,961,1010,1060,1109,1402,1466,1523,1635,1975,2281,2680</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>989,1031,1341,1445,1606,1722,2542,2751</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1838,1954,2114,2580,2631,2702</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3009,3009,3009,3009,3009,3009,3009,3009,3009,3009</PointerOffset>
+      <PointerOffset>3009,3009</PointerOffset>
       <JapaneseText>アムジル</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3017,3017,3017,3017,3017,3017,3017,3017,3017,3017</PointerOffset>
-      <JapaneseText>トーマ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3025,3025,3025,3025,3025,3025,3025,3025,3025,3025</PointerOffset>
-      <JapaneseText>ナイラ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -70,11 +29,51 @@
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3025,3025,3025</PointerOffset>
+      <JapaneseText>ナイラ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1341,1445,1606,1722,2542,2751,989,1031</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1373,1494,1552,1677,1932,2049,2201,2316,2601,2659,837,879,924,1088</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1402,1466,1523,1635,1975,2281,2680,858,900,961,1010,1060,1109</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1838,1954,2114,2580,2631,2702</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3797,3821,3845,7463</PointerOffset>
+      <PointerOffset>2786,3797,3821,3845</PointerOffset>
       <JapaneseText>notice</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -91,39 +90,521 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>305</PointerOffset>
       <JapaneseText>迷いの森</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>314</PointerOffset>
-      <JapaneseText>迷いの森</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>317</PointerOffset>
       <JapaneseText>迷いの森</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>314</PointerOffset>
+      <JapaneseText>迷いの森</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>3111</PointerOffset>
+      <VoiceId>3400004c</VoiceId>
+      <JapaneseText>どこまで逃げるつもりだ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3133</PointerOffset>
+      <VoiceId>3400004d</VoiceId>
+      <JapaneseText>このトーマ、
+あまり気の長い方ではない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3164</PointerOffset>
+      <VoiceId>3400004e</VoiceId>
+      <JapaneseText>これ以上、わずらわせるなら、
+命の保証はできんぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3201</PointerOffset>
+      <VoiceId>3400004f</VoiceId>
+      <JapaneseText>……俺の命にかえても、
+妻と娘は守ってみせる!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3232</PointerOffset>
+      <VoiceId>34000050</VoiceId>
+      <JapaneseText>その覚悟や良し。だが!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3369</PointerOffset>
+      <VoiceId>34000051</VoiceId>
+      <JapaneseText>ぐああああぁぁぁぁぁッ……！
+ナ、ナイラ……&lt;Hilda&gt;……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3443</PointerOffset>
+      <VoiceId>34000052</VoiceId>
+      <JapaneseText>お父さん!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3488</PointerOffset>
+      <VoiceId>34000053</VoiceId>
+      <JapaneseText>あ、あなた!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3586</PointerOffset>
+      <VoiceId>34000054</VoiceId>
+      <JapaneseText>やめて!!　どうして!!
+どうしてこんな事をするの!!
+娘を……娘を返して!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3608</PointerOffset>
+      <VoiceId>34000055</VoiceId>
+      <JapaneseText>消えろ……
+同じガジュマとして、
+せめてもの情けだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3658</PointerOffset>
+      <VoiceId>34000056</VoiceId>
+      <JapaneseText>いや……
+いやぁぁぁぁぁぁぁッ!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-0</Section>
+    <Entry>
+      <PointerOffset>1344</PointerOffset>
+      <VoiceId>12000015</VoiceId>
+      <JapaneseText>「迷いの森」か……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1376</PointerOffset>
+      <VoiceId>1200000c</VoiceId>
+      <JapaneseText>ねえ、なんだか同じところを
+グルグルと回ってる気がしない……？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1405</PointerOffset>
+      <VoiceId>1200000d</VoiceId>
+      <JapaneseText>……おそらく、
+ここは「迷いの森」だろう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1448</PointerOffset>
+      <VoiceId>1200000e</VoiceId>
+      <JapaneseText>迷いの森？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1469</PointerOffset>
+      <VoiceId>1200000f</VoiceId>
+      <JapaneseText>うかつに踏み込めば、
+方向を見失って出られなくなると
+聞いた事がある。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1497</PointerOffset>
+      <VoiceId>12000010</VoiceId>
+      <JapaneseText>出られなくなったら
+ボクたちどうなっちゃうの……？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1526</PointerOffset>
+      <VoiceId>12000011</VoiceId>
+      <JapaneseText>永遠に森の中を
+さまようしかないだろうな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1555</PointerOffset>
+      <VoiceId>12000012</VoiceId>
+      <JapaneseText>うそー!?
+そんなのボク、ヤだヨー!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1609</PointerOffset>
+      <VoiceId>12000013</VoiceId>
+      <JapaneseText>ここを抜ける方法は？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1638</PointerOffset>
+      <VoiceId>12000014</VoiceId>
+      <JapaneseText>残念だが、俺は知らない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1680</PointerOffset>
+      <VoiceId>12000016</VoiceId>
+      <JapaneseText>どうしよう？
+ここを抜けないかぎり、
+ペトナジャンカへは行けないよ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1725</PointerOffset>
+      <VoiceId>12000017</VoiceId>
+      <JapaneseText>とにかく進むしかない。行こう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1841</PointerOffset>
+      <VoiceId>12000018</VoiceId>
+      <JapaneseText>そっちはダメ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1935</PointerOffset>
+      <VoiceId>12000019</VoiceId>
+      <JapaneseText>道はこっちしかないよ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1957</PointerOffset>
+      <VoiceId>1200001a</VoiceId>
+      <JapaneseText>そっちへ進んでも迷うだけ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1978</PointerOffset>
+      <VoiceId>1200001b</VoiceId>
+      <JapaneseText>この森の抜け方を知っているのか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2052</PointerOffset>
+      <VoiceId>1200001c</VoiceId>
+      <JapaneseText>どこいくの&lt;Annie&gt;？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2117</PointerOffset>
+      <VoiceId>1200001d</VoiceId>
+      <JapaneseText>正しい道はこっち。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2204</PointerOffset>
+      <VoiceId>1200001e</VoiceId>
+      <JapaneseText>ここって、
+ただの草むらなんですけど？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2284</PointerOffset>
+      <VoiceId>1200001f</VoiceId>
+      <JapaneseText>&lt;Mao&gt;、フォルスで
+そこの草むらを焼くんだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2319</PointerOffset>
+      <VoiceId>12000020</VoiceId>
+      <JapaneseText>あ、そっか……
+うん、わかった。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2545</PointerOffset>
+      <VoiceId>12000021</VoiceId>
+      <JapaneseText>こんなところに道が……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2583</PointerOffset>
+      <VoiceId>12000022</VoiceId>
+      <JapaneseText>昔、まだ人がここに住んでいた頃、
+外部の侵入者を防ぐために、
+自然を利用して迷路を作ったそうです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2604</PointerOffset>
+      <VoiceId>12000023</VoiceId>
+      <JapaneseText>へえ、よく知ってるね？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2634</PointerOffset>
+      <VoiceId>12000024</VoiceId>
+      <JapaneseText>お父さんについて医者の勉強をしてた頃、
+よくこの森に薬草を採りに来た事が
+あったから。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2662</PointerOffset>
+      <VoiceId>12000025</VoiceId>
+      <JapaneseText>へー、&lt;Annie&gt;ってお医者さん
+目指してるんだね♪</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2683</PointerOffset>
+      <VoiceId>12000026</VoiceId>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2705</PointerOffset>
+      <VoiceId>12000027</VoiceId>
+      <JapaneseText>迷路の仕掛けは他にもあるって
+聞いてます。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2754</PointerOffset>
+      <VoiceId>12000028</VoiceId>
+      <JapaneseText>そうか……気をつけて進もう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-1</Section>
+    <Entry>
+      <PointerOffset>3800</PointerOffset>
+      <JapaneseText>&lt;Green&gt;このエリアのバイラスは、
+味方キャラクターの
+ラッシュゲージが一定以下の時、
+自動的に防御をしてきます。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3824</PointerOffset>
+      <JapaneseText>&lt;Green&gt;ラッシュチャージを行ったり、
+他の味方の連携に加わるなどして、
+防御されにくい作戦を取りましょう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3848</PointerOffset>
+      <JapaneseText>&lt;Green&gt;また、&lt;Red&gt;料理&lt;Green&gt;には戦闘開始時の
+ラッシュゲージを上げる料理が
+あります。うまく利用して下さい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-2</Section>
     <Entry>
       <PointerOffset>840</PointerOffset>
       <VoiceId>12000008</VoiceId>
       <JapaneseText>同じところをグルグル回ってるよー!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
+      <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -132,9 +613,9 @@
       <JapaneseText>おそらくここは「迷いの森」だ。
 うかつに踏み込むと出られなくなる。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>5</Id>
+      <Id>49</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -143,9 +624,9 @@
       <JapaneseText>逆方向へ来ちゃったんだよ、
 ミナールは森を出て北東の方角だヨ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
+      <Id>50</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -154,9 +635,9 @@
       <JapaneseText>&lt;Annie&gt;を早く医者に診せなければ……
 ……急ごう！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
+      <Id>51</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -164,9 +645,9 @@
       <VoiceId>12000000</VoiceId>
       <JapaneseText>同じところをグルグル回ってるみたいだね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
+      <Id>52</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -175,20 +656,20 @@
       <JapaneseText>そうか……
 おそらくここは「迷いの森」だろう。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>9</Id>
+      <Id>53</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>992</PointerOffset>
       <VoiceId>12000002</VoiceId>
       <JapaneseText>迷いの森？</JapaneseText>
-      <EnglishText>Forest Labyrinth?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>10</Id>
-      <Status>Editing</Status>
+      <Id>54</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1013</PointerOffset>
@@ -196,33 +677,30 @@
       <JapaneseText>うかつに踏み込めば、
 方向を見失って出られなくなると
 聞いた事がある。</JapaneseText>
-      <EnglishText>If you enter unprepared, you
-will lose your way and become lost
-in the maze forever. Or so they
-say.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
-      <Status>Editing</Status>
+      <Id>55</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1034</PointerOffset>
       <VoiceId>12000004</VoiceId>
       <JapaneseText>ここを抜ける方法は？</JapaneseText>
-      <EnglishText>How do we get out of here?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>12</Id>
-      <Status>Editing</Status>
+      <Id>56</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1063</PointerOffset>
       <VoiceId>12000005</VoiceId>
       <JapaneseText>残念だが俺は知らない。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
+      <Id>57</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -230,9 +708,9 @@ say.</EnglishText>
       <VoiceId>12000006</VoiceId>
       <JapaneseText>うーん……どうしよっか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
+      <Id>58</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -242,542 +720,23 @@ say.</EnglishText>
 無理に迷いの森に入る必要はない。
 引き返して、ミナールへ向かおう。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1344</PointerOffset>
-      <VoiceId>12000015</VoiceId>
-      <JapaneseText>「迷いの森」か……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1376</PointerOffset>
-      <VoiceId>1200000c</VoiceId>
-      <JapaneseText>ねえ、なんだか同じところを
-グルグルと回ってる気がしない……？</JapaneseText>
-      <EnglishText>Is it just me, or does it feel
-like we've been wandering around in
-circles?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>17</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1405</PointerOffset>
-      <VoiceId>1200000d</VoiceId>
-      <JapaneseText>……おそらく、
-ここは「迷いの森」だろう。</JapaneseText>
-      <EnglishText>...This must be the Forest
-Labyrinth.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>18</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1448</PointerOffset>
-      <VoiceId>1200000e</VoiceId>
-      <JapaneseText>迷いの森？</JapaneseText>
-      <EnglishText>Forest Labyrinth?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>19</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1469</PointerOffset>
-      <VoiceId>1200000f</VoiceId>
-      <JapaneseText>うかつに踏み込めば、
-方向を見失って出られなくなると
-聞いた事がある。</JapaneseText>
-      <EnglishText>If you enter unprepared,
-you
-will lose your way and become
-lost
-in the maze forever. Or so
-they
-say.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>20</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1497</PointerOffset>
-      <VoiceId>12000010</VoiceId>
-      <JapaneseText>出られなくなったら
-ボクたちどうなっちゃうの……？</JapaneseText>
-      <EnglishText>If we don't make it out, what
-will happen to us...?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>21</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1526</PointerOffset>
-      <VoiceId>12000011</VoiceId>
-      <JapaneseText>永遠に森の中を
-さまようしかないだろうな。</JapaneseText>
-      <EnglishText>We will wander in these woods
-for all eternity, I suppose.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>22</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1555</PointerOffset>
-      <VoiceId>12000012</VoiceId>
-      <JapaneseText>うそー!?
-そんなのボク、ヤだヨー!!</JapaneseText>
-      <EnglishText>What!? You'd better be joking!</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>23</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1609</PointerOffset>
-      <VoiceId>12000013</VoiceId>
-      <JapaneseText>ここを抜ける方法は？</JapaneseText>
-      <EnglishText>How do we get out of here?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1638</PointerOffset>
-      <VoiceId>12000014</VoiceId>
-      <JapaneseText>残念だが、俺は知らない。</JapaneseText>
-      <EnglishText>I'm afraid I don't know.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1680</PointerOffset>
-      <VoiceId>12000016</VoiceId>
-      <JapaneseText>どうしよう？
-ここを抜けないかぎり、
-ペトナジャンカへは行けないよ？</JapaneseText>
-      <EnglishText>Now what? We'll never make it
-to Petnadjanka if we can't find
-our way out of here.</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1725</PointerOffset>
-      <VoiceId>12000017</VoiceId>
-      <JapaneseText>とにかく進むしかない。行こう。</JapaneseText>
-      <EnglishText>All we can do is keep going.
-Come on.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1841</PointerOffset>
-      <VoiceId>12000018</VoiceId>
-      <JapaneseText>そっちはダメ。</JapaneseText>
-      <EnglishText>That isn't the way out.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1935</PointerOffset>
-      <VoiceId>12000019</VoiceId>
-      <JapaneseText>道はこっちしかないよ？</JapaneseText>
-      <EnglishText>But this is the only direction
-the path goes in...</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1957</PointerOffset>
-      <VoiceId>1200001a</VoiceId>
-      <JapaneseText>そっちへ進んでも迷うだけ。</JapaneseText>
-      <EnglishText>Going that way will only get
-you lost.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1978</PointerOffset>
-      <VoiceId>1200001b</VoiceId>
-      <JapaneseText>この森の抜け方を知っているのか？</JapaneseText>
-      <EnglishText>Do you know these woods?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2052</PointerOffset>
-      <VoiceId>1200001c</VoiceId>
-      <JapaneseText>どこいくの&lt;Annie&gt;？</JapaneseText>
-      <EnglishText>Where are you going, &lt;Annie&gt;?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2117</PointerOffset>
-      <VoiceId>1200001d</VoiceId>
-      <JapaneseText>正しい道はこっち。</JapaneseText>
-      <EnglishText>To the correct path, which is
-here.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2204</PointerOffset>
-      <VoiceId>1200001e</VoiceId>
-      <JapaneseText>ここって、
-ただの草むらなんですけど？</JapaneseText>
-      <EnglishText>I'm pretty sure that's just a
-bush...</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>34</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2284</PointerOffset>
-      <VoiceId>1200001f</VoiceId>
-      <JapaneseText>&lt;Mao&gt;、フォルスで
-そこの草むらを焼くんだ。</JapaneseText>
-      <EnglishText>&lt;Mao&gt;, burn it with your Force.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>35</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2319</PointerOffset>
-      <VoiceId>12000020</VoiceId>
-      <JapaneseText>あ、そっか……
-うん、わかった。</JapaneseText>
-      <EnglishText>Oh, okay... I think I get it.</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>36</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2545</PointerOffset>
-      <VoiceId>12000021</VoiceId>
-      <JapaneseText>こんなところに道が……</JapaneseText>
-      <EnglishText>A hidden path...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>37</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2583</PointerOffset>
-      <VoiceId>12000022</VoiceId>
-      <JapaneseText>昔、まだ人がここに住んでいた頃、
-外部の侵入者を防ぐために、
-自然を利用して迷路を作ったそうです。</JapaneseText>
-      <EnglishText>Long ago, people lived in this
-forest. They used the surrounding plant
-life to create a maze in order to
-deter intruders.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>38</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2604</PointerOffset>
-      <VoiceId>12000023</VoiceId>
-      <JapaneseText>へえ、よく知ってるね？</JapaneseText>
-      <EnglishText>Wow, how do you know all this?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>39</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2634</PointerOffset>
-      <VoiceId>12000024</VoiceId>
-      <JapaneseText>お父さんについて医者の勉強をしてた頃、
-よくこの森に薬草を採りに来た事が
-あったから。</JapaneseText>
-      <EnglishText>When I was studying medicine
-under my father, we would often come
-here to gather medicinal herbs.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>40</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2662</PointerOffset>
-      <VoiceId>12000025</VoiceId>
-      <JapaneseText>へー、&lt;Annie&gt;ってお医者さん
-目指してるんだね♪</JapaneseText>
-      <EnglishText>Ooh, so &lt;Annie&gt; wants to become
-a doctor! ♪</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>41</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2683</PointerOffset>
-      <VoiceId>12000026</VoiceId>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText>...</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>42</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2705</PointerOffset>
-      <VoiceId>12000027</VoiceId>
-      <JapaneseText>迷路の仕掛けは他にもあるって
-聞いてます。</JapaneseText>
-      <EnglishText>I've also heard there are traps
-hidden within the labyrinth.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>43</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2754</PointerOffset>
-      <VoiceId>12000028</VoiceId>
-      <JapaneseText>そうか……気をつけて進もう。</JapaneseText>
-      <EnglishText>I see... We should move
-carefully.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2786</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3111</PointerOffset>
-      <VoiceId>3400004c</VoiceId>
-      <JapaneseText>どこまで逃げるつもりだ？</JapaneseText>
-      <EnglishText>Just how long are you going to
-keep running?</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>46</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3133</PointerOffset>
-      <VoiceId>3400004d</VoiceId>
-      <JapaneseText>このトーマ、
-あまり気の長い方ではない。</JapaneseText>
-      <EnglishText>I don't have much patience,
-now.</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>47</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3164</PointerOffset>
-      <VoiceId>3400004e</VoiceId>
-      <JapaneseText>これ以上、わずらわせるなら、
-命の保証はできんぞ。</JapaneseText>
-      <EnglishText>If you continue to be a thorn
-in my side, I can't guarantee that
-you'll be spared.</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>48</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3201</PointerOffset>
-      <VoiceId>3400004f</VoiceId>
-      <JapaneseText>……俺の命にかえても、
-妻と娘は守ってみせる!!</JapaneseText>
-      <EnglishText>I'll protect my wife and
-daughter, even if it costs me my life!</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>49</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3232</PointerOffset>
-      <VoiceId>34000050</VoiceId>
-      <JapaneseText>その覚悟や良し。だが!!</JapaneseText>
-      <EnglishText>Your resolve is admirable.
-However...!</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>50</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3369</PointerOffset>
-      <VoiceId>34000051</VoiceId>
-      <JapaneseText>ぐああああぁぁぁぁぁッ……！
-ナ、ナイラ……&lt;Hilda&gt;……</JapaneseText>
-      <EnglishText>Guaaahh!! N-Nayla... &lt;Hilda&gt;...</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>51</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3443</PointerOffset>
-      <VoiceId>34000052</VoiceId>
-      <JapaneseText>お父さん!!</JapaneseText>
-      <EnglishText>Father!</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>52</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3488</PointerOffset>
-      <VoiceId>34000053</VoiceId>
-      <JapaneseText>あ、あなた!!</JapaneseText>
-      <EnglishText>Amzil!</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>53</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3586</PointerOffset>
-      <VoiceId>34000054</VoiceId>
-      <JapaneseText>やめて!!　どうして!!
-どうしてこんな事をするの!!
-娘を……娘を返して!!</JapaneseText>
-      <EnglishText>Stop! Why are you doing this?!
-Give her back! Give me back my
-daughter!</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>54</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3608</PointerOffset>
-      <VoiceId>34000055</VoiceId>
-      <JapaneseText>消えろ……
-同じガジュマとして、
-せめてもの情けだ。</JapaneseText>
-      <EnglishText>Get lost. I'll show you a
-little mercy since we're both Gajuma.</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>55</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3658</PointerOffset>
-      <VoiceId>34000056</VoiceId>
-      <JapaneseText>いや……
-いやぁぁぁぁぁぁぁッ!!</JapaneseText>
-      <EnglishText>No... NOOO!!</EnglishText>
-      <Notes/>
-      <SpeakerId>4,5,6</SpeakerId>
-      <Id>56</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3800</PointerOffset>
-      <JapaneseText>&lt;Green&gt;このエリアのバイラスは、
-味方キャラクターの
-ラッシュゲージが一定以下の時、
-自動的に防御をしてきます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>57</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3824</PointerOffset>
-      <JapaneseText>&lt;Green&gt;ラッシュチャージを行ったり、
-他の味方の連携に加わるなどして、
-防御されにくい作戦を取りましょう。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>58</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3848</PointerOffset>
-      <JapaneseText>&lt;Green&gt;また、&lt;Red&gt;料理&lt;Green&gt;には戦闘開始時の
-ラッシュゲージを上げる料理が
-あります。うまく利用して下さい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
       <Id>59</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5621</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
+      <Notes/>
       <Id>60</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7289</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>61</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7367</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>62</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

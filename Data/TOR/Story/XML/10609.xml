@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,11 +9,43 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
+      <PointerOffset>3355,316</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3397,261</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3171</PointerOffset>
+      <JapaneseText>カレギア兵</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3097,3097</PointerOffset>
+      <JapaneseText>女の人</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
       <PointerOffset>153</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>0</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -22,23 +53,7 @@
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>261,3397</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>316,3355</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,7 +61,7 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -54,28 +69,12 @@
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>461,508</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193</PointerOffset>
-      <JapaneseText>ミナールから来た男</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017</PointerOffset>
-      <JapaneseText>ノルゼンから来た男</JapaneseText>
+      <PointerOffset>461</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>8</Id>
@@ -90,16 +89,16 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3097,3097</PointerOffset>
-      <JapaneseText>女の人</JapaneseText>
+      <PointerOffset>2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017</PointerOffset>
+      <JapaneseText>ノルゼンから来た男</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3171</PointerOffset>
-      <JapaneseText>カレギア兵</JapaneseText>
+      <PointerOffset>1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193,1193</PointerOffset>
+      <JapaneseText>ミナールから来た男</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>11</Id>
@@ -113,24 +112,109 @@
       <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>6844</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
+    <Entry>
+      <PointerOffset>686</PointerOffset>
+      <JapaneseText>バビログラード港</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>683</PointerOffset>
+      <JapaneseText>バビログラード港</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>816</PointerOffset>
+      <JapaneseText>宿屋・食材屋</JapaneseText>
+      <EnglishText/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>835</PointerOffset>
+      <JapaneseText>民家</JapaneseText>
+      <EnglishText/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>3358</PointerOffset>
+      <VoiceId>3a000005</VoiceId>
+      <JapaneseText>妙な静けさですね……
+不気味な感じっていうか……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3400</PointerOffset>
+      <VoiceId>3a000006</VoiceId>
+      <JapaneseText>少し街の中を見て回ろう。
+何もなければ、それでいい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>3187</PointerOffset>
+      <JapaneseText>何が起こるかわからない。
+とにかく気をつけるんだ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>3122</PointerOffset>
+      <JapaneseText>ヒューマは私たちガジュマを
+見下してるのよ！
+前々から許せなかったの！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3147</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
     <Entry>
       <PointerOffset>156</PointerOffset>
       <JapaneseText>戒律か……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>1</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -138,9 +222,9 @@
       <JapaneseText>そっか……戒律のせいで
 しゃべれないんだったネ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>2</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -148,18 +232,18 @@
       <JapaneseText>戒律のせいで、男とは
 話せないようだな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>3</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>319</PointerOffset>
       <JapaneseText>戒律……ですね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>4</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -167,9 +251,9 @@
       <JapaneseText>そっか、戒律が
 あったんだったな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>5</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -177,571 +261,30 @@
       <JapaneseText>戒律のせいで、女と
 話せないんだったわね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>6</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>464</PointerOffset>
       <JapaneseText>…………</JapaneseText>
       <EnglishText/>
+      <SpeakerId>8</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>511</PointerOffset>
-      <JapaneseText>売りたそうにしているが、
-戒律のせいで、異性とは
-話ができないようだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>683</PointerOffset>
-      <JapaneseText>バビログラード港</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>686</PointerOffset>
-      <JapaneseText>バビログラード港</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>816</PointerOffset>
-      <JapaneseText>宿屋・食材屋</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>835</PointerOffset>
-      <JapaneseText>民家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1266</PointerOffset>
-      <JapaneseText>あ、あんまり近くに来ないでくれ。
-ガジュマが近くに来ると、どうにも
-荒っぽい気分になるんだ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1288</PointerOffset>
-      <JapaneseText>普通にしてる分には、
-大丈夫なんだけどさ……
-どうなってるんだ、オレ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1319</PointerOffset>
-      <JapaneseText>ガジュマが近くに来ると、
-どうにもイヤな気分になるんだ。
-どうしてなんだろうな……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1393</PointerOffset>
-      <JapaneseText>あ、あんまり近くに来ないでくれ。
-ガジュマが近くに来ると、どうにも
-荒っぽい気分になるんだ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
       <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>1415</PointerOffset>
-      <JapaneseText>色々試してみたんだけど
-どうやっても治らないんだ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1446</PointerOffset>
-      <JapaneseText>船乗りに聞いたんだけど、
-他の街に比べたらバビログラードは
-マシなんだってさ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1468</PointerOffset>
-      <JapaneseText>他の街にいる時はイラついてたのに、
-ここでは少し楽になるんだってさ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1490</PointerOffset>
-      <JapaneseText>だから、しばらくはここで
-暮らす事にしたんだ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1564</PointerOffset>
-      <JapaneseText>ガ……ガジュマ……
-近づくんじゃない!!
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1586</PointerOffset>
-      <JapaneseText>言う事聞かないと、オレはおまえに
-何するかわかんねえぞ!!
-さっさと消えろ!!
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1617</PointerOffset>
-      <JapaneseText>聞いたことあるぜ、
-&lt;Blue&gt;幻の島&lt;White&gt;。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1639</PointerOffset>
-      <JapaneseText>ええと……でもどこにあるかは
-知らねえ。幻だしな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1713</PointerOffset>
-      <JapaneseText>ガ……ガジュマ……
-近づくんじゃない!!
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1735</PointerOffset>
-      <JapaneseText>言う事聞かないと、オレはおまえに
-何するかわかんねえぞ!!
-さっさと消えろ!!
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1766</PointerOffset>
-      <JapaneseText>この街にいれば落ち着くと
-思っていたのに……
-最近、どうにもダメなんだ……！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1788</PointerOffset>
-      <JapaneseText>ガジュマを見ると……
-殺してやる……って気分に……
-オレ、自分が怖いよ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1863</PointerOffset>
-      <JapaneseText>ついこの前まで、
-ガジュマが近づくだけで、
-ピリピリしてたんだけどさ……
-急に楽になったんだ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>29</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1885</PointerOffset>
-      <JapaneseText>ガジュマともケンカしたし、
-イヤな事も言われたけどさ、
-向こうもそうだったのかなって……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1907</PointerOffset>
-      <JapaneseText>オレは水に流す事にしたけど、
-そうじゃない人もいるみたいだよ。
-むずかしいもんだな……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1946</PointerOffset>
-      <JapaneseText>東大陸のほうから、
-ヘンな音が聞こえるような
-気がするんだけど……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>32</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1968</PointerOffset>
-      <JapaneseText>オレの気のせいかな……
-イヤ、聞こえるよね？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>33</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1993</PointerOffset>
-      <JapaneseText>この街はなんか戒律とかがあって、
-何かとよそ者には厳しいね。
-俺、そういうの苦手……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2079</PointerOffset>
-      <JapaneseText>アイフリードって知ってるかい？
-北の海を荒らして、数々の秘宝を
-モノにしたっていう伝説の海賊さ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>35</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2101</PointerOffset>
-      <JapaneseText>そんなスゴイヤツなんだ。
-当然、ガジュマに違いないぜ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>36</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2123</PointerOffset>
-      <JapaneseText>あ、ヤツの子孫が、今も
-ベルサスにいるらしいね。
-会ってみたいなあ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>37</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2159</PointerOffset>
-      <JapaneseText>ヒューマのガキンチョが
-ぞろぞろつるんで遠足かい？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2181</PointerOffset>
-      <JapaneseText>ガジュマの先生に
-迷惑をかけるんじゃないぞ！
-ウシシシシ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>39</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2250</PointerOffset>
-      <JapaneseText>ヒューマを見かける度に
-ついついイヤミを言って
-しまうんだよ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>40</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2272</PointerOffset>
-      <JapaneseText>何がムカつくってワケじゃないんだ。
-強いて言うなら、ヒューマだから……
-そういう事なんだよな……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2317</PointerOffset>
-      <JapaneseText>ヒューマのガキンチョが
-ぞろぞろつるんで遠足かい？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>42</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2339</PointerOffset>
-      <JapaneseText>ガジュマの先生に
-迷惑をかけるんじゃないぞ！
-ウシシシシ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>43</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2381</PointerOffset>
-      <JapaneseText>ヒューマのガキンチョが
-ぞろぞろつるんで遠足かい？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>44</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2403</PointerOffset>
-      <JapaneseText>あんまり遠くへ行くと
-帰ってこられなくなるぞ。
-ウシシシシ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2486</PointerOffset>
-      <JapaneseText>なんでも、山の上のヒューマどもが
-ガジュマを脅したりダマしたりして
-港側へ追いやったんだってさ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2508</PointerOffset>
-      <JapaneseText>急にガジュマばっかりになったけど、
-かえって、気が楽だよ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2550</PointerOffset>
-      <JapaneseText>どうせなら、男女だけじゃなくて、
-「ガジュマとヒューマは会話禁止」
-って戒律にすりゃいいのにな。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>48</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2581</PointerOffset>
-      <JapaneseText>よくわからないけど……
-ガジュマとヒューマがモメるなら
-別々に暮らすほうがいいんじゃないの？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>49</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2603</PointerOffset>
-      <JapaneseText>別に、何か困る事があるとも
-思えないし……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>50</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2653</PointerOffset>
-      <JapaneseText>よくわからないけど……
-ガジュマとヒューマがモメるなら
-別々に暮らすほうがいいんじゃないの？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2675</PointerOffset>
-      <JapaneseText>別に、何か困る事があるとも
-思えないし……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>52</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2714</PointerOffset>
-      <JapaneseText>東大陸のほうから何か聞こえるね。
-ノルゼンは大丈夫かな……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>53</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2764</PointerOffset>
-      <JapaneseText>ラジルダが沈んだんだって……？
-こんな時に、ガジュマとかヒューマとか
-言ってる場合じゃないよな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>54</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2786</PointerOffset>
-      <JapaneseText>でも、そう思えない人も
-チラホラいるみたいなんだ。
-小さな事だと思うんだけどなぁ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2811</PointerOffset>
-      <JapaneseText>ひゃー暑い！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>56</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2833</PointerOffset>
-      <JapaneseText>俺、ずっと北の方で育ったから、
-暑くて暑くて……
-日干しになりそうだよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>57</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
     <Entry>
       <PointerOffset>2882</PointerOffset>
       <JapaneseText>…………</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>58</Id>
+      <Notes/>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -749,9 +292,9 @@
       <JapaneseText>蒼獣様を守るにふさわしいのは
 ワシらガジュマじゃ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>59</Id>
+      <Notes/>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -762,9 +305,9 @@
 　良き信仰者となり、蒼獣を護れ」
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>60</Id>
+      <Notes/>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -773,9 +316,9 @@
 こう書いてあるんじゃ！
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>61</Id>
+      <Notes/>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -783,9 +326,9 @@
       <JapaneseText>蒼獣様を守るにふさわしいのは
 ワシらガジュマじゃ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>62</Id>
+      <Notes/>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -794,9 +337,9 @@
 蒼獣様のお言葉を
 特別に聞かせてやろう。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>63</Id>
+      <Notes/>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -807,9 +350,9 @@
 　良き信仰者となり、蒼獣を護れ」
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>64</Id>
+      <Notes/>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -817,92 +360,530 @@
       <JapaneseText>つまり蒼獣様を守るにふさわしいのは
 ヒューマではなく、ワシらガジュマじゃ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-3</Section>
+    <Entry>
+      <PointerOffset>2079</PointerOffset>
+      <JapaneseText>アイフリードって知ってるかい？
+北の海を荒らして、数々の秘宝を
+モノにしたっていう伝説の海賊さ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2101</PointerOffset>
+      <JapaneseText>そんなスゴイヤツなんだ。
+当然、ガジュマに違いないぜ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2123</PointerOffset>
+      <JapaneseText>あ、ヤツの子孫が、今も
+ベルサスにいるらしいね。
+会ってみたいなあ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2159</PointerOffset>
+      <JapaneseText>ヒューマのガキンチョが
+ぞろぞろつるんで遠足かい？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2181</PointerOffset>
+      <JapaneseText>ガジュマの先生に
+迷惑をかけるんじゃないぞ！
+ウシシシシ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2250</PointerOffset>
+      <JapaneseText>ヒューマを見かける度に
+ついついイヤミを言って
+しまうんだよ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2272</PointerOffset>
+      <JapaneseText>何がムカつくってワケじゃないんだ。
+強いて言うなら、ヒューマだから……
+そういう事なんだよな……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2317</PointerOffset>
+      <JapaneseText>ヒューマのガキンチョが
+ぞろぞろつるんで遠足かい？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2339</PointerOffset>
+      <JapaneseText>ガジュマの先生に
+迷惑をかけるんじゃないぞ！
+ウシシシシ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2381</PointerOffset>
+      <JapaneseText>ヒューマのガキンチョが
+ぞろぞろつるんで遠足かい？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2403</PointerOffset>
+      <JapaneseText>あんまり遠くへ行くと
+帰ってこられなくなるぞ。
+ウシシシシ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2486</PointerOffset>
+      <JapaneseText>なんでも、山の上のヒューマどもが
+ガジュマを脅したりダマしたりして
+港側へ追いやったんだってさ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2508</PointerOffset>
+      <JapaneseText>急にガジュマばっかりになったけど、
+かえって、気が楽だよ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2550</PointerOffset>
+      <JapaneseText>どうせなら、男女だけじゃなくて、
+「ガジュマとヒューマは会話禁止」
+って戒律にすりゃいいのにな。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2581</PointerOffset>
+      <JapaneseText>よくわからないけど……
+ガジュマとヒューマがモメるなら
+別々に暮らすほうがいいんじゃないの？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2603</PointerOffset>
+      <JapaneseText>別に、何か困る事があるとも
+思えないし……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2653</PointerOffset>
+      <JapaneseText>よくわからないけど……
+ガジュマとヒューマがモメるなら
+別々に暮らすほうがいいんじゃないの？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2675</PointerOffset>
+      <JapaneseText>別に、何か困る事があるとも
+思えないし……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2714</PointerOffset>
+      <JapaneseText>東大陸のほうから何か聞こえるね。
+ノルゼンは大丈夫かな……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2764</PointerOffset>
+      <JapaneseText>ラジルダが沈んだんだって……？
+こんな時に、ガジュマとかヒューマとか
+言ってる場合じゃないよな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2786</PointerOffset>
+      <JapaneseText>でも、そう思えない人も
+チラホラいるみたいなんだ。
+小さな事だと思うんだけどなぁ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2811</PointerOffset>
+      <JapaneseText>ひゃー暑い！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2833</PointerOffset>
+      <JapaneseText>俺、ずっと北の方で育ったから、
+暑くて暑くて……
+日干しになりそうだよ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-4</Section>
+    <Entry>
+      <PointerOffset>1266</PointerOffset>
+      <JapaneseText>あ、あんまり近くに来ないでくれ。
+ガジュマが近くに来ると、どうにも
+荒っぽい気分になるんだ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1288</PointerOffset>
+      <JapaneseText>普通にしてる分には、
+大丈夫なんだけどさ……
+どうなってるんだ、オレ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1319</PointerOffset>
+      <JapaneseText>ガジュマが近くに来ると、
+どうにもイヤな気分になるんだ。
+どうしてなんだろうな……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1393</PointerOffset>
+      <JapaneseText>あ、あんまり近くに来ないでくれ。
+ガジュマが近くに来ると、どうにも
+荒っぽい気分になるんだ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1415</PointerOffset>
+      <JapaneseText>色々試してみたんだけど
+どうやっても治らないんだ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1446</PointerOffset>
+      <JapaneseText>船乗りに聞いたんだけど、
+他の街に比べたらバビログラードは
+マシなんだってさ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1468</PointerOffset>
+      <JapaneseText>他の街にいる時はイラついてたのに、
+ここでは少し楽になるんだってさ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>54</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1490</PointerOffset>
+      <JapaneseText>だから、しばらくはここで
+暮らす事にしたんだ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>55</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1564</PointerOffset>
+      <JapaneseText>ガ……ガジュマ……
+近づくんじゃない!!
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1586</PointerOffset>
+      <JapaneseText>言う事聞かないと、オレはおまえに
+何するかわかんねえぞ!!
+さっさと消えろ!!
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1617</PointerOffset>
+      <JapaneseText>聞いたことあるぜ、
+&lt;Blue&gt;幻の島&lt;White&gt;。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1639</PointerOffset>
+      <JapaneseText>ええと……でもどこにあるかは
+知らねえ。幻だしな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1713</PointerOffset>
+      <JapaneseText>ガ……ガジュマ……
+近づくんじゃない!!
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>60</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1735</PointerOffset>
+      <JapaneseText>言う事聞かないと、オレはおまえに
+何するかわかんねえぞ!!
+さっさと消えろ!!
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>61</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1766</PointerOffset>
+      <JapaneseText>この街にいれば落ち着くと
+思っていたのに……
+最近、どうにもダメなんだ……！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1788</PointerOffset>
+      <JapaneseText>ガジュマを見ると……
+殺してやる……って気分に……
+オレ、自分が怖いよ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1863</PointerOffset>
+      <JapaneseText>ついこの前まで、
+ガジュマが近づくだけで、
+ピリピリしてたんだけどさ……
+急に楽になったんだ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
+      <Id>64</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1885</PointerOffset>
+      <JapaneseText>ガジュマともケンカしたし、
+イヤな事も言われたけどさ、
+向こうもそうだったのかなって……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
+      <Notes/>
       <Id>65</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3122</PointerOffset>
-      <JapaneseText>ヒューマは私たちガジュマを
-見下してるのよ！
-前々から許せなかったの！</JapaneseText>
+      <PointerOffset>1907</PointerOffset>
+      <JapaneseText>オレは水に流す事にしたけど、
+そうじゃない人もいるみたいだよ。
+むずかしいもんだな……
+</JapaneseText>
       <EnglishText/>
+      <SpeakerId>11</SpeakerId>
       <Notes/>
-      <SpeakerId>10</SpeakerId>
       <Id>66</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3147</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
+      <PointerOffset>1946</PointerOffset>
+      <JapaneseText>東大陸のほうから、
+ヘンな音が聞こえるような
+気がするんだけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>11</SpeakerId>
       <Notes/>
-      <SpeakerId>10</SpeakerId>
       <Id>67</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3187</PointerOffset>
-      <JapaneseText>何が起こるかわからない。
-とにかく気をつけるんだ！</JapaneseText>
+      <PointerOffset>1968</PointerOffset>
+      <JapaneseText>オレの気のせいかな……
+イヤ、聞こえるよね？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>11</SpeakerId>
+      <Notes/>
       <Id>68</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3358</PointerOffset>
-      <VoiceId>3a000005</VoiceId>
-      <JapaneseText>妙な静けさですね……
-不気味な感じっていうか……</JapaneseText>
-      <EnglishText>It's oddly silent here... It
-feels almost eerie...</EnglishText>
+      <PointerOffset>1993</PointerOffset>
+      <JapaneseText>この街はなんか戒律とかがあって、
+何かとよそ者には厳しいね。
+俺、そういうの苦手……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>11</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>69</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>3400</PointerOffset>
-      <VoiceId>3a000006</VoiceId>
-      <JapaneseText>少し街の中を見て回ろう。
-何もなければ、それでいい。</JapaneseText>
-      <EnglishText>Let's take a look around town.
-Hopefully we won't find anything.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>70</Id>
-      <Status>Editing</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5002</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>71</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6670</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>13</SpeakerId>
-      <Id>72</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6748</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>13</SpeakerId>
-      <Id>73</Id>
+      <Id>70</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -65,30 +64,22 @@
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>5335</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>226</PointerOffset>
-      <JapaneseText>カレーズ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>229</PointerOffset>
       <JapaneseText>カレーズ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>226</PointerOffset>
+      <JapaneseText>カレーズ</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -96,29 +87,32 @@
       <PointerOffset>278</PointerOffset>
       <JapaneseText>カレーズ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>897</PointerOffset>
       <VoiceId>19000023</VoiceId>
       <JapaneseText>やっぱり……</JapaneseText>
-      <EnglishText>You weren't kidding...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>944</PointerOffset>
       <VoiceId>19000024</VoiceId>
       <JapaneseText>な、涼しくて最高だろ？</JapaneseText>
-      <EnglishText>See? Feels amazing, doesn't it?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>988</PointerOffset>
@@ -126,69 +120,64 @@
       <JapaneseText>そうだネ！
 この水路もどこかに
 つながってるみたいだし。</JapaneseText>
-      <EnglishText>It sure does! It looks like
-this waterway leads somewhere, too.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1031</PointerOffset>
       <VoiceId>19000026</VoiceId>
       <JapaneseText>ここは一体……？</JapaneseText>
-      <EnglishText>What in the world is this?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1111</PointerOffset>
       <VoiceId>19000027</VoiceId>
       <JapaneseText>カレーズです。</JapaneseText>
-      <EnglishText>This is Karez.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1225</PointerOffset>
       <VoiceId>19000028</VoiceId>
       <JapaneseText>カレーズ？
 なんだそりゃ？</JapaneseText>
-      <EnglishText>Karez? What's that?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1268</PointerOffset>
       <VoiceId>19000029</VoiceId>
       <JapaneseText>カレーズか……
 それなら&lt;Tytree&gt;のお手柄だな。</JapaneseText>
-      <EnglishText>Karez, huh... If you're right,
-then we'd better thank &lt;Tytree&gt;.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>4</SpeakerId>
+      <Notes/>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1343</PointerOffset>
       <VoiceId>1900002a</VoiceId>
       <JapaneseText>……ええ。この水路をたどって行けば、
 砂漠越えより安全かもしれません。</JapaneseText>
-      <EnglishText>...Yes. It would probably be
-safer for us to follow these
-waterways instead of going through the
-desert.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1476</PointerOffset>
@@ -196,43 +185,40 @@ desert.</EnglishText>
       <JapaneseText>おいおい。
 二人で仲良く納得してないで
 おれたちにも教えてくれよ。</JapaneseText>
-      <EnglishText>Hey, you two seem to be getting
-along just fine, but could you get
-the rest of us up to speed too?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>12</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1526</PointerOffset>
       <VoiceId>1900002c</VoiceId>
       <JapaneseText>&lt;scale:0120&gt;別に仲良くなんてしてません！</JapaneseText>
-      <EnglishText>We are &lt;Italics&gt;NOT&lt;NoItalics&gt;
-getting along!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>13</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1555</PointerOffset>
       <VoiceId>1900002d</VoiceId>
       <JapaneseText>……&lt;Annie&gt;。</JapaneseText>
-      <EnglishText>...&lt;Annie&gt;.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>14</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1616</PointerOffset>
       <VoiceId>1900002e</VoiceId>
       <JapaneseText>なんだよ？　そんなに必死こいて
-卑定しなくてもイイじゃねーか。</JapaneseText>
+否定しなくてもイイじゃねーか。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
@@ -241,22 +227,21 @@ getting along!</EnglishText>
       <VoiceId>1900002f</VoiceId>
       <JapaneseText>……カレーズとは、
 地下水路の事だ。</JapaneseText>
-      <EnglishText>...These underground waterways
-are known as Karez.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>4</SpeakerId>
+      <Notes/>
       <Id>16</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1756</PointerOffset>
       <VoiceId>19000030</VoiceId>
       <JapaneseText>誰かが造ったものなの？</JapaneseText>
-      <EnglishText>Are they man-made?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>17</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1796</PointerOffset>
@@ -264,26 +249,22 @@ are known as Karez.</EnglishText>
       <JapaneseText>昔の人たちが、井戸と井戸を
 地下でつなげて水路にしたもので、
 砂漠の街では命の水脈なの。</JapaneseText>
-      <EnglishText>In ancient times, people
-connected wells to make underground
-channels like this. They're the
-lifeblood of any desert town.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>18</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1880</PointerOffset>
       <VoiceId>19000032</VoiceId>
       <JapaneseText>&lt;Tytree&gt;のお手柄とは
 どういう意味だ？</JapaneseText>
-      <EnglishText>So what did you mean about
-thanking &lt;Tytree&gt;?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>19</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1917</PointerOffset>
@@ -291,39 +272,33 @@ thanking &lt;Tytree&gt;?</EnglishText>
       <JapaneseText>水路なら、人のいる場所に
 通じている可能性が高い
 という事です。</JapaneseText>
-      <EnglishText>Since this is a waterway, it's
-very likely that it leads to a place
-where people live.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>20</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1953</PointerOffset>
       <VoiceId>19000034</VoiceId>
       <JapaneseText>そっか♪　必要じゃない場所に
 わざわざ水路なんか引かないもんね。</JapaneseText>
-      <EnglishText>Oh yeah! People wouldn't go out
-of their way to make something
-like this if they weren't around to
-use it, right?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>21</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1981</PointerOffset>
       <VoiceId>19000035</VoiceId>
       <JapaneseText>……って事は……この中を
 歩いて行けばイイんだな？</JapaneseText>
-      <EnglishText>So you mean we should walk
-around down here, right?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>22</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2020</PointerOffset>
@@ -331,14 +306,11 @@ around down here, right?</EnglishText>
       <JapaneseText>方角も合ってるみたいだし、
 どこまで行けるかわからないけど
 砂漠を歩くよりはましね。</JapaneseText>
-      <EnglishText>It seems like it'll lead us in
-the right direction. Even if we
-don't know how far it'll take us, it
-beats going through the desert.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>5</SpeakerId>
+      <Notes/>
       <Id>23</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2055</PointerOffset>
@@ -346,53 +318,35 @@ beats going through the desert.</EnglishText>
       <JapaneseText>ただ、この先に
 何があるかはわからない。
 充分、注意して進むんだ。</JapaneseText>
-      <EnglishText>However, it might still be
-dangerous up ahead. Don't let your guard
-down.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>4</SpeakerId>
+      <Notes/>
       <Id>24</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2091</PointerOffset>
       <VoiceId>19000038</VoiceId>
       <JapaneseText>よっしゃ!!
 行けるとこまで行こうぜ!!</JapaneseText>
-      <EnglishText>Alright!! Let's go as far as
-this thing'll take us!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>25</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3493</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>6</SpeakerId>
+      <Notes/>
       <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5161</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5239</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

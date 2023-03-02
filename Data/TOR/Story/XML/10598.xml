@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,32 +9,32 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>640,676</PointerOffset>
-      <JapaneseText/>
+      <PointerOffset>3020,3118,3140,3337,3381,3468,3545,3575,3597,3619,3717</PointerOffset>
+      <JapaneseText>花屋</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>712,2617</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <PointerOffset>3079,3208,3359,3412,3695,3761,752</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>752,3079,3208,3359,3412,3695,3761</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
+      <PointerOffset>3804,2162,2409,2558</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>780,780,780,780,780,780,780,780,780,780,780,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106</PointerOffset>
-      <JapaneseText>おばあさん</JapaneseText>
+      <PointerOffset>1203,1203,1203,1203,1203,1203,1203,1203,1203,1203,1203,1203,1203,1203,1203</PointerOffset>
+      <JapaneseText>花屋の女の子</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
@@ -50,7 +49,7 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1453,1612,7169</PointerOffset>
+      <PointerOffset>1453,1612</PointerOffset>
       <JapaneseText>notice</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -58,8 +57,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2162,2409,2558,3804</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>780,780,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106,2106</PointerOffset>
+      <JapaneseText>おばあさん</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>6</Id>
@@ -82,207 +81,280 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3020,3118,3140,3337,3381,3468,3545,3575,3597,3619,3717</PointerOffset>
-      <JapaneseText>花屋</JapaneseText>
+      <PointerOffset>2617,712</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>676,640</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>225</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>234</PointerOffset>
-      <JapaneseText>ラジルダ・民家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>237</PointerOffset>
       <JapaneseText>ラジルダ・民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>643</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ラジルダチェス』
-通常のチェスとは少し違う
-ラジルダ特有のチェス。
-通常のものより駒とマス目が少ない。
-ルールも簡易化されたものなので、
-子供向き。</JapaneseText>
+      <PointerOffset>234</PointerOffset>
+      <JapaneseText>ラジルダ・民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name in the menu</Notes>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>3023</PointerOffset>
+      <VoiceId>260000cb</VoiceId>
+      <JapaneseText>なあに、お兄ちゃんたち？</JapaneseText>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>679</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ホットミルク』
-砂糖がたくさん入った、
-甘くて温かいミルク。
-表面に薄い膜が張っている。</JapaneseText>
+      <PointerOffset>3082</PointerOffset>
+      <VoiceId>260000cc</VoiceId>
+      <JapaneseText>キミが売ってる花は、
+どこで摘んで来たんだ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>715</PointerOffset>
-      <JapaneseText>ボク、このペラペラしたの
-キラーイ！</JapaneseText>
+      <PointerOffset>3121</PointerOffset>
+      <VoiceId>260000cd</VoiceId>
+      <JapaneseText>ナイショ!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>755</PointerOffset>
-      <JapaneseText>この膜、大してウマくもないのに、
-ついつい食べちゃうんだよなぁ。</JapaneseText>
+      <PointerOffset>3143</PointerOffset>
+      <VoiceId>260000ce</VoiceId>
+      <JapaneseText>だって、教えたら
+摘みに行くんでしょ？
+わたしのお花が売れなく
+なっちゃうもん。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>829</PointerOffset>
-      <JapaneseText>秘薬ですか？
-知ってますよ。
-貴重な薬ですからね。</JapaneseText>
+      <PointerOffset>3211</PointerOffset>
+      <VoiceId>260000cf</VoiceId>
+      <JapaneseText>そう言わずに教えてくれよ。
+おれは花が大好きなんだ。
+ホラ、このとおり!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>851</PointerOffset>
-      <JapaneseText>よそから来た人には
-なかなか手に
-入らないかもしれませんね。</JapaneseText>
+      <PointerOffset>3340</PointerOffset>
+      <VoiceId>260000d0</VoiceId>
+      <JapaneseText>すごーい!!
+こんなお花、見た事ない!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>913</PointerOffset>
-      <JapaneseText>花と言えば、花屋の娘さんは
-よく色んな花を持ってきてくれますよ。</JapaneseText>
+      <PointerOffset>3362</PointerOffset>
+      <VoiceId>260000d1</VoiceId>
+      <JapaneseText>これはな、西の大陸にだけ
+咲いてるティートレーイの花だ。
+キミにあげてもいいけど……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>935</PointerOffset>
-      <JapaneseText>どこで摘んでくるのか、
-本当に色んな花をね。</JapaneseText>
+      <PointerOffset>3384</PointerOffset>
+      <VoiceId>260000d2</VoiceId>
+      <JapaneseText>教えてあげる!!
+だから、そのお花ちょーだい。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>985</PointerOffset>
-      <JapaneseText>最近、ますますガジュマと
-ヒューマの関係が悪化していて……</JapaneseText>
+      <PointerOffset>3415</PointerOffset>
+      <VoiceId>260000d3</VoiceId>
+      <JapaneseText>おう、交渉成立だ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1007</PointerOffset>
-      <JapaneseText>どうすればいいんでしょう……
-私の力でどうにかなる事でも
-ありませんけど……</JapaneseText>
+      <PointerOffset>3471</PointerOffset>
+      <VoiceId>260000d4</VoiceId>
+      <JapaneseText>ありがとう!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1057</PointerOffset>
-      <JapaneseText>なんだか、とても
-外が騒がしくて……
-どうしたんでしょう？
-</JapaneseText>
+      <PointerOffset>3548</PointerOffset>
+      <VoiceId>260000d5</VoiceId>
+      <JapaneseText>えっとね、わたしのお花はね、
+ラジルダとピピスタの街の
+まんなかぐらいにある泉で
+摘んで来るの。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1107</PointerOffset>
-      <JapaneseText>大変な事に
-なりました……</JapaneseText>
+      <PointerOffset>3578</PointerOffset>
+      <VoiceId>260000d6</VoiceId>
+      <JapaneseText>おばあさんには、いつもいろんな
+お花を摘んで来てあげるの。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1129</PointerOffset>
-      <JapaneseText>こんな時に、あの子の具合が
-悪くならなければいいのだけれど……</JapaneseText>
+      <PointerOffset>3600</PointerOffset>
+      <VoiceId>260000d7</VoiceId>
+      <JapaneseText>おばあさんの息子さんはね、
+お外に出られないから、
+お花も見られないでしょ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1154</PointerOffset>
-      <JapaneseText>うちの子は病弱で……
-いつも寝たきりなんです。</JapaneseText>
+      <PointerOffset>3622</PointerOffset>
+      <VoiceId>260000d8</VoiceId>
+      <JapaneseText>息子さんも、おばあさんも
+お花を見たら元気になれるって……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1176</PointerOffset>
-      <JapaneseText>たまに元気な事があっても
-外に出る事ができなくって……</JapaneseText>
+      <PointerOffset>3698</PointerOffset>
+      <VoiceId>260000d9</VoiceId>
+      <JapaneseText>やさしいんだな。
+これからも、おばあさんに
+やさしくしてやってくれよな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3720</PointerOffset>
+      <VoiceId>260000da</VoiceId>
+      <JapaneseText>うん!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3764</PointerOffset>
+      <VoiceId>260000db</VoiceId>
+      <JapaneseText>……って事だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3807</PointerOffset>
+      <VoiceId>260000dc</VoiceId>
+      <JapaneseText>行くぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>1765</PointerOffset>
+      <JapaneseText>この前、泉のところで
+見たことのないお花を見つけたの。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1787</PointerOffset>
+      <JapaneseText>図鑑にのってなかったら
+大発見かも……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1380</PointerOffset>
       <JapaneseText>ねぇねぇ、図鑑貸して♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>19</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -290,18 +362,18 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>20</Id>
+      <Notes/>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1456</PointerOffset>
       <JapaneseText>&lt;Green&gt;『図鑑』を貸し出しました。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>21</Id>
+      <Notes/>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -310,8 +382,9 @@
 ちゃんと見るから、
 チョット待っててね♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>22</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -319,8 +392,9 @@
       <JapaneseText>図鑑があれば
 調べられるんだけどなぁ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>23</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -329,8 +403,9 @@
 私が見つけたお花、
 図鑑に載ってなかったの！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>24</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -339,25 +414,27 @@
 どんな名前をつけようかなぁ。
 ……あっ。コレ、ありがと。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>25</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1615</PointerOffset>
       <JapaneseText>&lt;Green&gt;『図鑑』を回収しました。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>26</Id>
+      <Notes/>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1637</PointerOffset>
       <JapaneseText>どんな名前がいいかなぁー。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>27</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -365,8 +442,9 @@
       <JapaneseText>うーん。これじゃない。
 これも似てるけど違う……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>28</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -374,8 +452,9 @@
       <JapaneseText>あっ、ごめんね。
 もうチョット貸しといて！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>29</Id>
+      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -384,26 +463,9 @@
 イズミノハナ……うーん。
 もっとカワイイのが良いな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1765</PointerOffset>
-      <JapaneseText>この前、泉のところで
-見たことのないお花を見つけたの。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1787</PointerOffset>
-      <JapaneseText>図鑑にのってなかったら
-大発見かも……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>32</Id>
+      <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -411,8 +473,9 @@
       <JapaneseText>兵隊さんが来て、
 お外に出ちゃいけないって……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>33</Id>
+      <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -421,8 +484,9 @@
 お外で太陽に当たらなきゃ
 いけないんだよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>34</Id>
+      <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -430,8 +494,9 @@
       <JapaneseText>どうしてみんな種族の事で
 ケンカするのかな……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>35</Id>
+      <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -440,8 +505,34 @@
 ヒューマとガジュマでも
 なかよくできるのに……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <Id>36</Id>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>829</PointerOffset>
+      <JapaneseText>秘薬ですか？
+知ってますよ。
+貴重な薬ですからね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>851</PointerOffset>
+      <JapaneseText>よそから来た人には
+なかなか手に
+入らないかもしれませんね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -451,37 +542,32 @@
 以前はウチにもあったのですが、
 フォグマ様の遣いの方がいらして、
 持って行かれました。</JapaneseText>
-      <EnglishText>The &lt;Cyan&gt;Razildan Flag&lt;White&gt;?
-I used to have one, but one of
-Chief Fogma's messengers came and
-took it away. </EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>37</Id>
-      <Status>Editing</Status>
+      <Id>42</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2165</PointerOffset>
       <VoiceId>2600001a</VoiceId>
       <JapaneseText>やはり無いか……</JapaneseText>
-      <EnglishText>So there really aren't any
-left...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>38</Id>
-      <Status>Editing</Status>
+      <Id>43</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2187</PointerOffset>
       <VoiceId>2600001b</VoiceId>
       <JapaneseText>ラジルダの旗が
 どうかされたのですか？</JapaneseText>
-      <EnglishText>May I ask what you need the
-Razildan Flag for?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>39</Id>
-      <Status>Editing</Status>
+      <Id>44</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2234</PointerOffset>
@@ -489,14 +575,11 @@ Razildan Flag for?</EnglishText>
       <JapaneseText>ラジルダの旗に描かれてる
 &lt;Cyan&gt;紋章&lt;White&gt;について調べてるんだけど、
 肝心の旗が見つからなくて……</JapaneseText>
-      <EnglishText>We were wanting to investigate
-the &lt;Cyan&gt;crest&lt;White&gt; that was
-embroidered on it, but we can't find one
-anywhere.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>7</SpeakerId>
-      <Id>40</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2280</PointerOffset>
@@ -505,23 +588,21 @@ anywhere.</EnglishText>
 &lt;Cyan&gt;紋章&lt;White&gt;にまつわる昔話のような
 ものでもよろしければ、
 お話させていただきますが……</JapaneseText>
-      <EnglishText>Is that so?  If you'd like, I
-can tell you an old tale about that
-&lt;Cyan&gt;crest&lt;White&gt;...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>41</Id>
-      <Status>Editing</Status>
+      <Id>46</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2317</PointerOffset>
       <VoiceId>2600001e</VoiceId>
       <JapaneseText>ぜひ、聞かせてください。</JapaneseText>
-      <EnglishText>Please, by all means.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>8</SpeakerId>
-      <Id>42</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2391</PointerOffset>
@@ -530,27 +611,21 @@ can tell you an old tale about that
 古くからの言い伝えでは、
 あの&lt;Cyan&gt;紋章&lt;White&gt;は&lt;Blue&gt;闇の力&lt;White&gt;を
 意味しているそうです……</JapaneseText>
-      <EnglishText>Then let me begin. According to
-the legends that have been passed
-down through the ages, the crest
-that was on the Razildan flag
-represents the &lt;Blue&gt;Power of
-Shade&lt;White&gt;.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>43</Id>
-      <Status>Editing</Status>
+      <Id>48</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2412</PointerOffset>
       <VoiceId>26000020</VoiceId>
       <JapaneseText>&lt;Blue&gt;闇の力&lt;White&gt;？</JapaneseText>
-      <EnglishText>The &lt;Blue&gt;Power of
-Shade&lt;White&gt;?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>44</Id>
-      <Status>Editing</Status>
+      <Id>49</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2474</PointerOffset>
@@ -559,14 +634,11 @@ Shade&lt;White&gt;?</EnglishText>
 どんな願いもかなえられる
 &lt;Blue&gt;闇の力&lt;White&gt;というものが
 あったそうです。</JapaneseText>
-      <EnglishText>In ancient times, it is said
-that in this region there existed
-the &lt;Blue&gt;Power of Shade&lt;White&gt;,
-which could make any wish come true.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>45</Id>
-      <Status>Editing</Status>
+      <Id>50</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2496</PointerOffset>
@@ -575,15 +647,11 @@ which could make any wish come true.</EnglishText>
 ヒューマは聖なるものとして崇め、
 考えの違いをめぐって、争いが
 絶える事はありませんでした……</JapaneseText>
-      <EnglishText>It was feared by Gajuma as an
-abomination, yet revered by Huma as divine,
-and these disparate beliefs gave
-way to a conflict that seemed to be
-without end...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>46</Id>
-      <Status>Editing</Status>
+      <Id>51</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2518</PointerOffset>
@@ -592,26 +660,21 @@ without end...</EnglishText>
 争いのもとだと気づきました。
 ふたつの種族は力を合わせ、
 &lt;Blue&gt;闇の力&lt;White&gt;をどこかの泉に沈めたのです。</JapaneseText>
-      <EnglishText>It was not long before they
-came to the realization that the
-&lt;Blue&gt;Power of Shade&lt;White&gt; was the source
-of their strife. The two races
-then worked together to force it
-down to the bottom of a spring.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>47</Id>
-      <Status>Editing</Status>
+      <Id>52</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2561</PointerOffset>
       <VoiceId>26000024</VoiceId>
       <JapaneseText>泉……</JapaneseText>
-      <EnglishText>A spring...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>48</Id>
-      <Status>Editing</Status>
+      <Id>53</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2583</PointerOffset>
@@ -620,17 +683,11 @@ down to the bottom of a spring.</EnglishText>
 手を取り合う事を願って、
 &lt;Blue&gt;闇の力&lt;White&gt;を表すその印を、街の旗の
 真ん中に据えたそうです。</JapaneseText>
-      <EnglishText>As a warning against the folly
-of conflict and in the hope that
-the two races could join hands with
-each other, that symbol representing
-the &lt;Blue&gt;Power of Shade&lt;White&gt; was
-placed in the middle of the town's
-flag.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>49</Id>
-      <Status>Editing</Status>
+      <Id>54</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2620</PointerOffset>
@@ -639,40 +696,33 @@ flag.</EnglishText>
 　そこに道は開かれん」って、
 ふたつの種族が協力してラジルダを
 作った、ってコトを言ってるんだネ？</JapaneseText>
-      <EnglishText>"Across time, we join together
-in chorus, and thus does a path
-open before us" must refer to the
-unity of the Huma and Gajuma who
-worked together to found Razilda,
-right?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>50</Id>
-      <Status>Editing</Status>
+      <Id>55</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2688</PointerOffset>
       <VoiceId>26000027</VoiceId>
       <JapaneseText>私はそういう事だと
 思っています……</JapaneseText>
-      <EnglishText>I do believe that is so.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>51</Id>
-      <Status>Editing</Status>
+      <Id>56</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2726</PointerOffset>
       <VoiceId>26000028</VoiceId>
       <JapaneseText>&lt;Blue&gt;闇の力&lt;White&gt;を沈めた泉は
 どこにあるの？</JapaneseText>
-      <EnglishText>Do you know where the spring
-that the &lt;Blue&gt;Power of Shade&lt;White&gt;
-was submerged into might be?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>7</SpeakerId>
-      <Id>52</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>57</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2763</PointerOffset>
@@ -681,256 +731,169 @@ was submerged into might be?</EnglishText>
 本当にあったとしても、
 &lt;Blue&gt;闇の力&lt;White&gt;にふれるべきなのか
 どうか……</JapaneseText>
-      <EnglishText>I'm afraid not. And if it truly
-were to exist, I do not think it is
-something to be trifled with.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>53</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3023</PointerOffset>
-      <VoiceId>260000cb</VoiceId>
-      <JapaneseText>なあに、お兄ちゃんたち？</JapaneseText>
-      <EnglishText>Do you need something?</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>54</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3082</PointerOffset>
-      <VoiceId>260000cc</VoiceId>
-      <JapaneseText>キミが売ってる花は、
-どこで摘んで来たんだ？</JapaneseText>
-      <EnglishText>Where did you find the flowers
-that you're selling in your stand?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>55</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3121</PointerOffset>
-      <VoiceId>260000cd</VoiceId>
-      <JapaneseText>ナイショ!!</JapaneseText>
-      <EnglishText>That's a SECRET!</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>56</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3143</PointerOffset>
-      <VoiceId>260000ce</VoiceId>
-      <JapaneseText>だって、教えたら
-摘みに行くんでしょ？
-わたしのお花が売れなく
-なっちゃうもん。</JapaneseText>
-      <EnglishText>I mean, if I tell you then
-you're going to go and pick them,
-y'know? Then I won't be able to sell
-them no more.</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>57</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3211</PointerOffset>
-      <VoiceId>260000cf</VoiceId>
-      <JapaneseText>そう言わずに教えてくれよ。
-おれは花が大好きなんだ。
-ホラ、このとおり!!</JapaneseText>
-      <EnglishText>Aw c'mon, pretty please? I just
-love flowers! See, here's proof!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>58</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3340</PointerOffset>
-      <VoiceId>260000d0</VoiceId>
-      <JapaneseText>すごーい!!
-こんなお花、見た事ない!!</JapaneseText>
-      <EnglishText>Whoaaa! I've never seen a
-flower like this before!</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>59</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3362</PointerOffset>
-      <VoiceId>260000d1</VoiceId>
-      <JapaneseText>これはな、西の大陸にだけ
-崎いてるティートレーイの花だ。
-キミにあげてもいいけど……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>913</PointerOffset>
+      <JapaneseText>花と言えば、花屋の娘さんは
+よく色んな花を持ってきてくれますよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>935</PointerOffset>
+      <JapaneseText>どこで摘んでくるのか、
+本当に色んな花をね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
       <Id>60</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3384</PointerOffset>
-      <VoiceId>260000d2</VoiceId>
-      <JapaneseText>教えてあげる!!
-だから、そのお花ちょーだい。</JapaneseText>
-      <EnglishText>I'll tell you!! Just gimme the
-flower!</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>61</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3415</PointerOffset>
-      <VoiceId>260000d3</VoiceId>
-      <JapaneseText>おう、交渉成立だ。</JapaneseText>
-      <EnglishText>Okay, it's a deal!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>62</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3471</PointerOffset>
-      <VoiceId>260000d4</VoiceId>
-      <JapaneseText>ありがとう!!</JapaneseText>
-      <EnglishText>Thank you!</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>63</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3548</PointerOffset>
-      <VoiceId>260000d5</VoiceId>
-      <JapaneseText>えっとね、わたしのお花はね、
-ラジルダとピピスタの街の
-まんなかぐらいにある泉で
-摘んで来るの。</JapaneseText>
-      <EnglishText>So, there's this spring, and
-it's right in between Razilda and a
-town called Pipista, and that's
-where I pick my flowers.</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>64</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3578</PointerOffset>
-      <VoiceId>260000d6</VoiceId>
-      <JapaneseText>おばあさんには、いつもいろんな
-お花を摘んで来てあげるの。</JapaneseText>
-      <EnglishText>And I always pick a lot of
-different flowers and bring them to this
-old lady.</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>65</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3600</PointerOffset>
-      <VoiceId>260000d7</VoiceId>
-      <JapaneseText>おばあさんの息子さんはね、
-お外に出られないから、
-お花も見られないでしょ？</JapaneseText>
-      <EnglishText>Because she has a son who can't
-go outside, which means he can't
-see any flowers, y'know?</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>66</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3622</PointerOffset>
-      <VoiceId>260000d8</VoiceId>
-      <JapaneseText>息子さんも、おばあさんも
-お花を見たら元気になれるって……</JapaneseText>
-      <EnglishText>And they say that it makes them
-happy when they see flowers....</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>67</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3698</PointerOffset>
-      <VoiceId>260000d9</VoiceId>
-      <JapaneseText>やさしいんだな。
-これからも、おばあさんに
-やさしくしてやってくれよな。</JapaneseText>
-      <EnglishText>You're a sweet girl. Keep doing
-nice things for that old lady, okay?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>68</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3720</PointerOffset>
-      <VoiceId>260000da</VoiceId>
-      <JapaneseText>うん!!</JapaneseText>
-      <EnglishText>Okay!</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>69</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3764</PointerOffset>
-      <VoiceId>260000db</VoiceId>
-      <JapaneseText>……って事だ。</JapaneseText>
-      <EnglishText>And that's that!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>70</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3807</PointerOffset>
-      <VoiceId>260000dc</VoiceId>
-      <JapaneseText>行くぞ。</JapaneseText>
-      <EnglishText>Let's go.</EnglishText>
-      <Notes/>
+      <PointerOffset>985</PointerOffset>
+      <JapaneseText>最近、ますますガジュマと
+ヒューマの関係が悪化していて……</JapaneseText>
+      <EnglishText/>
       <SpeakerId>6</SpeakerId>
-      <Id>71</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>61</Id>
+      <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>1007</PointerOffset>
+      <JapaneseText>どうすればいいんでしょう……
+私の力でどうにかなる事でも
+ありませんけど……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1057</PointerOffset>
+      <JapaneseText>なんだか、とても
+外が騒がしくて……
+どうしたんでしょう？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1107</PointerOffset>
+      <JapaneseText>大変な事に
+なりました……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>64</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1129</PointerOffset>
+      <JapaneseText>こんな時に、あの子の具合が
+悪くならなければいいのだけれど……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>65</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1154</PointerOffset>
+      <JapaneseText>うちの子は病弱で……
+いつも寝たきりなんです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>66</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1176</PointerOffset>
+      <JapaneseText>たまに元気な事があっても
+外に出る事ができなくって……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>67</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5327</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>68</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>679</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ホットミルク』
+砂糖がたくさん入った、
+甘くて温かいミルク。
+表面に薄い膜が張っている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>69</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>715</PointerOffset>
+      <JapaneseText>ボク、このペラペラしたの
+キラーイ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>70</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>755</PointerOffset>
+      <JapaneseText>この膜、大してウマくもないのに、
+ついつい食べちゃうんだよなぁ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>71</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>643</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『ラジルダチェス』
+通常のチェスとは少し違う
+ラジルダ特有のチェス。
+通常のものより駒とマス目が少ない。
+ルールも簡易化されたものなので、
+子供向き。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
       <Id>72</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6995</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>73</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7073</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>74</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -19,20 +18,20 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>179</PointerOffset>
-      <JapaneseText>ペトナジャンカ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>182</PointerOffset>
       <JapaneseText>ペトナジャンカ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>179</PointerOffset>
+      <JapaneseText>ペトナジャンカ</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -40,7 +39,7 @@
       <PointerOffset>535</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
@@ -48,7 +47,7 @@
       <PointerOffset>557</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;の家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
@@ -56,18 +55,21 @@
       <PointerOffset>582</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>982</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;兄ちゃん、
 がんばってきてね！
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
@@ -77,8 +79,8 @@
 僕たちのあこがれのマトなんだ！
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
@@ -87,8 +89,8 @@
       <JapaneseText>セレーナさんを
 助けてあげて！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
@@ -97,8 +99,8 @@
       <JapaneseText>&lt;Tytree&gt;兄ちゃん、
 帰ってきたの？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
@@ -107,8 +109,8 @@
       <JapaneseText>また、行っちゃうの……？
 つまんないの……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
@@ -117,8 +119,8 @@
       <JapaneseText>&lt;Tytree&gt;兄ちゃんを
 連れてっちゃヤだー!!</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
@@ -128,8 +130,8 @@
 おはようございます！
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
@@ -139,8 +141,8 @@
 い、いつもお世話に……
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
@@ -149,8 +151,8 @@
       <JapaneseText>また、旅に出るの？
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
@@ -160,8 +162,8 @@
 遊んでよ！
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
@@ -171,8 +173,8 @@
 よろしくお願いします！
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
@@ -181,8 +183,8 @@
       <JapaneseText>ちょっとうるさいけど、
 面白い人だよ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
@@ -191,8 +193,8 @@
       <JapaneseText>&lt;Tytree&gt;兄ちゃんの家？
 その階段の右側のところだよ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
@@ -201,8 +203,8 @@
       <JapaneseText>でもこの時間は
 工場で働いてるんじゃないかな？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
@@ -210,8 +212,8 @@
       <PointerOffset>1465</PointerOffset>
       <JapaneseText>行ってみたら？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
@@ -220,8 +222,8 @@
       <JapaneseText>最近、街の雰囲気が
 少し悪いんだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
@@ -231,8 +233,8 @@
 早く帰ってきて！
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
@@ -242,8 +244,8 @@
 増えたんだ。
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
@@ -254,8 +256,8 @@
 なんかピリピリしてるよ……
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
@@ -265,8 +267,8 @@
 &lt;Tytree&gt;兄ちゃんがいないと
 ダメなんだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
@@ -276,8 +278,8 @@
 どうしたら、お兄ちゃんたちみたいに
 ヒューマとガジュマ、うまくやれるの？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
@@ -287,8 +289,8 @@
 ヒューマとなんか仲良くしちゃ
 ダメって言うんだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
@@ -298,8 +300,8 @@
 ガジュマとも仲良くしたいんだ。
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
@@ -308,8 +310,8 @@
       <JapaneseText>だってこれまで、
 それが普通だったし……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
@@ -318,8 +320,8 @@
       <JapaneseText>でも……そっちの方が
 間違ってるのかな……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
@@ -329,8 +331,8 @@
 ヒューマと仲良くすると、
 仲間外れにされちゃうんだ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
@@ -338,8 +340,8 @@
       <PointerOffset>1861</PointerOffset>
       <JapaneseText>ゴメンね……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
@@ -349,8 +351,8 @@
 ガジュマとヒューマが仲良くするのって
 やっぱりおかしいの？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
@@ -359,8 +361,8 @@
       <JapaneseText>僕がおかしいの……？
 僕、どうすればいいのかな……？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
@@ -368,8 +370,8 @@
       <PointerOffset>1946</PointerOffset>
       <JapaneseText>……僕……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
@@ -377,8 +379,8 @@
       <PointerOffset>1968</PointerOffset>
       <JapaneseText>…………</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
@@ -387,8 +389,8 @@
       <JapaneseText>なんか最近、
 少し街の雰囲気がよくなったよ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
@@ -397,8 +399,8 @@
       <JapaneseText>このあいだ、来た
 女の人のおかげだな……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
@@ -407,8 +409,8 @@
       <JapaneseText>工場の大人たちが
 少しもめてるみたい。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
@@ -416,8 +418,8 @@
       <PointerOffset>2085</PointerOffset>
       <JapaneseText>なんでケンカするのかな……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>40</Id>
       <Status>To Do</Status>
     </Entry>
@@ -426,8 +428,8 @@
       <JapaneseText>ねえ……ねえ……
 大丈夫なの……？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
@@ -437,18 +439,18 @@
 &lt;Tytree&gt;兄ちゃんを
 必要としてるんだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2210</PointerOffset>
-      <JapaneseText>旅が完わったら、
+      <JapaneseText>旅が終わったら、
 絶対帰ってきてよ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
@@ -457,8 +459,8 @@
       <JapaneseText>そのまま、
 どっか行っちゃわないでよ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>44</Id>
       <Status>To Do</Status>
     </Entry>
@@ -467,8 +469,8 @@
       <JapaneseText>ガジュマとヒューマのケンカは
 おさまったけど……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>45</Id>
       <Status>To Do</Status>
     </Entry>
@@ -477,8 +479,8 @@
       <JapaneseText>まだ少し
 ギクシャクしてるんだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
@@ -488,8 +490,8 @@
 鉄工職人になるんダッ!!
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>47</Id>
       <Status>To Do</Status>
     </Entry>
@@ -498,8 +500,8 @@
       <JapaneseText>…………
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
@@ -509,8 +511,8 @@
 言われたし……
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>49</Id>
       <Status>To Do</Status>
     </Entry>

@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,27 +9,11 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543</PointerOffset>
-      <JapaneseText>男の人</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2109,2109,2109,2109,2109,2109,2109,2109,2109,2109,2109</PointerOffset>
-      <JapaneseText>カレギア兵</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>2717,2849,3080</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
+      <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -38,7 +21,7 @@
       <JapaneseText>ググラ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>3</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,12 +29,28 @@
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3129</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2109,2109,2109,2109,2109,2109,2109,2109,2109,2109,2109</PointerOffset>
+      <JapaneseText>カレギア兵</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,1543,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535</PointerOffset>
+      <JapaneseText>男の人</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
@@ -65,30 +64,22 @@
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>6591</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>221</PointerOffset>
-      <JapaneseText>サニイタウン</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>224</PointerOffset>
       <JapaneseText>サニイタウン</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>221</PointerOffset>
+      <JapaneseText>サニイタウン</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -96,7 +87,7 @@
       <PointerOffset>281</PointerOffset>
       <JapaneseText>広場への道</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
@@ -104,440 +95,115 @@
       <PointerOffset>301</PointerOffset>
       <JapaneseText>広場への道</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
-      <PointerOffset>584</PointerOffset>
-      <JapaneseText>船に乗るのかい？
-船ったらやっぱ……
-港だろ？
-</JapaneseText>
+      <PointerOffset>2720</PointerOffset>
+      <VoiceId>16000000</VoiceId>
+      <JapaneseText>じいさん、ありがとう!!
+お代はいくらだい？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>623</PointerOffset>
-      <JapaneseText>さらわれた女の子？
-さあ……そんな話は
-知らないが……
-</JapaneseText>
+      <PointerOffset>2742</PointerOffset>
+      <VoiceId>16000001</VoiceId>
+      <JapaneseText>恩人からは金は受け取れん。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>662</PointerOffset>
-      <JapaneseText>ヒューマの女の子を
-探してる？</JapaneseText>
+      <PointerOffset>2790</PointerOffset>
+      <VoiceId>16000002</VoiceId>
+      <JapaneseText>おまえさんたちは
+船の材木も集めてくれたしな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>684</PointerOffset>
-      <JapaneseText>この辺りではそれらしき娘は
-見なかったが……？
-</JapaneseText>
+      <PointerOffset>2812</PointerOffset>
+      <VoiceId>16000003</VoiceId>
+      <JapaneseText>トヨホウス河に来た時は、
+ワシのところへ来い。
+いつでも船に乗せてやる。
+もちろん、金などいらんぞ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>723</PointerOffset>
-      <JapaneseText>なんだか広場であるみたいだね。
-見にいってみるか……
-</JapaneseText>
+      <PointerOffset>2852</PointerOffset>
+      <VoiceId>16000004</VoiceId>
+      <JapaneseText>ありがとう。助かるぜ!!
+なあ、みんな!!</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>773</PointerOffset>
-      <JapaneseText>&lt;Blue&gt;ゴルドバの日&lt;White&gt;の儀式……
-行ってみたいけど……
-</JapaneseText>
+      <PointerOffset>2999</PointerOffset>
+      <VoiceId>16000005</VoiceId>
+      <JapaneseText>ありがとう、ググラじいさん。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>795</PointerOffset>
-      <JapaneseText>定期便で行けないとなると、
-ちょっと大変だよなぁ……
-迷うよなぁ……</JapaneseText>
+      <PointerOffset>3021</PointerOffset>
+      <VoiceId>16000006</VoiceId>
+      <JapaneseText>ああ、またな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>858</PointerOffset>
-      <JapaneseText>あんた、ヒューマをどう思う？
-俺は、見るだけでも
-気分が悪いんだ……
-</JapaneseText>
+      <PointerOffset>3083</PointerOffset>
+      <VoiceId>16000007</VoiceId>
+      <JapaneseText>よっしゃ！　さっそく、
+&lt;Blue&gt;王の盾&lt;White&gt;の追跡開始といこうぜ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>880</PointerOffset>
-      <JapaneseText>船着場も、種族別にして
-欲しいところだよ……
-</JapaneseText>
+      <PointerOffset>3132</PointerOffset>
+      <VoiceId>16000008</VoiceId>
+      <JapaneseText>海側の港からバルカ行きの船が
+出ているはずだ。
+まずそこへ行ってみよう。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>916</PointerOffset>
-      <JapaneseText>うるせーな、ヒューマが！
-あっちの男に話を聞けよ！
-あー気分悪い!!
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>985</PointerOffset>
-      <JapaneseText>&lt;Blue&gt;幻の島&lt;White&gt;のう……
-カレギアの海は島だらけだからな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1007</PointerOffset>
-      <JapaneseText>幻というからには
-沈んだんだろうな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1043</PointerOffset>
-      <JapaneseText>&lt;Blue&gt;幻の島&lt;White&gt;？
-知らん。あっち行け！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1112</PointerOffset>
-      <JapaneseText>バルカでジルバ様が演説を
-したんだってな！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1134</PointerOffset>
-      <JapaneseText>俺たちガジュマの気持ちを
-ジルバ様が代弁してくれたんだ。
-俺もその場で聞きたかったよ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1170</PointerOffset>
-      <JapaneseText>なんだよ、ヒューマが！
-ひとでなしの種族が、
-偉そうにしてるんじゃねえぞ！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1239</PointerOffset>
-      <JapaneseText>色んなところでガジュマと
-ヒューマで争いになってるみたいだが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1261</PointerOffset>
-      <JapaneseText>ぜひ同胞たちには
-がんばってほしいね！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1283</PointerOffset>
-      <JapaneseText>ミナールでもガジュマたちが
-奮戦してるって話だぜ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1319</PointerOffset>
-      <JapaneseText>なんだよ、ヒューマが！
-ひとでなしの種族が、
-偉そうにしてるんじゃねえぞ！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1377</PointerOffset>
-      <JapaneseText>このヘンな音……どっかで地震でも
-起きてるんじゃないだろうな……？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1399</PointerOffset>
-      <JapaneseText>津波なんて来たら、サニイタウンは
-あっと言う間に沈んじまう……！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1435</PointerOffset>
-      <JapaneseText>ヒューマが何だってんだ！
-存在そのものが気に食わないんだよ！
-とっとと失せろ！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1491</PointerOffset>
-      <JapaneseText>この空の色は何なんだよ……
-どうなっちまうんだよ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1516</PointerOffset>
-      <JapaneseText>仕事の都合で、陸にあがったんだけど、
-水の中の世界が懐かしくて……
-時々こうして川や海を見に来るんだ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>29</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1592</PointerOffset>
-      <JapaneseText>この辺りの船では
-海は渡れないよ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1631</PointerOffset>
-      <JapaneseText>ペトナジャンカへ戻る船はないんだ。
-戻る時は、北の出口から
-歩くしかないね。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1653</PointerOffset>
-      <JapaneseText>テルアラ街道のほうへ行くなら
-南の出口からだよ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>32</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1692</PointerOffset>
-      <JapaneseText>女の子？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>33</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1714</PointerOffset>
-      <JapaneseText>この辺りで隠れられそうなのは
-船の中くらいだな。
-そうでなければ、水の中か……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1753</PointerOffset>
-      <JapaneseText>広場の方が騒がしいが……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>35</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1803</PointerOffset>
-      <JapaneseText>お披露目の儀式はいいけどさ、
-そんなのを発表する前に、
-国民を守ってくれ、って言いたいよ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>36</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1825</PointerOffset>
-      <JapaneseText>まったく、何だったんだ、
-あのハーフの女は……
-恐ろしいし、気味悪いよな……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>37</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1916</PointerOffset>
-      <JapaneseText>ガジュマ……
-ううぅ……なんなんだよ、
-この気持ちは……近寄るな！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1947</PointerOffset>
-      <JapaneseText>ガジュマが近づくだけで、
-無性に血が騒ぐんだよ……
-憎くてたまらないんだ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>39</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2010</PointerOffset>
-      <JapaneseText>うう……ガジュマ、
-近付くな……！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>40</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2035</PointerOffset>
-      <JapaneseText>幻……幻の島ねえ……
-あまり知られてないが、
-あんま海にはくわしくないしな……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2057</PointerOffset>
-      <JapaneseText>そういや、ベルサス辺りに
-昔、海賊たちの根城があったって
-話もあるぜ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>42</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2082</PointerOffset>
-      <JapaneseText>海が荒れると、この辺りは
-あっというまに水浸しになっちまう。
-あんたらも気をつけるんだよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>43</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>2171</PointerOffset>
       <JapaneseText>また、その辺で騒ぎが起きているようだな。
@@ -545,9 +211,9 @@
 しでかしたんだろう……まったく……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>44</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -557,9 +223,9 @@
 さっさと家に帰れ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>45</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -568,9 +234,9 @@
 何をしているんだ？
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>46</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -580,9 +246,9 @@
 よく考えてくれ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>47</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -591,9 +257,9 @@
 ヒューマは外出するな。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>48</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -603,9 +269,9 @@
 外出を控えてくれ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>49</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -614,9 +280,9 @@
 何をしているんだ？
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>50</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -626,9 +292,9 @@
 よく考えてくれ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>51</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -637,9 +303,9 @@
 ヒューマは外出するな。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>52</Id>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -648,9 +314,9 @@
 一般市民は、噴水前へ避難するんだ！
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>53</Id>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -659,146 +325,459 @@
 軍に協力して治安回復に
 努めるように！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>1592</PointerOffset>
+      <JapaneseText>この辺りの船では
+海は渡れないよ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1631</PointerOffset>
+      <JapaneseText>ペトナジャンカへ戻る船はないんだ。
+戻る時は、北の出口から
+歩くしかないね。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1653</PointerOffset>
+      <JapaneseText>テルアラ街道のほうへ行くなら
+南の出口からだよ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1692</PointerOffset>
+      <JapaneseText>女の子？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1714</PointerOffset>
+      <JapaneseText>この辺りで隠れられそうなのは
+船の中くらいだな。
+そうでなければ、水の中か……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1753</PointerOffset>
+      <JapaneseText>広場の方が騒がしいが……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1803</PointerOffset>
+      <JapaneseText>お披露目の儀式はいいけどさ、
+そんなのを発表する前に、
+国民を守ってくれ、って言いたいよ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1825</PointerOffset>
+      <JapaneseText>まったく、何だったんだ、
+あのハーフの女は……
+恐ろしいし、気味悪いよな……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1916</PointerOffset>
+      <JapaneseText>ガジュマ……
+ううぅ……なんなんだよ、
+この気持ちは……近寄るな！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1947</PointerOffset>
+      <JapaneseText>ガジュマが近づくだけで、
+無性に血が騒ぐんだよ……
+憎くてたまらないんだ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2010</PointerOffset>
+      <JapaneseText>うう……ガジュマ、
+近付くな……！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2035</PointerOffset>
+      <JapaneseText>幻……幻の島ねえ……
+あまり知られてないが、
+あんま海にはくわしくないしな……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2057</PointerOffset>
+      <JapaneseText>そういや、ベルサス辺りに
+昔、海賊たちの根城があったって
+話もあるぜ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2082</PointerOffset>
+      <JapaneseText>海が荒れると、この辺りは
+あっというまに水浸しになっちまう。
+あんたらも気をつけるんだよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
+    <Entry>
+      <PointerOffset>584</PointerOffset>
+      <JapaneseText>船に乗るのかい？
+船ったらやっぱ……
+港だろ？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>623</PointerOffset>
+      <JapaneseText>さらわれた女の子？
+さあ……そんな話は
+知らないが……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>662</PointerOffset>
+      <JapaneseText>ヒューマの女の子を
+探してる？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>684</PointerOffset>
+      <JapaneseText>この辺りではそれらしき娘は
+見なかったが……？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>723</PointerOffset>
+      <JapaneseText>なんだか広場であるみたいだね。
+見にいってみるか……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>773</PointerOffset>
+      <JapaneseText>&lt;Blue&gt;ゴルドバの日&lt;White&gt;の儀式……
+行ってみたいけど……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>795</PointerOffset>
+      <JapaneseText>定期便で行けないとなると、
+ちょっと大変だよなぁ……
+迷うよなぁ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>858</PointerOffset>
+      <JapaneseText>あんた、ヒューマをどう思う？
+俺は、見るだけでも
+気分が悪いんだ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>880</PointerOffset>
+      <JapaneseText>船着場も、種族別にして
+欲しいところだよ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>916</PointerOffset>
+      <JapaneseText>うるせーな、ヒューマが！
+あっちの男に話を聞けよ！
+あー気分悪い!!
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>985</PointerOffset>
+      <JapaneseText>&lt;Blue&gt;幻の島&lt;White&gt;のう……
+カレギアの海は島だらけだからな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1007</PointerOffset>
+      <JapaneseText>幻というからには
+沈んだんだろうな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1043</PointerOffset>
+      <JapaneseText>&lt;Blue&gt;幻の島&lt;White&gt;？
+知らん。あっち行け！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1112</PointerOffset>
+      <JapaneseText>バルカでジルバ様が演説を
+したんだってな！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1134</PointerOffset>
+      <JapaneseText>俺たちガジュマの気持ちを
+ジルバ様が代弁してくれたんだ。
+俺もその場で聞きたかったよ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1170</PointerOffset>
+      <JapaneseText>なんだよ、ヒューマが！
+ひとでなしの種族が、
+偉そうにしてるんじゃねえぞ！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
       <Id>54</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2720</PointerOffset>
-      <VoiceId>16000000</VoiceId>
-      <JapaneseText>じいさん、ありがとう!!
-お代はいくらだい？</JapaneseText>
-      <EnglishText>Thanks, mister! How much do we
-owe?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>55</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2742</PointerOffset>
-      <VoiceId>16000001</VoiceId>
-      <JapaneseText>恩人からは金は受け取れん。</JapaneseText>
-      <EnglishText>I can't accept payment from
-those who have helped me.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>56</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2790</PointerOffset>
-      <VoiceId>16000002</VoiceId>
-      <JapaneseText>おまえさんたちは
-船の材木も集めてくれたしな。</JapaneseText>
-      <EnglishText>You supplied the wood needed
-for my raft.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>57</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2812</PointerOffset>
-      <VoiceId>16000003</VoiceId>
-      <JapaneseText>トヨホウス河に来た時は、
-ワシのところへ来い。
-いつでも船に乗せてやる。
-もちろん、金などいらんぞ。</JapaneseText>
-      <EnglishText>Come visit me whenever you
-visit the Toyohose river. My boat is
-at your service. Free of charge!</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>58</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2852</PointerOffset>
-      <VoiceId>16000004</VoiceId>
-      <JapaneseText>ありがとう。助かるぜ!!
-なあ、みんな!!</JapaneseText>
-      <EnglishText>Thanks, you're a lifesaver!
-Right, gang?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>59</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2999</PointerOffset>
-      <VoiceId>16000005</VoiceId>
-      <JapaneseText>ありがとう、ググラじいさん。</JapaneseText>
-      <EnglishText>Thank you, Gugura.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>60</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3021</PointerOffset>
-      <VoiceId>16000006</VoiceId>
-      <JapaneseText>ああ、またな。</JapaneseText>
-      <EnglishText>Well, see you later.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>61</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3083</PointerOffset>
-      <VoiceId>16000007</VoiceId>
-      <JapaneseText>よっしゃ！　さっそく、
-&lt;Blue&gt;王の盾&lt;White&gt;の追跡開始といこうぜ！</JapaneseText>
-      <EnglishText>Alright! Time to hunt down the
-&lt;Blue&gt;Royal Shield&lt;White&gt;!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>62</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3132</PointerOffset>
-      <VoiceId>16000008</VoiceId>
-      <JapaneseText>海側の港からバルカ行きの船が
-出ているはずだ。
-まずそこへ行ってみよう。</JapaneseText>
-      <EnglishText>There will be boats bound for
-Balka at this city's port. Let's head
-over there.</EnglishText>
-      <Notes/>
+      <PointerOffset>1239</PointerOffset>
+      <JapaneseText>色んなところでガジュマと
+ヒューマで争いになってるみたいだが……</JapaneseText>
+      <EnglishText/>
       <SpeakerId>5</SpeakerId>
-      <Id>63</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>55</Id>
+      <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>1261</PointerOffset>
+      <JapaneseText>ぜひ同胞たちには
+がんばってほしいね！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1283</PointerOffset>
+      <JapaneseText>ミナールでもガジュマたちが
+奮戦してるって話だぜ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1319</PointerOffset>
+      <JapaneseText>なんだよ、ヒューマが！
+ひとでなしの種族が、
+偉そうにしてるんじゃねえぞ！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1377</PointerOffset>
+      <JapaneseText>このヘンな音……どっかで地震でも
+起きてるんじゃないだろうな……？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1399</PointerOffset>
+      <JapaneseText>津波なんて来たら、サニイタウンは
+あっと言う間に沈んじまう……！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>60</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1435</PointerOffset>
+      <JapaneseText>ヒューマが何だってんだ！
+存在そのものが気に食わないんだよ！
+とっとと失せろ！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>61</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1491</PointerOffset>
+      <JapaneseText>この空の色は何なんだよ……
+どうなっちまうんだよ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1516</PointerOffset>
+      <JapaneseText>仕事の都合で、陸にあがったんだけど、
+水の中の世界が懐かしくて……
+時々こうして川や海を見に来るんだ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>4749</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>6</SpeakerId>
+      <Notes/>
       <Id>64</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6417</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>65</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6495</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>66</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

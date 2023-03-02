@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,59 +9,11 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2086,2563,2599</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2459,2493,2527,2877,2911</PointerOffset>
-      <JapaneseText>&lt;Unk19:2222&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2646,2742,4617,4777,5082,5257</PointerOffset>
-      <JapaneseText>？？？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2624,2624</PointerOffset>
-      <JapaneseText>マウロ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2720,2720</PointerOffset>
-      <JapaneseText>イゴル</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2816,4799,5434</PointerOffset>
-      <JapaneseText>ナッツ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>4118,4755,5796,5852,5924</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -70,7 +21,7 @@
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>7</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -78,7 +29,47 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4617,4777,5082,5257,2742,2646</PointerOffset>
+      <JapaneseText>？？？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4799,5434,2816,2816,2816,2816,2816,2816</PointerOffset>
+      <JapaneseText>ナッツ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2911,2877,2527,2493,2459</PointerOffset>
+      <JapaneseText>&lt;Unk19:2222&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2720,2720</PointerOffset>
+      <JapaneseText>イゴル</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2624,2624</PointerOffset>
+      <JapaneseText>マウロ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -86,25 +77,25 @@
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>9</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>9439</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>2599,2563,2086</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>10</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
-      <PointerOffset>409</PointerOffset>
-      <JapaneseText>&lt;icon:20&gt; 動かす</JapaneseText>
+      <PointerOffset>431</PointerOffset>
+      <JapaneseText>バルカ収容所</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
@@ -112,66 +103,386 @@
       <PointerOffset>428</PointerOffset>
       <JapaneseText>バルカ収容所</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
-      <PointerOffset>431</PointerOffset>
-      <JapaneseText>バルカ収容所</JapaneseText>
+      <PointerOffset>4121</PointerOffset>
+      <VoiceId>1f000035</VoiceId>
+      <JapaneseText>そのメモに書いてあるのは
+フォルスを無効化している
+装置の解除方法だな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2089</PointerOffset>
-      <JapaneseText>元に戻す</JapaneseText>
+      <PointerOffset>4142</PointerOffset>
+      <VoiceId>1f000036</VoiceId>
+      <JapaneseText>ここに書いてある色は、
+装置の球の色と同じようだな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2193</PointerOffset>
-      <JapaneseText>old&lt;Unk17:38f804&gt;,new&lt;Unk17:38fc04&gt;,[&lt;Unk17:38d004&gt;][&lt;Unk17:38d404&gt;][&lt;Unk17:38d804&gt;][&lt;Unk17:38dc04&gt;][&lt;Unk17:38e004&gt;]　[&lt;Unk17:38e404&gt;][&lt;Unk17:38e804&gt;][&lt;Unk17:38ec04&gt;][&lt;Unk17:38f004&gt;][&lt;Unk17:38f404&gt;]</JapaneseText>
+      <PointerOffset>4251</PointerOffset>
+      <VoiceId>1f000037</VoiceId>
+      <JapaneseText>……じゃあ、そのメモのとおりに
+球を並べてやれば、
+あの光を消せるって事か？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2462</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;さん、落ち着いて
-考えてください。</JapaneseText>
+      <PointerOffset>4300</PointerOffset>
+      <VoiceId>1f000038</VoiceId>
+      <JapaneseText>ああ……やってみよう。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2496</PointerOffset>
-      <JapaneseText>早く出して。
-まったく、無様ね……
-</JapaneseText>
+      <PointerOffset>4598</PointerOffset>
+      <VoiceId>1f000039</VoiceId>
+      <JapaneseText>これで全員出られたな。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2530</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;ー！
-たすけてよー！</JapaneseText>
+      <PointerOffset>4620</PointerOffset>
+      <VoiceId>1f00003a</VoiceId>
+      <JapaneseText>隊長!!</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>4758</PointerOffset>
+      <VoiceId>1f00003b</VoiceId>
+      <JapaneseText>俺を隊長と呼ぶ、という事は……
+おまえは&lt;Blue&gt;王の盾&lt;White&gt;の者か？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4780</PointerOffset>
+      <VoiceId>1f00003c</VoiceId>
+      <JapaneseText>はい、ナッツといいます。
+サレ様やトーマ様のやり方に納得できず、
+命令に背き、ここに入れられたのです。
+自分は正しい事をしただけです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4802</PointerOffset>
+      <VoiceId>1f00003d</VoiceId>
+      <JapaneseText>その他の者たちも&lt;Blue&gt;王の盾&lt;White&gt;が
+ヒューマの娘を集める際に
+抵抗したという理由で収監されました。
+どうか、私たちを……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5085</PointerOffset>
+      <VoiceId>1f00003e</VoiceId>
+      <JapaneseText>ふぅ、助かったぜ、
+ありがとよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5260</PointerOffset>
+      <VoiceId>1f00003f</VoiceId>
+      <JapaneseText>よかった……もう二度と
+家に帰れないかと思ってたよ。
+ありがとう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5437</PointerOffset>
+      <VoiceId>1f000040</VoiceId>
+      <JapaneseText>本当に
+ありがとうございます。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5493</PointerOffset>
+      <VoiceId>1f000041</VoiceId>
+      <JapaneseText>カレギア城へ戻ろう。
+急ぐぞ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>2914</PointerOffset>
+      <JapaneseText>ギンナルのメモには
+何て書いてあったんだ？
+ヒントって何だ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>2880</PointerOffset>
+      <JapaneseText>一刻も早く、
+&lt;Mao&gt;、&lt;Annie&gt;、
+&lt;Hilda&gt;を出してやろう……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
+    <Entry>
+      <PointerOffset>5756</PointerOffset>
+      <JapaneseText>隊長、
+ありがとうございました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5799</PointerOffset>
+      <JapaneseText>俺はもう隊長じゃない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5821</PointerOffset>
+      <JapaneseText>ですが、&lt;Blue&gt;王の盾&lt;White&gt;の中には
+今でもあなたの事を信じている者が、
+大勢います。私もそのひとりです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5855</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5877</PointerOffset>
+      <JapaneseText>この国は今、よからぬ方向へ
+進もうとしているような気がします。
+しかし、その流れを止められる者は、
+軍にも、&lt;Blue&gt;王の盾&lt;White&gt;にもいません。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5899</PointerOffset>
+      <JapaneseText>お願いします。どうか、
+この国を救ってください。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5927</PointerOffset>
+      <JapaneseText>……わかった。だが、それは
+俺たちだけの力ではできない。
+おまえたちも協力してくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5959</PointerOffset>
+      <JapaneseText>はい!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2850</PointerOffset>
+      <JapaneseText>ありがとうございました。
+隊長がおっしゃったように
+私もこの国を救うためにできる限り、
+がんばりたいと思います。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-3</Section>
+    <Entry>
+      <PointerOffset>2745</PointerOffset>
+      <JapaneseText>俺の名は、イゴルだ。
+東大陸ラジルダの住民だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2767</PointerOffset>
+      <JapaneseText>あんたらの顔は忘れねえ。
+ラジルダに寄った時は、
+俺のところへ来てくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2798</PointerOffset>
+      <JapaneseText>恩人の顔は忘れねえ。
+ラジルダに寄った時は、
+俺のところへ来てくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-4</Section>
+    <Entry>
+      <PointerOffset>2649</PointerOffset>
+      <JapaneseText>オイラは、マウロ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2671</PointerOffset>
+      <JapaneseText>このまま、ここで
+朽ち果てちまうのかと思った……
+あんたらのおかげで将来に
+また夢が持てるよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2702</PointerOffset>
+      <JapaneseText>オイラの夢？
+それは海賊のお宝を
+探し出す事さ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>7597</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>2602</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『物入れ』
+見張り担当兵士の
+装備らしきものが
+収納されている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
     <Entry>
       <PointerOffset>2566</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『見張り担当者への注意』
@@ -182,386 +493,61 @@
 また、交代制で、
 常に収容者を監視せよ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2602</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『物入れ』
-見張り担当兵士の
-装備らしきものが
-収納されている。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2649</PointerOffset>
-      <JapaneseText>オイラは、マウロ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2671</PointerOffset>
-      <JapaneseText>このまま、ここで
-朽ち果てちまうのかと思った……
-あんたらのおかげで将来に
-また夢が持てるよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2702</PointerOffset>
-      <JapaneseText>オイラの夢？
-それは海賊のお宝を
-探し出す事さ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2745</PointerOffset>
-      <JapaneseText>俺の名は、イゴルだ。
-東大陸ラジルダの住民だ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2767</PointerOffset>
-      <JapaneseText>あんたらの顔は忘れねえ。
-ラジルダに寄った時は、
-俺のところへ来てくれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2798</PointerOffset>
-      <JapaneseText>恩人の顔は忘れねえ。
-ラジルダに寄った時は、
-俺のところへ来てくれ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2850</PointerOffset>
-      <JapaneseText>ありがとうございました。
-隊長がおっしゃったように
-私もこの国を救うためにできる限り、
-がんばりたいと思います。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2880</PointerOffset>
-      <JapaneseText>一刻も早く、
-&lt;Mao&gt;、&lt;Annie&gt;、
-&lt;Hilda&gt;を出してやろう……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2914</PointerOffset>
-      <JapaneseText>ギンナルのメモには
-何て書いてあったんだ？
-ヒントって何だ？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4121</PointerOffset>
-      <VoiceId>1f000035</VoiceId>
-      <JapaneseText>そのメモに書いてあるのは
-フォルスを無効化している
-装置の解除方法だな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4142</PointerOffset>
-      <VoiceId>1f000036</VoiceId>
-      <JapaneseText>ここに書いてある色は、
-装置の球の色と同じようだな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4251</PointerOffset>
-      <VoiceId>1f000037</VoiceId>
-      <JapaneseText>……じゃあ、そのメモのとおりに
-球を並べてやれば、
-あの光を消せるって事か？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4300</PointerOffset>
-      <VoiceId>1f000038</VoiceId>
-      <JapaneseText>ああ……やってみよう。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4598</PointerOffset>
-      <VoiceId>1f000039</VoiceId>
-      <JapaneseText>これで全員出られたな。</JapaneseText>
-      <EnglishText>Looks like everyone's out.</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4620</PointerOffset>
-      <VoiceId>1f00003a</VoiceId>
-      <JapaneseText>隊長!!</JapaneseText>
-      <EnglishText>Commander!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4758</PointerOffset>
-      <VoiceId>1f00003b</VoiceId>
-      <JapaneseText>俺を隊長と呼ぶ、という事は……
-おまえは&lt;Blue&gt;王の盾&lt;White&gt;の者か？</JapaneseText>
-      <EnglishText>Addressing me as Commander...
-That must mean you're a member of
-the &lt;Blue&gt;Royal Shield&lt;White&gt;,
-correct?</EnglishText>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4780</PointerOffset>
-      <VoiceId>1f00003c</VoiceId>
-      <JapaneseText>はい、ナッツといいます。
-サレ様やトーマ様のやり方に納得できず、
-命令に背き、ここに入れられたのです。
-自分は正しい事をしただけです。</JapaneseText>
-      <EnglishText>Yes, I'm Natz. I took issue
-with Lord Saleh and Tohma's
-behaviour, and after refusing to follow
-their orders, I was locked up in
-here. I was only doing what I felt
-was the correct thing to do.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4802</PointerOffset>
-      <VoiceId>1f00003d</VoiceId>
-      <JapaneseText>その他の者たちも&lt;Blue&gt;王の盾&lt;White&gt;が
-ヒューマの娘を集める際に
-抵抗したという理由で収監されました。
-どうか、私たちを……</JapaneseText>
-      <EnglishText>The other people here were
-imprisoned for putting up a resistance
-when the &lt;Blue&gt;Royal Shield&lt;White&gt;
-was kidnapping Huma girls. Please,
-let us out...</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5085</PointerOffset>
-      <VoiceId>1f00003e</VoiceId>
-      <JapaneseText>ふぅ、助かったぜ、
-ありがとよ。</JapaneseText>
-      <EnglishText>Phew, I'm saved. Thanks.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5260</PointerOffset>
-      <VoiceId>1f00003f</VoiceId>
-      <JapaneseText>よかった……もう二度と
-家に帰れないかと思ってたよ。
-ありがとう。</JapaneseText>
-      <EnglishText>What a relief. I thought I'd
-never be able to go home again.
-Thanks a lot.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5437</PointerOffset>
-      <VoiceId>1f000040</VoiceId>
-      <JapaneseText>本当に
-ありがとうございます。</JapaneseText>
-      <EnglishText>Thank you very much.</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5493</PointerOffset>
-      <VoiceId>1f000041</VoiceId>
-      <JapaneseText>カレギア城へ戻ろう。
-急ぐぞ！</JapaneseText>
-      <EnglishText>We need to hurry back to
-Callegea Castle!</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5756</PointerOffset>
-      <JapaneseText>隊長、
-ありがとうございました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>33</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5799</PointerOffset>
-      <JapaneseText>俺はもう隊長じゃない。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5821</PointerOffset>
-      <JapaneseText>ですが、&lt;Blue&gt;王の盾&lt;White&gt;の中には
-今でもあなたの事を信じている者が、
-大勢います。私もそのひとりです。</JapaneseText>
-      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
       <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-4</Section>
     <Entry>
-      <PointerOffset>5855</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
+      <PointerOffset>2530</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;ー！
+たすけてよー！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
       <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-5</Section>
     <Entry>
-      <PointerOffset>5877</PointerOffset>
-      <JapaneseText>この国は今、よからぬ方向へ
-進もうとしているような気がします。
-しかし、その流れを止められる者は、
-軍にも、&lt;Blue&gt;王の盾&lt;White&gt;にもいません。</JapaneseText>
+      <PointerOffset>2496</PointerOffset>
+      <JapaneseText>早く出して。
+まったく、無様ね……
+</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
       <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-6</Section>
     <Entry>
-      <PointerOffset>5899</PointerOffset>
-      <JapaneseText>お願いします。どうか、
-この国を救ってください。</JapaneseText>
+      <PointerOffset>2462</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;さん、落ち着いて
+考えてください。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
       <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-7</Section>
     <Entry>
-      <PointerOffset>5927</PointerOffset>
-      <JapaneseText>……わかった。だが、それは
-俺たちだけの力ではできない。
-おまえたちも協力してくれ。</JapaneseText>
+      <PointerOffset>2089</PointerOffset>
+      <JapaneseText>元に戻す</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>39</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5959</PointerOffset>
-      <JapaneseText>はい!!</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>40</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7597</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9265</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>42</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9343</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>43</Id>
+      <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

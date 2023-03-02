@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,51 +9,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2375</PointerOffset>
-      <JapaneseText>&lt;Unk19:d0ff1fc80ce00c&gt;</JapaneseText>
+      <PointerOffset>6905,5828,2416,3667,3844,4673</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2416,3667,3844,4673,5828,6905</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2623,4402,5125,5332,5522,5734</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2899,3244,3747,3812,3966,4031,4467,4711,4898,5980</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3715,3876,3934,5884,5918</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3780,3999,6938</PointerOffset>
+      <PointerOffset>6938,3780,3999</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -62,45 +29,173 @@
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10467</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>3244,5980,2899,3747,3812,3966,4031,4467,4711,4898</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>7</Id>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5884,5918,3715,3876,3934</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2375</PointerOffset>
+      <JapaneseText>&lt;Unk19:d0ff1fc80ce00c&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2623,5734,4402,5125,5332,5522</PointerOffset>
+      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>703</PointerOffset>
-      <JapaneseText>製鉄工場・密林化</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>706</PointerOffset>
       <JapaneseText>製鉄工場・密林化</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>703</PointerOffset>
+      <JapaneseText>製鉄工場・密林化</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>6908</PointerOffset>
+      <JapaneseText>氷も溶かしちゃうなんて、
+すごい生命力！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6941</PointerOffset>
+      <JapaneseText>でも、凍ってる間は
+この大きな花の活動は
+完全に停止していたわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>6050</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;デバッグ機能で
+大きな花を燃やす？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-4</Section>
+    <Entry>
+      <PointerOffset>3247</PointerOffset>
+      <JapaneseText>今だ!!　一気に行くぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5831</PointerOffset>
+      <JapaneseText>ああっ、燃えたと思ったのに
+元に戻っちゃったよ!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5887</PointerOffset>
+      <JapaneseText>あの巨大な花が叫ぶのと……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5921</PointerOffset>
+      <JapaneseText>この花が復活したのは同時だった。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5983</PointerOffset>
+      <JapaneseText>この花を無力化するには
+大元を叩くしかないようだな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-5</Section>
+    <Entry>
+      <PointerOffset>2902</PointerOffset>
+      <JapaneseText>今だ!!　一気に行くぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-7</Section>
     <Entry>
       <PointerOffset>2378</PointerOffset>
       <JapaneseText>ダメだ……
 この花は焼き払えないよ。
 他の方法を考えないと！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -108,18 +203,18 @@
       <JapaneseText>この花、すごい生命力だヨ!!
 氷が溶けたら元に戻っちゃった。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>4</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2484</PointerOffset>
       <JapaneseText>&lt;Mao&gt;のフォルスではだめか……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>5</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -127,18 +222,18 @@
       <JapaneseText>ボクの炎じゃダメみたい。
 他の方法を考えなきゃ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>6</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2526</PointerOffset>
       <JapaneseText>やっかいな花だな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>7</Id>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -146,9 +241,9 @@
       <JapaneseText>この花をなんとかしないと、
 先に進めないみたいですね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>8</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -156,54 +251,39 @@
       <JapaneseText>この花をなんとかしないと
 いけないんだよな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>9</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2592</PointerOffset>
       <JapaneseText>めんどくさい花ね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>10</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2603</PointerOffset>
       <JapaneseText>この花をどうにかしなければ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>11</Id>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>2902</PointerOffset>
-      <JapaneseText>今だ!!　一気に行くぞ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3247</PointerOffset>
-      <JapaneseText>今だ!!　一気に行くぞ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-8</Section>
     <Entry>
       <PointerOffset>3670</PointerOffset>
       <JapaneseText>あの花、元に戻っちゃってる！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>14</Id>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -212,18 +292,18 @@
 隣の部屋まで移動するのは無理だ。
 フォルスでなんとかできないのか……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>15</Id>
+      <Notes/>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3750</PointerOffset>
       <JapaneseText>&lt;Mao&gt;の&lt;Yellow&gt;炎&lt;White&gt;は通用しなかった……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>16</Id>
+      <Notes/>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -232,18 +312,18 @@
 フォルスの炎よりも高い温度の
 火力があれば、燃えるかも……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>17</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3815</PointerOffset>
       <JapaneseText>そんなものがどこに……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>18</Id>
+      <Notes/>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -252,18 +332,18 @@
 どこかに燃やす材料があるはず！
 それを使えば？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>19</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3879</PointerOffset>
       <JapaneseText>いい考えだ。探そう。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>20</Id>
+      <Notes/>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -273,18 +353,18 @@
 フォルスでなんとか
 できればいいのだが……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>21</Id>
+      <Notes/>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3969</PointerOffset>
       <JapaneseText>&lt;Mao&gt;の&lt;Yellow&gt;炎&lt;White&gt;は通用しなかった……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>22</Id>
+      <Notes/>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -292,28 +372,111 @@
       <JapaneseText>どんなものでも燃やすような
 &lt;Yellow&gt;すごい火力&lt;White&gt;があれば……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>23</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4034</PointerOffset>
       <JapaneseText>…………</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>24</Id>
+      <Notes/>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>8625</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>5595</PointerOffset>
+      <JapaneseText>柵が閉まっている……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5616</PointerOffset>
+      <JapaneseText>柵が閉まってるよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5637</PointerOffset>
+      <JapaneseText>鉄柵が閉まっているな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5659</PointerOffset>
+      <JapaneseText>鉄の柵が閉まってますね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5681</PointerOffset>
+      <JapaneseText>鉄の柵が閉まっているな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5703</PointerOffset>
+      <JapaneseText>鉄の柵が閉まっているわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5714</PointerOffset>
+      <JapaneseText>鉄の柵が閉まっている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
     <Entry>
       <PointerOffset>4307</PointerOffset>
       <JapaneseText>ここから石炭をいれたとしても
 強い火力にはなりそうもないな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>25</Id>
+      <Id>40</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -322,9 +485,9 @@
 バラバラになるから、
 強い火にはならないよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>26</Id>
+      <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -333,9 +496,9 @@
 火力が分散して、あまり
 有効ではないな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
+      <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -344,9 +507,9 @@
 バラバラになってしまうので、
 強い火力は期待できませんね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>28</Id>
+      <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -354,108 +517,108 @@
       <JapaneseText>ここから石炭を入れても
 あまり有効ではないな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>29</Id>
+      <Id>44</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4470</PointerOffset>
       <JapaneseText>しばらくおとなしくしていろ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>30</Id>
+      <Notes/>
+      <Id>45</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4676</PointerOffset>
       <JapaneseText>ダメだ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>31</Id>
+      <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4714</PointerOffset>
       <JapaneseText>炎がだめなら、こうするまでだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>32</Id>
+      <Notes/>
+      <Id>47</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4901</PointerOffset>
       <JapaneseText>しばらくおとなしくしていろ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>33</Id>
+      <Notes/>
+      <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4986</PointerOffset>
       <JapaneseText>花は凍っている……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>34</Id>
+      <Id>49</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5007</PointerOffset>
       <JapaneseText>花は凍ってるよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
+      <Id>50</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5028</PointerOffset>
       <JapaneseText>花は凍っているな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>36</Id>
+      <Id>51</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5050</PointerOffset>
       <JapaneseText>花は凍っていますね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>37</Id>
+      <Id>52</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5072</PointerOffset>
       <JapaneseText>花は凍ってるぜ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>38</Id>
+      <Id>53</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5094</PointerOffset>
       <JapaneseText>花は凍ってるわね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>39</Id>
+      <Id>54</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5105</PointerOffset>
       <JapaneseText>花が凍っている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>40</Id>
+      <Id>55</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -463,9 +626,9 @@
       <JapaneseText>この花の生命力が
 弱っている間ならもしかして……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>41</Id>
+      <Id>56</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -473,9 +636,9 @@
       <JapaneseText>この花の生命力が
 弱っている間ならたぶん……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>42</Id>
+      <Id>57</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -483,9 +646,9 @@
       <JapaneseText>この花の生命力が
 弱っている間ならもしや……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>43</Id>
+      <Id>58</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -493,9 +656,9 @@
       <JapaneseText>この花の生命力が
 弱っている間ならきっと……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>44</Id>
+      <Id>59</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -503,9 +666,9 @@
       <JapaneseText>この花の生命力が
 弱っている間ならたぶん……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>45</Id>
+      <Id>60</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -513,9 +676,9 @@
       <JapaneseText>この花の生命力が
 弱っている間ならもしかして……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>46</Id>
+      <Id>61</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -523,18 +686,18 @@
       <JapaneseText>この花の生命力が
 弱っている間ならもしかして……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>47</Id>
+      <Id>62</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5383</PointerOffset>
       <JapaneseText>やっとおとなしくなったか。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>48</Id>
+      <Id>63</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -542,9 +705,9 @@
       <JapaneseText>大きな花は溶鉱炉の熱で
 しおれたみたいだね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>49</Id>
+      <Id>64</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -552,9 +715,9 @@
       <JapaneseText>この花も溶鉱炉の熱には
 耐えられなかったようだな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>50</Id>
+      <Id>65</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -562,9 +725,9 @@
       <JapaneseText>大きな花は溶鉱炉の熱で
 しおれたみたいですね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>51</Id>
+      <Id>66</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -572,9 +735,9 @@
       <JapaneseText>この花……
 ちょっとかわいそうだな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>52</Id>
+      <Id>67</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -582,9 +745,9 @@
       <JapaneseText>この花も溶鉱炉の熱には
 耐えられなかったみたいね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>53</Id>
+      <Id>68</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -592,180 +755,9 @@
       <JapaneseText>大きな花は溶鉱炉の熱で
 しおれたようだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>54</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5595</PointerOffset>
-      <JapaneseText>柵が閉まっている……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5616</PointerOffset>
-      <JapaneseText>柵が閉まってるよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>56</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5637</PointerOffset>
-      <JapaneseText>鉄柵が閉まっているな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>57</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5659</PointerOffset>
-      <JapaneseText>鉄の柵が閉まってますね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>58</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5681</PointerOffset>
-      <JapaneseText>鉄の柵が閉まっているな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>59</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5703</PointerOffset>
-      <JapaneseText>鉄の柵が閉まっているわ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>60</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5714</PointerOffset>
-      <JapaneseText>鉄の柵が閉まっている。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>61</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5831</PointerOffset>
-      <JapaneseText>ああっ、燃えたと思ったのに
-元に戻っちゃったよ!!</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>62</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5887</PointerOffset>
-      <JapaneseText>あの巨大な花が叫ぶのと……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>63</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5921</PointerOffset>
-      <JapaneseText>この花が復活したのは同時だった。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>64</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5983</PointerOffset>
-      <JapaneseText>この花を無力化するには
-大元を叩くしかないようだな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>65</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6050</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;デバッグ機能で
-大きな花を燃やす？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>66</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6711</PointerOffset>
-      <JapaneseText>&lt;Unk17:d0ff1fc80de00c&gt;,&lt;Unk17:d0ff1fc80ee00c&gt;</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <Id>67</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6908</PointerOffset>
-      <JapaneseText>氷も溶かしちゃうなんて、
-すごい生命力！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>68</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6941</PointerOffset>
-      <JapaneseText>でも、凍ってる間は
-この大きな花の活動は
-完全に停止していたわ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
       <Id>69</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8625</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>70</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10293</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>71</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10371</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>72</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

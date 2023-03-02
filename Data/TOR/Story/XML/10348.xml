@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,8 +9,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>362,413</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091</PointerOffset>
+      <JapaneseText>男の子</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
@@ -26,8 +25,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091</PointerOffset>
-      <JapaneseText>男の子</JapaneseText>
+      <PointerOffset>362,413</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
@@ -35,20 +34,20 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>148</PointerOffset>
-      <JapaneseText>サニイタウン・民家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>151</PointerOffset>
       <JapaneseText>サニイタウン</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>148</PointerOffset>
+      <JapaneseText>サニイタウン・民家</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -56,17 +55,399 @@
       <PointerOffset>180</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>1140</PointerOffset>
+      <JapaneseText>変なお姉ちゃんが
+街の中で暴れてる……!!
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1162</PointerOffset>
+      <JapaneseText>こんな時、飛んで
+逃げられたらなあ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1201</PointerOffset>
+      <JapaneseText>うちには、誰も入って
+こなかった……と思うよ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1223</PointerOffset>
+      <JapaneseText>だって、ずっと後ろ向いてて
+入口の方、見てなかったから……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1273</PointerOffset>
+      <JapaneseText>お披露目の儀式って
+スゴイんだよね？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1295</PointerOffset>
+      <JapaneseText>飛んで、上から見られたら
+楽しいのになぁ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1358</PointerOffset>
+      <JapaneseText>ヒューマにバカにされたんだ。
+羽があるくせに飛べないなんて
+カッコ悪いって！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1380</PointerOffset>
+      <JapaneseText>だから、ぜったいに飛んで
+見返してやるんだ！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1405</PointerOffset>
+      <JapaneseText>おいらの羽はダテじゃないぞ！
+ぜったいに飛んでやるからな！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1444</PointerOffset>
+      <JapaneseText>地面が揺れてるよね？
+こんな時こそ、飛んで
+逃げられたらいいのに……！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1507</PointerOffset>
+      <JapaneseText>ヒューマは羽が気持ち悪いって
+言うんだけどさ、おいらはこの羽、
+気に入ってるんだ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1529</PointerOffset>
+      <JapaneseText>これって、おいらのコセイって
+ヤツだと思うんだ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1554</PointerOffset>
+      <JapaneseText>ヒューマはおいらの羽の事、
+ヘンだって言うんだ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1576</PointerOffset>
+      <JapaneseText>でも、ヒューマだって
+髪の毛の色が違ったり、
+足が短い人だっているしさ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1598</PointerOffset>
+      <JapaneseText>そういうのって、コセイって
+ヤツじゃないのかなぁ？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1648</PointerOffset>
+      <JapaneseText>今、外は大変なんだよね？
+おいら、いつでもみんなを助けに
+いけるように準備中なんだ！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1673</PointerOffset>
+      <JapaneseText>おいら、空を飛ぶのが夢なんだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1695</PointerOffset>
+      <JapaneseText>この羽が飾りじゃないって、
+いつかおいらが証明してやる。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>487</PointerOffset>
+      <JapaneseText>外で何か起こっとるらしいが
+怖くて出られん……
+情けないのぅ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>526</PointerOffset>
+      <JapaneseText>誰かが隠れておらんか、とな？
+うちで隠れられるところと言えば、
+風呂場くらいですかの？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>576</PointerOffset>
+      <JapaneseText>女王様のお披露目の儀式……
+ラドラス様の時からはや数十年。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>598</PointerOffset>
+      <JapaneseText>アガーテ様も大きくなられた……
+まことに嬉しい事よのぅ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>661</PointerOffset>
+      <JapaneseText>アガーテ様の儀式が中止に
+なったのはヒューマのせいだと
+いうウワサを聞いたわい……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>683</PointerOffset>
+      <JapaneseText>許せんのう……
+腹立たしいのぅ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>725</PointerOffset>
+      <JapaneseText>ヒューマとは話したくないわい。
+出てってくれ！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>787</PointerOffset>
+      <JapaneseText>また外で何か起こっとるのか？
+恐ろしいのぅ……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>856</PointerOffset>
+      <JapaneseText>ヒューマがワシの羽根を
+気持ち悪いと言いおった……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>878</PointerOffset>
+      <JapaneseText>許せんのう……
+腹立たしくいのぅ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>920</PointerOffset>
+      <JapaneseText>ヒューマがワシの羽根を
+気持ち悪いと言いおった……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>942</PointerOffset>
+      <JapaneseText>ワシに言わせれば、
+ヒューマの姿のほうが
+よっぽど気持ち悪いわい！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>998</PointerOffset>
+      <JapaneseText>孫に言われたよ……
+見た目が違うのは&lt;Yellow&gt;個性&lt;White&gt;だと……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1020</PointerOffset>
+      <JapaneseText>あの小さな子が、立派な事を……
+嬉しいのぅ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1045</PointerOffset>
+      <JapaneseText>うちの孫ときたら夢みたいな事
+ばかり言いおってからに……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1067</PointerOffset>
+      <JapaneseText>本当に情けないのぅ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>365</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『おじいさんの棚』</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
+      <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -80,381 +461,8 @@
 シリーズものの冒険小説が並んでいる。
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>487</PointerOffset>
-      <JapaneseText>外で何か起こっとるらしいが
-怖くて出られん……
-情けないのぅ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>526</PointerOffset>
-      <JapaneseText>誰かが隠れておらんか、とな？
-うちで隠れられるところと言えば、
-風呂場くらいですかの？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>576</PointerOffset>
-      <JapaneseText>女王様のお披露目の儀式……
-ラドラス様の時からはや数十年。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>598</PointerOffset>
-      <JapaneseText>アガーテ様も大きくなられた……
-まことに嬉しい事よのぅ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>661</PointerOffset>
-      <JapaneseText>アガーテ様の儀式が中止に
-なったのはヒューマのせいだと
-いうウワサを聞いたわい……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>683</PointerOffset>
-      <JapaneseText>許せんのう……
-腹立たしいのぅ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>725</PointerOffset>
-      <JapaneseText>ヒューマとは話したくないわい。
-出てってくれ！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>787</PointerOffset>
-      <JapaneseText>また外で何か起こっとるのか？
-恐ろしいのぅ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>856</PointerOffset>
-      <JapaneseText>ヒューマがワシの羽根を
-気持ち悪いと言いおった……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>878</PointerOffset>
-      <JapaneseText>許せんのう……
-腹立たしくいのぅ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>920</PointerOffset>
-      <JapaneseText>ヒューマがワシの羽根を
-気持ち悪いと言いおった……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>942</PointerOffset>
-      <JapaneseText>ワシに言わせれば、
-ヒューマの姿のほうが
-よっぽど気持ち悪いわい！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>998</PointerOffset>
-      <JapaneseText>孫に言われたよ……
-見た目が違うのは&lt;Yellow&gt;個性&lt;White&gt;だと……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1020</PointerOffset>
-      <JapaneseText>あの小さな子が、立派な事を……
-嬉しいのぅ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1045</PointerOffset>
-      <JapaneseText>うちの孫ときたら夢みたいな事
-ばかり言いおってからに……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1067</PointerOffset>
-      <JapaneseText>本当に情けないのぅ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1140</PointerOffset>
-      <JapaneseText>変なお姉ちゃんが
-街の中で暴れてる……!!
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1162</PointerOffset>
-      <JapaneseText>こんな時、飛んで
-逃げられたらなあ……
-</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1201</PointerOffset>
-      <JapaneseText>うちには、誰も入って
-こなかった……と思うよ？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1223</PointerOffset>
-      <JapaneseText>だって、ずっと後ろ向いてて
-入口の方、見てなかったから……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1273</PointerOffset>
-      <JapaneseText>お披露目の儀式って
-スゴイんだよね？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1295</PointerOffset>
-      <JapaneseText>飛んで、上から見られたら
-楽しいのになぁ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1358</PointerOffset>
-      <JapaneseText>ヒューマにバカにされたんだ。
-羽があるくせに飛べないなんて
-カッコ悪いって！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1380</PointerOffset>
-      <JapaneseText>だから、ぜったいに飛んで
-見返してやるんだ！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>29</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1405</PointerOffset>
-      <JapaneseText>おいらの羽はダテじゃないぞ！
-ぜったいに飛んでやるからな！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1444</PointerOffset>
-      <JapaneseText>地面が揺れてるよね？
-こんな時こそ、飛んで
-逃げられたらいいのに……！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1507</PointerOffset>
-      <JapaneseText>ヒューマは羽が気持ち悪いって
-言うんだけどさ、おいらはこの羽、
-気に入ってるんだ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>32</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1529</PointerOffset>
-      <JapaneseText>これって、おいらのコセイって
-ヤツだと思うんだ。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1554</PointerOffset>
-      <JapaneseText>ヒューマはおいらの羽の事、
-ヘンだって言うんだ……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1576</PointerOffset>
-      <JapaneseText>でも、ヒューマだって
-髪の毛の色が違ったり、
-足が短い人だっているしさ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1598</PointerOffset>
-      <JapaneseText>そういうのって、コセイって
-ヤツじゃないのかなぁ？
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>36</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1648</PointerOffset>
-      <JapaneseText>今、外は大変なんだよね？
-おいら、いつでもみんなを助けに
-いけるように準備中なんだ！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>37</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1673</PointerOffset>
-      <JapaneseText>おいら、空を飛ぶのが夢なんだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1695</PointerOffset>
-      <JapaneseText>この羽が飾りじゃないって、
-いつかおいらが証明してやる。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
       <Id>39</Id>
       <Status>To Do</Status>
     </Entry>

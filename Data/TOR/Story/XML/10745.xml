@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -65,78 +64,69 @@
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>5145</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>191</PointerOffset>
-      <JapaneseText>イーフォンの聖殿</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>194</PointerOffset>
       <JapaneseText>イーフォンの聖殿</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>191</PointerOffset>
+      <JapaneseText>イーフォンの聖殿</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>809</PointerOffset>
       <VoiceId>2b000058</VoiceId>
       <JapaneseText>ハックたちは、ここにいるのかな？</JapaneseText>
-      <EnglishText>Do you think Hack and the other
-guys are in here?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1359</PointerOffset>
       <VoiceId>2b000059</VoiceId>
       <JapaneseText>ハックはどこだ？
 一緒じゃなかったのかよ？</JapaneseText>
-      <EnglishText>Where's Hack?! Wasn't he with
-you guys?!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1389</PointerOffset>
       <VoiceId>2b00005a</VoiceId>
       <JapaneseText>ケガで動けんと言うから
 置いて来た。</JapaneseText>
-      <EnglishText>He said he couldn't move
-because he was hurt, so we left him
-behind.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1435</PointerOffset>
       <VoiceId>2b00005b</VoiceId>
       <JapaneseText>そんな、ひどい……</JapaneseText>
-      <EnglishText>That's awful...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1465</PointerOffset>
@@ -145,14 +135,11 @@ behind.</EnglishText>
 すっぽり包まれたのだ！
 こっちも自分の身を守るので
 精一杯だ。仕方あるまいて。</JapaneseText>
-      <EnglishText>A strange shadow came out of
-nowhere and enveloped us! We were doing
-everything we could to protect ourselves.
-We had no choice.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1487</PointerOffset>
@@ -161,63 +148,45 @@ We had no choice.</EnglishText>
 散々な目にあったわ……
 何が&lt;Blue&gt;闇の力&lt;White&gt;だ！
 期待させるだけさせおって……</JapaneseText>
-      <EnglishText>This whole trip has been
-nothing but a disaster because of
-him... There is no &lt;Blue&gt;Power of
-Shade&lt;White&gt;! All he did was get my hopes up!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1747</PointerOffset>
       <VoiceId>2b00005e</VoiceId>
       <JapaneseText>まったく……
 ひとでなしのオヤジね……</JapaneseText>
-      <EnglishText>What an ungrateful old man.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>4</SpeakerId>
+      <Notes/>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1784</PointerOffset>
       <VoiceId>2b00005f</VoiceId>
       <JapaneseText>ハックを助けに行くぞ。</JapaneseText>
-      <EnglishText>We have to save Hack.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>5</SpeakerId>
+      <Notes/>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3303</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>6</SpeakerId>
+      <Notes/>
       <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4971</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5049</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

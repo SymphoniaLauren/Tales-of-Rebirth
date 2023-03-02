@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,23 +9,23 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1167,1399,1449,1501,2173,2278</PointerOffset>
-      <JapaneseText>select</JapaneseText>
+      <PointerOffset>1617,1660,1703,1746,1789,1832,1875,1918,1961,2004,2047,2090</PointerOffset>
+      <JapaneseText>debug menu</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1617,1660,1703,1746,1789,1832,1875,1918,1961,2004,2047,2090</PointerOffset>
-      <JapaneseText>debug menu</JapaneseText>
+      <PointerOffset>2173,1167,2278,1399,1449,1501</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2220,2390,2438,2460,2482,2536,2558,2601,2725,2747,2793,2853,2949,2978,3033,3088,3218,3343,3412</PointerOffset>
+      <PointerOffset>2390,2438,2460,2482,2536,2558,2601,2725,2747,2793,2853,2949,2978,3033,3088,3218,3343,3412,2220</PointerOffset>
       <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -35,48 +34,10 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>1170</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;&lt;Unk18:4418&gt;：&lt;Unk17:1136c18c&gt;／&lt;Unk17:340c&gt;回目のエンカウントをする？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1402</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;イベント戦闘直後なので
-全キャラ全回復しました</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1452</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;全キャラ全回復する？
-はい
-いいえ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1504</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;回復しました</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>1620</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;ＳＨＯＰを選択してください。
@@ -89,9 +50,9 @@
 6．雑貨屋　アルヴァン山脈の行商人
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>5</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -104,9 +65,9 @@
 4．食材屋　はらぺこ
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>6</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -119,9 +80,9 @@
 4．雑貨屋　準備万端
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -135,9 +96,9 @@
 5．食材屋　太陽の恵み
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>8</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -151,9 +112,9 @@
 5．食材屋　大地の恵み
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>9</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -168,9 +129,9 @@
 6．食材屋　海の恵み
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -186,9 +147,9 @@
 7．食材屋　万感の実り
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -202,9 +163,9 @@
 5．食材屋　旅の仲間
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>12</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -220,23 +181,23 @@
 7．食材屋　卵卵
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2007</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;ＳＨＯＰを選択してください。
 ０．宿屋（&lt;Unk17:340c&gt;ガルド）
-1．道具屋　餓々
-2．装飾屋　餓々
+1．道具屋　雅々
+2．装飾屋　雅々
 3．食材屋　満福商店
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>14</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -250,9 +211,9 @@
 5．食材屋　ママのスープ
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -266,45 +227,50 @@
 5．食材屋　ドリームイン
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>16</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2176</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;宿屋入って出たよ</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>17</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
     <Entry>
-      <PointerOffset>2223</PointerOffset>
-      <JapaneseText>「新しい料理レシピ&lt;Unk1A:d800000020340498&gt;を取得しました」</JapaneseText>
+      <PointerOffset>1170</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;&lt;Unk18:4418&gt;：&lt;Unk17:1136c18c&gt;／&lt;Unk17:340c&gt;回目のエンカウントをする？
+　はい　
+　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>18</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2281</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;５００ガルドを取得しました</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>19</Id>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2393</PointerOffset>
       <JapaneseText>「新しい料理レシピを取得しました」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>20</Id>
+      <Notes/>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -315,9 +281,9 @@
 &lt;item:0033&gt;×１０
 を取得しました</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>21</Id>
+      <Notes/>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -325,9 +291,9 @@
       <JapaneseText>「オート料理を設定しましょう」、
 「隊列を設定しましょう」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>22</Id>
+      <Notes/>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -335,27 +301,27 @@
       <JapaneseText>「アルヴァン山脈の敵は特定の攻撃後にガードします」
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>23</Id>
+      <Notes/>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2539</PointerOffset>
       <JapaneseText>「新しい料理レシピを取得しました」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>24</Id>
+      <Notes/>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2561</PointerOffset>
       <JapaneseText>「ここからエンハンスが出来るようになります」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>25</Id>
+      <Notes/>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -364,27 +330,27 @@
 &lt;item:002b&gt;×５、
 &lt;item:0031&gt;×５を取得</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>26</Id>
+      <Notes/>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2728</PointerOffset>
       <JapaneseText>「新しい料理レシピを取得しました」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
+      <Notes/>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2750</PointerOffset>
       <JapaneseText>「ここから武器・防具がショップで継承できます」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>28</Id>
+      <Notes/>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -394,9 +360,9 @@
 &lt;item:0040&gt;×３、
 &lt;item:0031&gt;×３を取得</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>29</Id>
+      <Notes/>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -404,18 +370,18 @@
       <JapaneseText>「迷いの森の敵は攻撃者のＲＧに反応してガードします」
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>30</Id>
+      <Notes/>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2952</PointerOffset>
       <JapaneseText>「新しい料理レシピを取得しました」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>31</Id>
+      <Notes/>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -423,855 +389,97 @@
       <JapaneseText>&lt;item:0503&gt;
 を取得</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>32</Id>
+      <Notes/>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3036</PointerOffset>
       <JapaneseText>「ここから奥義を取得・使用することができます」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
+      <Notes/>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3091</PointerOffset>
       <JapaneseText>「新しい料理レシピを取得しました」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>34</Id>
+      <Notes/>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3221</PointerOffset>
       <JapaneseText>「新しい料理レシピを取得しました」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
+      <Notes/>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3346</PointerOffset>
       <JapaneseText>「新しい料理レシピを取得しました」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>36</Id>
+      <Notes/>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3415</PointerOffset>
       <JapaneseText>「新しい料理レシピを取得しました」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2223</PointerOffset>
+      <JapaneseText>「新しい料理レシピ&lt;Unk1A:d800000020340498&gt;を取得しました」</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1402</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;イベント戦闘直後なので
+全キャラ全回復しました</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
+    <Entry>
+      <PointerOffset>1452</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;全キャラ全回復する？
+はい
+いいえ</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1504</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0100&gt;回復しました</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>37</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4323</PointerOffset>
-      <JapaneseText>マオ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4338</PointerOffset>
-      <JapaneseText>初バイラス戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>39</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4353</PointerOffset>
-      <JapaneseText>トーマ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>40</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4368</PointerOffset>
-      <JapaneseText>漆黒の翼戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4384</PointerOffset>
-      <JapaneseText>漆黒の牙戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>42</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4400</PointerOffset>
-      <JapaneseText>スールズ周辺</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>43</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4416</PointerOffset>
-      <JapaneseText>アルヴァン山脈前半</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>44</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4432</PointerOffset>
-      <JapaneseText>レグタイト戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4448</PointerOffset>
-      <JapaneseText>アルヴァン山脈後半</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4464</PointerOffset>
-      <JapaneseText>水棲バイラス戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4480</PointerOffset>
-      <JapaneseText>天候ダンジョン</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>48</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4496</PointerOffset>
-      <JapaneseText>アニー戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>49</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4512</PointerOffset>
-      <JapaneseText>ミナール周辺１</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>50</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4528</PointerOffset>
-      <JapaneseText>トミッチ部下戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4544</PointerOffset>
-      <JapaneseText>ミナールバイラス戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>52</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4560</PointerOffset>
-      <JapaneseText>ミナール周辺２</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>53</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4576</PointerOffset>
-      <JapaneseText>迷いの森前半</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>54</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4592</PointerOffset>
-      <JapaneseText>迷いの森ボス</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4608</PointerOffset>
-      <JapaneseText>迷いの森後半</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>56</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4624</PointerOffset>
-      <JapaneseText>ペトナジャンカ周辺１</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>57</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4640</PointerOffset>
-      <JapaneseText>製鉄工場密林化</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>58</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4656</PointerOffset>
-      <JapaneseText>暴走ティトレイ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>59</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4672</PointerOffset>
-      <JapaneseText>ペトナジャンカ周辺２</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>60</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4688</PointerOffset>
-      <JapaneseText>赤い霧小隊戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>61</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4704</PointerOffset>
-      <JapaneseText>サニイタウン周辺１</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>62</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4720</PointerOffset>
-      <JapaneseText>ヒルダ小隊戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>63</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4736</PointerOffset>
-      <JapaneseText>暴走ヒルダ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>64</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4752</PointerOffset>
-      <JapaneseText>分身ミリッツァ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>65</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4768</PointerOffset>
-      <JapaneseText>ミリッツァ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>66</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4784</PointerOffset>
-      <JapaneseText>サニイタウン周辺２</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>67</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4800</PointerOffset>
-      <JapaneseText>カレーズ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>68</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4816</PointerOffset>
-      <JapaneseText>アニカマル周辺１</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>69</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4832</PointerOffset>
-      <JapaneseText>オアシス</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>70</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4848</PointerOffset>
-      <JapaneseText>リブガロ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>71</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4864</PointerOffset>
-      <JapaneseText>アニカマル周辺２</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>72</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4880</PointerOffset>
-      <JapaneseText>バビログラード周辺</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>73</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4896</PointerOffset>
-      <JapaneseText>登山洞</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>74</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4912</PointerOffset>
-      <JapaneseText>ドネル戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>75</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4928</PointerOffset>
-      <JapaneseText>ワルトゥ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>76</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4944</PointerOffset>
-      <JapaneseText>首都バルカ周辺</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>77</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4960</PointerOffset>
-      <JapaneseText>王の盾戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>78</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4976</PointerOffset>
-      <JapaneseText>カレギア城</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>79</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4992</PointerOffset>
-      <JapaneseText>トーマ・サレ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>80</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5008</PointerOffset>
-      <JapaneseText>ゲオルギアス戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>81</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5024</PointerOffset>
-      <JapaneseText>ラジルダ周辺１</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>82</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5040</PointerOffset>
-      <JapaneseText>暴走ユージーン戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>83</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5056</PointerOffset>
-      <JapaneseText>ラジルダ周辺２</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>84</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5072</PointerOffset>
-      <JapaneseText>イーフォンの遺跡</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>85</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5088</PointerOffset>
-      <JapaneseText>イーフォン戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>86</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5104</PointerOffset>
-      <JapaneseText>ピピスタ周辺</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>87</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5120</PointerOffset>
-      <JapaneseText>フェニアの塔</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>88</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5136</PointerOffset>
-      <JapaneseText>キョグエン周辺</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>89</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5152</PointerOffset>
-      <JapaneseText>ノルゼン周辺</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>90</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5168</PointerOffset>
-      <JapaneseText>ネレグの塔</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>91</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5184</PointerOffset>
-      <JapaneseText>ネレグの塔イベント戦１</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>92</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5200</PointerOffset>
-      <JapaneseText>ネレグの塔イベント戦２</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>93</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5216</PointerOffset>
-      <JapaneseText>ネレグの塔イベント戦３</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>94</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5232</PointerOffset>
-      <JapaneseText>暴走漆黒戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>95</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5248</PointerOffset>
-      <JapaneseText>海上</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>96</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5264</PointerOffset>
-      <JapaneseText>ウォンティガの遺跡</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>97</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5280</PointerOffset>
-      <JapaneseText>ベルサス周辺</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>98</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5296</PointerOffset>
-      <JapaneseText>シャオルーンの遺跡</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>99</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5312</PointerOffset>
-      <JapaneseText>シャオルーン戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>100</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5328</PointerOffset>
-      <JapaneseText>うさにんの村周辺</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>101</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5344</PointerOffset>
-      <JapaneseText>トーマ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>102</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5360</PointerOffset>
-      <JapaneseText>ギリオーヌの遺跡</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>103</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5376</PointerOffset>
-      <JapaneseText>分身ヒルダ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>104</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5392</PointerOffset>
-      <JapaneseText>暴走ヴェイグ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>105</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5408</PointerOffset>
-      <JapaneseText>四星戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>106</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5424</PointerOffset>
-      <JapaneseText>ゲオルギアスの遺跡</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>107</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5440</PointerOffset>
-      <JapaneseText>ミルハウスト戦（ボス・勝ち）</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>108</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5456</PointerOffset>
-      <JapaneseText>ジルバ戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>109</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5472</PointerOffset>
-      <JapaneseText>ラストダンジョン（上層部）</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>110</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5488</PointerOffset>
-      <JapaneseText>ラストダンジョン（中層部）</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>111</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5504</PointerOffset>
-      <JapaneseText>ラストダンジョン中ボス１</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>112</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5520</PointerOffset>
-      <JapaneseText>ラストダンジョン中ボス２</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>113</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5536</PointerOffset>
-      <JapaneseText>ラストダンジョン中ボス３</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>114</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5552</PointerOffset>
-      <JapaneseText>ラストダンジョン（下層部）</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>115</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5568</PointerOffset>
-      <JapaneseText>ユリス戦</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>116</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5584</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>117</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5600</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>118</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5616</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>119</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5632</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>120</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5648</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>121</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5664</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>122</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5680</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>123</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5696</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>124</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5712</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>125</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5728</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>126</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5744</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>127</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5760</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>128</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5776</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>129</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5792</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>130</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5808</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>131</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5824</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>132</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5840</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>133</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5856</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>134</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5872</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>135</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5888</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>136</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5904</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>137</Id>
-      <Status>Done</Status>
     </Entry>
   </Strings>
 </SceneText>

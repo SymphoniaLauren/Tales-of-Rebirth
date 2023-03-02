@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,7 +9,7 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2066,2066,2066</PointerOffset>
+      <PointerOffset>2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066,2066</PointerOffset>
       <JapaneseText>行商人</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -26,64 +25,59 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10597,11037,11142</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <PointerOffset>10876,11107,11179</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10634,11073</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>11037,11142,10597</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10876,11107,11179</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <PointerOffset>11073,10634</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>14765</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>1214</PointerOffset>
-      <JapaneseText>アルヴァン山脈</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>1217</PointerOffset>
       <JapaneseText>アルヴァン山脈</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1214</PointerOffset>
+      <JapaneseText>アルヴァン山脈</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>2082</PointerOffset>
       <JapaneseText>こんにちは。
 色々、扱ってるけど、
 何か欲しいものはあるかい？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
@@ -94,8 +88,8 @@
 　やめる　
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
@@ -103,8 +97,8 @@
       <PointerOffset>2167</PointerOffset>
       <JapaneseText>じゃあね。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
@@ -112,8 +106,8 @@
       <PointerOffset>2208</PointerOffset>
       <JapaneseText>毎度、ありがとう！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
@@ -123,6 +117,7 @@
 それならこの先、
 ミナール平原を抜ければすぐさ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
@@ -133,6 +128,7 @@
 その脇にあるエトレー橋を
 渡っちゃいけないよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>8</Id>
       <Status>To Do</Status>
@@ -144,6 +140,7 @@
 様子がおかしいんだよね。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
@@ -155,6 +152,7 @@
 ケンカしててさ……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>10</Id>
       <Status>To Do</Status>
@@ -163,6 +161,7 @@
       <PointerOffset>2397</PointerOffset>
       <JapaneseText>何かあったのかねえ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>11</Id>
       <Status>To Do</Status>
@@ -174,6 +173,7 @@
 まいったよ……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>12</Id>
       <Status>To Do</Status>
@@ -185,6 +185,7 @@
 言われたんだよ……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>13</Id>
       <Status>To Do</Status>
@@ -194,6 +195,7 @@
       <JapaneseText>そうは言っても
 商売だからねえ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>14</Id>
       <Status>To Do</Status>
@@ -205,6 +207,7 @@
 大変だったんだって……!?
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>15</Id>
       <Status>To Do</Status>
@@ -216,6 +219,7 @@
 世も末だなぁ……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>16</Id>
       <Status>To Do</Status>
@@ -225,6 +229,7 @@
       <JapaneseText>ま、俺は関係なく
 バリバリ商売するよ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>17</Id>
       <Status>To Do</Status>
@@ -235,6 +240,7 @@
 世の中大変だっていうのさ。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>18</Id>
       <Status>To Do</Status>
@@ -245,6 +251,7 @@
 空は変な色になってるって……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>19</Id>
       <Status>To Do</Status>
@@ -256,6 +263,7 @@
 実感ないんだよねえ……
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>20</Id>
       <Status>To Do</Status>
@@ -265,6 +273,7 @@
       <JapaneseText>どうしてこんなところで
 商売してるかって？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>21</Id>
       <Status>To Do</Status>
@@ -275,6 +284,7 @@
 周りに競合する店がない事！
 これに限るね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>22</Id>
       <Status>To Do</Status>
@@ -284,64 +294,22 @@
       <JapaneseText>……これでもうちょっと
 お客さんが来ればなあ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>3731</PointerOffset>
-      <JapaneseText>yuki_retsu[basho*2]=&gt;&lt;Unk17:38d004340cc28988&gt; yuki_retsu[basho*2+1]=&gt;&lt;Unk17:38d004340cc289c18c88&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4115</PointerOffset>
-      <JapaneseText>basho=&gt;&lt;Unk17:340c&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5623</PointerOffset>
-      <JapaneseText>チェック１</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10600</PointerOffset>
-      <VoiceId>0f000059</VoiceId>
-      <JapaneseText>この先は、雪解け水が凍りついて
-滑りやすくなっている。
-足元に気をつけるんだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10637</PointerOffset>
-      <VoiceId>0f00005a</VoiceId>
-      <JapaneseText>わかった。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-1</Section>
     <Entry>
       <PointerOffset>10879</PointerOffset>
       <VoiceId>0f00005b</VoiceId>
       <JapaneseText>えいッ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>29</Id>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -350,9 +318,9 @@
       <JapaneseText>山小屋に戻る場合は
 ここから登ればいい。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>30</Id>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -360,9 +328,9 @@
       <VoiceId>0f00005d</VoiceId>
       <JapaneseText>なるほど。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>31</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -370,9 +338,9 @@
       <VoiceId>0f00005e</VoiceId>
       <JapaneseText>えっ、戻るの？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>32</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -380,9 +348,9 @@
       <VoiceId>0f00005f</VoiceId>
       <JapaneseText>戻る場合について話しただけだ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -391,38 +359,48 @@
       <JapaneseText>そういうコトね。
 じゃ、行こっか！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>34</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-2</Section>
+    <Entry>
+      <PointerOffset>10600</PointerOffset>
+      <VoiceId>0f000059</VoiceId>
+      <JapaneseText>この先は、雪解け水が凍りついて
+滑りやすくなっている。
+足元に気をつけるんだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>10637</PointerOffset>
+      <VoiceId>0f00005a</VoiceId>
+      <JapaneseText>わかった。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>12923</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>35</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14591</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>36</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14669</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>37</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

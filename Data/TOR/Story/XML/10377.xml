@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,43 +9,59 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>684,684</PointerOffset>
-      <JapaneseText>おじいさん</JapaneseText>
+      <PointerOffset>1401,1497,1563,1903,2238,2432,1107</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>795,850,2693,6095</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>1457,1691,1765,2462,1144</PointerOffset>
+      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>961,1736,2392,2626</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>1599,1828,2254,2505,2583,1033</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>997,1969,2221,2542</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <PointerOffset>1736,2392,2626,961</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1033,1599,1828,2254,2505,2583</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <PointerOffset>1969,2221,2542,997</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2693,795,850,171</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>684,684</PointerOffset>
+      <JapaneseText>おじいさん</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -54,28 +69,12 @@
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1107,1401,1497,1563,1903,2238,2432</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1144,1457,1691,1765,2462</PointerOffset>
-      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1170</PointerOffset>
-      <JapaneseText/>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>8</Id>
@@ -91,12 +90,12 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
-      <PointerOffset>171</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>347</PointerOffset>
+      <JapaneseText>カレーズ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
@@ -104,132 +103,23 @@
       <PointerOffset>344</PointerOffset>
       <JapaneseText>カレーズ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>347</PointerOffset>
-      <JapaneseText>カレーズ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>752</PointerOffset>
-      <JapaneseText>ありがとう……
-助かったよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>774</PointerOffset>
-      <JapaneseText>そうじゃ、これをお食べ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>798</PointerOffset>
-      <JapaneseText>&lt;Green&gt;『&lt;item:20000017&gt;』を食べました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>853</PointerOffset>
-      <JapaneseText>&lt;Green&gt;『&lt;item:20000017&gt;』のレシピを入手しました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>964</PointerOffset>
-      <JapaneseText>うまい……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1000</PointerOffset>
-      <JapaneseText>おいしい!!
-おいしいヨ!!</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1036</PointerOffset>
-      <JapaneseText>うむ、これはうまい……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1073</PointerOffset>
-      <JapaneseText>おいしい……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1110</PointerOffset>
-      <JapaneseText>くぅぅ、うめえ！
-こいつぁ、五つ星だ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1147</PointerOffset>
-      <JapaneseText>おいしいわね……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1173</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>1404</PointerOffset>
       <VoiceId>19000055</VoiceId>
       <JapaneseText>うーん!!
 太陽さんさん気持ちいいぜ！</JapaneseText>
-      <EnglishText>Ahhh!! Mr. Sun, you feel
-fan~tas~tic!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <Id>3</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1460</PointerOffset>
@@ -237,69 +127,64 @@ fan~tas~tic!</EnglishText>
       <JapaneseText>あんた、カレーズに入る前は
 「暑いから氷出せ」って
 言ってなかった？</JapaneseText>
-      <EnglishText>Weren't you so bothered by the
-heat before we entered Karez that
-you were begging for ice?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>16</Id>
-      <Status>Editing</Status>
+      <Id>4</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1500</PointerOffset>
       <VoiceId>19000057</VoiceId>
       <JapaneseText>過去に縛られちゃあダメだ。
 未来に生きるんだ……&lt;Hilda&gt;。</JapaneseText>
-      <EnglishText>You shouldn't be bound by the
-past. Live for the future, &lt;Hilda&gt;.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>17</Id>
-      <Status>Editing</Status>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1566</PointerOffset>
       <VoiceId>19000058</VoiceId>
       <JapaneseText>うん、決まったぜ……</JapaneseText>
-      <EnglishText>Aw yeah, nailed it.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>18</Id>
-      <Status>Editing</Status>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1602</PointerOffset>
       <VoiceId>19000059</VoiceId>
       <JapaneseText>砂漠を抜けるまで
 まだ、かなりの距離がある。</JapaneseText>
-      <EnglishText>We still have a ways to go
-before we're out of the desert.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>19</Id>
-      <Status>Editing</Status>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1694</PointerOffset>
       <VoiceId>1900005a</VoiceId>
       <JapaneseText>一気に突っ切るのは無理ね。</JapaneseText>
-      <EnglishText>Yes, making it across in one
-quick go isn't feasible.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>20</Id>
-      <Status>Editing</Status>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1739</PointerOffset>
       <VoiceId>1900005b</VoiceId>
       <JapaneseText>この近くに人が住んでいる
 場所はないのか？</JapaneseText>
-      <EnglishText>Do people live anywhere nearby?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>21</Id>
-      <Status>Editing</Status>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1768</PointerOffset>
@@ -307,26 +192,22 @@ quick go isn't feasible.</EnglishText>
       <JapaneseText>このあたりまで来たなら……
 アニカマルっていう村があるわ。
 もう少し先だったと思うけど。</JapaneseText>
-      <EnglishText>If we've gone as far as I think
-we have, then there should be a
-village in this area called Anikamal. I
-believe it's just a bit further ahead.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>22</Id>
-      <Status>Editing</Status>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1831</PointerOffset>
       <VoiceId>1900005d</VoiceId>
       <JapaneseText>ああ、そう遠くはないはずだ。
 ここからだと、南の方角になる。</JapaneseText>
-      <EnglishText>Yes, it shouldn't be that far.
-We just need to head south.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1906</PointerOffset>
@@ -334,163 +215,255 @@ We just need to head south.</EnglishText>
       <JapaneseText>じゃあ、そのアニカマルとやらで
 ちょっくら休憩して、
 後はバビログラードまで一直線だな！</JapaneseText>
-      <EnglishText>Okay! We can get some rest at
-Anikamal or whatever it's called, then
-make a beeline for Babilograd!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1972</PointerOffset>
       <VoiceId>1900005f</VoiceId>
       <JapaneseText>早く行こッ!!</JapaneseText>
-      <EnglishText>Let's go!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2224</PointerOffset>
       <JapaneseText>&lt;Annie&gt;!!</JapaneseText>
-      <EnglishText>&lt;Annie&gt;!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2241</PointerOffset>
       <JapaneseText>&lt;Annie&gt;!!</JapaneseText>
-      <EnglishText>&lt;Annie&gt;!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2257</PointerOffset>
       <JapaneseText>&lt;Annie&gt;!!</JapaneseText>
-      <EnglishText>&lt;Annie&gt;!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2395</PointerOffset>
       <VoiceId>19000064</VoiceId>
       <JapaneseText>すごい熱だ……</JapaneseText>
-      <EnglishText>She's burning up...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2435</PointerOffset>
       <VoiceId>19000065</VoiceId>
       <JapaneseText>おい、&lt;Annie&gt;！
 しっかりしろ!!</JapaneseText>
-      <EnglishText>Hey, &lt;Annie&gt;! Snap out of it!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2465</PointerOffset>
       <VoiceId>19000066</VoiceId>
       <JapaneseText>この暑さのせいかしら……？</JapaneseText>
-      <EnglishText>Is the heat getting to her...?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2508</PointerOffset>
       <VoiceId>19000067</VoiceId>
       <JapaneseText>わからん……
 とにかく、このままでは危険だ。</JapaneseText>
-      <EnglishText>I don't know... Whatever the
-case, we can't leave her like this.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2545</PointerOffset>
       <VoiceId>19000068</VoiceId>
       <JapaneseText>どうしよう……</JapaneseText>
-      <EnglishText>What should we do?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2586</PointerOffset>
       <VoiceId>19000069</VoiceId>
       <JapaneseText>アニカマルで医者を探そう。</JapaneseText>
-      <EnglishText>Let's find a doctor in
-Anikamal.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>34</Id>
-      <Status>Editing</Status>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2629</PointerOffset>
       <VoiceId>1900006a</VoiceId>
       <JapaneseText>急ごう!!</JapaneseText>
-      <EnglishText>We need to hurry!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
-      <Status>Editing</Status>
+      <Id>23</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2696</PointerOffset>
       <JapaneseText>&lt;Red&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Annie&gt;が戦闘パーティから外れます。
 </JapaneseText>
-      <EnglishText>&lt;Annie&gt; is unable to
-participate in battles.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>36</Id>
-      <Status>Editing</Status>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>752</PointerOffset>
+      <JapaneseText>ありがとう……
+助かったよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>774</PointerOffset>
+      <JapaneseText>そうじゃ、これをお食べ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>798</PointerOffset>
+      <JapaneseText>&lt;Green&gt;『&lt;item:20000017&gt;』を食べました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>964</PointerOffset>
+      <JapaneseText>うまい……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1000</PointerOffset>
+      <JapaneseText>おいしい!!
+おいしいヨ!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1036</PointerOffset>
+      <JapaneseText>うむ、これはうまい……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1073</PointerOffset>
+      <JapaneseText>おいしい……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1110</PointerOffset>
+      <JapaneseText>くぅぅ、うめえ！
+こいつぁ、五つ星だ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1147</PointerOffset>
+      <JapaneseText>おいしいわね……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1173</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>853</PointerOffset>
+      <JapaneseText>&lt;Green&gt;『&lt;item:20000017&gt;』のレシピを入手しました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>4253</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
+      <Notes/>
       <Id>37</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5921</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5999</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

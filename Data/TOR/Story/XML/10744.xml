@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -50,7 +49,7 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1155,1306,1451,1567,5732</PointerOffset>
+      <PointerOffset>1155,1306,1451,1567</PointerOffset>
       <JapaneseText>notice</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -83,9 +82,9 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
-      <PointerOffset>267</PointerOffset>
+      <PointerOffset>197</PointerOffset>
       <JapaneseText>イーフォンの聖殿</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -93,7 +92,7 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>267</PointerOffset>
+      <PointerOffset>207</PointerOffset>
       <JapaneseText>ゼレン湿原の泉</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -101,15 +100,34 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
+      <PointerOffset>197</PointerOffset>
+      <JapaneseText>イーフォンの聖殿</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>207</PointerOffset>
+      <JapaneseText>ゼレン湿原の泉</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
       <PointerOffset>642</PointerOffset>
       <VoiceId>260000dd</VoiceId>
       <JapaneseText>おお、見てくれ。
-四季の花が全部崎いてるぜ！
+四季の花が全部咲いてるぜ！
 こんなの初めて見たぜ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
+      <Notes/>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -117,180 +135,60 @@
       <VoiceId>260000de</VoiceId>
       <JapaneseText>泉の形……四季の花……
 ここに間違いないな。</JapaneseText>
-      <EnglishText>The shape of the spring and the
-flowers of the four seasons... This has
-to be the right place.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>4</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>746</PointerOffset>
       <VoiceId>260000df</VoiceId>
       <JapaneseText>ここに&lt;Blue&gt;闇の力&lt;White&gt;が
 眠ってるというの……</JapaneseText>
-      <EnglishText>So this is where the
-&lt;Blue&gt;Power of Shade&lt;White&gt; is said to be
-resting...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
-      <Id>5</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>793</PointerOffset>
       <VoiceId>260000e0</VoiceId>
       <JapaneseText>泉を開くカギがあの&lt;Yellow&gt;詩&lt;White&gt;なら、
 それを合わせて読めばきっと……</JapaneseText>
-      <EnglishText>If the key to unlocking the
-spring is the poems, then surely if we
-were to recite them together...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
-      <Id>6</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>832</PointerOffset>
       <VoiceId>260000e1</VoiceId>
       <JapaneseText>ああ、でもどの順番で読むんだ？</JapaneseText>
-      <EnglishText>Yeah, but it what order?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>972</PointerOffset>
-      <JapaneseText>&lt;Red&gt;闇において、我は真実に至る&lt;color:80000000&gt;
-
-</JapaneseText>
-      <EnglishText>Amidst Darkness, we reach
-Truth.</EnglishText>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>8</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>983</PointerOffset>
-      <JapaneseText>闇において、我は真実に至る
-</JapaneseText>
-      <EnglishText>Amidst Darkness, we
-reach
-Truth.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>9</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1000</PointerOffset>
-      <JapaneseText>&lt;Red&gt;闇において、我は勇気を得る&lt;color:80000000&gt;
-</JapaneseText>
-      <EnglishText>Amidst Darkness, we find
-Courage.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>10</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1011</PointerOffset>
-      <JapaneseText>闇において、我は勇気を得る
-</JapaneseText>
-      <EnglishText>Amidst Darkness, we
-find
-Courage.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>11</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1028</PointerOffset>
-      <JapaneseText>&lt;Red&gt;闇において、我は愛を知る&lt;color:80000000&gt;
-</JapaneseText>
-      <EnglishText>Amidst Darkness, we know Love.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>12</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1039</PointerOffset>
-      <JapaneseText>闇において、我は愛を知る
-</JapaneseText>
-      <EnglishText>Amidst Darkness, we know Love.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>13</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1056</PointerOffset>
-      <JapaneseText>&lt;Red&gt;闇において、我は希望を求める&lt;color:80000000&gt;
-</JapaneseText>
-      <EnglishText>Amidst Darkness, we seek Hope.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>14</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1067</PointerOffset>
-      <JapaneseText>闇において、我は希望を求める
-</JapaneseText>
-      <EnglishText>Amidst Darkness, we seek Hope.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1075</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk18:480004&gt;&lt;Unk18:480404&gt;&lt;Unk18:480804&gt;&lt;Unk18:480c04&gt;&lt;rdm:0100&gt;&lt;Cyan&gt;　　ラジルダの旗を見る　　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>16</Id>
+      <Notes/>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1158</PointerOffset>
       <JapaneseText>&lt;Green&gt;選択済みです。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1309</PointerOffset>
-      <JapaneseText>&lt;Green&gt;選択済みです。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1454</PointerOffset>
-      <JapaneseText>&lt;Green&gt;選択済みです。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1570</PointerOffset>
-      <JapaneseText>&lt;Green&gt;選択済みです。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>20</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -299,26 +197,20 @@ Courage.</EnglishText>
 　闇において、我は勇気を得る　
 　闇において、我は真実に至る　
 　闇において、我は愛を知る　</JapaneseText>
-      <EnglishText>Amidst Darkness, we seek
-Hope.
-Amidst Darkness, we find
-Courage.
-Amidst Darkness, we reach
-Truth.
-Amidst Darkness, we know Love.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>21</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1978</PointerOffset>
       <JapaneseText>ん……なんか
 ちょっと違う気がしねえか？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>22</Id>
+      <Notes/>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -327,9 +219,9 @@ Amidst Darkness, we know Love.</EnglishText>
 スズランの花言葉は
 &lt;Cyan&gt;希望&lt;White&gt;と聞きました。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>23</Id>
+      <Notes/>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -337,30 +229,30 @@ Amidst Darkness, we know Love.</EnglishText>
       <JapaneseText>ヒューマの旗には
 バラも描かれてたよネ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>24</Id>
+      <Notes/>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2122</PointerOffset>
-      <JapaneseText>四季の花が崎いているんだから
+      <JapaneseText>四季の花が咲いているんだから
 花の季節順なんじゃないかしら？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>25</Id>
+      <Notes/>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2143</PointerOffset>
-      <JapaneseText>春夏秀冬というわけか……
+      <JapaneseText>春夏秋冬というわけか……
 それにしても……
-全ての花が崎くとは見事だな。</JapaneseText>
+全ての花が咲くとは見事だな。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>26</Id>
+      <Notes/>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -370,9 +262,9 @@ Amidst Darkness, we know Love.</EnglishText>
 こう見えても、
 花にはけっこう詳しいんだぜ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>27</Id>
+      <Notes/>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -381,9 +273,9 @@ Amidst Darkness, we know Love.</EnglishText>
 ガジュマの詩の中で
 うたわれていたと思います。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>28</Id>
+      <Notes/>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -391,19 +283,19 @@ Amidst Darkness, we know Love.</EnglishText>
       <JapaneseText>ヒマワリの花言葉は
 &lt;Cyan&gt;勇気&lt;White&gt;だったな……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>29</Id>
+      <Notes/>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2284</PointerOffset>
-      <JapaneseText>バラって秀の花だっけ。
+      <JapaneseText>バラって秋の花だっけ。
 確か花言葉は、&lt;Cyan&gt;真実&lt;White&gt;だネ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>30</Id>
+      <Notes/>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -411,9 +303,9 @@ Amidst Darkness, we know Love.</EnglishText>
       <JapaneseText>ヒューマの詩とガジュマの詩を
 交互に読むのね。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>31</Id>
+      <Notes/>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -421,9 +313,9 @@ Amidst Darkness, we know Love.</EnglishText>
       <JapaneseText>スイセンは&lt;Cyan&gt;愛&lt;White&gt;を、
 バラは&lt;Cyan&gt;真実&lt;White&gt;を表していたな。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>32</Id>
+      <Notes/>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -431,38 +323,50 @@ Amidst Darkness, we know Love.</EnglishText>
       <JapaneseText>あの……もう１度始めから
 考えてみませんか……？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>33</Id>
+      <Notes/>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>1309</PointerOffset>
+      <JapaneseText>&lt;Green&gt;選択済みです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1454</PointerOffset>
+      <JapaneseText>&lt;Green&gt;選択済みです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1570</PointerOffset>
+      <JapaneseText>&lt;Green&gt;選択済みです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3890</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5558</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>35</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5636</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>36</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,40 +9,40 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>716,738,790,812,837,943,968,1020,1062,1152,1225,1267,1913,1956,3051,4280</PointerOffset>
-      <JapaneseText>門番</JapaneseText>
+      <PointerOffset>3683,3904</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1303,1303,1303,1303,1303,1495,1495,1495,1495,1495,1495</PointerOffset>
-      <JapaneseText>カレギア兵</JapaneseText>
+      <PointerOffset>3734,2748</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1934,1992,2047,2601,2704,3023,3083,3304,3864,4051,4323</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
+      <PointerOffset>3797,4102,2629</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2629,3797,4102</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>3864,4051,2704,2601,1934,1992,2047,3023,3083,3304,4323</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2748,3734</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <PointerOffset>4022</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
@@ -58,16 +57,16 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3683,3904</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
+      <PointerOffset>1495,1495,1495,1495,1495,1495,1303,1303,1303,1303,1303</PointerOffset>
+      <JapaneseText>カレギア兵</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4022</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <PointerOffset>716,738,790,812,837,1913,1956,943,968,1020,1062,3051,1152,4280,1225,1267</PointerOffset>
+      <JapaneseText>門番</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>7</Id>
@@ -89,30 +88,22 @@
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>7669</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>231</PointerOffset>
-      <JapaneseText>ラジルダ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>234</PointerOffset>
       <JapaneseText>ラジルダ</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>231</PointerOffset>
+      <JapaneseText>ラジルダ</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -120,7 +111,7 @@
       <PointerOffset>433</PointerOffset>
       <JapaneseText>フォグマの家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
@@ -128,355 +119,105 @@
       <PointerOffset>456</PointerOffset>
       <JapaneseText>ガジュマ族長の家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
-      <PointerOffset>719</PointerOffset>
-      <JapaneseText>我が種族に受け継がれる秘薬を
-フォグマ様が
-おまえらヒューマに
-分けてなどくれるもんか。</JapaneseText>
+      <PointerOffset>3686</PointerOffset>
+      <VoiceId>2b000032</VoiceId>
+      <JapaneseText>……フォグマの手下どもが
+ウロウロしてたのは、
+ハックを殺すためだったんだな。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>741</PointerOffset>
-      <JapaneseText>ヒューマなら、
-イーガにでも頼めばいいさ。</JapaneseText>
+      <PointerOffset>3737</PointerOffset>
+      <VoiceId>2b000033</VoiceId>
+      <JapaneseText>みんなに、&lt;Tytree&gt;が
+&lt;Blue&gt;闇の力&lt;White&gt;を持ってるって
+教えてあげたら？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>793</PointerOffset>
-      <JapaneseText>全ガジュマはガジュマの旗を使うよう。
-それがフォグマ様のお達しだ。</JapaneseText>
+      <PointerOffset>3800</PointerOffset>
+      <VoiceId>2b000034</VoiceId>
+      <JapaneseText>そんな事をすれば、今度は
+&lt;Tytree&gt;が狙われるだけだ。
+ガジュマとヒューマの両方からな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>815</PointerOffset>
-      <JapaneseText>ヒューマどもも
-ヒューマの旗にしただろうし、
-もうラジルダの旗は
-残っとらんだろうな。</JapaneseText>
+      <PointerOffset>3867</PointerOffset>
+      <VoiceId>2b000035</VoiceId>
+      <JapaneseText>うむ。この街ではその話は
+しないほうが無難だ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>840</PointerOffset>
-      <JapaneseText>ヒューマとは
-話しとうないわ。</JapaneseText>
+      <PointerOffset>3907</PointerOffset>
+      <VoiceId>2b000036</VoiceId>
+      <JapaneseText>&lt;Yellow&gt;聖なる鳥&lt;White&gt;の次は&lt;Blue&gt;闇の力&lt;White&gt;……
+争いを止める力をめぐって
+争いが起きてるなんて、
+まったく皮肉な話だぜ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>946</PointerOffset>
-      <JapaneseText>向こうの通りに住むばあさんめ、
-ヒューマと仲良くしてけしからん。
-あんたもそう思わんか？</JapaneseText>
+      <PointerOffset>4025</PointerOffset>
+      <VoiceId>2b000037</VoiceId>
+      <JapaneseText>ハックさんは、もう捕まって
+しまったんでしょうか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>971</PointerOffset>
-      <JapaneseText>ヒューマとは
-話しとうない……</JapaneseText>
+      <PointerOffset>4054</PointerOffset>
+      <VoiceId>2b000038</VoiceId>
+      <JapaneseText>いや、フォグマの口ぶりから
+察するに、まだだろう。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1023</PointerOffset>
-      <JapaneseText>フォグマ様はおとりこみ中だ。
-用があるなら、出直してこい。</JapaneseText>
+      <PointerOffset>4105</PointerOffset>
+      <VoiceId>2b000039</VoiceId>
+      <JapaneseText>オレたちもハックを探そう。
+奴らに殺される前に。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>12</Id>
       <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1065</PointerOffset>
-      <JapaneseText>ヒューマごときが
-フォグマ様に会おうなど、
-片腹痛いわ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1155</PointerOffset>
-      <VoiceId>2b000027</VoiceId>
-      <JapaneseText>フォグマ様はヒューマには
-お会いにならない。
-帰った、帰った。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1228</PointerOffset>
-      <JapaneseText>フォグマ様は大変お忙しいお方だ。
-用事があるなら私が聞こう。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1270</PointerOffset>
-      <JapaneseText>フォグマ様はヒューマには
-お会いにならない。
-帰った、帰った。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1297</PointerOffset>
-      <JapaneseText>門番</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1352</PointerOffset>
-      <JapaneseText>この街の緊張は極限状態にある。
-いつ何が起きてもおかしくない。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1374</PointerOffset>
-      <JapaneseText>ケガをしたくないのなら
-むやみに外を出歩くな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1424</PointerOffset>
-      <JapaneseText>種族間の対抗意識を
-あおる者には厳罰が
-処される。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1446</PointerOffset>
-      <JapaneseText>ミルハウスト将軍の方針だ。
-あの人ににらまれたら、
-どんな犯罪者も完わりだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1471</PointerOffset>
-      <JapaneseText>騒乱を扇動した
-ガジュマの族長の家を家宅捜索中だ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1544</PointerOffset>
-      <JapaneseText>今、各地で、軍に拘束される
-種族惹義者が増えている。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1566</PointerOffset>
-      <JapaneseText>我々カレギア軍も、
-全軍を挙げて状況打開に
-動いてはいるが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1588</PointerOffset>
-      <JapaneseText>何かが狂い始めている
-ような気がする……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1638</PointerOffset>
-      <JapaneseText>伝統とはいえ、この街に
-それぞれの族長がいた事が
-そもそもの問題なのだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1660</PointerOffset>
-      <JapaneseText>将軍は、この制度の撤廃を
-進める方針だそうだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1685</PointerOffset>
-      <JapaneseText>あの族長もしばらくは
-この家には戻っては
-こられまい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1916</PointerOffset>
-      <VoiceId>2600002e</VoiceId>
-      <JapaneseText>フォグマ様に何か用か？</JapaneseText>
-      <EnglishText>What business do you have with
-Chief Fogma?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1937</PointerOffset>
-      <VoiceId>2600002f</VoiceId>
-      <JapaneseText>ラジルダの歴史について、
-フォグマ様にお聞きしたい事がある。
-ぜひ、お会いしたい。</JapaneseText>
-      <EnglishText>I have questions about
-Razilda's history that I would like to
-ask him. I would like meet with him
-if that's possible.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1959</PointerOffset>
-      <VoiceId>26000030</VoiceId>
-      <JapaneseText>……通っていいぞ。
-ただし、あんただけだ。</JapaneseText>
-      <EnglishText>...You may enter. But you, and
-only you.</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1995</PointerOffset>
-      <VoiceId>26000031</VoiceId>
-      <JapaneseText>わかった。</JapaneseText>
-      <EnglishText>Understood.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2050</PointerOffset>
-      <VoiceId>26000032</VoiceId>
-      <JapaneseText>おまえたちは、
-ここで待っていてくれ。</JapaneseText>
-      <EnglishText>Wait here for me.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2486</PointerOffset>
-      <JapaneseText>KKKKKKKKKKK  &lt;Unk17:112f&gt;  KKKKKKKKKKK</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>34</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2604</PointerOffset>
-      <VoiceId>26000047</VoiceId>
-      <JapaneseText>……というわけだ。
-泉のありかを示した地図が
-残されたらしい……</JapaneseText>
-      <EnglishText>...So that's how it went.
-Apparently, there was a map that showed
-where the spring would be.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2632</PointerOffset>
-      <VoiceId>26000048</VoiceId>
-      <JapaneseText>ヒューマの族長にも
-話を聞いてみる必要が
-ありそうだな。</JapaneseText>
-      <EnglishText>It looks like we'll need to
-talk to the Huma chief as well.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>36</Id>
-      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2707</PointerOffset>
@@ -485,9 +226,9 @@ talk to the Huma chief as well.</EnglishText>
 結局、泉のありかを示す
 地図もカギも見つからなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>37</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -495,9 +236,9 @@ talk to the Huma chief as well.</EnglishText>
       <VoiceId>2600004a</VoiceId>
       <JapaneseText>もうお手上げって感じだネ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>38</Id>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -507,9 +248,307 @@ talk to the Huma chief as well.</EnglishText>
 よく考えてみたほうが
 よさそうね。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2604</PointerOffset>
+      <VoiceId>26000047</VoiceId>
+      <JapaneseText>……というわけだ。
+泉のありかを示した地図が
+残されたらしい……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2632</PointerOffset>
+      <VoiceId>26000048</VoiceId>
+      <JapaneseText>ヒューマの族長にも
+話を聞いてみる必要が
+ありそうだな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>1544</PointerOffset>
+      <JapaneseText>今、各地で、軍に拘束される
+種族主義者が増えている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1566</PointerOffset>
+      <JapaneseText>我々カレギア軍も、
+全軍を挙げて状況打開に
+動いてはいるが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1588</PointerOffset>
+      <JapaneseText>何かが狂い始めている
+ような気がする……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1638</PointerOffset>
+      <JapaneseText>伝統とはいえ、この街に
+それぞれの族長がいた事が
+そもそもの問題なのだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1660</PointerOffset>
+      <JapaneseText>将軍は、この制度の撤廃を
+進める方針だそうだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1685</PointerOffset>
+      <JapaneseText>あの族長もしばらくは
+この家には戻っては
+こられまい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>1352</PointerOffset>
+      <JapaneseText>この街の緊張は極限状態にある。
+いつ何が起きてもおかしくない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1374</PointerOffset>
+      <JapaneseText>ケガをしたくないのなら
+むやみに外を出歩くな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1424</PointerOffset>
+      <JapaneseText>種族間の対抗意識を
+あおる者には厳罰が
+処される。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1446</PointerOffset>
+      <JapaneseText>ミルハウスト将軍の方針だ。
+あの人ににらまれたら、
+どんな犯罪者も終わりだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1471</PointerOffset>
+      <JapaneseText>騒乱を扇動した
+ガジュマの族長の家を家宅捜索中だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
+    <Entry>
+      <PointerOffset>719</PointerOffset>
+      <JapaneseText>我が種族に受け継がれる秘薬を
+フォグマ様が
+おまえらヒューマに
+分けてなどくれるもんか。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>741</PointerOffset>
+      <JapaneseText>ヒューマなら、
+イーガにでも頼めばいいさ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>793</PointerOffset>
+      <JapaneseText>全ガジュマはガジュマの旗を使うよう。
+それがフォグマ様のお達しだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>815</PointerOffset>
+      <JapaneseText>ヒューマどもも
+ヒューマの旗にしただろうし、
+もうラジルダの旗は
+残っとらんだろうな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>840</PointerOffset>
+      <JapaneseText>ヒューマとは
+話しとうないわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1916</PointerOffset>
+      <VoiceId>2600002e</VoiceId>
+      <JapaneseText>フォグマ様に何か用か？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1937</PointerOffset>
+      <VoiceId>2600002f</VoiceId>
+      <JapaneseText>ラジルダの歴史について、
+フォグマ様にお聞きしたい事がある。
+ぜひ、お会いしたい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1959</PointerOffset>
+      <VoiceId>26000030</VoiceId>
+      <JapaneseText>……通っていいぞ。
+ただし、あんただけだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1995</PointerOffset>
+      <VoiceId>26000031</VoiceId>
+      <JapaneseText>わかった。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2050</PointerOffset>
+      <VoiceId>26000032</VoiceId>
+      <JapaneseText>おまえたちは、
+ここで待っていてくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>946</PointerOffset>
+      <JapaneseText>向こうの通りに住むばあさんめ、
+ヒューマと仲良くしてけしからん。
+あんたもそう思わんか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
       <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>971</PointerOffset>
+      <JapaneseText>ヒューマとは
+話しとうない……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1023</PointerOffset>
+      <JapaneseText>フォグマ様はおとりこみ中だ。
+用があるなら、出直してこい。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1065</PointerOffset>
+      <JapaneseText>ヒューマごときが
+フォグマ様に会おうなど、
+片腹痛いわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -517,155 +556,55 @@ talk to the Huma chief as well.</EnglishText>
       <VoiceId>2b000028</VoiceId>
       <JapaneseText>フォグマ様にお聞きしたい事がある。
 ぜひ、お会いしたい。</JapaneseText>
-      <EnglishText>I need to meet with Chief
-Fogma. I have something I would like
-to ask him.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>40</Id>
-      <Status>Editing</Status>
+      <Id>43</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3054</PointerOffset>
       <VoiceId>2b0000dd</VoiceId>
       <JapaneseText>……通っていいぞ。
 ただし、あんただけだ。</JapaneseText>
-      <EnglishText>...You may enter. But you,
-and
-only you.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>41</Id>
-      <Status>Editing</Status>
+      <Id>44</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3086</PointerOffset>
       <VoiceId>2b0000de</VoiceId>
       <JapaneseText>わかった。</JapaneseText>
-      <EnglishText>Understood.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>42</Id>
-      <Status>Editing</Status>
+      <Id>45</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3307</PointerOffset>
       <VoiceId>2b0000df</VoiceId>
       <JapaneseText>おまえたちは、
 ここで待っていてくれ。</JapaneseText>
-      <EnglishText>Wait here for me.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>43</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3686</PointerOffset>
-      <VoiceId>2b000032</VoiceId>
-      <JapaneseText>……フォグマの手下どもが
-ウロウロしてたのは、
-ハックを殺すためだったんだな。</JapaneseText>
-      <EnglishText>...So Fogma's men are looking
-for Hack in order to kill him.</EnglishText>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3737</PointerOffset>
-      <VoiceId>2b000033</VoiceId>
-      <JapaneseText>みんなに、&lt;Tytree&gt;が
-&lt;Blue&gt;闇の力&lt;White&gt;を持ってるって
-教えてあげたら？</JapaneseText>
-      <EnglishText>What if we tell everyone that
-&lt;Tytree&gt; already has the &lt;Blue&gt;Power of
-Shade&lt;White&gt;?</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>45</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3800</PointerOffset>
-      <VoiceId>2b000034</VoiceId>
-      <JapaneseText>そんな事をすれば、今度は
-&lt;Tytree&gt;が狙われるだけだ。
-ガジュマとヒューマの両方からな。</JapaneseText>
-      <EnglishText>If we did that, then both the
-Gajuma and the Huma would just target
-&lt;Tytree&gt; instead.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>46</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3867</PointerOffset>
-      <VoiceId>2b000035</VoiceId>
-      <JapaneseText>うむ。この街ではその話は
-しないほうが無難だ。</JapaneseText>
-      <EnglishText>You're right. We'd be safer if
-we kept quiet about that around
-here.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>47</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3907</PointerOffset>
-      <VoiceId>2b000036</VoiceId>
-      <JapaneseText>&lt;Yellow&gt;聖なる鳥&lt;White&gt;の次は&lt;Blue&gt;闇の力&lt;White&gt;……
-争いを止める力をめぐって
-争いが起きてるなんて、
-まったく皮肉な話だぜ。</JapaneseText>
-      <EnglishText>First the &lt;Yellow&gt;Sacred
-Bird&lt;White&gt;, then the &lt;Blue&gt;Power of
-Shade&lt;White&gt;... Pretty ironic how the powers
-that are meant to stop conflict wind
-up causing it.</EnglishText>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>48</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4025</PointerOffset>
-      <VoiceId>2b000037</VoiceId>
-      <JapaneseText>ハックさんは、もう捕まって
-しまったんでしょうか？</JapaneseText>
-      <EnglishText>Do you think that Hack has
-already been captured?</EnglishText>
-      <Notes/>
+      <PointerOffset>1155</PointerOffset>
+      <VoiceId>2b000027</VoiceId>
+      <JapaneseText>フォグマ様はヒューマには
+お会いにならない。
+帰った、帰った。</JapaneseText>
+      <EnglishText/>
       <SpeakerId>7</SpeakerId>
-      <Id>49</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4054</PointerOffset>
-      <VoiceId>2b000038</VoiceId>
-      <JapaneseText>いや、フォグマの口ぶりから
-察するに、まだだろう。</JapaneseText>
-      <EnglishText>No. Judging by the way Fogma
-was talking, I'm guessing he's
-still on the run.</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>50</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4105</PointerOffset>
-      <VoiceId>2b000039</VoiceId>
-      <JapaneseText>オレたちもハックを探そう。
-奴らに殺される前に。</JapaneseText>
-      <EnglishText>Then let's go find him before
-he gets himself killed.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>51</Id>
-      <Status>Editing</Status>
+      <Id>47</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4283</PointerOffset>
@@ -673,18 +612,18 @@ he gets himself killed.</EnglishText>
       <JapaneseText>ここを通る事ができるのは
 ガジュマだけだ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>52</Id>
+      <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>4305</PointerOffset>
       <JapaneseText>…………&lt;Eugene&gt;、&lt;Veigue&gt;たちを振り返り、</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>53</Id>
+      <Notes/>
+      <Id>49</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -692,39 +631,45 @@ he gets himself killed.</EnglishText>
       <VoiceId>26000032</VoiceId>
       <JapaneseText>おまえたちは、
 ここで待っていてくれ。</JapaneseText>
-      <EnglishText>Wait here for me.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>54</Id>
-      <Status>Editing</Status>
+      <Id>50</Id>
+      <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>1228</PointerOffset>
+      <JapaneseText>フォグマ様は大変お忙しいお方だ。
+用事があるなら私が聞こう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1270</PointerOffset>
+      <JapaneseText>フォグマ様はヒューマには
+お会いにならない。
+帰った、帰った。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5827</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7495</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>56</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7573</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>57</Id>
+      <Id>53</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

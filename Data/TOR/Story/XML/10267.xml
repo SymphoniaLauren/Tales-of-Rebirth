@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,8 +9,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2649,2649,2649,2649,2649,2649,2649,2649,2649,2649,2649,2649,2649</PointerOffset>
-      <JapaneseText>女の子</JapaneseText>
+      <PointerOffset>3472</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
@@ -26,8 +25,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3472</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>2649,2649,2649,2649,2649,2649,2649,2649,2649,2649,2649,2649,2649</PointerOffset>
+      <JapaneseText>女の子</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
@@ -35,103 +34,127 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
-      <PointerOffset>567</PointerOffset>
-      <JapaneseText>espd[&lt;Unk17:38d004&gt;]-&gt;&lt;Unk17:38d40438d00488&gt;</JapaneseText>
+      <PointerOffset>2188</PointerOffset>
+      <JapaneseText>ミナール</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
       <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>579</PointerOffset>
-      <JapaneseText>いないってよ こいつ→&lt;Unk17:38d004&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>812</PointerOffset>
-      <JapaneseText>1st espd[&lt;Unk17:384404&gt;]-&gt;&lt;Unk17:38d40438440488&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1008</PointerOffset>
-      <JapaneseText>1st espd[&lt;Unk17:384404&gt;]-&gt;&lt;Unk17:38d40438440488&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1204</PointerOffset>
-      <JapaneseText>1st espd[&lt;Unk17:384404&gt;]-&gt;&lt;Unk17:38d40438440488&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1401</PointerOffset>
-      <JapaneseText>1st espd[&lt;Unk17:384404&gt;]-&gt;&lt;Unk17:38d40438440488&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1598</PointerOffset>
-      <JapaneseText>1st espd[&lt;Unk17:384404&gt;]-&gt;&lt;Unk17:38d40438440488&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1653</PointerOffset>
-      <JapaneseText>------------------------ALPHA = %d</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2185</PointerOffset>
       <JapaneseText>ミナール</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2188</PointerOffset>
-      <JapaneseText>ミナール</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>10</Id>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2333</PointerOffset>
       <JapaneseText>酒場</JapaneseText>
       <EnglishText/>
+      <Notes>Floating text bubble, generally marks entrances</Notes>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>3475</PointerOffset>
+      <JapaneseText>クルルルゥ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>3234</PointerOffset>
+      <JapaneseText>今のヒューマ……何だ……？
+……何があったんだ……？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3273</PointerOffset>
+      <JapaneseText>ひ、ひぃぃ……
+お助けを……!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3323</PointerOffset>
+      <JapaneseText>な、何があっても
+退かんぞ……！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3345</PointerOffset>
+      <JapaneseText>我らは勇敢なる
+カレギアの兵士だからな……！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3383</PointerOffset>
+      <JapaneseText>世界中に騒乱の火種がある。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3405</PointerOffset>
+      <JapaneseText>我々カレギア軍は、
+全土に警戒態勢を敷き、
+万一の時に備えている。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3430</PointerOffset>
+      <JapaneseText>ヒューマは外出禁止だ。
+室内に入ってろ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
     <Entry>
       <PointerOffset>2704</PointerOffset>
       <JapaneseText>なんかすごい勢いでミーシャが
 港の方へ走ってったけど……
 誰かとケンカでもしたの？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
@@ -141,8 +164,8 @@
 走ってったけど……
 何があったの？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
@@ -152,8 +175,8 @@
 とってもおとなしいのに……
 さっきはなんかコワかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
@@ -162,8 +185,8 @@
       <JapaneseText>え？　あ、街の上の方に
 行ったみたいだけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
@@ -173,8 +196,8 @@
 怒りっぽくなってるのよね。
 気のせいかしら？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
@@ -184,8 +207,8 @@
 感じなのよね……みんな、
 ケンカばかりしてるし……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
@@ -195,8 +218,8 @@
 街の上の方に向かって
 走ってったけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
@@ -205,8 +228,8 @@
       <JapaneseText>最近、ああいうの、
 はやってるの？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
@@ -216,8 +239,8 @@
 ガジュマとヒューマは別々に
 暮らせばいいと思うんだけど……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
@@ -225,8 +248,8 @@
       <PointerOffset>3054</PointerOffset>
       <JapaneseText>何？　何か落ちてくるの？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
@@ -235,8 +258,8 @@
       <JapaneseText>なんか気持ち悪い……
 とってもイヤな感じがする……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
@@ -245,8 +268,8 @@
       <JapaneseText>この街から船に乗れば、
 首都バルカまで一直せーん……♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
@@ -254,88 +277,9 @@
       <PointerOffset>3151</PointerOffset>
       <JapaneseText>のはずなんだけどね……</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3234</PointerOffset>
-      <JapaneseText>今のヒューマ……何だ……？
-……何があったんだ……？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3273</PointerOffset>
-      <JapaneseText>ひ、ひぃぃ……
-お助けを……!!</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3323</PointerOffset>
-      <JapaneseText>な、何があっても
-退かんぞ……！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3345</PointerOffset>
-      <JapaneseText>我らは勇敢なる
-カレギアの兵士だからな……！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3383</PointerOffset>
-      <JapaneseText>世界中に騒乱の火種がある。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>29</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3405</PointerOffset>
-      <JapaneseText>我々カレギア軍は、
-全土に警戒態勢を敷き、
-万一の時に備えている。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3430</PointerOffset>
-      <JapaneseText>ヒューマは外出禁止だ。
-室内に入ってろ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3475</PointerOffset>
-      <JapaneseText>クルルルゥ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>32</Id>
+      <Notes/>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

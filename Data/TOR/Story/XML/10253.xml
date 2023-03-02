@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,35 +9,27 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1858,1882,1906,6642,7335,7359,7431,15371</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>5684,5879,6948,7068,7180,7397,7499,6209,6285</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5684,5879,6209,6285,6948,7068,7180,7397,7499,9342,9426,9509,9594,9679,9814,9899,9984,10069,10154,10239,10324,10409,10494,10579,10653</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>5721,5828,7253,7471,7557,6246,6608</PointerOffset>
+      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5721,5828,6246,6608,7253,7471,7557,9752</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5792,5908,6435,6573,6911,6977,7039,7097,7209,7301,7528,9371,9454,9538,9623,9708,9843,9928,10013,10098,10183,10268,10353,10438,10523,10608,10682,10758</PointerOffset>
+      <PointerOffset>5792,5908,6911,6977,7039,7097,7209,7301,7528,6435,6573</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>3</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,11 +37,19 @@
       <JapaneseText>男の人の声</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>10931,10931,10931,10931,10931</PointerOffset>
+      <JapaneseText>トーマ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10923,10923,10923,10923,10923,10923,10923</PointerOffset>
+      <PointerOffset>10923,10923</PointerOffset>
       <JapaneseText>男の人</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -58,8 +57,8 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>10931,10931,10931,10931,10931,10931,10931</PointerOffset>
-      <JapaneseText>トーマ</JapaneseText>
+      <PointerOffset>1858,1882,1906,7335,7359,7431,6642</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>6</Id>
@@ -75,20 +74,20 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>1151</PointerOffset>
-      <JapaneseText>アルヴァン山脈</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>1154</PointerOffset>
       <JapaneseText>アルヴァン山脈</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1151</PointerOffset>
+      <JapaneseText>アルヴァン山脈</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -96,50 +95,178 @@
       <PointerOffset>1360</PointerOffset>
       <JapaneseText>アルヴァン山脈</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
-      <PointerOffset>1447</PointerOffset>
-      <JapaneseText>フォルス処理FRT01</JapaneseText>
+      <PointerOffset>5687</PointerOffset>
+      <VoiceId>0f000000</VoiceId>
+      <JapaneseText>ここから山を越えるのか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1477</PointerOffset>
-      <JapaneseText>フォルス処理FRT02</JapaneseText>
+      <PointerOffset>5724</PointerOffset>
+      <VoiceId>0f000001</VoiceId>
+      <JapaneseText>そうだ。
+険しい山道のうえ、
+荒れ果てている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1507</PointerOffset>
-      <JapaneseText>フォルス処理FRT03</JapaneseText>
+      <PointerOffset>5795</PointerOffset>
+      <VoiceId>0f000002</VoiceId>
+      <JapaneseText>この山、前に訓練で来たけど
+けっこう大変なんだよね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1537</PointerOffset>
-      <JapaneseText>フォルス処理FRT04</JapaneseText>
+      <PointerOffset>5831</PointerOffset>
+      <VoiceId>0f000003</VoiceId>
+      <JapaneseText>エトレー橋が渡れない以上、
+ここを行くしかない。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
+      <PointerOffset>5882</PointerOffset>
+      <VoiceId>0f000004</VoiceId>
+      <JapaneseText>あの三人組がいなければ、
+今ごろ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5911</PointerOffset>
+      <VoiceId>0f000005</VoiceId>
+      <JapaneseText>サレたちに追いつくためにも
+がんばって登ろうヨ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11021</PointerOffset>
+      <VoiceId>34000041</VoiceId>
+      <JapaneseText>ぎゃぁぁぁぁぁぁぁぁッ!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11074</PointerOffset>
+      <VoiceId>34000042</VoiceId>
+      <JapaneseText>……なんという強さだ！
+これがハーフの力……
+いいぞ、&lt;Hilda&gt;。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11106</PointerOffset>
+      <VoiceId>34000043</VoiceId>
+      <JapaneseText>ジルバ様のおっしゃった
+とおりだ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11128</PointerOffset>
+      <VoiceId>34000044</VoiceId>
+      <JapaneseText>おまえは最高の兵士になれる。
+おまえを育ててきたかいが
+あったというものだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11150</PointerOffset>
+      <VoiceId>34000045</VoiceId>
+      <JapaneseText>さあ、もう一度、俺に見せてくれ!!
+おまえの……ハーフの力を。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11190</PointerOffset>
+      <VoiceId>34000046</VoiceId>
+      <JapaneseText>遠慮はいらん。
+こいつらは皆、罪人だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11251</PointerOffset>
+      <VoiceId>34000047</VoiceId>
+      <JapaneseText>い、いやだ、助けてくれ!!
+化け物め……来るな、来るなッ!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>11333</PointerOffset>
+      <VoiceId>34000048</VoiceId>
+      <JapaneseText>ぎゃぁぁぁぁぁぁぁぁッ!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-0</Section>
+    <Entry>
       <PointerOffset>1861</PointerOffset>
       <JapaneseText>&lt;Green&gt;この辺りのバイラスは、
 特定の攻撃後に防御を固めます。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -148,9 +275,9 @@
 反撃タイミングを
 考えてください。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -160,205 +287,45 @@
 無闇に攻撃して、逆に反撃を
 受けないように気をつけましょう。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5687</PointerOffset>
-      <VoiceId>0f000000</VoiceId>
-      <JapaneseText>ここから山を越えるのか？</JapaneseText>
-      <EnglishText>Can we cross the mountain from
-here?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5724</PointerOffset>
-      <VoiceId>0f000001</VoiceId>
-      <JapaneseText>そうだ。
-険しい山道のうえ、
-荒れ果てている。</JapaneseText>
-      <EnglishText>Yes. It's a steep climb,
-however, and it's falling into ruin.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>12</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5795</PointerOffset>
-      <VoiceId>0f000002</VoiceId>
-      <JapaneseText>この山、前に訓練で来たけど
-けっこう大変なんだよね。</JapaneseText>
-      <EnglishText>We've been here before for
-training, and it's pretty rough.</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>13</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5831</PointerOffset>
-      <VoiceId>0f000003</VoiceId>
-      <JapaneseText>エトレー橋が渡れない以上、
-ここを行くしかない。</JapaneseText>
-      <EnglishText>With the Etoray Bridge out of
-service, our only option is to pass
-through here.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>14</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5882</PointerOffset>
-      <VoiceId>0f000004</VoiceId>
-      <JapaneseText>あの三人組がいなければ、
-今ごろ……</JapaneseText>
-      <EnglishText>If it weren't for those three,
-we would be there by now...</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5911</PointerOffset>
-      <VoiceId>0f000005</VoiceId>
-      <JapaneseText>サレたちに追いつくためにも
-がんばって登ろうヨ！</JapaneseText>
-      <EnglishText>If we want to catch up to Saleh
-and the others, we'd better give it
-our all!</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>16</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6212</PointerOffset>
-      <VoiceId>0f000006</VoiceId>
-      <JapaneseText>行き止まりだ。
-ここが山を越える道じゃないのか？</JapaneseText>
-      <EnglishText>It's a dead end.
-Shouldn't
-there be a mountain pass?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>17</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6249</PointerOffset>
-      <VoiceId>0f000007</VoiceId>
-      <JapaneseText>そのはずなんだが……
-おそらく、嵐か大水が出たかして、
-道が崩れて、そのままなのだろう。</JapaneseText>
-      <EnglishText>There should be...
-Most likely
-a storm or flood caused
-the path
-to collapse, leaving it like this.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>18</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6288</PointerOffset>
-      <VoiceId>0f000008</VoiceId>
-      <JapaneseText>……地盤がこんな不安定な状態で
-先に進む事ができるのか？</JapaneseText>
-      <EnglishText>...Can we really continue on
-with
-the ground being this unstable?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>19</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6438</PointerOffset>
-      <VoiceId>0f000009</VoiceId>
-      <JapaneseText>大丈夫みたいだよ……ホラ！</JapaneseText>
-      <EnglishText>I think we'll manage... Watch!</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>20</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6576</PointerOffset>
-      <VoiceId>0f00000a</VoiceId>
-      <JapaneseText>ネ？　大丈夫でしょ♪</JapaneseText>
-      <EnglishText>See? Piece of cake! ♪</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>21</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6611</PointerOffset>
-      <VoiceId>0f00000b</VoiceId>
-      <JapaneseText>というわけだ。
-行くぞ、&lt;Veigue&gt;。</JapaneseText>
-      <EnglishText>That answers that.
-Let's press
-on, &lt;Veigue&gt;.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>22</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6645</PointerOffset>
-      <JapaneseText>&lt;Green&gt;画面右下にアイコンが表示される場所で
-『&lt;icon:30&gt;ボタン』を押すとジャンプをします。
-(注意：助走が必要です。)</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-1</Section>
     <Entry>
       <PointerOffset>6914</PointerOffset>
       <VoiceId>0f00000c</VoiceId>
       <JapaneseText>この崖は、さすがに
 飛び越せないね。</JapaneseText>
-      <EnglishText>There's no way we can make this
-jump.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6951</PointerOffset>
       <VoiceId>0f00000d</VoiceId>
       <JapaneseText>ここまで来て引き返すのか……？</JapaneseText>
-      <EnglishText>Are we going to have to turn
-back after coming this far...?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6980</PointerOffset>
       <VoiceId>0f00000e</VoiceId>
       <JapaneseText>いや、今こそキミの出番だ、
 &lt;Veigue&gt;！</JapaneseText>
-      <EnglishText>Not quite. It's your time to
-shine, &lt;Veigue&gt;!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
+      <Id>23</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7042</PointerOffset>
@@ -366,77 +333,73 @@ shine, &lt;Veigue&gt;!</EnglishText>
       <JapaneseText>では、問題です！
 何を使えば、この崖を
 渡れるんでしょうか？</JapaneseText>
-      <EnglishText>Alright, question time! What
-can we use to help us get across?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>27</Id>
-      <Status>Editing</Status>
+      <Id>24</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7071</PointerOffset>
       <VoiceId>0f000010</VoiceId>
       <JapaneseText>何を……使う？</JapaneseText>
-      <EnglishText>What can...we use?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
+      <Id>25</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7100</PointerOffset>
       <VoiceId>0f000011</VoiceId>
       <JapaneseText>答えはキミ自身の中にある！
 落ちついて考えてみてネ。</JapaneseText>
-      <EnglishText>The answer is right inside of
-you! Focus your mind and think about
-it.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
+      <Id>26</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7183</PointerOffset>
       <VoiceId>0f000012</VoiceId>
       <JapaneseText>……オレのフォルスか？</JapaneseText>
-      <EnglishText>...My Force?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
+      <Id>27</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7212</PointerOffset>
       <VoiceId>0f000013</VoiceId>
       <JapaneseText>正解ー!!</JapaneseText>
-      <EnglishText>Bingooo!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
+      <Id>28</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7256</PointerOffset>
       <VoiceId>0f000014</VoiceId>
       <JapaneseText>&lt;Yellow&gt;氷のフォルス&lt;White&gt;を使うんだ。
 できるな、&lt;Veigue&gt;。</JapaneseText>
-      <EnglishText>Use your &lt;Yellow&gt;Force of
-Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
+      <Id>29</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7304</PointerOffset>
       <VoiceId>0f000015</VoiceId>
       <JapaneseText>さあ、キミの出番だ!!</JapaneseText>
-      <EnglishText>This is your time to shine!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
+      <Id>30</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7338</PointerOffset>
@@ -444,9 +407,9 @@ Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
 バルーンが表示されている場所で
 フォルスを使う事ができます。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>34</Id>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -455,9 +418,9 @@ Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
 氷のフォルスを使って
 氷の足場を作る事ができます。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>35</Id>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -466,9 +429,9 @@ Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
       <JapaneseText>確かに、足場を作れば
 飛び越せそうだな。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>36</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -477,9 +440,9 @@ Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
 氷の足場を作って下さい。
 （&lt;icon:34&gt;ボタン&lt;icon:35&gt;ボタンで方向が変えられます。）</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>37</Id>
+      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -489,9 +452,9 @@ Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
 使って力を消費するのは得策ではない。
 無理をするなよ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>38</Id>
+      <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -499,9 +462,9 @@ Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
       <VoiceId>0f000019</VoiceId>
       <JapaneseText>わかっている。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>39</Id>
+      <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -509,9 +472,9 @@ Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
       <VoiceId>0f00001a</VoiceId>
       <JapaneseText>頼りにしてるヨ、&lt;Veigue&gt;♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>40</Id>
+      <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -519,1020 +482,102 @@ Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
       <VoiceId>0f00001b</VoiceId>
       <JapaneseText>よし、先を急ごう。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-2</Section>
+    <Entry>
+      <PointerOffset>6212</PointerOffset>
+      <VoiceId>0f000006</VoiceId>
+      <JapaneseText>行き止まりだ。
+ここが山を越える道じゃないのか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6249</PointerOffset>
+      <VoiceId>0f000007</VoiceId>
+      <JapaneseText>そのはずなんだが……
+おそらく、嵐か大水が出たかして、
+道が崩れて、そのままなのだろう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6288</PointerOffset>
+      <VoiceId>0f000008</VoiceId>
+      <JapaneseText>……地盤がこんな不安定な状態で
+先に進む事ができるのか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7640</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;「さあ、何を使って崖を渡る？」</JapaneseText>
+      <PointerOffset>6438</PointerOffset>
+      <VoiceId>0f000009</VoiceId>
+      <JapaneseText>大丈夫みたいだよ……ホラ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
       <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7643</PointerOffset>
-      <JapaneseText/>
+      <PointerOffset>6576</PointerOffset>
+      <VoiceId>0f00000a</VoiceId>
+      <JapaneseText>ネ？　大丈夫でしょ♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
       <Id>43</Id>
-      <Status>Done</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7689</PointerOffset>
-      <JapaneseText>シラネ</JapaneseText>
+      <PointerOffset>6611</PointerOffset>
+      <VoiceId>0f00000b</VoiceId>
+      <JapaneseText>というわけだ。
+行くぞ、&lt;Veigue&gt;。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
       <Id>44</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7712</PointerOffset>
-      <JapaneseText>ばか</JapaneseText>
+      <PointerOffset>6645</PointerOffset>
+      <JapaneseText>&lt;Green&gt;画面右下にアイコンが表示される場所で
+『&lt;icon:30&gt;ボタン』を押すとジャンプをします。
+(注意：助走が必要です。)</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
       <Id>45</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>7735</PointerOffset>
-      <JapaneseText>バカ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7758</PointerOffset>
-      <JapaneseText>あほ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7781</PointerOffset>
-      <JapaneseText>アホ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>48</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7804</PointerOffset>
-      <JapaneseText>あたま</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>49</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7827</PointerOffset>
-      <JapaneseText>ちえ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>50</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7850</PointerOffset>
-      <JapaneseText>わからん</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7873</PointerOffset>
-      <JapaneseText>しらねえ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>52</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7896</PointerOffset>
-      <JapaneseText>こうさん</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>53</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7919</PointerOffset>
-      <JapaneseText>まるた</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>54</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7943</PointerOffset>
-      <JapaneseText>フォルス</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7967</PointerOffset>
-      <JapaneseText>ふぉるす</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>56</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7991</PointerOffset>
-      <JapaneseText>こおり</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>57</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8015</PointerOffset>
-      <JapaneseText>ＩＣＥ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>58</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8039</PointerOffset>
-      <JapaneseText>ｉｃｅ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>59</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8063</PointerOffset>
-      <JapaneseText>ダッシュ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>60</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8087</PointerOffset>
-      <JapaneseText>ジャンプ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>61</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8111</PointerOffset>
-      <JapaneseText>おれ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>62</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8135</PointerOffset>
-      <JapaneseText>オレ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>63</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8159</PointerOffset>
-      <JapaneseText>からだ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>64</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8183</PointerOffset>
-      <JapaneseText>じぶん</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>65</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8207</PointerOffset>
-      <JapaneseText>ヴェイグ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>66</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8231</PointerOffset>
-      <JapaneseText>きみ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>67</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8255</PointerOffset>
-      <JapaneseText>おまえ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>68</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8279</PointerOffset>
-      <JapaneseText>オマエ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>69</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8303</PointerOffset>
-      <JapaneseText>マオ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>70</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8327</PointerOffset>
-      <JapaneseText>きあい</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>71</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8351</PointerOffset>
-      <JapaneseText>ガッツ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>72</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8375</PointerOffset>
-      <JapaneseText>ロープ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>73</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8399</PointerOffset>
-      <JapaneseText>はしご</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>74</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8423</PointerOffset>
-      <JapaneseText>アイテム</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>75</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8447</PointerOffset>
-      <JapaneseText>あいてむ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>76</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8471</PointerOffset>
-      <JapaneseText>どうぐ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>77</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8495</PointerOffset>
-      <JapaneseText>あれ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>78</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8519</PointerOffset>
-      <JapaneseText>アレ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>79</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8543</PointerOffset>
-      <JapaneseText>なにか</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>80</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8567</PointerOffset>
-      <JapaneseText>ちんこ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>81</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8591</PointerOffset>
-      <JapaneseText>チンコ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>82</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8615</PointerOffset>
-      <JapaneseText>ちんぼ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>83</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8639</PointerOffset>
-      <JapaneseText>チンボ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>84</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8663</PointerOffset>
-      <JapaneseText>ちんぽ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>85</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8687</PointerOffset>
-      <JapaneseText>チンポ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>86</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8711</PointerOffset>
-      <JapaneseText>ちんぽこ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>87</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8735</PointerOffset>
-      <JapaneseText>チンポコ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>88</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8759</PointerOffset>
-      <JapaneseText>ティンコ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>89</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8783</PointerOffset>
-      <JapaneseText>ティンポ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>90</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8807</PointerOffset>
-      <JapaneseText>ティムコ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>91</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8831</PointerOffset>
-      <JapaneseText>ティムポ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>92</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8855</PointerOffset>
-      <JapaneseText>きんたま</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>93</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8879</PointerOffset>
-      <JapaneseText>キンタマ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>94</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8903</PointerOffset>
-      <JapaneseText>うんこ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>95</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8927</PointerOffset>
-      <JapaneseText>ウンコ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>96</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8951</PointerOffset>
-      <JapaneseText>まんこ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>97</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8975</PointerOffset>
-      <JapaneseText>マンコ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>98</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8999</PointerOffset>
-      <JapaneseText>おめこ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>99</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9023</PointerOffset>
-      <JapaneseText>オメコ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>100</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9047</PointerOffset>
-      <JapaneseText>べっちょ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>101</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9071</PointerOffset>
-      <JapaneseText>ベッチョ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>102</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9095</PointerOffset>
-      <JapaneseText>ぼぼ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>103</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9119</PointerOffset>
-      <JapaneseText>ボボ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>104</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9143</PointerOffset>
-      <JapaneseText>せっくる</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>105</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9167</PointerOffset>
-      <JapaneseText>セックル</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>106</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9191</PointerOffset>
-      <JapaneseText>せっくす</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>107</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9215</PointerOffset>
-      <JapaneseText>セックス</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>108</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9239</PointerOffset>
-      <JapaneseText>あしば</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>109</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9263</PointerOffset>
-      <JapaneseText>ふおるす</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>110</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9287</PointerOffset>
-      <JapaneseText>フオルス</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>111</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9345</PointerOffset>
-      <JapaneseText>&lt;Unk18:48e005&gt;！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>112</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9374</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;！
-ふざけてる場合じゃないでしょ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>113</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9429</PointerOffset>
-      <JapaneseText>頭か……!?</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>114</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9457</PointerOffset>
-      <JapaneseText>そう、アタマを使うのさ。
-もう一度考えてみてよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>115</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9512</PointerOffset>
-      <JapaneseText>わからん……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>116</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9541</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;、そんなに悩まないでヨ。
-簡単なコトさ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>117</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9597</PointerOffset>
-      <JapaneseText>丸太を使う……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>118</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9626</PointerOffset>
-      <JapaneseText>丸太なんて、
-この辺りにはないヨ？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>119</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9682</PointerOffset>
-      <VoiceId>0f000012</VoiceId>
-      <JapaneseText>……オレのフォルスか？</JapaneseText>
-      <EnglishText>...My Force?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>120</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9711</PointerOffset>
-      <VoiceId>0f000013</VoiceId>
-      <JapaneseText>正解ー!!</JapaneseText>
-      <EnglishText>Bingooo!</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>121</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9755</PointerOffset>
-      <VoiceId>0f000014</VoiceId>
-      <JapaneseText>&lt;Yellow&gt;氷のフォルス&lt;White&gt;を使うんだ。
-できるな、&lt;Veigue&gt;。</JapaneseText>
-      <EnglishText>Use your &lt;Yellow&gt;Force
-of
-Ice&lt;White&gt;. You can do it, &lt;Veigue&gt;.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>122</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9817</PointerOffset>
-      <JapaneseText>ダッシュして大ジャンプか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>123</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9846</PointerOffset>
-      <JapaneseText>いくらなんでも無理だよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>124</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9902</PointerOffset>
-      <JapaneseText>オレを使うのか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>125</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9931</PointerOffset>
-      <JapaneseText>まあ、それはそうなんだけど……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>126</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9987</PointerOffset>
-      <JapaneseText>おまえを使う！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>127</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10016</PointerOffset>
-      <JapaneseText>ボクに、どうしろって
-いうの？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>128</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10072</PointerOffset>
-      <JapaneseText>気合い……気合だ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>129</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10101</PointerOffset>
-      <JapaneseText>それだけじゃ、
-どうにもならないよね……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>130</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10157</PointerOffset>
-      <JapaneseText>&lt;Unk18:48e005&gt;を使う。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>131</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10186</PointerOffset>
-      <JapaneseText>持ってないよ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>132</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10242</PointerOffset>
-      <JapaneseText>アイテムを使う。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>133</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10271</PointerOffset>
-      <JapaneseText>そうじゃないんだけどな……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>134</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10327</PointerOffset>
-      <JapaneseText>アレを使う！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>135</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10356</PointerOffset>
-      <JapaneseText>そんな言い方じゃ
-わかんないよ……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>136</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10412</PointerOffset>
-      <JapaneseText>×××を……
-いや、なんでもない……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>137</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10441</PointerOffset>
-      <JapaneseText>？？？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>138</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10497</PointerOffset>
-      <JapaneseText>足場を使うのか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>139</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10526</PointerOffset>
-      <JapaneseText>うん！　イイ線行ってるネ！
-じゃあ、その足場を作るためには？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>140</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10582</PointerOffset>
-      <JapaneseText>それは、フオルスだ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>141</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10611</PointerOffset>
-      <JapaneseText>えっ？　フォルスって言いたいの？
-なんか発音が違うヨ、&lt;Veigue&gt;。
-もう一度言ってみてくれる？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>142</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10656</PointerOffset>
-      <JapaneseText>&lt;Unk18:48e005&gt;……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>143</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10685</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;、それは
-違うんじゃない？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>144</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10761</PointerOffset>
-      <JapaneseText>もぉ、&lt;Veigue&gt;！
-しっかりしてよ。
-『フォルス』を使うんだヨ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>145</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11021</PointerOffset>
-      <VoiceId>34000041</VoiceId>
-      <JapaneseText>ぎゃぁぁぁぁぁぁぁぁッ!!</JapaneseText>
-      <EnglishText>Gyaaaaaahhh!!</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>146</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11074</PointerOffset>
-      <VoiceId>34000042</VoiceId>
-      <JapaneseText>……なんという強さだ！
-これがハーフの力……
-いいぞ、&lt;Hilda&gt;。</JapaneseText>
-      <EnglishText>Such strength! So this is the
-power of a Half... Good work,
-&lt;Hilda&gt;!</EnglishText>
-      <Notes/>
-      <SpeakerId>5,6</SpeakerId>
-      <Id>147</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11106</PointerOffset>
-      <VoiceId>34000043</VoiceId>
-      <JapaneseText>ジルバ様のおっしゃった
-とおりだ……</JapaneseText>
-      <EnglishText>It's just as Lady Zilva said.</EnglishText>
-      <Notes/>
-      <SpeakerId>5,6</SpeakerId>
-      <Id>148</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11128</PointerOffset>
-      <VoiceId>34000044</VoiceId>
-      <JapaneseText>おまえは最高の兵士になれる。
-おまえを育ててきたかいが
-あったというものだ。</JapaneseText>
-      <EnglishText>You will become an impressive
-soldier. Raising you has certainly paid
-off.</EnglishText>
-      <Notes/>
-      <SpeakerId>5,6</SpeakerId>
-      <Id>149</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11150</PointerOffset>
-      <VoiceId>34000045</VoiceId>
-      <JapaneseText>さあ、もう一度、俺に見せてくれ!!
-おまえの……ハーフの力を。</JapaneseText>
-      <EnglishText>All right, show me your power
-once more... Show me your power as a
-Half!</EnglishText>
-      <Notes/>
-      <SpeakerId>5,6</SpeakerId>
-      <Id>150</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11190</PointerOffset>
-      <VoiceId>34000046</VoiceId>
-      <JapaneseText>遠慮はいらん。
-こいつらは皆、罪人だ。</JapaneseText>
-      <EnglishText>Don't bother holding back.
-They're criminals, after all.</EnglishText>
-      <Notes/>
-      <SpeakerId>5,6</SpeakerId>
-      <Id>151</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11251</PointerOffset>
-      <VoiceId>34000047</VoiceId>
-      <JapaneseText>い、いやだ、助けてくれ!!
-化け物め……来るな、来るなッ!!</JapaneseText>
-      <EnglishText>N-no, help me! You monster! Get
-away from me! Get away...!!</EnglishText>
-      <Notes/>
-      <SpeakerId>5,6</SpeakerId>
-      <Id>152</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11333</PointerOffset>
-      <VoiceId>34000048</VoiceId>
-      <JapaneseText>ぎゃぁぁぁぁぁぁぁぁッ!!</JapaneseText>
-      <EnglishText>Gyaaaaaahhh!!</EnglishText>
-      <Notes/>
-      <SpeakerId>5,6</SpeakerId>
-      <Id>153</Id>
-      <Status>Editing</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>13529</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>154</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15197</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>155</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15275</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>156</Id>
+      <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

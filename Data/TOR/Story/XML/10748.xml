@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -57,66 +56,59 @@
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>5189</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>214</PointerOffset>
-      <JapaneseText>イーフォンの聖殿</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>217</PointerOffset>
       <JapaneseText>イーフォンの聖殿</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>214</PointerOffset>
+      <JapaneseText>イーフォンの聖殿</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>893</PointerOffset>
       <VoiceId>27000038</VoiceId>
       <JapaneseText>どうした？</JapaneseText>
-      <EnglishText>What's wrong?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>923</PointerOffset>
       <VoiceId>27000039</VoiceId>
       <JapaneseText>え……？
 あ、こ、ここは……？</JapaneseText>
-      <EnglishText>Huh...? Uh, w-where am I?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>993</PointerOffset>
       <VoiceId>2700003a</VoiceId>
       <JapaneseText>ナニ言ってるの？
 泉の底の遺跡の中だヨ!?</JapaneseText>
-      <EnglishText>What are you talking about?
-You're in the ruins at the bottom of
-the spring!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1030</PointerOffset>
@@ -125,13 +117,11 @@ the spring!</EnglishText>
 そうなんだけどよ……
 確かに今、おれは……
 ペトナジャンカにいた……</JapaneseText>
-      <EnglishText>Oh, y-yeah... That's right...
-That makes sense, but... Just now, I
-was in Petnadjanka...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1078</PointerOffset>
@@ -139,109 +129,95 @@ was in Petnadjanka...</EnglishText>
       <JapaneseText>ペトナジャンカ？
 歩きながら夢でも
 見てたって言うの？</JapaneseText>
-      <EnglishText>Petnadjanka? You mean to tell
-us that you were walking and
-dreaming at the same time?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1109</PointerOffset>
       <VoiceId>2700003d</VoiceId>
       <JapaneseText>いや、そんなハズは……
 夢なんかじゃなかった気がする……</JapaneseText>
-      <EnglishText>No, I couldn't have been... It
-sure didn't feel like a dream...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1138</PointerOffset>
       <VoiceId>2700003e</VoiceId>
       <JapaneseText>とにかく先へ進むが、
 大丈夫なんだな？</JapaneseText>
-      <EnglishText>Well, are you going to be all
-right if we keep going?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>4</SpeakerId>
+      <Notes/>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1184</PointerOffset>
       <VoiceId>2700003f</VoiceId>
       <JapaneseText>……ああ……</JapaneseText>
-      <EnglishText>Yeah...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1219</PointerOffset>
       <VoiceId>27000040</VoiceId>
       <JapaneseText>行こう。</JapaneseText>
-      <EnglishText>Then let's keep moving.</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>11</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1313</PointerOffset>
-      <JapaneseText>？？？？？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <Id>12</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1492</PointerOffset>
       <VoiceId>27000055</VoiceId>
       <JapaneseText>待て！</JapaneseText>
-      <EnglishText>Wait!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1674</PointerOffset>
       <VoiceId>27000056</VoiceId>
       <JapaneseText>どうした？
 また何か見たのか？</JapaneseText>
-      <EnglishText>What's wrong? Are you seeing
-things again?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1729</PointerOffset>
       <VoiceId>27000057</VoiceId>
       <JapaneseText>……なんなんだよ、これは!!
 なんでこんなものが見えるんだよ!!</JapaneseText>
-      <EnglishText>...What the heck's going on?!
-Why do I keep seeing these things?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1769</PointerOffset>
       <VoiceId>27000058</VoiceId>
-      <JapaneseText>……もしかして、あの声の惹が
+      <JapaneseText>……もしかして、あの声の主が
 &lt;Tytree&gt;に何か仕掛けてる？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>16</Id>
+      <Notes/>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -250,53 +226,35 @@ Why do I keep seeing these things?</EnglishText>
       <JapaneseText>そうかもしれん。
 とにかく落ち着いて
 行くんだ、&lt;Tytree&gt;。</JapaneseText>
-      <EnglishText>That might be the case. You
-need to stay composed and keep
-going, &lt;Tytree&gt;.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>4</SpeakerId>
-      <Id>17</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1863</PointerOffset>
       <VoiceId>2700005a</VoiceId>
       <JapaneseText>……わかってるさ……
 行くところまで行ってやる……</JapaneseText>
-      <EnglishText>I know... I'm in this 'til the
-very end...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>18</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3347</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5015</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5093</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>21</Id>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

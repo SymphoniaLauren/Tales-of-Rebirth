@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,24 +9,24 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1163,1186,2056</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <PointerOffset>1836,1949,2009,2160,2189,2210</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1836,1949,2009,2160,2189,2210</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>1873,1980,2139</PointerOffset>
+      <JapaneseText>&lt;Claire&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1873,1980,2139</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
+      <PointerOffset>2056,1163,1186</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
@@ -49,127 +48,67 @@
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>5529</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
-      <PointerOffset>287</PointerOffset>
-      <JapaneseText>---fall----</JapaneseText>
+      <PointerOffset>790</PointerOffset>
+      <JapaneseText>獣王山</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
       <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>394</PointerOffset>
-      <JapaneseText>i_bottan_count = &lt;Unk17:38d804&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>422</PointerOffset>
-      <JapaneseText>---------------A-----------</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>787</PointerOffset>
       <JapaneseText>獣王山</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>790</PointerOffset>
-      <JapaneseText>獣王山</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>953</PointerOffset>
       <JapaneseText>　&lt;Red&gt;&lt;icon:30&gt;ボタンを連打して復帰！　</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>1103</PointerOffset>
-      <JapaneseText> &lt;Unk17:d0ff1fc0e00cd0d307c0e00c8dd0ff1fc0e00cd0d307c0e00c8d89d0ff1fc1e00cd0d307c1e00c8dd0ff1fc1e00cd0d307c1e00c8d898c&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1166</PointerOffset>
-      <JapaneseText>床は、見えないだけで
-ちゃんとあるみたい……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1189</PointerOffset>
-      <JapaneseText>雨を降らせれば、
-水がたまるはずです。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>1839</PointerOffset>
       <VoiceId>40000000</VoiceId>
       <JapaneseText>……道がないぞ。</JapaneseText>
-      <EnglishText>Looks like the end of the
-road...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
-      <Status>Editing</Status>
+      <Id>4</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1876</PointerOffset>
       <VoiceId>40000001</VoiceId>
       <JapaneseText>そんな……王家の聖所までは
 通路が通じていたはず……</JapaneseText>
-      <EnglishText>That can't be... It should be
-possible to get through to the Royal
-Sanctuary...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>11</Id>
-      <Status>Editing</Status>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1952</PointerOffset>
       <VoiceId>40000002</VoiceId>
       <JapaneseText>今までと違うのか？
 </JapaneseText>
-      <EnglishText>It used to be passable?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>12</Id>
-      <Status>Editing</Status>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1983</PointerOffset>
@@ -177,24 +116,22 @@ Sanctuary...</EnglishText>
       <JapaneseText>ええ。
 ここには何度か訪れていますが、
 このような事は初めてです。</JapaneseText>
-      <EnglishText>Yes. I've been here many times
-before, but this is the first time that
-I've seen it like this.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>13</Id>
-      <Status>Editing</Status>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2012</PointerOffset>
       <VoiceId>40000004</VoiceId>
       <JapaneseText>……一体、なぜ？
 </JapaneseText>
-      <EnglishText>But why?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>14</Id>
-      <Status>Editing</Status>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2059</PointerOffset>
@@ -202,13 +139,11 @@ I've seen it like this.</EnglishText>
       <JapaneseText>ここは王家の聖域です。
 侵入者対策の仕掛けじゃ
 ないでしょうか？</JapaneseText>
-      <EnglishText>Well, it is the Royal
-Sanctuary... Perhaps this is a
-countermeasure to ward off intruders?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2104</PointerOffset>
@@ -216,88 +151,90 @@ countermeasure to ward off intruders?</EnglishText>
       <JapaneseText>陛下がおこしになられた時は、
 既に仕掛けが解除されていたと
 考えるべきでしょう。</JapaneseText>
-      <EnglishText>You would think that the traps
-would have already been disarmed by
-the time Her Majesty would have
-passed through.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
-      <Id>16</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2142</PointerOffset>
       <VoiceId>40000007</VoiceId>
       <JapaneseText>……そうとは知らず……
 ごめんなさい……</JapaneseText>
-      <EnglishText>...I was not aware of such a
-thing... I'm sorry.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>17</Id>
-      <Status>Editing</Status>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2163</PointerOffset>
       <VoiceId>40000008</VoiceId>
       <JapaneseText>オレたちが力を合わせれば、
 どんな仕掛けだって越えられる。</JapaneseText>
-      <EnglishText>If we work together, we can
-overcome whatever comes our way.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>18</Id>
-      <Status>Editing</Status>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2192</PointerOffset>
       <VoiceId>40000009</VoiceId>
       <JapaneseText>これまでだって、そうして来た。</JapaneseText>
-      <EnglishText>After all, that's how we've
-made it this far.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>19</Id>
-      <Status>Editing</Status>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2213</PointerOffset>
       <VoiceId>4000000a</VoiceId>
       <JapaneseText>行こう！
 </JapaneseText>
-      <EnglishText>Let's go!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>20</Id>
-      <Status>Editing</Status>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-1</Section>
+    <Entry>
+      <PointerOffset>1166</PointerOffset>
+      <JapaneseText>床は、見えないだけで
+ちゃんとあるみたい……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1189</PointerOffset>
+      <JapaneseText>雨を降らせれば、
+水がたまるはずです。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3687</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5355</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5433</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>23</Id>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

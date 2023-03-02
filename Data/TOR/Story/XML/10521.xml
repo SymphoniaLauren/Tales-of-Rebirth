@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,51 +9,11 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>810,846,921</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>882,1794,2406,3085</PointerOffset>
+      <PointerOffset>1794,2406,3085,882</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>951,2443,2538,2593,2727,2795,2903,3240,3302</PointerOffset>
-      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>972,972,972,972,972,972,972,972</PointerOffset>
-      <JapaneseText>旅人</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1078,4921</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1131,1268,6766</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
+      <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -62,7 +21,7 @@
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -70,7 +29,7 @@
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>7</Id>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -78,7 +37,7 @@
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -86,7 +45,15 @@
       <JapaneseText>？？？</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>9</Id>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2443,2538,2593,2727,2795,2903,3240,3302,951</PointerOffset>
+      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -94,25 +61,57 @@
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>972,972,972,972,972,972,972,972,972,972,972,972</PointerOffset>
+      <JapaneseText>旅人</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1078,4921</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1131,1268</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>921,846,810</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>448</PointerOffset>
-      <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>451</PointerOffset>
       <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>448</PointerOffset>
+      <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -120,10 +119,529 @@
       <PointerOffset>613</PointerOffset>
       <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>1797</PointerOffset>
+      <VoiceId>1600002b</VoiceId>
+      <JapaneseText>うーん……
+使われたような跡は、
+あんまりないね。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1863</PointerOffset>
+      <VoiceId>1600002c</VoiceId>
+      <JapaneseText>ここには寄らずに
+先へ進んだのかも。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2032</PointerOffset>
+      <VoiceId>1600002d</VoiceId>
+      <JapaneseText>気をつけろ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2137</PointerOffset>
+      <JapaneseText>…………!?</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2177</PointerOffset>
+      <VoiceId>1600002e</VoiceId>
+      <JapaneseText>た、助けて……
+恐ろしい奴らに
+追われてるの……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2217</PointerOffset>
+      <VoiceId>1600002f</VoiceId>
+      <JapaneseText>大丈夫ですか!?</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2261</PointerOffset>
+      <VoiceId>16000030</VoiceId>
+      <JapaneseText>恐ろしい奴ら？
+詳しく話してくれ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2298</PointerOffset>
+      <VoiceId>16000031</VoiceId>
+      <JapaneseText>私は……&lt;Hilda&gt;。
+サニイタウンで捕まって、
+どこかへ連れていかれる途中、
+逃げ出して来たの……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2409</PointerOffset>
+      <VoiceId>16000032</VoiceId>
+      <JapaneseText>&lt;Hilda&gt;!?
+ボクたち、サニイタウンで
+キミのお母さんに会ったよ！
+すごく心配してた。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2446</PointerOffset>
+      <VoiceId>16000033</VoiceId>
+      <JapaneseText>……お母さんに会ったの!?</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2486</PointerOffset>
+      <VoiceId>16000034</VoiceId>
+      <JapaneseText>ああ、必ずあんたを助けるって
+約束したんだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2541</PointerOffset>
+      <VoiceId>16000035</VoiceId>
+      <JapaneseText>でも……私以外にも
+たくさんの娘が捕まってたわ……
+とても監視の目が厳しくて……
+ようやく私ひとりだけ逃げ出せたの……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2596</PointerOffset>
+      <VoiceId>16000036</VoiceId>
+      <JapaneseText>……あの娘の……
+クレアのおかげで……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2699</PointerOffset>
+      <VoiceId>16000037</VoiceId>
+      <JapaneseText>クレア？
+クレアは無事なのか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2730</PointerOffset>
+      <VoiceId>16000038</VoiceId>
+      <JapaneseText>ええ、私が逃げ出せたのは
+彼女の協力があったから……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2758</PointerOffset>
+      <VoiceId>16000039</VoiceId>
+      <JapaneseText>そこに、セレーナって人は
+いなかったか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2798</PointerOffset>
+      <VoiceId>1600003a</VoiceId>
+      <JapaneseText>……いたわ。
+セレーナさんも手伝ってくれた。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2828</PointerOffset>
+      <VoiceId>1600003b</VoiceId>
+      <JapaneseText>姉貴……!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2868</PointerOffset>
+      <VoiceId>1600003c</VoiceId>
+      <JapaneseText>サレたちは今、どこに？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2906</PointerOffset>
+      <VoiceId>1600003d</VoiceId>
+      <JapaneseText>街道を南下していたから、
+クロダダク砂漠へ
+向かっていたのかも。
+でも……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2935</PointerOffset>
+      <VoiceId>1600003e</VoiceId>
+      <JapaneseText>でも……？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3088</PointerOffset>
+      <VoiceId>1600003f</VoiceId>
+      <JapaneseText>フォルス反応だヨ!!
+しかも強い！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3243</PointerOffset>
+      <VoiceId>16000040</VoiceId>
+      <JapaneseText>トーマだわ!!
+トーマが部下を連れて
+私を追って、戻って来たんだわ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3305</PointerOffset>
+      <VoiceId>16000041</VoiceId>
+      <JapaneseText>捕まったら、ひどい目に
+あわされるかも……
+お願い！　助けて……！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3327</PointerOffset>
+      <VoiceId>16000042</VoiceId>
+      <JapaneseText>ああ、おれたちに
+任せとけって！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3371</PointerOffset>
+      <VoiceId>16000043</VoiceId>
+      <JapaneseText>……行くぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>1440</PointerOffset>
+      <JapaneseText>私はこの国の過去を知り……
+未来へつなぐ事を生業とする
+歴史学者を目指して勉強中です。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1462</PointerOffset>
+      <JapaneseText>ゴホッ！　ゴホ……
+……よい歴史書を求めて、
+カレギア中を旅しているのですが、</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1484</PointerOffset>
+      <JapaneseText>体調を崩してしまったので
+ここで静養中なのです……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1058</PointerOffset>
+      <JapaneseText>私にその本を……ゴホッ！
+貸して……頂けるのですか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1081</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1134</PointerOffset>
+      <JapaneseText>&lt;Green&gt;『歴史書』を貸し出しました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1156</PointerOffset>
+      <JapaneseText>ありがとうございます……ゴホッ！
+これを励みに頑張ります。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1197</PointerOffset>
+      <JapaneseText>ゴホ……何もしないで、
+ただ休んでいるというのは
+つらいものですね……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1247</PointerOffset>
+      <JapaneseText>この歴史書はとても参考に
+なりました。
+ありがとうございます。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1271</PointerOffset>
+      <JapaneseText>&lt;Green&gt;『歴史書』を回収しました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1293</PointerOffset>
+      <JapaneseText>体調も回復したので、
+新たな知識を求めて
+旅立ちたいと思います。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1323</PointerOffset>
+      <JapaneseText>体調が悪いせいか、内容がなかなか
+頭に入ってきません……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1345</PointerOffset>
+      <JapaneseText>すみませんが、もう少し時間を
+頂けないでしょうか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1378</PointerOffset>
+      <JapaneseText>あなたのおかげで
+新たなる学習意欲が
+わいてきました。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1512</PointerOffset>
+      <JapaneseText>ゴホッ！　ゴホ……
+うるさくしてすみません。
+体調が優れないもので……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>954</PointerOffset>
+      <JapaneseText>お願い……助けて！
+私、お母さんのところへ
+帰りたい……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>4924</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>924</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『箱』
+空っぽ。
+何ひとつ入っていない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>849</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『陶器』
+ハチミツのようなものが
+入っていた形跡があるが、
+今は空っぽ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
+      <Notes/>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>885</PointerOffset>
+      <JapaneseText>お腹すいたよー。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
     <Entry>
       <PointerOffset>813</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『テルアラ街道のガイド本』
@@ -133,542 +651,9 @@
 詳しい情報が書かれている。
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>849</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『陶器』
-ハチミツのようなものが
-入っていた形跡があるが、
-今は空っぽ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>885</PointerOffset>
-      <JapaneseText>お腹すいたよー。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>924</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『箱』
-空っぽ。
-何ひとつ入っていない。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>954</PointerOffset>
-      <JapaneseText>お願い……助けて！
-私、お母さんのところへ
-帰りたい……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1058</PointerOffset>
-      <JapaneseText>私にその本を……ゴホッ！
-貸して……頂けるのですか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1081</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1134</PointerOffset>
-      <JapaneseText>&lt;Green&gt;『歴史書』を貸し出しました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1156</PointerOffset>
-      <JapaneseText>ありがとうございます……ゴホッ！
-これを励みに頑張ります。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1197</PointerOffset>
-      <JapaneseText>ゴホ……何もしないで、
-ただ休んでいるというのは
-つらいものですね……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1247</PointerOffset>
-      <JapaneseText>この歴史書はとても参考に
-なりました。
-ありがとうございます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1271</PointerOffset>
-      <JapaneseText>&lt;Green&gt;『歴史書』を回収しました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1293</PointerOffset>
-      <JapaneseText>体調も回復したので、
-新たな知識を求めて
-旅立ちたいと思います。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1323</PointerOffset>
-      <JapaneseText>体調が悪いせいか、内容がなかなか
-頭に入ってきません……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1345</PointerOffset>
-      <JapaneseText>すみませんが、もう少し時間を
-頂けないでしょうか？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1378</PointerOffset>
-      <JapaneseText>あなたのおかげで
-新たなる学習意欲が
-わいてきました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1440</PointerOffset>
-      <JapaneseText>私はこの国の過去を知り……
-未来へつなぐ事を生業とする
-歴史学者を目指して勉強中です。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1462</PointerOffset>
-      <JapaneseText>ゴホッ！　ゴホ……
-……よい歴史書を求めて、
-カレギア中を旅しているのですが、</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1484</PointerOffset>
-      <JapaneseText>体調を崩してしまったので
-ここで静養中なのです……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1512</PointerOffset>
-      <JapaneseText>ゴホッ！　ゴホ……
-うるさくしてすみません。
-体調が優れないもので……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1797</PointerOffset>
-      <VoiceId>1600002b</VoiceId>
-      <JapaneseText>うーん……
-使われたような跡は、
-あんまりないね。</JapaneseText>
-      <EnglishText>Hmm... There's no sign that
-this cabin was used recently.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1863</PointerOffset>
-      <VoiceId>1600002c</VoiceId>
-      <JapaneseText>ここには寄らずに
-先へ進んだのかも。</JapaneseText>
-      <EnglishText>Perhaps they passed through
-without stopping here.</EnglishText>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2032</PointerOffset>
-      <VoiceId>1600002d</VoiceId>
-      <JapaneseText>気をつけろ。</JapaneseText>
-      <EnglishText>Stay alert.</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2137</PointerOffset>
-      <JapaneseText>…………!?</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2177</PointerOffset>
-      <VoiceId>1600002e</VoiceId>
-      <JapaneseText>た、助けて……
-恐ろしい奴らに
-追われてるの……</JapaneseText>
-      <EnglishText>H-Help me! I'm being chased by
-horrible people....</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2217</PointerOffset>
-      <VoiceId>1600002f</VoiceId>
-      <JapaneseText>大丈夫ですか!?</JapaneseText>
-      <EnglishText>Are you okay!?</EnglishText>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2261</PointerOffset>
-      <VoiceId>16000030</VoiceId>
-      <JapaneseText>恐ろしい奴ら？
-詳しく話してくれ。</JapaneseText>
-      <EnglishText>Horrible people? Tell us what
-happened.</EnglishText>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2298</PointerOffset>
-      <VoiceId>16000031</VoiceId>
-      <JapaneseText>私は……&lt;Hilda&gt;。
-サニイタウンで捕まって、
-どこかへ連れていかれる途中、
-逃げ出して来たの……</JapaneseText>
-      <EnglishText>My name is...&lt;Hilda&gt;. I was
-abducted in Sunnytown, but I managed to
-escape from my kidnappers...</EnglishText>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2409</PointerOffset>
-      <VoiceId>16000032</VoiceId>
-      <JapaneseText>&lt;Hilda&gt;!?
-ボクたち、サニイタウンで
-キミのお母さんに会ったよ！
-すごく心配してた。</JapaneseText>
-      <EnglishText>You're &lt;Hilda&gt;!? We met your
-mom in Sunnytown! She's really
-worried about you.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2446</PointerOffset>
-      <VoiceId>16000033</VoiceId>
-      <JapaneseText>……お母さんに会ったの!?</JapaneseText>
-      <EnglishText>...You met my mother!?</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2486</PointerOffset>
-      <VoiceId>16000034</VoiceId>
-      <JapaneseText>ああ、必ずあんたを助けるって
-約束したんだ。</JapaneseText>
-      <EnglishText>That's right, and we promised
-her that we'd rescue you.</EnglishText>
-      <Notes/>
       <SpeakerId>10</SpeakerId>
-      <Id>34</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2541</PointerOffset>
-      <VoiceId>16000035</VoiceId>
-      <JapaneseText>でも……私以外にも
-たくさんの娘が捕まってたわ……
-とても監視の目が厳しくて……
-ようやく私ひとりだけ逃げ出せたの……</JapaneseText>
-      <EnglishText>But... There were many other
-girls besides me who were kidnapped.
-They kept a close eye on all of
-us... Only I was able to escape...</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2596</PointerOffset>
-      <VoiceId>16000036</VoiceId>
-      <JapaneseText>……あの娘の……
-クレアのおかげで……</JapaneseText>
-      <EnglishText>It was all thanks to her... A
-girl named Claire...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>36</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2699</PointerOffset>
-      <VoiceId>16000037</VoiceId>
-      <JapaneseText>クレア？
-クレアは無事なのか？</JapaneseText>
-      <EnglishText>Claire? Is she all right!?</EnglishText>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>37</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2730</PointerOffset>
-      <VoiceId>16000038</VoiceId>
-      <JapaneseText>ええ、私が逃げ出せたのは
-庇女の協力があったから……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2758</PointerOffset>
-      <VoiceId>16000039</VoiceId>
-      <JapaneseText>そこに、セレーナって人は
-いなかったか？</JapaneseText>
-      <EnglishText>Say, was there a girl called
-Selena there too?</EnglishText>
-      <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>39</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2798</PointerOffset>
-      <VoiceId>1600003a</VoiceId>
-      <JapaneseText>……いたわ。
-セレーナさんも手伝ってくれた。</JapaneseText>
-      <EnglishText>...Yes. Selena helped me as
-well.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>40</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2828</PointerOffset>
-      <VoiceId>1600003b</VoiceId>
-      <JapaneseText>姉貴……!!</JapaneseText>
-      <EnglishText>Selena...!</EnglishText>
-      <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>41</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2868</PointerOffset>
-      <VoiceId>1600003c</VoiceId>
-      <JapaneseText>サレたちは今、どこに？</JapaneseText>
-      <EnglishText>Do you know where Saleh and his
-soldiers are?</EnglishText>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>42</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2906</PointerOffset>
-      <VoiceId>1600003d</VoiceId>
-      <JapaneseText>街道を南下していたから、
-クロダダク砂漠へ
-向かっていたのかも。
-でも……</JapaneseText>
-      <EnglishText>They headed south, toward the
-Kurodadaku Desert, but...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>43</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2935</PointerOffset>
-      <VoiceId>1600003e</VoiceId>
-      <JapaneseText>でも……？</JapaneseText>
-      <EnglishText>But...?</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3088</PointerOffset>
-      <VoiceId>1600003f</VoiceId>
-      <JapaneseText>フォルス反応だヨ!!
-しかも強い！</JapaneseText>
-      <EnglishText>I'm sensing a Force! It's super
-powerful!</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>45</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3243</PointerOffset>
-      <VoiceId>16000040</VoiceId>
-      <JapaneseText>トーマだわ!!
-トーマが部下を連れて
-私を追って、戻って来たんだわ！</JapaneseText>
-      <EnglishText>It's Tohma! He and his
-underlings are after me!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>46</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3305</PointerOffset>
-      <VoiceId>16000041</VoiceId>
-      <JapaneseText>捕まったら、ひどい目に
-あわされるかも……
-お願い！　助けて……！</JapaneseText>
-      <EnglishText>If he gets his hands on me,
-he'll make me pay for getting away...
-Please! Help me!</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>47</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3327</PointerOffset>
-      <VoiceId>16000042</VoiceId>
-      <JapaneseText>ああ、おれたちに
-任せとけって！</JapaneseText>
-      <EnglishText>You can count on us!</EnglishText>
-      <Notes/>
-      <SpeakerId>10</SpeakerId>
-      <Id>48</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3371</PointerOffset>
-      <VoiceId>16000043</VoiceId>
-      <JapaneseText>……行くぞ。</JapaneseText>
-      <EnglishText>Let's go.</EnglishText>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>49</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4924</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6592</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6670</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>52</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

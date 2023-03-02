@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -42,35 +41,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803</PointerOffset>
-      <JapaneseText>ジャンニ</JapaneseText>
+      <PointerOffset>811,811,811,811,811,811,811,811,811,811,811,811,811,811</PointerOffset>
+      <JapaneseText>スカラベ</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>811,811,811,811,811,811,811,811,811,811,811,811,811,811,811,811,811,811</PointerOffset>
-      <JapaneseText>スカラベ</JapaneseText>
+      <PointerOffset>803,803</PointerOffset>
+      <JapaneseText>ジャンニ</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>819,819,819,819,819,819,819,819,819,819,819,819,819,819,819,819,819,819</PointerOffset>
-      <JapaneseText>ミルハウスト</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>827,827,827,827,827,827,827,827,827,827,827,827,827,827,827,827,827,827</PointerOffset>
-      <JapaneseText>男の人</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -78,7 +61,7 @@
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -86,7 +69,15 @@
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>9</Id>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>827,827</PointerOffset>
+      <JapaneseText>男の人</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -94,7 +85,7 @@
       <JapaneseText>ヒューマの人々</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>10</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -102,7 +93,7 @@
       <JapaneseText>&lt;Agarte&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>11</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -110,81 +101,73 @@
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6417</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>13</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>203</PointerOffset>
-      <JapaneseText>ベルサス</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>206</PointerOffset>
       <JapaneseText>ベルサス</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>203</PointerOffset>
+      <JapaneseText>ベルサス</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>875</PointerOffset>
       <VoiceId>300000b2</VoiceId>
       <JapaneseText>人がいっぱいだね。</JapaneseText>
-      <EnglishText>What a turn out!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>897</PointerOffset>
       <VoiceId>300000b3</VoiceId>
       <JapaneseText>こんな大勢で、
 交渉ができるのかしら……</JapaneseText>
-      <EnglishText>How can they possibly hop to
-hold a discussion with such a large
-crowd...?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>919</PointerOffset>
       <VoiceId>300000b4</VoiceId>
       <JapaneseText>……まるで見世物でも
 始まるような感じね。</JapaneseText>
-      <EnglishText>...It's as though </EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>2</SpeakerId>
+      <Notes/>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>958</PointerOffset>
       <VoiceId>300000b5</VoiceId>
       <JapaneseText>なんとなく
 イヤな雰囲気だぜ……</JapaneseText>
-      <EnglishText>I have a bad feeling about
-this...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>3</SpeakerId>
+      <Notes/>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1017</PointerOffset>
@@ -192,55 +175,52 @@ this...</EnglishText>
       <JapaneseText>ヒューマの同志たちよ。
 高潔で誇り高き同族の友よ。
 立ち上がる時が来た。</JapaneseText>
-      <EnglishText>Welcome, my fellow Huma. My
-noble brethren whom I hold in high
-esteem, it is time for us to rise up!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1138</PointerOffset>
       <VoiceId>300000b7</VoiceId>
       <JapaneseText>待て！
 どういう事だ、スカラベ！</JapaneseText>
-      <EnglishText>What a minute! What the hell do
-you mean, Scarabe?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1160</PointerOffset>
       <VoiceId>300000b8</VoiceId>
       <JapaneseText>黙って聞け!!</JapaneseText>
-      <EnglishText>Be silent and listen!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1181</PointerOffset>
       <VoiceId>300000b9</VoiceId>
       <JapaneseText>&lt;Eugene&gt;、これは!?</JapaneseText>
-      <EnglishText>&lt;Eugene&gt;, this is...?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1202</PointerOffset>
       <VoiceId>300000ba</VoiceId>
       <JapaneseText>うむ……</JapaneseText>
-      <EnglishText>I know...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>9</SpeakerId>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1224</PointerOffset>
@@ -249,15 +229,11 @@ you mean, Scarabe?!</EnglishText>
 なぜ、知的に我々よりも劣る
 ガジュマが王位につき、
 この国を支配しているのか？</JapaneseText>
-      <EnglishText>I have been questioning this
-for quite some time... Why have
-Gajuma, our intellectual inferiors,
-been placed on the throne and
-allowed to dominate the Kingdom?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>12</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1246</PointerOffset>
@@ -265,24 +241,22 @@ allowed to dominate the Kingdom?</EnglishText>
       <JapaneseText>ヒューマこそ優れた種族であり、
 ガジュマの上に立つべきでは
 ないのか、と。</JapaneseText>
-      <EnglishText>If Huma are the superior race,
-should they not take their rightful
-place above Gajuma?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>13</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1268</PointerOffset>
       <VoiceId>300000bd</VoiceId>
       <JapaneseText>しかし!!
 それを口にすれば冷たい視線を浴び、
-種族惹義者だと悪者扱いされる。
+種族主義者だと悪者扱いされる。
 この国では絶対のタブーだった。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
@@ -293,14 +267,11 @@ place above Gajuma?</EnglishText>
 この国の覇権を握る時だ！
 いまわしきガジュマは
 我々の前にひれ伏すがよい！</JapaneseText>
-      <EnglishText>At long last, it is time for us
-Huma to gain supremacy over this
-nation! The inferior Gajuma shall
-grovel at our feet!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>15</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1312</PointerOffset>
@@ -308,26 +279,22 @@ grovel at our feet!</EnglishText>
       <JapaneseText>こんな横暴許さんぞ！
 我々ガジュマはおまえらの不当な扱いに、
 おとなしく甘んじ続けるつもりはない！</JapaneseText>
-      <EnglishText>We won't let you get away with
-oppressing us anymore! We Gajuma are tired
-of obediently putting up with the
-injustice you subject us to!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>16</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1334</PointerOffset>
       <VoiceId>300000c0</VoiceId>
       <JapaneseText>そうだ！　女王様はどうした!?
 女王様を出せ!!</JapaneseText>
-      <EnglishText>She's right! Where is the
-Queen?! Bring her out here!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>17</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1356</PointerOffset>
@@ -336,26 +303,22 @@ Queen?! Bring her out here!</EnglishText>
 誘拐を企み、我が娘も被害者となった。
 女王は自らがすべき政務を怠り、
 国を混乱に陥れたのだ!!</JapaneseText>
-      <EnglishText>Your Queen is the one who
-plotted the abduction of Huma girls,
-including my own daughter. In neglecting
-her duties as head of state, she
-has thrown the nation into chaos!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>18</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1378</PointerOffset>
       <VoiceId>300000c2</VoiceId>
       <JapaneseText>ヒューマをさらい、女王は
-この国の取る共存の道を卑定した。
+この国の取る共存の道を否定した。
 となれば、我らヒューマがガジュマに
 虐げられるであろう事は想像に難くない。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
@@ -365,66 +328,62 @@ has thrown the nation into chaos!</EnglishText>
       <JapaneseText>我らは我らの手によって、
 新たな道を切り開いて
 いかなければならんのだ！</JapaneseText>
-      <EnglishText>The time has come for us to
-carve a path with our own hands!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>20</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1422</PointerOffset>
       <VoiceId>300000c8</VoiceId>
       <JapaneseText>ここにヒューマによるヒューマのための
 新しい時代の幕開けを宣言しようぞ!!</JapaneseText>
-      <EnglishText>Here and now, we declare the
-beginning of a new era, created by Huma
-for the sake of Huma!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>21</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1590</PointerOffset>
       <VoiceId>3000010a</VoiceId>
       <JapaneseText>&lt;scale:0180&gt;おおーッ!!</JapaneseText>
-      <EnglishText>&lt;size:00000180&gt;Yeah!!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
       <Notes/>
-      <SpeakerId>10</SpeakerId>
       <Id>22</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1719</PointerOffset>
       <VoiceId>300000c9</VoiceId>
       <JapaneseText>ふざけるな！
 女王様を出せ!!</JapaneseText>
-      <EnglishText>You're out of your mind!
-Release the Queen!!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>23</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1741</PointerOffset>
       <VoiceId>300000ca</VoiceId>
       <JapaneseText>ふん……</JapaneseText>
-      <EnglishText>Hmph...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>24</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2025</PointerOffset>
       <VoiceId>300000cd</VoiceId>
       <JapaneseText>お願いです、話を……
-庇らと話をしてあげてください。</JapaneseText>
+彼らと話をしてあげてください。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>10</SpeakerId>
       <Notes/>
-      <SpeakerId>11</SpeakerId>
       <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
@@ -433,10 +392,10 @@ Release the Queen!!</EnglishText>
       <VoiceId>300000ce</VoiceId>
       <JapaneseText>うるさい！
 このガジュマめが……
-女王などと大唄をつきおって。</JapaneseText>
+女王などと大嘘をつきおって。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
@@ -446,14 +405,11 @@ Release the Queen!!</EnglishText>
       <JapaneseText>ガジュマたちに
 動揺を与えたおまえには、
 人柱になってもらう。</JapaneseText>
-      <EnglishText>Since your actions have riled
-up the other Gajuma, I'll have
-your death form the pillar upon
-which this new era will stand.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>27</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2100</PointerOffset>
@@ -462,53 +418,34 @@ which this new era will stand.</EnglishText>
 謝罪でも命乞いでもするがいい。
 その方が盛り上がるしな……
 ふふふふふふ……</JapaneseText>
-      <EnglishText>I will grant you just a little
-time before that happens, though. Go
-ahead and apologize, or beg for your
-life. That should make things all the
-more exciting. Hehehehe...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>4,5,6,7</SpeakerId>
       <Id>28</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2122</PointerOffset>
       <VoiceId>300000d1</VoiceId>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText>...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>10</SpeakerId>
       <Notes/>
-      <SpeakerId>11</SpeakerId>
       <Id>29</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>4575</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>11</SpeakerId>
       <Notes/>
-      <SpeakerId>12</SpeakerId>
       <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6243</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>13</SpeakerId>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6321</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>13</SpeakerId>
-      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

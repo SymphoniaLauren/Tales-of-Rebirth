@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,35 +9,27 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,2701,2701,2701,2701,2701,2701,2701,3675,3675,3675,3675,3675,3675,3675,3675,3675,3675,3675,4058,4058,4058,4058</PointerOffset>
-      <JapaneseText>ねこにん</JapaneseText>
+      <PointerOffset>4984</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2758,2776,3049,3067,3145,4105,4123,4201,6431</PointerOffset>
-      <JapaneseText>select</JapaneseText>
+      <PointerOffset>4058,4058,4058,4058,3675,3675,3675,3675,3675,3675,3675,3675,3675,3675,3675,2701,2701,2701,2701,2701,2701,2701,2701,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828,828</PointerOffset>
+      <JapaneseText>ねこにん</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2919,3645,8276</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>4105,4123,4201,2758,2776,3049,3067,3145,6431</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3830</PointerOffset>
-      <JapaneseText>&lt;name:1fff&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -46,7 +37,7 @@
       <JapaneseText>&lt;Mao&gt;の声</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>4</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -54,7 +45,7 @@
       <JapaneseText>イーフォンの声</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>5</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -62,7 +53,7 @@
       <JapaneseText>ランドグリーズの声</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>6</Id>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -70,12 +61,20 @@
       <JapaneseText>ゲオルギアスの声</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3830</PointerOffset>
+      <JapaneseText>&lt;name:1fff&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4984</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>2919,3645</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>8</Id>
@@ -83,636 +82,488 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>240</PointerOffset>
-      <JapaneseText>うさにんの村</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>243</PointerOffset>
       <JapaneseText>うさにんの村</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>877</PointerOffset>
-      <JapaneseText>外は寒いニャー……
-ねこにんは、寒さに弱いニャン。</JapaneseText>
+      <PointerOffset>240</PointerOffset>
+      <JapaneseText>うさにんの村</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>4908</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『のこの木像』
+頭に生えているはずの耳が
+取れている。
+ねこにんが手を滑らせ、
+うっかり削ってしまったようだ。</JapaneseText>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>912</PointerOffset>
-      <JapaneseText>ごはんを食べて
-おなかいっぱいになると
-眠くなるニャー。</JapaneseText>
+      <PointerOffset>4925</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『のこの木像』
+ねこにんの作った木像。
+たまにこの里を訪れて、
+買っていく人もいるという。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>947</PointerOffset>
-      <JapaneseText>みかんがおいしいニャン。
-こたつの中で食べるとあったかいニャ。</JapaneseText>
+      <PointerOffset>4942</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『削れた丸太』
+削られた末に
+ひとまわり小さくなった丸太。
+ねこにんが爪を研いでいるのでは
+ないもよう。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>982</PointerOffset>
-      <JapaneseText>寒がりなのに
-こんな北に住んでる理由……
-それは秘密ニャン。</JapaneseText>
+      <PointerOffset>4959</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『削れた丸太』
+ねこにんが爪を研いだのか、
+傷だらけになっている。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1018</PointerOffset>
-      <JapaneseText>雪はどうして白いのかニャ？</JapaneseText>
+      <PointerOffset>4969</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『丸太』
+ねこにんの遊び道具のようだが、
+どうやって遊ぶかは不明。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
     <Entry>
-      <PointerOffset>1054</PointerOffset>
-      <JapaneseText>うさにんは外でも寒くなくて
-うらやましいニャ。</JapaneseText>
+      <PointerOffset>4074</PointerOffset>
+      <JapaneseText>みんなが全滅した時の声を
+聞きたいかニャ？
+お代は、まねきネコひとつだニャ！
+格安だニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1090</PointerOffset>
-      <JapaneseText>ゆうべみた夢は楽しかったニャン。</JapaneseText>
+      <PointerOffset>4108</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;「まねきネコ」をあげますか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1126</PointerOffset>
-      <JapaneseText>もし、しっぽをひっぱったら
-ねこにんパンチするニャー！</JapaneseText>
+      <PointerOffset>4126</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
+　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1162</PointerOffset>
-      <JapaneseText>ねむいニャー……
-ねむねむだニャー……</JapaneseText>
+      <PointerOffset>4181</PointerOffset>
+      <JapaneseText>どれにするかニャ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1198</PointerOffset>
-      <JapaneseText>外はさむさむだけど
-ここはヌクヌクあったかいニャー。</JapaneseText>
+      <PointerOffset>4204</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;　ストーリーの最初から　
+　イーフォン戦　終了以降　
+　「世界浄化」以降　
+　ジルバ戦　終了以降　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1234</PointerOffset>
-      <JapaneseText>うさにんとねこにんは
-仲良しなのニャ。</JapaneseText>
+      <PointerOffset>4272</PointerOffset>
+      <VoiceId>60000000</VoiceId>
+      <JapaneseText>……その後、ヴェイグの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1270</PointerOffset>
-      <JapaneseText>たまに誰かに見られてる気がするんだニャ。
-ねこにんはモテモテなのかニャ？</JapaneseText>
+      <PointerOffset>4296</PointerOffset>
+      <VoiceId>60000001</VoiceId>
+      <JapaneseText>……その後、ヴェイグたちの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1306</PointerOffset>
-      <JapaneseText>かふっ！　かふっ！　かふっ！
-毛玉がのどにつまったニャー……</JapaneseText>
+      <PointerOffset>4320</PointerOffset>
+      <VoiceId>60000002</VoiceId>
+      <JapaneseText>……その後、彼の行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1342</PointerOffset>
-      <JapaneseText>ニャンだかんだいっても
-お部屋がいちばんニャ。</JapaneseText>
+      <PointerOffset>4344</PointerOffset>
+      <VoiceId>60000003</VoiceId>
+      <JapaneseText>……その後、彼らの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1378</PointerOffset>
-      <JapaneseText>うさにんはすごいニャー！
-外は、さむさむでいやいやニャー。</JapaneseText>
+      <PointerOffset>4415</PointerOffset>
+      <VoiceId>60000008</VoiceId>
+      <JapaneseText>……その後、ヴェイグの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1414</PointerOffset>
-      <JapaneseText>じーっ……
-何かいるニャン！
-後ろに……
-じーっ……</JapaneseText>
+      <PointerOffset>4439</PointerOffset>
+      <VoiceId>60000009</VoiceId>
+      <JapaneseText>……その後、ヴェイグたちの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1450</PointerOffset>
-      <JapaneseText>みかんの皮はきらいだニャ！
-汁がはねて、しぱしぱするからきらいニャ！</JapaneseText>
+      <PointerOffset>4463</PointerOffset>
+      <VoiceId>6000000a</VoiceId>
+      <JapaneseText>……その後、彼の行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1486</PointerOffset>
-      <JapaneseText>爪がむずむずするニャ……
-ひっかいていいかニャ？</JapaneseText>
+      <PointerOffset>4487</PointerOffset>
+      <VoiceId>6000000b</VoiceId>
+      <JapaneseText>……その後、彼らの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1522</PointerOffset>
-      <JapaneseText>ニャッニャニャッニャニャー♪
-ニャッ！　ニャッ!!　ニャッ♪</JapaneseText>
+      <PointerOffset>4558</PointerOffset>
+      <VoiceId>6000000c</VoiceId>
+      <JapaneseText>……その後、ヴェイグの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1558</PointerOffset>
-      <JapaneseText>あったかいお部屋で
-のんびり毛づくろいニャ。
-とっても気持ちいいニャー。</JapaneseText>
+      <PointerOffset>4582</PointerOffset>
+      <VoiceId>6000000d</VoiceId>
+      <JapaneseText>……その後、ヴェイグたちの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1594</PointerOffset>
-      <JapaneseText>ねこにんの自慢は
-ニャンといってもこの毛並みなのニャ！
-見た目はサラサラ、
-手触りはフカフカなのニャー♪</JapaneseText>
+      <PointerOffset>4606</PointerOffset>
+      <VoiceId>6000000e</VoiceId>
+      <JapaneseText>……その後、彼の行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1616</PointerOffset>
-      <JapaneseText>さわってみるかニャ？</JapaneseText>
+      <PointerOffset>4630</PointerOffset>
+      <VoiceId>6000000f</VoiceId>
+      <JapaneseText>……その後、彼らの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1652</PointerOffset>
-      <JapaneseText>おっさかな♪　おっさかな♪
-ねこにん、おさかな大好きニャ。
-今日のご飯に、おさかな捕ってくるニャ！</JapaneseText>
+      <PointerOffset>4702</PointerOffset>
+      <VoiceId>60000004</VoiceId>
+      <JapaneseText>……その後、ヴェイグの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1674</PointerOffset>
-      <JapaneseText>……でもここは山の中だから、
-おさかなはいないニャー。
-かつおぶしでガマンなのニャ……</JapaneseText>
+      <PointerOffset>4726</PointerOffset>
+      <VoiceId>60000005</VoiceId>
+      <JapaneseText>……その後、ヴェイグたちの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1710</PointerOffset>
-      <JapaneseText>今日も明日もあさっても、
-ねこにんのおうちには
-雪が降るのニャ。</JapaneseText>
+      <PointerOffset>4750</PointerOffset>
+      <VoiceId>60000006</VoiceId>
+      <JapaneseText>……その後、彼の行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1732</PointerOffset>
-      <JapaneseText>フワフワな雪……
-サラサラな雪……
-ボタボタな雪……</JapaneseText>
+      <PointerOffset>4774</PointerOffset>
+      <VoiceId>60000007</VoiceId>
+      <JapaneseText>……その後、彼らの行方を
+知るものは誰もいなかった……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1754</PointerOffset>
-      <JapaneseText>他にもいろんな雪が降るニャ。
-窓から見てると面白いニャー♪</JapaneseText>
+      <PointerOffset>4823</PointerOffset>
+      <JapaneseText>行方は知っているニャ。
+ここにいるニャン！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1790</PointerOffset>
-      <JapaneseText>うっ……
-また、天井がミシッっていったニャ。</JapaneseText>
+      <PointerOffset>4868</PointerOffset>
+      <JapaneseText>では、実際に全滅して
+聞くがよいニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
     <Entry>
-      <PointerOffset>1812</PointerOffset>
-      <JapaneseText>やっぱり、そろそろ
-屋根の雪下ろしをしないとマズイかニャ？</JapaneseText>
+      <PointerOffset>3731</PointerOffset>
+      <JapaneseText>「サイグローグの館」は
+いろいろな突破条件を求められる
+ムズムズな場所だニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1834</PointerOffset>
-      <JapaneseText>でも、そのためには
-屋根の上にあがらないといけないニャ！</JapaneseText>
+      <PointerOffset>3753</PointerOffset>
+      <JapaneseText>あまり、深入りしない方が
+いいかもしれないニャン！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1856</PointerOffset>
-      <JapaneseText>外は寒いニャー！
-寒いのは嫌なのニャーッ！</JapaneseText>
+      <PointerOffset>3788</PointerOffset>
+      <JapaneseText>「サイグローグの館」は
+実は６０階まであるんだニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1892</PointerOffset>
-      <JapaneseText>やっちゃいけないって
-わかってても、やっちゃう事
-あるのニャ。</JapaneseText>
+      <PointerOffset>3810</PointerOffset>
+      <JapaneseText>でも、ある条件を満たさないと、
+何度入っても、４０階までしか
+行けないニャン！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1928</PointerOffset>
-      <JapaneseText>ねこにんは、動いてるものを見ると
-ダメってわかってても、捕まえちゃうのニャ。</JapaneseText>
+      <PointerOffset>3833</PointerOffset>
+      <JapaneseText>&lt;Yellow&gt;ある条件&lt;White&gt;……？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1964</PointerOffset>
-      <JapaneseText>あニャーたのーことーはー
-ニャーんでもーわかーるー
-瞳をー見つめればー
-全てがーわかるニャー♪</JapaneseText>
+      <PointerOffset>3867</PointerOffset>
+      <JapaneseText>……どうやら、みんニャは
+その条件を満たしているニャ！
+入れてもらえるようになったら
+６０階を目指すニャン！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1986</PointerOffset>
-      <JapaneseText>にごった瞳のー
-あニャたはーキライー
-かがやく瞳のー
-あニャたでーいてほしいー♪</JapaneseText>
+      <PointerOffset>3905</PointerOffset>
+      <JapaneseText>「サイグローグの館」に
+入れたとしても、
+はじめは２０階までしか行けないニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2008</PointerOffset>
-      <JapaneseText>どうニャ？
-おさかなの歌なのニャ！</JapaneseText>
+      <PointerOffset>3927</PointerOffset>
+      <JapaneseText>でも、それはダマシだニャ！
+もっと先があるんだニャン！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2044</PointerOffset>
-      <JapaneseText>ツメとぎは、
-ねこにんの身だしなみなのニャ。</JapaneseText>
+      <PointerOffset>3962</PointerOffset>
+      <JapaneseText>「サイグローグの館」は
+&lt;Yellow&gt;海に岩がゴツゴツ出る頃&lt;White&gt;までは
+追い出されてしまうニャン！
+それだけ、強い敵が出てくるニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2066</PointerOffset>
-      <JapaneseText>ささくれなツメは
-みっともないのニャー♪</JapaneseText>
+      <PointerOffset>3987</PointerOffset>
+      <JapaneseText>外はさむいニャー……
+ねこにんは、さむさに弱いニャン。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>40</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2102</PointerOffset>
-      <JapaneseText>たくさん寝ると、
-幸せな気分になれるニャ。</JapaneseText>
+      <PointerOffset>4018</PointerOffset>
+      <JapaneseText>西の方にある「謎の館」には
+もう行ったかニャ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2138</PointerOffset>
-      <JapaneseText>ねこにん派かニャ？　うさにん派かニャ？
-それとも、いぬにん派かニャ？</JapaneseText>
+      <PointerOffset>4040</PointerOffset>
+      <JapaneseText>ねこにんは「謎の館」の
+ヒミツを知っているニャ。
+……今はしゃべらないニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>2160</PointerOffset>
-      <JapaneseText>いぬにんは、いないニャン。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>43</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2196</PointerOffset>
-      <JapaneseText>幸せってどこにあるのかニャー……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>44</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2218</PointerOffset>
-      <JapaneseText>………………………………………
-………………………………………
-………………………………………</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2240</PointerOffset>
-      <JapaneseText>………………………………………
-………………………………………
-……………………………とおいめ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2276</PointerOffset>
-      <JapaneseText>バナナはおやつかにゃ？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2312</PointerOffset>
-      <JapaneseText>星とか月とか見てみたいニャ。
-おひさまとか入道雲とか見てみたいニャ。
-ここは、いつも雪が降ってるから
-お空が曇ってて見えないのニャー。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>48</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2348</PointerOffset>
-      <JapaneseText>ねこにんは動くものが好きニャ。
-飛んでるものがあったら……
-パシッてやりたくなるんニャ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>49</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2384</PointerOffset>
-      <JapaneseText>おさかな食べたいニャ。
-でも、池も川も全部凍って、
-おさかな捕れないニャ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>50</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2420</PointerOffset>
-      <JapaneseText>ねこにんはウソつかないニャ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>51</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2442</PointerOffset>
-      <JapaneseText>……ウソだにゃ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>52</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2478</PointerOffset>
-      <JapaneseText>子ねこにんのにくきゅうは、
-ぷにぷにだニャ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>53</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2500</PointerOffset>
-      <JapaneseText>オトナねこにんのにくきゅうは、
-ちょっとかたくなって、
-ぷにぷにじゃなくなるニャン！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>54</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2536</PointerOffset>
-      <JapaneseText>ねこにんが忍者になると
-ねこにんにんと呼ばれるニャ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2572</PointerOffset>
-      <JapaneseText>外のかかしをなぐると
-うさにんにしかられるニャ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>56</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2594</PointerOffset>
-      <JapaneseText>でも、とことんなぐってみるのも
-いいかもしれないニャン。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>57</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2630</PointerOffset>
-      <JapaneseText>うさにんの並び替えゲームは
-とことんまでやるニャ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>58</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2652</PointerOffset>
-      <JapaneseText>最後までやれば、いい事が
-あるかもしれないニャン。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>59</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2677</PointerOffset>
-      <JapaneseText>外はさむいニャー……
-ねこにんは、さむさに弱いニャン。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>60</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-3</Section>
     <Entry>
       <PointerOffset>2726</PointerOffset>
       <JapaneseText>ねこにんは、「三味線」を持ってるニャ！
 「まねきネコ」を１５個くれたら
 チラッと見せてあげるニャン。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>61</Id>
+      <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2761</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;「まねきネコ」をあげますか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>62</Id>
+      <Id>44</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -720,18 +571,18 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>63</Id>
+      <Id>45</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2834</PointerOffset>
       <JapaneseText>……ちょっとだけニャよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>64</Id>
+      <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -741,9 +592,9 @@
 でも、これはねこにんのものだから
 あげないニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>65</Id>
+      <Id>47</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -752,18 +603,18 @@
 コレクター図鑑には記録されません。
 何らかの方法で手に入れてください。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>8</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>66</Id>
+      <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2980</PointerOffset>
       <JapaneseText>つまらないニャン……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>67</Id>
+      <Id>49</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -773,18 +624,18 @@
 「まねきネコ」を１５個くれたら
 チラッと見せてあげるニャン。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>68</Id>
+      <Id>50</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3052</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;「まねきネコ」をあげますか？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>69</Id>
+      <Id>51</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -792,18 +643,18 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>70</Id>
+      <Id>52</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3125</PointerOffset>
       <JapaneseText>……ちょっとだけニャよ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>71</Id>
+      <Id>53</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -815,18 +666,9 @@
 　&lt;Tytree&gt;のヒミツ武器　
 　&lt;Hilda&gt;のヒミツ武器　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>72</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3583</PointerOffset>
-      <JapaneseText>つまらないニャン……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>73</Id>
+      <Id>54</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -835,8 +677,9 @@
 でも、これはねこにんのものだから
 あげないニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>74</Id>
+      <Id>55</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -845,473 +688,630 @@
 コレクター図鑑には記録されません。
 何らかの方法で手に入れてください。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>8</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3583</PointerOffset>
+      <JapaneseText>つまらないニャン……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-4</Section>
+    <Entry>
+      <PointerOffset>877</PointerOffset>
+      <JapaneseText>外は寒いニャー……
+ねこにんは、寒さに弱いニャン。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>912</PointerOffset>
+      <JapaneseText>ごはんを食べて
+おなかいっぱいになると
+眠くなるニャー。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>947</PointerOffset>
+      <JapaneseText>みかんがおいしいニャン。
+こたつの中で食べるとあったかいニャ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>60</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>982</PointerOffset>
+      <JapaneseText>寒がりなのに
+こんな北に住んでる理由……
+それは秘密ニャン。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>61</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1018</PointerOffset>
+      <JapaneseText>雪はどうして白いのかニャ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1054</PointerOffset>
+      <JapaneseText>うさにんは外でも寒くなくて
+うらやましいニャ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1090</PointerOffset>
+      <JapaneseText>ゆうべみた夢は楽しかったニャン。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>64</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1126</PointerOffset>
+      <JapaneseText>もし、しっぽをひっぱったら
+ねこにんパンチするニャー！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>65</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1162</PointerOffset>
+      <JapaneseText>ねむいニャー……
+ねむねむだニャー……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>66</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1198</PointerOffset>
+      <JapaneseText>外はさむさむだけど
+ここはヌクヌクあったかいニャー。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>67</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1234</PointerOffset>
+      <JapaneseText>うさにんとねこにんは
+仲良しなのニャ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>68</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1270</PointerOffset>
+      <JapaneseText>たまに誰かに見られてる気がするんだニャ。
+ねこにんはモテモテなのかニャ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>69</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1306</PointerOffset>
+      <JapaneseText>かふっ！　かふっ！　かふっ！
+毛玉がのどにつまったニャー……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>70</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1342</PointerOffset>
+      <JapaneseText>ニャンだかんだいっても
+お部屋がいちばんニャ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>71</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1378</PointerOffset>
+      <JapaneseText>うさにんはすごいニャー！
+外は、さむさむでいやいやニャー。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>72</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1414</PointerOffset>
+      <JapaneseText>じーっ……
+何かいるニャン！
+後ろに……
+じーっ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>73</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1450</PointerOffset>
+      <JapaneseText>みかんの皮はきらいだニャ！
+汁がはねて、しぱしぱするからきらいニャ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>74</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1486</PointerOffset>
+      <JapaneseText>爪がむずむずするニャ……
+ひっかいていいかニャ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>75</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3731</PointerOffset>
-      <JapaneseText>「サイグローグの館」は
-いろいろな突破条件を求められる
-ムズムズな場所だニャ！</JapaneseText>
+      <PointerOffset>1522</PointerOffset>
+      <JapaneseText>ニャッニャニャッニャニャー♪
+ニャッ！　ニャッ!!　ニャッ♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>76</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3753</PointerOffset>
-      <JapaneseText>あまり、深入りしない方が
-いいかもしれないニャン！</JapaneseText>
+      <PointerOffset>1558</PointerOffset>
+      <JapaneseText>あったかいお部屋で
+のんびり毛づくろいニャ。
+とっても気持ちいいニャー。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>77</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3788</PointerOffset>
-      <JapaneseText>「サイグローグの館」は
-実は６０階まであるんだニャ！</JapaneseText>
+      <PointerOffset>1594</PointerOffset>
+      <JapaneseText>ねこにんの自慢は
+ニャンといってもこの毛並みなのニャ！
+見た目はサラサラ、
+手触りはフカフカなのニャー♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>78</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3810</PointerOffset>
-      <JapaneseText>でも、ある条件を満たさないと、
-何度入っても、４０階までしか
-行けないニャン！</JapaneseText>
+      <PointerOffset>1616</PointerOffset>
+      <JapaneseText>さわってみるかニャ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>79</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3833</PointerOffset>
-      <JapaneseText>&lt;Yellow&gt;ある条件&lt;White&gt;……？</JapaneseText>
+      <PointerOffset>1652</PointerOffset>
+      <JapaneseText>おっさかな♪　おっさかな♪
+ねこにん、おさかな大好きニャ。
+今日のご飯に、おさかな捕ってくるニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>80</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3867</PointerOffset>
-      <JapaneseText>……どうやら、みんニャは
-その条件を満たしているニャ！
-入れてもらえるようになったら
-６０階を目指すニャン！</JapaneseText>
+      <PointerOffset>1674</PointerOffset>
+      <JapaneseText>……でもここは山の中だから、
+おさかなはいないニャー。
+かつおぶしでガマンなのニャ……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>81</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3905</PointerOffset>
-      <JapaneseText>「サイグローグの館」に
-入れたとしても、
-はじめは２０階までしか行けないニャ！</JapaneseText>
+      <PointerOffset>1710</PointerOffset>
+      <JapaneseText>今日も明日もあさっても、
+ねこにんのおうちには
+雪が降るのニャ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>82</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3927</PointerOffset>
-      <JapaneseText>でも、それはダマシだニャ！
-もっと先があるんだニャン！</JapaneseText>
+      <PointerOffset>1732</PointerOffset>
+      <JapaneseText>フワフワな雪……
+サラサラな雪……
+ボタボタな雪……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>83</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3962</PointerOffset>
-      <JapaneseText>「サイグローグの館」は
-&lt;Yellow&gt;海に岩がゴツゴツ出る頃&lt;White&gt;までは
-追い出されてしまうニャン！
-それだけ、強い敵が出てくるニャ！</JapaneseText>
+      <PointerOffset>1754</PointerOffset>
+      <JapaneseText>他にもいろんな雪が降るニャ。
+窓から見てると面白いニャー♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>84</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3987</PointerOffset>
-      <JapaneseText>外はさむいニャー……
-ねこにんは、さむさに弱いニャン。</JapaneseText>
+      <PointerOffset>1790</PointerOffset>
+      <JapaneseText>うっ……
+また、天井がミシッっていったニャ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>85</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4018</PointerOffset>
-      <JapaneseText>西の方にある「謎の館」には
-もう行ったかニャ？</JapaneseText>
+      <PointerOffset>1812</PointerOffset>
+      <JapaneseText>やっぱり、そろそろ
+屋根の雪下ろしをしないとマズイかニャ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>86</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4040</PointerOffset>
-      <JapaneseText>ねこにんは「謎の館」の
-ヒミツを知っているニャ。
-……今はしゃべらないニャ！</JapaneseText>
+      <PointerOffset>1834</PointerOffset>
+      <JapaneseText>でも、そのためには
+屋根の上にあがらないといけないニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>87</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4074</PointerOffset>
-      <JapaneseText>みんなが全滅した時の声を
-聞きたいかニャ？
-お代は、まねきネコひとつだニャ！
-格安だニャ！</JapaneseText>
+      <PointerOffset>1856</PointerOffset>
+      <JapaneseText>外は寒いニャー！
+寒いのは嫌なのニャーッ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>88</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4108</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;「まねきネコ」をあげますか？</JapaneseText>
+      <PointerOffset>1892</PointerOffset>
+      <JapaneseText>やっちゃいけないって
+わかってても、やっちゃう事
+あるのニャ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>89</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4126</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
-　いいえ　</JapaneseText>
+      <PointerOffset>1928</PointerOffset>
+      <JapaneseText>ねこにんは、動いてるものを見ると
+ダメってわかってても、捕まえちゃうのニャ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>90</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4181</PointerOffset>
-      <JapaneseText>どれにするかニャ？</JapaneseText>
+      <PointerOffset>1964</PointerOffset>
+      <JapaneseText>あニャーたのーことーはー
+ニャーんでもーわかーるー
+瞳をー見つめればー
+全てがーわかるニャー♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>91</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4204</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;　ストーリーの最初から　
-　イーフォン戦　完了以降　
-　「世界浄化」以降　
-　ジルバ戦　完了以降　</JapaneseText>
+      <PointerOffset>1986</PointerOffset>
+      <JapaneseText>にごった瞳のー
+あニャたはーキライー
+かがやく瞳のー
+あニャたでーいてほしいー♪</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>92</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4272</PointerOffset>
-      <VoiceId>60000000</VoiceId>
-      <JapaneseText>……その後、ヴェイグの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2008</PointerOffset>
+      <JapaneseText>どうニャ？
+おさかなの歌なのニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>93</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4296</PointerOffset>
-      <VoiceId>60000001</VoiceId>
-      <JapaneseText>……その後、ヴェイグたちの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2044</PointerOffset>
+      <JapaneseText>ツメとぎは、
+ねこにんの身だしなみなのニャ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>94</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4320</PointerOffset>
-      <VoiceId>60000002</VoiceId>
-      <JapaneseText>……その後、庇の行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2066</PointerOffset>
+      <JapaneseText>ささくれなツメは
+みっともないのニャー♪</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>95</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4344</PointerOffset>
-      <VoiceId>60000003</VoiceId>
-      <JapaneseText>……その後、庇らの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2102</PointerOffset>
+      <JapaneseText>たくさん寝ると、
+幸せな気分になれるニャ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>96</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4415</PointerOffset>
-      <VoiceId>60000008</VoiceId>
-      <JapaneseText>……その後、ヴェイグの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2138</PointerOffset>
+      <JapaneseText>ねこにん派かニャ？　うさにん派かニャ？
+それとも、いぬにん派かニャ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
       <Id>97</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4439</PointerOffset>
-      <VoiceId>60000009</VoiceId>
-      <JapaneseText>……その後、ヴェイグたちの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2160</PointerOffset>
+      <JapaneseText>いぬにんは、いないニャン。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
       <Id>98</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4463</PointerOffset>
-      <VoiceId>6000000a</VoiceId>
-      <JapaneseText>……その後、庇の行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2196</PointerOffset>
+      <JapaneseText>幸せってどこにあるのかニャー……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
       <Id>99</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4487</PointerOffset>
-      <VoiceId>6000000b</VoiceId>
-      <JapaneseText>……その後、庇らの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2218</PointerOffset>
+      <JapaneseText>………………………………………
+………………………………………
+………………………………………</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
       <Id>100</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4558</PointerOffset>
-      <VoiceId>6000000c</VoiceId>
-      <JapaneseText>……その後、ヴェイグの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2240</PointerOffset>
+      <JapaneseText>………………………………………
+………………………………………
+……………………………とおいめ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
       <Id>101</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4582</PointerOffset>
-      <VoiceId>6000000d</VoiceId>
-      <JapaneseText>……その後、ヴェイグたちの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2276</PointerOffset>
+      <JapaneseText>バナナはおやつかにゃ？</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
       <Id>102</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4606</PointerOffset>
-      <VoiceId>6000000e</VoiceId>
-      <JapaneseText>……その後、庇の行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2312</PointerOffset>
+      <JapaneseText>星とか月とか見てみたいニャ。
+おひさまとか入道雲とか見てみたいニャ。
+ここは、いつも雪が降ってるから
+お空が曇ってて見えないのニャー。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
       <Id>103</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4630</PointerOffset>
-      <VoiceId>6000000f</VoiceId>
-      <JapaneseText>……その後、庇らの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2348</PointerOffset>
+      <JapaneseText>ねこにんは動くものが好きニャ。
+飛んでるものがあったら……
+パシッてやりたくなるんニャ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
       <Id>104</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4702</PointerOffset>
-      <VoiceId>60000004</VoiceId>
-      <JapaneseText>……その後、ヴェイグの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2384</PointerOffset>
+      <JapaneseText>おさかな食べたいニャ。
+でも、池も川も全部凍って、
+おさかな捕れないニャ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
       <Id>105</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4726</PointerOffset>
-      <VoiceId>60000005</VoiceId>
-      <JapaneseText>……その後、ヴェイグたちの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2420</PointerOffset>
+      <JapaneseText>ねこにんはウソつかないニャ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
       <Id>106</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4750</PointerOffset>
-      <VoiceId>60000006</VoiceId>
-      <JapaneseText>……その後、庇の行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2442</PointerOffset>
+      <JapaneseText>……ウソだにゃ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
       <Id>107</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4774</PointerOffset>
-      <VoiceId>60000007</VoiceId>
-      <JapaneseText>……その後、庇らの行方を
-知るものは誰もいなかった……</JapaneseText>
+      <PointerOffset>2478</PointerOffset>
+      <JapaneseText>子ねこにんのにくきゅうは、
+ぷにぷにだニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
       <Id>108</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4823</PointerOffset>
-      <JapaneseText>行方は知っているニャ。
-ここにいるニャン！</JapaneseText>
+      <PointerOffset>2500</PointerOffset>
+      <JapaneseText>オトナねこにんのにくきゅうは、
+ちょっとかたくなって、
+ぷにぷにじゃなくなるニャン！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>109</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4868</PointerOffset>
-      <JapaneseText>では、実際に全滅して
-聞くがよいニャ！</JapaneseText>
+      <PointerOffset>2536</PointerOffset>
+      <JapaneseText>ねこにんが忍者になると
+ねこにんにんと呼ばれるニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>110</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4908</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『のこの木像』
-頭に生えているはずの耳が
-取れている。
-ねこにんが手を滑らせ、
-うっかり削ってしまったようだ。</JapaneseText>
+      <PointerOffset>2572</PointerOffset>
+      <JapaneseText>外のかかしをなぐると
+うさにんにしかられるニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
       <Id>111</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4925</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『のこの木像』
-ねこにんの作った木像。
-たまにこの里を訪れて、
-買っていく人もいるという。</JapaneseText>
+      <PointerOffset>2594</PointerOffset>
+      <JapaneseText>でも、とことんなぐってみるのも
+いいかもしれないニャン。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
       <Id>112</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4942</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『削れた丸太』
-削られた末に
-ひとまわり小さくなった丸太。
-ねこにんが爪を研いでいるのでは
-ないもよう。</JapaneseText>
+      <PointerOffset>2630</PointerOffset>
+      <JapaneseText>うさにんの並び替えゲームは
+とことんまでやるニャ！</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
       <Id>113</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4959</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『削れた丸太』
-ねこにんが爪を研いだのか、
-傷だらけになっている。</JapaneseText>
+      <PointerOffset>2652</PointerOffset>
+      <JapaneseText>最後までやれば、いい事が
+あるかもしれないニャン。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
       <Id>114</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4969</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『丸太』
-ねこにんの遊び道具のようだが、
-どうやって遊ぶかは不明。</JapaneseText>
+      <PointerOffset>2677</PointerOffset>
+      <JapaneseText>外はさむいニャー……
+ねこにんは、さむさに弱いニャン。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>8</SpeakerId>
       <Id>115</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>6434</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>116</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8102</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>117</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8180</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>118</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

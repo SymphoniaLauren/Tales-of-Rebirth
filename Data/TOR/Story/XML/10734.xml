@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,32 +9,32 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>811,1816,2491,2867,3025,3501,3743</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <PointerOffset>960,960,960</PointerOffset>
+      <JapaneseText>衛兵</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>960,960,960,960,960,960</PointerOffset>
-      <JapaneseText>衛兵</JapaneseText>
+      <PointerOffset>968,968,968</PointerOffset>
+      <JapaneseText>女の人</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>968,968,968,968,968,968</PointerOffset>
-      <JapaneseText>女の人</JapaneseText>
+      <PointerOffset>1569,2583</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1569,2583</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>1816,2491,2867,3025,3501,811,3743</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
@@ -97,108 +96,90 @@
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>7069</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>249</PointerOffset>
-      <JapaneseText>カレギア城</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>252</PointerOffset>
       <JapaneseText>カレギア城</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>814</PointerOffset>
-      <JapaneseText>こっちじゃないわ……</JapaneseText>
+      <PointerOffset>249</PointerOffset>
+      <JapaneseText>カレギア城</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
+      <Notes>This place's name in the menu</Notes>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>1017</PointerOffset>
       <VoiceId>20000000</VoiceId>
       <JapaneseText>もたもたするな。</JapaneseText>
-      <EnglishText>Hurry it up, will you？</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1,2</SpeakerId>
-      <Id>4</Id>
-      <Status>Editing</Status>
+      <Id>3</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1039</PointerOffset>
       <VoiceId>20000001</VoiceId>
       <JapaneseText>は、はい……</JapaneseText>
-      <EnglishText>S-sorry...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>1,2</SpeakerId>
-      <Id>5</Id>
-      <Status>Editing</Status>
+      <Id>4</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1528</PointerOffset>
       <VoiceId>20000002</VoiceId>
       <JapaneseText>な、何だ、おまえたちは？
 どこから入ってきた!!</JapaneseText>
-      <EnglishText>W-who goes there? How did you
-get in here?!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1,2</SpeakerId>
-      <Id>6</Id>
-      <Status>Editing</Status>
+      <Id>5</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1572</PointerOffset>
       <VoiceId>20000003</VoiceId>
       <JapaneseText>&lt;Blue&gt;王の盾&lt;White&gt;に連れ去られた娘たちを
 取り返しに来た！</JapaneseText>
-      <EnglishText>We've come to take back the
-girls who were kidnapped by the
-&lt;Blue&gt;Royal Shield&lt;White&gt;!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>7</Id>
-      <Status>Editing</Status>
+      <Id>6</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1624</PointerOffset>
       <VoiceId>20000004</VoiceId>
       <JapaneseText>おのれ、曲者めが……!!
 王城で勝手なまねは許さんぞ！</JapaneseText>
-      <EnglishText>You damn ruffians! You'll pay
-for breaking into the castle!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>1,2</SpeakerId>
-      <Id>8</Id>
-      <Status>Editing</Status>
+      <Id>7</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1779</PointerOffset>
       <VoiceId>20000005</VoiceId>
       <JapaneseText>あなたたちは……</JapaneseText>
-      <EnglishText>Who are you?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>1,2</SpeakerId>
-      <Id>9</Id>
-      <Status>Editing</Status>
+      <Id>8</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1819</PointerOffset>
@@ -206,14 +187,11 @@ for breaking into the castle!</EnglishText>
       <JapaneseText>&lt;Blue&gt;王の盾&lt;White&gt;にさらわれた人たちを
 追って来たんです。
 他のみなさんはどちらに？</JapaneseText>
-      <EnglishText>We've come to rescue the girls
-who were kidnapped by the
-&lt;Blue&gt;Royal Shield&lt;White&gt;. Do you know
-where the others are?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
-      <Status>Editing</Status>
+      <Id>9</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1848</PointerOffset>
@@ -222,13 +200,11 @@ where the others are?</EnglishText>
 ああ……ありがとうございます……
 みんな、この部屋に
 閉じ込められています！</JapaneseText>
-      <EnglishText>You came to rescue rescue us?!
-Oh, thank you so much... They're
-all being held in this room!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>1,2</SpeakerId>
-      <Id>11</Id>
-      <Status>Editing</Status>
+      <Id>10</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2161</PointerOffset>
@@ -236,13 +212,11 @@ all being held in this room!</EnglishText>
       <JapaneseText>待ってください、私です！
 収容所で助けていただいたナッツです！
 隊長のお手伝いがしたくて来ました。</JapaneseText>
-      <EnglishText>Wait, it's me, Natz! I'm the
-man you rescued from prison! I came
-because I want to help you, Commander.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>4</SpeakerId>
-      <Id>12</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>11</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2209</PointerOffset>
@@ -251,40 +225,32 @@ because I want to help you, Commander.</EnglishText>
 娘さんたちを城の外へ誘導して欲しい。
 一階の客室に隠し階段がある。
 そこから地下道へ出られる。</JapaneseText>
-      <EnglishText>...All right, in that case I
-would like for you to lead the young
-women who are in this room out of the
-castle. There's a staircase hidden in
-the guest room on the first floor
-that you can use to reach an
-underground passageway.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>5</SpeakerId>
-      <Id>13</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>12</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2230</PointerOffset>
       <VoiceId>20000011</VoiceId>
       <JapaneseText>城内には見張りの兵士たちがいる。
 気をつけて行くんだ。</JapaneseText>
-      <EnglishText>There are many soldiers on
-guard within the castle. Move
-carefully.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>5</SpeakerId>
-      <Id>14</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>13</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2252</PointerOffset>
       <VoiceId>20000012</VoiceId>
       <JapaneseText>了解です!!</JapaneseText>
-      <EnglishText>Roger that, sir!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>4</SpeakerId>
-      <Id>15</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>14</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2310</PointerOffset>
@@ -292,145 +258,141 @@ carefully.</EnglishText>
       <JapaneseText>……なあ、&lt;Eugene&gt;、
 あんたは本当に罪を犯して
 軍を追われたのか？</JapaneseText>
-      <EnglishText>...Hey, Eugene, were you really
-kicked out of the army for committing
-a crime?</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>6</SpeakerId>
-      <Id>16</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2440</PointerOffset>
       <VoiceId>20000014</VoiceId>
       <JapaneseText>……今はそんな事を
 話している場合じゃない。</JapaneseText>
-      <EnglishText>...Now's not the time to talk
-about that.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>5</SpeakerId>
-      <Id>17</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2494</PointerOffset>
       <VoiceId>20000015</VoiceId>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText>...</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>18</Id>
-      <Status>Editing</Status>
+      <Id>17</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2542</PointerOffset>
       <VoiceId>20000016</VoiceId>
       <JapaneseText>足踏みしてる暇は
 ないわよ。</JapaneseText>
-      <EnglishText>We don't have time to waste
-standing around here, you know.</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>7</SpeakerId>
-      <Id>19</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2586</PointerOffset>
       <VoiceId>20000017</VoiceId>
       <JapaneseText>行こう。</JapaneseText>
-      <EnglishText>She's right.</EnglishText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>20</Id>
-      <Status>Editing</Status>
+      <Id>19</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2870</PointerOffset>
       <VoiceId>2f00000d</VoiceId>
       <JapaneseText>……ここは……カレギア城!?</JapaneseText>
-      <EnglishText>Isn't this Callegea Castle?</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>21</Id>
-      <Status>Editing</Status>
+      <Id>20</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>2962</PointerOffset>
       <VoiceId>2f00000e</VoiceId>
       <JapaneseText>&lt;Annie&gt;……</JapaneseText>
-      <EnglishText>&lt;Annie&gt;...</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>8</SpeakerId>
-      <Id>22</Id>
-      <Status>Editing</Status>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3028</PointerOffset>
       <VoiceId>2f00000f</VoiceId>
       <JapaneseText>お父さん!!</JapaneseText>
-      <EnglishText>Father!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>23</Id>
-      <Status>Editing</Status>
+      <Id>22</Id>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3504</PointerOffset>
       <VoiceId>2f000010</VoiceId>
       <JapaneseText>待って、お父さん!!</JapaneseText>
-      <EnglishText>Wait! Father!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
+      <Id>23</Id>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-0</Section>
+    <Entry>
+      <PointerOffset>814</PointerOffset>
+      <JapaneseText>こっちじゃないわ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-1</Section>
     <Entry>
       <PointerOffset>3724</PointerOffset>
       <VoiceId>2f000011</VoiceId>
       <JapaneseText>うわぁぁぁぁぁぁぁぁッ!!</JapaneseText>
-      <EnglishText>Aaaaaagh!!</EnglishText>
-      <Notes/>
+      <EnglishText/>
       <SpeakerId>9</SpeakerId>
+      <Notes/>
       <Id>25</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>3746</PointerOffset>
       <VoiceId>2f000012</VoiceId>
       <JapaneseText>お父さんッ!!</JapaneseText>
-      <EnglishText>Father!</EnglishText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>26</Id>
-      <Status>Editing</Status>
+      <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5227</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>10</SpeakerId>
+      <Notes/>
       <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6895</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>11</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6973</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>11</SpeakerId>
-      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

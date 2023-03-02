@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,16 +9,16 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>909</PointerOffset>
-      <JapaneseText>話した回数&lt;Unk17:384404&gt;</JapaneseText>
+      <PointerOffset>978,936</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>936,978</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <PointerOffset>909</PointerOffset>
+      <JapaneseText>話した回数&lt;Unk17:380444&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
@@ -27,66 +26,10 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>147</PointerOffset>
-      <JapaneseText>デバトップ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>153</PointerOffset>
-      <JapaneseText>デバマップ・メニューコメント</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>156</PointerOffset>
-      <JapaneseText>デバマップ・ブラウザ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>723</PointerOffset>
-      <JapaneseText>「Ｈ５型」処理</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>885</PointerOffset>
-      <JapaneseText>奇数回目</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>896</PointerOffset>
-      <JapaneseText>偶数回目</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>939</PointerOffset>
-      <JapaneseText>０</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>981</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:00d2&gt;&lt;icon:18&gt;ボタン　　……移動ボタン
@@ -100,29 +43,41 @@
 &lt;icon:33&gt;ボタン　　……クリア判定ボタン
 　　　　　　　　　正しい順番と比較する。
 　　　　　　　　　全部合っていればミニゲームクリア。
-&lt;icon:31&gt;ボタン　　……強制完了</JapaneseText>
+&lt;icon:31&gt;ボタン　　……強制終了</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>885</PointerOffset>
+      <JapaneseText>奇数回目</JapaneseText>
+      <EnglishText/>
       <SpeakerId>1</SpeakerId>
-      <Id>8</Id>
+      <Notes/>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>996</PointerOffset>
-      <JapaneseText>スコープ&lt;nmb:044c&gt;入った
-(x,z)(&lt;Unk17:d0ff1fc0e00c&gt;,&lt;Unk17:d0ff1fc1e00c&gt;)</JapaneseText>
+      <PointerOffset>896</PointerOffset>
+      <JapaneseText>偶数回目</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <Id>9</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1006</PointerOffset>
-      <JapaneseText>スコープ&lt;nmb:044c&gt;出た
-(x,z)(&lt;Unk17:d0ff1fc0e00c&gt;,&lt;Unk17:d0ff1fc1e00c&gt;)</JapaneseText>
+      <PointerOffset>939</PointerOffset>
+      <JapaneseText>０</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <Id>10</Id>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

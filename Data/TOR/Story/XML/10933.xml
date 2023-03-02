@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -25,30 +24,22 @@
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>4878</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>129</PointerOffset>
-      <JapaneseText>ベルサススラム・民家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>132</PointerOffset>
       <JapaneseText>ベルサススラム・民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>129</PointerOffset>
+      <JapaneseText>ベルサススラム・民家</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -56,17 +47,20 @@
       <PointerOffset>141</PointerOffset>
       <JapaneseText>民家</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>379</PointerOffset>
       <JapaneseText>ずいぶん物好きだな、
 あんた……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
@@ -76,8 +70,8 @@
 ヒューマと一緒に旅するだなんて
 バカげてる……普通じゃない。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
@@ -86,8 +80,8 @@
       <JapaneseText>ガジュマと何を
 話そうってんだ？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
@@ -96,8 +90,8 @@
       <JapaneseText>ヒューマなんかと馴れ合って
 何が楽しいんだ？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
@@ -106,8 +100,8 @@
       <JapaneseText>まあ、あんたも、
 目を覚ます時が来るさ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
@@ -116,8 +110,8 @@
       <JapaneseText>入ってきていいだなんて
 言った覚えはないぜ？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
@@ -127,8 +121,8 @@
 ヒューマは俺たちの居場所に
 土足で踏み込んでくる……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
@@ -137,8 +131,8 @@
       <JapaneseText>ヒューマなんかと馴れ合って
 何が楽しいんだ？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
@@ -147,8 +141,8 @@
       <JapaneseText>まあ、あんたも、
 目を覚ます時が来るさ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
@@ -157,8 +151,8 @@
       <JapaneseText>入ってきていいだなんて
 言った覚えはないぜ？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
@@ -168,8 +162,8 @@
 ヒューマは俺たちの居場所に
 土足で踏み込んで来る……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
@@ -178,8 +172,8 @@
       <JapaneseText>やっぱり、アガーテ様は
 俺たちの味方だったんだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
@@ -188,8 +182,8 @@
       <JapaneseText>ヒューマの思いどおりに
 なんて行くもんか。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
@@ -198,8 +192,8 @@
       <JapaneseText>いい気になっていられるのも
 今のうちだぜ？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
@@ -209,8 +203,8 @@
 暮らすことはない。
 アガーテ様のおかげだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
@@ -219,8 +213,8 @@
       <JapaneseText>……何だ？　用がないなら、
 出ていってくれ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
@@ -230,8 +224,8 @@
 勉強したいと思っていたが
 ヒューマのせいでできなかった。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
@@ -241,8 +235,8 @@
 取り組む事ができる！
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
@@ -251,8 +245,8 @@
       <JapaneseText>もうガジュマが力だけなんて、
 言わせないよ！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
@@ -261,8 +255,8 @@
       <JapaneseText>ヒューマがどれだけガジュマを
 バカにしようとかまわない。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
@@ -271,8 +265,8 @@
       <JapaneseText>必ず俺はおまえたちを
 見返してやる！</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
@@ -283,8 +277,8 @@
 いや、あんたに言っても仕方ない。
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
@@ -294,8 +288,8 @@
 俺たちの気持ちは、
 俺たちにしかわからないんだ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
@@ -305,18 +299,18 @@
 憎いとか、そういうのとは違う。
 ただ、許せないんだ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>1386</PointerOffset>
       <JapaneseText>この監視体制は、
-いつになったら完わるんだろうな？</JapaneseText>
+いつになったら終わるんだろうな？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
@@ -326,8 +320,8 @@
 早いところヒューマを追い出して、
 帰らせてもらいたいよ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
@@ -336,8 +330,8 @@
       <JapaneseText>俺は女王様よりも、
 ジルバ様に期待してるよ。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
@@ -347,8 +341,8 @@
 横暴を止めてくださる……
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
@@ -358,8 +352,8 @@
 今度はガジュマの目を気にして
 暮らす番だ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
@@ -370,8 +364,8 @@
 何か楽しいかい……？
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
@@ -381,8 +375,8 @@
 増やしたのか、スカラベは……
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
@@ -392,38 +386,23 @@
 俺たちの心まで折る事は
 できないさ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>0</SpeakerId>
+      <Notes/>
       <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3036</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>1</SpeakerId>
+      <Notes/>
       <Id>36</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4704</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>37</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4782</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

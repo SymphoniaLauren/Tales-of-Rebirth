@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,19 +9,27 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>135,2011,2070,2356,2720,2977,3464,3514,3729,3870,4282,4714,4931,5703,5818</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <PointerOffset>1425,1990,2033,1499,1530,2378,2443,1603,4678,4742,4807,4908,4461,1693,5116,5116,5116,5116,5116,1742,1773,1804</PointerOffset>
+      <JapaneseText>リフトの管理人</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>189,2415,2905,3215,3485,3607,3815,4005,4026,4779,5208,5854</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <PointerOffset>135,2011,2070,2356,2720,2977,3464,3514,3729,3870,4282,4714,4931,5818,5703</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>189,2415,2905,3215,3485,3607,3815,4005,4026,4779,5854,5208</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -30,7 +37,7 @@
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -38,39 +45,39 @@
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>353,2516,2768,3119,3946,4186,4253,5620,5964</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>408,3367,3570,3644,4063,5300,5493,6001</PointerOffset>
-      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
+      <PointerOffset>353,2516,2768,3119,3946,4186,4253,5964,5620</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>443,490,1189,1216,1292,1328,1364</PointerOffset>
-      <JapaneseText/>
+      <PointerOffset>408,3367,3570,3644,4063,6001,5300,5493</PointerOffset>
+      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1425,1499,1530,1603,1693,1742,1773,1804,1990,2033,2378,2443,4461,4678,4742,4807,4908,5116,5116,5116,5116,5116</PointerOffset>
-      <JapaneseText>リフトの管理人</JapaneseText>
+      <PointerOffset>443,1364,1328,1292,1189,1216</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4393</PointerOffset>
+      <JapaneseText>暗示を解くキーワードは？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -78,27 +85,71 @@
       <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9275</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
+    <Entry>
+      <PointerOffset>857</PointerOffset>
+      <JapaneseText>リフトの管理人の家</JapaneseText>
+      <EnglishText/>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>866</PointerOffset>
+      <JapaneseText>バビログラード</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>863</PointerOffset>
+      <JapaneseText>バビログラード・リフトの管理人の家</JapaneseText>
+      <EnglishText/>
+      <Notes>This place's name in the menu</Notes>
+      <Id>3</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4414</PointerOffset>
+      <JapaneseText>いとしきそら</JapaneseText>
+      <EnglishText/>
+      <Notes>Strcmp arg2, probably a typing puzzle</Notes>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4423</PointerOffset>
+      <JapaneseText>イトシキソラ</JapaneseText>
+      <EnglishText/>
+      <Notes>Strcmp arg2, probably a typing puzzle</Notes>
+      <Id>5</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>1428</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
     <Entry>
       <PointerOffset>138</PointerOffset>
       <JapaneseText>戒律か……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>1</SpeakerId>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>1</Id>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -106,9 +157,9 @@
       <JapaneseText>そっか……戒律のせいで
 しゃべれないんだったネ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>2</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>2</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -116,18 +167,18 @@
       <JapaneseText>戒律のせいで、男とは
 話せないようだな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>3</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>3</Id>
+      <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>301</PointerOffset>
       <JapaneseText>戒律……ですね。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>4</Id>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -135,9 +186,9 @@
       <JapaneseText>そっか、戒律が
 あったんだったな……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>5</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>5</Id>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -145,96 +196,880 @@
       <JapaneseText>戒律のせいで、女と
 話せないんだったわね……</JapaneseText>
       <EnglishText/>
+      <SpeakerId>6</SpeakerId>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>6</Id>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>446</PointerOffset>
       <JapaneseText>…………</JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>493</PointerOffset>
-      <JapaneseText>売りたそうにしているが、
-戒律のせいで、異性とは
-話ができないようだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>8</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>857</PointerOffset>
-      <JapaneseText>リフトの管理人の家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>863</PointerOffset>
-      <JapaneseText>バビログラード・リフトの管理人の家</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>866</PointerOffset>
-      <JapaneseText>バビログラード</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1192</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『棚の中身』
-ていねいに折りたたまれた
-布がたくさん入っている。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1219</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『リフト客室のシートカバー』
-街と港とをつなぐリフトの座{E4}{40}用カバー。
-グリーンは男性用、オレンジは女性用。
-管理人さんが毎日取り替え、洗っている。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
       <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1295</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『箱の中身』
-管理人さんが新規考案中の
-高速リフトの検討用模型。
-失敗作もあるが、捨てるに
-捨てられず、かといって自宅に
-持ち帰ると奥さんに叱られるので
-ここに詰め込んである。
-</JapaneseText>
+      <PointerOffset>1993</PointerOffset>
+      <VoiceId>1c000020</VoiceId>
+      <JapaneseText>ん？　リフトか？
+すまんな、今荷物を
+下に送ったばかりなんだ。</JapaneseText>
       <EnglishText/>
+      <SpeakerId>0</SpeakerId>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
       <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>2014</PointerOffset>
+      <VoiceId>1c000021</VoiceId>
+      <JapaneseText>いつ動く？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2036</PointerOffset>
+      <VoiceId>1c000022</VoiceId>
+      <JapaneseText>さあな。下で荷物の
+積み下ろしが終わったら、
+返ってくるだろうが……
+しばらくはかかるな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2073</PointerOffset>
+      <VoiceId>1c000023</VoiceId>
+      <JapaneseText>どうすればいいんだ……？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2115</PointerOffset>
+      <VoiceId>1c000024</VoiceId>
+      <JapaneseText>焦ってもしかたがない。
+街の中を見て回ろう。
+&lt;Blue&gt;王の盾&lt;White&gt;について何か
+話を聞けるかもしれない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1502</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1533</PointerOffset>
+      <JapaneseText>リフトは荷物の積み下ろしが終わったら、
+戻ってくるよ。
+それまで待ってくんな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2359</PointerOffset>
+      <VoiceId>1c000036</VoiceId>
+      <JapaneseText>リフトには、
+乗れるようになったか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2381</PointerOffset>
+      <VoiceId>1c000037</VoiceId>
+      <JapaneseText>……ダメだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2418</PointerOffset>
+      <VoiceId>1c000038</VoiceId>
+      <JapaneseText>ボクたち急いでるんだ。
+リフトに乗せてヨ、お願い。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2446</PointerOffset>
+      <VoiceId>1c000039</VoiceId>
+      <JapaneseText>ダメだ……帰れ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2519</PointerOffset>
+      <VoiceId>1c00003a</VoiceId>
+      <JapaneseText>そんな事言わずに
+頼むよ……なっ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2723</PointerOffset>
+      <VoiceId>1c00003b</VoiceId>
+      <JapaneseText>&lt;Tytree&gt;！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2771</PointerOffset>
+      <VoiceId>1c00003c</VoiceId>
+      <JapaneseText>くっ……なんだ、こいつ……
+メチャクチャ強えぇ……能力者か!?
+&lt;Mao&gt;、フォルスは？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2908</PointerOffset>
+      <VoiceId>1c00003d</VoiceId>
+      <JapaneseText>フォルスキューブは
+反応してないけど……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2980</PointerOffset>
+      <VoiceId>1c00003e</VoiceId>
+      <JapaneseText>ん……？　この感じ、
+前にどこかで……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3023</PointerOffset>
+      <VoiceId>1c00003f</VoiceId>
+      <JapaneseText>ああ、これは……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3122</PointerOffset>
+      <VoiceId>1c000040</VoiceId>
+      <JapaneseText>何すんだよ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3151</PointerOffset>
+      <VoiceId>1c000041</VoiceId>
+      <JapaneseText>待て！　&lt;Tytree&gt;！
+彼は操られているんだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3218</PointerOffset>
+      <VoiceId>1c000042</VoiceId>
+      <JapaneseText>まさか……ワルトゥ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3324</PointerOffset>
+      <VoiceId>1c000043</VoiceId>
+      <JapaneseText>ああ、&lt;Yellow&gt;音のフォルス&lt;White&gt;で
+暗示をかけられているに違いない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3370</PointerOffset>
+      <VoiceId>1c000044</VoiceId>
+      <JapaneseText>近くに、&lt;Blue&gt;王の盾&lt;White&gt;が
+いるのかもしれない。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3467</PointerOffset>
+      <VoiceId>1c000045</VoiceId>
+      <JapaneseText>……そう言えば……！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3488</PointerOffset>
+      <VoiceId>1c000046</VoiceId>
+      <JapaneseText>ん……？
+どうしたの、&lt;Veigue&gt;？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3517</PointerOffset>
+      <VoiceId>1c000047</VoiceId>
+      <JapaneseText>さっき、この街の娘が
+俺に直接謝ってきた……
+だが、それは蒼獣信仰の戒律に
+反するんじゃなかったのか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3573</PointerOffset>
+      <VoiceId>1c000048</VoiceId>
+      <JapaneseText>さっきの娘は、この街の
+住民じゃなかったんだわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3610</PointerOffset>
+      <VoiceId>1c000049</VoiceId>
+      <JapaneseText>でも、この街の人の
+格好してたヨ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3647</PointerOffset>
+      <VoiceId>1c00004a</VoiceId>
+      <JapaneseText>私たちの目を欺くためだとしたら？
+そして、わざわざそんな事をする
+必要があるのは……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3695</PointerOffset>
+      <VoiceId>1c00004b</VoiceId>
+      <JapaneseText>&lt;Blue&gt;王の盾&lt;White&gt;!!
+あの女の人は、&lt;Blue&gt;王の盾&lt;White&gt;に
+さらわれた人だったんですね!!</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3732</PointerOffset>
+      <VoiceId>1c00004c</VoiceId>
+      <JapaneseText>くっ……
+すれ違ったか……！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3818</PointerOffset>
+      <VoiceId>1c00004d</VoiceId>
+      <JapaneseText>&lt;Veigue&gt;！
+どうするつもり!?</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3873</PointerOffset>
+      <VoiceId>1c00004e</VoiceId>
+      <JapaneseText>オレがリフトを動かす！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3909</PointerOffset>
+      <VoiceId>1c00004f</VoiceId>
+      <JapaneseText>待て、&lt;Veigue&gt;！
+素人がいじるのはやめた方がいい。
+それよりも彼の暗示を解く音を
+探す事が先決だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3949</PointerOffset>
+      <VoiceId>1c000050</VoiceId>
+      <JapaneseText>おいおい、何が何だかさっぱりだぜ。
+この人がワルトゥってヤツに
+操られてるのはわかったけど、
+暗示を解く音ってなんの事だよ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4008</PointerOffset>
+      <VoiceId>1c000051</VoiceId>
+      <JapaneseText>ワルトゥの&lt;Yellow&gt;音のフォルス&lt;White&gt;は、
+ある音をきっかけにして行動するよう
+人に暗示をかけるんだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4029</PointerOffset>
+      <VoiceId>1c000052</VoiceId>
+      <JapaneseText>この人の暗示を解くには、
+きっかけとなった音と同じ音を
+聞かせるしかないんだよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4066</PointerOffset>
+      <VoiceId>1c000053</VoiceId>
+      <JapaneseText>音を探せって事？
+音が鳴りそうなものなんて、
+いっぱいあるじゃない。
+そんなの無理だわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4116</PointerOffset>
+      <VoiceId>1c000054</VoiceId>
+      <JapaneseText>ワルトゥは、必要以上に
+フォルスで人を操る事を嫌う。
+作戦終了後に、必ずその暗示を
+解くのがヤツの流儀だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4137</PointerOffset>
+      <VoiceId>1c000055</VoiceId>
+      <JapaneseText>同時にそれは、
+全ての行動の痕跡を
+消す事にもなる。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4158</PointerOffset>
+      <VoiceId>1c000056</VoiceId>
+      <JapaneseText>ヤツはそのための協力者を
+必ず用意している。
+おそらく、この街のどこかに、
+その協力者がいるはずだ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4189</PointerOffset>
+      <VoiceId>1c000057</VoiceId>
+      <JapaneseText>なるほど、そいつを見つければ、
+この管理人の暗示のきっかけが
+何かわかるってワケだな？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>54</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4218</PointerOffset>
+      <VoiceId>1c000058</VoiceId>
+      <JapaneseText>そういう事だ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>55</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4256</PointerOffset>
+      <VoiceId>1c000059</VoiceId>
+      <JapaneseText>よっしゃ、管理人さんの暗示を解く
+音をその協力者から聞き出して、
+姉貴と&lt;Claire&gt;さんを助けようぜ！
+なっ、&lt;Veigue&gt;。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4285</PointerOffset>
+      <VoiceId>1c00005a</VoiceId>
+      <JapaneseText>……ああ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1606</PointerOffset>
+      <JapaneseText>ダメだ……
+リフトは……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4396</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <SpeakerId>8</SpeakerId>
+      <Notes/>
+      <Id>59</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4681</PointerOffset>
+      <VoiceId>1c00008b</VoiceId>
+      <JapaneseText>あんたたちは……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>60</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4717</PointerOffset>
+      <VoiceId>1c00008c</VoiceId>
+      <JapaneseText>リフトで港に行きたいんだ。
+動かしてくれるか？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>61</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4745</PointerOffset>
+      <VoiceId>1c00008d</VoiceId>
+      <JapaneseText>ああ、そういやさっき
+来てたっけな。
+荷物は運び終わったから
+乗せてやるよ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4782</PointerOffset>
+      <VoiceId>1c00008e</VoiceId>
+      <JapaneseText>やったネ♪</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4810</PointerOffset>
+      <VoiceId>1c00008f</VoiceId>
+      <JapaneseText>それじゃ、
+俺は先に行ってリフトを
+動かしてるからな。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>64</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4911</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>65</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4934</PointerOffset>
+      <JapaneseText>……だめか。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>66</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4966</PointerOffset>
+      <JapaneseText>正確な言葉でなければ
+暗示を解く事はできないぞ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>67</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4464</PointerOffset>
+      <JapaneseText>ダメだ……
+リフトは……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>68</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5821</PointerOffset>
+      <JapaneseText>このままでは暗示は解けない……
+祭司の手伝いをした人の家族に
+話を聞けば暗示の言葉がわかるかもしれない……
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>69</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5857</PointerOffset>
+      <JapaneseText>暗示を解く言葉がわからないヨ！
+祭司の手伝いをした人の家族に
+話を聞きに行こうヨ！
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>70</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5893</PointerOffset>
+      <JapaneseText>暗示を解く言葉は、
+祭司の手伝いをした人の家族に
+話を聞けばわかるかもしれないぞ。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>3</SpeakerId>
+      <Notes/>
+      <Id>71</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5930</PointerOffset>
+      <JapaneseText>暗示を解く前に、
+祭司の手伝いをした人の家族に
+話を聞きに行きましょう。
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>72</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5967</PointerOffset>
+      <JapaneseText>ちょっと待てよ、暗示の言葉が
+わかんねえだろ？
+祭司の手伝いをした人の家族に
+話を聞きに行った方がいいんじゃねえか？
+</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>73</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6004</PointerOffset>
+      <JapaneseText>祭司の手伝いをした人の家族に
+話を聞きにいきましょう。
+これじゃ暗示の言葉なんてわからないわ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>74</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1696</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>75</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5174</PointerOffset>
+      <VoiceId>3a00003c</VoiceId>
+      <JapaneseText>あんたら、どうやって
+ここまで来たんだ!?</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>76</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5211</PointerOffset>
+      <VoiceId>3a00003d</VoiceId>
+      <JapaneseText>登山洞を上がってきたんだヨ。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>2</SpeakerId>
+      <Notes/>
+      <Id>77</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5248</PointerOffset>
+      <VoiceId>3a00003e</VoiceId>
+      <JapaneseText>……なんだって……？
+じゃあ、登山洞の岩を……？
+なんて事だ……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>78</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5303</PointerOffset>
+      <VoiceId>3a00003f</VoiceId>
+      <JapaneseText>そんな事より……
+リフトを動かしてくれない？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>79</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5347</PointerOffset>
+      <VoiceId>3a000040</VoiceId>
+      <JapaneseText>ダメだ、リフトを動かしたら、
+ガジュマが上がってきちまう！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>80</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5496</PointerOffset>
+      <VoiceId>3a000041</VoiceId>
+      <JapaneseText>動かさないと、今度は
+あんたの血しぶきが上がるよ？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>6</SpeakerId>
+      <Notes/>
+      <Id>81</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5546</PointerOffset>
+      <VoiceId>3a000042</VoiceId>
+      <JapaneseText>う……動かしたかったら、
+祭司様に頼めよ！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>82</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5568</PointerOffset>
+      <VoiceId>3a000043</VoiceId>
+      <JapaneseText>祭司様もウンとは
+言わないだろうがね！</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>83</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5623</PointerOffset>
+      <VoiceId>3a000044</VoiceId>
+      <JapaneseText>……どうする？</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>84</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5706</PointerOffset>
+      <VoiceId>3a000045</VoiceId>
+      <JapaneseText>……頼んでみよう。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>85</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1745</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>86</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1776</PointerOffset>
+      <JapaneseText>祭司様の命令なら
+リフトを動かしてもいいが……</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>87</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1807</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>0</SpeakerId>
+      <Notes/>
+      <Id>88</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>7433</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>9</SpeakerId>
+      <Notes/>
+      <Id>89</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>1367</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『水がめ』
+蒼の聖殿の横にある滝から
+汲んで来た、とてもおいしい水。
+何日置いておいても悪くならず、
+人々は「蒼獣様の涙」だと言って
+ありがたがり、好んで飲む。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>7</SpeakerId>
+      <Notes/>
+      <Id>90</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
     <Entry>
       <PointerOffset>1331</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『高速リフト設計図』
@@ -247,973 +1082,56 @@
 管理人さんのコメント。
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1367</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『水がめ』
-蒼の聖殿の横にある滝から
-汲んで来た、とてもおいしい水。
-何日置いておいても悪くならず、
-人々は「蒼獣様の涙」だと言って
-ありがたがり、好んで飲む。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1428</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1502</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1533</PointerOffset>
-      <JapaneseText>リフトは荷物の積み下ろしが完わったら、
-戻ってくるよ。
-それまで待ってくんな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1606</PointerOffset>
-      <JapaneseText>ダメだ……
-リフトは……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1696</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>21</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1745</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>22</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1776</PointerOffset>
-      <JapaneseText>祭司様の命令なら
-リフトを動かしてもいいが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1807</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1993</PointerOffset>
-      <VoiceId>1c000020</VoiceId>
-      <JapaneseText>ん？　リフトか？
-すまんな、今荷物を
-下に送ったばかりなんだ。</JapaneseText>
-      <EnglishText>Hm? You need the lift? Sorry, I
-just sent it down with some cargo.</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2014</PointerOffset>
-      <VoiceId>1c000021</VoiceId>
-      <JapaneseText>いつ動く？</JapaneseText>
-      <EnglishText>When will it be back?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>26</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2036</PointerOffset>
-      <VoiceId>1c000022</VoiceId>
-      <JapaneseText>さあな。下で荷物の
-積み下ろしが完わったら、
-返ってくるだろうが……
-しばらくはかかるな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2073</PointerOffset>
-      <VoiceId>1c000023</VoiceId>
-      <JapaneseText>どうすればいいんだ……？</JapaneseText>
-      <EnglishText>Now what?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>28</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2115</PointerOffset>
-      <VoiceId>1c000024</VoiceId>
-      <JapaneseText>焦ってもしかたがない。
-街の中を見て回ろう。
-&lt;Blue&gt;王の盾&lt;White&gt;について何か
-話を聞けるかもしれない。</JapaneseText>
-      <EnglishText>I know you're in a hurry, but
-we just have to wait. Let's walk
-around town for now. We might hear
-something about the &lt;Blue&gt;Royal
-Shield&lt;White&gt;.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>29</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2359</PointerOffset>
-      <VoiceId>1c000036</VoiceId>
-      <JapaneseText>リフトには、
-乗れるようになったか？</JapaneseText>
-      <EnglishText>Can we use the lift now?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>30</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2381</PointerOffset>
-      <VoiceId>1c000037</VoiceId>
-      <JapaneseText>……ダメだ。</JapaneseText>
-      <EnglishText>No.</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>31</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2418</PointerOffset>
-      <VoiceId>1c000038</VoiceId>
-      <JapaneseText>ボクたち急いでるんだ。
-リフトに乗せてヨ、お願い。</JapaneseText>
-      <EnglishText>We're really in a hurry. Let us
-ride the lift, please!</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>32</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2446</PointerOffset>
-      <VoiceId>1c000039</VoiceId>
-      <JapaneseText>ダメだ……帰れ。</JapaneseText>
-      <EnglishText>No. Leave.</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>33</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2519</PointerOffset>
-      <VoiceId>1c00003a</VoiceId>
-      <JapaneseText>そんな事言わずに
-頼むよ……なっ！</JapaneseText>
-      <EnglishText>Aw come on, you can do us a
-favor just this once, please?</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>34</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2723</PointerOffset>
-      <VoiceId>1c00003b</VoiceId>
-      <JapaneseText>&lt;Tytree&gt;！</JapaneseText>
-      <EnglishText>&lt;Tytree&gt;!</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>35</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2771</PointerOffset>
-      <VoiceId>1c00003c</VoiceId>
-      <JapaneseText>くっ……なんだ、こいつ……
-メチャクチャ強えぇ……能力者か!?
-&lt;Mao&gt;、フォルスは？</JapaneseText>
-      <EnglishText>Gh... What the heck... He's
-ridiculously strong... Is he a Force user!?
-&lt;Mao&gt;, do you sense anything?</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>36</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2908</PointerOffset>
-      <VoiceId>1c00003d</VoiceId>
-      <JapaneseText>フォルスキューブは
-反応してないけど……</JapaneseText>
-      <EnglishText>I'm not getting any reaction
-from the Force Cube, but...</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>37</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2980</PointerOffset>
-      <VoiceId>1c00003e</VoiceId>
-      <JapaneseText>ん……？　この感じ、
-前にどこかで……</JapaneseText>
-      <EnglishText>Hm...? This seems oddly
-familiar...</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>38</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3023</PointerOffset>
-      <VoiceId>1c00003f</VoiceId>
-      <JapaneseText>ああ、これは……</JapaneseText>
-      <EnglishText>Yes, this must be...</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>39</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3122</PointerOffset>
-      <VoiceId>1c000040</VoiceId>
-      <JapaneseText>何すんだよ！</JapaneseText>
-      <EnglishText>The heck's your problem?!</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>40</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3151</PointerOffset>
-      <VoiceId>1c000041</VoiceId>
-      <JapaneseText>待て！　&lt;Tytree&gt;！
-庇は操られているんだ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3218</PointerOffset>
-      <VoiceId>1c000042</VoiceId>
-      <JapaneseText>まさか……ワルトゥ？</JapaneseText>
-      <EnglishText>You mean... Walto was here?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>42</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3324</PointerOffset>
-      <VoiceId>1c000043</VoiceId>
-      <JapaneseText>ああ、&lt;Yellow&gt;音のフォルス&lt;White&gt;で
-暗示をかけられているに違いない。</JapaneseText>
-      <EnglishText>Yes, he must be under the
-influence of the &lt;Yellow&gt;Force of
-Sound&lt;White&gt;.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>43</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3370</PointerOffset>
-      <VoiceId>1c000044</VoiceId>
-      <JapaneseText>近くに、&lt;Blue&gt;王の盾&lt;White&gt;が
-いるのかもしれない。</JapaneseText>
-      <EnglishText>The &lt;Blue&gt;Royal Shield&lt;White&gt;
-must be close.</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>44</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3467</PointerOffset>
-      <VoiceId>1c000045</VoiceId>
-      <JapaneseText>……そう言えば……！</JapaneseText>
-      <EnglishText>Come to think of it...!</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>45</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3488</PointerOffset>
-      <VoiceId>1c000046</VoiceId>
-      <JapaneseText>ん……？
-どうしたの、&lt;Veigue&gt;？</JapaneseText>
-      <EnglishText>Huh? What is it, &lt;Veigue&gt;?</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>46</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3517</PointerOffset>
-      <VoiceId>1c000047</VoiceId>
-      <JapaneseText>さっき、この街の娘が
-俺に直接謝ってきた……
-だが、それは蒼獣信仰の戒律に
-反するんじゃなかったのか？</JapaneseText>
-      <EnglishText>Earlier, a girl from this town
-bumped into me and apologized to me,
-but wouldn't that have gone against
-the commandments of the Blue Beast
-Faith?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>47</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3573</PointerOffset>
-      <VoiceId>1c000048</VoiceId>
-      <JapaneseText>さっきの娘は、この街の
-住民じゃなかったんだわ。</JapaneseText>
-      <EnglishText>Then that must mean those girls
-weren't from around here.</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>48</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3610</PointerOffset>
-      <VoiceId>1c000049</VoiceId>
-      <JapaneseText>でも、この街の人の
-格好してたヨ！</JapaneseText>
-      <EnglishText>But they looked like they were
-from around here!</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>49</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3647</PointerOffset>
-      <VoiceId>1c00004a</VoiceId>
-      <JapaneseText>私たちの目を欺くためだとしたら？
-そして、わざわざそんな事をする
-必要があるのは……</JapaneseText>
-      <EnglishText>They must have done that to
-deceive us, right? And the only people
-who would need to do such a
-thing...</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>50</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3695</PointerOffset>
-      <VoiceId>1c00004b</VoiceId>
-      <JapaneseText>&lt;Blue&gt;王の盾&lt;White&gt;!!
-あの女の人は、&lt;Blue&gt;王の盾&lt;White&gt;に
-さらわれた人だったんですね!!</JapaneseText>
-      <EnglishText>...Would be the &lt;Blue&gt;Royal
-Shield&lt;White&gt;! Those were the kidnapped girls!</EnglishText>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>51</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3732</PointerOffset>
-      <VoiceId>1c00004c</VoiceId>
-      <JapaneseText>くっ……
-すれ違ったか……！</JapaneseText>
-      <EnglishText>Tch... They slipped right by
-us...!</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>52</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3818</PointerOffset>
-      <VoiceId>1c00004d</VoiceId>
-      <JapaneseText>&lt;Veigue&gt;！
-どうするつもり!?</JapaneseText>
-      <EnglishText>&lt;Veigue&gt;! Where are you going?!</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>53</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3873</PointerOffset>
-      <VoiceId>1c00004e</VoiceId>
-      <JapaneseText>オレがリフトを動かす！</JapaneseText>
-      <EnglishText>I'll operate the lift myself!</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>54</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3909</PointerOffset>
-      <VoiceId>1c00004f</VoiceId>
-      <JapaneseText>待て、&lt;Veigue&gt;！
-素人がいじるのはやめた方がいい。
-それよりも庇の暗示を解く音を
-探す事が先決だ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>55</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3949</PointerOffset>
-      <VoiceId>1c000050</VoiceId>
-      <JapaneseText>おいおい、何が何だかさっぱりだぜ。
-この人がワルトゥってヤツに
-操られてるのはわかったけど、
-暗示を解く音ってなんの事だよ？</JapaneseText>
-      <EnglishText>Whoa, guys, slow down for a
-second! I get that this guy is being
-controlled by some guy called Walto, but
-what's this about a catalyst?</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>56</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4008</PointerOffset>
-      <VoiceId>1c000051</VoiceId>
-      <JapaneseText>ワルトゥの&lt;Yellow&gt;音のフォルス&lt;White&gt;は、
-ある音をきっかけにして行動するよう
-人に暗示をかけるんだ。</JapaneseText>
-      <EnglishText>Walto uses his &lt;Yellow&gt;Force of
-Sound&lt;White&gt; to set a specific sound as a
-catalyst to place a person under his
-control.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>57</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4029</PointerOffset>
-      <VoiceId>1c000052</VoiceId>
-      <JapaneseText>この人の暗示を解くには、
-きっかけとなった音と同じ音を
-聞かせるしかないんだよ。</JapaneseText>
-      <EnglishText>In order to free them, we need
-to make them hear the same sound
-again.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>58</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4066</PointerOffset>
-      <VoiceId>1c000053</VoiceId>
-      <JapaneseText>音を探せって事？
-音が鳴りそうなものなんて、
-いっぱいあるじゃない。
-そんなの無理だわ。</JapaneseText>
-      <EnglishText>We'll need to look for a sound?
-But there are so many things around
-here that can make noises, it seems
-impossible to be able to find the right
-one.</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>59</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4116</PointerOffset>
-      <VoiceId>1c000054</VoiceId>
-      <JapaneseText>ワルトゥは、必要以上に
-フォルスで人を操る事を嫌う。
-作戦完了後に、必ずその暗示を
-解くのがヤツの流儀だ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>60</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4137</PointerOffset>
-      <VoiceId>1c000055</VoiceId>
-      <JapaneseText>同時にそれは、
-全ての行動の痕跡を
-消す事にもなる。</JapaneseText>
-      <EnglishText>When that happens, any traces
-of his actions will be erased as
-well.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>61</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4158</PointerOffset>
-      <VoiceId>1c000056</VoiceId>
-      <JapaneseText>ヤツはそのための協力者を
-必ず用意している。
-おそらく、この街のどこかに、
-その協力者がいるはずだ。</JapaneseText>
-      <EnglishText>He always uses an accomplice to
-help him with that. Said accomplice
-is most likely somewhere in this
-city.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>62</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4189</PointerOffset>
-      <VoiceId>1c000057</VoiceId>
-      <JapaneseText>なるほど、そいつを見つければ、
-この管理人の暗示のきっかけが
-何かわかるってワケだな？</JapaneseText>
-      <EnglishText>I get it, so if we find his
-accomplice, we'll be able to figure out
-what kind of sound is being used to
-control the lift operator?</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>63</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4218</PointerOffset>
-      <VoiceId>1c000058</VoiceId>
-      <JapaneseText>そういう事だ。</JapaneseText>
-      <EnglishText>Exactly.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>64</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4256</PointerOffset>
-      <VoiceId>1c000059</VoiceId>
-      <JapaneseText>よっしゃ、管理人さんの暗示を解く
-音をその協力者から聞き出して、
-姉貴と&lt;Claire&gt;さんを助けようぜ！
-なっ、&lt;Veigue&gt;。</JapaneseText>
-      <EnglishText>All right! Let's find them and
-get 'em to tell us the catalyst so
-we can release the lift operator
-and save Claire and my sister!
-Right, &lt;Veigue&gt;?</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>65</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4285</PointerOffset>
-      <VoiceId>1c00005a</VoiceId>
-      <JapaneseText>……ああ。</JapaneseText>
-      <EnglishText>...Right.</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>66</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4393</PointerOffset>
-      <JapaneseText>暗示を解くキーワードは？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>67</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4396</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Id>68</Id>
-      <Status>Done</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4414</PointerOffset>
-      <JapaneseText>いとしきそら</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>69</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4423</PointerOffset>
-      <JapaneseText>イトシキソラ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>70</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4464</PointerOffset>
-      <JapaneseText>ダメだ……
-リフトは……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>71</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4681</PointerOffset>
-      <VoiceId>1c00008b</VoiceId>
-      <JapaneseText>あんたたちは……</JapaneseText>
-      <EnglishText>Oh, it's you...</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>72</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4717</PointerOffset>
-      <VoiceId>1c00008c</VoiceId>
-      <JapaneseText>リフトで港に行きたいんだ。
-動かしてくれるか？</JapaneseText>
-      <EnglishText>We'd like to take the lift down
-to the harbor. Will you let us
-ride it?</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>73</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4745</PointerOffset>
-      <VoiceId>1c00008d</VoiceId>
-      <JapaneseText>ああ、そういやさっき
-来てたっけな。
-荷物は運び完わったから
-乗せてやるよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>74</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4782</PointerOffset>
-      <VoiceId>1c00008e</VoiceId>
-      <JapaneseText>やったネ♪</JapaneseText>
-      <EnglishText>Yay! ♪</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>75</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4810</PointerOffset>
-      <VoiceId>1c00008f</VoiceId>
-      <JapaneseText>それじゃ、
-俺は先に行ってリフトを
-動かしてるからな。</JapaneseText>
-      <EnglishText>All right, I'll go on ahead and
-get the lift moving for you.</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>76</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4911</PointerOffset>
-      <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>77</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4934</PointerOffset>
-      <JapaneseText>……だめか。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>78</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4966</PointerOffset>
-      <JapaneseText>正確な言葉でなければ
-暗示を解く事はできないぞ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>79</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5174</PointerOffset>
-      <VoiceId>3a00003c</VoiceId>
-      <JapaneseText>あんたら、どうやって
-ここまで来たんだ!?</JapaneseText>
-      <EnglishText>How did you people get all the
-way here?!</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>80</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5211</PointerOffset>
-      <VoiceId>3a00003d</VoiceId>
-      <JapaneseText>登山洞を上がってきたんだヨ。</JapaneseText>
-      <EnglishText>We went up the Climber's
-Cavern.</EnglishText>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>81</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5248</PointerOffset>
-      <VoiceId>3a00003e</VoiceId>
-      <JapaneseText>……なんだって……？
-じゃあ、登山洞の岩を……？
-なんて事だ……</JapaneseText>
-      <EnglishText>You what? So the stones
-blocking the Cavern are gone? How in the
-world...</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>82</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5303</PointerOffset>
-      <VoiceId>3a00003f</VoiceId>
-      <JapaneseText>そんな事より……
-リフトを動かしてくれない？</JapaneseText>
-      <EnglishText>That's not important. Will you
-start operating the lift again?</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>83</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5347</PointerOffset>
-      <VoiceId>3a000040</VoiceId>
-      <JapaneseText>ダメだ、リフトを動かしたら、
-ガジュマが上がってきちまう！</JapaneseText>
-      <EnglishText>No way. If the lift goes back
-into operation, then the Gajuma will
-be able to come up here!</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>84</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5496</PointerOffset>
-      <VoiceId>3a000041</VoiceId>
-      <JapaneseText>動かさないと、今度は
-あんたの血しぶきが上がるよ？</JapaneseText>
-      <EnglishText>If that lift doesn't go up,
-then next time you might just get
-cut up.</EnglishText>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>85</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5546</PointerOffset>
-      <VoiceId>3a000042</VoiceId>
-      <JapaneseText>う……動かしたかったら、
-祭司様に頼めよ！</JapaneseText>
-      <EnglishText>I-if you want it working so
-badly, go ask the priest!</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>86</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5568</PointerOffset>
-      <VoiceId>3a000043</VoiceId>
-      <JapaneseText>祭司様もウンとは
-言わないだろうがね！</JapaneseText>
-      <EnglishText>Though I doubt he'll just say
-"Sure, go ahead!"</EnglishText>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>87</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5623</PointerOffset>
-      <VoiceId>3a000044</VoiceId>
-      <JapaneseText>……どうする？</JapaneseText>
-      <EnglishText>Well, what should we do?</EnglishText>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>88</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5706</PointerOffset>
-      <VoiceId>3a000045</VoiceId>
-      <JapaneseText>……頼んでみよう。</JapaneseText>
-      <EnglishText>Let's try asking him.</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>89</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5821</PointerOffset>
-      <JapaneseText>このままでは暗示は解けない……
-祭司の手伝いをした人の家族に
-話を聞けば暗示の言葉がわかるかもしれない……
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>90</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5857</PointerOffset>
-      <JapaneseText>暗示を解く言葉がわからないヨ！
-祭司の手伝いをした人の家族に
-話を聞きに行こうヨ！
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>91</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-3</Section>
     <Entry>
-      <PointerOffset>5893</PointerOffset>
-      <JapaneseText>暗示を解く言葉は、
-祭司の手伝いをした人の家族に
-話を聞けばわかるかもしれないぞ。
+      <PointerOffset>1295</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『箱の中身』
+管理人さんが新規考案中の
+高速リフトの検討用模型。
+失敗作もあるが、捨てるに
+捨てられず、かといって自宅に
+持ち帰ると奥さんに叱られるので
+ここに詰め込んである。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
       <Id>92</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-4</Section>
     <Entry>
-      <PointerOffset>5930</PointerOffset>
-      <JapaneseText>暗示を解く前に、
-祭司の手伝いをした人の家族に
-話を聞きに行きましょう。
+      <PointerOffset>1192</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『棚の中身』
+ていねいに折りたたまれた
+布がたくさん入っている。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
       <Id>93</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5967</PointerOffset>
-      <JapaneseText>ちょっと待てよ、暗示の言葉が
-わかんねえだろ？
-祭司の手伝いをした人の家族に
-話を聞きに行った方がいいんじゃねえか？
+      <PointerOffset>1219</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『リフト客室のシートカバー』
+街と港とをつなぐリフトの座席用カバー。
+グリーンは男性用、オレンジは女性用。
+管理人さんが毎日取り替え、洗っている。
 </JapaneseText>
       <EnglishText/>
+      <SpeakerId>7</SpeakerId>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
       <Id>94</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6004</PointerOffset>
-      <JapaneseText>祭司の手伝いをした人の家族に
-話を聞きにいきましょう。
-これじゃ暗示の言葉なんてわからないわ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>95</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7433</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>96</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9101</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>97</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9179</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>9</SpeakerId>
-      <Id>98</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

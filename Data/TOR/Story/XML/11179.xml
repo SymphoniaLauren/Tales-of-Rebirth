@@ -1,6 +1,5 @@
 <SceneText>
   <Speakers>
-    <Section>Speaker</Section>
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
@@ -10,16 +9,16 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>6048,18179</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
+      <PointerOffset>9890</PointerOffset>
+      <JapaneseText>クマ</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>6152,7319,8171,9739,16334</PointerOffset>
-      <JapaneseText>select</JapaneseText>
+      <PointerOffset>9863</PointerOffset>
+      <JapaneseText>エレベーターメイド</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
@@ -42,16 +41,16 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>9863</PointerOffset>
-      <JapaneseText>エレベーターメイド</JapaneseText>
+      <PointerOffset>7319,8171,6152,16334,9739</PointerOffset>
+      <JapaneseText>select</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>9890</PointerOffset>
-      <JapaneseText>クマ</JapaneseText>
+      <PointerOffset>6048</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
@@ -59,117 +58,90 @@
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>2777</PointerOffset>
-      <JapaneseText>---DIFFUSION_S---</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2886</PointerOffset>
-      <JapaneseText>---TREE_S---</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3033</PointerOffset>
-      <JapaneseText>---DIFFUSION_S---</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3132</PointerOffset>
-      <JapaneseText>---TREE_S---</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>5899</PointerOffset>
-      <JapaneseText>&lt;font:000a&gt;〜&lt;Unk17:3100&gt;階〜</JapaneseText>
+      <JapaneseText>&lt;font:000a&gt;～&lt;Unk17:3100&gt;階～</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5905</PointerOffset>
-      <JapaneseText>サイグローグの館&lt;Unk17:3100&gt;階</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
+      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5908</PointerOffset>
       <JapaneseText>サイグローグの館&lt;Unk17:3100&gt;階</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5926</PointerOffset>
-      <JapaneseText>サイグローグの館</JapaneseText>
+      <PointerOffset>5905</PointerOffset>
+      <JapaneseText>サイグローグの館&lt;Unk17:3100&gt;階</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>8</Id>
+      <Notes>This place's name in the menu</Notes>
+      <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5929</PointerOffset>
       <JapaneseText>サイグローグの館</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>9</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5938</PointerOffset>
-      <JapaneseText>謎の館</JapaneseText>
+      <PointerOffset>5926</PointerOffset>
+      <JapaneseText>サイグローグの館</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>10</Id>
+      <Notes>This place's name in the menu</Notes>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5941</PointerOffset>
       <JapaneseText>謎の館</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <Id>11</Id>
+      <Notes>This place's name (generalized)</Notes>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>6051</PointerOffset>
-      <JapaneseText>&lt;Red&gt;前の階に戻る事はできません。</JapaneseText>
+      <PointerOffset>5938</PointerOffset>
+      <JapaneseText>謎の館</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>This place's name in the menu</Notes>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>9893</PointerOffset>
+      <JapaneseText>タイマーリセット</JapaneseText>
+      <EnglishText/>
       <SpeakerId>0</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6155</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;逆戻りすると、&lt;Red&gt;ギブアップ&lt;White&gt;として
-館の外に出されます。
-よろしいですか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>13</Id>
+      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>9866</PointerOffset>
+      <JapaneseText>現在、&lt;Unk17:3100&gt;階です。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>1</SpeakerId>
+      <Notes/>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-0</Section>
     <Entry>
       <PointerOffset>6639</PointerOffset>
       <JapaneseText>おや、皆様……またしても、
@@ -177,9 +149,9 @@
 よほど、戦いを求めていらっしゃるご様子……
 どうぞ……お楽しみ下さい……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>14</Id>
+      <Notes/>
+      <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -187,18 +159,18 @@
       <JapaneseText>わたくしは、サイグローグと申します……
 我が迷宮にようこそ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>15</Id>
+      <Notes/>
+      <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6767</PointerOffset>
       <JapaneseText>皆様、我が迷宮にようこそ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>16</Id>
+      <Notes/>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -208,9 +180,9 @@
 皆様はまだ、我が迷宮に立ち入る資格を
 満たしていません……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>17</Id>
+      <Notes/>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -219,9 +191,9 @@
 たちまち、血と肉の塊と化して
 しまうでしょう……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>18</Id>
+      <Notes/>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -230,9 +202,9 @@
 改めてご案内いたします。
 それでは……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>19</Id>
+      <Notes/>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -240,18 +212,18 @@
       <JapaneseText>わたくしは、サイグローグと申します……
 我が迷宮にようこそ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>20</Id>
+      <Notes/>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>6990</PointerOffset>
       <JapaneseText>皆様、我が迷宮にようこそ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>21</Id>
+      <Notes/>
+      <Id>17</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -261,9 +233,9 @@
 しかし、血と狂気に満ちた世界に
 転じる事もございましょう……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>22</Id>
+      <Notes/>
+      <Id>18</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -272,9 +244,9 @@
 皆様、存分にお楽しみ下さい……
 それでは、また後ほどお会いいたしましょう……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>23</Id>
+      <Notes/>
+      <Id>19</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -283,9 +255,9 @@
 存分にお楽しみ下さい……
 生きて戻れるならば……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>24</Id>
+      <Notes/>
+      <Id>20</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -293,9 +265,9 @@
       <JapaneseText>どうぞどうぞ……余計な事は申しません。
 戦いをお楽しみ下さい……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>25</Id>
+      <Notes/>
+      <Id>21</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -303,9 +275,9 @@
       <JapaneseText>……ひとつ質問をいたしましょう。
 あなたは、ある屋敷に招かれました。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>26</Id>
+      <Notes/>
+      <Id>22</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -313,9 +285,9 @@
       <JapaneseText>すると、入り口で門番が
 あなたにこんな事をささやきました……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
+      <Notes/>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -324,21 +296,21 @@
 　飲ませようとしています。
 　決して、右のグラスを取ってはいけません」</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>28</Id>
+      <Notes/>
+      <Id>24</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>7299</PointerOffset>
-      <JapaneseText>部屋に入ると、屋敷の惹人は満面の笑みを
+      <JapaneseText>部屋に入ると、屋敷の主人は満面の笑みを
 浮かべて座っています。
 その目の前には、豪華な食事と、
 飲み物が注がれた、ふたつのグラス……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>29</Id>
+      <Notes/>
+      <Id>25</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -347,9 +319,9 @@
 　右のグラス　
 　左のグラス　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>30</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -358,9 +330,9 @@
 どちらのグラスにも、
 毒など入っていなかったのですから……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>31</Id>
+      <Notes/>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -368,9 +340,9 @@
       <JapaneseText>あなたは、今……考えました……
 あなたは、今……迷いました……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>32</Id>
+      <Notes/>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -379,9 +351,9 @@
 それこそが、わたくしの喜び……
 それでは、また後ほどお会いいたしましょう……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
+      <Notes/>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -390,9 +362,9 @@
 さあ、お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>34</Id>
+      <Notes/>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -401,9 +373,9 @@
 ささやかな贈り物です。
 こちらの品をどうぞ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>35</Id>
+      <Notes/>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -413,9 +385,9 @@
 ……おや？
 &lt;Cyan&gt;護符&lt;White&gt;を&lt;Red&gt;たくさんお持ち&lt;White&gt;のようで……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>36</Id>
+      <Notes/>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -424,9 +396,9 @@
 贈り物は差し上げられません……
 またの機会にいたしましょう……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>37</Id>
+      <Notes/>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -435,9 +407,9 @@
 忘れてしまいたい出来事、
 無かった事にしたい出来事はありませんか？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>38</Id>
+      <Notes/>
+      <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -446,9 +418,9 @@
 何年経っても、記憶に刻まれているのです。
 心に刺さり続けているのです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>39</Id>
+      <Notes/>
+      <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -457,9 +429,9 @@
 ……忘れようとするほど……
 逆に、記憶に鮮明に刻まれてしまうのです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>40</Id>
+      <Notes/>
+      <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -468,9 +440,9 @@
 あなたは、また……思い出しました……
 それこそが、わたくしの喜び……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>41</Id>
+      <Notes/>
+      <Id>37</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -479,9 +451,9 @@
 &lt;Yellow&gt;今の皆様&lt;White&gt;を御案内できるのは、
 この２０階までです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>42</Id>
+      <Notes/>
+      <Id>38</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -490,9 +462,9 @@
 この迷宮は、いつでも皆様を待っております……
 それでは……しばしのお別れです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>43</Id>
+      <Notes/>
+      <Id>39</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -502,9 +474,9 @@
 そして、あなたの事を心から信頼している
 相手はどれだけいると思いますか？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>44</Id>
+      <Notes/>
+      <Id>40</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -513,9 +485,9 @@
 憎い相手はいますか？
 消えて無くなって欲しいほどの相手はいますか？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>45</Id>
+      <Notes/>
+      <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -523,9 +495,9 @@
       <JapaneseText>あなたは、今……考えました……
 それこそが、わたくしの喜び……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>46</Id>
+      <Notes/>
+      <Id>42</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -535,9 +507,9 @@
 お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>47</Id>
+      <Notes/>
+      <Id>43</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -546,9 +518,9 @@
 さあ、お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>48</Id>
+      <Notes/>
+      <Id>44</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -557,9 +529,9 @@
 そして、夢をみるでしょう。
 楽しい夢や恐ろしい夢……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>49</Id>
+      <Notes/>
+      <Id>45</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -567,9 +539,9 @@
       <JapaneseText>時に、いつまでも覚えていたいような
 素晴らしい夢をみた経験はありませんか？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>50</Id>
+      <Notes/>
+      <Id>46</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -579,9 +551,9 @@
 できれば、その夢の世界に行ってしまいたい……
 そんな……夢……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>51</Id>
+      <Notes/>
+      <Id>47</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -590,9 +562,9 @@
 　こちらの世界　
 　あちらの世界　</JapaneseText>
       <EnglishText/>
+      <SpeakerId>4</SpeakerId>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>52</Id>
+      <Id>48</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -602,9 +574,9 @@
 &lt;Red&gt;死&lt;White&gt;を選んでも、一瞬でも&lt;Red&gt;死&lt;White&gt;に
 魅力を感じたとしても、わたくしの喜び……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>53</Id>
+      <Notes/>
+      <Id>49</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -613,9 +585,9 @@
 お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>54</Id>
+      <Notes/>
+      <Id>50</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -624,9 +596,9 @@
 さあ、お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>55</Id>
+      <Notes/>
+      <Id>51</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -635,9 +607,9 @@
 ささやかな贈り物です。
 こちらの品をどうぞ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>56</Id>
+      <Notes/>
+      <Id>52</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -647,9 +619,9 @@
 ……おや？
 &lt;Cyan&gt;護符&lt;White&gt;を&lt;Red&gt;たくさんお持ち&lt;White&gt;のようで……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>57</Id>
+      <Notes/>
+      <Id>53</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -658,9 +630,9 @@
 贈り物は差し上げられません……
 またの機会にいたしましょう……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>58</Id>
+      <Notes/>
+      <Id>54</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -670,9 +642,9 @@
 あなたの目には、きっとあれが
 怪物に見えているのでしょう。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>59</Id>
+      <Notes/>
+      <Id>55</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -682,9 +654,9 @@
 あなただけが、ゆがんだ像を
 見ているとしたら……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>60</Id>
+      <Notes/>
+      <Id>56</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -694,9 +666,9 @@
 恐ろしい武器を叩きつけるあなたの姿は、
 周囲からはどのように見えるのでしょうねぇ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>61</Id>
+      <Notes/>
+      <Id>57</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -704,9 +676,9 @@
       <JapaneseText>あなたは、今……考えました……
 それこそが、わたくしの喜び……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>62</Id>
+      <Notes/>
+      <Id>58</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -715,9 +687,9 @@
 &lt;Yellow&gt;今の皆様&lt;White&gt;を御案内できるのは、
 この４０階までです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>63</Id>
+      <Notes/>
+      <Id>59</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -726,9 +698,9 @@
 この迷宮は、いつでも皆様を待っております……
 それでは……しばしのお別れです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>64</Id>
+      <Notes/>
+      <Id>60</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -737,9 +709,9 @@
 そこに文字を記すだけで、あなたの願い……
 欲望をかなえてくれるカードです。</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>65</Id>
+      <Notes/>
+      <Id>61</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -747,9 +719,9 @@
       <JapaneseText>ただし、願いをかなえる代償として、
 あなたの身近な人物の命が失われます……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>66</Id>
+      <Notes/>
+      <Id>62</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -759,9 +731,9 @@
 単なる顔見知りや、あるいは嫌いな誰かでも
 構わないのです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>67</Id>
+      <Notes/>
+      <Id>63</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -770,9 +742,9 @@
 ……誰を犠牲に選びますか？
 ……そして、いくつの願いをかなえますか？</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>68</Id>
+      <Notes/>
+      <Id>64</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -780,9 +752,9 @@
       <JapaneseText>あなたは、今……考えました……
 それこそが、わたくしの喜び……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>69</Id>
+      <Notes/>
+      <Id>65</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -792,9 +764,9 @@
 お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>70</Id>
+      <Notes/>
+      <Id>66</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -803,9 +775,9 @@
 さあ、お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>71</Id>
+      <Notes/>
+      <Id>67</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -815,9 +787,9 @@
 それは、何十年も先かもしれない……
 いや……明日かもしれない……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>72</Id>
+      <Notes/>
+      <Id>68</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -825,9 +797,9 @@
       <JapaneseText>全てのものは、生まれた瞬間から、
 &lt;Red&gt;死&lt;White&gt;に向かって進んでいるのです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>73</Id>
+      <Notes/>
+      <Id>69</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -837,9 +809,9 @@
 お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>74</Id>
+      <Notes/>
+      <Id>70</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -848,19 +820,19 @@
 さあ、お進み下さい……
 深みへ……深みへ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>75</Id>
+      <Notes/>
+      <Id>71</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>9239</PointerOffset>
       <JapaneseText>ここが、正真正銘……
-最完フロアです……</JapaneseText>
+最終フロアです……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>76</Id>
+      <Notes/>
+      <Id>72</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -869,9 +841,9 @@
 ささやかな贈り物です。
 こちらの品をどうぞ……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>77</Id>
+      <Notes/>
+      <Id>73</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -881,9 +853,9 @@
 ……おや？
 &lt;Cyan&gt;護符&lt;White&gt;を&lt;Red&gt;たくさんお持ち&lt;White&gt;のようで……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>78</Id>
+      <Notes/>
+      <Id>74</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -892,9 +864,9 @@
 贈り物は差し上げられません……
 またの機会にいたしましょう……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>79</Id>
+      <Notes/>
+      <Id>75</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -904,11 +876,56 @@
 わたくしは、いつでも待っております……
 ……いつでも……いつまでも……</JapaneseText>
       <EnglishText/>
-      <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>80</Id>
+      <Notes/>
+      <Id>76</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-2</Section>
+    <Entry>
+      <PointerOffset>6155</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;逆戻りすると、&lt;Red&gt;ギブアップ&lt;White&gt;として
+館の外に出されます。
+よろしいですか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>77</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-3</Section>
+    <Entry>
+      <PointerOffset>6051</PointerOffset>
+      <JapaneseText>&lt;Red&gt;前の階に戻る事はできません。</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>5</SpeakerId>
+      <Notes/>
+      <Id>78</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>16337</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <SpeakerId>4</SpeakerId>
+      <Notes/>
+      <Id>79</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
       <PointerOffset>9742</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;逆戻りすると、&lt;Red&gt;ギブアップ&lt;White&gt;として
@@ -917,576 +934,9 @@
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>81</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9866</PointerOffset>
-      <JapaneseText>現在、&lt;Unk17:3100&gt;階です。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>82</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9893</PointerOffset>
-      <JapaneseText>タイマーリセット</JapaneseText>
-      <EnglishText/>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
-      <Id>83</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>11556</PointerOffset>
-      <JapaneseText>i_party_num = &lt;Unk17:380408&gt;, i_btl_level = &lt;Unk17:380008&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>84</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>５連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>85</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>１０連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>86</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>１５連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>87</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>２０連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>88</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>２５連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>89</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>３０連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>90</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>６０秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>91</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>５５秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>92</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>５０秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>93</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>４５秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>94</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>４０秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>95</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>３５秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>96</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>３０秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>97</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>２連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>98</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>３連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>99</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>４連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>100</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>５連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>101</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>６連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>102</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>７連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>103</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>８連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>104</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>９連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>105</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>１０連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>106</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>107</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>108</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>109</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>110</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>111</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12422</PointerOffset>
-      <JapaneseText>&lt;Hilda&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>112</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12450</PointerOffset>
-      <JapaneseText>i_win_count =  &lt;Unk17:38fc07&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>113</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>12471</PointerOffset>
-      <JapaneseText>btl_info_win = &lt;Unk17:323c&gt;, btl_info_time = &lt;Unk17:3240&gt; , btl_info_hit = &lt;Unk17:3244&gt;, btl_info_finish = &lt;Unk17:1248&gt;, global[4] = &lt;Unk17:3110&gt; </JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>114</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14004</PointerOffset>
-      <JapaneseText>&lt;Unk18:488807311088&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>115</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14029</PointerOffset>
-      <JapaneseText>ペナルティを克服し次の階を目指せ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>116</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14035</PointerOffset>
-      <JapaneseText>nextID = &lt;Unk17:3114&gt;, global[6] = &lt;Unk17:3118&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>117</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14060</PointerOffset>
-      <JapaneseText>次の階への入り口を探せ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>118</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14066</PointerOffset>
-      <JapaneseText>nextID = &lt;Unk17:3114&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>119</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>14092</PointerOffset>
-      <JapaneseText>はぐれた仲間達を集めろ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>120</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>５連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>121</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>１０連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>122</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>１５連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>123</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>２０連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>124</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>２５連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>125</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>３０連続以上HITせよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>126</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>６０秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>127</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>５５秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>128</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>５０秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>129</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>４５秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>130</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>４０秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>131</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>３５秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>132</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>３０秒以内に勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>133</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>２連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>134</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>３連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>135</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>４連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>136</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>５連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>137</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>６連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>138</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>７連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>139</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>８連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>140</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>９連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>141</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>１０連勝せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>142</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>143</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>144</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>&lt;Eugene&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>145</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>146</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>&lt;Tytree&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>147</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>15014</PointerOffset>
-      <JapaneseText>&lt;Hilda&gt;でとどめをさして勝利せよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>148</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>16337</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>149</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>18005</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>150</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>18083</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>151</Id>
+      <Id>80</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>
