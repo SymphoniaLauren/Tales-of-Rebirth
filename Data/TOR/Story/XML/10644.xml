@@ -4,10 +4,10 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>860,860,860,860,737,737,737</PointerOffset>
@@ -20,10 +20,10 @@
     <Entry>
       <PointerOffset>2319</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>712,676,644</PointerOffset>
@@ -31,7 +31,7 @@
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -39,18 +39,18 @@
     <Entry>
       <PointerOffset>209</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Capital City Balka</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>206</PointerOffset>
       <JapaneseText>首都バルカ・宿屋</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Capital City Balka - Inn</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -137,11 +137,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>

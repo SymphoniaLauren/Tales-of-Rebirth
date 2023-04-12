@@ -4,18 +4,18 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5612,2364,825</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4048,4012,3976</PointerOffset>
@@ -23,23 +23,23 @@
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220,2220</PointerOffset>
       <JapaneseText>武器屋「切磋琢磨」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Weapon Shop</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612,612</PointerOffset>
       <JapaneseText>防具屋「質実剛健」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Armor Shop</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -47,26 +47,26 @@
     <Entry>
       <PointerOffset>186</PointerOffset>
       <JapaneseText>装備品屋</JapaneseText>
-      <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <EnglishText>Weapon Shop</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>195</PointerOffset>
       <JapaneseText>ペトナジャンカ</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Petnadjanka</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>192</PointerOffset>
       <JapaneseText>ペトナジャンカ・装備品屋</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Petnadjanka - Weapon Shop</EnglishText>
+      <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -76,11 +76,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -91,11 +93,14 @@
 「コチラ見本用、
 　商品はカウンターにて」
 と書かれている。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;"A Display Case of Products"
+"Samples for Display only.
+    Products are available at the counter."
+Is written on it.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -107,11 +112,16 @@
 　同行為をされた方は商品を相当額で
 　お買い上げいただきます。
 　　　　　　　　　　　　　店主</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;"A Request for All Customers"
+　Please refrain from striking the the sample
+   products. Those who do so will be asked
+   to purchase the product at a reasonable
+  price.
+　　　　　　　　　　　　　Storekeeper</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -122,11 +132,15 @@
 ★満月の日はサービスデー！
 　全品三割引きの超特価！
 　　　武器屋「切磋琢磨」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;"Signboard"
+★Full Moon Sale!
+     30% off for all items!
+  　　- Weapon Shop 
+         "Mutual Encouragement"</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -136,11 +150,12 @@
       <JapaneseText>ガジュマは本当に
 仕事をよくさぼりやがるな。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Gajumas really like slacking
+off, don't they?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2280</PointerOffset>
@@ -148,33 +163,37 @@
 うちのガジュマにびしっと
 言ってやってくれないか？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>How about you talk some proper
+sense into that Gajuma, &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2319</PointerOffset>
       <JapaneseText>な、なんだよ、
 この地鳴りは……
 せ、世界の終わりか……？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Wh-What the--!?
+Th-the earth's shaking...
+Is the world ending!?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2344</PointerOffset>
       <JapaneseText>攻撃は最大の防御なり！
 武器をそろえないでどうする！
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Offense is the best defense!
+Equip to protect yourself!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2367</PointerOffset>
@@ -182,51 +201,58 @@
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Weapons
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2429</PointerOffset>
       <JapaneseText>気が向いたら、
 また来いよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Feel free to come again
+when you change your mind.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2470</PointerOffset>
       <JapaneseText>防具屋には負けないぞ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I ain't gonna lose to that
+guy over there!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2568</PointerOffset>
       <JapaneseText>街の中に誰もいないって？
 まさか俺っちだけ仲間外れ……？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Huh? There's no one in the city?
+Am I being left out...?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2590</PointerOffset>
       <JapaneseText>……じゃないか。
 防具屋のヤツもいる事だし、
 まあ、いいか……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Or not... At any rate, the
+guy at the armor shop's
+still there. Whatever.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2640</PointerOffset>
@@ -234,140 +260,155 @@
 買った剣で&lt;Tytree&gt;を
 殺したり……？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>D-Don't tell me you're
+planning on killing
+&lt;Tytree&gt; with my swords!?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2673</PointerOffset>
       <JapaneseText>そ、それだけは
 やめてくれよ。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>P-Please don't.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>18</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2743</PointerOffset>
       <JapaneseText>よかった、&lt;Tytree&gt;……
 なんか騒ぎに巻き込まれてるとは
 聞いてたけど、無事で何よりだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Oh thank god... I heard something
+happened to you, but it looks like
+you're unscathe.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2765</PointerOffset>
       <JapaneseText>で、セレーナが
 大変だって聞いたけど……
 どうしたんだ？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I heard that Selena's also
+in danger, what happened?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>20</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2790</PointerOffset>
       <JapaneseText>あんたらが&lt;Tytree&gt;を
 助けたんだって？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Were you the ones who
+saved &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2812</PointerOffset>
       <JapaneseText>同じ街の仲間を救ってくれた
 お礼はしたいが、ウチの商品を
 やるわけにはいかねえな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I want to thank you for saving
+him, but I can't really part
+with my products.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>22</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2834</PointerOffset>
       <JapaneseText>ま、気持ちだけ受け取ってくれ。
 どうだい、この笑顔？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>How about you accept my
+feelings, at least?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>23</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2926</PointerOffset>
       <JapaneseText>セレーナが戻ってきたって
 みんな喜んでるそうだな。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I heard that everyone' s happy
+with Selena's return.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2948</PointerOffset>
       <JapaneseText>セレーナって、
 どこかに行ってたのか？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Did she go somewhere?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2988</PointerOffset>
       <JapaneseText>商売が忙しいもんで、
 最近、世情にうとくてな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sorry, I've been so caught up with
+work that I'm a bit out of the loop.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>26</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3013</PointerOffset>
       <JapaneseText>おお、&lt;Tytree&gt;の友達だな。
 ま、安くはできんが、
 見てってくれよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Oh you're &lt;Tytree&gt;'s pals, right?
+Well, I can't give you a discount
+but feel free to look.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>27</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3077</PointerOffset>
       <JapaneseText>防具屋の奴、
 何怒ってんだろうな？
 なんか俺悪い事したか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I wonder what the guy at
+the armor shop's pissed at for?
+Did I do something wrong?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>28</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3099</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;、
 聞いてみてくんないか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hey, &lt;Tytree&gt;, get this...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>29</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3124</PointerOffset>
@@ -375,22 +416,26 @@
 俺を見る目つきが
 なんかむかつくんだよな。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>So that guy at the armor shop,
+the one over there? Well, the
+way he looks at me kind of 
+pisses you off, right?.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>30</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3146</PointerOffset>
       <JapaneseText>一体、どうしたって
 いうんだろうな？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Wonder what's gotten
+into him?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>31</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3210</PointerOffset>
@@ -398,277 +443,314 @@
 ガジュマたちの様子が
 おかしいと思わないか？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hey, don't you think the
+Gajumas have been acting
+a little strange, lately?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>32</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3232</PointerOffset>
       <JapaneseText>この街はみんな
 仲良くやってたんだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Like, everyone's all fine
+and dandy until those guys
+came.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>33</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3254</PointerOffset>
       <JapaneseText>後からやって来た
 ガジュマが悪いんだな、きっと。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I bet they're the ones
+behind this.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>34</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3279</PointerOffset>
       <JapaneseText>最近、街の中に
 ガジュマが増えたんだ。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Gajumas in this city
+have been increasing lately.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>35</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3301</PointerOffset>
       <JapaneseText>なんでもよその街を追い出されたんだと。そのせいか、俺たちヒューマを見る目が
 コワイんだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Apparently they've been kicked
+out from which city they're from...
+That explains the scared looks
+they give to Humas.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>36</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3323</PointerOffset>
       <JapaneseText>俺たちが悪い事をしたわけじゃ
 ないのにな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Well, it's not like we did
+something bad...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3387</PointerOffset>
       <JapaneseText>本当にガジュマめ、
 むかつくぜ。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Yeah... Those damn Gajumas
+really piss me off...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>38</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3409</PointerOffset>
       <JapaneseText>このあいだなんか、隣の防具屋の野郎、
 俺をこの店から追い出そうとしやがって……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>That guy beside me, the one in
+the armor shop? Well, apparently
+he's trying to make me leave.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3431</PointerOffset>
       <JapaneseText>こっちはこの場所で
 先祖代々やってきたってんだ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>My family's been tending to
+this shop for generations! He'll
+have to kill me first before I
+leave here!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3469</PointerOffset>
       <JapaneseText>ガジュマ……あんたみたいな
 よそ者のガジュマが、
 この街をおかしくしたんだ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You Gajuma... Outsiders like
+you made this city go crazy!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3494</PointerOffset>
       <JapaneseText>あんたガジュマと
 一緒にいるのはやめた方がいいぜ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'd advice you to stop traveling
+with that Gajuma.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3516</PointerOffset>
       <JapaneseText>連中、ひがみっぽいし、
 なんにでもケチをつけやがる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>They're always trying to find
+fault in you.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3538</PointerOffset>
       <JapaneseText>本当にどうしようもない
 連中だぜ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What a hopeless lot.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3586</PointerOffset>
       <JapaneseText>どこかの田舎娘が
 工場でのもめ事を解決してから、
 工場も落ち着いたみたいだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Apparently, some country lass
+settled a fight over at the factory.
+It's calmed down since then...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3608</PointerOffset>
       <JapaneseText>でも防具屋の野郎は
 相変わらずなんだよな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Unlike that bastard over there.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>46</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3630</PointerOffset>
       <JapaneseText>よほど、俺に
 不満とかあったのかな？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Maybe I really did do
+something wrong?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3668</PointerOffset>
       <JapaneseText>ガジュマとおしゃべりなんぞ
 したくないね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I don't want to talk to Gajumas
+like you.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3693</PointerOffset>
       <JapaneseText>なんか最近、俺おかしいよな。
 ガジュマの事、急に嫌いに
 なったりして。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You know, something must've
+gotten over me... Like, I used
+to not hate Gajumas and then...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3715</PointerOffset>
       <JapaneseText>いや……そもそも
 ガジュマが悪いんだよな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...Nah, nevermind. It
+was their fault, anyway.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3737</PointerOffset>
       <JapaneseText>俺を追い出そうと
 するから……なぁ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Yeah, they're the ones
+trying to chase me out.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3801</PointerOffset>
       <JapaneseText>防具屋の奴がここんとこ
 妙に静かなのが気になるな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>That guy at the armor shop's
+been quiet lately, it's creeping
+me off...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3823</PointerOffset>
       <JapaneseText>生きてるんだろうな？
 &lt;Tytree&gt;、確かめてくれよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You still alive, &lt;Tytree&gt;?
+Lemme make sure...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>53</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3848</PointerOffset>
       <JapaneseText>旅の人にはわからないだろうけど
 街が以前に比べると静かな気がするんだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You travellers prolly don't know, but
+Petnadjanka seems quieter than before.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>54</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3870</PointerOffset>
       <JapaneseText>あのもめ事以来かな。
 人と人の関係が少しだけ
 変わった気がするよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I guess everyone's relationship
+has changed ever since that
+happened.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>55</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3892</PointerOffset>
       <JapaneseText>特にガジュマと
 ヒューマの関係がね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Especially the ones between
+Gajumas and Humas.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>56</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3917</PointerOffset>
       <JapaneseText>隣の防具屋とは
 創業時期が一緒でね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You know, that armor shop
+next door was established
+at the same time as mine's.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3939</PointerOffset>
       <JapaneseText>七代前のご先祖様からの
 よきライバルなのさ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Way, way back. It's been this
+shop's rival for seven generations!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -677,51 +759,55 @@
       <PointerOffset>656</PointerOffset>
       <JapaneseText>ちゃ、ちゃんと
 働いてますよ……!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I-I'm properly
+working, Sir!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>59</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>681</PointerOffset>
       <JapaneseText>あーあ、まったく
 やってらんねえな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ohhh... what a pain...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>60</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>736</PointerOffset>
       <JapaneseText>あ……&lt;Tytree&gt;さん……!!
 な、なんでもありません……!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>S-Sir T-Tytree--!!
+N-Nothing, sir!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>780</PointerOffset>
       <JapaneseText>な、なんで
 こんなに地鳴りが……？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Wh-Why's the 
+ground... shaking...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>805</PointerOffset>
       <JapaneseText>攻撃の前に、まずは
 自分の身を守れないと。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Consider your defense
+before going on offense.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>828</PointerOffset>
@@ -729,79 +815,87 @@
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Armor
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>890</PointerOffset>
       <JapaneseText>また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back again!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>931</PointerOffset>
       <JapaneseText>武器屋には負けないよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I ain't gonna lose to that
+guy over there!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1025</PointerOffset>
       <JapaneseText>え？　街の中に誰もいない？
 さあ、どうしたんだろう……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Huh? There's no one in the
+city? I wonder what happened...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>67</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1047</PointerOffset>
       <JapaneseText>オイラだけ仲間外れ……？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>D-Did they forget to
+tell me...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1069</PointerOffset>
       <JapaneseText>……なんか……
 気になってきたな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Now I'm bothered about it...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>69</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1119</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;が工場の中で
 大変な事になってるって？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>What did you say!?
+&lt;Tytree&gt;'s in danger at
+the factory!?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>70</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1141</PointerOffset>
       <JapaneseText>えっと……こんな時、オイラは……
 ……どうすればいいんだ？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Uhh... So... What am I
+supposed to do...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>71</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1205</PointerOffset>
@@ -819,11 +913,12 @@
       <JapaneseText>なんだよ、なんだよ、
 そのイヤそうな顔は……？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Wh-What's with that
+expression...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>73</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1270</PointerOffset>
@@ -841,21 +936,24 @@
       <PointerOffset>1292</PointerOffset>
       <JapaneseText>でも、旅には防具は欠かせないよ。
 どんな強い人でもね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But, first of all, you've got to get 
+yourself some good armor, no 
+matter how strong you guys are.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>75</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1314</PointerOffset>
       <JapaneseText>そう、人には必ず愛が必要なように、
 旅人にはまた防具が必要なのさ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Just as how love is necessary for
+mankind, so is armor for travellers!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>76</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1396</PointerOffset>
@@ -863,22 +961,24 @@
 &lt;Tytree&gt;は、
 まだ旅を続けるのかい？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like Selena's back, but
+are you still gonna keep traveling, &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>77</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1418</PointerOffset>
       <JapaneseText>だったらうちで防具を
 そろえていってくれよな。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Then you gotta get 
+yourself some armor!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>78</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1443</PointerOffset>
@@ -886,11 +986,12 @@
 必ずセレーナさんを
 助けてくれるって思ってた。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I always knew you guys will 
+manage to get Selena back!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>79</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1465</PointerOffset>
@@ -898,42 +999,48 @@
 売ってる剣の刃よりも
 鋭いからね。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>My intuitions are sharper than
+the blades sword at that weapon
+shop over there.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>80</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1528</PointerOffset>
       <JapaneseText>最近、妙にヒューマに
 腹が立つ事はないかい？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Have you ever felt strangely
+annoyed towards Humas lately?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>81</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1550</PointerOffset>
       <JapaneseText>オイラは毎日さ。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Been feeling it
+everyday for me.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>82</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1572</PointerOffset>
       <JapaneseText>隣の武器屋の顔を見るたびに
 ムカムカしてさ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Like, I start to feel really
+pissed at the guy beside
+me for some reason.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>83</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1611</PointerOffset>
@@ -950,42 +1057,45 @@
     <Entry>
       <PointerOffset>1633</PointerOffset>
       <JapaneseText>いや……すまない……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ah-- No... Sorry...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>85</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1658</PointerOffset>
       <JapaneseText>無駄話するなら、帰んなよ。
 ここは防具屋だ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Look, if you're just here to
+chat then LEAVE! This is
+an armor shop, people!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>86</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1721</PointerOffset>
       <JapaneseText>どうしてヒューマなんて
 いるのかね……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Why do Humas even exist...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>87</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1743</PointerOffset>
       <JapaneseText>もういい加減、
 ヒューマの隣で店やってるなんて
 耐えられなくなってきたよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Goddammit, I've had enough! I don't want
+to sell by that damn Huma anymore!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>88</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1782</PointerOffset>
@@ -993,146 +1103,159 @@
 さっさと出ていってほしい
 くらいだね。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Honestly, I hope that guy would
+just pack up and leave.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>89</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1804</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;だっておんなじさ！
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>You're the same too!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>90</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1829</PointerOffset>
       <JapaneseText>品物を買わないんなら、
 さっさと帰れ！
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Just leave if you're not gonna
+buy something!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>91</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1901</PointerOffset>
       <JapaneseText>工場の連中、ヒューマの娘に
 そそのかされてさ。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>That Huma girl seduced all
+the guys at the factory!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>92</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1923</PointerOffset>
       <JapaneseText>みんな、ヒューマの娘に
 そそのかされてるんじゃ
 ないのかな？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I wonder if that falls for
+everyone else too...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>93</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1948</PointerOffset>
       <JapaneseText>ヒューマはとりあえず、
 この街から出ていけ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>At any rate, these Humas
+need to get out of here fast!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>94</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1986</PointerOffset>
       <JapaneseText>よくよく考えてみたら、
 何もひとつの建物をふたつの店で
 使う事ないよね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I've been thinking... Isn't this
+building too small for two stores?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>95</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2008</PointerOffset>
       <JapaneseText>よし……ヒューマの武器屋なんて
 追い出してやるぞ……！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Alright, then! I gotta chase
+that Huma at the weapon shop first!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>96</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2033</PointerOffset>
       <JapaneseText>ヒューマはとりあえず、
 この街から出ていけ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>At any rate, these Humas
+need to get out of here fast!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>97</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2096</PointerOffset>
       <JapaneseText>ガジュマとヒューマが
 いがみ合いすぎて、ラジルダは
 水の中に沈んだって聞いたんだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I heard that Gajumas and Humas
+fought so hard that Razilda sunk underwater.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>98</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2118</PointerOffset>
       <JapaneseText>ヒューマは気にくわないけど……
 ちょっとおとなしくしとこう……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I... don't really like Humas, but...
+I guess I'll stay quiet for now.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>99</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2143</PointerOffset>
       <JapaneseText>ヒューマは……！
 いや……なんでもない……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Humas are--!
+Nevermind...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>100</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2168</PointerOffset>
       <JapaneseText>ペトナジャンカで
 防具屋といえば、うちだけ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm your guy when it comes
+to weapons in Petnadjanka!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>101</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2190</PointerOffset>
       <JapaneseText>ここで買わずして、
 どこで買う？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you don't buy your stuff here,
+then where else would you go?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>102</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

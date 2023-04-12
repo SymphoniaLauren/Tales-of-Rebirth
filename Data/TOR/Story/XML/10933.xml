@@ -4,26 +4,26 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313</PointerOffset>
       <JapaneseText>男の人</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Man</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3033</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -31,26 +31,26 @@
     <Entry>
       <PointerOffset>132</PointerOffset>
       <JapaneseText>ベルサススラム・民家</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Belsas Slum - Residence</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>129</PointerOffset>
       <JapaneseText>ベルサススラム・民家</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Belsas Slum - Residence</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>141</PointerOffset>
       <JapaneseText>民家</JapaneseText>
-      <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <EnglishText>Residence</EnglishText>
+      <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -400,11 +400,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>36</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

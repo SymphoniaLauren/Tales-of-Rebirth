@@ -4,10 +4,10 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3470,3470</PointerOffset>
@@ -44,10 +44,10 @@
     <Entry>
       <PointerOffset>3222,3222</PointerOffset>
       <JapaneseText>カレギア兵</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3201,2337</PointerOffset>
@@ -55,23 +55,23 @@
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4848,2656,1811</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2368,2368,2368,2368,2368,2368,2368,2368,2368,2368,2368,2368,2368,2368,2368,2368,2368</PointerOffset>
       <JapaneseText>道具屋「外門市場」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Item Shop</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1642,1642,1642,1642,1642,1642,1642,1642</PointerOffset>
@@ -84,58 +84,58 @@
     <Entry>
       <PointerOffset>1864,1919,207</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2128</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2164</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2200</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2237</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2274</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2311</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
       <Notes/>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -143,18 +143,18 @@
     <Entry>
       <PointerOffset>1121</PointerOffset>
       <JapaneseText>バルカ港</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Balka Harbor</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1118</PointerOffset>
       <JapaneseText>バルカ港</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Balka Harbor</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -304,11 +304,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -380,11 +382,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　道具を買う　
 　世間話をする　
 　やめる　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2721</PointerOffset>
@@ -398,11 +402,11 @@
     <Entry>
       <PointerOffset>2762</PointerOffset>
       <JapaneseText>またどうぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>23</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2853</PointerOffset>
@@ -553,39 +557,42 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;食べますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Take a bite?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1867</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:20000012&gt;』を食べました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Ate "&lt;item:20000012&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>38</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2131</PointerOffset>
       <JapaneseText>うまい……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It's good...</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2167</PointerOffset>
       <JapaneseText>おいしい!!
 おいしいヨ!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is so good!!
+It's so dang tasty!!</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2203</PointerOffset>
@@ -599,11 +606,11 @@
     <Entry>
       <PointerOffset>2240</PointerOffset>
       <JapaneseText>おいしい……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Delicious...</EnglishText>
       <Notes/>
       <SpeakerId>13</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2277</PointerOffset>
@@ -628,29 +635,29 @@
     <Entry>
       <PointerOffset>2340</PointerOffset>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1922</PointerOffset>
       <JapaneseText>&lt;Green&gt;『&lt;item:20000012&gt;』のレシピを入手しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Obtained recipe for "&lt;item:20000012&gt;"!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>46</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>-1</PointerOffset>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
       <SpeakerId>9</SpeakerId>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1993</PointerOffset>

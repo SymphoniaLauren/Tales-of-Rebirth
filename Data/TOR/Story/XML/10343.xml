@@ -4,26 +4,26 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>550,550,550,550</PointerOffset>
       <JapaneseText>女の子</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Girl</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2195</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>457,508,359,410</PointerOffset>
@@ -31,7 +31,7 @@
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -39,18 +39,18 @@
     <Entry>
       <PointerOffset>151</PointerOffset>
       <JapaneseText>サニイタウン</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Sunnytown</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>148</PointerOffset>
       <JapaneseText>サニイタウン・宿屋・客室</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Sunnytown Inn - Guest Room</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -61,43 +61,48 @@
 聞こえるけど
 出たらいけないの……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I heard a weird sound from
+outside, but my parents
+didn't want me to go out...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>610</PointerOffset>
       <JapaneseText>つまんないなぁ……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm bored...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>648</PointerOffset>
       <JapaneseText>私、ガジュマさんとは
 お話しないの……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm not allowed to talk
+to Gajumas, mister...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>673</PointerOffset>
       <JapaneseText>お外でお魚さんを
 見たいのに……
 どうして出ちゃダメなの？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I wanted to look at the fishies
+outside... Why am I not allowed 
+to go out?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -107,11 +112,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -120,11 +127,12 @@
       <PointerOffset>460</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『オーシャンビュー・雑記帳』
 宿泊客用のノート。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;- Oceanview Notebook -
+A note for Oceanview's guests.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>511</PointerOffset>
@@ -133,11 +141,15 @@
 　スロボダンカへ
 　あなたの事を、心から愛しています。
 　　　　　　　　　アレクサンダル</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;- Oceanview Notebook Contents -
+　
+　Wherever you go, whatever you do.
+　I'll be right here just waiting for you.
+　　　　　　　　　Richard</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -147,11 +159,13 @@
       <JapaneseText>&lt;speed:00&gt;『椅子』
 開くと中に物が収納できるように
 なっている。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;- Ottoman -
+You can open and store
+luggage in this.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>413</PointerOffset>
@@ -160,11 +174,15 @@
 洪水の際に、いつでも持って
 逃げられるよう、どこの家にも
 常備されている。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;- Ottoman -
+There's a sleeping bag in here.
+It can be used to escape the
+room in case of flooding. A
+staple of Sunnytown houses.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

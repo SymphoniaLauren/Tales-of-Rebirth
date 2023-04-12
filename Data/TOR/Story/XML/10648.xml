@@ -4,18 +4,18 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2975,7976,6499,6686,6266,6346</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8086,8199,8312,8427,8543,8659,8785,8931,9004,9262,785,740,695</PointerOffset>
@@ -23,87 +23,87 @@
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8109</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>9328,8864,9095,9195,7081,7347</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8222</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8335</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8450</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8566</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8682</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
       <Notes/>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8808,9039</PointerOffset>
       <JapaneseText>クレア</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Claire</EnglishText>
       <Notes/>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9139</PointerOffset>
       <JapaneseText>アガーテ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Agarte</EnglishText>
       <Notes/>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>810,810,810,810,7542,7570,6966,6995,7017,7134,7182,7204,7252,7274,7398,7426,7486,7508,6938,6476,6619,6641,6663,6825,6847,6754,6881,6243,6323,810,810,810</PointerOffset>
       <JapaneseText>学芸員</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Curator</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -111,16 +111,16 @@
     <Entry>
       <PointerOffset>203</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Capital City Balka</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>200</PointerOffset>
       <JapaneseText>首都バルカ博物館・展示室</JapaneseText>
       <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -128,7 +128,7 @@
       <PointerOffset>268</PointerOffset>
       <JapaneseText>博物館・展示室</JapaneseText>
       <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
@@ -140,11 +140,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -172,11 +174,11 @@
     <Entry>
       <PointerOffset>-1</PointerOffset>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8202</PointerOffset>
@@ -559,11 +561,11 @@
     <Entry>
       <PointerOffset>-1</PointerOffset>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>7401</PointerOffset>
@@ -631,11 +633,12 @@
       <PointerOffset>6502</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6622</PointerOffset>
@@ -755,11 +758,12 @@
       <PointerOffset>6349</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1026</PointerOffset>

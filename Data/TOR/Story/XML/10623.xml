@@ -4,26 +4,26 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4315,2453,1931,1151</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2417,2417,2417,2417,2417,2417,2417,2417,2417,2417,2417</PointerOffset>
       <JapaneseText>食材屋「外門商店」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grocer</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1895,1895</PointerOffset>
@@ -36,10 +36,10 @@
     <Entry>
       <PointerOffset>850,850,850,850,850,850,850,850,850,850,850,850</PointerOffset>
       <JapaneseText>カレギア兵</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1866,1830</PointerOffset>
@@ -47,7 +47,7 @@
       <EnglishText/>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -55,24 +55,24 @@
     <Entry>
       <PointerOffset>1433</PointerOffset>
       <JapaneseText>宿屋・食材屋</JapaneseText>
-      <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <EnglishText>Inn - Grocery Store</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1445</PointerOffset>
       <JapaneseText>バルカ港</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Balka Harbor</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1442</PointerOffset>
       <JapaneseText>バルカ港・宿屋・食材屋</JapaneseText>
       <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <Notes/>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
@@ -84,11 +84,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -109,11 +111,13 @@
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Food
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2518</PointerOffset>
@@ -238,11 +242,13 @@
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Rest
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>18</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1996</PointerOffset>
@@ -257,177 +263,191 @@
       <PointerOffset>149</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;ひと晩&lt;Unk17:340c&gt;ガルドになりますが
 いかがですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>20</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>202</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>255</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>22</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>309</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>23</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>363</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>429</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;泊まんのかい……？
 &lt;Unk17:340c&gt;ガルド置いてきな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>472</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドだけど、
 泊まるかい？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>26</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>526</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>27</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>580</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>28</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>634</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>29</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>688</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドだけど、
 泊まる？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>30</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>742</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
 よろしいでしょうか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>31</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>796</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>32</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>858</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドだ。
 どうする？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>33</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>912</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドだけど泊まるかい？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;Spend &lt;Unk17:340c&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>34</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>966</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドだけど泊まるかい？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;Spend &lt;Unk17:340c&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>35</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1020</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドだけど泊まりますか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;Spend &lt;Unk17:340c&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>36</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1074</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドだけど泊まりますか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;font:80000002&gt;Spend &lt;Unk17:340c&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1154</PointerOffset>
@@ -435,502 +455,507 @@
 　はい　
 　いいえ　
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk17:340c&gt; Gald to rest. Spend the night?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>38</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>157</PointerOffset>
       <JapaneseText>ごゆっくりどうぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>210</PointerOffset>
       <JapaneseText>ごゆっくりお休みください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>263</PointerOffset>
       <JapaneseText>ごゆっくりお休みください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>317</PointerOffset>
       <JapaneseText>ごゆっくりお休みください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>371</PointerOffset>
       <JapaneseText>ごゆっくりお休みください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>437</PointerOffset>
       <JapaneseText>……ふん……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...Hm...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>480</PointerOffset>
       <JapaneseText>ごゆっくり。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>534</PointerOffset>
       <JapaneseText>ごゆっくりお休みください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>46</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>588</PointerOffset>
       <JapaneseText>ごゆっくりお休みください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>642</PointerOffset>
       <JapaneseText>ごゆっくりお休みください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>696</PointerOffset>
       <JapaneseText>ごゆっくり。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>750</PointerOffset>
       <JapaneseText>ごゆっくりお寛ぎください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>804</PointerOffset>
       <JapaneseText>ごゆっくりお休みください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>866</PointerOffset>
       <JapaneseText>…………</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>920</PointerOffset>
       <JapaneseText>どうぞ、ごゆっくり。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sweet dreams.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>53</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>974</PointerOffset>
       <JapaneseText>ごゆっくり。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>54</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1028</PointerOffset>
       <JapaneseText>どうぞ、ごゆっくり。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sweet dreams.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>55</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1082</PointerOffset>
       <JapaneseText>ごゆっくり、どーぞー。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Have a good rest!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>56</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>173</PointerOffset>
       <JapaneseText>お金が足りないようですね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>226</PointerOffset>
       <JapaneseText>お金が足りないようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>279</PointerOffset>
       <JapaneseText>お金が足りないようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>59</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>333</PointerOffset>
       <JapaneseText>お金が足りないようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>60</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>387</PointerOffset>
       <JapaneseText>お金が足りないようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>453</PointerOffset>
       <JapaneseText>金がないのに、
 泊まる気だったのかい？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Were you trying to sleep 
+here without any money?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>496</PointerOffset>
       <JapaneseText>お金が足りないよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>550</PointerOffset>
       <JapaneseText>お金が足りないようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>604</PointerOffset>
       <JapaneseText>お金が足りないようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>658</PointerOffset>
       <JapaneseText>お金が足りないようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>712</PointerOffset>
       <JapaneseText>お金が足りないみたいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>67</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>766</PointerOffset>
       <JapaneseText>泊まり賃をお持ちでないようですが。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>820</PointerOffset>
       <JapaneseText>お金が足りないようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>69</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>882</PointerOffset>
       <JapaneseText>お金が足りないぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We're broke.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>70</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>936</PointerOffset>
       <JapaneseText>あれ？
 お金が足りないみたいだよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Huh?
+We've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>71</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>990</PointerOffset>
       <JapaneseText>お金が足りないんじゃが……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But we seem to have no money...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>72</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1044</PointerOffset>
       <JapaneseText>お金が足りませんが……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We've got no money...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>73</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1098</PointerOffset>
       <JapaneseText>お金が足らないんですけど……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It seems we don't have enough money...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>74</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>181</PointerOffset>
       <JapaneseText>それでは
 またの機会に。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back any time.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>75</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>234</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>76</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>287</PointerOffset>
       <JapaneseText>またどうぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>77</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>341</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>78</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>395</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>79</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>461</PointerOffset>
       <JapaneseText>……ふん……
 ひやかしかい……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...Hm...
+Window-shoppers...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>80</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>504</PointerOffset>
       <JapaneseText>またおいで。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back any time.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>81</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>558</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>82</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>612</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>83</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>666</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>84</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>720</PointerOffset>
       <JapaneseText>またおいで。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back any time.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>85</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>774</PointerOffset>
       <JapaneseText>またのお越しを。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back any time.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>86</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>828</PointerOffset>
       <JapaneseText>またお越しください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>87</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>890</PointerOffset>
       <JapaneseText>なんだ、
 泊まらないのか……？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Do you not want to sleep here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>88</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>944</PointerOffset>
       <JapaneseText>いつでもどうぞ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You're always welcome here!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>89</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>998</PointerOffset>
       <JapaneseText>いつでもおいで。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back anytime.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>90</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1052</PointerOffset>
       <JapaneseText>お気をつけて……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Take care...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>91</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1106</PointerOffset>
       <JapaneseText>泊まらないんですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Do you not want to stay here?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>92</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2109</PointerOffset>

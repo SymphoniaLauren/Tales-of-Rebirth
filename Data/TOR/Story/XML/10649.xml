@@ -4,34 +4,34 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5284,2590,853</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119,2119</PointerOffset>
       <JapaneseText>防具屋「獣王のおきて」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Armor Shop</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382,382</PointerOffset>
       <JapaneseText>武器屋「烈刃」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Weapon Shop</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>357</PointerOffset>
@@ -39,7 +39,7 @@
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -47,26 +47,26 @@
     <Entry>
       <PointerOffset>186</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Capital City Balka</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>183</PointerOffset>
       <JapaneseText>首都バルカ・装備品屋</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Capital City Balka - Weapon Shop</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>195</PointerOffset>
       <JapaneseText>装備品屋</JapaneseText>
-      <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <EnglishText>Weapon Shop</EnglishText>
+      <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -76,11 +76,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -128,11 +130,11 @@
     <Entry>
       <PointerOffset>2434</PointerOffset>
       <JapaneseText>いらっしゃいませ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2514</PointerOffset>
@@ -146,31 +148,33 @@
     <Entry>
       <PointerOffset>2539</PointerOffset>
       <JapaneseText>いらっしゃいませ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2564</PointerOffset>
       <JapaneseText>いらっしゃいませ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Welcome.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2593</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　防具を買う　
 　世間話をする　
 　やめる　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Armor
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2701</PointerOffset>
@@ -185,20 +189,20 @@
     <Entry>
       <PointerOffset>2726</PointerOffset>
       <JapaneseText>また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back again!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2751</PointerOffset>
       <JapaneseText>また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back again!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2838</PointerOffset>
@@ -283,11 +287,11 @@
     <Entry>
       <PointerOffset>3122</PointerOffset>
       <JapaneseText>また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come back again!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3238</PointerOffset>
@@ -631,11 +635,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　武器を買う　
 　世間話をする　
 　やめる　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Weapons
+Talk
+Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>964</PointerOffset>

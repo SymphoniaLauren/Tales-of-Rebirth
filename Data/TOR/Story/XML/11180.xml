@@ -4,34 +4,34 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6446,6574,6596,6618,6650,6790,6812,6834,6875,7000,7031,7065,7087,7109,7131,7187,7209,7231,7290,7403,7437,7487,7509,7531,7553,7575,7597,7677,7699,7721,7753,7794,7906,7947,7969,7991,8047,8069,8128,8247,8281,8340,8362,8384,8406,8428,8450,8530,8552,8574,8596,8618,8650,8691,8813,8844,8866,8888,8947,9091,9125,9160</PointerOffset>
       <JapaneseText>サイグローグ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Cyglorg</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6533,6749</PointerOffset>
       <JapaneseText>？？？？？？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>??????</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7154,8014,6254,15727</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -40,47 +40,47 @@
       <PointerOffset>5867</PointerOffset>
       <JapaneseText>～&lt;Unk17:3100&gt; 階～</JapaneseText>
       <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>5876</PointerOffset>
       <JapaneseText>サイグローグの館&lt;Unk17:3100&gt;階</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Cyglorg's Chambers Floor &lt;Unk17:3100&gt;</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5873</PointerOffset>
       <JapaneseText>サイグローグの館&lt;Unk17:3100&gt;階</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Cyglorg's Chambers Floor &lt;Unk17:3100&gt;</EnglishText>
+      <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5897</PointerOffset>
       <JapaneseText>サイグローグの館</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Cyglorg's Chambers</EnglishText>
+      <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5894</PointerOffset>
       <JapaneseText>サイグローグの館</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Cyglorg's Chambers</EnglishText>
+      <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5909</PointerOffset>
       <JapaneseText>謎の館</JapaneseText>
       <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <Notes/>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
@@ -88,7 +88,7 @@
       <PointerOffset>5906</PointerOffset>
       <JapaneseText>謎の館</JapaneseText>
       <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <Notes/>
       <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
@@ -834,11 +834,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>75</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

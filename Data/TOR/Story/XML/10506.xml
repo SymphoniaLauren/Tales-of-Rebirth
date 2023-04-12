@@ -4,42 +4,42 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1588,1652</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1616,1748</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1829</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3309</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -47,26 +47,26 @@
     <Entry>
       <PointerOffset>515</PointerOffset>
       <JapaneseText>製鉄工場・密林化</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Steelworks Factory - Dense forest</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>512</PointerOffset>
       <JapaneseText>製鉄工場・密林化</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Steelworks Factory - Dense forest</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>537</PointerOffset>
       <JapaneseText>製鉄工場</JapaneseText>
-      <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <EnglishText>Steelworks Factory</EnglishText>
+      <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -75,33 +75,35 @@
       <PointerOffset>1591</PointerOffset>
       <VoiceId>13000043</VoiceId>
       <JapaneseText>これが&lt;Yellow&gt;樹のフォルス&lt;White&gt;の力……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>So this is the power of
+the &lt;Yellow&gt;Force of Forest&lt;White&gt;...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1619</PointerOffset>
       <VoiceId>13000044</VoiceId>
       <JapaneseText>でも、ここまで強い&lt;Yellow&gt;樹の
 フォルス&lt;White&gt;は初めてだヨ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I've never known this kind of
+Force be so powerful...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1655</PointerOffset>
       <VoiceId>13000045</VoiceId>
       <JapaneseText>&lt;Mao&gt;、&lt;Tytree&gt;の
 居場所はわかるか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;, can you locate &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1751</PointerOffset>
@@ -109,11 +111,13 @@
       <JapaneseText>あちこちから
 フォルスの反応があって、
 どこが中心なのかわかんないよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm getting Force readings from
+all over the place, I can't pinpoint
+the origin.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1832</PointerOffset>
@@ -121,11 +125,13 @@
       <JapaneseText>フォルスで生えてきた
 樹のせいだな。
 とにかく探すしかない。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>No doubt due to the extreme growth.
+It looks like we'll have to find him the
+old fashioned way.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -135,11 +141,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

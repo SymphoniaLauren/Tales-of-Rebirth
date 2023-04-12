@@ -4,18 +4,18 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2099</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>535,262</PointerOffset>
@@ -23,55 +23,55 @@
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>298</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>338</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>377</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>417</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>456</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>496</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -79,18 +79,18 @@
     <Entry>
       <PointerOffset>145</PointerOffset>
       <JapaneseText>ペトナジャンカ</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Petnadjanka</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>142</PointerOffset>
       <JapaneseText>ペトナジャンカ・宿屋・客室</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Petnadjanka Inn - Guest Room</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -100,11 +100,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -117,11 +119,16 @@
 『鉄の歯を持つ男』
 『自然体とは』
 宿泊客向けに様々な本が置いてある。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;"How to Make Mokumoku Cookies"
+"The Elders Behind the Smokestacks"
+"Ways of Getting Close to a Beauty"
+"The Man with an Iron Tooth"
+"Natural Posture"
+A variety of books are available for guests.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -130,31 +137,35 @@
       <PointerOffset>265</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;『キレイな花』
 ツーンと鼻をつく香りがする。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;"Callegean Flower"
+Its sharp fragrance assaults the nose.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>301</PointerOffset>
       <JapaneseText>素敵な色だ……
 この辺りに生息する
 カトリアスイトピーだな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What a beautiful color...
+These must be Cattleya flowers
+that are grown nearby.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>341</PointerOffset>
       <JapaneseText>いつも心に花を、だな！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>As they say, "Happiness
+blooms from within!"</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>380</PointerOffset>
@@ -162,42 +173,51 @@
 それに、花の形がクッキー
 みたいで、おいしそう！
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>What a pretty flower!
+It looks like a cookie too!
+Now I'm starving!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>420</PointerOffset>
       <JapaneseText>カトリアスイトピーの花ね。
 花を煎じて飲むと、
 胃腸に効くって習ったな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>A Cattleya flower...
+I learned that drinking a
+concoction of these flowers
+can be good for the stomach.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>459</PointerOffset>
       <JapaneseText>花か……ラキヤさんなら
 名前を知っているかもしれないな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Flowers... Maybe Aunt Rakia
+knows what its name is...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>499</PointerOffset>
       <JapaneseText>花……花言葉も占いのひとつね。
 今度、調べてみようかしら。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>A flower... I believe there's a
+medium of divination regarding
+flowers... Perhaps I should look
+into it?</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

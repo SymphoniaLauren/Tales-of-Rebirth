@@ -4,10 +4,10 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2338</PointerOffset>
@@ -15,39 +15,39 @@
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373,1373</PointerOffset>
       <JapaneseText>おばあさん</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grandma</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>936,936,936,936,936,936,936,936,936,936,936,936</PointerOffset>
       <JapaneseText>女の子</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Girl</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2581</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2604,4231</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>818,818</PointerOffset>
@@ -63,26 +63,26 @@
     <Entry>
       <PointerOffset>189</PointerOffset>
       <JapaneseText>ピピスタ</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name (generalized)</Notes>
+      <EnglishText>Pipista</EnglishText>
+      <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>186</PointerOffset>
       <JapaneseText>ピピスタ</JapaneseText>
-      <EnglishText/>
-      <Notes>This place's name in the menu</Notes>
+      <EnglishText>Pipista</EnglishText>
+      <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>295</PointerOffset>
       <JapaneseText>民家</JapaneseText>
-      <EnglishText/>
-      <Notes>Floating text bubble, generally marks entrances</Notes>
+      <EnglishText>Residence</EnglishText>
+      <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -90,11 +90,11 @@
     <Entry>
       <PointerOffset>2341</PointerOffset>
       <JapaneseText>コケコッコー!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Kokekokko!!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -476,11 +476,11 @@
       <PointerOffset>1293</PointerOffset>
       <JapaneseText>■■■終了■■■■■■
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>■■■終了■■■■■■</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1327</PointerOffset>
@@ -510,22 +510,25 @@
       <VoiceId>2800004f</VoiceId>
       <JapaneseText>おっ、このダチョウ、
 卵を産んでるぜ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ooh, check it out!
+This ostrich is poppin' out an egg!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2607</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;卵を持っていきますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;Take the egg with you?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>887</PointerOffset>
@@ -553,11 +556,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

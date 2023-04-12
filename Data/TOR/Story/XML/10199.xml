@@ -4,10 +4,10 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5939,6843,7022,5212,5855,4691,4893,4946,4967,4645,4666</PointerOffset>
@@ -15,63 +15,63 @@
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>7593,7593,7593,7593,7593,7593,7593,7593,7593</PointerOffset>
       <JapaneseText>食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grocer</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7834,7858,7280,7407,7453,7570</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7882,7482,1411</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5262,5601,5675,6447</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5733,5753,5799,5819</PointerOffset>
       <JapaneseText>SELECT</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6394</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4875</PointerOffset>
       <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Claire&gt;</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -80,7 +80,7 @@
       <PointerOffset>5280</PointerOffset>
       <JapaneseText>同期命令スルー</JapaneseText>
       <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <Notes/>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
@@ -88,7 +88,7 @@
       <PointerOffset>5626</PointerOffset>
       <JapaneseText>ウエイトを抜ける</JapaneseText>
       <EnglishText/>
-      <Notes>TIMED Floating text bubble, generally used after entering a place</Notes>
+      <Notes/>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
@@ -144,11 +144,14 @@
 を皆さんにお持ちいただくだけで、
 新鮮な食材を定期的に供給する
 システムとなっております。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Just by having the mysterious
+&lt;item:0106&gt; with you, you'll
+be supplied regularly with the
+freshest of ingredients.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7675</PointerOffset>
@@ -239,11 +242,13 @@
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;バトルブックを読みますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;Read the Battle Book?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7025</PointerOffset>
@@ -251,11 +256,14 @@
 　頻度レベルアップ　
 　種類レベルアップ　
 　個数レベルアップ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;font:0000&gt;&lt;scale:00F0&gt;Buy Ingredients/Exchange Tickets
+Level Up Frequency
+Level Up Variety
+Level Up Amount</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7283</PointerOffset>
@@ -340,11 +348,12 @@ noticeフラグ
       <JapaneseText>これが、
 そのフォルスの具現化したもの。
 フォルスキューブさ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This here is a materialization of Force.
+It's called a Force Cube.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5604</PointerOffset>
@@ -352,11 +361,12 @@ noticeフラグ
       <JapaneseText>これが、
 そのフォルスの具現化したもの。
 フォルスキューブさ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This here is a materialization of Force.
+It's called a Force Cube.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5678</PointerOffset>
@@ -505,11 +515,13 @@ noticeフラグ
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
