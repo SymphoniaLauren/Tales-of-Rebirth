@@ -4,86 +4,81 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2172,2255,2733,2833,2890,3084,3405,3615,3701,3786,4013,4076,4216</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2209,2683,2704,2940,3055</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2298,2466,2514,2646,2762,2791,2812,2854,2911,2967,3012,3113,3181,3220,3339</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3680</PointerOffset>
       <JapaneseText>ザピィ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Zapie</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3731,3885,4113,4135</PointerOffset>
       <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Claire&gt;</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5712</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7557</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>581</PointerOffset>
-      <JapaneseText>スールズ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>584</PointerOffset>
       <JapaneseText>スールズ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sulz</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>581</PointerOffset>
+      <JapaneseText>スールズ</JapaneseText>
+      <EnglishText>Sulz</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>2175</PointerOffset>
       <VoiceId>0b00001e</VoiceId>
@@ -324,12 +319,14 @@ unstable.</EnglishText>
       <VoiceId>0b000030</VoiceId>
       <JapaneseText>キミの力の覚醒は突然のコトだった。
 準備ができていなかったキミの心は
-力を制御できずに、庇女を……</JapaneseText>
-      <EnglishText/>
+力を制御できずに、彼女を……</JapaneseText>
+      <EnglishText>Your power's awakening was sudden.
+You were unprepared, your heart couldn't
+control it, and she was, well...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3015</PointerOffset>
@@ -394,12 +391,13 @@ heat.</EnglishText>
       <PointerOffset>3223</PointerOffset>
       <VoiceId>0b000036</VoiceId>
       <JapaneseText>フォルスの炎よ!!
-氷の眠りから庇女を解き放て!!</JapaneseText>
-      <EnglishText/>
+氷の眠りから彼女を解き放て!!</JapaneseText>
+      <EnglishText>O Force of Fire, release her
+from her icy slumber!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>27</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3342</PointerOffset>
@@ -542,34 +540,21 @@ sun...</EnglishText>
       <Id>40</Id>
       <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5715</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7383</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>42</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7461</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

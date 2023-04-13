@@ -4,86 +4,81 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>631,729,802,873,1141,1337</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>767</PointerOffset>
       <JapaneseText>&lt;Agarte&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Agarte&gt;</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>839,902</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>942,1004,1075,1106,1172</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1044</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3088</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4933</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>197</PointerOffset>
-      <JapaneseText>蒼の聖殿</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>200</PointerOffset>
       <JapaneseText>蒼の聖殿</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Azure Sanctuary</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>197</PointerOffset>
+      <JapaneseText>蒼の聖殿</JapaneseText>
+      <EnglishText>Azure Sanctuary</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>634</PointerOffset>
       <VoiceId>32000034</VoiceId>
@@ -255,42 +250,21 @@ I...</EnglishText>
       <Id>17</Id>
       <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3091</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4759</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4837</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>6</SpeakerId>
-      <Id>20</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6269</PointerOffset>
-      <JapaneseText>set_shaobubble(): 泡大杉 (max %d)</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

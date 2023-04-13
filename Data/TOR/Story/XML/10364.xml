@@ -4,57 +4,73 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>344,367</PointerOffset>
-      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3297</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
+      <Id>0</Id>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5142</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <PointerOffset>344,367</PointerOffset>
+      <JapaneseText>&lt;Unk19:289804&gt;</JapaneseText>
+      <EnglishText>&lt;Unk19:289804&gt;</EnglishText>
       <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
+      <Id>1</Id>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
+    <Entry>
+      <PointerOffset>1725</PointerOffset>
+      <JapaneseText>カレーズ</JapaneseText>
+      <EnglishText>Karez</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1722</PointerOffset>
+      <JapaneseText>カレーズ</JapaneseText>
+      <EnglishText>Karez</EnglishText>
+      <Notes/>
+      <Id>2</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>3300</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
       <PointerOffset>149</PointerOffset>
       <JapaneseText>……前に来た時には、
 こんなものはなかった……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>157</PointerOffset>
-      <JapaneseText>一度行った場所でも、
-何か見つかる場合が
-あるという事か……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>2</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -63,19 +79,8 @@
 何もなかったのに！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>186</PointerOffset>
-      <JapaneseText>一度行ったところでも、
-調べに行ったら、
-新しい発見があるかもネ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -84,17 +89,7 @@
 何もなかったと思うが……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>215</PointerOffset>
-      <JapaneseText>一度行った場所でも、
-新しい発見があるかもしれんな。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
@@ -104,18 +99,8 @@
 とても意外な感じね。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>245</PointerOffset>
-      <JapaneseText>一度行った場所でも、こうやって
-調べたら何かみつかるかも……？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -124,8 +109,69 @@
 おどろき桃の木だぜ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
+      <SpeakerId>1</SpeakerId>
+      <Id>8</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>297</PointerOffset>
+      <JapaneseText>こんなところに……
+そう、こんな事もあるのね。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
       <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>316</PointerOffset>
+      <JapaneseText>初めてのアイテム会話</JapaneseText>
+      <EnglishText>First Time Item Conversation</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>10</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>157</PointerOffset>
+      <JapaneseText>一度行った場所でも、
+何か見つかる場合が
+あるという事か……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>186</PointerOffset>
+      <JapaneseText>一度行ったところでも、
+調べに行ったら、
+新しい発見があるかもネ！</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>215</PointerOffset>
+      <JapaneseText>一度行った場所でも、
+新しい発見があるかもしれんな。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>245</PointerOffset>
+      <JapaneseText>一度行った場所でも、こうやって
+調べたら何かみつかるかも……？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -135,18 +181,8 @@
 何か見つかるかもしれないな！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>297</PointerOffset>
-      <JapaneseText>こんなところに……
-そう、こんな事もあるのね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>11</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -157,72 +193,18 @@
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>316</PointerOffset>
-      <JapaneseText>初めてのアイテム会話</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>13</Id>
+      <SpeakerId>1</SpeakerId>
+      <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
       <PointerOffset>324</PointerOffset>
       <JapaneseText>初めてのアイテム会話</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1722</PointerOffset>
-      <JapaneseText>カレーズ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1725</PointerOffset>
-      <JapaneseText>カレーズ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>16</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3300</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>First Time Item Conversation</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4968</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5046</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -4,57 +4,49 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>503,539</PointerOffset>
-      <JapaneseText></JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>570,570,570,570</PointerOffset>
       <JapaneseText>男の子</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Boy</EnglishText>
       <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
+      <Id>0</Id>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2062</PointerOffset>
       <JapaneseText>select</JapaneseText>
+      <EnglishText>Select</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>539,503</PointerOffset>
+      <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3907</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>182</PointerOffset>
-      <JapaneseText>首都バルカ・集合住宅</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>185</PointerOffset>
       <JapaneseText>首都バルカ</JapaneseText>
+      <EnglishText>Capital City Balka</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>182</PointerOffset>
+      <JapaneseText>首都バルカ・集合住宅</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>2</Id>
@@ -63,45 +55,22 @@
     <Entry>
       <PointerOffset>256</PointerOffset>
       <JapaneseText>集合住宅</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Apartment Building</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>506</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『みんなのきまり』
-・ロビーの掃除当番をサボらない。
-・観葉植物に水をあげましょう。
-・小動物をかわいがりましょう。
-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>542</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『観葉植物』
-アニカマルの樹の鉢植え。
-一年でここまで大きくなった。
-来年には天井に達するほど、
-一気に成長する。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
       <PointerOffset>643</PointerOffset>
       <JapaneseText>ガジュマとは話しちゃダメなんだ。
 お母さんが言ってたもん……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>6</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -111,8 +80,8 @@
 家にいなさいって言われたんだ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -122,8 +91,8 @@
 出ちゃうつもりなんだ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>8</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -133,37 +102,56 @@
 どうしてなんだろ……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>9</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>7</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>2065</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>8</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>542</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『観葉植物』
+アニカマルの樹の鉢植え。
+一年でここまで大きくなった。
+来年には天井に達するほど、
+一気に成長する。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>506</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;『みんなのきまり』
+・ロビーの掃除当番をサボらない。
+・観葉植物に水をあげましょう。
+・小動物をかわいがりましょう。
+</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3733</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3811</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

@@ -4,110 +4,65 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3365,3400,3736,3812,3912,7258,7312</PointerOffset>
+      <PointerOffset>3365,3400,7258,7312,3736,3812,3912</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3421,3791,3849,3891,3954,3975</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3648,3715,3770,3870,7189</PointerOffset>
+      <PointerOffset>7189,3648,3715,3770,3870</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>9050</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10895</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
-      <PointerOffset>798</PointerOffset>
-      <JapaneseText>d_x  = %d</JapaneseText>
-      <EnglishText/>
+      <PointerOffset>2682</PointerOffset>
+      <JapaneseText>ミナール平原</JapaneseText>
+      <EnglishText>Minal Plains</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>806</PointerOffset>
-      <JapaneseText>d_z  = %d</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>814</PointerOffset>
-      <JapaneseText>d_xz = %d</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1679</PointerOffset>
-      <JapaneseText>pow = %d</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2012</PointerOffset>
-      <JapaneseText>pow = %d</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2679</PointerOffset>
       <JapaneseText>ミナール平原</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Minal Plains</EnglishText>
       <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
+      <Id>2</Id>
+      <Status>Editing</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>2682</PointerOffset>
-      <JapaneseText>ミナール平原</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>3368</PointerOffset>
       <VoiceId>10000016</VoiceId>
@@ -118,7 +73,7 @@
 have reached Minal by now...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
+      <Id>3</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -128,7 +83,7 @@ have reached Minal by now...</EnglishText>
       <EnglishText>I'm pooped!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
+      <Id>4</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -138,9 +93,64 @@ have reached Minal by now...</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
+      <Id>5</Id>
       <Status>Editing</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>7192</PointerOffset>
+      <VoiceId>10000025</VoiceId>
+      <JapaneseText>……だめだ……
+この雪や雨が止まない限り、
+敵はどこにだって隠れられる……</JapaneseText>
+      <EnglishText>This isn't good... The enemy
+could be hiding anywhere in this rain
+and snow.</EnglishText>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>6</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7261</PointerOffset>
+      <VoiceId>10000026</VoiceId>
+      <JapaneseText>そっか、わかったヨ!!</JapaneseText>
+      <EnglishText>Oh, I've got it!</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>7</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7315</PointerOffset>
+      <VoiceId>10000027</VoiceId>
+      <JapaneseText>雨や雪が邪魔なら、
+そいつをなくせばいいんだ!!</JapaneseText>
+      <EnglishText>If the rain and snow are in our
+way, we need to clear it up!</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>8</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>9053</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>9</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
     <Entry>
       <PointerOffset>3651</PointerOffset>
       <VoiceId>10000019</VoiceId>
@@ -148,7 +158,7 @@ have reached Minal by now...</EnglishText>
       <EnglishText>This is...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>11</Id>
+      <Id>10</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -158,7 +168,7 @@ have reached Minal by now...</EnglishText>
       <EnglishText>Look at this.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>12</Id>
+      <Id>11</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -168,7 +178,7 @@ have reached Minal by now...</EnglishText>
       <EnglishText>Isn't this yours, &lt;Veigue&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>13</Id>
+      <Id>12</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -178,7 +188,7 @@ have reached Minal by now...</EnglishText>
       <EnglishText>Yeah.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>14</Id>
+      <Id>13</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -189,7 +199,7 @@ have reached Minal by now...</EnglishText>
 your Force.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>15</Id>
+      <Id>14</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -199,7 +209,7 @@ your Force.</EnglishText>
       <EnglishText>But why is it here...?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>16</Id>
+      <Id>15</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -211,7 +221,7 @@ your Force.</EnglishText>
 in circles.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>17</Id>
+      <Id>16</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -225,7 +235,7 @@ for it to clear up. But if it
 isn't...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>18</Id>
+      <Id>17</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -237,7 +247,7 @@ isn't...</EnglishText>
 feels unnatural.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>19</Id>
+      <Id>18</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -248,7 +258,7 @@ feels unnatural.</EnglishText>
       <EnglishText>Could it be someone's Force...?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>20</Id>
+      <Id>19</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -262,7 +272,7 @@ Force is at work here, but this
 weather is definitely someone's doing.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>21</Id>
+      <Id>20</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -277,73 +287,8 @@ out of here. I wonder what our next
 move should be...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>22</Id>
+      <Id>21</Id>
       <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7192</PointerOffset>
-      <VoiceId>10000025</VoiceId>
-      <JapaneseText>……だめだ……
-この雪や雨が止まない限り、
-敵はどこにだって隠れられる……</JapaneseText>
-      <EnglishText>This isn't good... The enemy
-could be hiding anywhere in this rain
-and snow.</EnglishText>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>23</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7261</PointerOffset>
-      <VoiceId>10000026</VoiceId>
-      <JapaneseText>そっか、わかったヨ!!</JapaneseText>
-      <EnglishText>Oh, I've got it!</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>24</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7315</PointerOffset>
-      <VoiceId>10000027</VoiceId>
-      <JapaneseText>雨や雪が邪魔なら、
-そいつをなくせばいいんだ!!</JapaneseText>
-      <EnglishText>If the rain and snow are in our
-way, we need to clear it up!</EnglishText>
-      <Notes/>
-      <SpeakerId>0</SpeakerId>
-      <Id>25</Id>
-      <Status>Editing</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>9053</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10721</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>10799</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>28</Id>
-      <Status>To Do</Status>
     </Entry>
   </Strings>
 </SceneText>

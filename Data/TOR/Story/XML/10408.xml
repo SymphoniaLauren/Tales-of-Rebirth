@@ -4,102 +4,97 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>938</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>984,1249</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1122,1209,1557,2190</PointerOffset>
+      <PointerOffset>1122,1209,2190,1557</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1473,1473,1473,1926</PointerOffset>
-      <JapaneseText>カレギア兵</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1678</PointerOffset>
-      <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2221</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
+      <Notes/>
+      <Id>3</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1926,1473,1473,1473</PointerOffset>
+      <JapaneseText>カレギア兵</JapaneseText>
+      <EnglishText>Callegean Soldier</EnglishText>
+      <Notes/>
+      <Id>4</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1678</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3698</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>6</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5543</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>556</PointerOffset>
-      <JapaneseText>登山洞</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>559</PointerOffset>
       <JapaneseText>登山洞</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Climber's Cavern</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>556</PointerOffset>
+      <JapaneseText>登山洞</JapaneseText>
+      <EnglishText>Climber's Cavern</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>639</PointerOffset>
       <JapaneseText>登山洞</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Climber's Cavern</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>941</PointerOffset>
       <VoiceId>1b000000</VoiceId>
@@ -161,14 +156,53 @@ toes!</EnglishText>
       <Status>Editing</Status>
     </Entry>
     <Entry>
+      <PointerOffset>2193</PointerOffset>
+      <VoiceId>3a000023</VoiceId>
+      <JapaneseText>あれ？
+復旧作業は終わったのかな？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2224</PointerOffset>
+      <VoiceId>3a000024</VoiceId>
+      <JapaneseText>そうね、行きましょう。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-0</Section>
+    <Entry>
+      <PointerOffset>1976</PointerOffset>
+      <JapaneseText>現在、この登山洞は崩落の
+復旧作業中である。
+山頂へ行きたければ、
+港の方へ回れ。</JapaneseText>
+      <EnglishText>Currently, this cave is undergoing
+reconstruction after its collapse.
+If you want to reach the summit,
+travel from the port side.</EnglishText>
+      <Notes/>
+      <SpeakerId>4</SpeakerId>
+      <Id>11</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
       <PointerOffset>1523</PointerOffset>
       <VoiceId>3a000000</VoiceId>
       <JapaneseText>現在、この登山洞は
 通行禁止である。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>9</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>12</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -178,7 +212,7 @@ toes!</EnglishText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>10</Id>
+      <Id>13</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -188,8 +222,8 @@ toes!</EnglishText>
 現在、突貫で復旧作業中だ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>11</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>14</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -199,8 +233,8 @@ toes!</EnglishText>
 港側から回れ。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>12</Id>
+      <SpeakerId>4</SpeakerId>
+      <Id>15</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -210,71 +244,25 @@ toes!</EnglishText>
 港側から回りましょう。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1976</PointerOffset>
-      <JapaneseText>現在、この登山洞は崩落の
-復旧作業中である。
-山頂へ行きたければ、
-港の方へ回れ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2193</PointerOffset>
-      <VoiceId>3a000023</VoiceId>
-      <JapaneseText>あれ？
-復旧作業は完わったのかな？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>2224</PointerOffset>
-      <VoiceId>3a000024</VoiceId>
-      <JapaneseText>そうね、行きましょう。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>16</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3701</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5369</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>18</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5447</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -4,102 +4,89 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1387,1743,2402,4644,4732,4864,5265,5534,5867,5934,6321,6386,6651</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>1359,1359,1359,1359,1359,1359,1359,1359,1359,1359,1359,1359,1359,1359,1359,1359,1359,1359</PointerOffset>
-      <JapaneseText>トーマ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1449,1813,2190,2464,2535,3070,5407,5607,5690,5734,5765,6143,6292,6630</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
+      <Id>1</Id>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1760,3091,3780,3809,3981,4816,5114,5585,6262</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
+      <Id>2</Id>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1777,2334,4360,5551,6357</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
+      <Id>3</Id>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1795,2258,3546,3669,5568,6241</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
+      <Id>4</Id>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2297,2365,2433,2495,2995,3040,3144,3287,3577,3899,3952,4041,4143,4222,4556,5052,5136,5659,5712,5830,5905,5963,6000,6065,6682,6713,6735</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
       <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
+      <Id>5</Id>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>11664</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
-      <Id>7</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>13509</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>8</Id>
-      <Status>To Do</Status>
+      <Id>6</Id>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>1052</PointerOffset>
-      <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>1055</PointerOffset>
       <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Tel'alla Highroad Hostel</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1052</PointerOffset>
+      <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
+      <EnglishText>Tel'alla Highroad Hostel</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>1390</PointerOffset>
       <VoiceId>16000044</VoiceId>
@@ -120,7 +107,7 @@
 cabin over there, no? If you value
 your lives, hand her over to me.</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>4</Id>
       <Status>Editing</Status>
     </Entry>
@@ -134,7 +121,7 @@ your lives, hand her over to me.</EnglishText>
 You'd better be the one to return
 Claire and Selena to us!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>5</Id>
       <Status>Editing</Status>
     </Entry>
@@ -146,7 +133,7 @@ Claire and Selena to us!</EnglishText>
       <EnglishText>Oh, is that how it is? Fine
 then, die.</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>6</Id>
       <Status>Editing</Status>
     </Entry>
@@ -165,7 +152,7 @@ then, die.</EnglishText>
       <JapaneseText>ぬうううッ……!!</JapaneseText>
       <EnglishText>Urghh!</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>8</Id>
       <Status>Editing</Status>
     </Entry>
@@ -174,7 +161,7 @@ then, die.</EnglishText>
       <JapaneseText>わああああッ!!</JapaneseText>
       <EnglishText>Yaaaaah!</EnglishText>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
+      <SpeakerId>3</SpeakerId>
       <Id>9</Id>
       <Status>Editing</Status>
     </Entry>
@@ -183,7 +170,7 @@ then, die.</EnglishText>
       <JapaneseText>きゃあぁぁッ!!</JapaneseText>
       <EnglishText>Aaaaah!</EnglishText>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
+      <SpeakerId>4</SpeakerId>
       <Id>10</Id>
       <Status>Editing</Status>
     </Entry>
@@ -192,7 +179,7 @@ then, die.</EnglishText>
       <JapaneseText>うわぁぁぁぁぁッ!!</JapaneseText>
       <EnglishText>Waaah!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>11</Id>
       <Status>Editing</Status>
     </Entry>
@@ -202,7 +189,7 @@ then, die.</EnglishText>
       <JapaneseText>……&lt;Hilda&gt;……おまえ……</JapaneseText>
       <EnglishText>&lt;Hilda&gt;...you...!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>12</Id>
       <Status>Editing</Status>
     </Entry>
@@ -215,7 +202,7 @@ then, die.</EnglishText>
 you valued your lives, you should
 have listened.</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>13</Id>
       <Status>Editing</Status>
     </Entry>
@@ -225,7 +212,7 @@ have listened.</EnglishText>
       <JapaneseText>あなたも能力者……!?</JapaneseText>
       <EnglishText>You're a Force user, too!?</EnglishText>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
+      <SpeakerId>4</SpeakerId>
       <Id>14</Id>
       <Status>Editing</Status>
     </Entry>
@@ -236,7 +223,7 @@ have listened.</EnglishText>
       <EnglishText>Yes... of the &lt;Blue&gt;Royal
 Shield&lt;White&gt;.</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>15</Id>
       <Status>Editing</Status>
     </Entry>
@@ -250,7 +237,7 @@ Shield&lt;White&gt;.</EnglishText>
 about your mother back in
 Sunnytown...?</EnglishText>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
+      <SpeakerId>3</SpeakerId>
       <Id>16</Id>
       <Status>Editing</Status>
     </Entry>
@@ -265,7 +252,7 @@ play along. That woman isn't related
 to me. It's not like I even have a
 mother...</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>17</Id>
       <Status>Editing</Status>
     </Entry>
@@ -290,7 +277,7 @@ and Selena....</EnglishText>
       <EnglishText>I've never met them. I merely
 used their names.</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>19</Id>
       <Status>Editing</Status>
     </Entry>
@@ -302,7 +289,7 @@ used their names.</EnglishText>
       <EnglishText>Using them to trick us....
 That's dirty as hell!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>20</Id>
       <Status>Editing</Status>
     </Entry>
@@ -313,7 +300,7 @@ That's dirty as hell!</EnglishText>
       <EnglishText>It's your fault for falling for
 it.</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>21</Id>
       <Status>Editing</Status>
     </Entry>
@@ -325,7 +312,7 @@ it.</EnglishText>
       <EnglishText>You'll pay... You'll pay for
 this!!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>22</Id>
       <Status>Editing</Status>
     </Entry>
@@ -336,7 +323,7 @@ this!!</EnglishText>
 こいつらを皆殺しにしろ！</JapaneseText>
       <EnglishText>&lt;Hilda&gt;! Kill them all!</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>23</Id>
       <Status>Editing</Status>
     </Entry>
@@ -352,7 +339,7 @@ Breaking off your horns for such an
 asinine reason...is there any wonder
 why you're such a dissapointment?</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>24</Id>
       <Status>Editing</Status>
     </Entry>
@@ -363,7 +350,7 @@ why you're such a dissapointment?</EnglishText>
 私には必要ない……！</JapaneseText>
       <EnglishText>I don't need...my horns...!</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>25</Id>
       <Status>Editing</Status>
     </Entry>
@@ -378,7 +365,7 @@ why you're such a dissapointment?</EnglishText>
 even complete this task. I have no
 use for someone like you!</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>26</Id>
       <Status>Editing</Status>
     </Entry>
@@ -388,7 +375,7 @@ use for someone like you!</EnglishText>
       <JapaneseText>私は……まだやれる!!</JapaneseText>
       <EnglishText>I... I can still fight!!</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>27</Id>
       <Status>Editing</Status>
     </Entry>
@@ -400,7 +387,7 @@ use for someone like you!</EnglishText>
       <EnglishText>Horns? A mongrel? What's he
 talking about?</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>28</Id>
       <Status>Editing</Status>
     </Entry>
@@ -410,7 +397,7 @@ talking about?</EnglishText>
       <JapaneseText>……まさか、&lt;Hilda&gt;は？</JapaneseText>
       <EnglishText>It can't be... Is &lt;Hilda&gt; a...?</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>29</Id>
       <Status>Editing</Status>
     </Entry>
@@ -420,7 +407,7 @@ talking about?</EnglishText>
       <JapaneseText>そのとおり、&lt;Hilda&gt;は……</JapaneseText>
       <EnglishText>That's right. She's....</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>30</Id>
       <Status>Editing</Status>
     </Entry>
@@ -430,7 +417,7 @@ talking about?</EnglishText>
       <JapaneseText>黙れ!!</JapaneseText>
       <EnglishText>Shut up!</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>31</Id>
       <Status>Editing</Status>
     </Entry>
@@ -444,7 +431,7 @@ talking about?</EnglishText>
 guys just how disgusting you really
 are?</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>32</Id>
       <Status>Editing</Status>
     </Entry>
@@ -455,7 +442,7 @@ are?</EnglishText>
 やめて……！</JapaneseText>
       <EnglishText>Nooo! Stop!</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>33</Id>
       <Status>Editing</Status>
     </Entry>
@@ -465,7 +452,7 @@ are?</EnglishText>
       <JapaneseText>ヒューマに、角が……!?</JapaneseText>
       <EnglishText>A Huma... with horns!?</EnglishText>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
+      <SpeakerId>4</SpeakerId>
       <Id>34</Id>
       <Status>Editing</Status>
     </Entry>
@@ -475,7 +462,7 @@ are?</EnglishText>
       <JapaneseText>……見ないで……見るな!!</JapaneseText>
       <EnglishText>Don't look... Don't look at me!</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>35</Id>
       <Status>Editing</Status>
     </Entry>
@@ -489,7 +476,7 @@ are?</EnglishText>
 Neither a Huma nor a Gajuma, but a
 failure born of miscegenation!</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>36</Id>
       <Status>Editing</Status>
     </Entry>
@@ -503,7 +490,7 @@ failure born of miscegenation!</EnglishText>
 that a Huma and Gajuma could produce
 a child...</EnglishText>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
+      <SpeakerId>4</SpeakerId>
       <Id>37</Id>
       <Status>Editing</Status>
     </Entry>
@@ -520,7 +507,7 @@ isn't it? She's a cursed child born
 of a Huma and Gajuma, and those
 horns are the proof of that.</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>38</Id>
       <Status>Editing</Status>
     </Entry>
@@ -534,7 +521,7 @@ horns are the proof of that.</EnglishText>
 I've heard that Halfs supposedly
 possess tails as well, but....</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>39</Id>
       <Status>Editing</Status>
     </Entry>
@@ -547,7 +534,7 @@ possess tails as well, but....</EnglishText>
 your horns to conceal the fact that
 you're a Half!?</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>40</Id>
       <Status>Editing</Status>
     </Entry>
@@ -562,7 +549,7 @@ you're a Half!?</EnglishText>
 that even though you knew that horns
 boost the power of Halfs.</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>41</Id>
       <Status>Editing</Status>
     </Entry>
@@ -577,7 +564,7 @@ you came to me begging for help,
 and I took pity on you and gave you
 this task. Look how that turned out.</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>42</Id>
       <Status>Editing</Status>
     </Entry>
@@ -591,7 +578,7 @@ this task. Look how that turned out.</EnglishText>
 can defeat them, and... And get a
 pure body...</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>43</Id>
       <Status>Editing</Status>
     </Entry>
@@ -605,7 +592,7 @@ pure body...</EnglishText>
 You can't change the body you were
 born with!</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>44</Id>
       <Status>Editing</Status>
     </Entry>
@@ -620,7 +607,7 @@ born with!</EnglishText>
 Tohma! If I killed them, I could get
 rid of this disgusting body and....</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>45</Id>
       <Status>Editing</Status>
     </Entry>
@@ -632,7 +619,7 @@ rid of this disgusting body and....</EnglishText>
       <EnglishText>You're being deceived, &lt;Hilda&gt;.
 This man... he's just using you!</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>46</Id>
       <Status>Editing</Status>
     </Entry>
@@ -645,7 +632,7 @@ This man... he's just using you!</EnglishText>
 horns, I would have kept you chasing
 that sweet dream of yours.</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>47</Id>
       <Status>Editing</Status>
     </Entry>
@@ -655,7 +642,7 @@ that sweet dream of yours.</EnglishText>
       <JapaneseText>夢って……どういう事？</JapaneseText>
       <EnglishText>Dream...? What do you...?</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>48</Id>
       <Status>Editing</Status>
     </Entry>
@@ -672,7 +659,7 @@ thought you still might be of use
 without your horns, but you're nothing
 more than a mongrel.</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>49</Id>
       <Status>Editing</Status>
     </Entry>
@@ -682,7 +669,7 @@ more than a mongrel.</EnglishText>
       <JapaneseText>ひどい……</JapaneseText>
       <EnglishText>You monster...</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>50</Id>
       <Status>Editing</Status>
     </Entry>
@@ -694,7 +681,7 @@ more than a mongrel.</EnglishText>
       <EnglishText>Isn't it your fault for falling
 for it?</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>51</Id>
       <Status>Editing</Status>
     </Entry>
@@ -706,7 +693,7 @@ for it?</EnglishText>
       <EnglishText>You're cruel... cruel...
 cruel...</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>52</Id>
       <Status>Editing</Status>
     </Entry>
@@ -717,7 +704,7 @@ cruel...</EnglishText>
 暴走が始まるよ!!</JapaneseText>
       <EnglishText>Uh-oh! She's about to lose it!</EnglishText>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
+      <SpeakerId>3</SpeakerId>
       <Id>53</Id>
       <Status>Editing</Status>
     </Entry>
@@ -731,7 +718,7 @@ cruel...</EnglishText>
 some use. Show me what a Half can
 really do, &lt;Hilda&gt;!</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>54</Id>
       <Status>Editing</Status>
     </Entry>
@@ -741,7 +728,7 @@ really do, &lt;Hilda&gt;!</EnglishText>
       <JapaneseText>うわぁぁぁぁぁぁ!!</JapaneseText>
       <EnglishText>Aaaaaghh!!</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>55</Id>
       <Status>Editing</Status>
     </Entry>
@@ -751,7 +738,7 @@ really do, &lt;Hilda&gt;!</EnglishText>
       <JapaneseText>ふははははは……</JapaneseText>
       <EnglishText>Muhahahaha...</EnglishText>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>-1</SpeakerId>
       <Id>56</Id>
       <Status>Editing</Status>
     </Entry>
@@ -784,7 +771,7 @@ really do, &lt;Hilda&gt;!</EnglishText>
       <EnglishText>&lt;Veigue&gt;, we can't just leave
 &lt;Hilda&gt; like this!</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>59</Id>
       <Status>Editing</Status>
     </Entry>
@@ -806,7 +793,7 @@ really do, &lt;Hilda&gt;!</EnglishText>
 あうう……</JapaneseText>
       <EnglishText>....Aah...aah...uuh...</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>61</Id>
       <Status>Editing</Status>
     </Entry>
@@ -817,7 +804,7 @@ really do, &lt;Hilda&gt;!</EnglishText>
       <EnglishText>Stop! Are you trying to get
 yourself killed?</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>62</Id>
       <Status>Editing</Status>
     </Entry>
@@ -827,7 +814,7 @@ yourself killed?</EnglishText>
       <JapaneseText>……うぅ……</JapaneseText>
       <EnglishText>...Nng....</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>63</Id>
       <Status>Editing</Status>
     </Entry>
@@ -847,7 +834,7 @@ yourself killed?</EnglishText>
       <JapaneseText>うわぁッ!!</JapaneseText>
       <EnglishText>Aagh!!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>65</Id>
       <Status>Editing</Status>
     </Entry>
@@ -866,25 +853,25 @@ yourself killed?</EnglishText>
       <JapaneseText>&lt;Tytree&gt;!!</JapaneseText>
       <EnglishText>&lt;Hilda&gt;!</EnglishText>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
+      <SpeakerId>3</SpeakerId>
       <Id>67</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5571</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;さんッ!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Tytree&gt;!</EnglishText>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
+      <SpeakerId>4</SpeakerId>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5588</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;!!</JapaneseText>
       <EnglishText>&lt;Hilda&gt;!</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>69</Id>
       <Status>Editing</Status>
     </Entry>
@@ -896,7 +883,7 @@ yourself killed?</EnglishText>
       <EnglishText>Owchie... That was a four-star
 attack...</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>70</Id>
       <Status>Editing</Status>
     </Entry>
@@ -908,7 +895,7 @@ attack...</EnglishText>
       <EnglishText>...What are you doing? Why
 won't you just let me die?</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>71</Id>
       <Status>Editing</Status>
     </Entry>
@@ -920,7 +907,7 @@ won't you just let me die?</EnglishText>
       <EnglishText>Why do you even feel the need
 to die...!?</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>72</Id>
       <Status>Editing</Status>
     </Entry>
@@ -930,7 +917,7 @@ to die...!?</EnglishText>
       <JapaneseText>…………</JapaneseText>
       <EnglishText>.....</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>73</Id>
       <Status>Editing</Status>
     </Entry>
@@ -940,7 +927,7 @@ to die...!?</EnglishText>
       <JapaneseText>イテテテ……</JapaneseText>
       <EnglishText>Owwie, oww...</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>74</Id>
       <Status>Editing</Status>
     </Entry>
@@ -955,7 +942,7 @@ to die...!?</EnglishText>
 are, I won't let you just throw away
 the life your parents gave you!!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>75</Id>
       <Status>Editing</Status>
     </Entry>
@@ -969,7 +956,7 @@ the life your parents gave you!!</EnglishText>
 of a Half forever, then I'd rather
 die.....</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>76</Id>
       <Status>Editing</Status>
     </Entry>
@@ -991,7 +978,7 @@ being a Half?</EnglishText>
       <JapaneseText>……あんたにはわからない……</JapaneseText>
       <EnglishText>You wouldn't understand....</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>78</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1018,7 +1005,7 @@ outside...</EnglishText>
       <EnglishText>To be accepted by neither Huma
 nor Gajuma...</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>80</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1032,7 +1019,7 @@ nor Gajuma...</EnglishText>
 from both sides... You couldn't
 possibly understand what it's like!</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>81</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1044,7 +1031,7 @@ possibly understand what it's like!</EnglishText>
       <EnglishText>I never asked... to be born as
 a Half...</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>82</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1054,7 +1041,7 @@ a Half...</EnglishText>
       <JapaneseText>&lt;Hilda&gt;!!</JapaneseText>
       <EnglishText>&lt;Hilda&gt;!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>83</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1067,7 +1054,7 @@ a Half...</EnglishText>
 we need to get her treated right
 away!</EnglishText>
       <Notes/>
-      <SpeakerId>5</SpeakerId>
+      <SpeakerId>4</SpeakerId>
       <Id>84</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1081,7 +1068,7 @@ away!</EnglishText>
 two won't like it, but is it all
 right if we return to Sunnytown?</EnglishText>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>85</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1093,7 +1080,7 @@ right if we return to Sunnytown?</EnglishText>
       <EnglishText>Well, we can't just abandon
 her! Right, &lt;Veigue&gt;?</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>86</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1113,7 +1100,7 @@ her! Right, &lt;Veigue&gt;?</EnglishText>
       <JapaneseText>&lt;Veigue&gt;……</JapaneseText>
       <EnglishText>&lt;Veigue&gt;...</EnglishText>
       <Notes/>
-      <SpeakerId>4</SpeakerId>
+      <SpeakerId>3</SpeakerId>
       <Id>88</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1134,13 +1121,11 @@ her! Right, &lt;Veigue&gt;?</EnglishText>
 親からもらった大事な命を
 軽々しく捨てようなんて、
 おれは許せねえんだよ!!</JapaneseText>
-      <EnglishText>I don't care what your
-reasons
-are, I won't let you just throw
-away
+      <EnglishText>I don't care what your reasons
+are, I won't let you just throw away
 the life your parents gave you!!</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>90</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1149,8 +1134,7 @@ the life your parents gave you!!</EnglishText>
       <VoiceId>16000090</VoiceId>
       <JapaneseText>……どうしてだ？
 ハーフの何が悪い？</JapaneseText>
-      <EnglishText>....Why? What's so bad
-about
+      <EnglishText>....Why? What's so bad about
 being a Half?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
@@ -1163,7 +1147,7 @@ being a Half?</EnglishText>
       <JapaneseText>……あんたにはわからない……</JapaneseText>
       <EnglishText>You wouldn't understand....</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>92</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1173,13 +1157,11 @@ being a Half?</EnglishText>
       <JapaneseText>どちらにも石を投げられ続けた
 私の気持ちが……
 あんたにわかるわけない!!</JapaneseText>
-      <EnglishText>To have stones thrown at
-you
-from both sides... You
-couldn't
+      <EnglishText>To have stones thrown at you
+from both sides... You couldn't
 possibly understand what it's like!</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>93</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1188,42 +1170,28 @@ possibly understand what it's like!</EnglishText>
       <VoiceId>16000095</VoiceId>
       <JapaneseText>ハーフなんかに……
 生まれたくなかった……</JapaneseText>
-      <EnglishText>I never asked... to be born
-as
+      <EnglishText>I never asked... to be born as
 a Half...</EnglishText>
       <Notes/>
-      <SpeakerId>6</SpeakerId>
+      <SpeakerId>5</SpeakerId>
       <Id>94</Id>
       <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>11667</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
-      <SpeakerId>7</SpeakerId>
+      <SpeakerId>6</SpeakerId>
       <Id>95</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>13335</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>96</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>13413</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>8</SpeakerId>
-      <Id>97</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

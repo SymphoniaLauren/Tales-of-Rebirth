@@ -4,194 +4,320 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1411,7482,7882</PointerOffset>
-      <JapaneseText>select</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3256,7280,7407,7453,7570,7834,7858</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4645,4666,4691,4893,4946,4967,5212,5855,5939,6056,6078,6100,6122,6168,6843,7022</PointerOffset>
+      <PointerOffset>5939,6843,7022,5212,5855,4691,4893,4946,4967,4645,4666</PointerOffset>
       <JapaneseText></JapaneseText>
       <EnglishText/>
       <Notes/>
-      <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4875</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5262,5601,5675,6447</PointerOffset>
-      <JapaneseText>&lt;Mao&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5733,5753,5799,5819</PointerOffset>
-      <JapaneseText>SELECT</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>5</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6394</PointerOffset>
-      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>6</Id>
-      <Status>To Do</Status>
+      <Id>0</Id>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>7593,7593,7593,7593,7593,7593,7593,7593,7593</PointerOffset>
       <JapaneseText>食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grocer</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7834,7858,7280,7407,7453,7570</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText>Notice</EnglishText>
+      <Notes/>
+      <Id>2</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7882,7482,1411</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText>Select</EnglishText>
+      <Notes/>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5262,5601,5675,6447</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
+      <Notes/>
+      <Id>4</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5733,5753,5799,5819</PointerOffset>
+      <JapaneseText>SELECT</JapaneseText>
+      <EnglishText>Select</EnglishText>
+      <Notes/>
+      <Id>5</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6394</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
+      <Notes/>
+      <Id>6</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4875</PointerOffset>
+      <JapaneseText>&lt;Claire&gt;</JapaneseText>
+      <EnglishText>&lt;Claire&gt;</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
+    <Section>system</Section>
     <Entry>
-      <PointerOffset>1414</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
-　はい　
-　いいえ　</JapaneseText>
+      <PointerOffset>5280</PointerOffset>
+      <JapaneseText>同期命令スルー</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>0</SpeakerId>
       <Id>1</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3082</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
+      <PointerOffset>5626</PointerOffset>
+      <JapaneseText>ウエイトを抜ける</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>2</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
     <Entry>
-      <PointerOffset>3160</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
+      <PointerOffset>5942</PointerOffset>
+      <JapaneseText>・２００００ガルドもらう
+・アイテムを＋５する
+・アイテムを－５する
+</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>3</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4560</PointerOffset>
-      <JapaneseText>結果は・・・&lt;Unk17:340434088c340c8c&gt; (&lt;Unk17:3404&gt;, &lt;Unk17:3408&gt;, &lt;Unk17:340c&gt;)
-</JapaneseText>
+      <PointerOffset>6846</PointerOffset>
+      <JapaneseText>&lt;font:0002&gt;アイテム数を&lt;Unk18:4414&gt;&lt;Unk17:3404&gt;しました</JapaneseText>
       <EnglishText/>
       <Notes/>
+      <SpeakerId>0</SpeakerId>
       <Id>4</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
     <Entry>
-      <PointerOffset>4648</PointerOffset>
-      <JapaneseText>スコープイン</JapaneseText>
+      <PointerOffset>7609</PointerOffset>
+      <JapaneseText>食材調達施設へようこそ！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>5</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4669</PointerOffset>
-      <JapaneseText>スコープアウト</JapaneseText>
+      <PointerOffset>7631</PointerOffset>
+      <JapaneseText>ここではいろんな食材を集めて、
+皆さんに提供しています。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>6</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4694</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;エンディング
-チャットキャラテスト
-プレイヤー視点切替テスト
-ウィンドウテスト
-最大所持系チェック
-ゲームエフェクトＯＦＦ
-ゲームエフェクトＯＮ
-メニュー・チャットＯＦＦ
-メニュー・チャットＯＮ
-強制チャット名ＯＮ
-強制チャット名ＯＦＦ
-全滅
-カウンター開始
-カウンター停止
-画面四隅マスク
-</JapaneseText>
-      <EnglishText/>
+      <PointerOffset>7653</PointerOffset>
+      <JapaneseText>不思議アイテム「&lt;item:0106&gt;」
+を皆さんにお持ちいただくだけで、
+新鮮な食材を定期的に供給する
+システムとなっております。</JapaneseText>
+      <EnglishText>Just by having the mysterious
+&lt;item:0106&gt; with you, you'll
+be supplied regularly with the
+freshest of ingredients.</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4878</PointerOffset>
-      <JapaneseText>&lt;Claire&gt;ウィンドウ</JapaneseText>
+      <PointerOffset>7675</PointerOffset>
+      <JapaneseText>この「&lt;item:0106&gt;」、通常は
+１００００ガルドで
+お分けしていますが……</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>3</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>8</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4896</PointerOffset>
-      <JapaneseText>下側のウィンドウ</JapaneseText>
+      <PointerOffset>7697</PointerOffset>
+      <JapaneseText>今ならなんと！
+特別期間限定キャンペーン中につき、
+無料でお分けしています！</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>9</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4949</PointerOffset>
-      <JapaneseText>&lt;item:051a&gt;は取れる</JapaneseText>
+      <PointerOffset>7728</PointerOffset>
+      <JapaneseText>各食材チケットをお持ちいただく事で、
+お客様には優先的に食材を
+配達する事ができます。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>10</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4970</PointerOffset>
-      <JapaneseText>&lt;item:051a&gt;は取れない</JapaneseText>
+      <PointerOffset>7750</PointerOffset>
+      <JapaneseText>ぜひ、お集め下さい。</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>11</Id>
       <Status>To Do</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>7772</PointerOffset>
+      <JapaneseText>お持ちいただいた食材チケットで、
+使用されていない分と引き換えに
+当方の店で食材を購入する事も可能です。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7794</PointerOffset>
+      <JapaneseText>また、マジカルポットレベルアップ
+キャンペーンも併せて実施中ですので
+この機会にぜひどうぞ！</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7837</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Green&gt;食材のチケットはワールドマップ
+に点在しています。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7861</PointerOffset>
+      <JapaneseText>&lt;Green&gt;バトルブックに
+&lt;Red&gt;料理&lt;Green&gt;についての説明が追加されました。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7885</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;バトルブックを読みますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;Read the Battle Book?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>16</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7025</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;font:0000&gt;&lt;scale:00f0&gt;　食材を買う・チケットを渡す　
+　頻度レベルアップ　
+　種類レベルアップ　
+　個数レベルアップ　</JapaneseText>
+      <EnglishText>&lt;speed:00&gt;&lt;font:0000&gt;&lt;scale:00F0&gt;Buy Ingredients/Exchange Tickets
+Level Up Frequency
+Level Up Variety
+Level Up Amount</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>17</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7283</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Unk18:4414&gt;レベルは最大です。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7410</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;所持金が足りません。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7456</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;今の段階ではこれ以上
+レベルアップできません。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7485</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk18:4414&gt;レベルを上げます。
+よろしいですか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7573</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;font:80000002&gt;&lt;item:0106&gt;の
+&lt;Unk18:4414&gt;レベルは&lt;Unk17:340cc18c&gt;になりました。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-2</Section>
     <Entry>
       <PointerOffset>5215</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;ボイステキスト
@@ -212,8 +338,8 @@ noticeフラグ
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>12</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>23</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -222,19 +348,12 @@ noticeフラグ
       <JapaneseText>これが、
 そのフォルスの具現化したもの。
 フォルスキューブさ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This here is a materialization of Force.
+It's called a Force Cube.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5280</PointerOffset>
-      <JapaneseText>同期命令スルー</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>14</Id>
-      <Status>To Do</Status>
+      <Id>24</Id>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5604</PointerOffset>
@@ -242,19 +361,12 @@ noticeフラグ
       <JapaneseText>これが、
 そのフォルスの具現化したもの。
 フォルスキューブさ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This here is a materialization of Force.
+It's called a Force Cube.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>15</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>5626</PointerOffset>
-      <JapaneseText>ウエイトを抜ける</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>16</Id>
-      <Status>To Do</Status>
+      <Id>25</Id>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5678</PointerOffset>
@@ -262,7 +374,7 @@ noticeフラグ
       <EnglishText/>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>17</Id>
+      <Id>26</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -272,7 +384,7 @@ noticeフラグ
       <EnglishText/>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>18</Id>
+      <Id>27</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -282,7 +394,7 @@ noticeフラグ
       <EnglishText/>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>19</Id>
+      <Id>28</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -292,7 +404,7 @@ noticeフラグ
       <EnglishText/>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>20</Id>
+      <Id>29</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -302,7 +414,7 @@ noticeフラグ
       <EnglishText/>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>21</Id>
+      <Id>30</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -310,65 +422,35 @@ noticeフラグ
       <JapaneseText>今のグレードは &lt;Unk17:c82ac0c0e08d&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>22</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>31</Id>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-3</Section>
     <Entry>
-      <PointerOffset>5942</PointerOffset>
-      <JapaneseText>・２００００ガルドもらう
-・アイテムを＋５する
-・アイテムを−５する
+      <PointerOffset>4694</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;エンディング
+チャットキャラテスト
+プレイヤー視点切替テスト
+ウィンドウテスト
+最大所持系チェック
+ゲームエフェクトＯＦＦ
+ゲームエフェクトＯＮ
+メニュー・チャットＯＦＦ
+メニュー・チャットＯＮ
+強制チャット名ＯＮ
+強制チャット名ＯＦＦ
+全滅
+カウンター開始
+カウンター停止
+画面四隅マスク
 </JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>23</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6059</PointerOffset>
-      <JapaneseText>マップ内最大連続勝利：&lt;Unk17:323c&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>24</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6081</PointerOffset>
-      <JapaneseText>マップ内最短戦闘時間：&lt;Unk17:3240&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>25</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6103</PointerOffset>
-      <JapaneseText>マップ内最大連続ヒット：&lt;Unk17:3244&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>26</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6125</PointerOffset>
-      <JapaneseText>止めを刺したキャラ：&lt;Unk19:1248&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>27</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6171</PointerOffset>
-      <JapaneseText>カウンターが切れてます</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>28</Id>
+      <SpeakerId>0</SpeakerId>
+      <Id>32</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -377,7 +459,7 @@ noticeフラグ
       <EnglishText/>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>29</Id>
+      <Id>33</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
@@ -386,72 +468,30 @@ noticeフラグ
       <EnglishText/>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>30</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6846</PointerOffset>
-      <JapaneseText>&lt;font:0002&gt;アイテム数を&lt;Unk18:4414&gt;&lt;Unk17:3404&gt;しました</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>31</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>6868</PointerOffset>
-      <JapaneseText>リリース版</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>32</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7025</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;font:0000&gt;&lt;scale:00f0&gt;　食材を買う・チケットを渡す　
-　頻度レベルアップ　
-　種類レベルアップ　
-　個数レベルアップ　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>2</SpeakerId>
-      <Id>33</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7283</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Unk18:4414&gt;レベルは最大です。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
       <Id>34</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7410</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;所持金が足りません。</JapaneseText>
+      <PointerOffset>4878</PointerOffset>
+      <JapaneseText>&lt;Claire&gt;ウィンドウ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>7</SpeakerId>
       <Id>35</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7456</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;今の段階ではこれ以上
-レベルアップできません。</JapaneseText>
+      <PointerOffset>4896</PointerOffset>
+      <JapaneseText>下側のウィンドウ</JapaneseText>
       <EnglishText/>
       <Notes/>
-      <SpeakerId>1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>36</Id>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7485</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk18:4414&gt;レベルを上げます。
-よろしいですか？
-　はい　
-　いいえ　</JapaneseText>
+      <PointerOffset>4949</PointerOffset>
+      <JapaneseText>&lt;item:051a&gt;は取れる</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>0</SpeakerId>
@@ -459,139 +499,52 @@ noticeフラグ
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7573</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;font:80000002&gt;&lt;item:0106&gt;の
-&lt;Unk18:4414&gt;レベルは&lt;Unk17:340cc18c&gt;になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>38</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7609</PointerOffset>
-      <JapaneseText>食材調達施設へようこそ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>39</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7631</PointerOffset>
-      <JapaneseText>ここではいろんな食材を集めて、
-皆さんに提供しています。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>40</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7653</PointerOffset>
-      <JapaneseText>不思議アイテム「&lt;item:0106&gt;」
-を皆さんにお持ちいただくだけで、
-新鮮な食材を定期的に供給する
-システムとなっております。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>41</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7675</PointerOffset>
-      <JapaneseText>この「&lt;item:0106&gt;」、通常は
-１００００ガルドで
-お分けしていますが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>42</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7697</PointerOffset>
-      <JapaneseText>今ならなんと！
-特別期間限定キャンペーン中につき、
-無料でお分けしています！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>43</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7728</PointerOffset>
-      <JapaneseText>各食材チケットをお持ちいただく事で、
-お客様には優先的に食材を
-配達する事ができます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>44</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7750</PointerOffset>
-      <JapaneseText>ぜひ、お集め下さい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>45</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7772</PointerOffset>
-      <JapaneseText>お持ちいただいた食材チケットで、
-使用されていない分と引き換えに
-当方の店で食材を購入する事も可能です。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>46</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7794</PointerOffset>
-      <JapaneseText>また、マジカルポットレベルアップ
-キャンペーンも併せて実施中ですので
-この機会にぜひどうぞ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>7</SpeakerId>
-      <Id>47</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7837</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Green&gt;食材のチケットはワールドマップ
-に点在しています。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>48</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7861</PointerOffset>
-      <JapaneseText>&lt;Green&gt;バトルブックに
-&lt;Red&gt;料理&lt;Green&gt;についての説明が追加されました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>1</SpeakerId>
-      <Id>49</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>7885</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;バトルブックを読みますか？
-　はい　
-　いいえ　</JapaneseText>
+      <PointerOffset>4970</PointerOffset>
+      <JapaneseText>&lt;item:051a&gt;は取れない</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>50</Id>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>1414</PointerOffset>
+      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>39</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s3-0</Section>
+    <Entry>
+      <PointerOffset>4648</PointerOffset>
+      <JapaneseText>スコープイン</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s4-0</Section>
+    <Entry>
+      <PointerOffset>4669</PointerOffset>
+      <JapaneseText>スコープアウト</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>41</Id>
       <Status>To Do</Status>
     </Entry>
   </Strings>

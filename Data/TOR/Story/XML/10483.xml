@@ -4,70 +4,65 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>306,306,306,306,306,306,306,306</PointerOffset>
-      <JapaneseText>門番</JapaneseText>
-      <EnglishText/>
+      <PointerOffset>314,314,314,314,314,314,314</PointerOffset>
+      <JapaneseText>スージー</JapaneseText>
+      <EnglishText>Susie</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>314,314,314,314,314,314,314,314</PointerOffset>
-      <JapaneseText>スージー</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>391</PointerOffset>
       <JapaneseText>&lt;Agarte&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Agarte&gt;</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>306</PointerOffset>
+      <JapaneseText>門番</JapaneseText>
+      <EnglishText>Gatekeeper</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2128</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3973</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>173</PointerOffset>
-      <JapaneseText>ベルサス・スカラベの屋敷</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>176</PointerOffset>
       <JapaneseText>ベルサス・スカラベの屋敷</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Belsas - Scarabe's Mansion</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>173</PointerOffset>
+      <JapaneseText>ベルサス・スカラベの屋敷</JapaneseText>
+      <EnglishText>Belsas - Scarabe's Mansion</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>363</PointerOffset>
       <VoiceId>30000026</VoiceId>
@@ -76,7 +71,7 @@
       <EnglishText>Hey, um... Are you sure you
 aren't the Queen?</EnglishText>
       <Notes/>
-      <SpeakerId>0,1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>3</Id>
       <Status>Editing</Status>
     </Entry>
@@ -89,7 +84,7 @@ aren't the Queen?</EnglishText>
       <EnglishText>No, I'm certainly not the
 Queen. I'm...</EnglishText>
       <Notes/>
-      <SpeakerId>2</SpeakerId>
+      <SpeakerId>1</SpeakerId>
       <Id>4</Id>
       <Status>Editing</Status>
     </Entry>
@@ -103,7 +98,7 @@ Queen. I'm...</EnglishText>
 Queen...Whenever I look at you, I'm reminded of
 when I was kidnapped.</EnglishText>
       <Notes/>
-      <SpeakerId>0,1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>5</Id>
       <Status>Editing</Status>
     </Entry>
@@ -115,7 +110,7 @@ when I was kidnapped.</EnglishText>
       <EnglishText>It was... It was her fault that
 I was taken away.</EnglishText>
       <Notes/>
-      <SpeakerId>0,1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>6</Id>
       <Status>Editing</Status>
     </Entry>
@@ -129,7 +124,7 @@ I was taken away.</EnglishText>
 but... I can't have you around me. I
 don't want you anywhere near me.</EnglishText>
       <Notes/>
-      <SpeakerId>0,1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>7</Id>
       <Status>Editing</Status>
     </Entry>
@@ -145,7 +140,7 @@ other side of the bridge. I'm going
 to let you run away, so you should
 go and take shelter there.</EnglishText>
       <Notes/>
-      <SpeakerId>0,1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>8</Id>
       <Status>Editing</Status>
     </Entry>
@@ -155,7 +150,7 @@ go and take shelter there.</EnglishText>
       <JapaneseText>お嬢様、お客様がお見えですが。</JapaneseText>
       <EnglishText>My Lady, you have visitors.</EnglishText>
       <Notes/>
-      <SpeakerId>0,1</SpeakerId>
+      <SpeakerId>2</SpeakerId>
       <Id>9</Id>
       <Status>Editing</Status>
     </Entry>
@@ -165,7 +160,7 @@ go and take shelter there.</EnglishText>
       <JapaneseText>すぐに行くわ！</JapaneseText>
       <EnglishText>I'll be right out!</EnglishText>
       <Notes/>
-      <SpeakerId>0,1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>10</Id>
       <Status>Editing</Status>
     </Entry>
@@ -177,38 +172,25 @@ go and take shelter there.</EnglishText>
       <EnglishText>I'll tell the doorman to let
 you leave, so... Take care?</EnglishText>
       <Notes/>
-      <SpeakerId>0,1</SpeakerId>
+      <SpeakerId>0</SpeakerId>
       <Id>11</Id>
       <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>2131</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3799</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>13</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>3877</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>4</SpeakerId>
-      <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

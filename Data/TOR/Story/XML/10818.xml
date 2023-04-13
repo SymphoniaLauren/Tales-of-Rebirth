@@ -4,78 +4,57 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>[VARIABLE]</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[VARIABLE]</EnglishText>
       <Notes/>
       <Id>-1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4621,4836,4925</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4805</PointerOffset>
       <JapaneseText>&lt;Hilda&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6380</PointerOffset>
       <JapaneseText>select</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8225</PointerOffset>
-      <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
-    <Section>Story</Section>
-    <Entry>
-      <PointerOffset>570</PointerOffset>
-      <JapaneseText>ウォンティガの聖殿・五階</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>1</Id>
-      <Status>To Do</Status>
-    </Entry>
+    <Section>system</Section>
     <Entry>
       <PointerOffset>573</PointerOffset>
       <JapaneseText>ウォンティガの聖殿</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Shrine of Wontiga</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>570</PointerOffset>
+      <JapaneseText>ウォンティガの聖殿・五階</JapaneseText>
+      <EnglishText>Shrine of Wontiga - 5F</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>4071</PointerOffset>
-      <JapaneseText>ループ大きく</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>3</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>4249</PointerOffset>
-      <JapaneseText>ループ小さく</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Id>4</Id>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
     <Entry>
       <PointerOffset>4624</PointerOffset>
       <VoiceId>2f000028</VoiceId>
@@ -83,7 +62,7 @@
       <EnglishText>...You're different than that!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
+      <Id>3</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -93,7 +72,7 @@
       <EnglishText>&lt;Annie&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>6</Id>
+      <Id>4</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -105,7 +84,7 @@
 me. We should keep moving.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
+      <Id>5</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -115,37 +94,24 @@ me. We should keep moving.</EnglishText>
       <EnglishText>...Please.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
+      <Id>6</Id>
       <Status>Editing</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
     <Entry>
       <PointerOffset>6383</PointerOffset>
       <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>9</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8051</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>10</Id>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>8129</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <SpeakerId>3</SpeakerId>
-      <Id>11</Id>
-      <Status>To Do</Status>
+      <Id>7</Id>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>
