@@ -18,30 +18,30 @@
     <Entry>
       <PointerOffset>1004</PointerOffset>
       <JapaneseText>武器防具がありません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You have no equipment.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1008</PointerOffset>
       <JapaneseText>宝石がありません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You have no gems.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1016</PointerOffset>
       <JapaneseText>- 継承元 -</JapaneseText>
-      <EnglishText/>
+      <EnglishText>-Original -</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1020</PointerOffset>
       <JapaneseText>- 継承先 -</JapaneseText>
-      <EnglishText/>
+      <EnglishText>- Inheritor -</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1024</PointerOffset>
@@ -49,9 +49,13 @@
 &lt;size:000000C0&gt;（&lt;04:00000002&gt;は失われます）
 &lt;size:000000C0&gt;&lt;Grey&gt;----
 &lt;size:000000C0&gt;&lt;Yellow&gt;&lt;icon:00000030&gt;実行　&lt;icon:00000031&gt;やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Proceed with inheritence?
+&lt;size:000000C0&gt;(&lt;04:00000002&gt; will be no more.)
+&lt;size:000000C0&gt;&lt;Grey&gt;----
+&lt;size:000000C0&gt;&lt;Yellow&gt;&lt;icon:00000030&gt; Continue
+&lt;icon:00000031&gt; Cancel</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1028</PointerOffset>
@@ -195,9 +199,9 @@
     <Entry>
       <PointerOffset>1112</PointerOffset>
       <JapaneseText>ガルドが足りません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You don't have enough Gald.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1116</PointerOffset>
@@ -240,38 +244,39 @@
     <Entry>
       <PointerOffset>1140</PointerOffset>
       <JapaneseText>メッセージ速度</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Text Speed</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1144</PointerOffset>
       <JapaneseText>メッセージの表示速度を変更します。
 表示速度１の時はフェードしません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Change the speed of the text display.
+Text displays immediately when set to 1.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1148</PointerOffset>
       <JapaneseText>戦闘ランク</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Battle Difficulty</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1152</PointerOffset>
       <JapaneseText>戦闘時の難易度を変更します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Change difficulty during battle.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1156</PointerOffset>
       <JapaneseText>戦闘キーカスタマイズ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Customize Battle Controls</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>116</PointerOffset>
@@ -283,75 +288,78 @@
     <Entry>
       <PointerOffset>1160</PointerOffset>
       <JapaneseText>戦闘時のキー配置を変更します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Change controls when in battle.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1164</PointerOffset>
       <JapaneseText>カメラ左右回転方向</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Camera Left-Right Rotation</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1168</PointerOffset>
       <JapaneseText>フィールド上での&lt;icon:00000034&gt;&lt;icon:00000035&gt;による回転方向を
 変更します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Change the rotation direction
+when on the world map.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1172</PointerOffset>
       <JapaneseText>上下移動方向</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Vertical Movement</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1176</PointerOffset>
       <JapaneseText>シャオルーンに乗っているときの&lt;icon:00000013&gt;による
 移動方向を変更します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Change the vertical orientation when
+using &lt;icon:00000013&gt; while riding Shaorune.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1180</PointerOffset>
       <JapaneseText>カメラ自動回転</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Camera Auto Movement</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1184</PointerOffset>
       <JapaneseText>フィールド上でのカメラをキャラの向きに自動補正
 します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Automatically correct the orientation
+of the camera on the World Map.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1188</PointerOffset>
       <JapaneseText>カメラ慣性</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Camera Inertia</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1192</PointerOffset>
       <JapaneseText>フィールド上でのカメラの移動に慣性を加えます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Add inertia to the World Map camera.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1196</PointerOffset>
       <JapaneseText>画面位置</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Screen Position</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>12</PointerOffset>
@@ -370,23 +378,23 @@
     <Entry>
       <PointerOffset>1200</PointerOffset>
       <JapaneseText>画面の表示位置を調整します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Adjust the position.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1204</PointerOffset>
       <JapaneseText>振動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Vibration</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1208</PointerOffset>
       <JapaneseText>コントローラの振動の有無を変更します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Enable or disable controller vibration.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1212</PointerOffset>
@@ -405,24 +413,25 @@
     <Entry>
       <PointerOffset>1228</PointerOffset>
       <JapaneseText>戦闘中ヘルプ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Battle Help</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1232</PointerOffset>
       <JapaneseText>ＯＮにすると戦闘中に入力したボタンアクションの
 説明が左上に表示されます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Explains information about pressed button
+in upper right corner during battle when ON.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1236</PointerOffset>
       <JapaneseText>戦闘中カメラ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Battle Camera</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>124</PointerOffset>
@@ -435,75 +444,81 @@
       <PointerOffset>1240</PointerOffset>
       <JapaneseText>[ターゲット]
 　プレイヤーのターゲットを画面内に表示します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[Target]
+ Keep player and target in view.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1244</PointerOffset>
       <JapaneseText>[パーティ]
 　パーティキャラを画面内に表示します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[Party]
+ Keep party members in view.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1248</PointerOffset>
       <JapaneseText>[エネミー]
 　敵全員を画面内に表示します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[Enemy]
+ Keep all enemies in view.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1252</PointerOffset>
       <JapaneseText>[オール]
 　キャラクター全員を画面内に表示します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>[All]
+ Have all characters in view.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1256,1608</PointerOffset>
       <JapaneseText>ボリューム</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Volume</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1260</PointerOffset>
       <JapaneseText>曲や効果音等の再生ボリュームを変更します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Change the volume of music
+and sound effects.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1264</PointerOffset>
       <JapaneseText>ウィンドウカラー</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Window Color</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1268</PointerOffset>
       <JapaneseText>ウィンドウの背景色を変更します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Change the color of windows.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1272</PointerOffset>
       <JapaneseText>メニュー背景</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Menu Background</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1276</PointerOffset>
       <JapaneseText>メニュー画面の背景色を変更します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Change the transparency of the
+menu's background image.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>128</PointerOffset>
@@ -515,69 +530,73 @@
     <Entry>
       <PointerOffset>1280,332</PointerOffset>
       <JapaneseText>サウンドモード</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sound Mode</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1284</PointerOffset>
       <JapaneseText>ゲーム中に使用される曲や音声のテストを行う
 メニューを開きます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Debug stuff</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1288</PointerOffset>
       <JapaneseText>自動メッセージ送り</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Automatic Text </EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1292</PointerOffset>
       <JapaneseText>ＯＮにするとボタンを押さなくても自動で
 メッセージを送るようになります。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Move to next text box without having
+to press a button when set to ON.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1300</PointerOffset>
       <JapaneseText>ＯＮにすると音響をステレオ再生します。
 ＯＦＦだとモノラルで再生されます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Audio is in stereo when ON.
+Audio is in mono when OFF.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1304</PointerOffset>
       <JapaneseText>初見チャットキャンセル</JapaneseText>
-      <EnglishText/>
+      <EnglishText>First-time Skit Cancel</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1308</PointerOffset>
       <JapaneseText>ＯＮにすると初めて見るチャットでも
 キャンセル出来るようになります。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Enables canceeling a skit upon
+viewing it the first time when set to ON.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1312</PointerOffset>
       <JapaneseText>初回プレイ向け解説</JapaneseText>
-      <EnglishText/>
+      <EnglishText>First Playthrough Hints</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1316</PointerOffset>
       <JapaneseText>ＯＮにするとプレイに役立つ説明を表示します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Gameplay explanations will be
+provided when set to ON.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>132</PointerOffset>
@@ -701,23 +720,23 @@
     <Entry>
       <PointerOffset>1384</PointerOffset>
       <JapaneseText>パーティ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Party</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1388</PointerOffset>
       <JapaneseText>エネミー</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Enemy</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1392</PointerOffset>
       <JapaneseText>オール</JapaneseText>
-      <EnglishText/>
+      <EnglishText>All</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1396,108</PointerOffset>
@@ -764,16 +783,16 @@
     <Entry>
       <PointerOffset>1420,1380</PointerOffset>
       <JapaneseText>ターゲット</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Target</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1428</PointerOffset>
       <JapaneseText>ジャンプ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Jump</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1432</PointerOffset>
@@ -1002,16 +1021,16 @@
     <Entry>
       <PointerOffset>1548</PointerOffset>
       <JapaneseText>決定</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Confirm</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1552</PointerOffset>
       <JapaneseText>入力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Enter</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1556</PointerOffset>
@@ -1125,9 +1144,9 @@
     <Entry>
       <PointerOffset>1612,1296</PointerOffset>
       <JapaneseText>ステレオ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Stereo</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1616,1220</PointerOffset>
@@ -1357,9 +1376,9 @@
     <Entry>
       <PointerOffset>1740</PointerOffset>
       <JapaneseText>レシピを持っていません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You have no recipes.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1744</PointerOffset>
@@ -1602,9 +1621,9 @@
     <Entry>
       <PointerOffset>1896</PointerOffset>
       <JapaneseText>クリア回数</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Clear Count</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1900</PointerOffset>
@@ -2074,23 +2093,23 @@
     <Entry>
       <PointerOffset>212</PointerOffset>
       <JapaneseText>エメラルド</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Emerald</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>216</PointerOffset>
       <JapaneseText>サファイア</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sapphire</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>220</PointerOffset>
       <JapaneseText>ダイアモンド</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Diamond</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>224</PointerOffset>
@@ -2451,9 +2470,10 @@
       <PointerOffset>436</PointerOffset>
       <JapaneseText>戦闘に参加するメンバーに
 戦闘可能なキャラがいません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You have no characters that
+can fight in your battle party.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>44</PointerOffset>
@@ -2533,9 +2553,9 @@
     <Entry>
       <PointerOffset>476</PointerOffset>
       <JapaneseText>攻撃力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Attack</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>48</PointerOffset>
@@ -2552,16 +2572,16 @@
     <Entry>
       <PointerOffset>480</PointerOffset>
       <JapaneseText>防御力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Defense</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>484</PointerOffset>
       <JapaneseText>回復力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Regen</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>488,580</PointerOffset>
@@ -2676,9 +2696,9 @@
     <Entry>
       <PointerOffset>568</PointerOffset>
       <JapaneseText>使う</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>572</PointerOffset>
@@ -2690,9 +2710,9 @@
     <Entry>
       <PointerOffset>576</PointerOffset>
       <JapaneseText>やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Cancel</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>584,492</PointerOffset>
@@ -2827,37 +2847,37 @@
     <Entry>
       <PointerOffset>652</PointerOffset>
       <JapaneseText>武具</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Armor</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>656</PointerOffset>
       <JapaneseText>杖</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Staff</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>660</PointerOffset>
       <JapaneseText>グローブ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Glove</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>664</PointerOffset>
       <JapaneseText>カード</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Card</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>668</PointerOffset>
       <JapaneseText>トンファー</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Tonfa</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>68</PointerOffset>
@@ -2869,30 +2889,30 @@
     <Entry>
       <PointerOffset>680,672,676</PointerOffset>
       <JapaneseText>鎧</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Armor</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>684,692</PointerOffset>
       <JapaneseText>服</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Clothes</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>688</PointerOffset>
       <JapaneseText>ローブ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Robe</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>696,552,796</PointerOffset>
       <JapaneseText>宝石</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Gem</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>704</PointerOffset>
@@ -2904,9 +2924,9 @@
     <Entry>
       <PointerOffset>716</PointerOffset>
       <JapaneseText>使用できません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Can't use.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>72</PointerOffset>
@@ -2918,32 +2938,32 @@
     <Entry>
       <PointerOffset>720</PointerOffset>
       <JapaneseText>装備できません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Can't equip.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>724</PointerOffset>
       <JapaneseText>今は使うことができません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You can't use this at the moment.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>728</PointerOffset>
       <JapaneseText>&lt;04:00000001&gt;は
 捨てることはできません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;04:00000001&gt; cannot be discarded.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>732</PointerOffset>
       <JapaneseText>&lt;04:00000001&gt;は
 なくなりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ran out of &lt;04:00000001&gt;.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>736</PointerOffset>
@@ -2977,9 +2997,9 @@
     <Entry>
       <PointerOffset>748</PointerOffset>
       <JapaneseText>捨てていくアイテム</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Item to be discarded</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>752</PointerOffset>
@@ -2994,9 +3014,10 @@
       <PointerOffset>756</PointerOffset>
       <JapaneseText>全身に聖気をまとったような
 気がする。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You were surrounded by
+a holy presense.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>76</PointerOffset>
@@ -3009,9 +3030,10 @@
       <PointerOffset>760</PointerOffset>
       <JapaneseText>全身に邪気をまとったような
 気がする。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You were surrounded by
+an evil presense.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>764</PointerOffset>
@@ -3058,9 +3080,9 @@
     <Entry>
       <PointerOffset>788,544</PointerOffset>
       <JapaneseText>武器</JapaneseText>
-      <EnglishText/>
+      <EnglishText>EQUIP</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8</PointerOffset>
@@ -3080,9 +3102,9 @@
     <Entry>
       <PointerOffset>800,700,556</PointerOffset>
       <JapaneseText>護符</JapaneseText>
-      <EnglishText/>
+      <EnglishText>ACC</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>808,712</PointerOffset>
@@ -3167,23 +3189,23 @@
     <Entry>
       <PointerOffset>856</PointerOffset>
       <JapaneseText>オート</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Auto</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>860</PointerOffset>
       <JapaneseText>セミオート</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Semi-Auto</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>864</PointerOffset>
       <JapaneseText>マニュアル</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Manual</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>868,804</PointerOffset>
@@ -3195,9 +3217,9 @@
     <Entry>
       <PointerOffset>876</PointerOffset>
       <JapaneseText>奥義</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Arte</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>88</PointerOffset>
@@ -3223,9 +3245,9 @@
     <Entry>
       <PointerOffset>888</PointerOffset>
       <JapaneseText>まだ覚えられません</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Can't learn yet.</EnglishText>
       <Notes/>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>892</PointerOffset>
