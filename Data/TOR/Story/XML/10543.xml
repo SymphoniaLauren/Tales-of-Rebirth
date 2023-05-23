@@ -67,7 +67,7 @@
     </Entry>
     <Entry>
       <PointerOffset>15221,842,814,786,754</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>7</Id>
@@ -83,7 +83,7 @@
     </Entry>
     <Entry>
       <PointerOffset>8837</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:344c&gt;</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:344C80&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>9</Id>
@@ -300,7 +300,7 @@ instead?!</EnglishText>
 ご満足いただくためでございます。</JapaneseText>
       <EnglishText>Hohoho... I did it so that I
 could keep my guests
-&lt;Italics&gt;satisfied&lt;NoItalics&gt;...</EnglishText>
+&lt;Italic&gt;satisfied&lt;/Italic&gt;...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>19</Id>
@@ -421,7 +421,7 @@ here!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>17530</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;「&lt;item:0000&gt;」で
+      <JapaneseText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;「&lt;item:0&gt;」で
 ございます。</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -432,7 +432,7 @@ here!</EnglishText>
     <Entry>
       <PointerOffset>17563</PointerOffset>
       <JapaneseText>それでは、
-&lt;Unk17:380594&gt;ガルド
+&lt;unk17:38059480&gt;ガルド
 からの開始です。
 参りましょう。</JapaneseText>
       <EnglishText/>
@@ -443,7 +443,8 @@ here!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>15224</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;font:0009&gt;&lt;Unk18:48a005&gt;</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;font:9&gt;&lt;unk18:48A00580&gt;
+</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>7</SpeakerId>
@@ -452,7 +453,7 @@ here!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>9253</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;落札をあきらめますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;落札をあきらめますか？
 　はい　
 　いいえ　</JapaneseText>
       <EnglishText/>
@@ -463,8 +464,8 @@ here!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>9532</PointerOffset>
-      <JapaneseText>&lt;item:0000&gt;は
-&lt;Unk17:380594&gt;ガルドで
+      <JapaneseText>&lt;item:0&gt;は
+&lt;unk17:38059480&gt;ガルドで
 落札されました。</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -474,7 +475,7 @@ here!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>9585</PointerOffset>
-      <JapaneseText>&lt;item:0000&gt;は
+      <JapaneseText>&lt;item:0&gt;は
 落札されませんでした。</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -502,7 +503,7 @@ here!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>11160</PointerOffset>
-      <JapaneseText>現在、&lt;Unk17:380594&gt;ガルドです。
+      <JapaneseText>現在、&lt;unk17:38059480&gt;ガルドです。
 もうありませんか？</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -512,7 +513,7 @@ here!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>11170</PointerOffset>
-      <JapaneseText>現在、&lt;Unk17:380594&gt;ガルドです。</JapaneseText>
+      <JapaneseText>現在、&lt;unk17:38059480&gt;ガルドです。</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>0</SpeakerId>
@@ -521,8 +522,8 @@ here!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>17808</PointerOffset>
-      <JapaneseText>&lt;Unk17:380594&gt;ガルドで落札されました
-「&lt;item:0000&gt;」は、
+      <JapaneseText>&lt;unk17:38059480&gt;ガルドで落札されました
+「&lt;item:0&gt;」は、
 こちらになります。</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -571,10 +572,10 @@ here!</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5697</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
@@ -587,7 +588,7 @@ No</EnglishText>
     <Section>s2-1</Section>
     <Entry>
       <PointerOffset>757</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『書画』
+      <JapaneseText>&lt;speed:0&gt;『書画』
 書道家ネイ・サンの作品。
 ある動物が跳ね遊ぶ様子を元に
 作られた文字。</JapaneseText>

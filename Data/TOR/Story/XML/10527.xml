@@ -75,7 +75,7 @@
     </Entry>
     <Entry>
       <PointerOffset>1454,1476,1704,2017,2058,1029</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>8</Id>
@@ -711,9 +711,9 @@ teach 'em a thing or two for me!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>1312</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　はい　
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Yes
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
@@ -733,11 +733,11 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>1457</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Green&gt;「河下り操作説明」&lt;White&gt;
+      <JapaneseText>&lt;speed:0&gt;&lt;Green&gt;「河下り操作説明」&lt;White&gt;
 　
 　 &lt;icon:30&gt;　　木の実を投げる（木の実取得時）
 　 &lt;icon:31&gt;　　ジャンプ
-　 &lt;icon:1c&gt;　　左右ライン移動
+　 &lt;icon:1C&gt;　　左右ライン移動
 　STARTボタン　一時停止
 　
 　丸太や岩を避けながらゴールを目指しま　
@@ -753,7 +753,7 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>1479</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Green&gt;「河下りアイテム説明」&lt;White&gt;
+      <JapaneseText>&lt;speed:0&gt;&lt;Green&gt;「河下りアイテム説明」&lt;White&gt;
 　
 　木の実　：木の実を五つ取得
 　浮き輪　：ライフがひとつ回復（最大五つ）
@@ -773,10 +773,10 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>1707</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0180&gt;　　　－ 結果 －　　　
-　ルート　：&lt;Unk17:3410&gt;
-　スコア　：&lt;Unk17:324c&gt;
-ハイスコア：&lt;Unk17:31ac&gt;</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:180&gt;　　　－ 結果 －　　　
+　ルート　：&lt;unk17:341080&gt;
+　スコア　：&lt;unk17:324C80&gt;
+ハイスコア：&lt;unk17:31AC80&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>8</SpeakerId>
@@ -817,10 +817,10 @@ No</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>8291</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
@@ -834,7 +834,7 @@ No</EnglishText>
     <Entry>
       <PointerOffset>1032</PointerOffset>
       <JapaneseText>　　『ググラの河下り便』
-現在までのハイスコア：&lt;Unk17:31ac&gt;</JapaneseText>
+現在までのハイスコア：&lt;unk17:31AC80&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>8</SpeakerId>

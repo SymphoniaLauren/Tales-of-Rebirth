@@ -19,7 +19,7 @@
     </Entry>
     <Entry>
       <PointerOffset>4038,4002,3966</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
@@ -89,10 +89,10 @@
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>6816</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
@@ -105,13 +105,13 @@ No</EnglishText>
     <Section>s2-1</Section>
     <Entry>
       <PointerOffset>4041</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『古い肖像画』
+      <JapaneseText>&lt;speed:0&gt;『古い肖像画』
 ガジュマとヒューマの女性が
 描かれたものが一枚ずつと、
 二人が並んでいるものが一枚ある。
 「当店の創始者、ノビビーとユウ」
 と記されている。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Old Portraits -
+      <EnglishText>&lt;speed:0&gt;- Old Portraits -
 There's a picture of a Gajuma
 and a Huma and one with two
 together. Written below is
@@ -127,9 +127,9 @@ Eat Well, Sleep Well"</EnglishText>
     <Section>s2-2</Section>
     <Entry>
       <PointerOffset>4005</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『？？？の設計図』
+      <JapaneseText>&lt;speed:0&gt;『？？？の設計図』
 どうしてここに貼ってあるかは不明。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- A Blueprint of ??? -
+      <EnglishText>&lt;speed:0&gt;- A Blueprint of ??? -
 You have no idea why it's sticked
 on here.</EnglishText>
       <Notes/>
@@ -142,12 +142,12 @@ on here.</EnglishText>
     <Section>s2-3</Section>
     <Entry>
       <PointerOffset>3969</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ペトナジャンカ年代記』
+      <JapaneseText>&lt;speed:0&gt;『ペトナジャンカ年代記』
 『カレギア・鉄の歴史』
 『ノビビーとユウの日記』
 『煙突掃除の少年たち』
 いずれも古い本ばかり。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Annals of Petnadjanka -
+      <EnglishText>&lt;speed:0&gt;- Annals of Petnadjanka -
 - Callegea: A History of Money -
 - Nobibi and Yu's Diary -
 - Chimneysweepers -
@@ -197,11 +197,11 @@ the dinner I shall serve you!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>2601</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　食材を買う　
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;　食材を買う　
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Food
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Buy Food
 Talk
 Cancel</EnglishText>
       <Notes/>
@@ -711,11 +711,11 @@ Shaking...!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>801</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　宿泊する　
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;　宿泊する　
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Rest
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Rest
 Talk
 Cancel</EnglishText>
       <Notes/>
@@ -734,9 +734,9 @@ Cancel</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4322</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;ひと晩&lt;Unk17:340c&gt;ガルドになりますが
+      <JapaneseText>&lt;font:80000002&gt;ひと晩&lt;unk17:340C80&gt;ガルドになりますが
 いかがですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -745,9 +745,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4375</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -756,9 +756,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4428</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;&lt;unk17:340C80&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -767,9 +767,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4482</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -778,9 +778,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4536</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -790,8 +790,8 @@ Stay here?</EnglishText>
     <Entry>
       <PointerOffset>4602</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;泊まんのかい……？
-&lt;Unk17:340c&gt;ガルド置いてきな。</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+&lt;unk17:340C80&gt;ガルド置いてきな。</JapaneseText>
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -800,9 +800,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4645</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドだけど、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドだけど、
 泊まるかい？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -811,9 +811,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4699</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -822,9 +822,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4753</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -833,9 +833,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4807</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -844,9 +844,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4861</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドだけど、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドだけど、
 泊まる？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -855,9 +855,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4915</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドになりますが、
 よろしいでしょうか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -866,9 +866,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4969</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドになりますが、
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドになりますが、
 お泊りですか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -877,9 +877,9 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5031</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;一泊&lt;Unk17:340c&gt;ガルドだ。
+      <JapaneseText>&lt;font:80000002&gt;一泊&lt;unk17:340C80&gt;ガルドだ。
 どうする？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;One night is &lt;Unk17:340c&gt; Gald.
+      <EnglishText>&lt;font:80000002&gt;One night is &lt;unk17:340C80&gt; Gald.
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -888,8 +888,8 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5085</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドだけど泊まるかい？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;Spend &lt;Unk17:340c&gt; Gald to rest here?</EnglishText>
+      <JapaneseText>&lt;font:80000002&gt;&lt;unk17:340C80&gt;ガルドだけど泊まるかい？</JapaneseText>
+      <EnglishText>&lt;font:80000002&gt;Spend &lt;unk17:340C80&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>71</Id>
@@ -897,8 +897,8 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5139</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドだけど泊まるかい？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;Spend &lt;Unk17:340c&gt; Gald to rest here?</EnglishText>
+      <JapaneseText>&lt;font:80000002&gt;&lt;unk17:340C80&gt;ガルドだけど泊まるかい？</JapaneseText>
+      <EnglishText>&lt;font:80000002&gt;Spend &lt;unk17:340C80&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>72</Id>
@@ -906,8 +906,8 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5193</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドだけど泊まりますか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;Spend &lt;Unk17:340c&gt; Gald to rest here?</EnglishText>
+      <JapaneseText>&lt;font:80000002&gt;&lt;unk17:340C80&gt;ガルドだけど泊まりますか？</JapaneseText>
+      <EnglishText>&lt;font:80000002&gt;Spend &lt;unk17:340C80&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>73</Id>
@@ -915,8 +915,8 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5247</PointerOffset>
-      <JapaneseText>&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドだけど泊まりますか？</JapaneseText>
-      <EnglishText>&lt;font:80000002&gt;Spend &lt;Unk17:340c&gt; Gald to rest here?</EnglishText>
+      <JapaneseText>&lt;font:80000002&gt;&lt;unk17:340C80&gt;ガルドだけど泊まりますか？</JapaneseText>
+      <EnglishText>&lt;font:80000002&gt;Spend &lt;unk17:340C80&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>74</Id>
@@ -924,11 +924,11 @@ Stay here?</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5327</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;&lt;Unk17:340c&gt;ガルドで泊りますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;&lt;unk17:340C80&gt;ガルドで泊りますか？
 　はい　
 　いいえ　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk17:340c&gt; Gald to rest. Spend the night?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;unk17:340C80&gt; Gald to rest. Spend the night?
 Yes
 No</EnglishText>
       <Notes/>

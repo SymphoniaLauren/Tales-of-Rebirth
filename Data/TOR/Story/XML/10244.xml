@@ -147,7 +147,7 @@
     </Entry>
     <Entry>
       <PointerOffset>9988,10012,1009,1033,895,919,955</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>17</Id>
@@ -719,7 +719,7 @@ please, help yourselves too.</EnglishText>
       <PointerOffset>4140</PointerOffset>
       <VoiceId>0c000028</VoiceId>
       <JapaneseText>……ピーチパイが大好きなんだ。
-&lt;Veigue&gt;&lt;Purple&gt;&lt;scale:0120&gt;ちゃん&lt;scale:0100&gt;&lt;White&gt;は……</JapaneseText>
+&lt;Veigue&gt;&lt;Purple&gt;&lt;scale:120&gt;ちゃん&lt;scale:100&gt;&lt;White&gt;は……</JapaneseText>
       <EnglishText>...So peach pie is your
 faaaavorite, huh “&lt;Purple&gt;Little&lt;White&gt;
 &lt;Veigue&gt;”?</EnglishText>
@@ -1290,7 +1290,7 @@ him.</EnglishText>
 言うから、だから、わたしが……</JapaneseText>
       <EnglishText>I did not! &lt;Mao&gt; asked me to do
 it! He said he wanted to stay by
-&lt;Italics&gt;his&lt;NoItalics&gt; side, so I...</EnglishText>
+&lt;Italic&gt;his&lt;/Italic&gt; side, so I...</EnglishText>
       <Notes/>
       <SpeakerId>13</SpeakerId>
       <Id>91</Id>
@@ -1459,8 +1459,10 @@ she would feel guilty.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>14923</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3404&gt;が仲間になりました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3404&gt; joined the party.</EnglishText>
+      <JapaneseText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;&lt;font:80000002&gt;&lt;unk19:340480&gt;が仲間になりました。
+</JapaneseText>
+      <EnglishText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;&lt;unk19:340480&gt; joined the party.
+</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>106</Id>
@@ -1468,8 +1470,10 @@ she would feel guilty.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>15001</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;font:80000002&gt;&lt;Unk19:3410&gt;が同行します。</JapaneseText>
-      <EnglishText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;&lt;Unk19:3410&gt; is now travelling with you.</EnglishText>
+      <JapaneseText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;&lt;font:80000002&gt;&lt;unk19:341080&gt;が同行します。
+</JapaneseText>
+      <EnglishText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;&lt;unk19:341080&gt; is now travelling with you.
+</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>107</Id>
@@ -2775,10 +2779,10 @@ of &lt;Veigue&gt; and Claire.</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>13255</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
@@ -2791,14 +2795,14 @@ No</EnglishText>
     <Section>s2-1</Section>
     <Entry>
       <PointerOffset>1012</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『わたしのおとうさん』（上）
+      <JapaneseText>&lt;speed:0&gt;『わたしのおとうさん』（上）
 おとうさんは、いつもわらってます。
 あらしがきても、おおゆきのときも、
 ゆめをみているときも、わらってます。
 そんなおとうさんが、わたしは
 だいすきです！　　　　クレア
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"My Daddy" (Above)
+      <EnglishText>&lt;speed:0&gt;"My Daddy" (Above)
 My daddy is always smiling.
 When storms come, when there's
 lots of snow, when he's dreaming,
@@ -2811,14 +2815,14 @@ I love him so!　　　　-Claire</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>1036</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ラキヤさんのこと』（下）
+      <JapaneseText>&lt;speed:0&gt;『ラキヤさんのこと』（下）
 ラキヤさんは、いいひとだ。
 ぼくにいつもやさしくしてくれる。
 おいしいごはんをつくってくれた。
 ふくもつくってくれた。
 けんもかってくれた。
 だから、いいひとだ。　&lt;Veigue&gt;</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Mrs. Rakia" (Above)
+      <EnglishText>&lt;speed:0&gt;"Mrs. Rakia" (Above)
 Mrs. Rakia is a nice lady.
 She's kind to me.
 She makes me yummy food.
@@ -2835,12 +2839,12 @@ So, she's a nice lady.   -&lt;Veigue&gt;</EnglishText>
     <Section>s2-2</Section>
     <Entry>
       <PointerOffset>898</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『クレアの作った料理』（左）
+      <JapaneseText>&lt;speed:0&gt;『クレアの作った料理』（左）
 スールズ産の高原野菜を使った
 栄養と愛情たっぷりのスープ。
 クレアの得意料理のひとつ。
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Claire's Cooking" (Left)
+      <EnglishText>&lt;speed:0&gt;"Claire's Cooking" (Left)
 A soup made out of local
 vegetables that is filled
 with nutrients and love.
@@ -2852,12 +2856,12 @@ One of Claire's specialties.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>922</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ラキヤの作った料理』（右）
+      <JapaneseText>&lt;speed:0&gt;『ラキヤの作った料理』（右）
 スールズ産の新鮮な牛乳をたっぷり
 使った、身も心もあたたまるシチュー。
 北風の香りがする。
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Rakia's Cooking" (Right)
+      <EnglishText>&lt;speed:0&gt;"Rakia's Cooking" (Right)
 Made with fresh Sulz milk,
 this stew warms both the 
 body and the mind. Smells
@@ -2869,12 +2873,12 @@ like the northern wind.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>958</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ラキヤの作った料理』
+      <JapaneseText>&lt;speed:0&gt;『ラキヤの作った料理』
 スールズ産の新鮮な牛乳や野菜を
 使った、身も心もあたたまるスープ。
 おふくろの味。
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Rakia's Cooking" (Right)
+      <EnglishText>&lt;speed:0&gt;"Rakia's Cooking" (Right)
 Made with fresh Sulz milk,
 this soup warms both the 
 body and the mind. The
