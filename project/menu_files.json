@@ -1,0 +1,278 @@
+[
+	{
+		"file_path": "${main_exe}",
+		"is_pak": false,
+		"base_offset": -1044480,
+		"sections": [
+			{
+				"section": "Character Names",
+				"pointers_start": 830472,
+				"style": "P",
+				"text_start": 1120640,
+				"text_end": 1120990
+			},
+			{
+				"section": "Action 1",
+				"pointers_start": 945440,
+				"style": "P",
+				"text_start": 1124432,
+				"text_end": 1124910
+			},
+			{
+				"section": "Skit Names and Other",
+				"pointers_start": 1000108,
+				"style": "P",
+				"text_start": 1126048,
+				"text_end": 1152415
+			},
+			{
+				"section": "Artes",
+				"pointers_start": 1051588,
+				"style": "PPP40",
+				"text_start": 1153168,
+				"text_end": 1165478
+			},
+			{
+				"section": "Latent Abilities 1",
+				"pointers_start": 1059248,
+				"style": "PPP4",
+				"text_start": 1165480,
+				"text_end": 1169822
+			},
+			{
+				"section": "Strategy 1",
+				"pointers_start": 1060836,
+				"style": "PPP4",
+				"text_start": 1169824,
+				"text_end": 1173302
+			},
+			{
+				"section": "Latent Abilities 2",
+				"pointers_start": 1060776,
+				"style": "PPP4",
+				"text_start": 1173304,
+				"text_end": 1173646
+			},
+			{
+				"section": "Latent Abilities 3",
+				"pointers_start": 1061824,
+				"style": "PP8",
+				"text_start": 1176512,
+				"text_end": 1178846
+			},
+			{
+				"section": "Latent Abilities 4",
+				"pointers_start": 1062856,
+				"style": "P",
+				"text_start": 1178848,
+				"text_end": 1179430
+			},
+			{
+				"section": "Attribute and Status",
+				"pointers_start": 1062984,
+				"style": "P",
+				"text_start": 1179432,
+				"text_end": 1181558
+			},
+			{
+				"section": "Armor",
+				"pointers_start": 1068892,
+				"style": "PP20",
+				"text_start": 1190704,
+				"text_end": 1200222
+			},
+			{
+				"section": "Weapon",
+				"pointers_start": 1072116,
+				"style": "PP20",
+				"text_start": 1200224,
+				"text_end": 1210143
+			},
+			{
+				"section": "Jewel",
+				"pointers_start": 1075500,
+				"style": "PP12",
+				"text_start": 1210144,
+				"text_end": 1211055
+			},
+			{
+				"section": "Charm",
+				"pointers_start": 1075888,
+				"style": "PP16",
+				"text_start": 1211056,
+				"text_end": 1213751
+			},
+			{
+				"section": "Consumables",
+				"pointers_start": 1076680,
+				"style": "PP16",
+				"text_start": 1213752,
+				"text_end": 1222206
+			},
+			{
+				"section": "Locations 1",
+				"pointers_start": 1082240,
+				"style": "PPP44",
+				"text_start": 1222208,
+				"text_end": 1227470
+			},
+			{
+				"section": "Locations 2",
+				"pointers_start": 1085672,
+				"style": "PP20",
+				"text_start": 1227472,
+				"text_end": 1233150
+			},
+			{
+				"section": "Cooking",
+				"pointers_start": 1093592,
+				"style": "P",
+				"text_start": 1236128,
+				"text_end": 1240958
+			},
+			{
+				"section": "Title",
+				"pointers_start": 1095064,
+				"style": "P",
+				"text_start": 1241072,
+				"text_end": 1247838
+			}
+		]
+	},
+	{
+		"file_path": "./PAK3/11181.pak3",
+		"is_pak": true,
+		"pak_type": 3,
+		"files": [
+			{
+				"file": 5,
+				"base_offset": 0,
+				"sections": [
+					{
+						"section": "Triangle Menu",
+						"pointers_start": 8,
+						"style": "P",
+						"text_start": 2100,
+						"text_end": 16585
+					}
+				]
+			}
+		]
+	},
+	{
+		"file_path": "./PAK3/00023.pak3",
+		"is_pak": true,
+		"pak_type": 3,
+		"files": [
+			{
+				"file": 0,
+				"base_offset": 0,
+				"sections": [
+					{
+						"section": "Panic Mini Game 1",
+						"pointers_start": 6268,
+						"style": "P28",
+						"text_start": 14676,
+						"text_end": 16086
+					}
+				]
+			},
+			{
+				"file": 2,
+				"base_offset": 0,
+				"sections": [
+					{
+						"section": "Panic Mini Game 2.1",
+						"pointers_start": 8,
+						"style": "P",
+						"text_start": 364,
+						"text_end": 478
+					},
+					{
+						"section": "Panic Mini Game 2.2",
+						"pointers_start": 84,
+						"style": "P",
+						"text_start": 556,
+						"text_end": 1278
+					}
+				]
+			}
+		]
+	},
+	{
+		"file_path": "./PAK3/00013.pak3",
+		"is_pak": true,
+		"pak_type": 3,
+		"files": [
+			{
+				"file": 0,
+				"base_offset": -3077760,
+				"sections": [
+					{
+						"section": "Battle Tutorial 1",
+						"pointers_start": 352272,
+						"style": "P",
+						"text_start": 360160,
+						"text_end": 363934
+					},
+					{
+						"section": "Battle Tutorial 2",
+						"pointers_start": 353104,
+						"style": "P",
+						"text_start": 363944,
+						"text_end": 363974
+					},
+					{
+						"section": "Battle Tutorial 3",
+						"pointers_start": 353216,
+						"style": "PP8",
+						"text_start": 363976,
+						"text_end": 368286
+					},
+					{
+						"section": "Battle Tutorial 4",
+						"pointers_start": 354648,
+						"style": "P",
+						"text_start": 368608,
+						"text_end": 368638
+					},
+					{
+						"section": "Battle Tutorial 5",
+						"pointers_start": 354880,
+						"style": "P",
+						"text_start": 368672,
+						"text_end": 368830
+					},
+					{
+						"section": "Battle Tutorial 6",
+						"pointers_start": 354944,
+						"style": "P",
+						"text_start": 368976,
+						"text_end": 369582
+					},
+					{
+						"section": "Battle Tutorial 7",
+						"pointers_start": 355068,
+						"style": "P",
+						"text_start": 369904,
+						"text_end": 376318
+					}
+				]
+			}
+		]
+	},
+	{
+		"file_path": "./OVL/11217.ovl",
+		"is_pak": false,
+		"base_offset": -2984192,
+		"sections": [
+			{
+				"section": "Stuff 1",
+				"pointers_start": 19536,
+				"style": "P",
+				"text_start": 27504,
+				"text_end": 79101
+			}
+		]
+	}
+]
