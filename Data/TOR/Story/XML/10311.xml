@@ -19,7 +19,7 @@
     </Entry>
     <Entry>
       <PointerOffset>4048,4012,3976</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
@@ -73,10 +73,10 @@
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5615</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
@@ -89,11 +89,11 @@ No</EnglishText>
     <Section>s2-1</Section>
     <Entry>
       <PointerOffset>4051</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『商品の陳列棚』
+      <JapaneseText>&lt;speed:0&gt;『商品の陳列棚』
 「コチラ見本用、
 　商品はカウンターにて」
 と書かれている。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"A Display Case of Products"
+      <EnglishText>&lt;speed:0&gt;"A Display Case of Products"
 "Samples for Display only.
     Products are available at the counter."
 Is written on it.</EnglishText>
@@ -107,13 +107,13 @@ Is written on it.</EnglishText>
     <Section>s2-2</Section>
     <Entry>
       <PointerOffset>4015</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『お客様にお願い』
+      <JapaneseText>&lt;speed:0&gt;『お客様にお願い』
 　見本品での試し斬り、試し叩きなどお断り。
 　同行為をされた方は商品を相当額で
 　お買い上げいただきます。
 　　　　　　　　　　　　　店主</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"A Request for All Customers"
-　Please refrain from striking the the sample
+      <EnglishText>&lt;speed:0&gt;"A Request for All Customers"
+　Please refrain from striking the sample
    products. Those who do so will be asked
    to purchase the product at a reasonable
   price.
@@ -128,11 +128,11 @@ Is written on it.</EnglishText>
     <Section>s2-3</Section>
     <Entry>
       <PointerOffset>3979</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『宣伝用の看板』
+      <JapaneseText>&lt;speed:0&gt;『宣伝用の看板』
 ★満月の日はサービスデー！
 　全品三割引きの超特価！
 　　　武器屋「切磋琢磨」</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;"Signboard"
+      <EnglishText>&lt;speed:0&gt;"Signboard"
 ★Full Moon Sale!
      30% off for all items!
   　　- Weapon Shop 
@@ -197,11 +197,11 @@ Equip to protect yourself!</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>2367</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　武器を買う　
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;　武器を買う　
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Weapons
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Buy Weapons
 Talk
 Cancel</EnglishText>
       <Notes/>
@@ -286,7 +286,7 @@ planning on killing
 聞いてたけど、無事で何よりだ。</JapaneseText>
       <EnglishText>Oh thank god... I heard something
 happened to you, but it looks like
-you're unscathe.</EnglishText>
+you're unscathed.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>19</Id>
@@ -653,7 +653,7 @@ to not hate Gajumas and then...</EnglishText>
       <PointerOffset>3715</PointerOffset>
       <JapaneseText>いや……そもそも
 ガジュマが悪いんだよな……</JapaneseText>
-      <EnglishText>...Nah, nevermind. It
+      <EnglishText>...Nah, never mind. It
 was their fault, anyway.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
@@ -698,8 +698,9 @@ Lemme make sure...</EnglishText>
       <PointerOffset>3848</PointerOffset>
       <JapaneseText>旅の人にはわからないだろうけど
 街が以前に比べると静かな気がするんだ。</JapaneseText>
-      <EnglishText>You travellers prolly don't know, but
-Petnadjanka seems quieter than before.</EnglishText>
+      <EnglishText>You travelers prolly don't know,
+but Petnadjanka seems quieter
+than before.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>54</Id>
@@ -811,11 +812,11 @@ before going on offense.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>828</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;　防具を買う　
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;　防具を買う　
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Buy Armor
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Buy Armor
 Talk
 Cancel</EnglishText>
       <Notes/>
@@ -954,7 +955,7 @@ matter how strong you guys are.</EnglishText>
       <JapaneseText>そう、人には必ず愛が必要なように、
 旅人にはまた防具が必要なのさ！</JapaneseText>
       <EnglishText>Just as how love is necessary for
-mankind, so is armor for travellers!</EnglishText>
+mankind, so is armor for travelers!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>76</Id>
@@ -1235,7 +1236,7 @@ I guess I'll stay quiet for now.</EnglishText>
       <JapaneseText>ヒューマは……！
 いや……なんでもない……</JapaneseText>
       <EnglishText>Humas are--!
-Nevermind...</EnglishText>
+Never mind...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>100</Id>

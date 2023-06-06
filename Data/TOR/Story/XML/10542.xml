@@ -19,7 +19,7 @@
     </Entry>
     <Entry>
       <PointerOffset>1590,1554,1518,1482,1446</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>1</Id>
@@ -28,10 +28,10 @@
     <Entry>
       <PointerOffset>383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383</PointerOffset>
       <JapaneseText>雑貨屋「雅々」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>General Store</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -65,10 +65,10 @@
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>3064</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
@@ -81,11 +81,11 @@ No</EnglishText>
     <Section>s2-1</Section>
     <Entry>
       <PointerOffset>1593</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『装飾品の陳列棚』
+      <JapaneseText>&lt;speed:0&gt;『装飾品の陳列棚』
 「商品見本用。
 　お申し付けくだされば、
 　商品をお出しします。」</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Ornament Display Case -
+      <EnglishText>&lt;speed:0&gt;- Ornament Display Case -
 "For product samples.
        Simply ask, and we will bring you
        the actual product."</EnglishText>
@@ -99,12 +99,12 @@ No</EnglishText>
     <Section>s2-2</Section>
     <Entry>
       <PointerOffset>1557</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『割れた鍋の像』
+      <JapaneseText>&lt;speed:0&gt;『割れた鍋の像』
 底が割れた鍋の像。観賞用。
 誰かが割ったわけではなく、
 割れているのが、もともとの形。
 もちろん割れているので、使えない。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Statue of a Cracked Pot -
+      <EnglishText>&lt;speed:0&gt;- Statue of a Cracked Pot -
 A statue of a pot with a cracked bottom.
 (For ornamental uses). While it is cracked,
 it is how it is and not caused by anyone.
@@ -119,14 +119,14 @@ Because of its broken bottom, it can't be used.</EnglishText>
     <Section>s2-3</Section>
     <Entry>
       <PointerOffset>1521</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『いななく馬の像』
+      <JapaneseText>&lt;speed:0&gt;『いななく馬の像』
 ある著名な彫刻家がバルカに
 作るはずだった巨大な馬像の試作版。
 本物は作成途中に反対派の手によって
 壊されてしまった。
 店の主人が気に入っているので、
 なかなか手放さない。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Statue of a Neighing Horse -
+      <EnglishText>&lt;speed:0&gt;- Statue of a Neighing Horse -
 A prototype of a giant statue in Balka that 
 a world-famous sculptor was supposed to 
 make. The real one was destroyed by 
@@ -143,11 +143,11 @@ to it, and refuses to sell it to people.</EnglishText>
     <Section>s2-4</Section>
     <Entry>
       <PointerOffset>1485</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『こわい顔の像（非売品）』
+      <JapaneseText>&lt;speed:0&gt;『こわい顔の像（非売品）』
 面白半分で買った人がこわがり、
 結局はいつも、店に戻ってくるので、
 今は非売品になっている。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Figure with a Scary Face (Not for Sale) -
+      <EnglishText>&lt;speed:0&gt;- Figure with a Scary Face (Not for Sale) -
 People who buy these often get scared
 and end up refunding it. It is currently
 not for sale.</EnglishText>
@@ -161,13 +161,13 @@ not for sale.</EnglishText>
     <Section>s2-5</Section>
     <Entry>
       <PointerOffset>1449</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『大カレギア百科書　全８冊』
+      <JapaneseText>&lt;speed:0&gt;『大カレギア百科書　全８冊』
 カレギアの事なら、
 すべて書いてあるという百科事典。
 ２５００万ガルド。
 原則、セットでないと買えないはずなのに、
 なぜか一冊だけない。</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;- Great Callegean Encyclopedia: All 8 Volumes -
+      <EnglishText>&lt;speed:0&gt;- Great Callegean Encyclopedia: All 8 Volumes -
 A set of encyclopedias containing
 all that you can know about Callegea.
                                                    (2500 Gald) 
@@ -186,11 +186,13 @@ for some reason its missing one volume.</EnglishText>
       <JapaneseText>この建物、最高級の防音加工を
 してもらったのに、変な音が
 外から聞こえて来るのよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I've already soundproofed these walls
+with high-end materials yet there's still
+this odd sound coming through it.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>443</PointerOffset>
@@ -216,13 +218,13 @@ Please take your time and look through it.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>508</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;何にしますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;何にしますか？
 　装飾品を買う　
 　道具を買う　
 　世間話をする　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;What can I help you with?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;What can I help you with?
 Buy Accessories
 Buy Items
 Talk

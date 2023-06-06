@@ -67,7 +67,7 @@
     </Entry>
     <Entry>
       <PointerOffset>1867,1831</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>7</Id>
@@ -170,7 +170,7 @@ the &lt;Blue&gt;Royal Shield&lt;White&gt;?</EnglishText>
       <VoiceId>28000018</VoiceId>
       <JapaneseText>はい、「元」が付きますが。</JapaneseText>
       <EnglishText>Yes, although my title is
-&lt;Italics&gt;ex&lt;NoItalics&gt;-Commander now.</EnglishText>
+&lt;Italic&gt;ex&lt;/Italic&gt;-Commander now.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>9</Id>
@@ -1316,10 +1316,10 @@ village at once!</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>7564</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
@@ -1332,7 +1332,7 @@ No</EnglishText>
     <Section>s2-1</Section>
     <Entry>
       <PointerOffset>1870</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『グリューネルカクタスの鉢植え』
+      <JapaneseText>&lt;speed:0&gt;『グリューネルカクタスの鉢植え』
 年中、白い花を咲かせているサボテン。
 成長すると、全長５メートルに達し、
 直径６０センチの見事な大輪を咲かせる事も。</JapaneseText>
@@ -1347,7 +1347,7 @@ No</EnglishText>
     <Section>s2-2</Section>
     <Entry>
       <PointerOffset>1834</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『ナン』
+      <JapaneseText>&lt;speed:0&gt;『ナン』
 ピピスタの主食。
 小麦粉に卵、水などを混ぜて
 よく練り、発酵させ、かまどで
