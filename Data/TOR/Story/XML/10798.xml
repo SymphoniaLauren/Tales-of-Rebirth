@@ -199,7 +199,7 @@ Nolzen...?</EnglishText>
       <PointerOffset>2275</PointerOffset>
       <VoiceId>2d00005b</VoiceId>
       <JapaneseText>ふふふ……はははははは……</JapaneseText>
-      <EnglishText>Hehehe... Hahahaha....!</EnglishText>
+      <EnglishText>Hehehe... Hahahaha...!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>9</Id>
@@ -247,7 +247,7 @@ tower?</EnglishText>
 ノルゼンからここまでの道は
 ボクの用意したお楽しみ。</JapaneseText>
       <EnglishText>Boy, are you dense.
-&lt;Italics&gt;I&lt;NoItalics&gt; was the one who orchestrated
+&lt;Italic&gt;I&lt;/Italic&gt; was the one who orchestrated
 this fun little excursion so that
 you'd come all the way here from
 Nolzen.</EnglishText>
@@ -500,7 +500,7 @@ we...?</EnglishText>
 戦いの道具にされてたんだヨ。</JapaneseText>
       <EnglishText>You were being puppeteered by
 Saleh and made to fight us.</EnglishText>
-      <Notes/>
+      <Notes>Puppeteered seems to be spelled correctly even though it was flagged by QA. Could also just change it to manipulated.</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>33</Id>
       <Status>Editing</Status>
@@ -922,10 +922,10 @@ what we can find in Nolzen.</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>8426</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>

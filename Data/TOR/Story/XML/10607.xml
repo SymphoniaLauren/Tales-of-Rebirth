@@ -91,7 +91,7 @@
     </Entry>
     <Entry>
       <PointerOffset>461</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>10</Id>
@@ -99,8 +99,10 @@
     </Entry>
     <Entry>
       <PointerOffset>2676,2526</PointerOffset>
-      <JapaneseText>&lt;Unk19:d0ff1fc822e00c&gt;</JapaneseText>
-      <EnglishText>&lt;Unk19:d0ff1fc822e00c&gt;</EnglishText>
+      <JapaneseText>&lt;unk19:D0FF1FC822E00C80&gt;
+</JapaneseText>
+      <EnglishText>&lt;unk19:D0FF1FC822E00C80&gt;
+</EnglishText>
       <Notes/>
       <Id>11</Id>
       <Status>Done</Status>
@@ -207,10 +209,10 @@ is currently cancelled.</EnglishText>
       <PointerOffset>5075</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;お金が足りないようですね。
 定期船のご利用料金は
-一律&lt;nmb:012c&gt;ガルドです。</JapaneseText>
+一律&lt;nmb:12C&gt;ガルドです。</JapaneseText>
       <EnglishText>&lt;font:80000002&gt;You seem to be short of money.
 The fee for embarking is a flat 
-rate of &lt;nmb:012c&gt; Gald.</EnglishText>
+rate of &lt;nmb:12C&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>7</Id>
@@ -219,9 +221,9 @@ rate of &lt;nmb:012c&gt; Gald.</EnglishText>
     <Entry>
       <PointerOffset>5103</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;定期船をご利用なさいますか？
-料金は一律&lt;nmb:012c&gt;ガルドです。</JapaneseText>
+料金は一律&lt;nmb:12C&gt;ガルドです。</JapaneseText>
       <EnglishText>&lt;font:80000002&gt;Do you want to embark?
-The fee is &lt;nmb:012c&gt; Gald.</EnglishText>
+The fee is &lt;nmb:12C&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>8</Id>
@@ -229,10 +231,10 @@ The fee is &lt;nmb:012c&gt; Gald.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5126</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;定期船を利用しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;定期船を利用しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Embark?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;Embark?
 Yes
 No</EnglishText>
       <Notes/>
@@ -242,7 +244,7 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5201</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -361,7 +363,8 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5276</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Unk18:48d404&gt;&lt;Unk18:48d804&gt;&lt;Unk18:48dc04&gt;&lt;Unk18:48e004&gt;&lt;Unk18:48e404&gt;&lt;Unk18:48e804&gt;&lt;Unk18:48ec04&gt;</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;&lt;unk18:48D40480&gt;&lt;unk18:48D80480&gt;&lt;unk18:48DC0480&gt;&lt;unk18:48E00480&gt;&lt;unk18:48E40480&gt;&lt;unk18:48E80480&gt;&lt;unk18:48EC0480&gt;
+</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -370,10 +373,11 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>6121</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;定期船で&lt;Unk18:48d00428b80488&gt;に移動します。
-料金&lt;nmb:012c&gt;ガルド
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;定期船で&lt;unk18:48D00428B8048880&gt;に移動します。
+料金&lt;nmb:12C&gt;ガルド
 　はい　
-　いいえ　</JapaneseText>
+　いいえ　
+</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -811,7 +815,7 @@ because of the Commandments, huh?</EnglishText>
       <JapaneseText>戒律のせいで、女と
 話せないんだったわね……</JapaneseText>
       <EnglishText>Because of the commandments,
-we aren't allowed to talk to women....</EnglishText>
+we aren't allowed to talk to women...</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>61</Id>
@@ -1195,7 +1199,7 @@ in these types of situations, aren't there?</EnglishText>
       <JapaneseText>最近、バイラスがちょくちょく
 街に出るらしいよ……</JapaneseText>
       <EnglishText>I heard that the Veiras have been 
-going rampant in town lately....</EnglishText>
+going rampant in town lately...</EnglishText>
       <Notes/>
       <SpeakerId>13</SpeakerId>
       <Id>92</Id>
@@ -1304,11 +1308,11 @@ for the boat ride home...</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>1339</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;船に乗りますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;船に乗りますか？
 　はい　
 　いいえ　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;Want to embark?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;Want to embark?
 　Yes　
 　No　</EnglishText>
       <Notes/>
@@ -1339,11 +1343,11 @@ for the boat ride home...</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>1234</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;リフトに乗りますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;リフトに乗りますか？
 　はい　
 　いいえ　
 </JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Will you ride the lift?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Will you ride the lift?
 Yes
 No</EnglishText>
       <Notes/>
@@ -1356,10 +1360,10 @@ No</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>8025</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>

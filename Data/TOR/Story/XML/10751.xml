@@ -144,7 +144,7 @@ spring...</EnglishText>
 ないんじゃない？</JapaneseText>
       <EnglishText>Well there's no way a place
 like this
-&lt;Italics&gt;wouldn't&lt;NoItalics&gt; have something inside of it,
+&lt;Italic&gt;wouldn't&lt;/Italic&gt; have something inside of it,
 right?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
@@ -378,8 +378,8 @@ Gajuma are one and the same?</EnglishText>
     <Entry>
       <PointerOffset>1748</PointerOffset>
       <VoiceId>27000014</VoiceId>
-      <JapaneseText>&lt;scale:0180&gt;&lt;Cyan&gt;同じ&lt;White&gt;だ!!&lt;color:0100&gt;</JapaneseText>
-      <EnglishText>&lt;scale:0180&gt;THEY ARE THE
+      <JapaneseText>&lt;scale:180&gt;&lt;Cyan&gt;同じ&lt;White&gt;だ!!&lt;color:100&gt;</JapaneseText>
+      <EnglishText>&lt;scale:180&gt;THEY ARE THE
 &lt;Cyan&gt;SAME&lt;White&gt;!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
@@ -455,7 +455,7 @@ haze, hm... The first thing that
 comes to mind is the Kurodadaku
 Desert... There's also the Crvena
 Wasteland.</EnglishText>
-      <Notes/>
+      <Notes>Correct spelling of Crvena according to Term sheet but flagged by QA.</Notes>
       <SpeakerId>1</SpeakerId>
       <Id>30</Id>
       <Status>Editing</Status>
@@ -578,10 +578,10 @@ there.　</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>4507</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>

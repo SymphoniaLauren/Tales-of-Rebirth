@@ -67,7 +67,7 @@
     </Entry>
     <Entry>
       <PointerOffset>15221,842,814,786,754</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>7</Id>
@@ -83,7 +83,7 @@
     </Entry>
     <Entry>
       <PointerOffset>8837</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;Unk17:344c&gt;</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:344C80&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Id>9</Id>
@@ -112,10 +112,11 @@
       <PointerOffset>344</PointerOffset>
       <JapaneseText>ワン・ギンの屋敷
 オークション会場</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Kyogen - Wan Gin's Mansion
+Auction Hall</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -300,7 +301,7 @@ instead?!</EnglishText>
 ご満足いただくためでございます。</JapaneseText>
       <EnglishText>Hohoho... I did it so that I
 could keep my guests
-&lt;Italics&gt;satisfied&lt;NoItalics&gt;...</EnglishText>
+&lt;Italic&gt;satisfied&lt;/Italic&gt;...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>19</Id>
@@ -345,8 +346,8 @@ pockets. Hohoho...</EnglishText>
       <VoiceId>2c000130</VoiceId>
       <JapaneseText>待ちなさいよ、&lt;Tytree&gt;！
 今ここで殴ったら……</JapaneseText>
-      <EnglishText>Calm down &lt;Tytree&gt;! If you
-start thowing hands, then we're not
+      <EnglishText>Calm down &lt;Tytree&gt;! If you start
+throwing hands, then we're not
 going to be able to...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
@@ -404,83 +405,91 @@ here!</EnglishText>
       <PointerOffset>17376</PointerOffset>
       <JapaneseText>それでは、さっそく
 オークションを開始いたします。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Then, let us commence
+the auction</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>28</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>17398</PointerOffset>
       <JapaneseText>今回の商品は……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Our next commodity is...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>29</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>17530</PointerOffset>
-      <JapaneseText>&lt;Green&gt;&lt;scale:0140&gt;&lt;speed:00&gt;「&lt;item:0000&gt;」で
+      <JapaneseText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;「&lt;item:0&gt;」で
 ございます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;This &lt;item:0&gt;!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>30</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>17563</PointerOffset>
       <JapaneseText>それでは、
-&lt;Unk17:380594&gt;ガルド
+&lt;unk17:38059480&gt;ガルド
 からの開始です。
 参りましょう。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We shall be starting
+at &lt;unk17:38059480&gt; Gald.
+Let us begin.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>31</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>15224</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;font:0009&gt;&lt;Unk18:48a005&gt;</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <JapaneseText>&lt;speed:0&gt;&lt;font:9&gt;&lt;unk18:48A00580&gt;
+</JapaneseText>
+      <EnglishText>&lt;speed:0&gt;&lt;font:9&gt;&lt;unk18:48A00580&gt;</EnglishText>
+      <Notes>Just a variable for the item in the auction i guess</Notes>
       <SpeakerId>7</SpeakerId>
       <Id>32</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9253</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;落札をあきらめますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;落札をあきらめますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Retract your bid?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>33</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9532</PointerOffset>
-      <JapaneseText>&lt;item:0000&gt;は
-&lt;Unk17:380594&gt;ガルドで
+      <JapaneseText>&lt;item:0&gt;は
+&lt;unk17:38059480&gt;ガルドで
 落札されました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;item:0&gt;
+Bid &lt;unk17:38059480&gt; gald.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>34</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9585</PointerOffset>
-      <JapaneseText>&lt;item:0000&gt;は
+      <JapaneseText>&lt;item:0&gt;は
 落札されませんでした。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The bid for &lt;item:0&gt;
+was unsuccessful.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>35</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>-1</PointerOffset>
@@ -494,41 +503,43 @@ here!</EnglishText>
     <Entry>
       <PointerOffset>11009</PointerOffset>
       <JapaneseText>終了でよろしいですね？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Are we good to end the auction?</EnglishText>
+      <Notes>Need to check in game if you can still throw bids.</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>11160</PointerOffset>
-      <JapaneseText>現在、&lt;Unk17:380594&gt;ガルドです。
+      <JapaneseText>現在、&lt;unk17:38059480&gt;ガルドです。
 もうありませんか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Current bid is at &lt;unk17:38059480&gt; gald.
+Do you wish to continue?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>38</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>11170</PointerOffset>
-      <JapaneseText>現在、&lt;Unk17:380594&gt;ガルドです。</JapaneseText>
-      <EnglishText/>
+      <JapaneseText>現在、&lt;unk17:38059480&gt;ガルドです。</JapaneseText>
+      <EnglishText>Current bid is at &lt;unk17:38059480&gt; gald.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>17808</PointerOffset>
-      <JapaneseText>&lt;Unk17:380594&gt;ガルドで落札されました
-「&lt;item:0000&gt;」は、
+      <JapaneseText>&lt;unk17:38059480&gt;ガルドで落札されました
+「&lt;item:0&gt;」は、
 こちらになります。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Won at &lt;unk17:38059480&gt; Gald.
+Here's your &lt;item:0&gt;.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -536,11 +547,11 @@ here!</EnglishText>
     <Entry>
       <PointerOffset>845</PointerOffset>
       <JapaneseText>気絶している。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>He is out cold.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -548,11 +559,11 @@ here!</EnglishText>
     <Entry>
       <PointerOffset>817</PointerOffset>
       <JapaneseText>気絶している。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>He is out cold.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -560,21 +571,21 @@ here!</EnglishText>
     <Entry>
       <PointerOffset>789</PointerOffset>
       <JapaneseText>気絶している。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>He is out cold.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>5697</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
@@ -587,15 +598,18 @@ No</EnglishText>
     <Section>s2-1</Section>
     <Entry>
       <PointerOffset>757</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;『書画』
+      <JapaneseText>&lt;speed:0&gt;『書画』
 書道家ネイ・サンの作品。
 ある動物が跳ね遊ぶ様子を元に
 作られた文字。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- Calligraphy -
+A piece created by the calligrapher Nei San. 
+It presents characters based on 
+animals jumping and playing.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

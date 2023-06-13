@@ -11,7 +11,7 @@
     </Entry>
     <Entry>
       <PointerOffset>5939,6843,7022,5212,5855,4691,4893,4946,4967,4645,4666</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>0</Id>
@@ -109,7 +109,8 @@
     </Entry>
     <Entry>
       <PointerOffset>6846</PointerOffset>
-      <JapaneseText>&lt;font:0002&gt;アイテム数を&lt;Unk18:4414&gt;&lt;Unk17:3404&gt;しました</JapaneseText>
+      <JapaneseText>&lt;font:2&gt;アイテム数を&lt;unk18:441480&gt;&lt;unk17:340480&gt;しました
+</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>0</SpeakerId>
@@ -140,12 +141,12 @@
     </Entry>
     <Entry>
       <PointerOffset>7653</PointerOffset>
-      <JapaneseText>不思議アイテム「&lt;item:0106&gt;」
+      <JapaneseText>不思議アイテム「&lt;item:106&gt;」
 を皆さんにお持ちいただくだけで、
 新鮮な食材を定期的に供給する
 システムとなっております。</JapaneseText>
       <EnglishText>Just by having the mysterious
-&lt;item:0106&gt; with you, you'll
+&lt;item:106&gt; with you, you'll
 be supplied regularly with the
 freshest of ingredients.</EnglishText>
       <Notes/>
@@ -155,7 +156,7 @@ freshest of ingredients.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7675</PointerOffset>
-      <JapaneseText>この「&lt;item:0106&gt;」、通常は
+      <JapaneseText>この「&lt;item:106&gt;」、通常は
 １００００ガルドで
 お分けしていますが……</JapaneseText>
       <EnglishText/>
@@ -219,7 +220,7 @@ freshest of ingredients.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7837</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Green&gt;食材のチケットはワールドマップ
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;&lt;Green&gt;食材のチケットはワールドマップ
 に点在しています。</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -239,10 +240,10 @@ freshest of ingredients.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7885</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;バトルブックを読みますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;バトルブックを読みますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0120&gt;Read the Battle Book?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:120&gt;Read the Battle Book?
 Yes
 No</EnglishText>
       <Notes/>
@@ -252,11 +253,11 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7025</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;font:0000&gt;&lt;scale:00f0&gt;　食材を買う・チケットを渡す　
+      <JapaneseText>&lt;speed:0&gt;&lt;font:0&gt;&lt;scale:F0&gt;　食材を買う・チケットを渡す　
 　頻度レベルアップ　
 　種類レベルアップ　
 　個数レベルアップ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;font:0000&gt;&lt;scale:00F0&gt;Buy Ingredients/Exchange Tickets
+      <EnglishText>&lt;speed:0&gt;&lt;font:0&gt;&lt;scale:F0&gt;Buy Ingredients/Exchange Tickets
 Level Up Frequency
 Level Up Variety
 Level Up Amount</EnglishText>
@@ -267,7 +268,8 @@ Level Up Amount</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7283</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Unk18:4414&gt;レベルは最大です。</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;&lt;unk18:441480&gt;レベルは最大です。
+</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>2</SpeakerId>
@@ -276,7 +278,7 @@ Level Up Amount</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7410</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;所持金が足りません。</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;所持金が足りません。</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>2</SpeakerId>
@@ -285,7 +287,7 @@ Level Up Amount</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7456</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;今の段階ではこれ以上
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;今の段階ではこれ以上
 レベルアップできません。</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -295,10 +297,8 @@ Level Up Amount</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7485</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;Unk18:4414&gt;レベルを上げます。
-よろしいですか？
-　はい　
-　いいえ　</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;unk18:441480&gt;レベルを上げます。
+よろしいですか？　はい　　いいえ　</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>3</SpeakerId>
@@ -307,8 +307,8 @@ Level Up Amount</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>7573</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;font:80000002&gt;&lt;item:0106&gt;の
-&lt;Unk18:4414&gt;レベルは&lt;Unk17:340cc18c&gt;になりました。</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;&lt;font:80000002&gt;&lt;item:106&gt;の
+&lt;unk18:441480&gt;レベルは&lt;unk17:340CC18C80&gt;になりました。</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>2</SpeakerId>
@@ -320,7 +320,7 @@ Level Up Amount</EnglishText>
     <Section>s0-2</Section>
     <Entry>
       <PointerOffset>5215</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;ボイステキスト
+      <JapaneseText>&lt;speed:0&gt;ボイステキスト
 マップグラデ
 トップメニュー
 スポットＯＮ
@@ -370,7 +370,7 @@ It's called a Force Cube.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5678</PointerOffset>
-      <JapaneseText>&lt;item:0000&gt;と表示してみる</JapaneseText>
+      <JapaneseText>&lt;item:0&gt;と表示してみる</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -419,7 +419,7 @@ It's called a Force Cube.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>5858</PointerOffset>
-      <JapaneseText>今のグレードは &lt;Unk17:c82ac0c0e08d&gt;</JapaneseText>
+      <JapaneseText>今のグレードは &lt;unk17:C82AC0C0E08D80&gt;</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>0</SpeakerId>
@@ -431,7 +431,7 @@ It's called a Force Cube.</EnglishText>
     <Section>s0-3</Section>
     <Entry>
       <PointerOffset>4694</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;エンディング
+      <JapaneseText>&lt;speed:0&gt;エンディング
 チャットキャラテスト
 プレイヤー視点切替テスト
 ウィンドウテスト
@@ -455,7 +455,7 @@ It's called a Force Cube.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>6397</PointerOffset>
-      <JapaneseText>&lt;item:0201&gt;はあと&lt;Unk17:ca01e10e&gt;個持てる</JapaneseText>
+      <JapaneseText>&lt;item:201&gt;はあと&lt;unk17:CA01E10E80&gt;個持てる</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>6</SpeakerId>
@@ -464,7 +464,7 @@ It's called a Force Cube.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>6450</PointerOffset>
-      <JapaneseText>&lt;item:0001&gt;はあと&lt;Unk17:c1e10e&gt;個持てる</JapaneseText>
+      <JapaneseText>&lt;item:1&gt;はあと&lt;unk17:C1E10E80&gt;個持てる</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>4</SpeakerId>
@@ -491,7 +491,7 @@ It's called a Force Cube.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4949</PointerOffset>
-      <JapaneseText>&lt;item:051a&gt;は取れる</JapaneseText>
+      <JapaneseText>&lt;item:51A&gt;は取れる</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>0</SpeakerId>
@@ -500,7 +500,7 @@ It's called a Force Cube.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>4970</PointerOffset>
-      <JapaneseText>&lt;item:051a&gt;は取れない</JapaneseText>
+      <JapaneseText>&lt;item:51A&gt;は取れない</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>0</SpeakerId>
@@ -512,10 +512,10 @@ It's called a Force Cube.</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>1414</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>

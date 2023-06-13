@@ -51,7 +51,7 @@
     </Entry>
     <Entry>
       <PointerOffset>11938</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <Id>5</Id>
@@ -245,9 +245,9 @@ for use at the moment.</EnglishText>
       <PointerOffset>13801</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;お金が足りないようですね。
 馬車のご利用料金は
-&lt;nmb:012c&gt;ガルドになります。</JapaneseText>
+&lt;nmb:12C&gt;ガルドになります。</JapaneseText>
       <EnglishText>&lt;font:80000000&gt;You seem to be short of money.
-The fee for using the carriage is &lt;nmb:012c&gt; Gald.</EnglishText>
+The fee for using the carriage is &lt;nmb:12C&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>11</Id>
@@ -256,9 +256,9 @@ The fee for using the carriage is &lt;nmb:012c&gt; Gald.</EnglishText>
     <Entry>
       <PointerOffset>13829</PointerOffset>
       <JapaneseText>&lt;font:80000002&gt;馬車をご利用になりますか？
-料金は定額で&lt;nmb:012c&gt;ガルドになります。</JapaneseText>
+料金は定額で&lt;nmb:12C&gt;ガルドになります。</JapaneseText>
       <EnglishText>&lt;font:80000000&gt;Would you like to use a carriage?
-The fare is a flat rate of &lt;nmb:012c&gt; Gald.</EnglishText>
+The fare is a flat rate of &lt;nmb:12C&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>12</Id>
@@ -266,10 +266,10 @@ The fare is a flat rate of &lt;nmb:012c&gt; Gald.</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>13852</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;馬車を利用しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;馬車を利用しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Travel by Carriage?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Travel by Carriage?
 Yes
 No</EnglishText>
       <Notes/>
@@ -279,7 +279,7 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>13927</PointerOffset>
-      <JapaneseText></JapaneseText>
+      <JapaneseText/>
       <EnglishText/>
       <Notes/>
       <SpeakerId>7</SpeakerId>
@@ -408,7 +408,8 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>14002</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0120&gt;&lt;Unk18:48e404&gt;&lt;Unk18:48e804&gt;&lt;Unk18:48ec04&gt;&lt;Unk18:48f004&gt;&lt;Unk18:48f404&gt;&lt;Unk18:48f804&gt;</JapaneseText>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;&lt;unk18:48E40480&gt;&lt;unk18:48E80480&gt;&lt;unk18:48EC0480&gt;&lt;unk18:48F00480&gt;&lt;unk18:48F40480&gt;&lt;unk18:48F80480&gt;
+</JapaneseText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>7</SpeakerId>
@@ -417,14 +418,16 @@ No</EnglishText>
     </Entry>
     <Entry>
       <PointerOffset>14625</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;&lt;font:80000002&gt;馬車で&lt;Unk18:48e00428b80488&gt;に移動します。
-料金&lt;nmb:012c&gt;ガルド
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;馬車で&lt;unk18:48E00428B8048880&gt;に移動します。
+料金&lt;nmb:12C&gt;ガルド
 　はい　
-　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;To travel to &lt;Unk18:48e00428b80488&gt; by Carriage,
-it'll be &lt;nmb:012c&gt; Gald.
+　いいえ　
+</JapaneseText>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;To travel to &lt;unk18:48E00428B8048880&gt; by Carriage,
+it'll be &lt;nmb:12C&gt; Gald.
 Yes
-No</EnglishText>
+No
+</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>28</Id>
@@ -1182,9 +1185,9 @@ wealthy...</EnglishText>
       <JapaneseText>どうも、わざわざありがとう。
 今回も、すばらしい品を
 期待してますよ。</JapaneseText>
-      <EnglishText>Thank you for taking the
-trouble to come get me. I look forward
-to seeing all the splendid things
+      <EnglishText>Thank you for taking the trouble
+to come get me. I look forward to
+seeing all the splendid things
 they're putting up for auction.</EnglishText>
       <Notes/>
       <SpeakerId>-1</SpeakerId>
@@ -1196,10 +1199,10 @@ they're putting up for auction.</EnglishText>
     <Section>s2-0</Section>
     <Entry>
       <PointerOffset>16569</PointerOffset>
-      <JapaneseText>&lt;speed:00&gt;&lt;scale:0140&gt;休憩しますか？
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText>&lt;speed:00&gt;&lt;scale:0140&gt;Would you like to rest?
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
 Yes
 No</EnglishText>
       <Notes/>
