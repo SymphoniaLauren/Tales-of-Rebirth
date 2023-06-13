@@ -1,6 +1,15 @@
 <MenuText>
   <Strings>
-    <Section>Stuff 1</Section>
+    <Section>enemycomment_mem</Section>
+    <Entry>
+      <PointerOffset>19536,19564,19568,19572,20284,20288,20292,20296,20300,20304,20308,20312,20316,20320,20324,20328,20332</PointerOffset>
+      <JapaneseText>
+
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
     <Entry>
       <PointerOffset>19540</PointerOffset>
       <JapaneseText>大剣と&lt;Yellow&gt;氷のフォルス&lt;White&gt;を使う剣士。
@@ -1010,19 +1019,19 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>20004</PointerOffset>
-      <JapaneseText>聖獣王ゲオルギアス。
-アガーテ様の身体を使って復活したんだ。
-炎も導術もとっても痛いヨ。</JapaneseText>
+      <PointerOffset>20000,20008</PointerOffset>
+      <JapaneseText>＊データ表示はデバッグのみです＊
+
+</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>20008,20000</PointerOffset>
-      <JapaneseText>＊データ表示はデバッグのみです＊
-
-</JapaneseText>
+      <PointerOffset>20004</PointerOffset>
+      <JapaneseText>聖獣王ゲオルギアス。
+アガーテ様の身体を使って復活したんだ。
+炎も導術もとっても痛いヨ。</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
@@ -1639,13 +1648,9 @@
       <Notes/>
       <Status>To Do</Status>
     </Entry>
-    <Entry>
-      <PointerOffset>20292,20320,20324,20304,20284,20328,20296,20288,20312,20300,20316,19568,19536,20332,19564,20308,19572</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Status>To Do</Status>
-    </Entry>
+  </Strings>
+  <Strings>
+    <Section>btlbookstr</Section>
     <Entry>
       <PointerOffset>20536</PointerOffset>
       <JapaneseText>敵一覧</JapaneseText>
@@ -1821,6 +1826,9 @@
       <Notes/>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>btlbook_str</Section>
     <Entry>
       <PointerOffset>20624</PointerOffset>
       <JapaneseText>ＬＶ（レベル）</JapaneseText>
@@ -1856,6 +1864,13 @@
     <Entry>
       <PointerOffset>20648</PointerOffset>
       <JapaneseText>ＨＰ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20652,20692</PointerOffset>
+      <JapaneseText>回復力</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
@@ -1910,13 +1925,6 @@
     <Entry>
       <PointerOffset>20688</PointerOffset>
       <JapaneseText>ＦＧ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
-      <PointerOffset>20692,20652</PointerOffset>
-      <JapaneseText>回復力</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
@@ -2108,7 +2116,7 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>20904,23568</PointerOffset>
+      <PointerOffset>20904</PointerOffset>
       <JapaneseText>フォルスキューブ</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -2238,6 +2246,13 @@
     <Entry>
       <PointerOffset>21024</PointerOffset>
       <JapaneseText>1 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21036,21056,21076,21096,21796,21816,21836,21856,21876,21896,22316,22476,22576,22596,22616,22776,22796,23416,23436,23456,23476</PointerOffset>
+      <JapaneseText> </JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
@@ -2633,6 +2648,13 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
+      <PointerOffset>21464</PointerOffset>
+      <JapaneseText>戦闘テクニック</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
       <PointerOffset>21476</PointerOffset>
       <JapaneseText>この欄では、
 キャラレベルが上がる度に
@@ -2911,7 +2933,7 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>21744,23616</PointerOffset>
+      <PointerOffset>21744</PointerOffset>
       <JapaneseText>属性因子</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -3476,6 +3498,13 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
+      <PointerOffset>22344</PointerOffset>
+      <JapaneseText>奥義習得</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
       <PointerOffset>22356</PointerOffset>
       <JapaneseText>奥義とは術技の派生・強化版で、
 習得するには
@@ -3898,13 +3927,6 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>22796,23456,21056,21036,21896,23436,22596,23416,21836,21076,21796,22576,23476,21876,21856,21096,22476,22616,22776,21816,22316</PointerOffset>
-      <JapaneseText/>
-      <EnglishText/>
-      <Notes/>
-      <Status>To Do</Status>
-    </Entry>
-    <Entry>
       <PointerOffset>22804</PointerOffset>
       <JapaneseText>16</JapaneseText>
       <EnglishText/>
@@ -3912,15 +3934,15 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>22824</PointerOffset>
-      <JapaneseText>17</JapaneseText>
+      <PointerOffset>22816,22836,22856,22876,22896,22916,22936,22956,22976,22996,23016,23036</PointerOffset>
+      <JapaneseText>　</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>22836,23016,22996,23036,22976,22936,22856,22956,22876,22916,22816,22896</PointerOffset>
-      <JapaneseText>　</JapaneseText>
+      <PointerOffset>22824</PointerOffset>
+      <JapaneseText>17</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
@@ -4265,6 +4287,13 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
+      <PointerOffset>23304</PointerOffset>
+      <JapaneseText>グレード</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
       <PointerOffset>23316</PointerOffset>
       <JapaneseText>戦闘の総合技術を判定する
 目安を数値化したもの。
@@ -4409,6 +4438,13 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
+      <PointerOffset>23504</PointerOffset>
+      <JapaneseText>宝石合成</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
       <PointerOffset>23516</PointerOffset>
       <JapaneseText>　装飾品屋では
 　同じランクのふたつの宝石を
@@ -4444,6 +4480,9 @@
       <Notes/>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>btlbookword_info</Section>
     <Entry>
       <PointerOffset>23544</PointerOffset>
       <JapaneseText>戦闘用語</JapaneseText>
@@ -4459,8 +4498,15 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>23560,21464</PointerOffset>
+      <PointerOffset>23560</PointerOffset>
       <JapaneseText>戦闘テクニック</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23568</PointerOffset>
+      <JapaneseText>フォルスキューブ</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
@@ -4480,7 +4526,7 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>23592,23504</PointerOffset>
+      <PointerOffset>23592</PointerOffset>
       <JapaneseText>宝石合成</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -4501,14 +4547,21 @@
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>23624,23304</PointerOffset>
+      <PointerOffset>23616</PointerOffset>
+      <JapaneseText>属性因子</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23624</PointerOffset>
       <JapaneseText>グレード</JapaneseText>
       <EnglishText/>
       <Notes/>
       <Status>To Do</Status>
     </Entry>
     <Entry>
-      <PointerOffset>23632,22344</PointerOffset>
+      <PointerOffset>23632</PointerOffset>
       <JapaneseText>奥義習得</JapaneseText>
       <EnglishText/>
       <Notes/>
@@ -4521,6 +4574,9 @@
       <Notes/>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>btlbookhistory_index</Section>
     <Entry>
       <PointerOffset>23648</PointerOffset>
       <JapaneseText>戦闘回数</JapaneseText>
@@ -4633,6 +4689,9 @@
       <Notes/>
       <Status>To Do</Status>
     </Entry>
+  </Strings>
+  <Strings>
+    <Section>btlbookhistory_info</Section>
     <Entry>
       <PointerOffset>23776</PointerOffset>
       <JapaneseText>これまでに行った戦闘の回数です。
