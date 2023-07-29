@@ -500,7 +500,7 @@
 		]
 	},
 	{
-		"file_path": "./PAK3/11181.pak3",
+		"file_path": "./DAT/PAK3/11181.pak3",
 		"is_pak": true,
 		"pak_type": 3,
 		"files": [
@@ -508,7 +508,7 @@
 				"file": 5,
 				"base_offset": 0,
 				"safe_areas": [
-					[0x834, -1]
+					[0x834, 0xFFFFFFFF]
 				],
 				"sections": [
 					{
@@ -523,7 +523,7 @@
 		]
 	},
 	{
-		"file_path": "./PAK3/00023.pak3",
+		"file_path": "./DAT/PAK3/00023.pak3",
 		"is_pak": true,
 		"pak_type": 3,
 		"files": [
@@ -531,7 +531,7 @@
 				"file": 0,
 				"base_offset": 0,
 				"safe_areas": [
-					[0x3954, -1]
+					[0x3954, 0xFFFFFFFF]
 				],
 				"sections": [
 					{
@@ -547,7 +547,7 @@
 				"file": 2,
 				"base_offset": 0,
 				"safe_areas": [
-					[0x16C, -1]
+					[0x16C, 0xFFFFFFFF]
 				],
 				"sections": [
 					{
@@ -562,7 +562,7 @@
 		]
 	},
 	{
-		"file_path": "./PAK3/00013.pak3",
+		"file_path": "./DAT/PAK3/00013.pak3",
 		"is_pak": true,
 		"pak_type": 3,
 		"files": [
@@ -713,7 +713,7 @@
 		]
 	},
 	{
-		"file_path": "./OVL/11217.ovl",
+		"file_path": "./DAT/OVL/11217.ovl",
 		"is_pak": false,
 		"base_offset": -0x2D8900,
 		"safe_areas": [
