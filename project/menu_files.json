@@ -2,7 +2,7 @@
 	{
 		"file_path": "${main_exe}",
 		"is_pak": false,
-		"base_offset": -0xFF000,
+		"base_offset": 0xFF000,
 		"safe_areas": [
 			// Offsets are from .rodata
 			[0x210980,0x210BF0],
@@ -52,6 +52,12 @@
 				"section": "Strategy 1",
 				"pointers_start": 1060528,
 				"pointers_end": 1061008,
+				"style": "P"
+			},
+			{
+				"section": "Not sure 1",
+				"pointers_start": 1061008,
+				"pointers_end": 1061756,
 				"style": "P"
 			},
 			{
@@ -568,7 +574,7 @@
 		"files": [
 			{
 				"file": 0,
-				"base_offset": -0x2EF680,
+				"base_offset": 0x2EF680,
 				"safe_areas": [
 					[0x347560,0x349520],
 					[0x3495F8,0x349618],
@@ -605,19 +611,25 @@
 						"style": "P"
 					},
 					{
-						"section": "Battle 5 (overStr)",
+						"section": "Battle 5 (menuStr)",
+						"pointers_start": 354632,
+						"pointers_end": 354660,
+						"style": "P"
+					},
+					{
+						"section": "Battle 6 (overStr)",
 						"pointers_start": 354880,
 						"pointers_end": 354904,
 						"style": "P"
 					},
 					{
-						"section": "Battle 6 (enemySkillStr)",
+						"section": "Battle 7 (enemySkillStr)",
 						"pointers_start": 354944,
 						"pointers_end": 355060,
 						"style": "P"
 					},
 					{
-						"section": "Battle 7 (btlstr 2)",
+						"section": "Battle 8 (btlstr 2)",
 						"pointers_start": 355068,
 						"pointers_end": 356780,
 						"style": "P"
@@ -715,7 +727,7 @@
 	{
 		"file_path": "./DAT/OVL/11217.ovl",
 		"is_pak": false,
-		"base_offset": -0x2D8900,
+		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x2DF470,0x02EBE00],
 		],
