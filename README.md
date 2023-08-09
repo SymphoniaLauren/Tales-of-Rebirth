@@ -2,7 +2,7 @@
 
 ##
 Spreadsheet with Info: https://docs.google.com/spreadsheets/d/1-XwzS7F0SaLlXwv1KS6RcTEYYORH2DDb1bMRy5VM5oo/edit?usp=sharing  
-Discord: Ask SymphoniaLauren#0020
+Discord: Ask SymphoniaLauren
 
 ## Font
 There is a table in the ELF file to change the width: `0xcb240`
@@ -13,8 +13,8 @@ There is a table in the ELF file to change the width: `0xcb240`
 `00013.pak3`  
 `11217.bin`  
 
-![alt text](https://github.com/pnvnd/Tales-of-Rebirth/blob/main/tor_base.png?raw=true)  
+![alt text](https://github.com/SymphoniaLauren/Tales-of-Rebirth/assets_archives/readme/tor_base.png?raw=true)  
 
-![alt text](https://github.com/pnvnd/Tales-of-Rebirth/blob/main/pak1.png?raw=true)  
+![alt text](https://github.com/SymphoniaLauren/Tales-of-Rebirth/assets_archives/readme/pak1.png?raw=true)  
 
-![alt text](https://github.com/pnvnd/Tales-of-Rebirth/blob/main/scpk.png?raw=true)  
+![alt text](https://github.com/SymphoniaLauren/Tales-of-Rebirth/assets_archives/readme/scpk.png?raw=true)  

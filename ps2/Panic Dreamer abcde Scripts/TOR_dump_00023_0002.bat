@@ -1,1 +1,0 @@
-perl abcde.pl -m bin2text -cm abcde::Cartographer "00023_0002.unknown" "TOR_PanicDreamer_01_script.txt" PanicDreamer_01 -s
