@@ -770,5 +770,173 @@
 			}
 		],
 		"embedded": []
+	},
+	{
+		"file_path": "./DAT/OVL/11230.ovl",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02DA9E0,0x02DB2E0],
+		],
+		"sections": [
+			{
+				"section": "gradeshop_info",
+				"pointers_start": 0x1DC0,
+				"pointers_end": 0x1F20,
+				"style": "P8"
+			},
+			{
+				"section": "gradeshop_str",
+				"pointers_start": 0x1F20,
+				"pointers_end": 0x1F34,
+				"style": "P"
+			},
+			{
+				"section": "gradeshop_str_old",
+				"pointers_start": 0x1F88,
+				"pointers_end": 0x1F94,
+				"style": "P"
+			}
+		],
+		"embedded": [
+			{
+				"HI": [0x2D99EC, 0x2D9ADC],
+				"LO": [0x2D99F4, 0x2D9AEC],
+			},
+			{
+				"HI": [0x2D9A10],
+				"LO": [0x2D9A18],
+			},
+			{
+				"HI": [0x2D9AF8],
+				"LO": [0x2D9B00],
+			},
+			{
+				"HI": [0x2D9BC0],
+				"LO": [0x2D9BD0],
+			},
+			{
+				"HI": [0x2D9CD4],
+				"LO": [0x2D9CDC],
+			},
+			{
+				"HI": [0x2D9D24],
+				"LO": [0x2D9D38],
+			},
+			{
+				"HI": [0x2D9D54],
+				"LO": [0x2D9D5C],
+			},
+		]
+	},
+	{
+		"file_path": "./DAT/OVL/11215.ovl",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02DFB20,0x02DFCB0],
+		],
+		"sections": [
+			{
+				"section": "ginnarmemo",
+				"pointers_start": 0x71A4,
+				"pointers_end": 0x71A8,
+				"style": "P"
+			}
+		],
+		"embedded": [
+			{
+				"HI": [0x2d960c, 0x2d97a4, 0x2d95f0, 0x2db6d0, 0x2db750],
+				"LO": [0x2d9614, 0x2d97a8, 0x2d98b4, 0x2db6dc, 0x2db760],
+			},
+			{
+				"HI": [0x2d968c, 0x2d992c],
+				"LO": [0x2d9690, 0x2d9930],
+			},
+			{
+				"HI": [0x2daca4],
+				"LO": [0x2dacac],
+			},
+			{
+				"HI": [0x2DB64C, 0x2db6ec, 0x2db8c0, 0x2dbd88],
+				"LO": [0x2DB65C, 0x2db6f0, 0x2db8d0, 0x2dbd94],
+			},
+			{
+				"HI": [0x2DB944],
+				"LO": [0x2DB958],
+			},
+			{
+				"HI": [0x2DB98C],
+				"LO": [0x2DB9A8],
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/OVL/11222.ovl",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02E3AF0,0x02E41E0],
+		],
+		"sections": [
+			{
+				"section": "shop menu 1 (unused?)",
+				"pointers_start": 0x8788,
+				"pointers_end": 0xAE08,
+				"style": "P84"
+			}
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/OVL/11228.ovl",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02E5670,0x02E5D60],
+		],
+		"sections": [
+			{
+				"section": "shop menu 1",
+				"pointers_start": 0xA098,
+				"pointers_end": 0xC718,
+				"style": "P84"
+			}
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/BIN/11190.1.bin",
+		"is_pak": false,
+		"base_offset": 0x0,
+		"safe_areas": [
+			[0x0B14,0xFFFFFFFF],
+		],
+		"sections": [
+			{
+				"section": "Synopsis",
+				"pointers_start": 0xC,
+				"pointers_end": 0xB08,
+				"style": "4P"
+			}
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/BIN/11191.3.bin",
+		"is_pak": false,
+		"base_offset": 0x0,
+		"safe_areas": [
+			[0x84,0xFFFFFFFF],
+		],
+		"sections": [
+			{
+				"section": "Character Bios",
+				"pointers_start": 0xC,
+				"pointers_end": 0x70,
+				"style": "4P"
+			}
+		],
+		"embedded": []
 	}
 ]
