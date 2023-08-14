@@ -922,6 +922,84 @@
 		"embedded": []
 	},
 	{
+		"file_path": "./DAT/OVL/11225.ovl",
+		"friendly_name": "mnu_sound",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02E5670,0x02E5D60],
+		],
+		"sections": [
+			{
+				"section": "sdmd_bgm_cate_in_name_title",
+				"pointers_start": 0x4068,
+				"pointers_end": 0x40E8,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_field",
+				"pointers_start": 0x40F0,
+				"pointers_end": 0x4230,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_town",
+				"pointers_start": 0x4240,
+				"pointers_end": 0x4740,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_dangeon",
+				"pointers_start": 0x4768,
+				"pointers_end": 0x4A68,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_event",
+				"pointers_start": 0x4A80,
+				"pointers_end": 0x5080,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_battle",
+				"pointers_start": 0x50B0,
+				"pointers_end": 0x5430,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_minigame",
+				"pointers_start": 0x5450,
+				"pointers_end": 0x5590,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_vsce_cate_name",
+				"pointers_start": 0x55E0,
+				"pointers_end": 0x5D00,
+				"style": "T32"
+			},
+			{
+				"section": "sdmd_vcht_cate_name",
+				"pointers_start": 0xE6C0,
+				"pointers_end": 0xEA30,
+				"style": "T16"
+			},
+			{
+				"section": "sdmd_vbtl_cate_name",
+				"pointers_start": 0xFFF8,
+				"pointers_end": 0x101F8,
+				"style": "T16"
+			},
+			{
+				"section": "sdmd_se_cate_name",
+				"pointers_start": 0x112F0,
+				"pointers_end": 0x11320,
+				"style": "T16"
+			},
+		],
+		"embedded": []
+	},
+	{
 		"file_path": "./DAT/BIN/11190.1.bin",
 		"friendly_name": "Synopsis",
 		"is_pak": false,
