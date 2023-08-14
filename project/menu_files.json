@@ -1034,5 +1034,52 @@
 			}
 		],
 		"embedded": []
+	},
+	{
+		"file_path": "./DAT/OVL/00017.ovl",
+		"friendly_name": "Title",
+		"is_pak": false,
+		"base_offset": 0x2EF680,
+		"safe_areas": [
+			[0x02F26C8,0x02F2708],
+		],
+		"sections": [],
+		"embedded": [
+			{
+				"HI": [0x2F1130],
+				"LO": [0x2F113C],
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/OVL/00020.ovl",
+		"friendly_name": "Ending",
+		"is_pak": false,
+		"base_offset": 0x2EF680,
+		"safe_areas": [
+			[0x02F9928,0x02FBB80],
+		],
+		"sections": [
+			{
+				"section": "Credits",
+				"pointers_start": 0x3888,
+				"pointers_end": 0xA2A0,
+				"style": "12P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P"
+			}
+		],
+		"embedded": [
+			{
+				"HI": [0x2EFB1C,0x2EFB34],
+				"LO": [0x2EFB20,0x2EFB38],
+			},
+			{
+				"HI": [0x2EFD60],
+				"LO": [0x2EFD64],
+			},
+			{
+				"HI": [0x2F1748],
+				"LO": [0x2F174C],
+			}
+		]
 	}
 ]
