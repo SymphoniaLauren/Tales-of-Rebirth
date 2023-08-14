@@ -732,6 +732,120 @@
 						"LO": [0x312264],
 					},
 				]
+			},
+			{
+				"file": 2,
+				"friendly_name": "3dfield Overlay",
+				"base_offset": 0x2EF680,
+				"safe_areas": [
+					[0x31E0F0,0x31E26C],
+					[0x31E6A8,0x31E710],
+					[0x31E750,0x31E770],
+					[0x31E800,0x31E850],
+					[0x31EAC0,0x31EB00],
+				],
+				"sections": [
+					{
+						"section": "3dfield 1 (fld_poly_name)",
+						"pointers_start": 0x2E250,
+						"pointers_end": 0x2E28C,
+						"style": "P"
+					},
+				],
+				"embedded": [
+					{
+						"HI": [0x2F6D7C,0x2F70E4,0x2F744C],
+						"LO": [0x2F6D84,0x2F70EC,0x2F7454],
+					},
+					{
+						"HI": [0x2F6D88,0x2F70F0,0x2F7458],
+						"LO": [0x2F6D90,0x2F70F8,0x2F7460],
+					},
+					{
+						"HI": [0x2F6D94,0x2F71FC,0x2F7464],
+						"LO": [0x2F6D9C,0x2F7104,0x2F746C],
+					},
+					{
+						"HI": [0x2F6DA0,0x2F7108,0x2F7470],
+						"LO": [0x2F6DA8,0x2F7110,0x2F7478],
+					},
+					{
+						"HI": [0x2F6DAC,0x2F7114,0x2F747C],
+						"LO": [0x2F6DB4,0x2F711C,0x2F7484],
+					},
+					{
+						"HI": [0x2F6DB8,0x2F7120,0x2F7488],
+						"LO": [0x2F6DC0,0x2F7128,0x2F7490],
+					},
+					{
+						"HI": [0x2F6DC4,0x2F712C,0x2F7494],
+						"LO": [0x2F6DCC,0x2F7134,0x2F749C],
+					},
+					{
+						"HI": [0x2F6DD0,0x2F7138,0x2F74A0],
+						"LO": [0x2F6DD8,0x2F7140,0x2F74A8],
+					},
+					{
+						"HI": [0x2F6DDC,0x2F7144,0x2F74AC],
+						"LO": [0x2F6DE4,0x2F714C,0x2F74B4],
+					},
+					{
+						"HI": [0x2F6DE8,0x2F7150,0x2F74B8],
+						"LO": [0x2F6DF0,0x2F7158,0x2F74C0],
+					},
+					{
+						"HI": [0x2F6DF4,0x2F715C,0x2F74C4],
+						"LO": [0x2F6DFC,0x2F7164,0x2F74CC],
+					},
+					{
+						"HI": [0x2F6E00,0x2F7168,0x2F74D0],
+						"LO": [0x2F6E08,0x2F7170,0x2F74D8],
+					},
+					{
+						"HI": [0x2F6E0C,0x2F7174,0x2F74DC],
+						"LO": [0x2F6E14,0x2F717C,0x2F74E4],
+					},
+					{
+						"HI": [0x2F6E18,0x2F7180,0x2F74E8],
+						"LO": [0x2F6E1C,0x2F7184,0x2F74F0],
+					},
+					{
+						"HI": [0x302118],
+						"LO": [0x302120],
+					},
+					{
+						"HI": [0x302378],
+						"LO": [0x302380],
+					},
+					{
+						"HI": [0x3025C8],
+						"LO": [0x3025D4],
+					},
+					{
+						"HI": [0x3026EC],
+						"LO": [0x3026F4],
+					},
+					{
+						"HI": [0x3054C8],
+						"LO": [0x3054CC],
+					},
+					{
+						"HI": [0x30B088],
+						"LO": [0x30B090],
+					},
+					{
+						"HI": [0x30B1B0,0x30B2E4],
+						"LO": [0x30B1B8,0x30B2EC],
+					},
+					{
+						"HI": [0x30B1CC,0x30B300],
+						"LO": [0x30B1D4,0x30B308],
+					},
+					{
+						"HI": [0x317FC0],
+						"LO": [0x317FD0],
+					}
+				]
 			}
 		]
 	},
