@@ -32,6 +32,12 @@
 				"style": "P"
 			},
 			{
+				"section": "Magic Bowl",
+				"pointers_start": 995200,
+				"pointers_end": 995212,
+				"style": "P"
+			},
+			{
 				"section": "Skit Names and Other",
 				"pointers_start": 1000104,
 				"pointers_end": 1004792,
@@ -910,7 +916,7 @@
 				"section": "gradeshop_info",
 				"pointers_start": 0x1DC0,
 				"pointers_end": 0x1F20,
-				"style": "P8"
+				"style": "PP8"
 			},
 			{
 				"section": "gradeshop_str",
@@ -990,8 +996,8 @@
 				"LO": [0x2DB65C, 0x2db6f0, 0x2db8d0, 0x2dbd94],
 			},
 			{
-				"HI": [0x2DB944],
-				"LO": [0x2DB958],
+				"HI": [0x2DB944, 0x2DBA5C],
+				"LO": [0x2DB958, 0x2DBA64],
 			},
 			{
 				"HI": [0x2DB98C],
