@@ -1129,7 +1129,7 @@ participate in battle.</EnglishText>
     <Entry>
       <PointerOffset>540</PointerOffset>
       <JapaneseText>道具</JapaneseText>
-      <EnglishText>Items</EnglishText>
+      <EnglishText>Item</EnglishText>
       <Notes>items menu top strings</Notes>
       <Id>134</Id>
       <Status>Editing</Status>
@@ -1177,10 +1177,10 @@ participate in battle.</EnglishText>
     <Entry>
       <PointerOffset>564</PointerOffset>
       <JapaneseText>&lt;Yellow&gt;&lt;var:2&gt;　&lt;White&gt;&lt;var:1&gt;　&lt;font:80000002&gt;&lt;Yellow&gt;x&lt;var:3&gt;</JapaneseText>
-      <EnglishText>&lt;Yellow&gt;&lt;var:2&gt; &lt;White&gt;&lt;var:1&gt;　&lt;font:80000002&gt;&lt;Yellow&gt;x&lt;var:3&gt;</EnglishText>
-      <Notes>might need a full width space.</Notes>
+      <EnglishText>&lt;Yellow&gt;&lt;var:2&gt; &lt;White&gt;&lt;var:1&gt; &lt;font:80000002&gt;&lt;Yellow&gt;x&lt;var:3&gt;</EnglishText>
+      <Notes>This is the discard string. for exemple: Medecine Peach Gel x15</Notes>
       <Id>140</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>568</PointerOffset>
@@ -1249,7 +1249,7 @@ participate in battle.</EnglishText>
     <Entry>
       <PointerOffset>600</PointerOffset>
       <JapaneseText>属性</JapaneseText>
-      <EnglishText>ELE</EnglishText>
+      <EnglishText>ELEMENT</EnglishText>
       <Notes/>
       <Id>149</Id>
       <Status>Editing</Status>
@@ -1265,7 +1265,7 @@ participate in battle.</EnglishText>
     <Entry>
       <PointerOffset>608</PointerOffset>
       <JapaneseText>打防</JapaneseText>
-      <EnglishText>T. DEF</EnglishText>
+      <EnglishText>B. DEF</EnglishText>
       <Notes/>
       <Id>151</Id>
       <Status>Editing</Status>
@@ -1526,10 +1526,13 @@ participate in battle.</EnglishText>
 装備中ですが捨てますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;捨てる　&lt;icon:31&gt;やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:1&gt; is equipped on &lt;var:5&gt;,
+do you want to discard it?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Discard &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>183</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>740</PointerOffset>
@@ -1539,10 +1542,14 @@ participate in battle.</EnglishText>
 装備を変えますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;装備メニュー　&lt;icon:31&gt;やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:1&gt; is equipped on &lt;var:5&gt;.
+You cannot discard an equipped weapon. 
+Do you want to change your equipement.
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Equip Menu &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>184</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>744</PointerOffset>
@@ -1565,10 +1572,12 @@ participate in battle.</EnglishText>
       <JapaneseText>これでいいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;終了する　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Are you sure?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Exit &lt;icon:31&gt;Back</EnglishText>
       <Notes/>
       <Id>187</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>756</PointerOffset>
@@ -1641,40 +1650,40 @@ an evil presense.</EnglishText>
     <Entry>
       <PointerOffset>788</PointerOffset>
       <JapaneseText>武器</JapaneseText>
-      <EnglishText>Weapon</EnglishText>
-      <Notes/>
+      <EnglishText>WPN</EnglishText>
+      <Notes>Equip Menu</Notes>
       <Id>196</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>792</PointerOffset>
       <JapaneseText>防具</JapaneseText>
-      <EnglishText>Armor</EnglishText>
-      <Notes/>
+      <EnglishText>ARM</EnglishText>
+      <Notes>Equip Menu</Notes>
       <Id>197</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>796</PointerOffset>
       <JapaneseText>宝石</JapaneseText>
-      <EnglishText>Gem</EnglishText>
-      <Notes/>
+      <EnglishText>GEM</EnglishText>
+      <Notes>Equip Menu</Notes>
       <Id>198</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>800</PointerOffset>
       <JapaneseText>護符</JapaneseText>
-      <EnglishText>Charm</EnglishText>
-      <Notes/>
+      <EnglishText>ACC</EnglishText>
+      <Notes>Equip Menu</Notes>
       <Id>199</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>804</PointerOffset>
       <JapaneseText>-</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>-</EnglishText>
+      <Notes>Equip Menu</Notes>
       <Id>200</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1682,7 +1691,7 @@ an evil presense.</EnglishText>
       <PointerOffset>808</PointerOffset>
       <JapaneseText>NO ITEM</JapaneseText>
       <EnglishText>NO ITEM</EnglishText>
-      <Notes/>
+      <Notes>Equip Menu</Notes>
       <Id>201</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1692,16 +1701,19 @@ an evil presense.</EnglishText>
 装備中ですがどうしますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;外して装備　&lt;icon:31&gt;やめる</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;var:1&gt; is equipped on &lt;var:3&gt;,
+do you want to unequip it?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Remove and Equip &lt;icon:31&gt;Cancel</EnglishText>
+      <Notes>Equip Menu</Notes>
       <Id>202</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>816</PointerOffset>
       <JapaneseText>武器を外すことはできません。</JapaneseText>
       <EnglishText>This weapon cannot be unequipped.</EnglishText>
-      <Notes/>
+      <Notes>Equip Menu</Notes>
       <Id>203</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1709,23 +1721,23 @@ an evil presense.</EnglishText>
       <PointerOffset>820</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;変更　&lt;icon:32&gt;説明切替　&lt;icon:33&gt;はずす　&lt;icon:34&gt;&lt;icon:35&gt;キャラ切替　&lt;icon:31&gt;戻る</JapaneseText>
       <EnglishText>&lt;icon:30&gt;Select &lt;icon:32&gt;Info &lt;icon:33&gt;Remove &lt;icon:34&gt;&lt;icon:35&gt;Change Character &lt;icon:31&gt;Back</EnglishText>
-      <Notes/>
+      <Notes>Equip Menu</Notes>
       <Id>204</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>824</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;決定　&lt;icon:32&gt;説明切替　&lt;icon:34&gt;&lt;icon:35&gt;設定個所切替　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText>&lt;icon:30&gt;Confirm &lt;icon:32&gt;Info &lt;icon:34&gt;&lt;icon:35&gt;Change Arte Slot &lt;icon:31&gt;Back</EnglishText>
-      <Notes/>
+      <EnglishText>&lt;icon:30&gt;Confirm &lt;icon:32&gt;Info &lt;icon:34&gt;&lt;icon:35&gt;Change Slot &lt;icon:31&gt;Back</EnglishText>
+      <Notes>Equip Menu</Notes>
       <Id>205</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>828</PointerOffset>
       <JapaneseText>&lt;icon:34&gt;&lt;icon:35&gt;設定個所切替　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText>&lt;icon:34&gt;&lt;icon:35&gt;Change Arte Slot &lt;icon:31&gt;Back</EnglishText>
-      <Notes/>
+      <EnglishText>&lt;icon:34&gt;&lt;icon:35&gt;Change Slot &lt;icon:31&gt;Back</EnglishText>
+      <Notes>Equip Menu</Notes>
       <Id>206</Id>
       <Status>Editing</Status>
     </Entry>
@@ -1876,7 +1888,7 @@ an evil presense.</EnglishText>
     <Entry>
       <PointerOffset>904</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;決定　&lt;icon:32&gt;説明切替　&lt;icon:34&gt;&lt;icon:35&gt;設定個所切替　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText>&lt;icon:30&gt;Select &lt;icon:32&gt;Info &lt;icon:34&gt;&lt;icon:35&gt;Change Arte Slot&lt;icon:31&gt;Back</EnglishText>
+      <EnglishText>&lt;icon:30&gt;Select &lt;icon:32&gt;Info &lt;icon:34&gt;&lt;icon:35&gt;Change Arte Slot &lt;icon:31&gt;Back</EnglishText>
       <Notes>Arte Menu</Notes>
       <Id>225</Id>
       <Status>Editing</Status>
@@ -2060,26 +2072,28 @@ an evil presense.</EnglishText>
       <JapaneseText>&lt;var:1&gt;でいいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;実行　&lt;icon:31&gt;やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Increase &lt;var:1&gt;?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Enhance &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>247</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>996</PointerOffset>
       <JapaneseText>カスタムに必要なポイントが足りません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You don't have enough Enhance points.</EnglishText>
       <Notes/>
       <Id>248</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1000</PointerOffset>
       <JapaneseText>CUSTOMIZE OVER</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>CUSTOMIZE OVER</EnglishText>
+      <Notes>need to check cause this might be jank</Notes>
       <Id>249</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>1004</PointerOffset>
@@ -2158,18 +2172,18 @@ an evil presense.</EnglishText>
     <Entry>
       <PointerOffset>1036</PointerOffset>
       <JapaneseText>- 合成１ -</JapaneseText>
-      <EnglishText/>
+      <EnglishText>- Synthesis 1 -</EnglishText>
       <Notes/>
       <Id>258</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1040</PointerOffset>
       <JapaneseText>- 合成２ -</JapaneseText>
-      <EnglishText/>
+      <EnglishText>- Synthesis 2 -</EnglishText>
       <Notes/>
       <Id>259</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1044</PointerOffset>
@@ -2195,15 +2209,15 @@ an evil presense.</EnglishText>
       <PointerOffset>1052</PointerOffset>
       <JapaneseText>購入</JapaneseText>
       <EnglishText>Buy</EnglishText>
-      <Notes/>
+      <Notes>Shop menu</Notes>
       <Id>262</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1056</PointerOffset>
       <JapaneseText>売却</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Sell</EnglishText>
+      <Notes>Shop menu</Notes>
       <Id>263</Id>
       <Status>Editing</Status>
     </Entry>
@@ -2211,7 +2225,7 @@ an evil presense.</EnglishText>
       <PointerOffset>1060</PointerOffset>
       <JapaneseText>装備</JapaneseText>
       <EnglishText>Equip</EnglishText>
-      <Notes/>
+      <Notes>Shop menu</Notes>
       <Id>264</Id>
       <Status>Editing</Status>
     </Entry>
@@ -2219,7 +2233,7 @@ an evil presense.</EnglishText>
       <PointerOffset>1064</PointerOffset>
       <JapaneseText>エンハンス</JapaneseText>
       <EnglishText>Enhance</EnglishText>
-      <Notes/>
+      <Notes>Shop menu</Notes>
       <Id>265</Id>
       <Status>Editing</Status>
     </Entry>
@@ -2227,7 +2241,7 @@ an evil presense.</EnglishText>
       <PointerOffset>1068</PointerOffset>
       <JapaneseText>武具継承</JapaneseText>
       <EnglishText>Inherit</EnglishText>
-      <Notes/>
+      <Notes>Shop menu</Notes>
       <Id>266</Id>
       <Status>Editing</Status>
     </Entry>
@@ -2235,15 +2249,15 @@ an evil presense.</EnglishText>
       <PointerOffset>1072</PointerOffset>
       <JapaneseText>名称変更</JapaneseText>
       <EnglishText>Rename</EnglishText>
-      <Notes/>
+      <Notes>Shop menu</Notes>
       <Id>267</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1076</PointerOffset>
       <JapaneseText>宝石合成</JapaneseText>
-      <EnglishText>Gem Synthesis</EnglishText>
-      <Notes/>
+      <EnglishText>Synthesis</EnglishText>
+      <Notes>Shop menu</Notes>
       <Id>268</Id>
       <Status>Editing</Status>
     </Entry>
@@ -2292,30 +2306,36 @@ an evil presense.</EnglishText>
       <JapaneseText>これでいいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;買う　&lt;icon:31&gt;やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Is this good with you?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Buy &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>274</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1104</PointerOffset>
       <JapaneseText>これでいいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;売る　&lt;icon:31&gt;やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Is this good with you?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Sell &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>275</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1108</PointerOffset>
       <JapaneseText>これでいいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;渡す　&lt;icon:31&gt;やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Is this good with you?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Exchange &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>276</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1112</PointerOffset>
@@ -2331,10 +2351,12 @@ an evil presense.</EnglishText>
 装備しますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;装備する　&lt;icon:31&gt;しない</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Equip &lt;var:1&gt;?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Equip &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>278</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1120</PointerOffset>
@@ -3051,178 +3073,178 @@ the original settings?
     <Entry>
       <PointerOffset>1456</PointerOffset>
       <JapaneseText>Ｇａｌｄ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Gald</EnglishText>
+      <Notes>monster book</Notes>
       <Id>363</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1460</PointerOffset>
       <JapaneseText>防御行動</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Guarding:</EnglishText>
+      <Notes>monster book</Notes>
       <Id>364</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1464</PointerOffset>
       <JapaneseText>最大ヒット</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Max Hits</EnglishText>
+      <Notes>monster book</Notes>
       <Id>365</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1468</PointerOffset>
       <JapaneseText>攻略度</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Appearance</EnglishText>
+      <Notes>monster book</Notes>
       <Id>366</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1472</PointerOffset>
       <JapaneseText>Ｅｘｐ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Exp</EnglishText>
+      <Notes>monster book</Notes>
       <Id>367</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1476</PointerOffset>
       <JapaneseText>弱点</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Weak</EnglishText>
+      <Notes>monster book</Notes>
       <Id>368</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1480</PointerOffset>
       <JapaneseText>鋼体</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Iron S.</EnglishText>
+      <Notes>monster book</Notes>
       <Id>369</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1484</PointerOffset>
       <JapaneseText>半減</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Resist</EnglishText>
+      <Notes>monster book</Notes>
       <Id>370</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1488</PointerOffset>
       <JapaneseText>防御</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Defend</EnglishText>
+      <Notes>monster book</Notes>
       <Id>371</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1492</PointerOffset>
       <JapaneseText>アイテム</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Items</EnglishText>
+      <Notes>monster book</Notes>
       <Id>372</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1496</PointerOffset>
       <JapaneseText>グレード獲得率</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Grade Reward</EnglishText>
+      <Notes>monster book</Notes>
       <Id>373</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1500</PointerOffset>
       <JapaneseText>?</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>?</EnglishText>
+      <Notes>monster book</Notes>
       <Id>374</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1504</PointerOffset>
       <JapaneseText>？？？</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>???</EnglishText>
+      <Notes>monster book</Notes>
       <Id>375</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1508</PointerOffset>
       <JapaneseText>NAME▼</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>NAME▼</EnglishText>
+      <Notes>sort option monster book</Notes>
       <Id>376</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1512</PointerOffset>
       <JapaneseText>LEVEL▼</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>LEVEL▼</EnglishText>
+      <Notes>sort option monster book</Notes>
       <Id>377</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1516</PointerOffset>
       <JapaneseText>EXP▼</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>EXP▼</EnglishText>
+      <Notes>sort option monster book</Notes>
       <Id>378</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1520</PointerOffset>
       <JapaneseText>GALD▼</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>GALD▼</EnglishText>
+      <Notes>sort option monster book</Notes>
       <Id>379</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1524</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;敵リスト　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;icon:30&gt;Enemy List &lt;icon:31&gt;Back</EnglishText>
+      <Notes>monster book</Notes>
       <Id>380</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1528</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;選択　&lt;icon:33&gt;位置変更　&lt;icon:35&gt;ソート　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;icon:30&gt;Select &lt;icon:33&gt;Shift Window &lt;icon:35&gt;Sort &lt;icon:31&gt;Back</EnglishText>
+      <Notes>monster book</Notes>
       <Id>381</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1532</PointerOffset>
       <JapaneseText>&lt;icon:34&gt;&lt;icon:35&gt;キャラ切替　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;icon:34&gt;&lt;icon:35&gt;Change Enemy &lt;icon:31&gt;Back</EnglishText>
+      <Notes>monster book</Notes>
       <Id>382</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1536</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;下線先表示　&lt;icon:1C&gt;下線移動　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;icon:30&gt;Underline Display &lt;icon:1C&gt;Move Underline &lt;icon:31&gt;Back</EnglishText>
+      <Notes>Battle book tutorial book</Notes>
       <Id>383</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1540</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;&lt;icon:31&gt;閉じる</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;icon:30&gt;&lt;icon:31&gt;Close</EnglishText>
+      <Notes>Battle book tutorial book</Notes>
       <Id>384</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1544</PointerOffset>
@@ -3270,112 +3292,115 @@ the original settings?
 &lt;scale:C0&gt;（入力の反映は文字リスト上で&lt;icon:33&gt;）&lt;scale:100&gt;
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;やめる　&lt;icon:31&gt;入力を続ける</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Do you want to cancel input?
+(Reflect input on Character List&lt;icon:33&gt;)
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Cancel &lt;icon:31&gt;Continue</EnglishText>
       <Notes/>
       <Id>390</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1568</PointerOffset>
       <JapaneseText>デフォルトはありません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is already the default name.</EnglishText>
       <Notes/>
       <Id>391</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1572</PointerOffset>
       <JapaneseText>入力を取りやめることはできません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Input cannot be canceled.</EnglishText>
       <Notes/>
       <Id>392</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1576</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;決定　&lt;icon:32&gt;削除　&lt;icon:34&gt;&lt;icon:35&gt;位置変更　&lt;icon:31&gt;戻る</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:30&gt;Confirm &lt;icon:32&gt;Delete &lt;icon:34&gt;&lt;icon:35&gt;Shift Window &lt;icon:31&gt;Back</EnglishText>
       <Notes/>
       <Id>393</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1580</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;決定　&lt;icon:32&gt;削除　&lt;icon:34&gt;&lt;icon:35&gt;位置変更</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:30&gt;Confirm &lt;icon:32&gt;Delete &lt;icon:34&gt;&lt;icon:35&gt;Shift Window</EnglishText>
       <Notes/>
       <Id>394</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1584</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;入力　&lt;icon:32&gt;削除　&lt;icon:33&gt;決定　&lt;scale:100&gt;&lt;icon:36&gt;&lt;icon:37&gt;&lt;scale:80000000&gt;位置変更　&lt;scale:100&gt;&lt;icon:34&gt;&lt;scale:80000000&gt;元に戻す　&lt;scale:100&gt;&lt;icon:35&gt;&lt;scale:80000000&gt;デフォルト　&lt;icon:31&gt;戻る　　　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:30&gt;Input &lt;icon:32&gt;Erase &lt;icon:33&gt;Confirm &lt;icon:34&gt;&lt;icon:35&gt;Shift Window &lt;scale:0100&gt;&lt;icon:37&gt;Undo &lt;icon:36&gt;Default &lt;icon:31&gt;Back</EnglishText>
       <Notes/>
       <Id>395</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1588</PointerOffset>
       <JapaneseText>曲</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>BGM</EnglishText>
+      <Notes>Sound Mode</Notes>
       <Id>396</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1592</PointerOffset>
       <JapaneseText>シナリオ音声</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Event Voice</EnglishText>
+      <Notes>Sound Mode</Notes>
       <Id>397</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1596</PointerOffset>
       <JapaneseText>戦闘音声</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Battle Voice</EnglishText>
+      <Notes>Sound Mode</Notes>
       <Id>398</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1600</PointerOffset>
       <JapaneseText>チャット音声</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Skit Voice</EnglishText>
+      <Notes>Sound Mode</Notes>
       <Id>399</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1604</PointerOffset>
       <JapaneseText>効果音</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>SFX</EnglishText>
+      <Notes>Sound Mode</Notes>
       <Id>400</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1608</PointerOffset>
       <JapaneseText>ボリューム</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Volume</EnglishText>
+      <Notes>Sound Mode</Notes>
       <Id>401</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1612</PointerOffset>
       <JapaneseText>ステレオ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Stereo</EnglishText>
+      <Notes>Sound Mode</Notes>
       <Id>402</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1616</PointerOffset>
       <JapaneseText>ON</JapaneseText>
       <EnglishText>ON</EnglishText>
-      <Notes/>
+      <Notes>Sound Mode</Notes>
       <Id>403</Id>
       <Status>Editing</Status>
     </Entry>
@@ -3383,7 +3408,7 @@ the original settings?
       <PointerOffset>1620</PointerOffset>
       <JapaneseText>OFF</JapaneseText>
       <EnglishText>OFF</EnglishText>
-      <Notes/>
+      <Notes>Sound Mode</Notes>
       <Id>404</Id>
       <Status>Editing</Status>
     </Entry>
@@ -3391,7 +3416,7 @@ the original settings?
       <PointerOffset>1624</PointerOffset>
       <JapaneseText>？？？</JapaneseText>
       <EnglishText>???</EnglishText>
-      <Notes/>
+      <Notes>Sound Mode</Notes>
       <Id>405</Id>
       <Status>Editing</Status>
     </Entry>
@@ -3399,7 +3424,7 @@ the original settings?
       <PointerOffset>1628</PointerOffset>
       <JapaneseText>自動でリストが開きます</JapaneseText>
       <EnglishText>Opens external window</EnglishText>
-      <Notes/>
+      <Notes>Sound Mode</Notes>
       <Id>406</Id>
       <Status>Editing</Status>
     </Entry>
@@ -3407,17 +3432,17 @@ the original settings?
       <PointerOffset>1632</PointerOffset>
       <JapaneseText>&lt;icon:30&gt;で別メニューを開きます</JapaneseText>
       <EnglishText>&lt;icon:30&gt;Open Menu</EnglishText>
-      <Notes/>
+      <Notes>Sound Mode</Notes>
       <Id>407</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1636</PointerOffset>
       <JapaneseText>このままサウンドモードに進みます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Exit sound test.</EnglishText>
       <Notes/>
       <Id>408</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1640</PointerOffset>
