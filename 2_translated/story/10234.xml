@@ -675,32 +675,38 @@ break that we need.</EnglishText>
       <JapaneseText>&lt;Red&gt;称号&lt;Green&gt;は各キャラクターに与えられるもので、
 取得する事で、戦闘パラメータに
 ボーナスが付きます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;Red&gt;Titles&lt;Green&gt; were given to each character,
+and acquiring new titles will gives 
+bonuses to combat parameters.</EnglishText>
+      <Notes>this need some wordsmithing</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>5152</PointerOffset>
       <JapaneseText>&lt;Green&gt;取得した称号のボーナスは
 &lt;Red&gt;合計加算&lt;Green&gt;されますので、
 どの称号を名乗るかは自由です。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;Green&gt;Bonuses for titles earned are &lt;Red&gt;totaled&lt;Green&gt;
+and you are free to choose which title
+you wish to equip in the Status Menu.</EnglishText>
+      <Notes>this need some wordsmithing</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>5176</PointerOffset>
       <JapaneseText>&lt;Green&gt;取得条件が難しいものほど大きなボーナスが
 付きますので、がんばって探して下さい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;Green&gt;The more difficult they are to obtain,
+ the bigger the bonus, so please do
+your best to find them.</EnglishText>
+      <Notes>this need some wordsmithing</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>5369</PointerOffset>
@@ -1335,7 +1341,7 @@ as well...</EnglishText>
 私はどうしたらいいの……</JapaneseText>
       <EnglishText>Oh Claire...what
 should I have done...</EnglishText>
-      <Notes/>
+      <Notes>Npc line when not talking to veigue part 1 of 2</Notes>
       <SpeakerId>8</SpeakerId>
       <Id>104</Id>
       <Status>Editing</Status>
@@ -1348,7 +1354,7 @@ should I have done...</EnglishText>
       <EnglishText>Why did I have to
 look your way...
 Why...</EnglishText>
-      <Notes/>
+      <Notes>Npc line when not talking to veigue part 2 of 2</Notes>
       <SpeakerId>8</SpeakerId>
       <Id>105</Id>
       <Status>Editing</Status>
@@ -1360,7 +1366,7 @@ Why...</EnglishText>
       <EnglishText>Oh Claire...how am I
 going to make it up
 to you...</EnglishText>
-      <Notes/>
+      <Notes>talking with veigue before doing first part of SQ01 this is buble 1 of 2 </Notes>
       <SpeakerId>8</SpeakerId>
       <Id>106</Id>
       <Status>Editing</Status>
@@ -1370,7 +1376,7 @@ to you...</EnglishText>
       <JapaneseText>&lt;Veigue&gt;……
 本当にごめんなさい。</JapaneseText>
       <EnglishText>I'm so sorry, &lt;Veigue&gt;...</EnglishText>
-      <Notes/>
+      <Notes>talking with veigue before doing first part of SQ01 this is buble 2 of 2 </Notes>
       <SpeakerId>8</SpeakerId>
       <Id>107</Id>
       <Status>Editing</Status>
@@ -1380,7 +1386,7 @@ to you...</EnglishText>
       <JapaneseText>&lt;Veigue&gt;……
 本当にごめんなさい。</JapaneseText>
       <EnglishText>I'm so sorry, &lt;Veigue&gt;...</EnglishText>
-      <Notes/>
+      <Notes>Npc line when not talking to veigue after triggering the SQ01 part 2</Notes>
       <SpeakerId>8</SpeakerId>
       <Id>108</Id>
       <Status>Editing</Status>
@@ -1391,10 +1397,10 @@ to you...</EnglishText>
 私のせいでクレアが
 連れていかれてしまうなんて……
 </JapaneseText>
-      <EnglishText>I'm sorry &lt;Veigue&gt;...
-It's my fault that
-Claire got kidnapped...</EnglishText>
-      <Notes/>
+      <EnglishText>I'm sorry &lt;Veigue&gt;... It's
+my fault that Claire got 
+kidnapped...</EnglishText>
+      <Notes>SQ01 Monica and Steve part 2 </Notes>
       <SpeakerId>8</SpeakerId>
       <Id>109</Id>
       <Status>Editing</Status>
@@ -1407,7 +1413,7 @@ Claire got kidnapped...</EnglishText>
       <EnglishText>It's not your fault, Monica. Don't go 
 beating yourself up over it...
 You're worrying Steve.</EnglishText>
-      <Notes/>
+      <Notes>SQ01 Monica and Steve part 2 </Notes>
       <SpeakerId>0</SpeakerId>
       <Id>110</Id>
       <Status>Editing</Status>
@@ -1416,7 +1422,7 @@ You're worrying Steve.</EnglishText>
       <PointerOffset>1822</PointerOffset>
       <JapaneseText>スティーブが……!?</JapaneseText>
       <EnglishText>Steve...!?</EnglishText>
-      <Notes/>
+      <Notes>SQ01 Monica and Steve part 2 </Notes>
       <SpeakerId>8</SpeakerId>
       <Id>111</Id>
       <Status>Editing</Status>
@@ -1429,7 +1435,7 @@ You're worrying Steve.</EnglishText>
       <EnglishText>It's not just him, everyone
 else is worried about you too.
 So cheer up...</EnglishText>
-      <Notes/>
+      <Notes>SQ01 Monica and Steve part 2 </Notes>
       <SpeakerId>0</SpeakerId>
       <Id>112</Id>
       <Status>Editing</Status>
@@ -1438,7 +1444,7 @@ So cheer up...</EnglishText>
       <PointerOffset>1873</PointerOffset>
       <JapaneseText>……でも……でも……</JapaneseText>
       <EnglishText>But...but...</EnglishText>
-      <Notes/>
+      <Notes>SQ01 Monica and Steve part 2 </Notes>
       <SpeakerId>8</SpeakerId>
       <Id>113</Id>
       <Status>Editing</Status>

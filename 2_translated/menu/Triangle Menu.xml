@@ -600,7 +600,7 @@ or turn off the console.
     <Entry>
       <PointerOffset>280</PointerOffset>
       <JapaneseText>術技</JapaneseText>
-      <EnglishText>Artes</EnglishText>
+      <EnglishText>Force</EnglishText>
       <Notes>pluralize like in abyss</Notes>
       <Id>69</Id>
       <Status>Editing</Status>
@@ -1449,7 +1449,7 @@ participate in battle.</EnglishText>
     <Entry>
       <PointerOffset>700</PointerOffset>
       <JapaneseText>護符</JapaneseText>
-      <EnglishText>Amulet</EnglishText>
+      <EnglishText>Accessory</EnglishText>
       <Notes/>
       <Id>174</Id>
       <Status>Editing</Status>
@@ -2156,10 +2156,14 @@ do you want to unequip it?
 引き継ぎますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;引き継ぐ　&lt;icon:31&gt;引き継がない</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:2&gt; will take
+over the equipment.
+Are you sure?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Proceed &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>256</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1032</PointerOffset>
@@ -2192,10 +2196,14 @@ do you want to unequip it?
 合成しますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;実行　&lt;icon:31&gt;やめる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Yellow&gt;&lt;var:3&gt; (&lt;var:4&gt;)&lt;Color:80000000&gt;
+will be created.
+Proceed with synthesis?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Synthesize &lt;icon:31&gt;Cancel</EnglishText>
       <Notes/>
       <Id>260</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1048</PointerOffset>
@@ -2817,10 +2825,12 @@ the original settings?
       <JapaneseText>操作説明などを含みますので、初回プレイの場合に
 ＯＦＦの設定をすると、ゲームを進めるのが困難に
 なる場合がありますのでご注意ください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Disclaimer: The game might be harder 
+to understand if you turn the tutorial OFF
+for your first playthrough.</EnglishText>
       <Notes/>
       <Id>331</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1332</PointerOffset>
@@ -3996,36 +4006,38 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
       <JapaneseText>&lt;var:5&gt;を中止しますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Do you want to cancel &lt;var:5&gt;?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes　&lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>476</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1912</PointerOffset>
       <JapaneseText>&lt;var:1&gt;に、&lt;var:2&gt;が
 挿入されていません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:2&gt; is not inserted in &lt;var:1&gt;.</EnglishText>
       <Notes/>
       <Id>477</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1916</PointerOffset>
       <JapaneseText>&lt;var:1&gt;の&lt;var:2&gt;は
 フォーマットされていません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:2&gt; of &lt;var:1&gt; is not formatted.</EnglishText>
       <Notes/>
       <Id>478</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1920</PointerOffset>
       <JapaneseText>このゲームのセーブデータがありません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>There is no saved data for this game.</EnglishText>
       <Notes/>
       <Id>479</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1924</PointerOffset>
@@ -4033,10 +4045,13 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 このゲームのデータを新規作成する為の
 空き容量が足りません。
 新規作成には&lt;font:80000002&gt;&lt;var:3&gt;KB以上の空き容量が必要です。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The &lt;var:2&gt; in the &lt;var:1&gt;
+has insufficient space to create a new a new data for
+this game. To create a new file, you need &lt;Var: 03&gt; KB 
+or more.</EnglishText>
       <Notes/>
       <Id>480</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1928</PointerOffset>
@@ -4044,19 +4059,25 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 このゲームの中断データを新規作成する為の
 空き容量が足りません。
 新規作成には&lt;font:80000002&gt;&lt;var:4&gt;KB以上の空き容量が必要です。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The memory card in slot 1 does not
+have enough free space to create
+new suspend data for this game.
+You must have at least &lt;var:4&gt;KB
+of free space.</EnglishText>
       <Notes/>
       <Id>481</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1932</PointerOffset>
       <JapaneseText>&lt;var:1&gt;の&lt;var:2&gt;に
 アクセスできません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The memory card (PS2)
+in the memory card slot 1
+cannot be accessed.</EnglishText>
       <Notes/>
       <Id>482</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1936</PointerOffset>
@@ -4064,20 +4085,27 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 よろしいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The game will be saved over
+the selected data.
+Are you sure?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>483</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1940</PointerOffset>
       <JapaneseText>データを新規作成します。よろしいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Create new data.
+Are you sure?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>484</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1944</PointerOffset>
@@ -4085,20 +4113,27 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 フォーマットされていません。フォーマットしますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:33&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The memory card (PS2) in the
+memory card slot 1 has not been
+formatted. Do you want to format it?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:33&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>485</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1948</PointerOffset>
       <JapaneseText>選択中のデータをロードします。よろしいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Load the currently selected data.
+Are you sure?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>486</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1952</PointerOffset>
@@ -4107,10 +4142,14 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 よろしいですか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Saving the modified comment will 
+overwrite the currently selected data.
+Are you sure?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>487</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1956</PointerOffset>
@@ -4122,10 +4161,17 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Do you want to suspend the game?
+Suspended data will be lost after
+resuming the game.
+  
+Are you sure?
+  
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>488</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1960</PointerOffset>
@@ -4138,80 +4184,97 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Do you want to suspend the game?
+Suspended data will be lost after
+resuming the game.
+  
+Are you sure?
+  
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>489</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1964</PointerOffset>
       <JapaneseText>&lt;var:5&gt;中です。&lt;var:2&gt;を
 抜いたり、電源を切ったりしないでください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:5&gt; in progress.
+Please do not remove
+the memory card (PS2)
+or turn off the power.</EnglishText>
       <Notes/>
       <Id>490</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1968</PointerOffset>
       <JapaneseText>フォーマット中です。&lt;var:2&gt;を
 抜いたり、電源を切ったりしないでください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Formatting is in progress. Do not
+remove the memory card (PS2)
+or turn off the power.</EnglishText>
       <Notes/>
       <Id>491</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1972</PointerOffset>
       <JapaneseText>コメントをセーブ中です。
 &lt;var:2&gt;を抜いたり
 電源を切ったりしないでください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Comments are being saved.
+Do not remove &lt;var:2&gt;
+or turn off power.</EnglishText>
       <Notes/>
       <Id>492</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1976</PointerOffset>
       <JapaneseText>空き容量の確認中です。
 &lt;var:2&gt;を抜いたり
 電源を切ったりしないでください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Checking for free space.
+Please do not remove
+the memory card (PS2)
+or turn off the power.</EnglishText>
       <Notes/>
       <Id>493</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1980</PointerOffset>
       <JapaneseText>&lt;var:5&gt;に失敗しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:5&gt; has failed.</EnglishText>
       <Notes/>
       <Id>494</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1984</PointerOffset>
       <JapaneseText>フォーマットに失敗しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Formatting has failed.</EnglishText>
       <Notes/>
       <Id>495</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1988</PointerOffset>
       <JapaneseText>&lt;var:5&gt;が完了しました！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:5&gt; is complete!</EnglishText>
       <Notes/>
       <Id>496</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1992</PointerOffset>
       <JapaneseText>フォーマットが完了しました！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Formatting is complete!</EnglishText>
       <Notes/>
       <Id>497</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1996</PointerOffset>
@@ -4219,10 +4282,13 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 チェック中です。
 &lt;var:2&gt;を抜いたり、電源を
 切らないでください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Checking the &lt;var:2&gt; in the 
+&lt;var:1&gt; is in progress. 
+Please do not remove &lt;var:2&gt; 
+or switch off the power.</EnglishText>
       <Notes/>
       <Id>498</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2000</PointerOffset>
@@ -4255,10 +4321,22 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>There is not enough free space 
+on the slot 1 memory card (PS2)
+  
+In order to save data for this game, 
+you need to have at least the following 
+amount of free space.
+  
+-New Save data needs  &lt;var:3&gt;KB or more
+-Suspend data needs &lt;var:4&gt;KB or more
+  
+Do you want to start the game like this?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>501</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2012</PointerOffset>
@@ -4268,10 +4346,15 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 このままゲームを開始しますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The memory card (PS2)  in slot 1 
+cannot be accessed.
+  
+Do you want to start the game like this?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>502</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2016</PointerOffset>
@@ -4287,10 +4370,22 @@ Press &lt;icon:33&gt; to display the options on the recipe list.</EnglishText>
 このままゲームを開始しますか？
 &lt;scale:C0&gt;&lt;Grey&gt;----
 &lt;scale:C0&gt;&lt;Yellow&gt;&lt;icon:30&gt;はい　&lt;icon:31&gt;いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>No memory card (PS2) is inserted 
+into slot 1.
+  
+To save data for this game, you need 
+to have at least the following amount 
+of free space.
+  
+-New Save data needs  &lt;var:3&gt;KB or more
+-Suspend data needs &lt;var:4&gt;KB or more
+  
+Do you want to start the game like this?
+&lt;Grey&gt;----
+&lt;Yellow&gt;&lt;icon:30&gt;Yes &lt;icon:31&gt;No</EnglishText>
       <Notes/>
       <Id>503</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2020</PointerOffset>
