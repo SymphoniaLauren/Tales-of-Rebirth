@@ -463,10 +463,10 @@
     <Entry>
       <PointerOffset>945544</PointerOffset>
       <JapaneseText>&lt;icon:13&gt; 選択  &lt;icon:30&gt; 決定</JapaneseText>
-      <EnglishText>&lt;icon:13&gt;Select  &lt;icon:30&gt;Confirm</EnglishText>
+      <EnglishText>&lt;icon:13&gt;Select &lt;icon:30&gt;Confirm</EnglishText>
       <Notes/>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -987,7 +987,7 @@
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1000348,1000972</PointerOffset>
+      <PointerOffset>1000348</PointerOffset>
       <JapaneseText>「ペトナジャンカへ」</JapaneseText>
       <EnglishText>To Petnadjanka</EnglishText>
       <Notes/>
@@ -2235,6 +2235,14 @@
       <Status>Editing</Status>
     </Entry>
     <Entry>
+      <PointerOffset>1000972</PointerOffset>
+      <JapaneseText>「ペトナジャンカへ」</JapaneseText>
+      <EnglishText>To Petnadjanka</EnglishText>
+      <Notes/>
+      <Id>123</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
       <PointerOffset>1000976</PointerOffset>
       <JapaneseText>「少し休もう」</JapaneseText>
       <EnglishText>Let's Take a Break</EnglishText>
@@ -2283,7 +2291,7 @@
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1001000,1002020</PointerOffset>
+      <PointerOffset>1001000</PointerOffset>
       <JapaneseText>「早く早く！」</JapaneseText>
       <EnglishText>Come on!</EnglishText>
       <Notes/>
@@ -4067,7 +4075,7 @@
       <Status>Editing</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1001892,1004224</PointerOffset>
+      <PointerOffset>1001892</PointerOffset>
       <JapaneseText>「&lt;Hilda&gt;の決意」</JapaneseText>
       <EnglishText>&lt;Hilda&gt;'s Determination</EnglishText>
       <Notes/>
@@ -4320,6 +4328,14 @@
       <EnglishText>Shaorune is calling for us</EnglishText>
       <Notes/>
       <Id>539</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1002020</PointerOffset>
+      <JapaneseText>「早く早く！」</JapaneseText>
+      <EnglishText>Come on!</EnglishText>
+      <Notes/>
+      <Id>285</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -8445,10 +8461,10 @@
     <Entry>
       <PointerOffset>1004084</PointerOffset>
       <JapaneseText>「憂鬱」</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Melancholy</EnglishText>
+      <Notes>maybe?</Notes>
       <Id>1055</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>1004088</PointerOffset>
@@ -8720,6 +8736,14 @@
       <EnglishText>&lt;Tytree&gt;'s Determination</EnglishText>
       <Notes/>
       <Id>1089</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1004224</PointerOffset>
+      <JapaneseText>「&lt;Hilda&gt;の決意」</JapaneseText>
+      <EnglishText>&lt;Hilda&gt;'s Determination</EnglishText>
+      <Notes/>
+      <Id>508</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
@@ -16195,7 +16219,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1061824</PointerOffset>
       <JapaneseText>ダメージ２倍</JapaneseText>
-      <EnglishText>Damage *2</EnglishText>
+      <EnglishText>Damage x2</EnglishText>
       <Notes/>
       <Id>1984</Id>
       <Status>Editing</Status>
@@ -16203,7 +16227,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1061828</PointerOffset>
       <JapaneseText>*2 DAMAGE</JapaneseText>
-      <EnglishText>*2 DAMAGE</EnglishText>
+      <EnglishText>x2 DAMAGE</EnglishText>
       <Notes/>
       <Id>1985</Id>
       <Status>Editing</Status>
@@ -16323,7 +16347,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1061952</PointerOffset>
       <JapaneseText>ダメージ３倍</JapaneseText>
-      <EnglishText>Damage *3</EnglishText>
+      <EnglishText>Damage x3</EnglishText>
       <Notes/>
       <Id>2000</Id>
       <Status>Editing</Status>
@@ -16331,7 +16355,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1061956</PointerOffset>
       <JapaneseText>*3 DAMAGE</JapaneseText>
-      <EnglishText>*3 DAMAGE</EnglishText>
+      <EnglishText>x3 DAMAGE</EnglishText>
       <Notes/>
       <Id>2001</Id>
       <Status>Editing</Status>
@@ -16347,10 +16371,10 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1061972,1062420</PointerOffset>
       <JapaneseText>FG HEAL</JapaneseText>
-      <EnglishText/>
+      <EnglishText>FG HEAL</EnglishText>
       <Notes/>
       <Id>2003</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1061984</PointerOffset>
@@ -16451,7 +16475,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1062080</PointerOffset>
       <JapaneseText>ダメージ４倍</JapaneseText>
-      <EnglishText>Damage *4</EnglishText>
+      <EnglishText>Damage x4</EnglishText>
       <Notes/>
       <Id>2016</Id>
       <Status>Editing</Status>
@@ -16459,7 +16483,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1062084</PointerOffset>
       <JapaneseText>*4 DAMAGE</JapaneseText>
-      <EnglishText>*4 DAMAGE</EnglishText>
+      <EnglishText>x4 DAMAGE</EnglishText>
       <Notes/>
       <Id>2017</Id>
       <Status>Editing</Status>
@@ -16675,7 +16699,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1062304</PointerOffset>
       <JapaneseText>ダメージ３２倍</JapaneseText>
-      <EnglishText>Damage *32</EnglishText>
+      <EnglishText>Damage x32</EnglishText>
       <Notes/>
       <Id>2044</Id>
       <Status>Editing</Status>
@@ -16683,7 +16707,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1062308</PointerOffset>
       <JapaneseText>*32 DAMAGE</JapaneseText>
-      <EnglishText>*32 DAMAGE</EnglishText>
+      <EnglishText>x32 DAMAGE</EnglishText>
       <Notes/>
       <Id>2045</Id>
       <Status>Editing</Status>
@@ -17051,7 +17075,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1062704</PointerOffset>
       <JapaneseText>アイテム使用時：HP回復量２倍</JapaneseText>
-      <EnglishText>Item HP Recovery *2</EnglishText>
+      <EnglishText>Item HP Recovery x2</EnglishText>
       <Notes/>
       <Id>2091</Id>
       <Status>Editing</Status>
@@ -17059,7 +17083,7 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1062708</PointerOffset>
       <JapaneseText>ITEMHEAL *2</JapaneseText>
-      <EnglishText>ITEMHEAL *2</EnglishText>
+      <EnglishText>ITEMHEAL x2</EnglishText>
       <Notes/>
       <Id>2092</Id>
       <Status>Editing</Status>
@@ -17473,10 +17497,10 @@ HPを２０％消費し、敵の対応FGを吸収。</JapaneseText>
     <Entry>
       <PointerOffset>1063048</PointerOffset>
       <JapaneseText>闇</JapaneseText>
-      <EnglishText>Darkness</EnglishText>
+      <EnglishText>Dark</EnglishText>
       <Notes>Temporary string till we have a better solution</Notes>
       <Id>2140</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1063052</PointerOffset>
