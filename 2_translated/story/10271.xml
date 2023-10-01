@@ -1,0 +1,550 @@
+<SceneText>
+  <Speakers>
+    <Section>Speaker</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText>[VARIABLE]</EnglishText>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2667,2689,2727,2758,2820</PointerOffset>
+      <JapaneseText>ミルハウスト</JapaneseText>
+      <EnglishText>Milhaust</EnglishText>
+      <Notes/>
+      <Id>0</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2789,3278</PointerOffset>
+      <JapaneseText>&lt;Agarte&gt;</JapaneseText>
+      <EnglishText>&lt;Agarte&gt;</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3065,3108,3169,3294,3315</PointerOffset>
+      <JapaneseText>&lt;Veigue&gt;</JapaneseText>
+      <EnglishText>&lt;Veigue&gt;</EnglishText>
+      <Notes/>
+      <Id>2</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2408,2408,2408,2408,2408,2408,2408,2408</PointerOffset>
+      <JapaneseText>男の人</JapaneseText>
+      <EnglishText>Man</EnglishText>
+      <Notes/>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3212</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
+      <Notes/>
+      <Id>4</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3620,3620,3620</PointerOffset>
+      <JapaneseText>船員</JapaneseText>
+      <EnglishText>Sailor</EnglishText>
+      <Notes/>
+      <Id>5</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3737,3904,4732,6636</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText>Select</EnglishText>
+      <Notes/>
+      <Id>6</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Speakers>
+  <Strings>
+    <Section>system</Section>
+    <Entry>
+      <PointerOffset>2247</PointerOffset>
+      <JapaneseText>ミナール</JapaneseText>
+      <EnglishText>Minal</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2244</PointerOffset>
+      <JapaneseText>ミナール</JapaneseText>
+      <EnglishText>Minal</EnglishText>
+      <Notes/>
+      <Id>2</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>entry</Section>
+    <Entry>
+      <PointerOffset>2670</PointerOffset>
+      <VoiceId>3c000000</VoiceId>
+      <JapaneseText>これから私は、
+君を連れてバルカに向かう。</JapaneseText>
+      <EnglishText>You will be accompanying me to
+Balka.</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2692</PointerOffset>
+      <VoiceId>3c000001</VoiceId>
+      <JapaneseText>味方ばかりとは言えないが、
+カレギア城にいれば安全だ。</JapaneseText>
+      <EnglishText>I can't say that everyone there
+will be welcoming, but so long as
+you're in the castle you will remain
+safe.</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>4</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2730</PointerOffset>
+      <VoiceId>3c000002</VoiceId>
+      <JapaneseText>くれぐれも、君と陛下が
+入れ替わっているという事は
+内密に願いたい。</JapaneseText>
+      <EnglishText>I would implore you to keep the
+fact that you and Her Majesty
+switched bodies a secret.</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>5</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2761</PointerOffset>
+      <VoiceId>3c000003</VoiceId>
+      <JapaneseText>あくまでも君は、
+カレギア女王アガーテ陛下だ。
+そのようにふるまうよう。</JapaneseText>
+      <EnglishText>For all intents and purposes,
+you are now Queen Agarte of
+Callegea. Conduct yourself accordingly.</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>6</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2792</PointerOffset>
+      <VoiceId>3c000004</VoiceId>
+      <JapaneseText>わかりました。</JapaneseText>
+      <EnglishText>I understand.</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>7</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2823</PointerOffset>
+      <VoiceId>3c000005</VoiceId>
+      <JapaneseText>……では参りましょう、&lt;Cyan&gt;陛下&lt;White&gt;。</JapaneseText>
+      <EnglishText>...Then shall we be going,
+&lt;Cyan&gt;Your Majesty&lt;White&gt;?</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>8</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>3068</PointerOffset>
+      <JapaneseText>昨日、ここでのもめごとを止めた、
+ヒューマの娘に覚えはないか？</JapaneseText>
+      <EnglishText>Do you remember seeing a Huma
+girl who stopped a fight yesterday?</EnglishText>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3090</PointerOffset>
+      <JapaneseText>ヒューマが外に出ていいのかよ。</JapaneseText>
+      <EnglishText>They're letting the Huma
+outside?</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>10</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3111</PointerOffset>
+      <JapaneseText>聞いているのはオレだ！</JapaneseText>
+      <EnglishText>I'm the one asking questions
+here!</EnglishText>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>11</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3151</PointerOffset>
+      <JapaneseText>そ、そんなやつがいたなぁ。</JapaneseText>
+      <EnglishText>O-okay, yeah, I saw a girl like that.</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>12</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3172</PointerOffset>
+      <JapaneseText>……その娘はどこへいった!?
+その後、街で見かけなかったか？</JapaneseText>
+      <EnglishText>Where did she go? You didn't catch sight
+of her around town after that incident?</EnglishText>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>13</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3194</PointerOffset>
+      <JapaneseText>ヒューマの娘なんて
+どこにだっているし、
+見分けなんてつかねえよ。</JapaneseText>
+      <EnglishText>As if I'm going to remember the
+face of every Huma girl I see
+walking around!</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>14</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3215</PointerOffset>
+      <JapaneseText>とってもキレイな人なんだヨ！
+ひと目見たら、きっと忘れないと
+思うんだけどなぁ？</JapaneseText>
+      <EnglishText>She's really pretty! I'm pretty
+sure even one look at her is
+enough to remember her by!</EnglishText>
+      <Notes/>
+      <SpeakerId>4</SpeakerId>
+      <Id>15</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3237</PointerOffset>
+      <JapaneseText>キレイなヒューマだぁ？</JapaneseText>
+      <EnglishText>A pretty Huma, eh?</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>16</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3259</PointerOffset>
+      <JapaneseText>ガジュマのべっぴんさんなら
+忘れねえんだがな。
+そっちのお嬢さんみたいに。</JapaneseText>
+      <EnglishText>Now if she were a Gajuma
+beauty, I'm sure I'd remember.
+Especially if she looked like that
+girl over there.</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>17</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3281</PointerOffset>
+      <JapaneseText>…………</JapaneseText>
+      <EnglishText>...</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>18</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3297</PointerOffset>
+      <JapaneseText>……クッ！</JapaneseText>
+      <EnglishText>Tch!</EnglishText>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>19</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3318</PointerOffset>
+      <JapaneseText>&lt;Agarte&gt;……
+どこへ行ったんだ！</JapaneseText>
+      <EnglishText>&lt;Agarte&gt;... Where the hell are
+you?!</EnglishText>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>20</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2464</PointerOffset>
+      <JapaneseText>キレイなヒューマの女って
+言われてもなあ……
+</JapaneseText>
+      <EnglishText>A pretty Huma girl...</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>21</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2486</PointerOffset>
+      <JapaneseText>あんたはどうなんだ？</JapaneseText>
+      <EnglishText>How about you?</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>22</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2529</PointerOffset>
+      <JapaneseText>キレイなヒューマの女って
+言われても
+ピンとこねえなあ……</JapaneseText>
+      <EnglishText>A "beautiful female Huma"
+doesn't really ring a bell
+to me...</EnglishText>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>23</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>3651</PointerOffset>
+      <JapaneseText>定期船は欠航となっております。</JapaneseText>
+      <EnglishText>Regular boat service
+is currently cancelled.</EnglishText>
+      <Notes/>
+      <SpeakerId>5</SpeakerId>
+      <Id>24</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3689</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;お金が足りないようですね。
+定期船のご利用料金は
+一律&lt;nmb:12C&gt;ガルドです。</JapaneseText>
+      <EnglishText>&lt;font:80000002&gt;You seem to be short of money.
+The fee for embarking is a flat 
+rate of &lt;nmb:12C&gt; Gald.</EnglishText>
+      <Notes/>
+      <SpeakerId>5</SpeakerId>
+      <Id>25</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3717</PointerOffset>
+      <JapaneseText>&lt;font:80000002&gt;定期船をご利用なさいますか？
+料金は一律&lt;nmb:12C&gt;ガルドです。</JapaneseText>
+      <EnglishText>&lt;font:80000002&gt;Do you want to embark?
+The fee is &lt;nmb:12C&gt; Gald.</EnglishText>
+      <Notes/>
+      <SpeakerId>5</SpeakerId>
+      <Id>26</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3740</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;定期船を利用しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;Embark?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>27</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3815</PointerOffset>
+      <JapaneseText/>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>28</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4870</PointerOffset>
+      <JapaneseText>　ミナール　
+</JapaneseText>
+      <EnglishText>Minal</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>29</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4909</PointerOffset>
+      <JapaneseText>　サニイタウン　
+</JapaneseText>
+      <EnglishText>Sunnytown</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>30</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4948</PointerOffset>
+      <JapaneseText>　バビログラード港　
+</JapaneseText>
+      <EnglishText>Babilograd Harbor</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>31</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4988</PointerOffset>
+      <JapaneseText>　バルカ港　
+</JapaneseText>
+      <EnglishText>Balka Harbor</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>32</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5029</PointerOffset>
+      <JapaneseText>　ラジルダ港　
+</JapaneseText>
+      <EnglishText>Razilda Harbor</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>33</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5069</PointerOffset>
+      <JapaneseText>　ノルゼン　
+</JapaneseText>
+      <EnglishText>Nolzen</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>34</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5109</PointerOffset>
+      <JapaneseText>　ベルサス港　
+</JapaneseText>
+      <EnglishText>Belsas Harbor</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>35</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5299</PointerOffset>
+      <JapaneseText>　定期船に乗らない　
+</JapaneseText>
+      <EnglishText>Don't Embark</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>36</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5173</PointerOffset>
+      <JapaneseText>　ノルゼン　
+</JapaneseText>
+      <EnglishText>Nolzen</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>37</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5214</PointerOffset>
+      <JapaneseText>　ベルサス港　
+</JapaneseText>
+      <EnglishText>Belsas Harbor</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>38</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5254</PointerOffset>
+      <JapaneseText>　ミナール　
+</JapaneseText>
+      <EnglishText>Minal</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>39</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3890</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:120&gt;&lt;unk18:48F80480&gt;&lt;unk18:48FC0480&gt;&lt;unk18:48000580&gt;&lt;unk18:48040580&gt;&lt;unk18:48080580&gt;&lt;unk18:480C0580&gt;&lt;unk18:48100580&gt;
+</JapaneseText>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:120&gt;&lt;unk18:48F80480&gt;
+&lt;unk18:48FC0480&gt;
+&lt;unk18:48000580&gt;
+&lt;unk18:48040580&gt;
+&lt;unk18:48080580&gt;
+&lt;unk18:480C0580&gt;
+&lt;unk18:48100580&gt;
+</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>40</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>4735</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;定期船で&lt;unk18:48F40428B8048880&gt;に移動します。
+料金&lt;nmb:12C&gt;ガルド
+　はい　
+　いいえ　
+</JapaneseText>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;To travel to &lt;unk18:48F40428B8048880&gt;
+the rate is &lt;nmb:12C&gt; Gald
+Yes
+No
+</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>41</Id>
+      <Status>Done</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>6639</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>42</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+</SceneText>

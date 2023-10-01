@@ -1,0 +1,947 @@
+<SceneText>
+  <FriendlyName>Cyglorg's Chambers</FriendlyName>
+  <Speakers>
+    <Section>Speaker</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText>[VARIABLE]</EnglishText>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9890</PointerOffset>
+      <JapaneseText>クマ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9863</PointerOffset>
+      <JapaneseText>エレベーターメイド</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6636,6764,6786,6808,6840,6987,7009,7031,7072,7196,7230,7252,7274,7296,7352,7374,7396,7455,7579,7614,7636,7676,7698,7720,7742,7764,7786,7866,7888,7910,7942,7983,8104,8126,8148,8204,8226,8285,8415,8450,8472,8521,8543,8565,8587,8609,8631,8720,8742,8764,8786,8808,8840,8881,9002,9024,9046,9105,9236,9282,9317,9339,9377</PointerOffset>
+      <JapaneseText>サイグローグ</JapaneseText>
+      <EnglishText>Cyglorg</EnglishText>
+      <Notes/>
+      <Id>2</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6723,6946</PointerOffset>
+      <JapaneseText>？？？？？？</JapaneseText>
+      <EnglishText>??????</EnglishText>
+      <Notes/>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7319,8171,6152,16334,9739</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText>Select</EnglishText>
+      <Notes/>
+      <Id>4</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6048</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText>Notice</EnglishText>
+      <Notes/>
+      <Id>5</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Speakers>
+  <Strings>
+    <Section>system</Section>
+    <Entry>
+      <PointerOffset>5899</PointerOffset>
+      <JapaneseText>&lt;font:A&gt;～&lt;unk17:310080&gt;階～</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5908</PointerOffset>
+      <JapaneseText>サイグローグの館&lt;unk17:310080&gt;階</JapaneseText>
+      <EnglishText>Cyglorg's Chambers Floor &lt;unk17:310080&gt;</EnglishText>
+      <Notes/>
+      <Id>2</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5905</PointerOffset>
+      <JapaneseText>サイグローグの館&lt;unk17:310080&gt;階</JapaneseText>
+      <EnglishText>Cyglorg's Chambers Floor &lt;unk17:310080&gt;</EnglishText>
+      <Notes/>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5929</PointerOffset>
+      <JapaneseText>サイグローグの館</JapaneseText>
+      <EnglishText>Cyglorg's Chambers</EnglishText>
+      <Notes/>
+      <Id>4</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5926</PointerOffset>
+      <JapaneseText>サイグローグの館</JapaneseText>
+      <EnglishText>Cyglorg's Chambers</EnglishText>
+      <Notes/>
+      <Id>5</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5941</PointerOffset>
+      <JapaneseText>謎の館</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>6</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>5938</PointerOffset>
+      <JapaneseText>謎の館</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>7</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>9893</PointerOffset>
+      <JapaneseText>タイマーリセット</JapaneseText>
+      <EnglishText>Timer Rest</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>8</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-1</Section>
+    <Entry>
+      <PointerOffset>9866</PointerOffset>
+      <JapaneseText>現在、&lt;unk17:310080&gt;階です。</JapaneseText>
+      <EnglishText>This is floor &lt;unk17:310080&gt;.</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>9</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-0</Section>
+    <Entry>
+      <PointerOffset>6639</PointerOffset>
+      <JapaneseText>おや、皆様……またしても、
+ここにいらっしゃいましたか……
+よほど、戦いを求めていらっしゃるご様子……
+どうぞ……お楽しみ下さい……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6726</PointerOffset>
+      <JapaneseText>わたくしは、サイグローグと申します……
+我が迷宮にようこそ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6767</PointerOffset>
+      <JapaneseText>皆様、我が迷宮にようこそ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6789</PointerOffset>
+      <JapaneseText>……しかし……
+せっかくおいでいただいて残念ですが、
+皆様はまだ、我が迷宮に立ち入る資格を
+満たしていません……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6811</PointerOffset>
+      <JapaneseText>今の皆様では、我が迷宮の魔によって、
+たちまち、血と肉の塊と化して
+しまうでしょう……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6843</PointerOffset>
+      <JapaneseText>&lt;Red&gt;その時&lt;White&gt;がまいりましたら、
+改めてご案内いたします。
+それでは……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6949</PointerOffset>
+      <JapaneseText>わたくしは、サイグローグと申します……
+我が迷宮にようこそ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>16</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>6990</PointerOffset>
+      <JapaneseText>皆様、我が迷宮にようこそ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>17</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7012</PointerOffset>
+      <JapaneseText>皆様の前に広がるのは、
+夢とメルヘンの世界……
+しかし、血と狂気に満ちた世界に
+転じる事もございましょう……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>18</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7034</PointerOffset>
+      <JapaneseText>それは人の心にも似ております……
+皆様、存分にお楽しみ下さい……
+それでは、また後ほどお会いいたしましょう……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>19</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7075</PointerOffset>
+      <JapaneseText>ようこそ……皆様……
+存分にお楽しみ下さい……
+生きて戻れるならば……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>20</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7199</PointerOffset>
+      <JapaneseText>どうぞどうぞ……余計な事は申しません。
+戦いをお楽しみ下さい……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>21</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7233</PointerOffset>
+      <JapaneseText>……ひとつ質問をいたしましょう。
+あなたは、ある屋敷に招かれました。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>22</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7255</PointerOffset>
+      <JapaneseText>すると、入り口で門番が
+あなたにこんな事をささやきました……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>23</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7277</PointerOffset>
+      <JapaneseText>「旦那様は、あなたに毒を
+　飲ませようとしています。
+　決して、右のグラスを取ってはいけません」</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>24</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7299</PointerOffset>
+      <JapaneseText>部屋に入ると、屋敷の主人は満面の笑みを
+浮かべて座っています。
+その目の前には、豪華な食事と、
+飲み物が注がれた、ふたつのグラス……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>25</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7322</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;さあ、どちらを手に取りますか？
+　右のグラス　
+　左のグラス　</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>4</SpeakerId>
+      <Id>26</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7355</PointerOffset>
+      <JapaneseText>……どちらのグラスでも良いのです。
+どちらのグラスにも、
+毒など入っていなかったのですから……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>27</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7377</PointerOffset>
+      <JapaneseText>あなたは、今……考えました……
+あなたは、今……迷いました……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>28</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7399</PointerOffset>
+      <JapaneseText>……疑惑……
+それこそが、わたくしの喜び……
+それでは、また後ほどお会いいたしましょう……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>29</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7458</PointerOffset>
+      <JapaneseText>わたくしは、戻る事は勧めません。
+さあ、お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>30</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7582</PointerOffset>
+      <JapaneseText>ここまでたどりついた皆様に、
+ささやかな贈り物です。
+こちらの品をどうぞ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>31</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7617</PointerOffset>
+      <JapaneseText>ここまでたどりついた皆様に、
+ささやかな贈り物です……
+……おや？
+&lt;Cyan&gt;護符&lt;White&gt;を&lt;Red&gt;たくさんお持ち&lt;White&gt;のようで……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>32</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7639</PointerOffset>
+      <JapaneseText>残念ですが……
+贈り物は差し上げられません……
+またの機会にいたしましょう……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>33</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7679</PointerOffset>
+      <JapaneseText>あなたには……
+忘れてしまいたい出来事、
+無かった事にしたい出来事はありませんか？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>34</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7701</PointerOffset>
+      <JapaneseText>……えてして、そういった出来事ほど
+何年経っても、記憶に刻まれているのです。
+心に刺さり続けているのです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>35</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7723</PointerOffset>
+      <JapaneseText>……忘れようとするたび……
+……忘れようとするほど……
+逆に、記憶に鮮明に刻まれてしまうのです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>36</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7745</PointerOffset>
+      <JapaneseText>わたくしの問いによって、
+あなたは、また……思い出しました……
+それこそが、わたくしの喜び……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>37</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7767</PointerOffset>
+      <JapaneseText>残念ですが……
+&lt;Yellow&gt;今の皆様&lt;White&gt;を御案内できるのは、
+この２０階までです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>38</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7789</PointerOffset>
+      <JapaneseText>ここで、お別れをしなくてはなりません。
+この迷宮は、いつでも皆様を待っております……
+それでは……しばしのお別れです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>39</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7869</PointerOffset>
+      <JapaneseText>あなたは、心の底から信頼できる相手が、
+どれだけいますか？
+そして、あなたの事を心から信頼している
+相手はどれだけいると思いますか？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>40</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7891</PointerOffset>
+      <JapaneseText>嫌いな相手はいますか？
+憎い相手はいますか？
+消えて無くなって欲しいほどの相手はいますか？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>41</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7913</PointerOffset>
+      <JapaneseText>あなたは、今……考えました……
+それこそが、わたくしの喜び……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7945</PointerOffset>
+      <JapaneseText>さあ、さらなる深みに
+招待いたしましょう……
+お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>7986</PointerOffset>
+      <JapaneseText>わたくしは、戻る事は勧めません。
+さあ、お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8107</PointerOffset>
+      <JapaneseText>あなたは夜、眠りますね……
+そして、夢をみるでしょう。
+楽しい夢や恐ろしい夢……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8129</PointerOffset>
+      <JapaneseText>時に、いつまでも覚えていたいような
+素晴らしい夢をみた経験はありませんか？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8151</PointerOffset>
+      <JapaneseText>楽しくて、望み通りの、胸おどる……夢。
+いつまでもみていたい夢……
+できれば、その夢の世界に行ってしまいたい……
+そんな……夢……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8174</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;font:80000002&gt;どちらを選びますか？
+　こちらの世界　
+　あちらの世界　</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>4</SpeakerId>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8207</PointerOffset>
+      <JapaneseText>あなたは、今……考えました……
+あちらの世界……それは、つまりは&lt;Red&gt;死&lt;White&gt;……
+&lt;Red&gt;死&lt;White&gt;を選んでも、一瞬でも&lt;Red&gt;死&lt;White&gt;に
+魅力を感じたとしても、わたくしの喜び……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8229</PointerOffset>
+      <JapaneseText>さあ、さらなる深みに招待いたしましょう……
+お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8288</PointerOffset>
+      <JapaneseText>わたくしは、戻る事は勧めません。
+さあ、お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8418</PointerOffset>
+      <JapaneseText>ここまでたどりついた皆様に、
+ささやかな贈り物です。
+こちらの品をどうぞ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8453</PointerOffset>
+      <JapaneseText>ここまでたどりついた皆様に、
+ささやかな贈り物です……
+……おや？
+&lt;Cyan&gt;護符&lt;White&gt;を&lt;Red&gt;たくさんお持ち&lt;White&gt;のようで……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8475</PointerOffset>
+      <JapaneseText>残念ですが……
+贈り物は差し上げられません……
+またの機会にいたしましょう……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>54</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8524</PointerOffset>
+      <JapaneseText>あなたが、バイラスと呼び、
+殺し続けているもの……
+あなたの目には、きっとあれが
+怪物に見えているのでしょう。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>55</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8546</PointerOffset>
+      <JapaneseText>しかし、あれは本当は……
+何の罪もない動物や植物で、
+あなただけが、ゆがんだ像を
+見ているとしたら……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8568</PointerOffset>
+      <JapaneseText>静かに森にたたずむだけの樹や、
+必死に逃げる可愛らしい動物に、
+恐ろしい武器を叩きつけるあなたの姿は、
+周囲からはどのように見えるのでしょうねぇ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8590</PointerOffset>
+      <JapaneseText>あなたは、今……考えました……
+それこそが、わたくしの喜び……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8612</PointerOffset>
+      <JapaneseText>残念ですが……
+&lt;Yellow&gt;今の皆様&lt;White&gt;を御案内できるのは、
+この４０階までです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8634</PointerOffset>
+      <JapaneseText>ここで、お別れをしなくてはなりません。
+この迷宮は、いつでも皆様を待っております……
+それでは……しばしのお別れです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>60</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8723</PointerOffset>
+      <JapaneseText>あなたの手元には、とあるカードがあります……
+そこに文字を記すだけで、あなたの願い……
+欲望をかなえてくれるカードです。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>61</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8745</PointerOffset>
+      <JapaneseText>ただし、願いをかなえる代償として、
+あなたの身近な人物の命が失われます……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>62</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8767</PointerOffset>
+      <JapaneseText>身近な人物とは、肉親や愛する相手とは
+限りません。
+単なる顔見知りや、あるいは嫌いな誰かでも
+構わないのです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>63</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8789</PointerOffset>
+      <JapaneseText>あなたは、そのカードを使いますか？
+……誰を犠牲に選びますか？
+……そして、いくつの願いをかなえますか？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>64</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8811</PointerOffset>
+      <JapaneseText>あなたは、今……考えました……
+それこそが、わたくしの喜び……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>65</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8843</PointerOffset>
+      <JapaneseText>さあ、さらなる深みに
+招待いたしましょう……
+お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>66</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8884</PointerOffset>
+      <JapaneseText>わたくしは、戻る事は勧めません。
+さあ、お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>67</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9005</PointerOffset>
+      <JapaneseText>あなたは、自分の&lt;Red&gt;死&lt;White&gt;を
+想像した事がありますか？
+それは、何十年も先かもしれない……
+いや……明日かもしれない……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>68</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9027</PointerOffset>
+      <JapaneseText>全てのものは、生まれた瞬間から、
+&lt;Red&gt;死&lt;White&gt;に向かって進んでいるのです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>69</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9049</PointerOffset>
+      <JapaneseText>さあ、さらなる深みに
+招待いたしましょう……
+お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>70</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9108</PointerOffset>
+      <JapaneseText>わたくしは、戻る事は勧めません。
+さあ、お進み下さい……
+深みへ……深みへ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>71</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9239</PointerOffset>
+      <JapaneseText>ここが、正真正銘……
+最終フロアです……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>72</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9285</PointerOffset>
+      <JapaneseText>ここまでたどりついた皆様に、
+ささやかな贈り物です。
+こちらの品をどうぞ……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>73</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9320</PointerOffset>
+      <JapaneseText>ここまでたどりついた皆様に、
+ささやかな贈り物です……
+……おや？
+&lt;Cyan&gt;護符&lt;White&gt;を&lt;Red&gt;たくさんお持ち&lt;White&gt;のようで……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>74</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9342</PointerOffset>
+      <JapaneseText>残念ですが……
+贈り物は差し上げられません……
+またの機会にいたしましょう……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>75</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9380</PointerOffset>
+      <JapaneseText>わたくしの迷宮……
+……楽しんでいただけましたでしょうか？
+わたくしは、いつでも待っております……
+……いつでも……いつまでも……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>76</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-2</Section>
+    <Entry>
+      <PointerOffset>6155</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;逆戻りすると、&lt;Red&gt;ギブアップ&lt;White&gt;として
+館の外に出されます。
+よろしいですか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>4</SpeakerId>
+      <Id>77</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s1-3</Section>
+    <Entry>
+      <PointerOffset>6051</PointerOffset>
+      <JapaneseText>&lt;Red&gt;前の階に戻る事はできません。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>5</SpeakerId>
+      <Id>78</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>16337</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>4</SpeakerId>
+      <Id>79</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>9742</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;逆戻りすると、&lt;Red&gt;ギブアップ&lt;White&gt;として
+館の外に出されます。
+よろしいですか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>4</SpeakerId>
+      <Id>80</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+</SceneText>

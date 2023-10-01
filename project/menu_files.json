@@ -1,0 +1,1206 @@
+[
+	{
+		"file_path": "${main_exe}",
+		"friendly_name": "SLPS",
+		"is_pak": false,
+		"base_offset": 0xFF000,
+		"safe_areas": [
+			// Offsets are from .rodata
+			[0x210980,0x210BF0],
+			[0x211110,0x211210],
+			[0x211480,0x2115E0],
+			[0x211730,0x211830],
+			[0x211850,0x211A30],
+			[0x211B60,0x211CD0],
+			[0x211E98,0x2185D8],
+			[0x218890,0x221810],
+			[0x221B30,0x22C310],
+			[0x22C8C0,0x22C9B8],
+			[0x22CCA0,0x22FA60],
+		],
+		"sections": [
+			{
+				"section": "Character Names",
+				"pointers_start": 830472,
+				"pointers_end": 830616,
+				"style": "P"
+			},
+			{
+				"section": "Action 1",
+				"pointers_start": 945440,
+				"pointers_end": 945548,
+				"style": "P"
+			},
+			{
+				"section": "Magic Bowl",
+				"pointers_start": 995200,
+				"pointers_end": 995212,
+				"style": "P"
+			},
+			{
+				"section": "Skit Names and Other",
+				"pointers_start": 1000104,
+				"pointers_end": 1004792,
+				"style": "P"
+			},
+			{
+				"section": "Artes",
+				"pointers_start": 1051588,
+				"pointers_end": 1059232,
+				"style": "PPP40"
+			},
+			{
+				"section": "Latent Abilities 1",
+				"pointers_start": 1059248,
+				"pointers_end": 1059980,
+				"style": "PPP4"
+			},
+			{
+				"section": "Strategy 1",
+				"pointers_start": 1060528,
+				"pointers_end": 1061008,
+				"style": "P"
+			},
+			{
+				"section": "Not sure 1",
+				"pointers_start": 1061008,
+				"pointers_end": 1061756,
+				"style": "P"
+			},
+			{
+				"section": "Latent Abilities 2",
+				"pointers_start": 1061824,
+				"pointers_end": 1062840,
+				"style": "PP8"
+			},
+			{
+				"section": "Latent Abilities 3",
+				"pointers_start": 1062856,
+				"pointers_end": 1062984,
+				"style": "P"
+			},
+			{
+				"section": "Attribute and Status",
+				"pointers_start": 1062984,
+				"pointers_end": 1063560,
+				"style": "P"
+			},
+			{
+				"section": "Latent Abilities 4",
+				"pointers_start": 1064760,
+				"pointers_end": 1066576,
+				"style": "PP8"
+			},
+			{
+				"section": "Armor",
+				"pointers_start": 1068892,
+				"pointers_end": 1072064,
+				"style": "PP20"
+			},
+			{
+				"section": "Weapon",
+				"pointers_start": 1072116,
+				"pointers_end": 1075456,
+				"style": "PP20"
+			},
+			{
+				"section": "Jewel",
+				"pointers_start": 1075500,
+				"pointers_end": 1075848,
+				"style": "PP12"
+			},
+			{
+				"section": "Charm",
+				"pointers_start": 1075888,
+				"pointers_end": 1076640,
+				"style": "PP16"
+			},
+			{
+				"section": "Consumables",
+				"pointers_start": 1076680,
+				"pointers_end": 1080144,
+				"style": "PP16"
+			},
+			{
+				"section": "Locations 1",
+				"pointers_start": 1082240,
+				"pointers_end": 1085668,
+				"style": "PPP44"
+			},
+			{
+				"section": "Locations 2",
+				"pointers_start": 1085672,
+				"pointers_end": 1087444,
+				"style": "PP20"
+			},
+			{
+				"section": "Cooking",
+				"pointers_start": 1093592,
+				"pointers_end": 1094832,
+				"style": "PPP12P4P4P8"
+			},
+			{
+				"section": "Cooking 2",
+				"pointers_start": 1094840,
+				"pointers_end": 1095040,
+				"style": "P"
+			},
+			{
+				"section": "Title",
+				"pointers_start": 1095064,
+				"pointers_end": 1096968,
+				"style": "PP4"
+			}
+		],
+		"embedded": [
+			{
+				"HI": [0x100534],
+				"LO": [0x100538]
+			},
+			{
+				"HI": [0x10054C],
+				"LO": [0x100550]
+			},
+			{
+				"HI": [0x101530],
+				"LO": [0x101534]
+			},
+			{
+				"HI": [0x101B04],
+				"LO": [0x101B08]
+			},
+			{
+				"HI": [0x101CC0],
+				"LO": [0x101CC4]
+			},
+			{
+				"HI": [0x101F08],
+				"LO": [0x101F0C]
+			},
+			// {
+			// 	"HI": [0x10241C],
+			// 	"LO": [0x102420]
+			// },
+			// {
+			// 	"HI": [0x102434],
+			// 	"LO": [0x102438]
+			// },
+			// {
+			// 	"HI": [0x10244C],
+			// 	"LO": [0x102450]
+			// },
+			// {
+			// 	"HI": [0x102464],
+			// 	"LO": [0x102468]
+			// },
+			// {
+			// 	"HI": [0x1039B8],
+			// 	"LO": [0x103A04]
+			// },
+			{
+				"HI": [0x10E794],
+				"LO": [0x10E7C8]
+			},
+			{
+				"HI": [0x10E794],
+				"LO": [0x10E7D4]
+			},
+			{
+				"HI": [0x10E7E4],
+				"LO": [0x10E7F0]
+			},
+			{
+				"HI": [0x10E7EC],
+				"LO": [0x10E7F4]
+			},
+			{
+				"HI": [0x125CDC, 0x125D18, 0x125D5C, 0x125FC0],
+				"LO": [0x125CE4, 0x125D20, 0x125D64, 0x125FC8]
+			},
+			{
+				"HI": [0x125CE8, 0x125D24, 0x125D68, 0x125FCC],
+				"LO": [0x125CEC, 0x125D28, 0x125D6C, 0x125FD0]
+			},
+			{
+				"HI": [0x125D88],
+				"LO": [0x125D90]
+			},
+			{
+				"HI": [0x125E48],
+				"LO": [0x125E50]
+			},
+			{
+				"HI": [0x125EB8],
+				"LO": [0x125EC0]
+			},
+			{
+				"HI": [0x125FEC],
+				"LO": [0x125FF4]
+			},
+			{
+				"HI": [0x125FAC],
+				"LO": [0x125FF8]
+			},
+			{
+				"HI": [0x126010],
+				"LO": [0x12601C]
+			},
+			{
+				"HI": [0x126068],
+				"LO": [0x12606C]
+			},
+			{
+				"HI": [0x126500],
+				"LO": [0x126504]
+			},
+			{
+				"HI": [0x128314, 0x128370],
+				"LO": [0x128320, 0x128380]
+			},
+			{
+				"HI": [0x128324],
+				"LO": [0x12832C]
+			},
+			{
+				"HI": [0x128348],
+				"LO": [0x128354]
+			},
+			{
+				"HI": [0x128358],
+				"LO": [0x128360]
+			},
+			{
+				"HI": [0x128384],
+				"LO": [0x12838C]
+			},
+			{
+				"HI": [0x1293C8, 0x12942C, 0x129714],
+				"LO": [0x1293CC, 0x129430, 0x129738]
+			},
+			{
+				"HI": [0x1360C0],
+				"LO": [0x13616C]
+			},
+			{
+				"HI": [0x136198],
+				"LO": [0x1361A0]
+			},
+			{
+				"HI": [0x13623C],
+				"LO": [0x136244]
+			},
+			{
+				"HI": [0x136918],
+				"LO": [0x136924]
+			},
+			{
+				"HI": [0x1369C0],
+				"LO": [0x1369C4]
+			},
+			{
+				"HI": [0x136ECC],
+				"LO": [0x136ED4]
+			},
+			{
+				"HI": [0x136EB0],
+				"LO": [0x136EB4]
+			},
+			{
+				"HI": [0x136E90],
+				"LO": [0x136E9C]
+			},
+			{
+				"HI": [0x136F48],
+				"LO": [0x136F4C]
+			},
+			{
+				"HI": [0x136F9C],
+				"LO": [0x136FAC]
+			},
+			{
+				"HI": [0x137244],
+				"LO": [0x137268]
+			},
+			{
+				"HI": [0x136F94],
+				"LO": [0x136FCC]
+			},
+			{
+				"HI": [0x13723C],
+				"LO": [0x137278]
+			},
+			{
+				"HI": [0x1370C8],
+				"LO": [0x1370D4]
+			},
+			{
+				"HI": [0x1370DC],
+				"LO": [0x1370E8]
+			},
+			{
+				"HI": [0x1371C0],
+				"LO": [0x1371CC]
+			},
+			{
+				"HI": [0x1371FC],
+				"LO": [0x137200]
+			},
+			// {
+			// 	"HI": [0x137EE8],
+			// 	"LO": [0x137EF0]
+			// },
+			// {
+			// 	"HI": [0x138020],
+			// 	"LO": [0x138024]
+			// },
+			// {
+			// 	"HI": [0x138034],
+			// 	"LO": [0x138038]
+			// },
+			{
+				"HI": [0x13CF34],
+				"LO": [0x13CF44]
+			},
+			{
+				"HI": [0x1402A0],
+				"LO": [0x1402A4]
+			},
+			{
+				"HI": [0x1539AC],
+				"LO": [0x1539BC]
+			},
+			{
+				"HI": [0x1539B0],
+				"LO": [0x1539C0]
+			},
+			{
+				"HI": [0x1539B4],
+				"LO": [0x1539C4]
+			},
+			{
+				"HI": [0x15398C],
+				"LO": [0x15399C]
+			},
+			{
+				"HI": [0x153990],
+				"LO": [0x1539A0]
+			},
+			{
+				"HI": [0x153994],
+				"LO": [0x1539A8]
+			},
+			{
+				"HI": [0x153A0C],
+				"LO": [0x153A1C]
+			},
+			{
+				"HI": [0x153A10],
+				"LO": [0x153A20]
+			},
+			{
+				"HI": [0x153A14],
+				"LO": [0x153A24]
+			},
+			{
+				"HI": [0x1539EC],
+				"LO": [0x1539FC]
+			},
+			{
+				"HI": [0x1539F0],
+				"LO": [0x153A00]
+			},
+			{
+				"HI": [0x1539F4],
+				"LO": [0x153A08]
+			},
+			{
+				"HI": [0x153A6C],
+				"LO": [0x153A7C]
+			},
+			{
+				"HI": [0x153A70],
+				"LO": [0x153A80]
+			},
+			{
+				"HI": [0x153A74],
+				"LO": [0x153A84]
+			},
+			{
+				"HI": [0x153A4C],
+				"LO": [0x153A5C]
+			},
+			{
+				"HI": [0x153A50],
+				"LO": [0x153A60]
+			},
+			{
+				"HI": [0x153A54],
+				"LO": [0x153A68]
+			},
+			{
+				"HI": [0x153ACC],
+				"LO": [0x153ADC]
+			},
+			{
+				"HI": [0x153AD0],
+				"LO": [0x153AE0]
+			},
+			{
+				"HI": [0x153AD4],
+				"LO": [0x153AE4]
+			},
+			{
+				"HI": [0x153AAC],
+				"LO": [0x153ABC]
+			},
+			{
+				"HI": [0x153AB0],
+				"LO": [0x153AC0]
+			},
+			{
+				"HI": [0x153AB4],
+				"LO": [0x153AC8]
+			},
+			{
+				"HI": [0x153B28],
+				"LO": [0x153B38]
+			},
+			{
+				"HI": [0x153B2C],
+				"LO": [0x153B3C]
+			},
+			{
+				"HI": [0x153B30],
+				"LO": [0x153B40]
+			},
+			{
+				"HI": [0x153B08],
+				"LO": [0x153B18]
+			},
+			{
+				"HI": [0x153B0C],
+				"LO": [0x153B1C]
+			},
+			{
+				"HI": [0x153B10],
+				"LO": [0x153B24]
+			},
+			{
+				"HI": [0x153B88],
+				"LO": [0x153B98]
+			},
+			{
+				"HI": [0x153B8C],
+				"LO": [0x153B9C]
+			},
+			{
+				"HI": [0x153B90],
+				"LO": [0x153BA0]
+			},
+			{
+				"HI": [0x153B68],
+				"LO": [0x153B78]
+			},
+			{
+				"HI": [0x153B6C],
+				"LO": [0x153B7C]
+			},
+			{
+				"HI": [0x153B70],
+				"LO": [0x153B84]
+			},
+
+		]
+	},
+	{
+		"file_path": "./DAT/PAK3/11181.pak3",
+		"is_pak": true,
+		"pak_type": 3,
+		"files": [
+			{
+				"file": 5,
+				"friendly_name": "Triangle Menu",
+				"base_offset": 0,
+				"safe_areas": [
+					[0x834, 0xFFFFFFFF]
+				],
+				"sections": [
+					{
+						"section": "Triangle Menu",
+						"pointers_start": 8,
+						"pointers_end": 2100,
+						"style": "P"
+					}
+				],
+				"embedded": []
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/PAK3/00023.pak3",
+		"is_pak": true,
+		"pak_type": 3,
+		"files": [
+			{
+				"file": 0,
+				"friendly_name": "Mini Game 1",
+				"base_offset": 0,
+				"safe_areas": [
+					[0x3954, 0xFFFFFFFF]
+				],
+				"sections": [
+					{
+						"section": "Panic Mini Game 1",
+						"pointers_start": 6268,
+						"pointers_end": 7200,
+						"style": "P28"
+					}
+				],
+				"embedded": []
+			},
+			{
+				"file": 2,
+				"friendly_name": "Mini Game 2",
+				"base_offset": 0,
+				"safe_areas": [
+					[0x16C, 0xFFFFFFFF]
+				],
+				"sections": [
+					{
+						"section": "Panic Mini Game 2",
+						"pointers_start": 8,
+						"pointers_end": 364,
+						"style": "P"
+					}
+				],
+				"embedded": []
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/PAK3/00013.pak3",
+		"is_pak": true,
+		"pak_type": 3,
+		"files": [
+			{
+				"file": 0,
+				"friendly_name": "Battle Overlay",
+				"base_offset": 0x2EF680,
+				"safe_areas": [
+					[0x347560,0x349520],
+					[0x3495F8,0x349618],
+					[0x349638,0x349680],
+					[0x3496A0,0x3496E8],
+					[0x3496F0,0x3497B8],
+					[0x3497D0,0x349A40],
+					[0x349B70,0x34B480],
+					[0x34B610,0x34B620],
+				],
+				"sections": [
+					{
+						"section": "Battle 1 (btlstr 1)",
+						"pointers_start": 352272,
+						"pointers_end": 353084,
+						"style": "P"
+					},
+					{
+						"section": "Battle 2 (infoData)",
+						"pointers_start": 353096,
+						"pointers_end": 353104,
+						"style": "P4"
+					},
+					{
+						"section": "Battle 3 (battleevent_str)",
+						"pointers_start": 353216,
+						"pointers_end": 354600,
+						"style": "PP8"
+					},
+					{
+						"section": "Battle 4 (padStr)",
+						"pointers_start": 354632,
+						"pointers_end": 354660,
+						"style": "P"
+					},
+					{
+						"section": "Battle 5 (menuStr)",
+						"pointers_start": 354704,
+						"pointers_end": 354736,
+						"style": "P"
+					},
+					{
+						"section": "Battle 6 (overStr)",
+						"pointers_start": 354880,
+						"pointers_end": 354904,
+						"style": "P"
+					},
+					{
+						"section": "Battle 7 (enemySkillStr)",
+						"pointers_start": 354944,
+						"pointers_end": 355060,
+						"style": "P"
+					},
+					{
+						"section": "Battle 8 (btlstr 2)",
+						"pointers_start": 355068,
+						"pointers_end": 356780,
+						"style": "P"
+					},
+					{
+						"section": "Battle 9 (escapegage)",
+						"pointers_start": 368952,
+						"pointers_end": 368964,
+						"style": "P"
+					}
+				],
+				"embedded": [
+					{
+						"HI": [0x300434],
+						"LO": [0x30043C],
+					},
+					{
+						"HI": [0x300520],
+						"LO": [0x300528],
+					},
+					{
+						"HI": [0x300268],
+						"LO": [0x300270],
+					},
+					{
+						"HI": [0x30028C],
+						"LO": [0x300290],
+					},
+					{
+						"HI": [0x300338],
+						"LO": [0x30033C],
+					},
+					{
+						"HI": [0x30039C],
+						"LO": [0x3003D8],
+					},
+					{
+						"HI": [0x300718],
+						"LO": [0x300734],
+					},
+					{
+						"HI": [0x302448],
+						"LO": [0x302450],
+					},
+					{
+						"HI": [0x3040F4],
+						"LO": [0x3040F8],
+					},
+					{
+						"HI": [0x303C98],
+						"LO": [0x303CA0],
+					},
+					{
+						"HI": [0x304394],
+						"LO": [0x3043A4],
+					},
+					{
+						"HI": [0x303F80],
+						"LO": [0x303F8C],
+					},
+					{
+						"HI": [0x304114],
+						"LO": [0x30411C],
+					},
+					{
+						"HI": [0x304C70],
+						"LO": [0x304D7C],
+					},
+					{
+						"HI": [0x304E30],
+						"LO": [0x304E3C],
+					},
+					{
+						"HI": [0x30561C],
+						"LO": [0x305624],
+					},
+					{
+						"HI": [0x307660],
+						"LO": [0x307670],
+					},
+					{
+						"HI": [0x32C7AC],
+						"LO": [0x32C7B4],
+					},
+					{
+						"HI": [0x32A294],
+						"LO": [0x32A2A8],
+					},
+					{
+						"HI": [0x32A300],
+						"LO": [0x32A314],
+					},
+					{
+						"HI": [0x31225C],
+						"LO": [0x312264],
+					},
+				]
+			},
+			{
+				"file": 2,
+				"friendly_name": "3dfield Overlay",
+				"base_offset": 0x2EF680,
+				"safe_areas": [
+					[0x31E0F0,0x31E26C],
+					[0x31E6A8,0x31E710],
+					[0x31E750,0x31E770],
+					[0x31E800,0x31E850],
+					[0x31EAC0,0x31EB00],
+				],
+				"sections": [
+					{
+						"section": "3dfield 1 (fld_poly_name)",
+						"pointers_start": 0x2E250,
+						"pointers_end": 0x2E28C,
+						"style": "P"
+					},
+				],
+				"embedded": [
+					{
+						"HI": [0x2F6D7C,0x2F70E4,0x2F744C],
+						"LO": [0x2F6D84,0x2F70EC,0x2F7454],
+					},
+					{
+						"HI": [0x2F6D88,0x2F70F0,0x2F7458],
+						"LO": [0x2F6D90,0x2F70F8,0x2F7460],
+					},
+					{
+						"HI": [0x2F6D94,0x2F71FC,0x2F7464],
+						"LO": [0x2F6D9C,0x2F7104,0x2F746C],
+					},
+					{
+						"HI": [0x2F6DA0,0x2F7108,0x2F7470],
+						"LO": [0x2F6DA8,0x2F7110,0x2F7478],
+					},
+					{
+						"HI": [0x2F6DAC,0x2F7114,0x2F747C],
+						"LO": [0x2F6DB4,0x2F711C,0x2F7484],
+					},
+					{
+						"HI": [0x2F6DB8,0x2F7120,0x2F7488],
+						"LO": [0x2F6DC0,0x2F7128,0x2F7490],
+					},
+					{
+						"HI": [0x2F6DC4,0x2F712C,0x2F7494],
+						"LO": [0x2F6DCC,0x2F7134,0x2F749C],
+					},
+					{
+						"HI": [0x2F6DD0,0x2F7138,0x2F74A0],
+						"LO": [0x2F6DD8,0x2F7140,0x2F74A8],
+					},
+					{
+						"HI": [0x2F6DDC,0x2F7144,0x2F74AC],
+						"LO": [0x2F6DE4,0x2F714C,0x2F74B4],
+					},
+					{
+						"HI": [0x2F6DE8,0x2F7150,0x2F74B8],
+						"LO": [0x2F6DF0,0x2F7158,0x2F74C0],
+					},
+					{
+						"HI": [0x2F6DF4,0x2F715C,0x2F74C4],
+						"LO": [0x2F6DFC,0x2F7164,0x2F74CC],
+					},
+					{
+						"HI": [0x2F6E00,0x2F7168,0x2F74D0],
+						"LO": [0x2F6E08,0x2F7170,0x2F74D8],
+					},
+					{
+						"HI": [0x2F6E0C,0x2F7174,0x2F74DC],
+						"LO": [0x2F6E14,0x2F717C,0x2F74E4],
+					},
+					{
+						"HI": [0x2F6E18,0x2F7180,0x2F74E8],
+						"LO": [0x2F6E1C,0x2F7184,0x2F74F0],
+					},
+					{
+						"HI": [0x302118],
+						"LO": [0x302120],
+					},
+					{
+						"HI": [0x302378],
+						"LO": [0x302380],
+					},
+					{
+						"HI": [0x3025C8],
+						"LO": [0x3025D4],
+					},
+					{
+						"HI": [0x3026EC],
+						"LO": [0x3026F4],
+					},
+					{
+						"HI": [0x3054C8],
+						"LO": [0x3054D0],
+					},
+					{
+						"HI": [0x30B088],
+						"LO": [0x30B090],
+					},
+					{
+						"HI": [0x30B1B0,0x30B2E4],
+						"LO": [0x30B1B8,0x30B2EC],
+					},
+					{
+						"HI": [0x30B1CC,0x30B300],
+						"LO": [0x30B1D4,0x30B308],
+					},
+					{
+						"HI": [0x317FC0],
+						"LO": [0x317FD0],
+					}
+				]
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/OVL/11217.ovl",
+		"friendly_name": "mnu_monster",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x2DF470,0x02EBE00],
+		],
+		"sections": [
+			{
+				"section": "enemycomment_mem",
+				"pointers_start": 19536,
+				"pointers_end": 20336,
+				"style": "P"
+			},
+			{
+				"section": "btlbookstr",
+				"pointers_start": 20536,
+				"pointers_end": 20624,
+				"style": "P"
+			},
+			{
+				"section": "btlbook_str",
+				"pointers_start": 20624,
+				"pointers_end": 23544,
+				"style": "PPPP4"
+			},
+			{
+				"section": "btlbookword_info",
+				"pointers_start": 23544,
+				"pointers_end": 23648,
+				"style": "P4"
+			},
+			{
+				"section": "btlbookhistory_index",
+				"pointers_start": 23648,
+				"pointers_end": 23776,
+				"style": "P4"
+			},
+			{
+				"section": "btlbookhistory_info",
+				"pointers_start": 23776,
+				"pointers_end": 24752,
+				"style": "P4"
+			}
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/OVL/11230.ovl",
+		"friendly_name": "mnu_grade",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02DA9E0,0x02DB2E0],
+			[0x02DB510,0x02DB600],
+		],
+		"sections": [
+			{
+				"section": "gradeshop_info",
+				"pointers_start": 0x1DC0,
+				"pointers_end": 0x1F20,
+				"style": "PP8"
+			},
+			{
+				"section": "gradeshop_str",
+				"pointers_start": 0x1F20,
+				"pointers_end": 0x1F34,
+				"style": "P"
+			},
+			{
+				"section": "gradeshop_str_old",
+				"pointers_start": 0x1F88,
+				"pointers_end": 0x1F94,
+				"style": "P"
+			}
+		],
+		"embedded": [
+			{
+				"HI": [0x2D99EC, 0x2D9ADC],
+				"LO": [0x2D99F4, 0x2D9AEC],
+			},
+			{
+				"HI": [0x2D9A10],
+				"LO": [0x2D9A18],
+			},
+			{
+				"HI": [0x2D9AF8],
+				"LO": [0x2D9B00],
+			},
+			{
+				"HI": [0x2D9BC0],
+				"LO": [0x2D9BD0],
+			},
+			{
+				"HI": [0x2D9CD4],
+				"LO": [0x2D9CDC],
+			},
+			{
+				"HI": [0x2D9D24],
+				"LO": [0x2D9D38],
+			},
+			{
+				"HI": [0x2D9D54],
+				"LO": [0x2D9D5C],
+			},
+		]
+	},
+	{
+		"file_path": "./DAT/OVL/11215.ovl",
+		"friendly_name": "mnu_item",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02DFB20,0x02DFCB0],
+		],
+		"sections": [
+			{
+				"section": "ginnarmemo",
+				"pointers_start": 0x71A4,
+				"pointers_end": 0x71A8,
+				"style": "P"
+			}
+		],
+		"embedded": [
+			{
+				"HI": [0x2d960c, 0x2d97a4, 0x2d95f0, 0x2db6d0, 0x2db750],
+				"LO": [0x2d9614, 0x2d97a8, 0x2d98b4, 0x2db6dc, 0x2db760],
+			},
+			{
+				"HI": [0x2d968c, 0x2d992c],
+				"LO": [0x2d9690, 0x2d9930],
+			},
+			{
+				"HI": [0x2daca4],
+				"LO": [0x2dacac],
+			},
+			{
+				"HI": [0x2DB64C, 0x2db6ec, 0x2db8c0, 0x2dbd88],
+				"LO": [0x2DB65C, 0x2db6f0, 0x2db8d0, 0x2dbd94],
+			},
+			{
+				"HI": [0x2DB944, 0x2DBA5C],
+				"LO": [0x2DB958, 0x2DBA64],
+			},
+			{
+				"HI": [0x2DB98C],
+				"LO": [0x2DB9A8],
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/OVL/11222.ovl",
+		"friendly_name": "mnu_shop",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02E3AF0,0x02E41E0],
+		],
+		"sections": [
+			{
+				"section": "shop menu 1 (unused?)",
+				"pointers_start": 0x8788,
+				"pointers_end": 0xAE08,
+				"style": "P84"
+			}
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/OVL/11228.ovl",
+		"friendly_name": "mnu_world",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02E5670,0x02E5D60],
+		],
+		"sections": [
+			{
+				"section": "shop menu 1",
+				"pointers_start": 0xA098,
+				"pointers_end": 0xC718,
+				"style": "P84"
+			}
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/OVL/11225.ovl",
+		"friendly_name": "mnu_sound",
+		"is_pak": false,
+		"base_offset": 0x2D8900,
+		"safe_areas": [
+			[0x02E5670,0x02E5D60],
+		],
+		"sections": [
+			{
+				"section": "sdmd_bgm_cate_in_name_title",
+				"pointers_start": 0x4068,
+				"pointers_end": 0x40E8,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_field",
+				"pointers_start": 0x40F0,
+				"pointers_end": 0x4230,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_town",
+				"pointers_start": 0x4240,
+				"pointers_end": 0x4740,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_dangeon",
+				"pointers_start": 0x4768,
+				"pointers_end": 0x4A68,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_event",
+				"pointers_start": 0x4A80,
+				"pointers_end": 0x5080,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_battle",
+				"pointers_start": 0x50B0,
+				"pointers_end": 0x5430,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_bgm_cate_in_name_minigame",
+				"pointers_start": 0x5450,
+				"pointers_end": 0x5590,
+				"style": "T64"
+			},
+			{
+				"section": "sdmd_vsce_cate_name",
+				"pointers_start": 0x55E0,
+				"pointers_end": 0x5D00,
+				"style": "T32"
+			},
+			{
+				"section": "sdmd_vcht_cate_name",
+				"pointers_start": 0xE6C0,
+				"pointers_end": 0xEA30,
+				"style": "T16"
+			},
+			{
+				"section": "sdmd_vbtl_cate_name",
+				"pointers_start": 0xFFF8,
+				"pointers_end": 0x101F8,
+				"style": "T16"
+			},
+			{
+				"section": "sdmd_se_cate_name",
+				"pointers_start": 0x112F0,
+				"pointers_end": 0x11320,
+				"style": "T16"
+			},
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/BIN/11190.1.bin",
+		"friendly_name": "Synopsis",
+		"is_pak": false,
+		"base_offset": 0x0,
+		"safe_areas": [
+			[0x0B14,0xFFFFFFFF],
+		],
+		"sections": [
+			{
+				"section": "Synopsis",
+				"pointers_start": 0xC,
+				"pointers_end": 0xB08,
+				"style": "4P"
+			}
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/BIN/11191.3.bin",
+		"friendly_name": "Character Bios",
+		"is_pak": false,
+		"base_offset": 0x0,
+		"safe_areas": [
+			[0x84,0xFFFFFFFF],
+		],
+		"sections": [
+			{
+				"section": "Character Bios",
+				"pointers_start": 0xC,
+				"pointers_end": 0x70,
+				"style": "4P"
+			}
+		],
+		"embedded": []
+	},
+	{
+		"file_path": "./DAT/OVL/00017.ovl",
+		"friendly_name": "Title",
+		"is_pak": false,
+		"base_offset": 0x2EF680,
+		"safe_areas": [
+			[0x02F26C8,0x02F2708],
+		],
+		"sections": [],
+		"embedded": [
+			{
+				"HI": [0x2F1130],
+				"LO": [0x2F113C],
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/OVL/00020.ovl",
+		"friendly_name": "Ending",
+		"is_pak": false,
+		"base_offset": 0x2EF680,
+		"safe_areas": [
+			[0x02F9928,0x02FBB80],
+		],
+		"sections": [
+			{
+				"section": "Credits",
+				"pointers_start": 0x3888,
+				"pointers_end": 0xA2A0,
+				"style": "12P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P8P"
+			}
+		],
+		"embedded": [
+			{
+				"HI": [0x2EFB1C,0x2EFB34],
+				"LO": [0x2EFB20,0x2EFB38],
+			},
+			{
+				"HI": [0x2EFD60],
+				"LO": [0x2EFD64],
+			},
+			{
+				"HI": [0x2F1748],
+				"LO": [0x2F174C],
+			}
+		]
+	}
+]

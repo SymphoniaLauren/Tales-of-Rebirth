@@ -1,0 +1,238 @@
+<SceneText>
+  <FriendlyName>Mocrado Village - Residence</FriendlyName>
+  <Speakers>
+    <Section>Speaker</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText>[VARIABLE]</EnglishText>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>779</PointerOffset>
+      <JapaneseText>&lt;Mao&gt;</JapaneseText>
+      <EnglishText>&lt;Mao&gt;</EnglishText>
+      <Notes/>
+      <Id>0</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>803,852,183,950,974</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText>Notice</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>2452</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText>Select</EnglishText>
+      <Notes/>
+      <Id>2</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>590,527,554</PointerOffset>
+      <JapaneseText/>
+      <EnglishText/>
+      <Notes/>
+      <Id>3</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>627</PointerOffset>
+      <JapaneseText>&lt;Annie&gt;</JapaneseText>
+      <EnglishText>&lt;Annie&gt;</EnglishText>
+      <Notes/>
+      <Id>4</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>667</PointerOffset>
+      <JapaneseText>&lt;Tytree&gt;</JapaneseText>
+      <EnglishText>&lt;Tytree&gt;</EnglishText>
+      <Notes/>
+      <Id>5</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>707</PointerOffset>
+      <JapaneseText>&lt;Hilda&gt;</JapaneseText>
+      <EnglishText>&lt;Hilda&gt;</EnglishText>
+      <Notes/>
+      <Id>6</Id>
+      <Status>Done</Status>
+    </Entry>
+  </Speakers>
+  <Strings>
+    <Section>system</Section>
+    <Entry>
+      <PointerOffset>291</PointerOffset>
+      <JapaneseText>モクラド村</JapaneseText>
+      <EnglishText>Mocrado Village</EnglishText>
+      <Notes/>
+      <Id>1</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>288</PointerOffset>
+      <JapaneseText>モクラド村・民家</JapaneseText>
+      <EnglishText>Mocrado Village - Residence</EnglishText>
+      <Notes/>
+      <Id>2</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s0-0</Section>
+    <Entry>
+      <PointerOffset>782</PointerOffset>
+      <JapaneseText>あっ♪
+おいしそうなものが入ってるヨ！
+ちょっと食べちゃおっと。</JapaneseText>
+      <EnglishText>Ooh! Looks like there's something
+tasty in here! Lemme take a bite.</EnglishText>
+      <Notes/>
+      <SpeakerId>0</SpeakerId>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>806</PointerOffset>
+      <JapaneseText>&lt;Green&gt;『&lt;item:20000011&gt;』を食べました。</JapaneseText>
+      <EnglishText>&lt;Green&gt;Ate "&lt;item:20000011&gt;."</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>4</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>855</PointerOffset>
+      <JapaneseText>&lt;Green&gt;『&lt;item:20000011&gt;』のレシピを入手しました。</JapaneseText>
+      <EnglishText>&lt;Green&gt;Obtained recipe for "&lt;item:20000011&gt;"!</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>5</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>-1</PointerOffset>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText>[VARIABLE]</EnglishText>
+      <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
+      <SpeakerId>1</SpeakerId>
+      <Id>6</Id>
+      <Status>Done</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>953</PointerOffset>
+      <JapaneseText>&lt;Green&gt;料理が入っていました。</JapaneseText>
+      <EnglishText>&lt;Green&gt;There was food in the bag.</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>7</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>977</PointerOffset>
+      <JapaneseText>&lt;Green&gt;……しかし、誰のものかわからないので
+とりあえず、袋を閉じました。</JapaneseText>
+      <EnglishText>&lt;Green&gt;You have no idea who owns
+this so you decided to leave
+it alone for now.</EnglishText>
+      <Notes/>
+      <SpeakerId>1</SpeakerId>
+      <Id>8</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-0</Section>
+    <Entry>
+      <PointerOffset>2455</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
+　はい　
+　いいえ　</JapaneseText>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
+Yes
+No</EnglishText>
+      <Notes/>
+      <SpeakerId>2</SpeakerId>
+      <Id>9</Id>
+      <Status>Editing</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-1</Section>
+    <Entry>
+      <PointerOffset>593</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;『メモ』
+「すみれの花の砂糖漬け」の
+作り方が書いてある。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>10</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>630</PointerOffset>
+      <JapaneseText>今度、作ってみようかな……</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>4</SpeakerId>
+      <Id>11</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>670</PointerOffset>
+      <JapaneseText>料理は好きだけど……
+こういうせんさいなのは
+苦手なんだよなぁ。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>5</SpeakerId>
+      <Id>12</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>710</PointerOffset>
+      <JapaneseText>……私に……
+作れるかしら……？</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>6</SpeakerId>
+      <Id>13</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+  <Strings>
+    <Section>s2-2</Section>
+    <Entry>
+      <PointerOffset>530</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;『丸っこいツボ』
+もともとは
+漬物を漬けるためのツボ。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>14</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>557</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;『ツボの中身』
+モクラドリンゴの花から採った
+ハチミツがたっぷり入っている。
+濃密で、香りもよく、とてもおいしい。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <SpeakerId>3</SpeakerId>
+      <Id>15</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+</SceneText>
