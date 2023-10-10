@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Shrine of Eephon</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -47,10 +48,10 @@
     <Entry>
       <PointerOffset>1181</PointerOffset>
       <JapaneseText>&lt;icon:1F&gt;：スクロール　　&lt;icon:31&gt;：終了</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:1F&gt;Scroll &lt;icon:31&gt;Exit</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -73,11 +74,15 @@ scaffolding to reach the exit.</EnglishText>
       <JapaneseText>&lt;Green&gt;フォルスキューブのバルーンが表示された所で
 フォルスボタン（&lt;icon:32&gt;ボタン）を押すと上や下、
 それ以外はツタを横に伸ばす事ができます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;The Force button (&lt;icon:32&gt;) can be
+pressed where the Force Cube
+bubble appears to extend the
+ivy up, down, or otherwise
+horizontally.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>5893</PointerOffset>
@@ -97,7 +102,8 @@ position of the scaffold also changes.</EnglishText>
       <JapaneseText>&lt;Green&gt;レバーは直接操作しなくても、
 離れた場所から&lt;Tytree&gt;のフォルスで
 操作する事ができます。</JapaneseText>
-      <EnglishText>&lt;Green&gt;The lever can be operated from afar using &lt;Tytree&gt;'s Force.</EnglishText>
+      <EnglishText>&lt;Green&gt;The lever can be operated from
+afar using &lt;Tytree&gt;'s Force.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>7</Id>

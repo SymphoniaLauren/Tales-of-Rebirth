@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Belsas - square</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -513,10 +514,12 @@ sorry!</EnglishText>
       <EnglishText>Please don't get carried away
 with admonishing the Queen,
 everyone.</EnglishText>
-      <Notes/>
+      <Notes>
+Maybe something like:
+"Everyone, please don't be so harsh to the queen!"</Notes>
       <SpeakerId>7</SpeakerId>
       <Id>35</Id>
-      <Status>Proofreading</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>5943</PointerOffset>
@@ -962,10 +965,13 @@ there going to be a thunderstorm?</EnglishText>
       <JapaneseText>本当、わかんない事
 ばっかり……</JapaneseText>
       <EnglishText>I really don't know a lot...</EnglishText>
-      <Notes/>
+      <Notes>deepL says:
+I really don't get it.
+All I know is ......
+marking as problematic just in case.</Notes>
       <SpeakerId>8</SpeakerId>
       <Id>71</Id>
-      <Status>Proofreading</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>3962</PointerOffset>
@@ -1293,7 +1299,7 @@ pirate, but... I wonder...</EnglishText>
 </JapaneseText>
       <EnglishText>I'd prefer it if you refrain from doing 
 any mischief around here... Especially 
-since we're working hard in maintaining 
+since we're working hard to maintain 
 the peace now that Scarabe's gone.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
