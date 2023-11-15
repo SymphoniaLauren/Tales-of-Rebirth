@@ -24,7 +24,7 @@
       <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2452</PointerOffset>
@@ -32,7 +32,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>590,527,554</PointerOffset>
@@ -75,7 +75,7 @@
       <EnglishText>Mocrado Village</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>288</PointerOffset>
@@ -83,7 +83,7 @@
       <EnglishText>Mocrado Village - Residence</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -172,11 +172,13 @@ No</EnglishText>
       <JapaneseText>&lt;speed:0&gt;『メモ』
 「すみれの花の砂糖漬け」の
 作り方が書いてある。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- Memo -
+A note with instructions on how to make
+"Candied Violets".</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>630</PointerOffset>
@@ -216,11 +218,12 @@ No</EnglishText>
       <JapaneseText>&lt;speed:0&gt;『丸っこいツボ』
 もともとは
 漬物を漬けるためのツボ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- Spherical Jar -
+Originally, this jar was used to store pickles.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>557</PointerOffset>
@@ -228,11 +231,14 @@ No</EnglishText>
 モクラドリンゴの花から採った
 ハチミツがたっぷり入っている。
 濃密で、香りもよく、とてもおいしい。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;speed:0&gt;- Contents of the Jar -
+The jar is filled with honey from the flowers
+of Mocrado's apples. The honey is rich in
+flavor, fragrant, and very tasty.</EnglishText>
+      <Notes>I suspect this is a continuation or related to the spherical jar that was originally used to store pickles.</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>
