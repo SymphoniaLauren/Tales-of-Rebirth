@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Babilograd Harbor</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -20,10 +21,10 @@
     <Entry>
       <PointerOffset>1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564</PointerOffset>
       <JapaneseText>セレーナ</JapaneseText>
-      <EnglishText>Serena</EnglishText>
+      <EnglishText>Selena</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1588</PointerOffset>
@@ -31,7 +32,7 @@
       <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1777,3340,3369,4420,183</PointerOffset>
@@ -47,7 +48,7 @@
       <EnglishText>Walto</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1956,2430,2816,2882,3590,4355,402</PointerOffset>
@@ -71,7 +72,7 @@
       <EnglishText>Woman</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2670,3045,3319,4204,4247,4462,4483,129</PointerOffset>
@@ -87,7 +88,7 @@
       <EnglishText>Militsa</EnglishText>
       <Notes/>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1572,1572</PointerOffset>
@@ -95,7 +96,7 @@
       <EnglishText>??????</EnglishText>
       <Notes/>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3357,3357,3357,3357,3357,3357,3357</PointerOffset>
@@ -103,7 +104,7 @@
       <EnglishText>Milhaust</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3919,4399,292</PointerOffset>
@@ -116,10 +117,10 @@
     <Entry>
       <PointerOffset>1307,1307</PointerOffset>
       <JapaneseText>おばあさん</JapaneseText>
-      <EnglishText>Grandma</EnglishText>
+      <EnglishText>Old Woman</EnglishText>
       <Notes/>
       <Id>13</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>437,1078</PointerOffset>
@@ -135,7 +136,7 @@
       <EnglishText>Old Man</EnglishText>
       <Notes/>
       <Id>15</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1103,1103,1103</PointerOffset>
@@ -143,7 +144,7 @@
       <EnglishText>Boy</EnglishText>
       <Notes/>
       <Id>16</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6168</PointerOffset>
@@ -151,7 +152,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>17</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -162,7 +163,7 @@
       <EnglishText>Babilograd Harbor</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>630</PointerOffset>
@@ -170,7 +171,7 @@
       <EnglishText>Babilograd Harbor</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -312,11 +313,13 @@ as treason. Do you take me for a traitor?</EnglishText>
       <VoiceId>1c0000a6</VoiceId>
       <JapaneseText>こんな事をして何になる、ワルトゥ！
 これが国のためになると言うのか!?</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What do you expect to accomplish, Walto?
+Do you mean to say that
+this is for the kingdom, too!?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2135</PointerOffset>
@@ -546,11 +549,12 @@ then I will do the same!</EnglishText>
       <VoiceId>1c0000ba</VoiceId>
       <JapaneseText>戦って下さい！
 お願いします！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please, fight!
+I'm begging you!</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>34</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2652</PointerOffset>
@@ -582,11 +586,14 @@ Let's do it, &lt;Tytree&gt;!</EnglishText>
       <JapaneseText>穏便に話しをつけたかったのですが、
 そうもいかないようですね。
 ……いいでしょう。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I had hoped to talk things over
+amicably with you, but I suppose
+that's not going to happen.
+...Very well, then.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2717</PointerOffset>
@@ -651,7 +658,7 @@ the &lt;Blue&gt;Royal Shield&lt;White&gt;.</EnglishText>
 とでもいうのか？</JapaneseText>
       <EnglishText>Or do you mean to tell me...that
 you've found a place where we
-Halfbloods can be fully accepted?</EnglishText>
+Halfs can be fully accepted?</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>42</Id>
@@ -757,11 +764,11 @@ Walto, is it not?</EnglishText>
       <PointerOffset>3260</PointerOffset>
       <VoiceId>1c0000d4</VoiceId>
       <JapaneseText>将軍……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>G-General...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3322</PointerOffset>
@@ -1020,11 +1027,11 @@ blades never comes. I mean it.</EnglishText>
       <PointerOffset>3826</PointerOffset>
       <VoiceId>1c0000e9</VoiceId>
       <JapaneseText>待て、ミルハウストさんよ!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Milhaust, wait!!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>73</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3848</PointerOffset>
@@ -1077,11 +1084,13 @@ captured by those guys?</EnglishText>
 閉じ込められてたの。
 私たち以外にも、
 大勢の女の子たちがいたわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Yes. We were locked up in that shrine
+on the mountain. There were a lot of 
+other girls there already, too.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>78</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4010</PointerOffset>
@@ -1242,11 +1251,13 @@ The full moon is almost upon us.”</EnglishText>
       <VoiceId>1c0000fc</VoiceId>
       <JapaneseText>月が満ちる……満月の日に
 何かが起こると言うの？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The full moon...
+Is something meant to happen
+on the night of a full moon?</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>92</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4380</PointerOffset>
@@ -1267,7 +1278,7 @@ I don't know a thing...</EnglishText>
 &lt;Blue&gt;ゴルドバの日&lt;White&gt;の夜ですね。</JapaneseText>
       <EnglishText>If I'm not mistaken,
 the next full moon is
-on &lt;Blue&gt;Goldova's Day&lt;White&gt;, isn't it?</EnglishText>
+on &lt;Blue&gt;Goldba's Day&lt;White&gt;, isn't it?</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
       <Id>94</Id>
@@ -1278,7 +1289,7 @@ on &lt;Blue&gt;Goldova's Day&lt;White&gt;, isn't it?</EnglishText>
       <VoiceId>1c0000ff</VoiceId>
       <JapaneseText>&lt;Blue&gt;ゴルドバの日&lt;White&gt;には
 お披露目の儀式があるんだヨ！</JapaneseText>
-      <EnglishText>&lt;Blue&gt;Goldova's Day&lt;White&gt; is the
+      <EnglishText>&lt;Blue&gt;Goldba's Day&lt;White&gt; is the
 coronation ceremony!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
@@ -1326,11 +1337,14 @@ scheming and the ceremony.</EnglishText>
 おれは一緒には帰れない。
 他の娘たちを助けるまでは
 手放しで喜ぶ気にはなれないんだ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sorry sis, but...
+I can't follow you home.
+If I didn't help those other girls,
+I wouldn't be able to live with it.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>99</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4530</PointerOffset>
@@ -1495,11 +1509,12 @@ but the Huma forced me out...</EnglishText>
       <PointerOffset>1289</PointerOffset>
       <JapaneseText>貴様ら……
 ヒューマのおかげで……!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You...!
+This is all because of you Hyuma...!!</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
       <Id>114</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -1509,11 +1524,12 @@ but the Huma forced me out...</EnglishText>
       <JapaneseText>うちの父ちゃん、
 じっとしてろって
 うるさいんだもん……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>My dad told me to stay here.
+He's such a fuddy duddy...</EnglishText>
       <Notes/>
       <SpeakerId>16</SpeakerId>
       <Id>115</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1149</PointerOffset>
@@ -1528,11 +1544,12 @@ but the Huma forced me out...</EnglishText>
       <PointerOffset>1171</PointerOffset>
       <JapaneseText>迷子になったわけじゃ
 ないからねッ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It's not like I'm gonna 
+wander off and get lost!</EnglishText>
       <Notes/>
       <SpeakerId>16</SpeakerId>
       <Id>117</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -1561,11 +1578,16 @@ No</EnglishText>
 見える、最高の展望台。
 これを目当てに宿に来る客もいる。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- The Azure Beast's Bench -
+On a clear day, one can see clearly
+from Callegea Castle all the way
+to Beast King's Mountain from here!
+Many of our guests come just for the view!
+</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>119</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

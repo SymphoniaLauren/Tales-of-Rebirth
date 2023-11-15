@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Babilograd Harbor - Inn - Grocery Store</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -12,10 +13,10 @@
     <Entry>
       <PointerOffset>4366,4366,4366,4366,4366,4366,4366,4366,4366,4366,4366,4366,4366,4366,4366</PointerOffset>
       <JapaneseText>食材屋のおかみ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grocer Lady</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1364</PointerOffset>
@@ -79,7 +80,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4093,4093,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355,2355</PointerOffset>
@@ -95,7 +96,7 @@
       <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3294,3294,3294,3294,3294,3294</PointerOffset>
@@ -103,7 +104,7 @@
       <EnglishText>Grocer</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -114,7 +115,7 @@
       <EnglishText>Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1846</PointerOffset>
@@ -122,15 +123,15 @@
       <EnglishText>Babilograd Harbor</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1843</PointerOffset>
       <JapaneseText>バビログラード港・宿屋・食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Babilograd Harbor - Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -140,11 +141,13 @@
       <JapaneseText>街の人も、旅のお客さんもみんな、
 ガジュマだヒューマだ言って、
 ケンカばっかり……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Doesn't matter if they're citizens
+or tourists. All Huma and Gajimu do
+is argue and fight with each other.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3661</PointerOffset>
@@ -152,77 +155,87 @@
 だから、そういう人には、蒼獣様を
 お参りしなさいって勧めてるのよ。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>They clearly lack faith in the Azure Beast.
+People like that need to pray at the shrine!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3714</PointerOffset>
       <JapaneseText>なんか商売どころじゃないけど
 こっちは生活かかってるし、
 そうも言ってらんないのよね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Now's not a great time
+to be open, but it's a living!</EnglishText>
+      <Notes>"Now's a bad time to do business, but this is my livelihood, so I won't say that"</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3736</PointerOffset>
       <JapaneseText>街の上からヒューマに
 追い出されたらしくって、
 みんな港に来て、もう大変よ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It seems the Huma from town kicked
+everyone else out. Now everyone's
+here at the harbor. It's rough...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3761</PointerOffset>
       <JapaneseText>蒼獣様をめぐって争ったんじゃ、
 蒼獣様にしかられちゃうわ。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we quarrel over the Azure Beast,
+we will surely face it's wrath...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3783</PointerOffset>
       <JapaneseText>普段から、信心が足りないのよ。
 毎日、蒼獣様に参拝するよう、
 みんなに言ってるのよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I know I could always have more faith.
+That's why I go pray at the shrine
+every single day!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3833</PointerOffset>
       <JapaneseText>私、ここしばらくの出来事を
 見て、確信したわ……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>After seeing what's happened
+here, I'm convinced...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3855</PointerOffset>
       <JapaneseText>蒼獣様を信じてがんばれば、
 必ずいい事があるって……
 あなたたちも信じなさい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>As long as we believe in the Azure Beast,
+good things are sure to come.
+You all should believe, too.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3894</PointerOffset>
@@ -230,22 +243,25 @@
 なってるけど、私は心配してないわ。
 きっと蒼獣様が助けてくださる……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>That quake had a lot of people worried, 
+but not me! I know for sure the
+Azure Beast will protect us...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3944</PointerOffset>
       <JapaneseText>ラジルダは沈んだそうだけど……
 この街は絶対に大丈夫よ。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Razilda may have fallen, but I know 
+this town will be just fine!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3966</PointerOffset>
@@ -253,22 +269,25 @@
 昔からこの街には、不思議な力が
 満ちているって言われてるもの！
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is the home of the Azure Beast,
+after all! It's said that this town has been
+filled with mysterious power since old times!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4016</PointerOffset>
       <JapaneseText>こんな時に商売してられるのも、
 蒼獣様のおかげ……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>It is thanks to the Azure Beast that
+I can do business at a time like this...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4038</PointerOffset>
