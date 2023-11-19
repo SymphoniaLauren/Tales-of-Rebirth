@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Petnadjanka - somewhere in inn</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -15,7 +16,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>468,432,396</PointerOffset>
@@ -34,7 +35,7 @@
       <EnglishText>Inn</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>166</PointerOffset>
@@ -42,7 +43,7 @@
       <EnglishText>Petnadjanka</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>163</PointerOffset>
@@ -50,7 +51,7 @@
       <EnglishText>Petnadjanka Inn</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -66,7 +67,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -78,7 +79,7 @@ No</EnglishText>
 ・ロールパン
 ・シャークステーキ
 ・アケビのデザート</JapaneseText>
-      <EnglishText>&lt;speed:0&gt;"A Menu for Tonight's Dinner"
+      <EnglishText>&lt;speed:0&gt;- A Menu for Tonight's Dinner -
 - Mussels and Scallop Cream Stew
 - Bread Rolls
 - Shark Steak
@@ -86,7 +87,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -100,16 +101,16 @@ No</EnglishText>
 　緑化にご協力を！
 　　ペトナジャンカ環境委員会
 </JapaneseText>
-      <EnglishText>&lt;speed:0&gt;"A Notice for the People of Petnadjanka"
+      <EnglishText>&lt;speed:0&gt;- A Notice for the People of Petnadjanka -
  - Let's reduce the smoke rising from
     the sky! A clear sky reflects a clear mind!
  - Please help us grow the flowers in
     the street and make the plants smile!
                Petnadjanka Environmental Association</EnglishText>
-      <Notes/>
+      <Notes>what's with the spacing on the last line?</Notes>
       <SpeakerId>1</SpeakerId>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>Problematic</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -119,12 +120,12 @@ No</EnglishText>
       <JapaneseText>&lt;speed:0&gt;『お知らせ』
 改装中につき、立ち入り禁止！
 </JapaneseText>
-      <EnglishText>&lt;speed:0&gt;"Notice"
+      <EnglishText>&lt;speed:0&gt;- Notice -
 Room closed due to renovations!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
 </SceneText>

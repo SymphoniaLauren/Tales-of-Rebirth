@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Tel'alla Hostel</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -47,7 +48,7 @@
       <EnglishText>???</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2443,2538,2593,2727,2795,2903,3240,3302,951</PointerOffset>
@@ -71,7 +72,7 @@
       <EnglishText>Traveler</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1078,4921</PointerOffset>
@@ -79,7 +80,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1131,1268</PointerOffset>
@@ -87,7 +88,7 @@
       <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>921,846,810</PointerOffset>
@@ -103,26 +104,26 @@
     <Entry>
       <PointerOffset>451</PointerOffset>
       <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
-      <EnglishText>Tel'alla Highroad Hostel</EnglishText>
+      <EnglishText>Tel'alla Hostel</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>448</PointerOffset>
       <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
-      <EnglishText>Tel'alla Highroad Hostel</EnglishText>
+      <EnglishText>Tel'alla Hostel</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>613</PointerOffset>
       <JapaneseText>テルアラ街道沿いの小屋</JapaneseText>
-      <EnglishText>Tel'alla Highroad Hostel</EnglishText>
+      <EnglishText>Tel'alla Hostel</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -134,11 +135,11 @@
 使われたような跡は、
 あんまりないね。</JapaneseText>
       <EnglishText>Hmm... There's no sign that
-this cabin was used recently.</EnglishText>
+this hostel was used recently.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1863</PointerOffset>
@@ -150,17 +151,17 @@ without stopping here.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2032</PointerOffset>
       <VoiceId>1600002d</VoiceId>
       <JapaneseText>気をつけろ。</JapaneseText>
-      <EnglishText>Stay alert.</EnglishText>
+      <EnglishText>Stay on your guard.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2137</PointerOffset>
@@ -169,7 +170,7 @@ without stopping here.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2177</PointerOffset>
@@ -177,12 +178,12 @@ without stopping here.</EnglishText>
       <JapaneseText>た、助けて……
 恐ろしい奴らに
 追われてるの……</JapaneseText>
-      <EnglishText>H-Help me! I'm being chased by
-horrible people...</EnglishText>
+      <EnglishText>H-Help me! I'm being chased
+by horrible people...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2217</PointerOffset>
@@ -192,19 +193,18 @@ horrible people...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2261</PointerOffset>
       <VoiceId>16000030</VoiceId>
       <JapaneseText>恐ろしい奴ら？
 詳しく話してくれ。</JapaneseText>
-      <EnglishText>Horrible people? Tell us what
-happened.</EnglishText>
+      <EnglishText>Horrible people? Tell us what happened.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2298</PointerOffset>
@@ -213,13 +213,13 @@ happened.</EnglishText>
 サニイタウンで捕まって、
 どこかへ連れていかれる途中、
 逃げ出して来たの……</JapaneseText>
-      <EnglishText>My name is...&lt;Hilda&gt;. I was
-abducted in Sunnytown, but I managed to
+      <EnglishText>My name is...&lt;Hilda&gt;. I was abducted
+in Sunnytown, but I managed to
 escape from my kidnappers...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2409</PointerOffset>
@@ -229,12 +229,12 @@ escape from my kidnappers...</EnglishText>
 キミのお母さんに会ったよ！
 すごく心配してた。</JapaneseText>
       <EnglishText>You're &lt;Hilda&gt;!? We met your
-mom in Sunnytown! She's really
-worried about you.</EnglishText>
+mom in Sunnytown! She's
+really worried about you.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>12</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2446</PointerOffset>
@@ -244,7 +244,7 @@ worried about you.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>13</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2486</PointerOffset>
@@ -256,7 +256,7 @@ her that we'd rescue you.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>14</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2541</PointerOffset>
@@ -265,26 +265,26 @@ her that we'd rescue you.</EnglishText>
 たくさんの娘が捕まってたわ……
 とても監視の目が厳しくて……
 ようやく私ひとりだけ逃げ出せたの……</JapaneseText>
-      <EnglishText>But... There were many other
-girls besides me who were kidnapped.
+      <EnglishText>But... There were many other girls
+besides me who were kidnapped.
 They kept a close eye on all of
 us... Only I was able to escape...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>15</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2596</PointerOffset>
       <VoiceId>16000036</VoiceId>
       <JapaneseText>……あの娘の……
 クレアのおかげで……</JapaneseText>
-      <EnglishText>It was all thanks to her... A
-girl named Claire...</EnglishText>
+      <EnglishText>It was all thanks to her...
+A girl named Claire...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>16</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2699</PointerOffset>
@@ -295,7 +295,7 @@ girl named Claire...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>17</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2730</PointerOffset>
@@ -307,7 +307,7 @@ not have been able to escape.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>18</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2758</PointerOffset>
@@ -315,23 +315,22 @@ not have been able to escape.</EnglishText>
       <JapaneseText>そこに、セレーナって人は
 いなかったか？</JapaneseText>
       <EnglishText>Say, was there a girl called
-Selena there too?</EnglishText>
+Selena there, too?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>19</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2798</PointerOffset>
       <VoiceId>1600003a</VoiceId>
       <JapaneseText>……いたわ。
 セレーナさんも手伝ってくれた。</JapaneseText>
-      <EnglishText>...Yes. Selena helped me as
-well.</EnglishText>
+      <EnglishText>...Yes. Selena helped me as well.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>20</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2828</PointerOffset>
@@ -341,18 +340,18 @@ well.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>21</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2868</PointerOffset>
       <VoiceId>1600003c</VoiceId>
       <JapaneseText>サレたちは今、どこに？</JapaneseText>
-      <EnglishText>Do you know where Saleh and his
-soldiers are?</EnglishText>
+      <EnglishText>Do you know where Saleh
+and his soldiers are?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>22</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2906</PointerOffset>
@@ -366,7 +365,7 @@ Kurodadaku Desert, but...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>23</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2935</PointerOffset>
@@ -376,19 +375,19 @@ Kurodadaku Desert, but...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>24</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3088</PointerOffset>
       <VoiceId>1600003f</VoiceId>
       <JapaneseText>フォルス反応だヨ!!
 しかも強い！</JapaneseText>
-      <EnglishText>I'm sensing a Force! It's super
-powerful!</EnglishText>
+      <EnglishText>I'm sensing a Force!
+It's super powerful!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>25</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3243</PointerOffset>
@@ -401,7 +400,7 @@ underlings are after me!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>26</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3305</PointerOffset>
@@ -410,12 +409,12 @@ underlings are after me!</EnglishText>
 あわされるかも……
 お願い！　助けて……！</JapaneseText>
       <EnglishText>If he gets his hands on me,
-he'll make me pay for getting away...
-Please! Help me!</EnglishText>
+he'll make me pay for getting
+away... Please! Help me!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>27</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3327</PointerOffset>
@@ -426,7 +425,7 @@ Please! Help me!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>28</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3371</PointerOffset>
@@ -436,7 +435,7 @@ Please! Help me!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>29</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -446,42 +445,50 @@ Please! Help me!</EnglishText>
       <JapaneseText>私はこの国の過去を知り……
 未来へつなぐ事を生業とする
 歴史学者を目指して勉強中です。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'd like to know more about this
+country's ancient history... I'm 
+studying to become a historian
+who will connect the past with
+the future.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>30</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1462</PointerOffset>
       <JapaneseText>ゴホッ！　ゴホ……
 ……よい歴史書を求めて、
 カレギア中を旅しているのですが、</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Cough! Cough... I'm travelling
+Callegea in search of a good
+history book.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>31</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1484</PointerOffset>
       <JapaneseText>体調を崩してしまったので
 ここで静養中なのです……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But I'm resting here
+because I fell ill...</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>32</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1058</PointerOffset>
       <JapaneseText>私にその本を……ゴホッ！
 貸して……頂けるのですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Would you be able... Cough!
+...to lend me that book?</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>33</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1081</PointerOffset>
@@ -497,105 +504,119 @@ No</EnglishText>
     <Entry>
       <PointerOffset>1134</PointerOffset>
       <JapaneseText>&lt;Green&gt;『歴史書』を貸し出しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Lended the History Book.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>35</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1156</PointerOffset>
       <JapaneseText>ありがとうございます……ゴホッ！
 これを励みに頑張ります。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Thank you very much... Cough!
+I'll do my best to read this.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>36</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1197</PointerOffset>
       <JapaneseText>ゴホ……何もしないで、
 ただ休んでいるというのは
 つらいものですね……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Cough... It's awful not having
+anything to do when you're
+resting.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1247</PointerOffset>
       <JapaneseText>この歴史書はとても参考に
 なりました。
 ありがとうございます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The history book was
+very informative.
+Thank you very much.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>38</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1271</PointerOffset>
       <JapaneseText>&lt;Green&gt;『歴史書』を回収しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Received the History Book.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1293</PointerOffset>
       <JapaneseText>体調も回復したので、
 新たな知識を求めて
 旅立ちたいと思います。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I've recovered now, so I'd like
+to begin another journey in
+pursuit of further knowledge.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1323</PointerOffset>
       <JapaneseText>体調が悪いせいか、内容がなかなか
 頭に入ってきません……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Maybe it's because I'm sick, but
+I can't really wrap my head around
+what I'm reading...</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1345</PointerOffset>
       <JapaneseText>すみませんが、もう少し時間を
 頂けないでしょうか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>My apologies, but could I have
+a little more time before I have
+to return the book?</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1378</PointerOffset>
       <JapaneseText>あなたのおかげで
 新たなる学習意欲が
 わいてきました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I have a renewed interest in
+learning thanks to you.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1512</PointerOffset>
       <JapaneseText>ゴホッ！　ゴホ……
 うるさくしてすみません。
 体調が優れないもので……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Cough! Cough... Sorry I'm
+coughing so loudly. I've
+gotten sick...</EnglishText>
+      <Notes>the real birus is the corona birus</Notes>
       <SpeakerId>7</SpeakerId>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -605,11 +626,13 @@ No</EnglishText>
       <JapaneseText>お願い……助けて！
 私、お母さんのところへ
 帰りたい……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please, save me! I
+want to go back to
+my mother...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -625,7 +648,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>46</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -635,11 +658,13 @@ No</EnglishText>
       <JapaneseText>&lt;speed:0&gt;『箱』
 空っぽ。
 何ひとつ入っていない。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- Box -
+It's empty. There's not
+a single thing inside.</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -650,20 +675,23 @@ No</EnglishText>
 ハチミツのようなものが
 入っていた形跡があるが、
 今は空っぽ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- Pots -
+It looks like there was maybe
+honey in them at some point,
+but right now they are empty.</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>885</PointerOffset>
       <JapaneseText>お腹すいたよー。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm hungry~!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -676,11 +704,14 @@ No</EnglishText>
 サニイタウンや砂漠に関する
 詳しい情報が書かれている。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- Tel'alla Highway Guidebook -
+A book that exists to guide travellers
+staying at the hostel. It has detailed
+information of Sunnytown and the desert.</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
 </SceneText>

@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Forest Labyrinth</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -15,7 +16,7 @@
       <EnglishText>Traveler</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>720,2688</PointerOffset>
@@ -23,7 +24,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>773,970</PointerOffset>
@@ -31,7 +32,7 @@
       <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -42,7 +43,7 @@
       <EnglishText>Forest Labyrinth</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>161</PointerOffset>
@@ -50,7 +51,7 @@
       <EnglishText>Forest Labyrinth</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -60,53 +61,61 @@
       <JapaneseText>やぁ、また会いましたね。
 この間、テルアラ街道の小屋で
 歴史書をお借りした者です。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Hey, we meet again. I'm the one you lent a 
+history book to back at the hostel on the road
+to Teluara the other day.</EnglishText>
+      <Notes>テルアラ = Tel Alla? Teluara?</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1217</PointerOffset>
       <JapaneseText>この間はありがとう。
 おかげですっかり
 元気になりましたよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Thank you for your help. Thanks to you,
+I completely recharged my batteries.</EnglishText>
+      <Notes>figuratively speaking</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1239</PointerOffset>
       <JapaneseText>あの歴史書に書かれていた
 迷いの森のことが気になって
 きてみたのですが、準備不足でした。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Something in the book about the Forest 
+Labyrinth caught my notice and curiosity got 
+the better of me.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1261</PointerOffset>
       <JapaneseText>以前ここに住んでいた人の
 伝記でもあれば、もっと細かいことが
 わかって助かるんですけど……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It would have been helpful if there were
+a biography of the people who used to live 
+here. I might have learned more specific 
+details.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>700</PointerOffset>
       <JapaneseText>まさか伝記も貸してくれるのですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Wait, you got one? Can I see it for a sec?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>723</PointerOffset>
@@ -117,150 +126,165 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>776</PointerOffset>
       <JapaneseText>&lt;Green&gt;『伝記』を貸し出しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Biography handed over.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>798</PointerOffset>
       <JapaneseText>おお！
 一度ならず、二度までも……
 本当にありがとうございます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Oh, thank you so much! Not just once, but 
+you've shown me your kindness twice now.
+I really appreciate it.</EnglishText>
+      <Notes>if you answer yes i believe</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>833</PointerOffset>
       <JapaneseText>いや、催促したわけではないので、
 気にしないでください。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Ah, I didn't mean to press you, sorry. </EnglishText>
+      <Notes>this is if you answer no i believe</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>883</PointerOffset>
       <JapaneseText>詳細はわかりませんが
 大昔にあった争いが原因で、</JapaneseText>
-      <EnglishText/>
+      <EnglishText>So, it doesn't provide all the specifics, but...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>905</PointerOffset>
       <JapaneseText>迷いの森が人々の生活の場に
 なった時期があったようです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...it suggests that a conflict from long ago 
+led people to seek refuge and settle in 
+this forest.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>927</PointerOffset>
       <JapaneseText>争いが終わると、その人たちは
 ミナールやペトナジャンカに
 移り住んだようですね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>When the conflict ended, they
+moved to Minal and Petnadjanka.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>949</PointerOffset>
       <JapaneseText>この森は侵入者を防ぐために
 迷いやすく手を加えられたようです。
 またひとつ勉強になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It appears the forest's design was changed 
+to make it intentionally confusing, 
+possibly to discourage trespassers.
+How insightful!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>973</PointerOffset>
       <JapaneseText>&lt;Green&gt;『伝記』を回収しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;Biography returned.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>995</PointerOffset>
       <JapaneseText>二度も協力していただいたご恩を
 お返ししなければなりませんね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>I have to repay you twofold 
+for your kindness.</EnglishText>
+      <Notes>i think these lines are out of order. not sure</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1034</PointerOffset>
       <JapaneseText>調査には時間がかかるので、
 今しばらく待ってください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Since studying the book's contents will 
+take some time, please wait just a 
+while longer.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>18</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1067</PointerOffset>
       <JapaneseText>あなたのおかげで
 新たなる知識を
 吸収することができました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Thanks to your help, I was 
+able to expand my knowledge.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1109</PointerOffset>
       <JapaneseText>さぁ、次はどんな知識を
 調べるとしようかな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hmm, I wonder what I should 
+research next.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>20</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1142</PointerOffset>
       <JapaneseText>さぁ、次はどんな知識を
 調べるとしようかな……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Hmm, I wonder what I should 
+research next.</EnglishText>
+      <Notes>duplicate</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1289</PointerOffset>
       <JapaneseText>うーむ……
 この森にはどんな秘密が
 隠されているのだろう……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>I wonder what secrets 
+this forest holds...</EnglishText>
+      <Notes>if this line appears in sequence to this whole discussion, adding the word "others" would help ie tlow more naturally.</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>22</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -276,7 +300,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>23</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
 </SceneText>

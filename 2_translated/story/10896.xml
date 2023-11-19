@@ -16,7 +16,7 @@
       <EnglishText>Shaorune</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1720,3840,3965,4371,4738,4794,4880,4953,4996,5039,5068,5394,5588,5694</PointerOffset>
@@ -32,7 +32,7 @@
       <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5625,5912,6367</PointerOffset>
@@ -80,7 +80,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>338,361</PointerOffset>
@@ -101,7 +101,7 @@
       <EnglishText>Azure Sanctuary</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1221</PointerOffset>
@@ -109,7 +109,7 @@
       <EnglishText>Azure Sanctuary</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -772,7 +772,7 @@ out of here and meet up with him.</EnglishText>
 奥義『崩龍無影剣』が
 習得可能になりました。</JapaneseText>
       <EnglishText>&lt;Green&gt;&lt;Veigue&gt; can now learn the
-Fusion Force "Frostwyrm Shadow".</EnglishText>
+Fusion Force "Frostwyrm Shadow."</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>59</Id>
@@ -792,7 +792,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>60</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -801,61 +801,69 @@ No</EnglishText>
       <PointerOffset>143</PointerOffset>
       <JapaneseText>……前に来た時には、
 こんなものはなかった……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>...There was nothing like this
+the last time we were here.</EnglishText>
+      <Notes>I believe dialogue changes on character - this one's Veigue</Notes>
       <SpeakerId>9</SpeakerId>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>172</PointerOffset>
       <JapaneseText>ラッキー!!　前に来た時には
 何もなかったのに！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Lucky! We didn't see anything like
+this last time!</EnglishText>
+      <Notes>This one's Mao</Notes>
       <SpeakerId>9</SpeakerId>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>201</PointerOffset>
       <JapaneseText>うむ……以前、ここには
 何もなかったと思うが……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Hmm... I don't think there was
+anything last time...</EnglishText>
+      <Notes>This one's Eugene I think</Notes>
       <SpeakerId>9</SpeakerId>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>231</PointerOffset>
       <JapaneseText>まさか、こんなところに……
 とても意外な感じね。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>I would never imagine 
+that in a place like this... 
+This is really unexpected.</EnglishText>
+      <Notes>This one's Annie I think</Notes>
       <SpeakerId>9</SpeakerId>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>261</PointerOffset>
       <JapaneseText>おう、こんなとこに発見が！
 おどろき桃の木だぜ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>To think you can find a
+peach tree here in a place
+like this!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>291</PointerOffset>
       <JapaneseText>こんなところに……
 そう、こんな事もあるのね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>In a place like this... Right,
+such things can be found.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>310</PointerOffset>
@@ -871,53 +879,64 @@ No</EnglishText>
       <JapaneseText>一度行った場所でも、
 何か見つかる場合が
 あるという事か……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It could be the case that 
+there's something new is in places
+places we have already visited...</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>180</PointerOffset>
       <JapaneseText>一度行ったところでも、
 調べに行ったら、
 新しい発見があるかもネ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we go check any places we
+visited before, we may discover 
+something new!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>69</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>209</PointerOffset>
       <JapaneseText>一度行った場所でも、
 新しい発見があるかもしれんな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we go check any places we
+visited before, we may find 
+something new.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>70</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>239</PointerOffset>
       <JapaneseText>一度行った場所でも、こうやって
 調べたら何かみつかるかも……？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Even if we've been here before,
+we may find something new
+if we investigate...?</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>71</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>269</PointerOffset>
       <JapaneseText>前に行った場所でも、
 もういっぺん行ってみたら、
 何か見つかるかもしれないな！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we go to places we
+already visited before,
+we might find something
+new!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>72</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>299</PointerOffset>
@@ -925,11 +944,13 @@ No</EnglishText>
 もう一度調べたら、何か見つかる
 かもしれないって事ね……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we go check places we 
+already visited, we could 
+probably find something new...</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>73</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>318</PointerOffset>

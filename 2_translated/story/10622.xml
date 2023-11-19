@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Balka Harbor</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -15,23 +16,23 @@
       <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4567,4567</PointerOffset>
       <JapaneseText>宿屋のおかみ</JapaneseText>
-      <EnglishText>Hostess</EnglishText>
+      <EnglishText>Inn Hostess</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3965,3965,3965,3965,3965,3965,3965,3965,3965,3965,3525,3525,3525,3525,3525,3525,3525,3525,3525,3525,3525,3525,3525</PointerOffset>
       <JapaneseText>ペトナジャンカの男の人</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Man from Petnadjanka</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4028,4095,3606,3695,5371,5559,6267,2471,2494</PointerOffset>
@@ -44,10 +45,10 @@
     <Entry>
       <PointerOffset>2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,5104,5104,5104,5104,5104,5104,5104</PointerOffset>
       <JapaneseText>おばあさん</JapaneseText>
-      <EnglishText>Grandma</EnglishText>
+      <EnglishText>Old Woman</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2793,2882,5679,6081,6177,2534,2557</PointerOffset>
@@ -63,7 +64,7 @@
       <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5481,5730,6310,2313</PointerOffset>
@@ -103,7 +104,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1980,2024,2061,2098,2136,2174,2212,2250,2277</PointerOffset>
@@ -122,7 +123,7 @@
       <EnglishText>Balka Harbor</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1091</PointerOffset>
@@ -130,7 +131,7 @@
       <EnglishText>Balka Harbor</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1088</PointerOffset>
@@ -138,7 +139,7 @@
       <EnglishText>Balka Harbor</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1235</PointerOffset>
@@ -146,7 +147,7 @@
       <EnglishText>Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -156,22 +157,25 @@
       <JapaneseText>我々が警備について以来、
 問題は起こっていない。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>There haven't been any problems
+since we started working security.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4661</PointerOffset>
       <JapaneseText>儀式が無事に終わるまで、
 何事もないよう、
 我々は警備を続ける。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We'll continue to stand guard
+here and keep the peace until
+the ceremony has finished.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -181,22 +185,26 @@
       <JapaneseText>ラジルダが沈んだんだよ……
 いつも人々は争ってばかりだったけど、
 いいところもたくさんあった……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Razilda sank... I know the people there
+were always fighting, but there were still
+good things about it...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4605</PointerOffset>
       <JapaneseText>私たちは……どうすればいいの？
 これから、どこでどうやって
 生きていけばいいのよ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What...can we do? Where are we
+going to live after this? How will
+we survive...?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -206,65 +214,76 @@
       <JapaneseText>ミナールへの渡航は
 やむをえない事情を除き、
 自粛してもらいたい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I would prefer people to refrain
+from traveling to Minal, unless
+they absolutely can't avoid it.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4392</PointerOffset>
       <JapaneseText>各街で起こっている争いの
 犠牲者をこれ以上、
 増やすわけにはいかないのだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We can't afford any more victims
+to this conflict. More and more
+people are dying.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4455</PointerOffset>
       <JapaneseText>現在、国内全域に
 特別警戒宣言が出されている。
 あまり出歩かないように。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>As of now, the entire country
+is in a state of emergency.
+Please stay inside.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4480</PointerOffset>
       <JapaneseText>おい、ヒューマ、外出を控えろ。
 何があっても責任は持てんぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Oi, Huma, don't go out. I won't be
+responsible if something happens.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4518</PointerOffset>
       <JapaneseText>ヒューマのガジュマに対する
 敵意が高まっている。
 注意するように。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>More Huma are becoming hostile
+toward the Gajuma. Be careful.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>4543</PointerOffset>
       <JapaneseText>おい、ヒューマ、不審な行動を
 取れば、即座に拘束するぞ。
 常に監視の目がある事を忘れるな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hey, Huma, don't do anything
+suspicious or we'll arrest you.
+Remember, we're always
+watching.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -274,130 +293,149 @@
       <JapaneseText>こんにちは、&lt;Tytree&gt;さん！
 お元気そうですね！
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hello there, &lt;Tytree&gt;! You
+look lively today!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4031</PointerOffset>
       <JapaneseText>おう、久しぶり！
 おまえも元気そうだな！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Hey, it's been a while! You
+look like you're doing pretty
+good yourself!</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4053</PointerOffset>
       <JapaneseText>僕、セレーナさんの事、
 すっごく心配してたんですよ。
 あ、あこがれの人だし……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>I've been freaking out ever since
+Selene's incident. She's the one
+I ad-admire the most...</EnglishText>
+      <Notes>Lauren quest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4075</PointerOffset>
       <JapaneseText>セレーナさんに心配かけない
 ためにも、がんばってください！
 </JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Please, for Selene's state of mind,
+good luck and do your best!</EnglishText>
+      <Notes>Lauren quest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>18</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4098</PointerOffset>
       <JapaneseText>お、おう……まかせとけ！
 でも、姉貴はおれの姉貴だ。
 忘れんなよ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Yeah... yeah, leave it to me!
+Just don't forget that's my
+sister you're talking about!</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4129</PointerOffset>
       <JapaneseText>セレーナさんに心配かけない
 ためにも、がんばってください！
 </JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Please do your best! You
+don't have to worry about
+Selena at all!</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>20</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4168</PointerOffset>
       <JapaneseText>ペトナジャンカから
 仕事で来たんです。
 </JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>I came here on business
+from Petnadjanka.</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4190</PointerOffset>
       <JapaneseText>仕事を早く終わらせて
 お披露目の儀式を見に行こうって
 先輩と話してるんですよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>I'm talking with my coworkers about
+finishing up early so we can head
+out and see the unveiling ceremony.</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>22</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4224</PointerOffset>
       <JapaneseText>皆さん、工場の事件の件、
 本当に感謝してます。
 工場の復旧作業も進んでます。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Everyone, thank you so much for
+your help with the factory. We're
+making progress on fixing it up.</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>23</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4255</PointerOffset>
       <JapaneseText>皆さん、ただでさえ大変なとこへ
 &lt;Tytree&gt;さんもいて、うるさくて
 大変だと思いますけど……</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>I know it's a tough job, guys. It's
+already noisy as hell here even
+without &lt;Tytree&gt; hanging around...</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4277</PointerOffset>
       <JapaneseText>でも、&lt;Tytree&gt;さんは、
 こう見えても硬派だし、
 とても頼りになる人です!!</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>But...&lt;Tytree&gt; is still a man's man,
+and super dependable, to boot, no
+matter his appearance!</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>4299</PointerOffset>
       <JapaneseText>がんばってくださいね！
 </JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Please do your best!</EnglishText>
+      <Notes>Lauren SideQuest</Notes>
       <SpeakerId>2</SpeakerId>
       <Id>26</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -1074,7 +1112,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>86</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -1087,7 +1125,7 @@ No</EnglishText>
 運がいいとバビログラードの
 蒼の聖殿が見えるらしい。
 見えるまで何度も来る人がいる。</JapaneseText>
-      <EnglishText>&lt;speed:0&gt;[Whimsical Balcony]
+      <EnglishText>&lt;speed:0&gt;- Whimsical Balcony -
 Due to the foggy climate of Balka, 
 you can rarely enjoy the sights.
 But if you're lucky, you can see the 
@@ -1133,7 +1171,7 @@ market in the harbor at all.</EnglishText>
 </JapaneseText>
       <EnglishText>&lt;speed:0&gt;The fog is somewhat thin now.
 I can see a pod of killer whales 
-fighting a giant Veiras offshore.
+fighting a giant Birus offshore.
 Quite the spectacle. </EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
@@ -1223,11 +1261,12 @@ just soaks into your heart.</EnglishText>
       <JapaneseText>蒼の聖殿が見える……
 いい眺めだな……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I can see the Azure Sanctuary...
+What a nice view...</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>96</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2355</PointerOffset>

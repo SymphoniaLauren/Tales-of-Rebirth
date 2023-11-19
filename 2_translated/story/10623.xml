@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Balka Harbor - Inn - Grocery Store</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -15,7 +16,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2417,2417,2417,2417,2417,2417,2417,2417,2417,2417,2417</PointerOffset>
@@ -23,15 +24,15 @@
       <EnglishText>Grocer</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1895,1895</PointerOffset>
       <JapaneseText>宿屋「霧笛屋」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Inkeeper</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>850,850,850,850,850,850,850,850,850,850,850,850</PointerOffset>
@@ -39,7 +40,7 @@
       <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1866,1830</PointerOffset>
@@ -58,7 +59,7 @@
       <EnglishText>Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1445</PointerOffset>
@@ -66,15 +67,15 @@
       <EnglishText>Balka Harbor</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1442</PointerOffset>
       <JapaneseText>バルカ港・宿屋・食材屋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Balka Harbor - Inn - Grocery Store</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -90,7 +91,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -99,11 +100,12 @@ No</EnglishText>
       <PointerOffset>2433</PointerOffset>
       <JapaneseText>どうぞ、ゆっくり
 見ていってください。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please feel free to take your
+time and look around.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2456</PointerOffset>
@@ -117,110 +119,121 @@ Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2518</PointerOffset>
       <JapaneseText>お腹が空いたら、
 また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come back the next
+time you get hungry.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2559</PointerOffset>
       <JapaneseText>お腹が空いたら、
 また来てくださいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please come back the next
+time you get hungry.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2647</PointerOffset>
       <JapaneseText>儀式前はお店も混雑しますよ。
 品薄になる前に買ってくださいな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We're expecting a huge rush before the
+ceremony. Get what you need quick.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2721</PointerOffset>
       <JapaneseText>ガジュマ用の食材はないよ。
 あっ、同じもの食べるんだっけ？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>We don't sell food for Gajuma here.
+Huh? We eat the same food?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2752</PointerOffset>
       <JapaneseText>ガジュマについついイヤな事を
 言いたくなっちゃうのよね……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm not the only one who wants to say
+unpleasant things to the Gajuma, right...?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2802</PointerOffset>
       <JapaneseText>最近、どこへ行っても
 ガジュマの兵士ばかり。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Everywhere I go, no matter what,
+I see nothing but Gajuma soldiers.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2824</PointerOffset>
       <JapaneseText>ヒューマの兵士はどこへ
 行ったのかしら……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Where do you think all the
+Huma soldiers went...?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2874</PointerOffset>
       <JapaneseText>こんな時だからこそ、食材屋を
 閉めとくわけにはいかないわ。
 さあ、買っていって！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>There's no way I can close shop
+during times like this. Go ahead,
+buy whatever you need!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2899</PointerOffset>
       <JapaneseText>バルカまでは
 まだまだありますよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you're heading to Balka
+you still have a ways to go.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2921</PointerOffset>
       <JapaneseText>腹ごしらえなど
 いかがですか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You look hungry. How
+about a warm meal?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -230,11 +243,13 @@ Cancel</EnglishText>
       <JapaneseText>船の汽笛を子守唄に、
 眠るのもまた格別ですよ。
 お泊りになりませんか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The lullaby of the ships' whistles
+will put you right to sleep. Would
+you like to stay the night?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1934</PointerOffset>
@@ -253,11 +268,11 @@ Cancel</EnglishText>
     <Entry>
       <PointerOffset>1996</PointerOffset>
       <JapaneseText>お気をつけて！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Take care!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>149</PointerOffset>
@@ -962,11 +977,13 @@ Window-shoppers...</EnglishText>
       <JapaneseText>まだお部屋ありますよ。
 儀式直前は混みますからね。
 予約はお早めに！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We still have some rooms available.
+Make sure you make your reservations
+before the ceremony!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>93</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2183</PointerOffset>
@@ -974,74 +991,86 @@ Window-shoppers...</EnglishText>
 ヒューマの方と一緒なら
 宿泊もお受けしますけど……
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>There's been so much happening lately,
+but if you're with a Huma, I'd be
+happy to accommodate you.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>94</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2214</PointerOffset>
       <JapaneseText>ガジュマはイヤなのよね……
 ヒューマ専門の宿にしようかしら。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Gajuma make me so uncomfortable...
+I Wonder if there are any Huma
+exclusive inns.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>95</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2264</PointerOffset>
       <JapaneseText>お店の前にカレギア軍の
 兵隊さんがいるでしょ？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Those are Callegean soldiers
+in front of my shop, right?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>96</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2286</PointerOffset>
       <JapaneseText>なんだか見張られてるみたいで
 イヤな感じよね……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I can't stand the feeling of
+being watched like this...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>97</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2336</PointerOffset>
       <JapaneseText>外は大変な事になってるみたいね。
 でも、私はこの宿を続けるわ。
 心配しても何も始まらないものね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sounds like there's a lot of
+trouble outside. I'm going to
+stay right here in the inn.
+Worrying won't do anything.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>98</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2361</PointerOffset>
       <JapaneseText>晴れた日には、二階の部屋から
 バビログラードの蒼獣聖殿も
 見えますよ♪</JapaneseText>
-      <EnglishText/>
+      <EnglishText>On a clear day, you can even see the
+Sacred Temple of the Blue Beast from
+the room on the second floor ♪</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>99</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2383</PointerOffset>
       <JapaneseText>……なかなか、霧が晴れる事は
 ないんですけどね……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...However, the fog never
+really quite lifts, though...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>100</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -1052,11 +1081,14 @@ Window-shoppers...</EnglishText>
 バルカの博物館で売られている
 ごく一般的な地図のポスター。
 バルカみやげの定番。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- Modern Callegea Map -
+A very common poster map sold in
+a museum in Balka. It's a classic
+Balka souvenir.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>101</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -1066,11 +1098,13 @@ Window-shoppers...</EnglishText>
       <JapaneseText>&lt;speed:0&gt;『足元のマット』
 カレギア語で「熱烈歓迎」と
 書かれている。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;- The Mat Underfoot -
+It's a floor mat that says "Happy
+Home!" in the Callegean language.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>102</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>

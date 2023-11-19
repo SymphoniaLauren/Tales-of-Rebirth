@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Sulz</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -15,7 +16,7 @@
       <EnglishText>???</EnglishText>
       <Notes/>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2492</PointerOffset>
@@ -23,7 +24,7 @@
       <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509,2509</PointerOffset>
@@ -31,7 +32,7 @@
       <EnglishText>Tohma</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2597,2597,2597,2597,2597,2597,2597,2597,2597</PointerOffset>
@@ -39,7 +40,7 @@
       <EnglishText>Monica</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2922,3047,4196,4497,4867,5814,5942,6023,6217,6306,6365,6546,6631,6837,6888,6929,7187,7322,7345,7511,8194,11808,11928,12272,12377,12522,12673,13091,13272,13855</PointerOffset>
@@ -55,7 +56,7 @@
       <EnglishText>Steve</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2989,3147,3197,4745,4983,6109</PointerOffset>
@@ -87,7 +88,7 @@
       <EnglishText>Royal Shield Knight</EnglishText>
       <Notes/>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5442</PointerOffset>
@@ -95,7 +96,7 @@
       <EnglishText>??</EnglishText>
       <Notes/>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570,5570</PointerOffset>
@@ -103,15 +104,15 @@
       <EnglishText>Saleh</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8313,8573</PointerOffset>
       <JapaneseText>マルコ</JapaneseText>
-      <EnglishText>Marko</EnglishText>
+      <EnglishText>Marco</EnglishText>
       <Notes/>
       <Id>12</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>8595</PointerOffset>
@@ -119,7 +120,7 @@
       <EnglishText>Rakia</EnglishText>
       <Notes/>
       <Id>13</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>11695,11695,11695,11695,11695,11695,14257,13827</PointerOffset>
@@ -127,7 +128,7 @@
       <EnglishText>Poplar</EnglishText>
       <Notes/>
       <Id>14</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>11711,11711,11711,11711,11711</PointerOffset>
@@ -135,7 +136,7 @@
       <EnglishText>Man</EnglishText>
       <Notes/>
       <Id>15</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>11703</PointerOffset>
@@ -143,7 +144,7 @@
       <EnglishText>Woman</EnglishText>
       <Notes/>
       <Id>16</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>12717,13294</PointerOffset>
@@ -159,7 +160,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>18</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -170,7 +171,7 @@
       <EnglishText>Sulz</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>779</PointerOffset>
@@ -178,15 +179,16 @@
       <EnglishText>Sulz</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>9939</PointerOffset>
       <JapaneseText>&lt;speed:0&gt;命中エフェクト表示</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;speed:0&gt;Hit Effect Display</EnglishText>
+      <Notes>debug string maybe, it's a strange one
+</Notes>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -203,7 +205,7 @@ or not?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2463</PointerOffset>
@@ -213,7 +215,7 @@ or not?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2495</PointerOffset>
@@ -225,7 +227,7 @@ They all look the same to me.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2553</PointerOffset>
@@ -237,7 +239,7 @@ name.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2613</PointerOffset>
@@ -247,7 +249,7 @@ name.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>8</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2635</PointerOffset>
@@ -258,7 +260,7 @@ name.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>9</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2718</PointerOffset>
@@ -269,7 +271,7 @@ name.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2740</PointerOffset>
@@ -284,7 +286,7 @@ It's a simple question.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2762</PointerOffset>
@@ -294,7 +296,7 @@ It's a simple question.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>12</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2925</PointerOffset>
@@ -304,7 +306,7 @@ It's a simple question.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>13</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2955</PointerOffset>
@@ -320,7 +322,7 @@ someone...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>14</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2992</PointerOffset>
@@ -330,7 +332,7 @@ someone...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>15</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3021</PointerOffset>
@@ -338,23 +340,22 @@ someone...</EnglishText>
       <JapaneseText>ああ、&lt;Blue&gt;王の盾&lt;White&gt;だ……
 ……トーマか……
 あいつがいるという事は、奴も……</JapaneseText>
-      <EnglishText>Yes, the &lt;Blue&gt;Royal
-Shield&lt;White&gt;. Tohma's here, which means...</EnglishText>
+      <EnglishText>Yes, the &lt;Blue&gt;Royal Shield&lt;White&gt;. Tohma's
+here, which means...</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>16</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3050</PointerOffset>
       <VoiceId>0c000054</VoiceId>
       <JapaneseText>……&lt;Blue&gt;王の盾&lt;White&gt;……？</JapaneseText>
-      <EnglishText>...The &lt;Blue&gt;Royal
-Shield&lt;White&gt;?</EnglishText>
+      <EnglishText>...The &lt;Blue&gt;Royal Shield&lt;White&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>17</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3092</PointerOffset>
@@ -368,7 +369,7 @@ command of the royal family.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>18</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3113</PointerOffset>
@@ -384,7 +385,7 @@ would not be able to disclose publicly.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>19</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3150</PointerOffset>
@@ -396,7 +397,7 @@ literally are a "royal shield."</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>20</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3171</PointerOffset>
@@ -409,7 +410,7 @@ exert control over Force users.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>21</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3200</PointerOffset>
@@ -425,7 +426,7 @@ people as allies rather than enemies.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>22</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3377</PointerOffset>
@@ -440,7 +441,7 @@ beautiful in this village!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>23</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3417</PointerOffset>
@@ -451,7 +452,7 @@ beautiful in this village!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>24</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3439</PointerOffset>
@@ -460,14 +461,14 @@ beautiful in this village!</EnglishText>
 あまり気の長い方ではない。
 痛い目にあいたくなければ、
 さっさと連れてこい。</JapaneseText>
-      <EnglishText>Look, I don't have much patience 
-now. If you don't want to get hurt,
+      <EnglishText>Look, I'm running out of patience.
+If you don't want to get hurt,
 you'd better find her and bring
 her to me quickly.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>25</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3461</PointerOffset>
@@ -483,7 +484,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>26</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3619</PointerOffset>
@@ -493,7 +494,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>27</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3685</PointerOffset>
@@ -503,7 +504,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>28</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3745</PointerOffset>
@@ -513,7 +514,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>29</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3793</PointerOffset>
@@ -523,7 +524,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>30</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3818</PointerOffset>
@@ -533,7 +534,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>31</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4012</PointerOffset>
@@ -543,7 +544,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>32</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4068</PointerOffset>
@@ -553,7 +554,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>33</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4090</PointerOffset>
@@ -563,7 +564,7 @@ group over there.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>34</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4132</PointerOffset>
@@ -575,7 +576,7 @@ Come with us!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>35</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4199</PointerOffset>
@@ -586,7 +587,7 @@ her!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>36</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4285</PointerOffset>
@@ -598,7 +599,7 @@ aside!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>37</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4437</PointerOffset>
@@ -608,7 +609,7 @@ aside!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>38</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4459</PointerOffset>
@@ -618,7 +619,7 @@ aside!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>39</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4500</PointerOffset>
@@ -630,7 +631,7 @@ high-tail it out of here right now!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>40</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4525</PointerOffset>
@@ -640,7 +641,7 @@ high-tail it out of here right now!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>41</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4748</PointerOffset>
@@ -650,7 +651,7 @@ high-tail it out of here right now!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>42</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4784</PointerOffset>
@@ -663,7 +664,7 @@ magnetic fields... This is the
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>43</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4849</PointerOffset>
@@ -677,7 +678,7 @@ time seeing it in action.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>44</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4870</PointerOffset>
@@ -687,7 +688,7 @@ time seeing it in action.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>45</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4892</PointerOffset>
@@ -700,7 +701,7 @@ Such a frightening power.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>46</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4923</PointerOffset>
@@ -713,7 +714,7 @@ as my own. See for yourself!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>47</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4986</PointerOffset>
@@ -724,7 +725,7 @@ as my own. See for yourself!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>48</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5008</PointerOffset>
@@ -736,7 +737,7 @@ How cute--Wh...it's you!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>49</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5029</PointerOffset>
@@ -746,7 +747,7 @@ How cute--Wh...it's you!</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>50</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5445</PointerOffset>
@@ -760,7 +761,7 @@ sideshow?</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
       <Id>51</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5556</PointerOffset>
@@ -770,7 +771,7 @@ sideshow?</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>52</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5639</PointerOffset>
@@ -785,7 +786,7 @@ jewel of this village.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>53</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5691</PointerOffset>
@@ -796,7 +797,7 @@ jewel of this village.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>54</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5713</PointerOffset>
@@ -811,7 +812,7 @@ you in big trouble.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>55</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5735</PointerOffset>
@@ -824,7 +825,7 @@ lecture from you to know that!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>56</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5780</PointerOffset>
@@ -837,7 +838,7 @@ a girl back with us.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>57</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5817</PointerOffset>
@@ -847,7 +848,7 @@ a girl back with us.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>58</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5848</PointerOffset>
@@ -859,7 +860,7 @@ an eyesore!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>59</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5879</PointerOffset>
@@ -871,7 +872,7 @@ conversation is over.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>60</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5910</PointerOffset>
@@ -883,7 +884,7 @@ conversation is over.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>61</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5945</PointerOffset>
@@ -893,7 +894,7 @@ conversation is over.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>62</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5966</PointerOffset>
@@ -903,7 +904,7 @@ conversation is over.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>63</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5997</PointerOffset>
@@ -916,7 +917,7 @@ Mao?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>64</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6026</PointerOffset>
@@ -926,7 +927,7 @@ Mao?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>65</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6048</PointerOffset>
@@ -944,7 +945,7 @@ got enough on our plates for now.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>66</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6070</PointerOffset>
@@ -956,7 +957,7 @@ got enough on our plates for now.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>67</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6112</PointerOffset>
@@ -966,7 +967,7 @@ got enough on our plates for now.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>68</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6134</PointerOffset>
@@ -979,7 +980,7 @@ I like to conduct business?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>69</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6220</PointerOffset>
@@ -989,7 +990,7 @@ I like to conduct business?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>70</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6242</PointerOffset>
@@ -1002,7 +1003,7 @@ direct your attention overhead.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>71</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6309</PointerOffset>
@@ -1012,7 +1013,7 @@ direct your attention overhead.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>72</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6331</PointerOffset>
@@ -1025,7 +1026,7 @@ comes down to give and take.
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>73</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6368</PointerOffset>
@@ -1035,7 +1036,7 @@ comes down to give and take.
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>74</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6404</PointerOffset>
@@ -1049,7 +1050,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>75</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6444</PointerOffset>
@@ -1059,7 +1060,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>76</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6489</PointerOffset>
@@ -1069,7 +1070,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>77</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6520</PointerOffset>
@@ -1079,7 +1080,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>78</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6549</PointerOffset>
@@ -1089,7 +1090,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>79</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6586</PointerOffset>
@@ -1099,7 +1100,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>80</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6634</PointerOffset>
@@ -1109,7 +1110,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>81</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6840</PointerOffset>
@@ -1119,7 +1120,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>82</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6862</PointerOffset>
@@ -1129,7 +1130,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>83</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6891</PointerOffset>
@@ -1139,7 +1140,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>84</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6932</PointerOffset>
@@ -1149,7 +1150,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>85</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7190</PointerOffset>
@@ -1159,7 +1160,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>86</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7247</PointerOffset>
@@ -1169,7 +1170,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>87</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7302</PointerOffset>
@@ -1179,7 +1180,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>88</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7325</PointerOffset>
@@ -1189,7 +1190,7 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>89</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7348</PointerOffset>
@@ -1200,18 +1201,17 @@ your hands now.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>90</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7387</PointerOffset>
       <VoiceId>0c00009e</VoiceId>
       <JapaneseText>では行こう、クレアちゃん。</JapaneseText>
-      <EnglishText>Shall we be off, my dear
-Claire?</EnglishText>
+      <EnglishText>Shall we be off, my dear Claire?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>91</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7491</PointerOffset>
@@ -1225,7 +1225,7 @@ Otherwise, I'm not going.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>92</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7514</PointerOffset>
@@ -1235,7 +1235,7 @@ Otherwise, I'm not going.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>93</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7536</PointerOffset>
@@ -1249,7 +1249,7 @@ oblige to your wishes.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>94</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7567</PointerOffset>
@@ -1260,7 +1260,7 @@ oblige to your wishes.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>95</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7606</PointerOffset>
@@ -1270,7 +1270,7 @@ oblige to your wishes.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>96</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7714</PointerOffset>
@@ -1280,7 +1280,7 @@ oblige to your wishes.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>97</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>7978</PointerOffset>
@@ -1293,7 +1293,7 @@ sorry... It's my fault that you...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>98</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8009</PointerOffset>
@@ -1304,7 +1304,7 @@ sorry... It's my fault that you...</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>99</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8038</PointerOffset>
@@ -1317,7 +1317,7 @@ horrible to you if you go...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>100</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8060</PointerOffset>
@@ -1329,7 +1329,7 @@ excellent care of Miss Claire.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>101</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8082</PointerOffset>
@@ -1339,7 +1339,7 @@ excellent care of Miss Claire.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>102</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8127</PointerOffset>
@@ -1351,7 +1351,7 @@ to say goodbye.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>103</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8158</PointerOffset>
@@ -1363,7 +1363,7 @@ away for a while.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>104</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8197</PointerOffset>
@@ -1374,7 +1374,7 @@ away for a while.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>105</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8227</PointerOffset>
@@ -1384,7 +1384,7 @@ away for a while.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>106</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8316</PointerOffset>
@@ -1394,7 +1394,7 @@ away for a while.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
       <Id>107</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8363</PointerOffset>
@@ -1404,7 +1404,7 @@ away for a while.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>108</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8488</PointerOffset>
@@ -1414,7 +1414,7 @@ away for a while.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>109</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8576</PointerOffset>
@@ -1424,7 +1424,7 @@ away for a while.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
       <Id>110</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8598</PointerOffset>
@@ -1434,7 +1434,7 @@ away for a while.</EnglishText>
       <Notes/>
       <SpeakerId>13</SpeakerId>
       <Id>111</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8620</PointerOffset>
@@ -1447,7 +1447,7 @@ Farewell, little &lt;Mao&gt;. Until next time.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>112</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8660</PointerOffset>
@@ -1457,7 +1457,7 @@ Farewell, little &lt;Mao&gt;. Until next time.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>113</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8677</PointerOffset>
@@ -1467,7 +1467,7 @@ Farewell, little &lt;Mao&gt;. Until next time.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>114</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>8792</PointerOffset>
@@ -1477,7 +1477,7 @@ Farewell, little &lt;Mao&gt;. Until next time.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>115</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>11811</PointerOffset>
@@ -1487,7 +1487,7 @@ Farewell, little &lt;Mao&gt;. Until next time.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>116</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>11842</PointerOffset>
@@ -1501,7 +1501,7 @@ refuses to let anyone in!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>117</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>11864</PointerOffset>
@@ -1513,7 +1513,7 @@ originally built by us Gajuma!</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>118</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>11894</PointerOffset>
@@ -1526,7 +1526,7 @@ have no right to use it!</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>119</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>11931</PointerOffset>
@@ -1538,7 +1538,7 @@ things like this all of a sudden?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>120</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>11959</PointerOffset>
@@ -1546,13 +1546,13 @@ things like this all of a sudden?</EnglishText>
       <JapaneseText>突然なんかじゃないよ!!　前から
 ずっと思ってたんだ。ヒューマは
 ガジュマを馬鹿にしてるってね!!</JapaneseText>
-      <EnglishText>All of a sudden ー yeah, right!
+      <EnglishText>All of a sudden? Yeah, right!
 I've always felt that you Huma have
 been making fools of us Gajuma!</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>121</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>11981</PointerOffset>
@@ -1566,7 +1566,7 @@ the back breaking, hard labor!</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>122</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12012</PointerOffset>
@@ -1580,7 +1580,7 @@ kind of unfair to us?</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
       <Id>123</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12043</PointerOffset>
@@ -1593,7 +1593,7 @@ our own village just for us Gajuma!</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>124</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12075</PointerOffset>
@@ -1609,7 +1609,7 @@ own money right?</EnglishText>
       <Notes/>
       <SpeakerId>16</SpeakerId>
       <Id>125</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12147</PointerOffset>
@@ -1624,7 +1624,7 @@ Gajuma does it for you!</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
       <Id>126</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12178</PointerOffset>
@@ -1637,7 +1637,7 @@ Or anything, really!</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
       <Id>127</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12209</PointerOffset>
@@ -1649,7 +1649,7 @@ show me how tough you are!</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
       <Id>128</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12275</PointerOffset>
@@ -1660,7 +1660,7 @@ show me how tough you are!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>129</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12380</PointerOffset>
@@ -1671,7 +1671,7 @@ show me how tough you are!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>130</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12525</PointerOffset>
@@ -1682,7 +1682,7 @@ show me how tough you are!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>131</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12555</PointerOffset>
@@ -1696,7 +1696,7 @@ to disappear!</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>132</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12614</PointerOffset>
@@ -1706,7 +1706,7 @@ to disappear!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>133</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12647</PointerOffset>
@@ -1718,7 +1718,7 @@ you're going a little overboard...?</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
       <Id>134</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12676</PointerOffset>
@@ -1729,7 +1729,7 @@ you're going a little overboard...?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>135</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>12720</PointerOffset>
@@ -1739,7 +1739,7 @@ you're going a little overboard...?</EnglishText>
       <Notes/>
       <SpeakerId>17</SpeakerId>
       <Id>136</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>13094</PointerOffset>
@@ -1749,7 +1749,7 @@ you're going a little overboard...?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>137</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>13166</PointerOffset>
@@ -1759,7 +1759,7 @@ you're going a little overboard...?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>138</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>13275</PointerOffset>
@@ -1771,7 +1771,7 @@ here?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>139</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>13297</PointerOffset>
@@ -1780,7 +1780,7 @@ here?</EnglishText>
       <Notes/>
       <SpeakerId>17</SpeakerId>
       <Id>140</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>14188</PointerOffset>
@@ -1792,19 +1792,19 @@ invitation, everyone!</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>141</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>14219</PointerOffset>
       <VoiceId>3c000088</VoiceId>
       <JapaneseText>どうぞ、中へ入ってください。
 さあ!!</JapaneseText>
-      <EnglishText>Please, don't be shy! Come on
-in!</EnglishText>
+      <EnglishText>Please, don't be shy!
+Come on in!</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>142</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>14260</PointerOffset>
@@ -1818,38 +1818,41 @@ content!</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>143</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>13830</PointerOffset>
       <JapaneseText>……ねえ、&lt;Veigue&gt;ちゃん……
 みんな、集まってくれるかしら……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...Little &lt;Veigue&gt;, 
+I hope you find your friends...</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
       <Id>144</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>13858</PointerOffset>
       <JapaneseText>ああ……おばさん……
 みんな、必ず来てくれる……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...Thanks, Aunt Poplar.
+I'm sure they'll turn up somewhere.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>145</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>13880</PointerOffset>
       <JapaneseText>さあ、&lt;Veigue&gt;、
 一人でも多くの人に
 声をかけに行きましょう。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Come on, &lt;Veigue&gt;, let's go
+talk to as many people as we can!</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>146</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -1865,7 +1868,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>18</SpeakerId>
       <Id>147</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
 </SceneText>

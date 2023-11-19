@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Iron Factory - Jungle - Flower room</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -31,7 +32,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>3244,5980,2899,3747,3812,3966,4031,4467,4711,4898</PointerOffset>
@@ -53,10 +54,10 @@
       <PointerOffset>2375</PointerOffset>
       <JapaneseText>&lt;unk19:D0FF1FC80CE00C80&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;unk19:D0FF1FC80CE00C80&gt;</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2623,5734,4402,5125,5332,5522</PointerOffset>
@@ -77,7 +78,7 @@
       <EnglishText>Iron Factory - Jungle</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>703</PointerOffset>
@@ -85,7 +86,7 @@
       <EnglishText>Iron Factory - Jungle</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -94,22 +95,27 @@
       <PointerOffset>6908</PointerOffset>
       <JapaneseText>氷も溶かしちゃうなんて、
 すごい生命力！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The flower was even able to
+melt the ice! It's got crazy
+durability.
+</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>6941</PointerOffset>
       <JapaneseText>でも、凍ってる間は
 この大きな花の活動は
 完全に停止していたわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But it was completely unable
+to do anything while it was
+frozen.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -120,11 +126,14 @@
 大きな花を燃やす？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;Burn the flower
+using debug powers?
+　Ye
+　No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -132,49 +141,54 @@
     <Entry>
       <PointerOffset>3247</PointerOffset>
       <JapaneseText>今だ!!　一気に行くぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Now's our chance!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5831</PointerOffset>
       <JapaneseText>ああっ、燃えたと思ったのに
 元に戻っちゃったよ!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ah, just when I thought I
+toasted it, it came back to
+life!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5887</PointerOffset>
       <JapaneseText>あの巨大な花が叫ぶのと……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This flower was revived...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5921</PointerOffset>
       <JapaneseText>この花が復活したのは同時だった。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...at the same time the
+large flower cried out.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5983</PointerOffset>
       <JapaneseText>この花を無力化するには
 大元を叩くしかないようだな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We'll have to deal with the
+big one first if we want to
+take out this one.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -182,11 +196,11 @@
     <Entry>
       <PointerOffset>2902</PointerOffset>
       <JapaneseText>今だ!!　一気に行くぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Now's our chance!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -196,87 +210,99 @@
       <JapaneseText>ダメだ……
 この花は焼き払えないよ。
 他の方法を考えないと！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It won't work... This flower
+just won't burn. We need to
+think of some other way to
+deal with it!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2419</PointerOffset>
       <JapaneseText>この花、すごい生命力だヨ!!
 氷が溶けたら元に戻っちゃった。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This flower sure is resilient!
+It's back to normal after having
+been frozen.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2484</PointerOffset>
       <JapaneseText>&lt;Mao&gt;のフォルスではだめか……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;'s Force isn't going
+to work...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2505</PointerOffset>
       <JapaneseText>ボクの炎じゃダメみたい。
 他の方法を考えなきゃ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>My Fire isn't going to work
+here. We need to think of
+something else...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2526</PointerOffset>
       <JapaneseText>やっかいな花だな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This flower is bothersome.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>16</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2548</PointerOffset>
       <JapaneseText>この花をなんとかしないと、
 先に進めないみたいですね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we don't do something about
+this flower, then we won't be
+able to proceed.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>17</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2570</PointerOffset>
       <JapaneseText>この花をなんとかしないと
 いけないんだよな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We gotta do something
+about this flower...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>18</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2592</PointerOffset>
       <JapaneseText>めんどくさい花ね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This flower is annoying.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>19</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2603</PointerOffset>
       <JapaneseText>この花をどうにかしなければ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We need to do something about
+this flower...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>20</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -284,71 +310,81 @@
     <Entry>
       <PointerOffset>3670</PointerOffset>
       <JapaneseText>あの花、元に戻っちゃってる！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>The flower thawed out!</EnglishText>
+      <Notes>sorry this is not literal gang</Notes>
       <SpeakerId>0</SpeakerId>
       <Id>21</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3718</PointerOffset>
       <JapaneseText>あの花が凍っている間に
 隣の部屋まで移動するのは無理だ。
 フォルスでなんとかできないのか……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We don't have the time to reach
+the next room while the flower is
+frozen. Perhaps there is something
+we can do with our Forces...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>22</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3750</PointerOffset>
       <JapaneseText>&lt;Mao&gt;の&lt;Yellow&gt;炎&lt;White&gt;は通用しなかった……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;'s &lt;Yellow&gt;Fire&lt;White&gt; didn't work...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>23</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3783</PointerOffset>
       <JapaneseText>でも、他の花は焼き払えたんです。
 フォルスの炎よりも高い温度の
 火力があれば、燃えるかも……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>But we were able to burn the other
+flowers. Perhaps if we had fire that
+was hotter than &lt;Mao&gt;'s Force, we
+would be able to burn it.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3815</PointerOffset>
       <JapaneseText>そんなものがどこに……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Where could we find that...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3847</PointerOffset>
       <JapaneseText>ここに溶鉱炉があるんだから、
 どこかに燃やす材料があるはず！
 それを使えば？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Well, since there's a blast furnace
+here, there's gotta be some
+combustable fuel around! Maybe we
+could use that?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>26</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3879</PointerOffset>
       <JapaneseText>いい考えだ。探そう。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>That's a good idea.
+Let's look for some.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>27</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3937</PointerOffset>
@@ -356,30 +392,35 @@
 ここまで移動するのは無理だ。
 フォルスでなんとか
 できればいいのだが……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We can only go so far while that
+flower is frozen. If only there was
+something we could do about it with
+our Forces...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>28</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>3969</PointerOffset>
       <JapaneseText>&lt;Mao&gt;の&lt;Yellow&gt;炎&lt;White&gt;は通用しなかった……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Mao&gt;'s &lt;Yellow&gt;Fire&lt;White&gt; didn't work...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>29</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4002</PointerOffset>
       <JapaneseText>どんなものでも燃やすような
 &lt;Yellow&gt;すごい火力&lt;White&gt;があれば……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We could make anything combust
+if we had something capable of
+generating &lt;Yellow&gt;intense fire&lt;White&gt;...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>30</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4034</PointerOffset>
@@ -388,7 +429,7 @@
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>31</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -404,7 +445,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>32</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -412,20 +453,20 @@ No</EnglishText>
     <Entry>
       <PointerOffset>5595</PointerOffset>
       <JapaneseText>柵が閉まっている……</JapaneseText>
-      <EnglishText>The fence is shut closed.</EnglishText>
+      <EnglishText>The grating is shut...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>33</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5616</PointerOffset>
       <JapaneseText>柵が閉まってるよ。</JapaneseText>
-      <EnglishText>The fence is shut closed.</EnglishText>
+      <EnglishText>The grating is shut.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>34</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5637</PointerOffset>
@@ -434,43 +475,43 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>35</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5659</PointerOffset>
       <JapaneseText>鉄の柵が閉まってますね。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText>The iron grating is closed.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>36</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5681</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているな。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText>The iron grating is closed.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>37</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5703</PointerOffset>
       <JapaneseText>鉄の柵が閉まっているわ。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText>The iron grating is closed.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>38</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5714</PointerOffset>
       <JapaneseText>鉄の柵が閉まっている。</JapaneseText>
-      <EnglishText>The steel fence is closed.</EnglishText>
+      <EnglishText>The iron grating is closed.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>39</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -479,292 +520,323 @@ No</EnglishText>
       <PointerOffset>4307</PointerOffset>
       <JapaneseText>ここから石炭をいれたとしても
 強い火力にはなりそうもないな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We won't be able to create
+a large fire if we use the
+coal here...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4328</PointerOffset>
       <JapaneseText>ここから石炭を入れても
 バラバラになるから、
 強い火にはならないよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we use the coal here, it'll
+scatter about and we won't be
+able to create a strong fire.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4349</PointerOffset>
       <JapaneseText>ここから石炭を入れても
 火力が分散して、あまり
 有効ではないな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Using the coal here would
+disperse it and make any
+resulting fire ineffective...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4371</PointerOffset>
       <JapaneseText>ここから石炭を入れても
 バラバラになってしまうので、
 強い火力は期待できませんね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we were to use the coal here,
+it wouldn't be concentrated enough
+to generate a strong fire.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4382</PointerOffset>
       <JapaneseText>ここから石炭を入れても
 あまり有効ではないな……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If we used the coal here,
+it wouldn't be very effective.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>44</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4470</PointerOffset>
       <JapaneseText>しばらくおとなしくしていろ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Behave yourself.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4676</PointerOffset>
       <JapaneseText>ダメだ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It's not working...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>46</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4714</PointerOffset>
       <JapaneseText>炎がだめなら、こうするまでだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>If fire isn't working, then
+let's try this.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4901</PointerOffset>
       <JapaneseText>しばらくおとなしくしていろ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Behave yourself.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>4986</PointerOffset>
       <JapaneseText>花は凍っている……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The flower is frozen...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5007</PointerOffset>
       <JapaneseText>花は凍ってるよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The flower's frozen.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5028</PointerOffset>
       <JapaneseText>花は凍っているな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The flower is frozen.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5050</PointerOffset>
       <JapaneseText>花は凍っていますね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The flower is frozen.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5072</PointerOffset>
       <JapaneseText>花は凍ってるぜ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The flower is frozen.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>53</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5094</PointerOffset>
       <JapaneseText>花は凍ってるわね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The flower is frozen.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>54</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5105</PointerOffset>
       <JapaneseText>花が凍っている。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The flower is frozen.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>55</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5193</PointerOffset>
       <JapaneseText>この花の生命力が
 弱っている間ならもしかして……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>We might be able to get
+through while the flower
+is weak...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>56</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5214</PointerOffset>
       <JapaneseText>この花の生命力が
 弱っている間ならたぶん……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Maybe we could get through
+while the flower is weakened...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5235</PointerOffset>
       <JapaneseText>この花の生命力が
 弱っている間ならもしや……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Perhaps we will be able to
+proceed while this flower is
+weakened.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5257</PointerOffset>
       <JapaneseText>この花の生命力が
 弱っている間ならきっと……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Surely we'll be able to proceed
+while this flower is weakened...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>59</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5279</PointerOffset>
       <JapaneseText>この花の生命力が
 弱っている間ならたぶん……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Maybe we could get through
+while the flower is weakened...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>60</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5301</PointerOffset>
       <JapaneseText>この花の生命力が
 弱っている間ならもしかして……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Perhaps we can get through while
+this flower is weakened...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5312</PointerOffset>
       <JapaneseText>この花の生命力が
 弱っている間ならもしかして……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Perhaps we can get through while
+this flower is weakened...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5383</PointerOffset>
       <JapaneseText>やっとおとなしくなったか。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Looks like you finally
+settled down.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5404</PointerOffset>
       <JapaneseText>大きな花は溶鉱炉の熱で
 しおれたみたいだね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Looks like the big flower
+has wilted from the furnace's
+heat.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5425</PointerOffset>
       <JapaneseText>この花も溶鉱炉の熱には
 耐えられなかったようだな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like this flower couldn't
+tolerate the heat from the blast
+furnace.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5447</PointerOffset>
       <JapaneseText>大きな花は溶鉱炉の熱で
 しおれたみたいですね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like this big flower
+has wilted due to the heat
+from the blast furnace.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5469</PointerOffset>
       <JapaneseText>この花……
 ちょっとかわいそうだな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I feel kind sorry
+for this flower...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>67</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5491</PointerOffset>
       <JapaneseText>この花も溶鉱炉の熱には
 耐えられなかったみたいね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like this flower couldn't
+tolerate the heat from the blast
+furnace.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>5502</PointerOffset>
       <JapaneseText>大きな花は溶鉱炉の熱で
 しおれたようだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>It looks like the big flower
+has wilted from the furnace's
+heat.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>69</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
 </SceneText>

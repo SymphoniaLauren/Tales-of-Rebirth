@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Belsas - in front of Scarabe's house</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -23,7 +24,7 @@
       <EnglishText>Gatekeeper</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2878,2878,2878,2878,2878</PointerOffset>
@@ -31,7 +32,7 @@
       <EnglishText>Susie</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2983,4228,4621,4687,4737,4766,4795</PointerOffset>
@@ -55,7 +56,7 @@
       <EnglishText>Scarabe</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>2870,4102,4102</PointerOffset>
@@ -63,7 +64,7 @@
       <EnglishText>Man</EnglishText>
       <Notes/>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4086,4086,4086</PointerOffset>
@@ -71,7 +72,7 @@
       <EnglishText>Gianni</EnglishText>
       <Notes/>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>4199,4592,4708,4907</PointerOffset>
@@ -95,7 +96,7 @@
       <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
       <Id>10</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>6540</PointerOffset>
@@ -103,7 +104,7 @@
       <EnglishText>Select</EnglishText>
       <Notes/>
       <Id>11</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -114,7 +115,7 @@
       <EnglishText>Belsas</EnglishText>
       <Notes/>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>402</PointerOffset>
@@ -122,7 +123,7 @@
       <EnglishText>Belsas</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>525</PointerOffset>
@@ -130,7 +131,7 @@
       <EnglishText>Scarabe's Mansion</EnglishText>
       <Notes/>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>547</PointerOffset>
@@ -138,7 +139,7 @@
       <EnglishText>Scarabe's Mansion</EnglishText>
       <Notes/>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -173,9 +174,9 @@ scram!</EnglishText>
 させてしまって、本当にゴメンなさい。
 お父様は昔っからあんな風に、
 ガジュマを見下していて……</JapaneseText>
-      <EnglishText>I'm so sorry that my father
-made you uncomfortable. He has
-looked down on Gajuma for as long as I
+      <EnglishText>I'm so sorry that my father made
+you uncomfortable. He has looked
+down on Gajuma for as long as I
 can remember...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
@@ -727,7 +728,7 @@ has done nothing wrong.</EnglishText>
 警備をするのも我らの勤めだ。
 </JapaneseText>
       <EnglishText>We're here to guard and protect her
-from those seeking to harm her.</EnglishText>
+from those seeking her harm.</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
       <Id>52</Id>
@@ -835,10 +836,10 @@ damn Gajuma!</EnglishText>
 私はどうしたら……いいんだ……</JapaneseText>
       <EnglishText>Wh-What am I gonna do...?
 Lord Scarabe's...</EnglishText>
-      <Notes/>
+      <Notes>deepL says " After what happened to Master Scarab, What am I supposed to ...... do? ......"</Notes>
       <SpeakerId>1</SpeakerId>
       <Id>61</Id>
-      <Status>Proofreading</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>1350</PointerOffset>
@@ -887,10 +888,10 @@ sight at once, or else!</EnglishText>
       <EnglishText>Lady Susie has grown stronger...
 Even after that accident, she
 has conducted herself courageously...</EnglishText>
-      <Notes/>
+      <Notes>accident or incident?</Notes>
       <SpeakerId>1</SpeakerId>
       <Id>65</Id>
-      <Status>Proofreading</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>1508</PointerOffset>
@@ -926,7 +927,7 @@ sight at once, or else!</EnglishText>
       <EnglishText>Lady Susie has grown stronger...
 Even after that accident, she
 has conducted herself courageously...</EnglishText>
-      <Notes>accident or incident?</Notes>
+      <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>68</Id>
       <Status>Problematic</Status>
@@ -1004,7 +1005,7 @@ No</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>74</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
 </SceneText>
