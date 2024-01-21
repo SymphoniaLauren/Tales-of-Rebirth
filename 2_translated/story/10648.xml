@@ -328,11 +328,11 @@ that's soft to the touch.</EnglishText>
       <PointerOffset>8867</PointerOffset>
       <JapaneseText>&lt;Green&gt;クレアは
 称号『&lt;item:1000009E&gt;』を取得しました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;Claire has received the title &lt;item:1000009E&gt;.</EnglishText>
+      <EnglishText>&lt;Green&gt;Claire obtained the title "&lt;item:1000009E&gt;."</EnglishText>
       <Notes>should we remove "has"?</Notes>
       <SpeakerId>3</SpeakerId>
       <Id>20</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8934</PointerOffset>
@@ -374,7 +374,7 @@ Callegea is on display.</EnglishText>
       <PointerOffset>9098</PointerOffset>
       <JapaneseText>&lt;Green&gt;クレアは
 称号『&lt;item:10000095&gt;』を取得しました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;Claire has received the title &lt;item:10000095&gt;.</EnglishText>
+      <EnglishText>&lt;Green&gt;Claire obtained the title "&lt;item:10000095&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>24</Id>
@@ -394,7 +394,7 @@ Callegea is on display.</EnglishText>
       <PointerOffset>9198</PointerOffset>
       <JapaneseText>&lt;Green&gt;アガーテは
 称号『&lt;item:10000095&gt;』を取得しました。</JapaneseText>
-      <EnglishText>&lt;Green&gt;Agarte has received the title &lt;item:10000095&gt;.</EnglishText>
+      <EnglishText>&lt;Green&gt;Agarte obtained the title "&lt;item:10000095&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
       <Id>26</Id>
@@ -489,12 +489,11 @@ popular?</EnglishText>
       <PointerOffset>7573</PointerOffset>
       <JapaneseText>わかった。
 参考にさせてもらうよ。</JapaneseText>
-      <EnglishText>I see.
-I'll be sure to use it as reference.</EnglishText>
+      <EnglishText>I see. I'll be sure to use it as a reference.</EnglishText>
       <Notes>Not sure what the context this is used here</Notes>
       <SpeakerId>11</SpeakerId>
       <Id>34</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6969</PointerOffset>
@@ -580,20 +579,23 @@ Please accept this!</EnglishText>
       <JapaneseText>……ちゃちな謝礼だと思っているね？
 こういった世界の貢献者は、
 お金よりも名誉を重んじるのだよ。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>...Do you think this to merely be a paltry
+act of gratitude? These world-renowned
+contributors value the prestige more than
+the costs.</EnglishText>
+      <Notes>Needs more context on when the curator will say this</Notes>
       <SpeakerId>11</SpeakerId>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>7277</PointerOffset>
       <JapaneseText>これならば、どうだ！</JapaneseText>
-      <EnglishText/>
+      <EnglishText>So how's that!</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>43</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>-1</PointerOffset>
@@ -619,53 +621,57 @@ popular?</EnglishText>
       <PointerOffset>7429</PointerOffset>
       <JapaneseText>わかった。
 参考にさせてもらうよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I see. I'll be sure to use that as a reference.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>46</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7489</PointerOffset>
       <JapaneseText>ふむ……
 落札できなかったのか。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hrm...you weren't able to win the bid?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7511</PointerOffset>
       <JapaneseText>私はいつまででも待っているから、
 あきらめずに頑張ってくれ！</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Don't worry, I'll always be available here,
+so don't give up and try again!</EnglishText>
+      <Notes>Not the literal translation, but I feel it makes more sense with this wording.</Notes>
       <SpeakerId>11</SpeakerId>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>6941</PointerOffset>
       <JapaneseText>あなた方に依頼した品は
 「&lt;unk1A:3804D080&gt;」だ。
 &lt;unk17:3804D480&gt;ガルドでお願いしたい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I ask that you obtain &lt;unk1A:3804D080&gt; with
+our alloted budget of &lt;unk17:3804D480&gt; gald.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6479</PointerOffset>
       <JapaneseText>たびたび申し訳ないが、
 新たな展示用の品を
 また落札してきてくれないか？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Sorry for asking you all for help again, but
+could you bid for a new item we can put
+on display?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6502</PointerOffset>
@@ -682,81 +688,88 @@ No</EnglishText>
       <PointerOffset>6622</PointerOffset>
       <JapaneseText>落札してきて欲しい品物は
 「&lt;unk1A:3804D080&gt;」だ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I would like you to bid for &lt;unk1A:3804D080&gt;.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6644</PointerOffset>
       <JapaneseText>予算は
 &lt;unk17:3804D480&gt;ガルドでお願いしたいのだが……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I ask that you obtain it below our alloted
+budget of &lt;unk17:3804D480&gt; gald.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>53</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6666</PointerOffset>
       <JapaneseText>わかったかね？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Do you understand?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>54</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6689</PointerOffset>
       <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;　はい　
 　いいえ　
 　依頼を受けない　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Yes
+No
+Refuse the request</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>55</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6828</PointerOffset>
       <JapaneseText>うむ。頼んだぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Mm-hmm. I'm counting on you.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>56</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6850</PointerOffset>
       <JapaneseText>お金は、品物と引き換えで
 渡すので、心配しないでくれたまえ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'll give you the gald in exchange for the
+item, so don't worry about that front.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6757</PointerOffset>
       <JapaneseText>うむ……
 もう一度言うぞ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hmm...
+Let me repeat it then.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6884</PointerOffset>
       <JapaneseText>そうか……仕方がないな。
 気が変わったらいつでも
 声をかけてくれたまえ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I see...I suppose there's no helping it.
+Let me know if you ever decide to change
+your mind.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>59</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6246</PointerOffset>
@@ -764,21 +777,23 @@ No</EnglishText>
 私の話を聞いては
 くれないだろうか？
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>I perceive that you're a traveler, but would
+you listen to what I have to say?</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>60</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6269</PointerOffset>
       <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;　話を聞く　
 　先を急ぐ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Listen to the curator
+Hurry and move on</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6326</PointerOffset>
@@ -786,11 +801,14 @@ No</EnglishText>
 実は、キョグエンで開催されている
 オークションで、新たな展示用の品を
 落札してきてほしいんだ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ah! Thank you very much.
+Actually, I need you to go to the auction
+in Kyogen and bid on some new items for
+our exhibits.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>6349</PointerOffset>
@@ -809,31 +827,33 @@ No</EnglishText>
 いつでも買い取りたいと
 思っておる。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The museum is always willing to purchase rare
+and unusual items.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1048</PointerOffset>
       <JapaneseText>あんたらは……
 ふむ……むむむ……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You guys...
+Uhh...err...</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1070</PointerOffset>
       <JapaneseText>……別段、珍しいものは
 持っておらんな。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...don't have any rare or unusual items.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
