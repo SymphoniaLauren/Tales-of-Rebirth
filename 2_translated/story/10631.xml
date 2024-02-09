@@ -1174,7 +1174,7 @@ like them.</EnglishText>
 </JapaneseText>
       <EnglishText>...You look similar to a
 wanted woman...</EnglishText>
-      <Notes>Could be "she looks like [...]" depending on the scene</Notes>
+      <Notes>Could be "she looks like [...]" depending on the context - Kaizen</Notes>
       <SpeakerId>19</SpeakerId>
       <Id>81</Id>
       <Status>Problematic</Status>
@@ -1185,7 +1185,7 @@ wanted woman...</EnglishText>
 </JapaneseText>
       <EnglishText>...You look similar to a
 wanted man...</EnglishText>
-      <Notes/>
+      <Notes>Could be "he looks like [...]" depending on the context - Kaizen</Notes>
       <SpeakerId>19</SpeakerId>
       <Id>82</Id>
       <Status>Problematic</Status>
@@ -1202,7 +1202,7 @@ the Gajuma.</EnglishText>
       <Notes/>
       <SpeakerId>19</SpeakerId>
       <Id>83</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9528</PointerOffset>
@@ -1955,22 +1955,22 @@ words and actions.</EnglishText>
       <JapaneseText>行け……
 ここは私が……！
 </JapaneseText>
-      <EnglishText>Go...</EnglishText>
+      <EnglishText>Go... I'll take care...!</EnglishText>
       <Notes>I assume she's saying she will handle everything "here" but I'm not 100% sure, so I marked it as problematic - Kaizen</Notes>
       <SpeakerId>11</SpeakerId>
       <Id>139</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>8085</PointerOffset>
       <JapaneseText>行け……
 ここは私が……！
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Go... I'll take...!</EnglishText>
       <Notes>I assume she's saying she will handle everything "here" but I'm not 100% sure, so I marked it as problematic - Kaizen</Notes>
       <SpeakerId>11</SpeakerId>
       <Id>140</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -2350,7 +2350,7 @@ something happened...</EnglishText>
 何って事もないんだけど……
 </JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>I know what it means but I can't translate it properly - Kaizen</Notes>
       <SpeakerId>9</SpeakerId>
       <Id>170</Id>
       <Status>Problematic</Status>
@@ -2924,8 +2924,9 @@ to Gajuma... Don't forget!</EnglishText>
 ヒューマは家の中にいろ、などと
 偉そうにいいおるが……</JapaneseText>
       <EnglishText>Those Gajuma act like they
-own the place, telling Huma
-to stay at home, </EnglishText>
+own the place. They have the 
+audacity to  tell Huma to stay 
+at home with a bossy tone.</EnglishText>
       <Notes>No idea about the final part - Kaizen</Notes>
       <SpeakerId>22</SpeakerId>
       <Id>215</Id>
@@ -3566,7 +3567,7 @@ any Huma...</EnglishText>
       <JapaneseText>お母さん、しっかりして……
 お母さん……</JapaneseText>
       <EnglishText>Mom, hold on... Mom...</EnglishText>
-      <Notes>"Hold on" doesn't sound completely good imo</Notes>
+      <Notes>"Hold on" doesn't sound completely good in my opinion - Kaizen</Notes>
       <SpeakerId>10</SpeakerId>
       <Id>267</Id>
       <Status>Problematic</Status>
@@ -3684,22 +3685,27 @@ know that feeling as well.</EnglishText>
 機関車に乗るかわりに
 お洋服を買ってもらう
 約束をしたのよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I promised to accompany this 
+person, and in exchange for a 
+ride in the locomotive, I would
+get some new clothes.</EnglishText>
       <Notes/>
       <SpeakerId>24</SpeakerId>
       <Id>276</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>3862</PointerOffset>
       <JapaneseText>お披露目の儀式には、
 すてきなドレスが
 着たいものね。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I want to wear a lovely 
+dress for the inauguration
+ceremony, you know.</EnglishText>
       <Notes/>
       <SpeakerId>24</SpeakerId>
       <Id>277</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -3709,21 +3715,24 @@ know that feeling as well.</EnglishText>
       <JapaneseText>ハハハ……
 お披露目の儀式もいいが、
 私は機関車好きでね……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ha ha ha... The inauguration
+ceremony is ok, but I'm more
+of a locomotive person myself...</EnglishText>
       <Notes/>
       <SpeakerId>24</SpeakerId>
       <Id>278</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3798</PointerOffset>
       <JapaneseText>もう三十回以上も
 乗ってしまったよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I've used it more than
+thirty times, you know.</EnglishText>
       <Notes/>
       <SpeakerId>24</SpeakerId>
       <Id>279</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -3733,21 +3742,24 @@ know that feeling as well.</EnglishText>
       <JapaneseText>アガーテ様がどんな衣装で
 儀式に出席なさるのか、
 それが楽しみで……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm looking forward to what
+outfit will Lady Agarte wear 
+for the ceremony...</EnglishText>
       <Notes/>
       <SpeakerId>24</SpeakerId>
       <Id>280</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3734</PointerOffset>
       <JapaneseText>お披露目の儀式まで
 待ちきれないわ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I can't wait until the
+inauguration ceremony.</EnglishText>
       <Notes/>
       <SpeakerId>24</SpeakerId>
       <Id>281</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -3756,21 +3768,23 @@ know that feeling as well.</EnglishText>
       <PointerOffset>3648</PointerOffset>
       <JapaneseText>いやあ、いつ来ても
 バルカはいいねえ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Well, whenever I come to
+Balka it is always good.</EnglishText>
       <Notes/>
       <SpeakerId>24</SpeakerId>
       <Id>282</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>3670</PointerOffset>
       <JapaneseText>お披露目の儀式が
 楽しみだよ。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I'm looking forward to the
+inauguration ceremony.</EnglishText>
       <Notes/>
       <SpeakerId>24</SpeakerId>
       <Id>283</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -3822,11 +3836,16 @@ No</EnglishText>
 上から見おろす事ができるという、
 プライドが高い人向きのバルコニー。
 見晴らしは決してよくない。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;"The Balcony of Glory"
+A balcony for the proud to look 
+down from above at the monarch 
+when passing through the square
+during the parade of the inauguration 
+ceremony. The view is never good.</EnglishText>
       <Notes/>
       <SpeakerId>25</SpeakerId>
       <Id>287</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -3839,11 +3858,18 @@ No</EnglishText>
 大臣の目を盗んでは、街中にやって来た
 というおてんばな一面を持つ人物で、
 とても人気があった。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;"Statute of Queen Mimana"
+Stone statue of Mimana, fifth
+monarch of Callegea and first
+queen of the kingdom. She was
+clever and very popular, but she 
+also had a tomboyish side who 
+came to town to steal the sight 
+of her minister. </EnglishText>
       <Notes/>
       <SpeakerId>25</SpeakerId>
       <Id>288</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </SceneText>
