@@ -832,7 +832,7 @@
     <Entry>
       <PointerOffset>352696</PointerOffset>
       <JapaneseText>FLAME </JapaneseText>
-      <EnglishText>FIRE </EnglishText>
+      <EnglishText>FLAME </EnglishText>
       <Notes/>
       <Id>104</Id>
       <Status>Editing</Status>
@@ -1256,7 +1256,7 @@
     <Entry>
       <PointerOffset>352920</PointerOffset>
       <JapaneseText>敵の位置、高さによって使い分けてください</JapaneseText>
-      <EnglishText>Vary them based on the enemies height.</EnglishText>
+      <EnglishText>Vary them based on the enemies' height.</EnglishText>
       <Notes/>
       <Id>157</Id>
       <Status>Editing</Status>
@@ -1272,7 +1272,7 @@
     <Entry>
       <PointerOffset>352928</PointerOffset>
       <JapaneseText>&lt;icon:39&gt;で新たに習得していく術技を使用できます</JapaneseText>
-      <EnglishText>Use &lt;icon:39&gt; to perform your newly learned skill.</EnglishText>
+      <EnglishText>Press &lt;icon:39&gt; to perform your newly learned skill.</EnglishText>
       <Notes/>
       <Id>159</Id>
       <Status>Editing</Status>
@@ -1296,7 +1296,7 @@
     <Entry>
       <PointerOffset>352940</PointerOffset>
       <JapaneseText>（右向き時）&lt;icon:3A&gt;&lt;icon:5&gt;でバックステップ</JapaneseText>
-      <EnglishText>(When facing right) Press &lt;icon:3A&gt;&lt;icon:5&gt; to backstep.</EnglishText>
+      <EnglishText>(When facing right) Press &lt;icon:3A&gt;+&lt;icon:5&gt; to backstep.</EnglishText>
       <Notes/>
       <Id>162</Id>
       <Status>Editing</Status>
@@ -1344,7 +1344,7 @@
     <Entry>
       <PointerOffset>352964</PointerOffset>
       <JapaneseText>&lt;icon:3D&gt;を強く押すと戦闘を一時停止して変更可能</JapaneseText>
-      <EnglishText>When pressed down hard, you can pause battle to select a target.</EnglishText>
+      <EnglishText>When held, you can pause battle to select a target.</EnglishText>
       <Notes/>
       <Id>168</Id>
       <Status>Editing</Status>
@@ -1352,7 +1352,7 @@
     <Entry>
       <PointerOffset>352968</PointerOffset>
       <JapaneseText>押してすぐ離すと一番近い敵に自動設定します</JapaneseText>
-      <EnglishText>Pressing and releasing quickly will target the closest enemy.</EnglishText>
+      <EnglishText>A quick tap will target the closest enemy.</EnglishText>
       <Notes/>
       <Id>169</Id>
       <Status>Editing</Status>
@@ -1360,7 +1360,7 @@
     <Entry>
       <PointerOffset>352972</PointerOffset>
       <JapaneseText>&lt;icon:3F&gt;でジャンプ</JapaneseText>
-      <EnglishText>Use &lt;icon:3F&gt; to jump.</EnglishText>
+      <EnglishText>Press &lt;icon:3F&gt; to jump.</EnglishText>
       <Notes/>
       <Id>170</Id>
       <Status>Editing</Status>
@@ -1376,7 +1376,7 @@
     <Entry>
       <PointerOffset>352980</PointerOffset>
       <JapaneseText>押しながら&lt;icon:1C&gt;で作戦を変更できます</JapaneseText>
-      <EnglishText>Press &lt;icon:1C&gt; to change strategy.</EnglishText>
+      <EnglishText>Press &lt;icon:1C&gt; to change strategies.</EnglishText>
       <Notes/>
       <Id>172</Id>
       <Status>Editing</Status>
@@ -1384,7 +1384,7 @@
     <Entry>
       <PointerOffset>352984</PointerOffset>
       <JapaneseText>その間はキャラが隊列位置に集まります</JapaneseText>
-      <EnglishText>While held, characters will return to their formation position.</EnglishText>
+      <EnglishText>While held, characters get in formation.</EnglishText>
       <Notes/>
       <Id>173</Id>
       <Status>Editing</Status>
@@ -1408,7 +1408,7 @@
     <Entry>
       <PointerOffset>352996</PointerOffset>
       <JapaneseText>&lt;Cyan&gt;SEMIAUTO&lt;White&gt;ターゲットへの距離合わせが自動</JapaneseText>
-      <EnglishText>&lt;Cyan&gt;SEMIAUTO&lt;White&gt;: Automatically moves to target.</EnglishText>
+      <EnglishText>&lt;Cyan&gt;SEMIAUTO&lt;White&gt;: Automatically move to target.</EnglishText>
       <Notes/>
       <Id>176</Id>
       <Status>Editing</Status>
@@ -1456,7 +1456,7 @@
     <Entry>
       <PointerOffset>353024</PointerOffset>
       <JapaneseText>&lt;icon:2&gt;&lt;icon:2&gt;で奥へ移動、&lt;icon:3&gt;&lt;icon:3&gt;で手前に移動</JapaneseText>
-      <EnglishText>Press&lt;icon:2&gt;  twice to move back a line, and &lt;icon:3&gt; twice to move up a line.</EnglishText>
+      <EnglishText>Press &lt;icon:2&gt; or &lt;icon:3&gt; twice to switch lines.</EnglishText>
       <Notes/>
       <Id>182</Id>
       <Status>Editing</Status>
@@ -1512,7 +1512,7 @@
     <Entry>
       <PointerOffset>353056</PointerOffset>
       <JapaneseText>&lt;icon:2&gt;&lt;icon:2&gt;で奥へ移動、&lt;icon:3&gt;&lt;icon:3&gt;で手前に移動もできます</JapaneseText>
-      <EnglishText>Press &lt;icon:2&gt; to move back, and &lt;icon:3&gt; twice to move forward.</EnglishText>
+      <EnglishText>Press &lt;icon:2&gt; or &lt;icon:3&gt; twice to switch lines.</EnglishText>
       <Notes/>
       <Id>189</Id>
       <Status>Editing</Status>
@@ -1536,23 +1536,25 @@
     <Entry>
       <PointerOffset>353068</PointerOffset>
       <JapaneseText>バトルブックの敵一覧を見直すのもオススメ</JapaneseText>
-      <EnglishText>It is recommended to consult the enemy list in the Battle Book.</EnglishText>
-      <Notes/>
+      <EnglishText>Read the Battle Book for more info.</EnglishText>
+      <Notes>Space is expensive gomen.
+Consult the battle book about different enemies blah blah blah</Notes>
       <Id>192</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353072</PointerOffset>
       <JapaneseText>敵に攻め込まれないために、隊列は重要です</JapaneseText>
-      <EnglishText>Strategy is important so you do not get surrounded by the enemies.</EnglishText>
-      <Notes/>
+      <EnglishText>Using strategies is important.</EnglishText>
+      <Notes>Using strategies is important so that you don't get surrounded by enemies blah blah blah.
+</Notes>
       <Id>193</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353076</PointerOffset>
       <JapaneseText>体力の低いキャラを護るなど、工夫してみましょう</JapaneseText>
-      <EnglishText>Try to protect characters who have weaker defenses.</EnglishText>
+      <EnglishText>Put weaker characters in safer positions.</EnglishText>
       <Notes/>
       <Id>194</Id>
       <Status>Editing</Status>
