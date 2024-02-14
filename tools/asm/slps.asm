@@ -29,7 +29,7 @@ vm_data_save:
 .word 0
  */
 extra_syscall:
-    nextOpcode,0x1038(a1)
+    sw v0,0x1038(a1)
     /*
     addiu      sp,sp,-0x50
     sq         a0,0(sp)
