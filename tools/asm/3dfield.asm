@@ -22,16 +22,17 @@
     lhu a1, 0xD2(sp)
 
 .org 0x318024
-    jal 0x31EAC8
+    jal custom_code
 	lw	a0,0x69AC(fp)
 
 ; end of rodata
-.org 0x31EAC8
+.org 0x31EAB4
+    custom_code:
     li t3, 0xA00
     subu t3, a1
     sra t3, 0x1
     lw v1, 0xE4(sp)
     addu a1, t3, v1
     jr ra
-
+    nop
 .close
