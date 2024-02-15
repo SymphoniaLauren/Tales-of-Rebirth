@@ -3,6 +3,7 @@
 		"file_path": "${main_exe}",
 		"friendly_name": "SLPS",
 		"is_pak": false,
+		"split_sections": true,
 		"base_offset": 0xFF000,
 		"safe_areas": [
 			// Offsets are from .rodata
@@ -16,7 +17,8 @@
 			[0x218890,0x221810],
 			[0x221B30,0x22C310],
 			[0x22C8C0,0x22C9B8],
-			[0x22CCA0,0x22FA60],
+			[0x22CCA0,0x22DF80],
+			[0x22DFD4,0x22FA60],
 		],
 		"sections": [
 			{
@@ -62,7 +64,7 @@
 				"style": "P"
 			},
 			{
-				"section": "Not sure 1",
+				"section": "Monster Names",
 				"pointers_start": 1061008,
 				"pointers_end": 1061756,
 				"style": "P"
@@ -520,6 +522,7 @@
 			{
 				"file": 5,
 				"friendly_name": "Triangle Menu",
+				"split_sections": false,
 				"base_offset": 0,
 				"safe_areas": [
 					[0x834, 0xFFFFFFFF]
@@ -544,6 +547,7 @@
 			{
 				"file": 0,
 				"friendly_name": "Mini Game 1",
+				"split_sections": false,
 				"base_offset": 0,
 				"safe_areas": [
 					[0x3954, 0xFFFFFFFF]
@@ -561,6 +565,7 @@
 			{
 				"file": 2,
 				"friendly_name": "Mini Game 2",
+				"split_sections": false,
 				"base_offset": 0,
 				"safe_areas": [
 					[0x16C, 0xFFFFFFFF]
@@ -585,6 +590,7 @@
 			{
 				"file": 0,
 				"friendly_name": "Battle Overlay",
+				"split_sections": false,
 				"base_offset": 0x2EF680,
 				"safe_areas": [
 					[0x347560,0x349520],
@@ -742,13 +748,14 @@
 			{
 				"file": 2,
 				"friendly_name": "3dfield Overlay",
+				"split_sections": false,
 				"base_offset": 0x2EF680,
 				"safe_areas": [
 					[0x31E0F0,0x31E26C],
 					[0x31E6A8,0x31E710],
 					[0x31E750,0x31E770],
 					[0x31E800,0x31E850],
-					[0x31EAC0,0x31EB00],
+					[0x31EAD4,0x31EB00],
 				],
 				"sections": [
 					{
@@ -859,6 +866,7 @@
 		"file_path": "./DAT/OVL/11217.ovl",
 		"friendly_name": "mnu_monster",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x2DF470,0x02EBE00],
@@ -907,6 +915,7 @@
 		"file_path": "./DAT/OVL/11230.ovl",
 		"friendly_name": "mnu_grade",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x02DA9E0,0x02DB2E0],
@@ -967,6 +976,7 @@
 		"file_path": "./DAT/OVL/11215.ovl",
 		"friendly_name": "mnu_item",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x02DFB20,0x02DFCB0],
@@ -1010,6 +1020,7 @@
 		"file_path": "./DAT/OVL/11222.ovl",
 		"friendly_name": "mnu_shop",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x02E3AF0,0x02E41E0],
@@ -1028,6 +1039,7 @@
 		"file_path": "./DAT/OVL/11228.ovl",
 		"friendly_name": "mnu_world",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x02E5670,0x02E5D60],
@@ -1043,87 +1055,95 @@
 		"embedded": []
 	},
 	{
-		"file_path": "./DAT/OVL/11225.ovl",
-		"friendly_name": "mnu_sound",
-		"is_pak": false,
-		"base_offset": 0x2D8900,
-		"safe_areas": [
-			[0x02E5670,0x02E5D60],
-		],
-		"sections": [
+		"file_path": "./DAT/PAK1/00021.3.pak1",
+		"is_pak": true,
+		"pak_type": 1,
+		"files": [
 			{
-				"section": "sdmd_bgm_cate_in_name_title",
-				"pointers_start": 0x4068,
-				"pointers_end": 0x40E8,
-				"style": "T64"
-			},
-			{
-				"section": "sdmd_bgm_cate_in_name_field",
-				"pointers_start": 0x40F0,
-				"pointers_end": 0x4230,
-				"style": "T64"
-			},
-			{
-				"section": "sdmd_bgm_cate_in_name_town",
-				"pointers_start": 0x4240,
-				"pointers_end": 0x4740,
-				"style": "T64"
-			},
-			{
-				"section": "sdmd_bgm_cate_in_name_dangeon",
-				"pointers_start": 0x4768,
-				"pointers_end": 0x4A68,
-				"style": "T64"
-			},
-			{
-				"section": "sdmd_bgm_cate_in_name_event",
-				"pointers_start": 0x4A80,
-				"pointers_end": 0x5080,
-				"style": "T64"
-			},
-			{
-				"section": "sdmd_bgm_cate_in_name_battle",
-				"pointers_start": 0x50B0,
-				"pointers_end": 0x5430,
-				"style": "T64"
-			},
-			{
-				"section": "sdmd_bgm_cate_in_name_minigame",
-				"pointers_start": 0x5450,
-				"pointers_end": 0x5590,
-				"style": "T64"
-			},
-			{
-				"section": "sdmd_vsce_cate_name",
-				"pointers_start": 0x55E0,
-				"pointers_end": 0x5D00,
-				"style": "T32"
-			},
-			{
-				"section": "sdmd_vcht_cate_name",
-				"pointers_start": 0xE6C0,
-				"pointers_end": 0xEA30,
-				"style": "T16"
-			},
-			{
-				"section": "sdmd_vbtl_cate_name",
-				"pointers_start": 0xFFF8,
-				"pointers_end": 0x101F8,
-				"style": "T16"
-			},
-			{
-				"section": "sdmd_se_cate_name",
-				"pointers_start": 0x112F0,
-				"pointers_end": 0x11320,
-				"style": "T16"
-			},
-		],
-		"embedded": []
+				"file": 2,
+				"friendly_name": "mnu_sound",
+				"split_sections": false,
+				"base_offset": 0x2D8900,
+				"safe_areas": [
+					[0x02E5670,0x02E5D60],
+				],
+				"sections": [
+					{
+						"section": "sdmd_bgm_cate_in_name_title",
+						"pointers_start": 0x4068,
+						"pointers_end": 0x40E8,
+						"style": "T64"
+					},
+					{
+						"section": "sdmd_bgm_cate_in_name_field",
+						"pointers_start": 0x40F0,
+						"pointers_end": 0x4230,
+						"style": "T64"
+					},
+					{
+						"section": "sdmd_bgm_cate_in_name_town",
+						"pointers_start": 0x4240,
+						"pointers_end": 0x4740,
+						"style": "T64"
+					},
+					{
+						"section": "sdmd_bgm_cate_in_name_dangeon",
+						"pointers_start": 0x4768,
+						"pointers_end": 0x4A68,
+						"style": "T64"
+					},
+					{
+						"section": "sdmd_bgm_cate_in_name_event",
+						"pointers_start": 0x4A80,
+						"pointers_end": 0x5080,
+						"style": "T64"
+					},
+					{
+						"section": "sdmd_bgm_cate_in_name_battle",
+						"pointers_start": 0x50B0,
+						"pointers_end": 0x5430,
+						"style": "T64"
+					},
+					{
+						"section": "sdmd_bgm_cate_in_name_minigame",
+						"pointers_start": 0x5450,
+						"pointers_end": 0x5590,
+						"style": "T64"
+					},
+					{
+						"section": "sdmd_vsce_cate_name",
+						"pointers_start": 0x55E0,
+						"pointers_end": 0x5D00,
+						"style": "T32"
+					},
+					{
+						"section": "sdmd_vcht_cate_name",
+						"pointers_start": 0xE6C0,
+						"pointers_end": 0xEA30,
+						"style": "T16"
+					},
+					{
+						"section": "sdmd_vbtl_cate_name",
+						"pointers_start": 0xFFF8,
+						"pointers_end": 0x101F8,
+						"style": "T16"
+					},
+					{
+						"section": "sdmd_se_cate_name",
+						"pointers_start": 0x112F0,
+						"pointers_end": 0x11320,
+						"style": "T16"
+					},
+				],
+				"embedded": []
+			}
+		]
 	},
 	{
 		"file_path": "./DAT/BIN/11190.1.bin",
 		"friendly_name": "Synopsis",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x0,
 		"safe_areas": [
 			[0x0B14,0xFFFFFFFF],
@@ -1142,6 +1162,7 @@
 		"file_path": "./DAT/BIN/11191.3.bin",
 		"friendly_name": "Character Bios",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x0,
 		"safe_areas": [
 			[0x84,0xFFFFFFFF],
@@ -1160,6 +1181,7 @@
 		"file_path": "./DAT/OVL/00017.ovl",
 		"friendly_name": "Title",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x2EF680,
 		"safe_areas": [
 			[0x02F26C8,0x02F2708],
@@ -1176,6 +1198,7 @@
 		"file_path": "./DAT/OVL/00020.ovl",
 		"friendly_name": "Ending",
 		"is_pak": false,
+		"split_sections": false,
 		"base_offset": 0x2EF680,
 		"safe_areas": [
 			[0x02F9928,0x02FBB80],
