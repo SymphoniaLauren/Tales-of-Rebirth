@@ -1,0 +1,2931 @@
+<MenuText>
+  <Strings>
+    <Section>btlbook_str</Section>
+    <Entry>
+      <PointerOffset>20624</PointerOffset>
+      <JapaneseText>ＬＶ（レベル）</JapaneseText>
+      <EnglishText>LV (Level)</EnglishText>
+      <Notes/>
+      <Id>205</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20628</PointerOffset>
+      <JapaneseText>キャラレベル</JapaneseText>
+      <EnglishText>Character Level</EnglishText>
+      <Notes/>
+      <Id>206</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20636</PointerOffset>
+      <JapaneseText>キャラクターの強さの目安。
+経験値がたまるとＬＶアップします。
+敵に勝利する事で
+経験値を得る事ができます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>207</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20644</PointerOffset>
+      <JapaneseText>ＨＰ（ヒットポイント）</JapaneseText>
+      <EnglishText>HP (Hit Points)</EnglishText>
+      <Notes/>
+      <Id>208</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20648</PointerOffset>
+      <JapaneseText>ＨＰ</JapaneseText>
+      <EnglishText>HP</EnglishText>
+      <Notes/>
+      <Id>209</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20652,20692</PointerOffset>
+      <JapaneseText>回復力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>210</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20656</PointerOffset>
+      <JapaneseText>キャラクターの体力の事。
+敵から攻撃を受けると減り、
+術技やアイテムで回復します。
+０になると戦闘不能になります。
+戦闘不能状態を回復するには
+ライフボトルや料理が必要です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>211</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20664</PointerOffset>
+      <JapaneseText>ＲＧ（ラッシュゲージ）</JapaneseText>
+      <EnglishText>RG (Rush Gauge)</EnglishText>
+      <Notes/>
+      <Id>212</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20668</PointerOffset>
+      <JapaneseText>ＲＧ</JapaneseText>
+      <EnglishText>RG</EnglishText>
+      <Notes/>
+      <Id>213</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20676</PointerOffset>
+      <JapaneseText>０～１００まであり、
+少ないほどＨＰの回復量が高まり、
+防御力も上がります。
+ＲＧが多いほど、攻撃ヒット時の
+敵のＲＧの増減が激しくなり、
+自らの攻撃力が上がります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>214</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20684</PointerOffset>
+      <JapaneseText>ＦＧ（フォルスゲージ）</JapaneseText>
+      <EnglishText>FG (Force Gauge)</EnglishText>
+      <Notes/>
+      <Id>215</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20688</PointerOffset>
+      <JapaneseText>ＦＧ</JapaneseText>
+      <EnglishText>FG</EnglishText>
+      <Notes/>
+      <Id>216</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20696</PointerOffset>
+      <JapaneseText>前、後、上、下の四方向に
+対応した術技用のゲージ。
+セットした術技はいつでも使う事が
+可能で、ＦＧがたまっている時に
+最大限の能力を発揮します。
+操作：&lt;icon:10&gt;＋&lt;icon:41&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>217</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20704</PointerOffset>
+      <JapaneseText>斬撃攻撃力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>218</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20716</PointerOffset>
+      <JapaneseText>武器攻撃での斬撃による攻撃力。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>219</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20724</PointerOffset>
+      <JapaneseText>打撃攻撃力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>220</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20736</PointerOffset>
+      <JapaneseText>武器攻撃での打撃による攻撃力。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>221</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20744</PointerOffset>
+      <JapaneseText>術攻撃力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>222</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20756</PointerOffset>
+      <JapaneseText>導術攻撃、または術力のこもった
+武器の攻撃力。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>223</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20764</PointerOffset>
+      <JapaneseText>斬撃防御力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>224</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20776</PointerOffset>
+      <JapaneseText>刃物・ひっかきなどの
+武器による斬撃を受けた時の
+ダメージ軽減力。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>225</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20784</PointerOffset>
+      <JapaneseText>打撃防御力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>226</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20796</PointerOffset>
+      <JapaneseText>殴打・衝撃などの打撃を
+受けた時のダメージ軽減力。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>227</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20804</PointerOffset>
+      <JapaneseText>術防御力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>228</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20816</PointerOffset>
+      <JapaneseText>導術攻撃、術力のこもった攻撃を
+受けた時のダメージ軽減力。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>229</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20824</PointerOffset>
+      <JapaneseText>ＨＰ回復力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>230</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20836</PointerOffset>
+      <JapaneseText>戦闘中のＨＰ回復量を
+あらわす値の事。
+この値が高いほど、ＨＰ回復の
+度合いが大きくなります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>231</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20844</PointerOffset>
+      <JapaneseText>ＦＧ回復力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>232</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20856</PointerOffset>
+      <JapaneseText>戦闘中のＦＧ自動回復量を
+あらわす値の事。
+この値が高いほど、ＦＧ回復の
+度合いが大きくなります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>233</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20864</PointerOffset>
+      <JapaneseText>経験値</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>234</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20876</PointerOffset>
+      <JapaneseText>戦闘する事で得られる
+戦闘経験の目安。
+経験値がたまるとＬＶが上がり
+各キャラクターの能力が
+強化されます。
+敵が強いと感じた時は、
+弱めの敵と戦って経験値を
+ためてみましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>235</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20884</PointerOffset>
+      <JapaneseText>鋼体・鋼体時間</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>236</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20896</PointerOffset>
+      <JapaneseText>敵からの攻撃にひるまず、
+攻撃を継続できる時間の事。
+この能力がある特技は
+混戦中にも出し切る事ができる
+長所がありますが、ダメージは
+受けるので注意が必要です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>237</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20904</PointerOffset>
+      <JapaneseText>フォルスキューブ</JapaneseText>
+      <EnglishText>Force Cube</EnglishText>
+      <Notes/>
+      <Id>238</Id>
+      <Status>Editing</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20916</PointerOffset>
+      <JapaneseText>フォルスが具現化したもの。
+各頂点には成長能力が秘められて
+おり、フォルスキューブを
+セットする事で使用する術技を
+成長させられます。
+メニュー：術技
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>239</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20924</PointerOffset>
+      <JapaneseText>特技</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>240</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20936</PointerOffset>
+      <JapaneseText>武器による強化攻撃。
+特技で敵にとどめを刺すと
+「スマッシュポイント」を得られます。
+特技は通常攻撃から、
+連携する事ができます。
+操作：&lt;icon:1F&gt;＋&lt;icon:41&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>241</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20944</PointerOffset>
+      <JapaneseText>導術</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>242</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20956</PointerOffset>
+      <JapaneseText>詠唱行動を経て、遠くの敵にも
+攻撃できる攻撃術の事です。
+必ず　地・水・火・風・光・闇の
+属性がつき、術によっては
+ふたつの属性を持っています。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>243</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20964</PointerOffset>
+      <JapaneseText>陣術</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>244</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20976</PointerOffset>
+      <JapaneseText>地面に「弧法陣」を描き、
+円の範囲内の味方、
+あるいは敵に影響を与える術。
+ＨＰの回復能力も備えています。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>245</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20984</PointerOffset>
+      <JapaneseText>錬術</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>246</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>20996</PointerOffset>
+      <JapaneseText>自分の能力を強化したり、
+味方の助けになる効力を持つ、
+特技や術の事。
+フォルスキューブによる
+強化はせず、
+ＦＧがたまった状態でないと
+使用できませんが、
+多彩な戦術の助けになり、
+特定の状態異常を防止するなど、
+様々な副次効果があります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>247</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21004</PointerOffset>
+      <JapaneseText>奥義</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>248</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21012</PointerOffset>
+      <JapaneseText>発動</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>249</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21016</PointerOffset>
+      <JapaneseText>術技の強化攻撃。
+術技の上位派生であり、
+単体でのセットはできません。
+「術技」メニューから
+奥義習得が可能です。
+操作：&lt;icon:1F&gt;＋&lt;icon:41&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>250</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21024</PointerOffset>
+      <JapaneseText>1 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>251</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21036,21056,21076,21096,21796,21816,21836,21856,21876,21896,22316,22476,22576,22596,22616,22776,22796,23416,23436,23456,23476</PointerOffset>
+      <JapaneseText> </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>252</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21044</PointerOffset>
+      <JapaneseText>2 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>253</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21064</PointerOffset>
+      <JapaneseText>3 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>254</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21084</PointerOffset>
+      <JapaneseText>4 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>255</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21104</PointerOffset>
+      <JapaneseText>操作一覧</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>256</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21116</PointerOffset>
+      <JapaneseText>&lt;icon:40&gt;：通常攻撃
+&lt;icon:41&gt;：術技
+&lt;icon:3A&gt;：防御
+&lt;icon:43&gt;：戦闘メニュー
+&lt;icon:11&gt;&lt;icon:11&gt;：奥ライン移動
+&lt;icon:12&gt;&lt;icon:12&gt;：手前ライン移動
+&lt;icon:3D&gt;：ターゲット変更
+&lt;icon:3C&gt;：作戦変更
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>257</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21124</PointerOffset>
+      <JapaneseText>通常攻撃</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>258</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21136</PointerOffset>
+      <JapaneseText>武器を振るう攻撃方法。
+ゲージなどに関係なく出せます。
+（右向き時）
+&lt;icon:11&gt;＋&lt;icon:40&gt;：空中の敵に対応できる。
+&lt;icon:D&gt;＋&lt;icon:40&gt;：リーチが長い攻撃を放つ。
+&lt;icon:12&gt;＋&lt;icon:40&gt;：低い敵に対応できる。
+攻撃は何度か連続して出す事が
+できます。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>259</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21144</PointerOffset>
+      <JapaneseText>防御</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>260</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21152</PointerOffset>
+      <JapaneseText>力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>261</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21156</PointerOffset>
+      <JapaneseText>ダメージを軽減し、
+のけぞりを防ぐ行動。
+攻撃と防御のバランスを
+うまくとることが
+勝利への近道です。
+操作：&lt;icon:3A&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>262</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21164</PointerOffset>
+      <JapaneseText>前進防御</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>263</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21176</PointerOffset>
+      <JapaneseText>防御状態から踏み込み、ダメージを
+最小限に軽減する行動。
+ＦＧも同時に回復します。
+操作：&lt;icon:3A&gt;＋&lt;icon:18&gt;（右向き時）
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>264</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21184</PointerOffset>
+      <JapaneseText>バックステップ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>265</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21196</PointerOffset>
+      <JapaneseText>瞬時に後方へステップし、
+敵の攻撃をかわす操作。
+ＲＧも減ります。
+操作：&lt;icon:3A&gt;＋&lt;icon:14&gt;（右向き時）
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>266</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21204</PointerOffset>
+      <JapaneseText>奥ライン移動</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>267</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21216</PointerOffset>
+      <JapaneseText>画面奥のラインフィールドへ
+移動し、敵の攻撃をかわしたり
+誘い込む移動方法。
+操作：&lt;icon:11&gt;&lt;icon:11&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>268</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21224</PointerOffset>
+      <JapaneseText>手前ライン移動</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>269</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21236</PointerOffset>
+      <JapaneseText>画面手前のラインフィールドへ
+移動し、敵の攻撃をかわしたり
+誘い込む移動方法。
+操作：&lt;icon:12&gt;&lt;icon:12&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>270</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21244</PointerOffset>
+      <JapaneseText>戦闘メニュー</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>271</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21256</PointerOffset>
+      <JapaneseText>戦闘中に装備を変更したり、
+アイテムを使用するために開く
+専用メニュー。
+操作：&lt;icon:43&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>272</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21264</PointerOffset>
+      <JapaneseText>ターゲット変更</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>273</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21276</PointerOffset>
+      <JapaneseText>攻撃目標「ターゲット」を
+変更する事。
+操作：&lt;icon:3D&gt;＋&lt;icon:1F&gt;
+　&lt;icon:3D&gt;を強く押し込むと
+　ゲーム時間を停止できます。
+　&lt;icon:45&gt;をクリックすると、
+　近い敵に自動変更されます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>274</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21284</PointerOffset>
+      <JapaneseText>作戦変更</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>275</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21296</PointerOffset>
+      <JapaneseText>パーティ全体の作戦行動を
+変更する事。
+操作：&lt;icon:3C&gt;＋&lt;icon:D&gt;（離した時点で決定）
+　押している間はオートキャラが
+　隊列位置へ移動します。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>276</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21304</PointerOffset>
+      <JapaneseText>ポーズ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>277</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21316</PointerOffset>
+      <JapaneseText>　戦闘中にSTARTボタンを押して
+ゲーム時間を一時停止させる事。
+もう一回押すと再開します。
+操作：STARTボタン
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>278</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21324</PointerOffset>
+      <JapaneseText>プレイヤー操作変更</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>279</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21336</PointerOffset>
+      <JapaneseText>戦闘中にプレイヤー操作の方法を
+表示・変更する事ができます。
+&lt;color:2040A0A0&gt;[MANUAL]：&lt;color:80000000&gt;
+　上級者向け操作方法
+&lt;color:2040A0A0&gt;[SEMIAUTO]：&lt;color:80000000&gt;
+　攻撃ボタンを押すと、自動で
+　移動してからターゲットに攻撃。
+&lt;color:2040A0A0&gt;[AUTO]：&lt;color:80000000&gt;
+　完全に自動操作
+操作：SELECTボタン
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>280</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21344</PointerOffset>
+      <JapaneseText>方向キーでのターゲット設定</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>281</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21356</PointerOffset>
+      <JapaneseText>&lt;icon:D&gt;を押しながら&lt;icon:40&gt;OR&lt;icon:41&gt;：
+　その方向のライン上に敵がいたら
+　その敵をターゲットにする。
+設定したターゲットを狙う場合は
+&lt;icon:D&gt;を押さずに&lt;icon:40&gt;OR&lt;icon:41&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>282</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21364</PointerOffset>
+      <JapaneseText>逃走</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>283</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21376</PointerOffset>
+      <JapaneseText>戦闘中、敵から逃げて
+生き延びる方法。
+画面端に壁などがあると、
+その方向には逃げられない
+場合があり、
+イベント戦闘では逃げられない
+場合もあります。
+操作：戦闘フィールド左端で&lt;icon:5&gt;
+　　　　戦闘フィールド右端で&lt;icon:9&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>284</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21384</PointerOffset>
+      <JapaneseText>術技</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>285</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21396</PointerOffset>
+      <JapaneseText>ＦＧに対応した特技・導術などの事。
+術技メニューから習得した術技を
+四つまでセットでき、戦闘中に
+対応した方向キーと&lt;icon:41&gt;を押す事で
+発動できます。
+ＦＧがたまっている時に
+使用すれば、
+自分や仲間のＨＰが回復したり、
+より高いダメージを与える事が
+できます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>286</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21404</PointerOffset>
+      <JapaneseText>ラッシュチャージ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>287</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21416</PointerOffset>
+      <JapaneseText>任意にＲＧを上げるアクション。
+&lt;color:2040A0A0&gt;チャージ後の攻撃はガード不能。&lt;color:80000000&gt;
+こちらのＲＧが低いと、ガードする
+敵もいますが、そんな敵には
+大変有効な手段となります。
+
+操作：&lt;icon:3A&gt;＋&lt;icon:11&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>288</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21424</PointerOffset>
+      <JapaneseText>クールチャージ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>289</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21436</PointerOffset>
+      <JapaneseText>任意にＲＧを下げるアクション。
+&lt;color:2040A0A0&gt;チャージ後の攻撃はガード不能。&lt;color:80000000&gt;
+こちらのＲＧが高いと、ガードする
+敵もいますが、そんな敵には
+大変有効な手段となります。
+
+操作：&lt;icon:3A&gt;＋&lt;icon:12&gt;
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>290</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21444</PointerOffset>
+      <JapaneseText>ラインフィールド</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>291</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21456</PointerOffset>
+      <JapaneseText>戦闘フィールドを３段階の奥行きで
+区切ったもの。　３ラインあり、
+自由に移動する事ができます。
+&lt;icon:11&gt;&lt;icon:11&gt;で奥へ
+&lt;icon:12&gt;&lt;icon:12&gt;で手前へ
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>292</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21464</PointerOffset>
+      <JapaneseText>戦闘テクニック</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>293</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21476</PointerOffset>
+      <JapaneseText>この欄では、
+キャラレベルが上がる度に
+読む事ができる項目が増えて
+いきます。
+戦闘に苦戦している方は、
+チェックしてみましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>294</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21484</PointerOffset>
+      <JapaneseText>セミオートについて</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>295</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21496</PointerOffset>
+      <JapaneseText>セミオート操作では、ボタンを
+押さずに待機している間に
+攻撃を受けると、プレイキャラが
+自動で防御します。
+また、セミオートに限らず、常に
+近くのターゲットを狙いたい場合は
+攻撃前に&lt;icon:45&gt;を短く押す
+習慣をつけてみましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>296</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21504</PointerOffset>
+      <JapaneseText>連携</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>297</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21516</PointerOffset>
+      <JapaneseText>攻撃中に別の攻撃を入力すると、
+硬直時間を経ずに、
+次の攻撃を行える場合があります。
+基本は　通常攻撃＋特技　です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>298</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21524</PointerOffset>
+      <JapaneseText>連続ヒット</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>299</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21536</PointerOffset>
+      <JapaneseText>連携をうまく使うと、
+敵のダメージ中に、連続して
+ダメージを与える事ができます。
+これを重ねると
+「連続ヒット」として画面右上に
+ヒット数が表示され、連続ヒットが
+一定数を超えると、
+ＥＰにボーナスが入ります。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>300</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21544</PointerOffset>
+      <JapaneseText>テクニカルスマッシュ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>301</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21556</PointerOffset>
+      <JapaneseText>連携など、ステキな方法で
+敵を倒すと、画面左上に
+&lt;color:2040A0A0&gt;「ＴＥＣＨＮＩＣＡＬ　ＳＭＡＳＨ！」&lt;color:80000000&gt;
+と表示され、アイテム入手確率が
+上がります。
+そのほかにもスマッシュポイントに
+ボーナスがもらえたりしますので、
+いろいろ試してみましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>302</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21564</PointerOffset>
+      <JapaneseText>ＨＰの回復方法</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>303</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21568</PointerOffset>
+      <JapaneseText>ＨＰの回復</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>304</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21576</PointerOffset>
+      <JapaneseText>・ＦＧがたまっている状態で
+　術技を使用する。
+・敵を撃破する。
+・回復アイテムを使う。
+・弧法陣内に入る。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>305</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21584</PointerOffset>
+      <JapaneseText>戦闘でのＨＰテクニック</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>306</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21596</PointerOffset>
+      <JapaneseText>「ＨＰが減ってからどう回復するか」
+よりも
+「どうやってＨＰを多めに保つか」
+という点に気をつけて操作し、
+作戦の組み方と切り替え方を
+いろいろ試しながら、
+戦闘してみましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>307</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21604</PointerOffset>
+      <JapaneseText>ＦＧの回復方法</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>308</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21616</PointerOffset>
+      <JapaneseText>・通常攻撃。
+・敵を撃破する。
+・回復アイテムを使う。
+・時間経過による自然回復。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>309</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21624</PointerOffset>
+      <JapaneseText>ＲＧの上昇方法</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>310</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21636</PointerOffset>
+      <JapaneseText>・攻撃をヒットさせる。
+・導術を当てる。
+・ガードされる。
+・攻撃を受ける。
+・バーストボトルを使用する。
+・ラッシュチャージ。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>311</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21644</PointerOffset>
+      <JapaneseText>ＲＧの減少方法</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>312</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21656</PointerOffset>
+      <JapaneseText>・待機・防御。
+・バックステップ・ライン移動。
+・敵の攻撃をガードするたび。
+・クールチャージ。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>313</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21664</PointerOffset>
+      <JapaneseText>敵が強い</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>314</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21676</PointerOffset>
+      <JapaneseText>・敵が防御していない時を狙って
+　攻撃を仕掛けてみましょう。
+・強い武具を買って装備したり、
+　武具をエンハンスによって
+　強化・育成してみましょう。
+難易度の変更：メニュー「カスタム」</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>315</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21684</PointerOffset>
+      <JapaneseText>敵が弱い</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>316</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21696</PointerOffset>
+      <JapaneseText>・難易度を上げたり、連続ヒットを
+　狙ったりして楽しみましょう。
+・難易度を上げて武具を鍛えると、
+　珍しい効果がつくことが
+　あるかも知れません。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>317</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21704</PointerOffset>
+      <JapaneseText>敵のＲＧをチェック</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>318</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21716</PointerOffset>
+      <JapaneseText>連続ヒットを狙っている時や
+防御されずに敵を倒したい時は
+より戦略的に、敵のＲＧを
+チェックしましょう。
+ターゲットマークに重なっている
+赤い三角がＲＧ量を表していて、
+９０を超えると光り出すので、
+ＲＧを減らす攻撃を仕掛けたり、
+高く浮かせる攻撃を使ったり
+してみましょう。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>319</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21724</PointerOffset>
+      <JapaneseText>フォルスキューブの★</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>320</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21736</PointerOffset>
+      <JapaneseText>フォルスキューブのレベルは、
+★がつくカウント、★の総数に
+影響される何かなど、いくつかの
+秘密があるようです。
+全ての頂点を育ててみては？
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>321</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21744</PointerOffset>
+      <JapaneseText>属性因子</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>322</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21756</PointerOffset>
+      <JapaneseText>自然界に起こる現象・象徴を
+分類分けしたもの。
+地、風、火、水、光、闇があり、
+地と風が相反関係、
+火と水が相反関係、
+光と闇が相反関係にあります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>323</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21764</PointerOffset>
+      <JapaneseText>敵の耐性種別</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>324</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21768</PointerOffset>
+      <JapaneseText>耐性</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>325</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21776</PointerOffset>
+      <JapaneseText>各属性攻撃をヒットさせた時、
+敵のダメージ、対処が変化する
+場合があります。
+弱点：通常の１．５倍ダメージ
+鋼体：０．７５倍のダメージになり、
+　　　　のけぞらない。
+半減：０．５倍のダメージ。
+防御：０．２５倍のダメージで防御。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>326</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21784</PointerOffset>
+      <JapaneseText>5 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>327</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21804</PointerOffset>
+      <JapaneseText>6 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>328</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21824</PointerOffset>
+      <JapaneseText>7 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>329</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21844</PointerOffset>
+      <JapaneseText>8 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>330</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21864</PointerOffset>
+      <JapaneseText>9 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>331</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21884</PointerOffset>
+      <JapaneseText>10 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>332</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21904</PointerOffset>
+      <JapaneseText>エンハンスの流れ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>333</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21916</PointerOffset>
+      <JapaneseText>１．戦って武具を強化。
+　
+２．鍛えていくと潜在能力がつきます。
+　
+３．街に新しい武具を見つけたら
+　　買い換えて継承しましょう。
+　
+４．それを繰り返すことで
+　　未知の効果を見つけましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>334</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21924</PointerOffset>
+      <JapaneseText>エンハンス</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>335</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21936</PointerOffset>
+      <JapaneseText>武具強化システムの総称。
+武具強化を重ねる事で戦力を上げ、
+潜在能力が覚醒します。
+育てた武器は継承を繰り返す事で
+新たな効果を生む可能性を無限に
+広げる事ができます。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>336</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21944</PointerOffset>
+      <JapaneseText>ＥＰ（エンハンスポイント）</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>337</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21948</PointerOffset>
+      <JapaneseText>ＥＰ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>338</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21956</PointerOffset>
+      <JapaneseText>戦闘に勝利すると戦闘参加キャラの
+武器、防具に数ポイントずつ
+加算されていきます。
+まずは、１５以上のポイントを
+ためる事で武具強化を行えます。
+取得ポイントは連続ヒットを上げると
+ボーナスがつく事もあります。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>339</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21964</PointerOffset>
+      <JapaneseText>消費ＥＰ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>340</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21976</PointerOffset>
+      <JapaneseText>一回のエンハンスに必要な
+ＥＰの値。
+エンハンスを行うと、
+その分が消費されます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>341</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21984</PointerOffset>
+      <JapaneseText>武具強化方法</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>342</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>21996</PointerOffset>
+      <JapaneseText>メニュー：エンハンス
+１．武具を選ぶ。
+２．強化能力を選ぶ。
+３．最終確認。
+消費ＥＰは、エンハンスを行う度に
+１ポイントずつ増えていきますので
+鍛える順番も重要です。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>343</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22004</PointerOffset>
+      <JapaneseText>戦闘終了時にチェック</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>344</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22016</PointerOffset>
+      <JapaneseText>戦闘終了時の勝利画面の
+&lt;color:2040A0A0&gt;ENHANCE EXECUTABLE!
+&lt;color:80000000&gt;はエンハンス実行可能のお知らせ。
+ＨＰ表示の上にトンカチマークが
+出たら、そのキャラクターの
+装備武具をエンハンスできます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>345</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22024</PointerOffset>
+      <JapaneseText>武具強化レベル上限</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>346</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22036</PointerOffset>
+      <JapaneseText>初期武具は３段階強化可能。
+ランクの高い武具になると
+最大レベルが増える場合があり、
+継承効果によって増える可能性
+もあります。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>347</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22044</PointerOffset>
+      <JapaneseText>強化能力一覧</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>348</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22048</PointerOffset>
+      <JapaneseText>強化能力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>349</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22056</PointerOffset>
+      <JapaneseText>斬撃攻撃力／斬撃防御力
+打撃攻撃力／打撃防御力
+術攻撃力　　／術防御力
+ＦＧ回復力／ＨＰ回復力
+　
+潜在能力が発現すると
+覚醒率も強化できます。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>350</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22064</PointerOffset>
+      <JapaneseText>潜在能力</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>351</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22076</PointerOffset>
+      <JapaneseText>武具に秘められた効果。
+エンハンスを繰り返すと覚醒し、
+戦闘中に一定確率（覚醒率）で
+発動する事ができます。
+武具の覚醒回数が増えると、
+今までにはなかった効果が覚醒
+するので、回数をこなしましょう。
+「武具潜在能力一覧」で、取得した
+潜在能力を確認できます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>352</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22084</PointerOffset>
+      <JapaneseText>覚醒率</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>353</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22096</PointerOffset>
+      <JapaneseText>潜在能力の発動確率。
+潜在能力によって覚醒率の
+平均値は決まっていますが、
+武具により誤差があり、
+ごくまれに、覚醒率が非常に高い
+武具が見つかるかもしれません。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>354</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22104</PointerOffset>
+      <JapaneseText>武具継承</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>355</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22108</PointerOffset>
+      <JapaneseText>継承</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>356</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22112</PointerOffset>
+      <JapaneseText>効果</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>357</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22116</PointerOffset>
+      <JapaneseText>エンハンスした武具を失うのと
+引き換えに、鍛えた力を転化し
+新しい武具に付与する事。
+鍛えた武具を
+&lt;color:2040A0A0&gt;未強化・未継承の武具&lt;color:80000000&gt;に
+付与する事で、新しい武具に
+強化能力が付加されたり、
+ＥＰにボーナスがついたりします。
+継承は、
+&lt;color:2040A0A0&gt;特定の武器屋・防具屋でのみ可能
+&lt;color:80000000&gt;です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>358</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22124</PointerOffset>
+      <JapaneseText>継承効果</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>359</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22136</PointerOffset>
+      <JapaneseText>武具を継承する時に発現する
+様々な効果の事。
+武具能力をより引き出すのを始め、
+武具の形状変化すら起こります。
+効果量は継承元武具の
+・エンハンス回数
+・エンハンス項目
+が大きく影響し、継承を行った
+回数が大きいほど
+稀有な効果を期待できます。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>360</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22144</PointerOffset>
+      <JapaneseText>名前をつけましょう</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>361</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22156</PointerOffset>
+      <JapaneseText>武器・防具屋のメニューから
+「名称変更」を選ぶ事で、
+&lt;color:2040A0A0&gt;潜在能力が覚醒した武具&lt;color:80000000&gt;に
+自分好みの名前をつけられます。
+継承を行う際には、
+名前も引き継げます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>362</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22164</PointerOffset>
+      <JapaneseText>武具の所持上限</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>363</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22176</PointerOffset>
+      <JapaneseText>武器・防具それぞれ、
+ひとりにつき１０個までです。
+持ちきれない場合があると
+困りますので、不要な武具は
+早めに継承するか、
+売却するようにしましょう。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>364</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22184</PointerOffset>
+      <JapaneseText>フォルスキューブ強化の流れ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>365</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22196</PointerOffset>
+      <JapaneseText>１．フォルスキューブを
+　　回転させましょう。
+　
+２．気に入った強化項目に
+　　合わせましょう。
+　
+３．戦闘で術技を使いましょう。
+　
+４．フォルスキューブが強化されます。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>366</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22204</PointerOffset>
+      <JapaneseText>フォルスキューブとは</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>367</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22216</PointerOffset>
+      <JapaneseText>フォルスにより繰り出される
+術技は、フォルスの力を通じて、
+能力を強化できます。
+それをイメージ化したものが
+フォルスキューブであり、
+立方体の八頂点に対応した能力強化
+をセットする事ができます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>368</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22224</PointerOffset>
+      <JapaneseText>フォルスキューブの強化方法</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>369</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22236</PointerOffset>
+      <JapaneseText>正面に表示される四頂点の配置が、
+術技セット位置に対応し、
+セット位置の術技を
+ＦＧがたまっている時にヒット
+させるとカウントが１増えます。
+カウントが一定値を超えると
+★がつき、対応する術技の
+能力が強化されます。
+カウントを更に増やせば、
+最大４レベルまで強化可能です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>370</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22244</PointerOffset>
+      <JapaneseText>フォルスキューブの回転方法</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>371</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22256</PointerOffset>
+      <JapaneseText>・術技メニュー
+　右スティックを操作する事で
+　フォルスキューブを回転し、
+　強化項目を変更可能です。
+・上下方向に倒すと１８０度回転。
+・左右方向に倒すと正面回転。
+・斜め方向に倒すと９０度回転。
+各方向に倒し続けるのがポイント。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>372</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22264</PointerOffset>
+      <JapaneseText>強化能力の注意点</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>373</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22276</PointerOffset>
+      <JapaneseText>・強化する術技は
+　頂点に対応する位置のみ。
+　全て同じ術技をセットしても
+　各方向で性能が変わります。
+・戦闘中は回転できません。
+・特技、導術、陣術で強化項目が
+　異なります。
+・特技、導術は敵に当てる事で
+　カウントされます。
+・操作キャラ以外のキューブも
+　忘れずにセットしましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>374</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22284</PointerOffset>
+      <JapaneseText>錬術とフォルスキューブ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>375</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22296</PointerOffset>
+      <JapaneseText>錬術はフォルスキューブによる
+セット位置の頂点は暗転表示され、
+能力強化は行われませんが、
+錬術使用によってカウントは
+加算されます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>376</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22304</PointerOffset>
+      <JapaneseText>11 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>377</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22324</PointerOffset>
+      <JapaneseText>奥義習得の流れ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>378</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22336</PointerOffset>
+      <JapaneseText>１．術技で敵を倒して
+　スマッシュポイントを
+　ためましょう。
+２．ＬＶとスマッシュポイントが
+　たまったら奥義を習得しましょう。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>379</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22344</PointerOffset>
+      <JapaneseText>奥義習得</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>380</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22356</PointerOffset>
+      <JapaneseText>奥義とは術技の派生・強化版で、
+習得するには
+・キャラレベルを上げる。
+・派生元の術技で敵を倒す事で
+　スマッシュポイント獲得。
+・メニュー&lt;Yellow&gt;「術技」&lt;color:80000000&gt;から
+　ふたつの術技の
+　スマッシュポイントを
+　消費して奥義を習得する。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>381</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22364</PointerOffset>
+      <JapaneseText>奥義について</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>382</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22376</PointerOffset>
+      <JapaneseText>奥義はふたつの術技の
+組み合わせとして習得します。
+ふたつの術技の個性を併せ持ち、
+派生元の術技の数だけ
+習得可能です。
+使用は、ＲＧが一定以上の時のみ、
+派生元のＦＧを消費して
+使用可能です。基本的にＦＧ消費が
+派生元より大きく、回復に時間が
+かかります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>383</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22384</PointerOffset>
+      <JapaneseText>奥義の使用条件</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>384</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22396</PointerOffset>
+      <JapaneseText>&lt;Yellow&gt;特技使用キャラ&lt;White&gt;：
+・特技から連携してのみ発動可能。
+　結果として２個のＦＧが必要。
+&lt;Yellow&gt;導術・陣術使用キャラ&lt;White&gt;：
+・導術使用後、２秒以内に
+　奥義の詠唱を行う。
+　
+ＦＧの色が赤い時が目安です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>385</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22404</PointerOffset>
+      <JapaneseText>スマッシュポイント</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>386</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22416</PointerOffset>
+      <JapaneseText>特技、導術で敵を倒す、または
+弧法陣展開中に敵を倒す事で
+たまるポイントの事です。
+・テクニカルスマッシュで倒す。
+・違う種類の術技をセット。
+・敵を一度にまとめて倒す。
+・錬術をセットしておく。
+などによって、獲得ポイントが
+増えます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>387</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22424</PointerOffset>
+      <JapaneseText>奥義習得方法</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>388</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22436</PointerOffset>
+      <JapaneseText>・メニュー「術技」
+・&lt;icon:18&gt;で奥義習得メニューへ。
+・派生元の術技を選択。
+（この術技に奥義がセットされます）
+・習得奥義を選択。
+この状態でスマッシュポイントを
+消費して、奥義を習得する事が
+できます。</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>389</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22444</PointerOffset>
+      <JapaneseText>別の奥義を習得したい時</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>390</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22456</PointerOffset>
+      <JapaneseText>一度奥義を習得した術技でも、
+新たにスマッシュポイントを
+消費すれば、他の奥義を習得する
+事が可能です。
+奥義習得に必要なポイントは、
+習得しなおす度に
+減っていきますので、
+いろいろ覚えていくほうが
+より強力な奥義を覚えやすく
+なる場合もあります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>391</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22464</PointerOffset>
+      <JapaneseText>11_3</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>392</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22484</PointerOffset>
+      <JapaneseText>秘奥義発動方法（１）</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>393</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22496</PointerOffset>
+      <JapaneseText>武具に秘められた潜在能力を
+覚醒していく事で、秘めたる力は
+蓄積されていきます。
+武具を鍛えて潜在効果を引き出す
+のが、秘奥義への第一歩です。
+それに加え、
+・習得者が戦闘に参加する。
+・残りの敵を一体にする。
+・敵のＨＰをある程度減らす。
+といった条件が必要になります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>394</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22504</PointerOffset>
+      <JapaneseText>秘奥義発動方法（２）</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>395</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22516</PointerOffset>
+      <JapaneseText>潜在能力を幾度も覚醒した上で
+敵の条件を整えると、
+&lt;color:2040A0A0&gt;「FINALITY CHARGE BREAK!」
+&lt;color:80000000&gt;の表示が現れます。
+この間に、方向キーを押さずに&lt;icon:39&gt;を
+押した瞬間に発動されます。
+基本的に、自動では発動しないので
+注意してください。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>396</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22524</PointerOffset>
+      <JapaneseText>新たな秘奥義の習得には</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>397</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22536</PointerOffset>
+      <JapaneseText>秘奥義発動時のキャラの
+組み合わせは、
+近接戦闘キャラ＋後方支援キャラ
+となります。
+新たに技を習得するには、
+様々なキャラクターの
+組み合わせで戦闘を行うと、
+秘奥義発動時に、割り込みで
+新技を繰り出してくれるでしょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>398</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22544</PointerOffset>
+      <JapaneseText>秘奥義の使い分け方</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>399</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22556</PointerOffset>
+      <JapaneseText>どの技が発動するかは、
+・プレイヤーキャラ
+・プレイヤーに近い該当キャラ
+との組み合わせが優先されます。
+隊列、操作キャラ変更で
+使い分けましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>400</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22564</PointerOffset>
+      <JapaneseText>12 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>401</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22584</PointerOffset>
+      <JapaneseText>13 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>402</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22604</PointerOffset>
+      <JapaneseText>14 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>403</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22624</PointerOffset>
+      <JapaneseText>料理と戦闘</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>404</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22636</PointerOffset>
+      <JapaneseText>戦闘終了後、失ったＨＰを
+回復するには料理が最適です。
+食材がそろっていれば、全員の
+ＨＰが回復するのでお得です。
+一回の戦闘ごとに一回の料理が
+可能なので、オート設定をすると
+より快適に冒険できます。
+更に、&lt;color:2040A0A0&gt;戦闘不能者も回復&lt;color:80000000&gt;します。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>405</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22644</PointerOffset>
+      <JapaneseText>新たな料理の覚え方</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>406</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22656</PointerOffset>
+      <JapaneseText>冒険中に新たな料理を食べると、
+「レシピ」を習得し、その料理を
+作る事ができるようになります。
+新しい街に入ったら、
+料理のレシピを探してみましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>407</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22664</PointerOffset>
+      <JapaneseText>オート料理（１）</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>408</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22668</PointerOffset>
+      <JapaneseText>オート設定</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>409</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22676</PointerOffset>
+      <JapaneseText>　戦闘終了の度にメニューを開いて
+料理するのは手間だと
+いう場合は、オート設定を
+しておくとよいでしょう。
+戦闘終了後に自動で料理を
+行ってくれます。
+料理メニュー中に&lt;icon:23&gt;を押し、
+項目を選ぶだけで設定完了です。
+条件に合う料理から選択して
+料理してくれるので便利です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>410</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22684</PointerOffset>
+      <JapaneseText>オート料理（２）</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>411</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22696</PointerOffset>
+      <JapaneseText>いざという時のために
+とっておきたい料理などは、
+料理ごとに、オート料理の
+候補に選ぶかどうかを
+&lt;icon:22&gt;で設定する事ができます。
+&lt;Blue&gt;Ａ&lt;color:80000000&gt;がオート設定マークです。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>412</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22704</PointerOffset>
+      <JapaneseText>カスタム料理</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>413</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22716</PointerOffset>
+      <JapaneseText>料理回数を重ねると、
+料理名の横に星が表示され、
+新たなトッピングを加えた
+新メニューが作成可能になります。
+ＨＰ回復量が増えたり、
+追加効果がついたりします。
+食材をひとつ多く消費するので、
+より効率的な組み合わせを
+考えて料理しましょう。
+四つ星が、熟達の証です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>414</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22724</PointerOffset>
+      <JapaneseText>シークレット</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>415</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22736</PointerOffset>
+      <JapaneseText>料理を実行後の戦闘で、
+ごくまれに、未知の効果が
+発生する事があります。
+発生させるためには、
+とにかく料理の回数を重ねるのが
+一番です。
+効果は料理ごとに決まっている
+という噂なので、いろいろ試して
+お気に入りの効果を見つけましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>416</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22744</PointerOffset>
+      <JapaneseText>マジカルポット</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>417</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22756</PointerOffset>
+      <JapaneseText>食材調達施設で、マジカルポットを
+強化すると、食材が次から次へと
+配達されるようになります。
+そのためには、フィールドマップを
+練り歩き、食材のチケットを入手して
+食材調達施設へ持って行きましょう。
+渡した数が多いほど、より性能を
+強化できます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>418</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22764</PointerOffset>
+      <JapaneseText>14</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>419</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22784</PointerOffset>
+      <JapaneseText>15</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>420</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22804</PointerOffset>
+      <JapaneseText>16</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>421</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22816,22836,22856,22876,22896,22916,22936,22956,22976,22996,23016,23036</PointerOffset>
+      <JapaneseText>　</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>422</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22824</PointerOffset>
+      <JapaneseText>17</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>423</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22844</PointerOffset>
+      <JapaneseText>18</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>424</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22864</PointerOffset>
+      <JapaneseText>19</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>425</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22884</PointerOffset>
+      <JapaneseText>20</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>426</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22904</PointerOffset>
+      <JapaneseText>21</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>427</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22924</PointerOffset>
+      <JapaneseText>22</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>428</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22944</PointerOffset>
+      <JapaneseText>23</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>429</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22964</PointerOffset>
+      <JapaneseText>24</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>430</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>22984</PointerOffset>
+      <JapaneseText>25</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>431</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23004</PointerOffset>
+      <JapaneseText>26</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>432</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23024</PointerOffset>
+      <JapaneseText>27</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>433</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23044</PointerOffset>
+      <JapaneseText>作戦（隊列）</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>434</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23056</PointerOffset>
+      <JapaneseText>　戦闘開始時のキャラ位置や、
+「作戦行動」
+「攻撃頻度」
+「術技条件」
+を設定する事で、
+プレイヤー以外のキャラクターを
+効果的に戦わせる設定。
+三つまで設定でき、戦闘中に
+変更する事も可能です。
+戦闘開始時は中央の設定で開始。
+メインメニュー・戦闘中に選択可能。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>435</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23064</PointerOffset>
+      <JapaneseText>隊列効果</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>436</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23076</PointerOffset>
+      <JapaneseText>隣同士にキャラを配置するなど、
+特定の条件でキャラ同士の戦闘中
+のステータスに上昇補正がかかり、
+&lt;color:2040A0A0&gt;術技によるＨＰ回復を行った時も、
+回復量が分配されます。
+作戦に合わせた隊列位置を
+組み合わせるのが重要です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>437</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23084</PointerOffset>
+      <JapaneseText>隊列位置による攻撃頻度</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>438</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23096</PointerOffset>
+      <JapaneseText>隊列位置は、右端を
+「前衛」として設定します。
+右端に近いほど、攻撃頻度が
+上がるので、作戦の設定に加え、
+攻撃頻度を微調整したい場合に
+有効です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>439</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23104</PointerOffset>
+      <JapaneseText>自分と仲間のＨＰが回復</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>440</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23116</PointerOffset>
+      <JapaneseText>ＦＧがたまっている時の
+術技使用では、自分だけでなく、
+隊列効果の影響がある仲間にも
+回復量を分け与える事ができます。
+ただし、錬術の場合は、
+使用者だけが回復します。
+隊列を組んで助け合うか、
+個人で多く回復させるかどうかを
+よく考えて隊列を決めましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>441</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23124</PointerOffset>
+      <JapaneseText>おすすめ隊列</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>442</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23136</PointerOffset>
+      <JapaneseText>作戦名は、八つの中から
+選択できますが、名前自体は
+お好みで選んでかまいません。
+隊列がまだよくわからない人は
+&lt;icon:37&gt;で開く作戦名変更時に
+&lt;icon:33&gt;を押して
+おすすめの隊列に設定し、
+どういうものかを観察してみると
+よい作戦が見つかるかもしれません。
+もちろんそのまま使えます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>443</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23144</PointerOffset>
+      <JapaneseText>状態異常</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>444</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23156</PointerOffset>
+      <JapaneseText>戦闘中に発生する、
+戦闘に不利になる状態変化の事。
+どの異常状態も、時間経過や
+戦闘終了によって回復しますが、
+戦闘終了により解除された場合は
+獲得経験値が減少してしまうので
+状態異常を防止する護符などで
+対処するのが賢明です。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>445</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23164</PointerOffset>
+      <JapaneseText>鈍足</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>446</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23176</PointerOffset>
+      <JapaneseText>移動速度が遅くなる状態異常。
+地系に属し、地属性に耐性のある
+敵には効かない場合が多いです。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>447</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23184</PointerOffset>
+      <JapaneseText>衰弱</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>448</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23196</PointerOffset>
+      <JapaneseText>ＦＧが回復しなくなる状態異常。
+風系に属し、風属性に耐性のある
+敵には効かない場合が多いです。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>449</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23204</PointerOffset>
+      <JapaneseText>熱毒</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>450</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23216</PointerOffset>
+      <JapaneseText>ＲＧが上昇していき、１００になると
+ＨＰが減少していく状態異常。
+ＲＧが１００になると、ＨＰが
+回復しないのでかなり危険です。
+火系に属し、火属性に耐性のある
+敵には効かない場合が多いです。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>451</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23224</PointerOffset>
+      <JapaneseText>凍結</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>452</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23236</PointerOffset>
+      <JapaneseText>凍りつき、一定時間動けなくなる
+状態異常。
+ダメージを受けても解除されます。
+水系に属し、水属性に耐性のある
+敵には効かない場合が多いです。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>453</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23244</PointerOffset>
+      <JapaneseText>マヒ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>454</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23256</PointerOffset>
+      <JapaneseText>様々な行動の際に、痺れてしまう
+状態異常。
+マヒ状態でもアイテムは
+使えるので、すぐに治しましょう。
+光系に属し、光属性に耐性のある
+敵には効かない場合が多いです。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>455</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23264</PointerOffset>
+      <JapaneseText>恐慌</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>456</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23276</PointerOffset>
+      <JapaneseText>パニックになりＲＧが減少していき、
+最後には気絶してしまう状態異常。
+気絶する前に治せば被害はない
+ので、すぐに治しましょう。
+闇系に属し、闇属性に耐性のある
+敵には効かない場合が多いです。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>457</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23284</PointerOffset>
+      <JapaneseText>能力変化</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>458</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23296</PointerOffset>
+      <JapaneseText>戦闘中にのみ影響する
+ステータスの数値変化。
+時間、戦闘終了で解除され、
+能力が上がるものと下がるものが
+あります。
+効果中は戦闘メニューを開くと
+効果名を確認できます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>459</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23304</PointerOffset>
+      <JapaneseText>グレード</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>460</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23316</PointerOffset>
+      <JapaneseText>戦闘の総合技術を判定する
+目安を数値化したもの。
+判定は敵グループ単位で行われる
+ので、様々な場所を渡り歩けば
+それだけ多くのグレードを
+獲得できる可能性があります。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>461</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23324</PointerOffset>
+      <JapaneseText>グレードの種類・その１</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>462</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23336</PointerOffset>
+      <JapaneseText>&lt;color:2040A0A0&gt;・10 HITS OVER!&lt;color:80000000&gt;
+　　ヒット数が１０を突破。
+&lt;color:2040A0A0&gt;・25 HITS OVER!&lt;color:80000000&gt;
+　　ヒット数が２５を突破。
+&lt;color:2040A0A0&gt;・5 CHAIN FINISH!&lt;color:80000000&gt;
+　　個人５連携以上で敵を倒した。
+&lt;color:2040A0A0&gt;・FULLHP FINISH&lt;color:80000000&gt;
+　全員ＨＰ全快で戦闘終了。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>463</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23344</PointerOffset>
+      <JapaneseText>グレードの種類・その２</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>464</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23356</PointerOffset>
+      <JapaneseText>&lt;color:2040A0A0&gt;・ NO DAMAGE FINISH
+&lt;color:80000000&gt;　　ダメージを受けずに敵を全滅。
+&lt;color:2040A0A0&gt;・10 SECONDS FINISH&lt;color:80000000&gt;
+　１０秒以内に敵を全滅。
+&lt;color:2040A0A0&gt;・30 SECONDS FINISH&lt;color:80000000&gt;
+　３０秒以内に敵を全滅。
+&lt;color:2040A0A0&gt;・NO GUARDED FINISH&lt;color:80000000&gt;
+　ガードされずに敵を全滅。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>465</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23364</PointerOffset>
+      <JapaneseText>グレード獲得ルール</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>466</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23376</PointerOffset>
+      <JapaneseText>・グレード獲得は敵グループ単位。
+　同じ敵グループから同じ種類の
+　グレードを獲得する事は
+　できません。
+・エンカウントエリア単位での
+　グレード獲得率は
+　バトルブック→
+　　エンカウントエリア情報
+　で確認できます。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>467</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23384</PointerOffset>
+      <JapaneseText>総獲得グレードの確認</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>468</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23396</PointerOffset>
+      <JapaneseText>バトルブック→
+　戦闘履歴→
+　　獲得グレード
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>469</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23404</PointerOffset>
+      <JapaneseText>28 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>470</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23424</PointerOffset>
+      <JapaneseText>29 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>471</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23444</PointerOffset>
+      <JapaneseText>30 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>472</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23464</PointerOffset>
+      <JapaneseText>31 </JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>473</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23484</PointerOffset>
+      <JapaneseText>宝石とは</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>474</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23496</PointerOffset>
+      <JapaneseText>　主に能力を上げる効果がある
+装備品です。
+効果には多くの種類があり、
+さらに何段階かのレベルに
+分かれています。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>475</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23504</PointerOffset>
+      <JapaneseText>宝石合成</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>476</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23516</PointerOffset>
+      <JapaneseText>　装飾品屋では
+　同じランクのふたつの宝石を
+別の宝石に変化させることが
+可能です。
+組み合わせによる合成結果は
+決められていて、
+合成前に結果を教えてくれるので、
+じっくり選んで決めましょう。
+料金は宝石のランクで変化します。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>477</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23524</PointerOffset>
+      <JapaneseText>合成によるレベルアップ</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>478</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>23536</PointerOffset>
+      <JapaneseText>　合成は特定の組み合わせで
+宝石のレベルが上がり、
+効果が高まることもあります。
+宝石所持数は６０個までですので、
+いらない宝石があったら、
+いろいろ合成しましょう。
+</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>479</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Strings>
+</MenuText>
