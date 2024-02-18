@@ -192,18 +192,18 @@
     <Entry>
       <PointerOffset>352368</PointerOffset>
       <JapaneseText>USE ITEM</JapaneseText>
-      <EnglishText/>
-      <Notes>debug?</Notes>
+      <EnglishText>USED ITEM</EnglishText>
+      <Notes>this appear at the top of the screen over the item that is beign used. Just like the element of the spells etc.</Notes>
       <Id>24</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352372</PointerOffset>
       <JapaneseText>ＨＰ自動回復</JapaneseText>
-      <EnglishText/>
-      <Notes>debug?</Notes>
+      <EnglishText>AUTO HP RECOVERY</EnglishText>
+      <Notes>Idk where this appears pegi</Notes>
       <Id>25</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352376</PointerOffset>
@@ -344,10 +344,10 @@
     <Entry>
       <PointerOffset>352444</PointerOffset>
       <JapaneseText>逃走した</JapaneseText>
-      <EnglishText>Escaped</EnglishText>
-      <Notes/>
+      <EnglishText></EnglishText>
+      <Notes>this one can be removed in favor of one of the 3 different instance of escaped pegi</Notes>
       <Id>43</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352448</PointerOffset>
@@ -864,7 +864,7 @@
     <Entry>
       <PointerOffset>352712</PointerOffset>
       <JapaneseText>SKILL</JapaneseText>
-      <EnglishText>SKILL</EnglishText>
+      <EnglishText>FORCE</EnglishText>
       <Notes/>
       <Id>108</Id>
       <Status>Editing</Status>
@@ -872,7 +872,7 @@
     <Entry>
       <PointerOffset>352716</PointerOffset>
       <JapaneseText>SORCERY</JapaneseText>
-      <EnglishText>SORCERY</EnglishText>
+      <EnglishText>MAGIC</EnglishText>
       <Notes/>
       <Id>109</Id>
       <Status>Editing</Status>
@@ -1272,7 +1272,7 @@
     <Entry>
       <PointerOffset>352928</PointerOffset>
       <JapaneseText>&lt;icon:39&gt;で新たに習得していく術技を使用できます</JapaneseText>
-      <EnglishText>Press &lt;icon:39&gt; to perform your newly learned skill.</EnglishText>
+      <EnglishText>Press &lt;icon:39&gt; to perform your newly learned Fusion Force.</EnglishText>
       <Notes/>
       <Id>159</Id>
       <Status>Editing</Status>
@@ -1280,7 +1280,7 @@
     <Entry>
       <PointerOffset>352932</PointerOffset>
       <JapaneseText>&lt;icon:10&gt;&lt;icon:39&gt;で、対応する術技を発動します</JapaneseText>
-      <EnglishText>Press &lt;icon:10&gt;+&lt;icon:39&gt; to perform the corresponding skill.</EnglishText>
+      <EnglishText>Press &lt;icon:10&gt;+&lt;icon:39&gt; to perform the corresponding Force Arte.</EnglishText>
       <Notes/>
       <Id>160</Id>
       <Status>Editing</Status>
@@ -1336,7 +1336,7 @@
     <Entry>
       <PointerOffset>352960</PointerOffset>
       <JapaneseText>奥にいる敵を狙いたいときなどに便利</JapaneseText>
-      <EnglishText>This is useful for targetting backline enemies.</EnglishText>
+      <EnglishText>This is useful for targeting backline enemies.</EnglishText>
       <Notes/>
       <Id>167</Id>
       <Status>Editing</Status>
@@ -1408,7 +1408,7 @@
     <Entry>
       <PointerOffset>352996</PointerOffset>
       <JapaneseText>&lt;Cyan&gt;SEMIAUTO&lt;White&gt;ターゲットへの距離合わせが自動</JapaneseText>
-      <EnglishText>&lt;Cyan&gt;SEMIAUTO&lt;White&gt;: Automatically move to target.</EnglishText>
+      <EnglishText>&lt;Cyan&gt;SEMI-AUTO&lt;White&gt;: Automatically move to target.</EnglishText>
       <Notes/>
       <Id>176</Id>
       <Status>Editing</Status>
@@ -1504,7 +1504,7 @@
     <Entry>
       <PointerOffset>353052</PointerOffset>
       <JapaneseText>セミオート操作なら、&lt;icon:38&gt;で敵を追ってくれます</JapaneseText>
-      <EnglishText>On SEMIAUTO, press &lt;icon:38&gt; to follow the enemy.</EnglishText>
+      <EnglishText>On SEMI-AUTO, press &lt;icon:38&gt; to follow the enemy.</EnglishText>
       <Notes/>
       <Id>188</Id>
       <Status>Editing</Status>
@@ -3313,10 +3313,10 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>354948</PointerOffset>
       <JapaneseText>逃走した</JapaneseText>
-      <EnglishText>Escaped</EnglishText>
+      <EnglishText></EnglishText>
       <Notes/>
       <Id>311</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354952</PointerOffset>
@@ -6840,7 +6840,7 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>368956</PointerOffset>
       <JapaneseText>ESCAPE GAGE</JapaneseText>
-      <EnglishText>ESCAPE GAUGE</EnglishText>
+      <EnglishText>ESCAPED GAUGE</EnglishText>
       <Notes/>
       <Id>751</Id>
       <Status>Editing</Status>
@@ -6975,8 +6975,9 @@ I'll overcome myself!
         <lo>3162396</lo>
       </EmbedOffset>
       <JapaneseText>%s OVER!</JapaneseText>
-      <EnglishText>%s OVER!</EnglishText>
-      <Notes/>
+      <EnglishText>OVER %s!</EnglishText>
+      <Notes>original: 10 HITS OVER!
+changed: OVER 10 HITS!</Notes>
       <Id>762</Id>
       <Status>Editing</Status>
     </Entry>
