@@ -249,5 +249,9 @@ extra_syscall_ret:
 /* 、 */ .byte   00 , 13
 /* 。 */ .byte   01 , 12
 
+.org 0x1CA518
+;em dash width
+    .byte 01, 01
+
 
 .close
