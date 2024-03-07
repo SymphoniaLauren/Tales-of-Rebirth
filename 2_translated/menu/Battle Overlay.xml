@@ -8,15 +8,15 @@
         <lo>3146812,3147048</lo>
       </EmbedOffset>
       <JapaneseText> </JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText> </EnglishText>
+      <Notes>one single empty white space, should probably keep it like that</Notes>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352276</PointerOffset>
       <JapaneseText>&lt;Purple&gt;現在選択できません</JapaneseText>
-      <EnglishText>&lt;Purple&gt;Currently unavailable.</EnglishText>
+      <EnglishText>&lt;Purple&gt;Currently Unavailable</EnglishText>
       <Notes>could be currently unsellectable or currently </Notes>
       <Id>2</Id>
       <Status>Editing</Status>
@@ -24,7 +24,7 @@
     <Entry>
       <PointerOffset>352280</PointerOffset>
       <JapaneseText>術技を変更</JapaneseText>
-      <EnglishText>Change Arte</EnglishText>
+      <EnglishText>Change Force</EnglishText>
       <Notes/>
       <Id>3</Id>
       <Status>Editing</Status>
@@ -97,33 +97,33 @@
       <PointerOffset>352320</PointerOffset>
       <JapaneseText>STOP</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>maybe unused since it's the debug command</Notes>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352324</PointerOffset>
       <JapaneseText>HP1</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>maybe unused since it's the debug command</Notes>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352328</PointerOffset>
       <JapaneseText>HP1/STOP</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>maybe unused since it's the debug command</Notes>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352332</PointerOffset>
       <JapaneseText>L1:        :R1</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>maybe unused since it's the debug command</Notes>
       <Id>15</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352336</PointerOffset>
@@ -176,66 +176,66 @@
     <Entry>
       <PointerOffset>352360</PointerOffset>
       <JapaneseText>&lt;icon:36&gt;操作キャラ切替</JapaneseText>
-      <EnglishText>&lt;icon:36&gt;Change Characters</EnglishText>
+      <EnglishText>&lt;icon:36&gt;Change Character</EnglishText>
       <Notes>should it be singular, it's the button to change character in battle</Notes>
       <Id>22</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352364</PointerOffset>
       <JapaneseText>CANNOT USE ITEM</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>CANNOT USE ITEM</EnglishText>
+      <Notes>full cap timer at the top left of sceen when using an item</Notes>
       <Id>23</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352368</PointerOffset>
       <JapaneseText>USE ITEM</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>USED ITEM</EnglishText>
+      <Notes>this appear at the top of the screen over the item that is beign used. Just like the element of the spells etc.</Notes>
       <Id>24</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352372</PointerOffset>
       <JapaneseText>ＨＰ自動回復</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>AUTO HP RECOVERY</EnglishText>
+      <Notes>Idk where this appears pegi</Notes>
       <Id>25</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352376</PointerOffset>
       <JapaneseText>UCCHARI RECOVERY</JapaneseText>
-      <EnglishText/>
+      <EnglishText>COMEBACK RECOVERY</EnglishText>
       <Notes/>
       <Id>26</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352380</PointerOffset>
       <JapaneseText>COOKING EFFECT</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>debug?</Notes>
       <Id>27</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352384</PointerOffset>
       <JapaneseText>!!!SECRET RECIPE!!!</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>debug?</Notes>
       <Id>28</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352388</PointerOffset>
       <JapaneseText>ENHANCE EXECUTABLE!</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>debug?</Notes>
       <Id>29</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352392</PointerOffset>
@@ -243,7 +243,7 @@
       <EnglishText/>
       <Notes/>
       <Id>30</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352396</PointerOffset>
@@ -251,7 +251,7 @@
       <EnglishText/>
       <Notes/>
       <Id>31</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352400</PointerOffset>
@@ -259,7 +259,7 @@
       <EnglishText/>
       <Notes/>
       <Id>32</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352404</PointerOffset>
@@ -267,7 +267,7 @@
       <EnglishText/>
       <Notes/>
       <Id>33</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352408</PointerOffset>
@@ -275,7 +275,7 @@
       <EnglishText/>
       <Notes/>
       <Id>34</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352412</PointerOffset>
@@ -283,7 +283,7 @@
       <EnglishText/>
       <Notes/>
       <Id>35</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352416</PointerOffset>
@@ -291,7 +291,7 @@
       <EnglishText/>
       <Notes/>
       <Id>36</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352420</PointerOffset>
@@ -299,7 +299,7 @@
       <EnglishText/>
       <Notes/>
       <Id>37</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352424</PointerOffset>
@@ -307,7 +307,7 @@
       <EnglishText/>
       <Notes/>
       <Id>38</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352428</PointerOffset>
@@ -315,7 +315,7 @@
       <EnglishText/>
       <Notes/>
       <Id>39</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352432</PointerOffset>
@@ -323,31 +323,31 @@
       <EnglishText/>
       <Notes/>
       <Id>40</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352436</PointerOffset>
       <JapaneseText>FORMATION %d</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>FORMATION %d</EnglishText>
+      <Notes>for exemple: FORMATION 1 </Notes>
       <Id>41</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352440</PointerOffset>
       <JapaneseText>REVERSE %d</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>might no be used</Notes>
       <Id>42</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352444</PointerOffset>
       <JapaneseText>逃走した</JapaneseText>
-      <EnglishText>Escaped</EnglishText>
-      <Notes/>
+      <EnglishText></EnglishText>
+      <Notes>this one can be removed in favor of one of the 3 different instance of escaped pegi</Notes>
       <Id>43</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352448</PointerOffset>
@@ -361,25 +361,25 @@
       <PointerOffset>352452</PointerOffset>
       <JapaneseText>SLASH</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>top right, used in combination with the hit counter "Slash 15 Hits"</Notes>
       <Id>45</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352456</PointerOffset>
       <JapaneseText>BLOW</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>top right, used in combination with the hit counter "Blow 15 Hits"</Notes>
       <Id>46</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352460</PointerOffset>
       <JapaneseText>SPIRIT</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>top right, used in combination with the hit counter "Spirit 15 Hits"</Notes>
       <Id>47</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352464</PointerOffset>
@@ -387,7 +387,7 @@
       <EnglishText/>
       <Notes/>
       <Id>48</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352468</PointerOffset>
@@ -395,79 +395,79 @@
       <EnglishText/>
       <Notes/>
       <Id>49</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352472</PointerOffset>
       <JapaneseText>%d CHAINS</JapaneseText>
-      <EnglishText/>
+      <EnglishText>%d CHAINS</EnglishText>
       <Notes/>
       <Id>50</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352476</PointerOffset>
       <JapaneseText>%d GROUP</JapaneseText>
-      <EnglishText/>
+      <EnglishText>%d GROUP</EnglishText>
       <Notes/>
       <Id>51</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352480</PointerOffset>
       <JapaneseText>NO DAMAGE</JapaneseText>
-      <EnglishText/>
+      <EnglishText>NO DAMAGE</EnglishText>
       <Notes/>
       <Id>52</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352484</PointerOffset>
       <JapaneseText>TRIANGLE</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>TRIANGLE</EnglishText>
+      <Notes>why the fuck is this a triangle</Notes>
       <Id>53</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352488</PointerOffset>
       <JapaneseText>EFFECTIVE</JapaneseText>
-      <EnglishText/>
+      <EnglishText>EFFECTIVE</EnglishText>
       <Notes/>
       <Id>54</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352492</PointerOffset>
       <JapaneseText>BURST</JapaneseText>
-      <EnglishText/>
+      <EnglishText>BURST</EnglishText>
       <Notes/>
       <Id>55</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352496</PointerOffset>
       <JapaneseText>COOL</JapaneseText>
-      <EnglishText/>
+      <EnglishText>COOL</EnglishText>
       <Notes/>
       <Id>56</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352500</PointerOffset>
       <JapaneseText>HIGH SPEED</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HIGH SPEED</EnglishText>
       <Notes/>
       <Id>57</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352504,352540,352732</PointerOffset>
       <JapaneseText>FINALITY</JapaneseText>
-      <EnglishText/>
+      <EnglishText>FINALITY</EnglishText>
       <Notes/>
       <Id>58</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352508</PointerOffset>
@@ -480,130 +480,130 @@
     <Entry>
       <PointerOffset>352512</PointerOffset>
       <JapaneseText>持ちきれません!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Can't Carry!</EnglishText>
       <Notes/>
       <Id>60</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352516</PointerOffset>
       <JapaneseText>GUARD</JapaneseText>
-      <EnglishText/>
+      <EnglishText>GUARD</EnglishText>
       <Notes/>
       <Id>61</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352520</PointerOffset>
       <JapaneseText>FINALITY CHARGE BREAK!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>FINALITY CHARGE BREAK!!</EnglishText>
       <Notes/>
       <Id>62</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352524</PointerOffset>
       <JapaneseText>HIT   BUTTON!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HIT   BUTTON!</EnglishText>
       <Notes/>
       <Id>63</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352528</PointerOffset>
       <JapaneseText>     &lt;icon:41&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>     &lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>64</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352532</PointerOffset>
       <JapaneseText>－秘奥義－</JapaneseText>
-      <EnglishText/>
+      <EnglishText>- MYSTIC ARTE -</EnglishText>
       <Notes/>
       <Id>65</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352536</PointerOffset>
       <JapaneseText>FUSIONIC FORCE</JapaneseText>
-      <EnglishText/>
+      <EnglishText>FUSION FORCE</EnglishText>
       <Notes/>
       <Id>66</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352544</PointerOffset>
       <JapaneseText>インブレイスエンド</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Final Embrace</EnglishText>
       <Notes/>
       <Id>67</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352548</PointerOffset>
       <JapaneseText>龍虎滅牙斬</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Wyrm Wrath</EnglishText>
       <Notes/>
       <Id>68</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352552</PointerOffset>
       <JapaneseText>セルシウス・キャリバー</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Celsius Calibur</EnglishText>
       <Notes/>
       <Id>69</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352556</PointerOffset>
       <JapaneseText>インフェルノドライブ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Inferno Drive</EnglishText>
       <Notes/>
       <Id>70</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352560</PointerOffset>
       <JapaneseText>翔破裂光閃</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Light Blast</EnglishText>
       <Notes/>
       <Id>71</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352564</PointerOffset>
       <JapaneseText>デュアル・ザ・サン</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Dual the Sun</EnglishText>
       <Notes/>
       <Id>72</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352568</PointerOffset>
       <JapaneseText>紅蓮天翔</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Crimson Skies</EnglishText>
       <Notes/>
       <Id>73</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352572</PointerOffset>
       <JapaneseText>インフィニティア・ストライク</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Infinitia Strike</EnglishText>
       <Notes/>
       <Id>74</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352576</PointerOffset>
       <JapaneseText>サウザンドブレイバー</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Thousand Braver</EnglishText>
       <Notes/>
       <Id>75</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352580</PointerOffset>
@@ -632,154 +632,154 @@
     <Entry>
       <PointerOffset>352592</PointerOffset>
       <JapaneseText>     10 HITS OVER!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>     10 HITS OVER!</EnglishText>
       <Notes/>
       <Id>79</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352596</PointerOffset>
       <JapaneseText>     25 HITS OVER!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>     25 HITS OVER!</EnglishText>
       <Notes/>
       <Id>80</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352600</PointerOffset>
       <JapaneseText>   5 CHAIN FINISH!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>   5 CHAIN FINISH!</EnglishText>
       <Notes/>
       <Id>81</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352604</PointerOffset>
       <JapaneseText> NO DAMAGE FINISH!</JapaneseText>
-      <EnglishText/>
+      <EnglishText> NO DAMAGE FINISH!</EnglishText>
       <Notes/>
       <Id>82</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352608</PointerOffset>
       <JapaneseText>    FULLHP FINISH!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>    FULL HP FINISH!</EnglishText>
       <Notes/>
       <Id>83</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352612</PointerOffset>
       <JapaneseText>10 SECONDS FINISH!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>10 SECONDS FINISH!</EnglishText>
       <Notes/>
       <Id>84</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352616</PointerOffset>
       <JapaneseText>30 SECONDS FINISH!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>30 SECONDS FINISH!</EnglishText>
       <Notes/>
       <Id>85</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352620</PointerOffset>
       <JapaneseText>NO GUARDED FINISH!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>  NO GUARD FINISH!</EnglishText>
       <Notes/>
       <Id>86</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352624</PointerOffset>
       <JapaneseText>&lt;icon:20&gt;：STAY</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:20&gt;: STAY</EnglishText>
       <Notes/>
       <Id>87</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352628</PointerOffset>
       <JapaneseText>&lt;icon:28&gt;：STAY</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:28&gt;: STAY</EnglishText>
       <Notes/>
       <Id>88</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352632</PointerOffset>
       <JapaneseText>&lt;icon:21&gt;：SKIP</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:21&gt;:SKIP</EnglishText>
       <Notes/>
       <Id>89</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352636</PointerOffset>
       <JapaneseText>&lt;icon:29&gt;：SKIP</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:29&gt;: SKIP</EnglishText>
       <Notes/>
       <Id>90</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352640</PointerOffset>
       <JapaneseText>LEVEL</JapaneseText>
-      <EnglishText/>
+      <EnglishText>LEVEL</EnglishText>
       <Notes/>
       <Id>91</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352644</PointerOffset>
       <JapaneseText>UP!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>UP!</EnglishText>
       <Notes/>
       <Id>92</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352648</PointerOffset>
       <JapaneseText>:</JapaneseText>
-      <EnglishText>:</EnglishText>
+      <EnglishText> learned </EnglishText>
       <Notes/>
       <Id>93</Id>
-      <Status>Done</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352652</PointerOffset>
       <JapaneseText>を習得</JapaneseText>
-      <EnglishText/>
+      <EnglishText></EnglishText>
       <Notes/>
       <Id>94</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352656</PointerOffset>
       <JapaneseText>LEARNED NEW FORCE!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>LEARNED NEW FORCE!!</EnglishText>
       <Notes/>
       <Id>95</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352660</PointerOffset>
       <JapaneseText>LEARNED NEW ACTION!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>LEARNED NEW ACTION!!</EnglishText>
       <Notes/>
       <Id>96</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352664</PointerOffset>
       <JapaneseText>を料理しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Cooked </EnglishText>
       <Notes/>
       <Id>97</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352668</PointerOffset>
@@ -787,7 +787,7 @@
       <EnglishText/>
       <Notes/>
       <Id>98</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352672</PointerOffset>
@@ -795,7 +795,7 @@
       <EnglishText/>
       <Notes/>
       <Id>99</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352676</PointerOffset>
@@ -803,7 +803,7 @@
       <EnglishText/>
       <Notes/>
       <Id>100</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>352680,352684</PointerOffset>
@@ -811,7 +811,7 @@
       <EnglishText/>
       <Notes/>
       <Id>101</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352688</PointerOffset>
@@ -832,7 +832,7 @@
     <Entry>
       <PointerOffset>352696</PointerOffset>
       <JapaneseText>FLAME </JapaneseText>
-      <EnglishText>FIRE </EnglishText>
+      <EnglishText>FLAME </EnglishText>
       <Notes/>
       <Id>104</Id>
       <Status>Editing</Status>
@@ -864,151 +864,151 @@
     <Entry>
       <PointerOffset>352712</PointerOffset>
       <JapaneseText>SKILL</JapaneseText>
-      <EnglishText/>
+      <EnglishText>FORCE</EnglishText>
       <Notes/>
       <Id>108</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352716</PointerOffset>
       <JapaneseText>SORCERY</JapaneseText>
-      <EnglishText/>
+      <EnglishText>MAGIC</EnglishText>
       <Notes/>
       <Id>109</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352720</PointerOffset>
       <JapaneseText>RITUALY</JapaneseText>
-      <EnglishText/>
+      <EnglishText>RITUAL</EnglishText>
       <Notes/>
       <Id>110</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352724</PointerOffset>
       <JapaneseText>ABILITY</JapaneseText>
-      <EnglishText/>
+      <EnglishText>ABILITY</EnglishText>
       <Notes/>
       <Id>111</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352728</PointerOffset>
       <JapaneseText>ARTS</JapaneseText>
-      <EnglishText/>
+      <EnglishText>ARTE</EnglishText>
       <Notes/>
       <Id>112</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352736</PointerOffset>
       <JapaneseText>FUSIONIC</JapaneseText>
-      <EnglishText/>
+      <EnglishText>FUSION</EnglishText>
       <Notes/>
       <Id>113</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352740</PointerOffset>
       <JapaneseText>CLIMATY</JapaneseText>
-      <EnglishText/>
+      <EnglishText>CLIMATE</EnglishText>
       <Notes/>
       <Id>114</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352744</PointerOffset>
       <JapaneseText>SWORD</JapaneseText>
-      <EnglishText/>
+      <EnglishText>SWORD</EnglishText>
       <Notes/>
       <Id>115</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352752</PointerOffset>
       <JapaneseText>SPEAR</JapaneseText>
-      <EnglishText/>
+      <EnglishText>SPEAR</EnglishText>
       <Notes/>
       <Id>116</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352756</PointerOffset>
       <JapaneseText>KNUCKLE</JapaneseText>
-      <EnglishText/>
+      <EnglishText>KNUCKLE</EnglishText>
       <Notes/>
       <Id>117</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352760</PointerOffset>
       <JapaneseText>ARROW</JapaneseText>
-      <EnglishText/>
+      <EnglishText>ARROW</EnglishText>
       <Notes/>
       <Id>118</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352768</PointerOffset>
       <JapaneseText>鈍足</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Slow</EnglishText>
       <Notes/>
       <Id>119</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352772</PointerOffset>
       <JapaneseText>衰弱</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Weak</EnglishText>
       <Notes/>
       <Id>120</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352776</PointerOffset>
       <JapaneseText>熱毒</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Poison</EnglishText>
       <Notes/>
       <Id>121</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352780</PointerOffset>
       <JapaneseText>凍結</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Freeze</EnglishText>
       <Notes/>
       <Id>122</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352784</PointerOffset>
       <JapaneseText>マヒ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Paralyze</EnglishText>
       <Notes/>
       <Id>123</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352788</PointerOffset>
       <JapaneseText>恐慌</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Panic</EnglishText>
       <Notes/>
       <Id>124</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352792</PointerOffset>
       <JapaneseText>停止</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Stop</EnglishText>
       <Notes/>
       <Id>125</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352796</PointerOffset>
       <JapaneseText>攻撃力</JapaneseText>
-      <EnglishText>ATK</EnglishText>
+      <EnglishText>P. ATK</EnglishText>
       <Notes/>
       <Id>126</Id>
       <Status>Editing</Status>
@@ -1016,7 +1016,7 @@
     <Entry>
       <PointerOffset>352800</PointerOffset>
       <JapaneseText>防御力</JapaneseText>
-      <EnglishText>DEF</EnglishText>
+      <EnglishText>P. DEF</EnglishText>
       <Notes/>
       <Id>127</Id>
       <Status>Editing</Status>
@@ -1024,34 +1024,34 @@
     <Entry>
       <PointerOffset>352804</PointerOffset>
       <JapaneseText>術攻撃</JapaneseText>
-      <EnglishText/>
+      <EnglishText>F. ATK</EnglishText>
       <Notes/>
       <Id>128</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352808</PointerOffset>
       <JapaneseText>術防御</JapaneseText>
-      <EnglishText/>
+      <EnglishText>F. DEF</EnglishText>
       <Notes/>
       <Id>129</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352812</PointerOffset>
       <JapaneseText>HP回復</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HP Regen</EnglishText>
       <Notes/>
       <Id>130</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352816</PointerOffset>
       <JapaneseText>FG回復</JapaneseText>
-      <EnglishText/>
+      <EnglishText>FG Regen</EnglishText>
       <Notes/>
       <Id>131</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352820</PointerOffset>
@@ -1072,66 +1072,66 @@
     <Entry>
       <PointerOffset>352828</PointerOffset>
       <JapaneseText>覚醒率</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Awakening</EnglishText>
+      <Notes>should be captalized</Notes>
       <Id>134</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352832</PointerOffset>
       <JapaneseText>移動速度</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Cooked</EnglishText>
       <Notes/>
       <Id>135</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352836</PointerOffset>
       <JapaneseText>RG上昇</JapaneseText>
-      <EnglishText/>
+      <EnglishText>RG Up</EnglishText>
       <Notes/>
       <Id>136</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352840</PointerOffset>
       <JapaneseText>RG減少</JapaneseText>
-      <EnglishText/>
+      <EnglishText>RG Down</EnglishText>
       <Notes/>
       <Id>137</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352844</PointerOffset>
       <JapaneseText>HP減少</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HP Down</EnglishText>
       <Notes/>
       <Id>138</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352848</PointerOffset>
       <JapaneseText>効果継続</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Residual Effect</EnglishText>
       <Notes/>
       <Id>139</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352852</PointerOffset>
       <JapaneseText>凍結付与</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Icy Touch</EnglishText>
       <Notes/>
       <Id>140</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352856</PointerOffset>
       <JapaneseText>高速化</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Fast</EnglishText>
       <Notes/>
       <Id>141</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352860</PointerOffset>
@@ -1144,74 +1144,74 @@
     <Entry>
       <PointerOffset>352864</PointerOffset>
       <JapaneseText>炎着装</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>F. Enchant</EnglishText>
+      <Notes>Flame Enchant</Notes>
       <Id>143</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352868</PointerOffset>
       <JapaneseText>術鋼体</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>I. Stance</EnglishText>
+      <Notes>Iron Stance</Notes>
       <Id>144</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352872</PointerOffset>
       <JapaneseText>弾防御</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>M. Stance</EnglishText>
+      <Notes>Mirror Stance</Notes>
       <Id>145</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352876</PointerOffset>
       <JapaneseText>防御回復</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Guard Regen</EnglishText>
+      <Notes>Whatever the fuck I decided to call geki jusouheki</Notes>
       <Id>146</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352880</PointerOffset>
       <JapaneseText>硬直軽減</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Lag Down</EnglishText>
       <Notes/>
       <Id>147</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352884</PointerOffset>
       <JapaneseText>雷装撃</JapaneseText>
-      <EnglishText/>
+      <EnglishText>L. Robe</EnglishText>
       <Notes/>
       <Id>148</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352888</PointerOffset>
       <JapaneseText>詠唱加速</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Speed Cast</EnglishText>
+      <Notes>L. Sorcery</Notes>
       <Id>149</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352892</PointerOffset>
       <JapaneseText>－</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>-</EnglishText>
+      <Notes>lets see if the english - breaks the game</Notes>
       <Id>150</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352896</PointerOffset>
       <JapaneseText>＋</JapaneseText>
       <EnglishText>+</EnglishText>
-      <Notes/>
+      <Notes>lets see if the english + breaks the game</Notes>
       <Id>151</Id>
-      <Status>Editing</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>352900</PointerOffset>
@@ -1248,322 +1248,324 @@
     <Entry>
       <PointerOffset>352916</PointerOffset>
       <JapaneseText>&lt;icon:10&gt;&lt;icon:38&gt;の組み合わせで通常攻撃</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:10&gt;+&lt;icon:38&gt; for basic attacks.</EnglishText>
       <Notes/>
       <Id>156</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352920</PointerOffset>
       <JapaneseText>敵の位置、高さによって使い分けてください</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Vary them based on the enemies' height.</EnglishText>
       <Notes/>
       <Id>157</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352924</PointerOffset>
       <JapaneseText>通常攻撃は何度か連続して出せます</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You can perform several basic attacks in succession.</EnglishText>
       <Notes/>
       <Id>158</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352928</PointerOffset>
       <JapaneseText>&lt;icon:39&gt;で新たに習得していく術技を使用できます</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:39&gt; to perform your newly learned Fusion Force.</EnglishText>
       <Notes/>
       <Id>159</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352932</PointerOffset>
       <JapaneseText>&lt;icon:10&gt;&lt;icon:39&gt;で、対応する術技を発動します</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:10&gt;+&lt;icon:39&gt; to perform the corresponding Force Arte.</EnglishText>
       <Notes/>
       <Id>160</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352936,353016,353044</PointerOffset>
       <JapaneseText>&lt;icon:3A&gt;で攻撃を防御</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:3A&gt; to guard.</EnglishText>
       <Notes/>
       <Id>161</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352940</PointerOffset>
       <JapaneseText>（右向き時）&lt;icon:3A&gt;&lt;icon:5&gt;でバックステップ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>(When facing right) Press &lt;icon:3A&gt;+&lt;icon:5&gt; to backstep.</EnglishText>
       <Notes/>
       <Id>162</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352944</PointerOffset>
       <JapaneseText>&lt;icon:3A&gt;&lt;icon:9&gt;で前進防御</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:3A&gt;+&lt;icon:9&gt; to parry.</EnglishText>
       <Notes/>
       <Id>163</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352948</PointerOffset>
       <JapaneseText>&lt;icon:3A&gt;&lt;icon:2&gt;でRGを上げる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:3A&gt;+&lt;icon:2&gt; to raise RG.</EnglishText>
       <Notes/>
       <Id>164</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352952</PointerOffset>
       <JapaneseText>&lt;icon:3A&gt;&lt;icon:3&gt;でRGを下げる</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:3A&gt;+&lt;icon:3&gt; to lower RG.</EnglishText>
       <Notes/>
       <Id>165</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352956</PointerOffset>
       <JapaneseText>&lt;icon:3D&gt;&lt;icon:10&gt;で敵ターゲットを変更</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:3D&gt;+&lt;icon:10&gt; to change targets.</EnglishText>
       <Notes/>
       <Id>166</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352960</PointerOffset>
       <JapaneseText>奥にいる敵を狙いたいときなどに便利</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is useful for targeting backline enemies.</EnglishText>
       <Notes/>
       <Id>167</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352964</PointerOffset>
       <JapaneseText>&lt;icon:3D&gt;を強く押すと戦闘を一時停止して変更可能</JapaneseText>
-      <EnglishText/>
+      <EnglishText>When held, you can pause battle to select a target.</EnglishText>
       <Notes/>
       <Id>168</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352968</PointerOffset>
       <JapaneseText>押してすぐ離すと一番近い敵に自動設定します</JapaneseText>
-      <EnglishText/>
+      <EnglishText>A quick tap will target the closest enemy.</EnglishText>
       <Notes/>
       <Id>169</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352972</PointerOffset>
       <JapaneseText>&lt;icon:3F&gt;でジャンプ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:3F&gt; to jump.</EnglishText>
       <Notes/>
       <Id>170</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352976</PointerOffset>
       <JapaneseText>&lt;icon:3C&gt;を押しつづけると作戦の確認ができ、</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Holding &lt;icon:3C&gt; will let you select a strategy.</EnglishText>
       <Notes/>
       <Id>171</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352980</PointerOffset>
       <JapaneseText>押しながら&lt;icon:1C&gt;で作戦を変更できます</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:1C&gt; to change strategies.</EnglishText>
       <Notes/>
       <Id>172</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352984</PointerOffset>
       <JapaneseText>その間はキャラが隊列位置に集まります</JapaneseText>
-      <EnglishText/>
+      <EnglishText>While held, characters get in formation.</EnglishText>
       <Notes/>
       <Id>173</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352988</PointerOffset>
       <JapaneseText>&lt;Yellow&gt;SELECT&lt;White&gt;を押すと操作方法の確認</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;Yellow&gt;SELECT&lt;White&gt; to change control mode.</EnglishText>
       <Notes/>
       <Id>174</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352992</PointerOffset>
       <JapaneseText>&lt;Cyan&gt;MANUAL&lt;White&gt;ダッシュ、ターゲットを任意で行う</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Cyan&gt;MANUAL&lt;White&gt;: All movement and targeting is manual.</EnglishText>
       <Notes/>
       <Id>175</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>352996</PointerOffset>
       <JapaneseText>&lt;Cyan&gt;SEMIAUTO&lt;White&gt;ターゲットへの距離合わせが自動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Cyan&gt;SEMI-AUTO&lt;White&gt;: Automatically move to target.</EnglishText>
       <Notes/>
       <Id>176</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353000</PointerOffset>
       <JapaneseText>&lt;Cyan&gt;AUTO&lt;White&gt;全て自動で攻撃・防御を行う</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Cyan&gt;AUTO&lt;White&gt;: All movement is automatic.</EnglishText>
       <Notes/>
       <Id>177</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353004</PointerOffset>
       <JapaneseText>表示中に再度&lt;Yellow&gt;SELECT&lt;White&gt;で操作方法を変更。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You can also use &lt;Yellow&gt;SELECT&lt;White&gt; in the menu.</EnglishText>
       <Notes/>
       <Id>178</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353008</PointerOffset>
       <JapaneseText>&lt;icon:D&gt;で歩いて左右に移動し、</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:D&gt; to walk left or right.</EnglishText>
       <Notes/>
       <Id>179</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353012</PointerOffset>
       <JapaneseText>&lt;icon:9&gt;&lt;icon:9&gt;でダッシュで移動できます</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:9&gt; twice to dash.</EnglishText>
       <Notes/>
       <Id>180</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353020</PointerOffset>
       <JapaneseText>防御するとダメージを１／４に軽減</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You take 1/4 damage when blocking.</EnglishText>
       <Notes/>
       <Id>181</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353024</PointerOffset>
       <JapaneseText>&lt;icon:2&gt;&lt;icon:2&gt;で奥へ移動、&lt;icon:3&gt;&lt;icon:3&gt;で手前に移動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:2&gt; or &lt;icon:3&gt; twice to switch lines.</EnglishText>
       <Notes/>
       <Id>182</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353028</PointerOffset>
       <JapaneseText>この機会に操作方法のおさらいをしましょう</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Now, let's review our controls...</EnglishText>
       <Notes/>
       <Id>183</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353032</PointerOffset>
       <JapaneseText>&lt;icon:10&gt;＋&lt;icon:38&gt;の組み合わせで通常攻撃</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:10&gt;+&lt;icon:38&gt; to do basic attacks,</EnglishText>
       <Notes/>
       <Id>184</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353036</PointerOffset>
       <JapaneseText>&lt;icon:10&gt;&lt;icon:39&gt;で、対応する特技を発動します</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:10&gt;+&lt;icon:39&gt; to perform the corresponding skill.</EnglishText>
       <Notes/>
       <Id>185</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353040</PointerOffset>
       <JapaneseText>通常攻撃から特技へと連続して発動できます</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Skills can be chained from basic attacks.</EnglishText>
       <Notes/>
       <Id>186</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353048</PointerOffset>
       <JapaneseText>敵が別のラインにいるときは……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>When an enemy is on a different line...</EnglishText>
       <Notes/>
       <Id>187</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353052</PointerOffset>
       <JapaneseText>セミオート操作なら、&lt;icon:38&gt;で敵を追ってくれます</JapaneseText>
-      <EnglishText/>
+      <EnglishText>On SEMI-AUTO, press &lt;icon:38&gt; to follow the enemy.</EnglishText>
       <Notes/>
       <Id>188</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353056</PointerOffset>
       <JapaneseText>&lt;icon:2&gt;&lt;icon:2&gt;で奥へ移動、&lt;icon:3&gt;&lt;icon:3&gt;で手前に移動もできます</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:2&gt; or &lt;icon:3&gt; twice to switch lines.</EnglishText>
       <Notes/>
       <Id>189</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353060</PointerOffset>
       <JapaneseText>敵の攻撃パターンを覚えていき、</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use your knowledge of enemies' patterns...</EnglishText>
       <Notes/>
       <Id>190</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353064</PointerOffset>
       <JapaneseText>効率的に敵を倒しましょう</JapaneseText>
-      <EnglishText/>
+      <EnglishText>...to defeat them efficiently.</EnglishText>
       <Notes/>
       <Id>191</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353068</PointerOffset>
       <JapaneseText>バトルブックの敵一覧を見直すのもオススメ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Read the Battle Book for more info.</EnglishText>
+      <Notes>Space is expensive gomen.
+Consult the battle book about different enemies blah blah blah</Notes>
       <Id>192</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353072</PointerOffset>
       <JapaneseText>敵に攻め込まれないために、隊列は重要です</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Using strategies is important.</EnglishText>
+      <Notes>Using strategies is important so that you don't get surrounded by enemies blah blah blah.
+</Notes>
       <Id>193</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353076</PointerOffset>
       <JapaneseText>体力の低いキャラを護るなど、工夫してみましょう</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Put weaker characters in safer positions.</EnglishText>
       <Notes/>
       <Id>194</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>353080</PointerOffset>
       <JapaneseText>戦闘中でも&lt;icon:3C&gt;で切り替えることができます</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Press &lt;icon:3C&gt; to switch characters during battle.</EnglishText>
       <Notes/>
       <Id>195</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -2221,7 +2223,7 @@ question with another question.
 
 </JapaneseText>
       <EnglishText>&lt;var:0&gt;Commander! You kept quiet to conceal
-a grave truth. If you were to revea
+a grave truth. If you were to reveal
 it, wouldn't you be able to return to
 the &lt;Blue&gt;Royal Shield&lt;White&gt;?
 
@@ -3129,7 +3131,7 @@ I'll overcome myself!
       <EnglishText>1P</EnglishText>
       <Notes/>
       <Id>289</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354636</PointerOffset>
@@ -3137,7 +3139,7 @@ I'll overcome myself!
       <EnglishText>2P</EnglishText>
       <Notes/>
       <Id>290</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354640</PointerOffset>
@@ -3145,7 +3147,7 @@ I'll overcome myself!
       <EnglishText>3P</EnglishText>
       <Notes/>
       <Id>291</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354644</PointerOffset>
@@ -3153,7 +3155,7 @@ I'll overcome myself!
       <EnglishText>4P</EnglishText>
       <Notes/>
       <Id>292</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354648</PointerOffset>
@@ -3161,7 +3163,7 @@ I'll overcome myself!
       <EnglishText>AUTO</EnglishText>
       <Notes/>
       <Id>293</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354652</PointerOffset>
@@ -3169,7 +3171,7 @@ I'll overcome myself!
       <EnglishText>SEMI-AUTO</EnglishText>
       <Notes/>
       <Id>294</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354656</PointerOffset>
@@ -3177,7 +3179,7 @@ I'll overcome myself!
       <EnglishText>MANUAL</EnglishText>
       <Notes/>
       <Id>295</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -3188,7 +3190,7 @@ I'll overcome myself!
       <EnglishText>FORCE</EnglishText>
       <Notes/>
       <Id>296</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354708</PointerOffset>
@@ -3196,7 +3198,7 @@ I'll overcome myself!
       <EnglishText>STRATEGY</EnglishText>
       <Notes/>
       <Id>297</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354712</PointerOffset>
@@ -3204,7 +3206,7 @@ I'll overcome myself!
       <EnglishText>EQUIP</EnglishText>
       <Notes/>
       <Id>298</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354716</PointerOffset>
@@ -3212,7 +3214,7 @@ I'll overcome myself!
       <EnglishText>ITEM</EnglishText>
       <Notes/>
       <Id>299</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354720</PointerOffset>
@@ -3220,7 +3222,7 @@ I'll overcome myself!
       <EnglishText>ZOOM IN</EnglishText>
       <Notes/>
       <Id>300</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354724</PointerOffset>
@@ -3228,7 +3230,7 @@ I'll overcome myself!
       <EnglishText>-LEFT-</EnglishText>
       <Notes/>
       <Id>301</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354728</PointerOffset>
@@ -3236,7 +3238,7 @@ I'll overcome myself!
       <EnglishText>-RIGHT-</EnglishText>
       <Notes/>
       <Id>302</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354732</PointerOffset>
@@ -3244,7 +3246,7 @@ I'll overcome myself!
       <EnglishText>ZOOM OUT</EnglishText>
       <Notes/>
       <Id>303</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -3311,15 +3313,15 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>354948</PointerOffset>
       <JapaneseText>逃走した</JapaneseText>
-      <EnglishText>Escaped</EnglishText>
+      <EnglishText></EnglishText>
       <Notes/>
       <Id>311</Id>
-      <Status>Editing</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>354952</PointerOffset>
       <JapaneseText>リアルスマッシュ</JapaneseText>
-      <EnglishText>Dynamic Smash</EnglishText>
+      <EnglishText>Real Smash</EnglishText>
       <Notes/>
       <Id>312</Id>
       <Status>Editing</Status>
@@ -3541,7 +3543,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>339</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355072</PointerOffset>
@@ -3549,7 +3551,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>340</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355076</PointerOffset>
@@ -3557,7 +3559,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>341</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355080</PointerOffset>
@@ -3565,7 +3567,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>342</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355084</PointerOffset>
@@ -3573,7 +3575,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>343</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355088</PointerOffset>
@@ -3581,7 +3583,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>344</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355092</PointerOffset>
@@ -3589,7 +3591,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>345</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355096</PointerOffset>
@@ -3597,7 +3599,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>346</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355100</PointerOffset>
@@ -3605,7 +3607,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>347</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355104</PointerOffset>
@@ -3613,7 +3615,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>348</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355108</PointerOffset>
@@ -3621,7 +3623,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>349</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355112</PointerOffset>
@@ -3629,7 +3631,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>350</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355116</PointerOffset>
@@ -3637,7 +3639,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>351</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355120</PointerOffset>
@@ -3645,7 +3647,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>352</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355124</PointerOffset>
@@ -3653,7 +3655,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>353</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355128</PointerOffset>
@@ -3661,7 +3663,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>354</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355132</PointerOffset>
@@ -3669,7 +3671,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>355</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355136</PointerOffset>
@@ -3677,7 +3679,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>356</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355140</PointerOffset>
@@ -3685,7 +3687,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>357</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355144</PointerOffset>
@@ -3693,7 +3695,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>358</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355148</PointerOffset>
@@ -3701,7 +3703,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>359</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355152</PointerOffset>
@@ -3709,7 +3711,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>360</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355156</PointerOffset>
@@ -3717,7 +3719,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>361</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355160</PointerOffset>
@@ -3725,7 +3727,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>362</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355164</PointerOffset>
@@ -3733,7 +3735,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>363</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355168</PointerOffset>
@@ -3741,7 +3743,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>364</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355172</PointerOffset>
@@ -3749,7 +3751,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>365</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355176</PointerOffset>
@@ -3757,7 +3759,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>366</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355180</PointerOffset>
@@ -3765,7 +3767,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>367</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355184</PointerOffset>
@@ -3773,7 +3775,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>368</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355188</PointerOffset>
@@ -3781,7 +3783,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>369</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355192</PointerOffset>
@@ -3789,7 +3791,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>370</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355196</PointerOffset>
@@ -3797,7 +3799,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>371</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355200</PointerOffset>
@@ -3805,7 +3807,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>372</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355204</PointerOffset>
@@ -3813,7 +3815,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>373</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355208</PointerOffset>
@@ -3821,7 +3823,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>374</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355212</PointerOffset>
@@ -3829,7 +3831,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>375</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355216</PointerOffset>
@@ -3837,7 +3839,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>376</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355220</PointerOffset>
@@ -3845,7 +3847,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>377</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355224</PointerOffset>
@@ -3853,7 +3855,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>378</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355228</PointerOffset>
@@ -3861,7 +3863,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>379</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355232</PointerOffset>
@@ -3869,7 +3871,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>380</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355236</PointerOffset>
@@ -3877,7 +3879,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>381</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355240</PointerOffset>
@@ -3885,7 +3887,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>382</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355244</PointerOffset>
@@ -3893,7 +3895,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>383</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355248</PointerOffset>
@@ -3901,7 +3903,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>384</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355252</PointerOffset>
@@ -3909,7 +3911,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>385</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355256</PointerOffset>
@@ -3917,7 +3919,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>386</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355260</PointerOffset>
@@ -3925,7 +3927,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>387</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355264</PointerOffset>
@@ -3933,7 +3935,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>388</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355268</PointerOffset>
@@ -3941,7 +3943,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>389</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355272</PointerOffset>
@@ -3949,7 +3951,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>390</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355276</PointerOffset>
@@ -3957,7 +3959,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>391</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355280</PointerOffset>
@@ -3965,7 +3967,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>392</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355284</PointerOffset>
@@ -3973,7 +3975,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>393</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355288</PointerOffset>
@@ -3981,7 +3983,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>394</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355292</PointerOffset>
@@ -3989,7 +3991,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>395</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355296</PointerOffset>
@@ -3997,7 +3999,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>396</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355300</PointerOffset>
@@ -4005,7 +4007,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>397</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355304</PointerOffset>
@@ -4013,7 +4015,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>398</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355308</PointerOffset>
@@ -4021,7 +4023,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>399</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355312</PointerOffset>
@@ -4029,7 +4031,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>400</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355316</PointerOffset>
@@ -4037,7 +4039,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>401</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355320</PointerOffset>
@@ -4045,7 +4047,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>402</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355324</PointerOffset>
@@ -4053,7 +4055,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>403</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355328,355436,355508</PointerOffset>
@@ -4061,7 +4063,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>404</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355332</PointerOffset>
@@ -4069,7 +4071,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>405</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355336</PointerOffset>
@@ -4077,7 +4079,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>406</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355340</PointerOffset>
@@ -4085,7 +4087,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>407</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355344</PointerOffset>
@@ -4093,7 +4095,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>408</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355348</PointerOffset>
@@ -4101,7 +4103,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>409</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355352</PointerOffset>
@@ -4109,7 +4111,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>410</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355356</PointerOffset>
@@ -4117,7 +4119,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>411</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355360</PointerOffset>
@@ -4125,7 +4127,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>412</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355364,356720</PointerOffset>
@@ -4133,23 +4135,23 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>413</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355368,356708</PointerOffset>
       <JapaneseText>四星戦</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Four Stars Battle</EnglishText>
       <Notes/>
       <Id>414</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>355372</PointerOffset>
       <JapaneseText>四星戦２</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Four Stars Battle 2</EnglishText>
       <Notes/>
       <Id>415</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>355376</PointerOffset>
@@ -4157,15 +4159,15 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>416</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355380</PointerOffset>
       <JapaneseText>ロード</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Load</EnglishText>
       <Notes/>
       <Id>417</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>355384</PointerOffset>
@@ -4173,7 +4175,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>418</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355388</PointerOffset>
@@ -4181,7 +4183,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>419</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355392</PointerOffset>
@@ -4189,7 +4191,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>420</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355396</PointerOffset>
@@ -4197,7 +4199,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>421</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355400</PointerOffset>
@@ -4205,7 +4207,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>422</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355404</PointerOffset>
@@ -4213,7 +4215,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>423</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355408</PointerOffset>
@@ -4221,7 +4223,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>424</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355412</PointerOffset>
@@ -4229,7 +4231,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>425</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355416,355908,355912,355916</PointerOffset>
@@ -4237,7 +4239,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>426</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355420</PointerOffset>
@@ -4245,7 +4247,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>427</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355424</PointerOffset>
@@ -4253,7 +4255,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>428</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355428</PointerOffset>
@@ -4261,7 +4263,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>429</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355432</PointerOffset>
@@ -4269,7 +4271,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>430</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355440</PointerOffset>
@@ -4277,7 +4279,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>431</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355444</PointerOffset>
@@ -4285,7 +4287,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>432</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355448</PointerOffset>
@@ -4293,7 +4295,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>433</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355452</PointerOffset>
@@ -4301,7 +4303,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>434</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355456</PointerOffset>
@@ -4309,7 +4311,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>435</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355460</PointerOffset>
@@ -4317,7 +4319,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>436</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355464</PointerOffset>
@@ -4325,7 +4327,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>437</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355468</PointerOffset>
@@ -4333,7 +4335,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>438</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355472</PointerOffset>
@@ -4341,7 +4343,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>439</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355476</PointerOffset>
@@ -4349,7 +4351,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>440</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355480</PointerOffset>
@@ -4357,7 +4359,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>441</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355484</PointerOffset>
@@ -4365,7 +4367,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>442</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355488</PointerOffset>
@@ -4373,7 +4375,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>443</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355492</PointerOffset>
@@ -4381,7 +4383,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>444</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355496</PointerOffset>
@@ -4389,7 +4391,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>445</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355500</PointerOffset>
@@ -4397,7 +4399,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>446</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355504</PointerOffset>
@@ -4405,7 +4407,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>447</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355512,355656</PointerOffset>
@@ -4413,7 +4415,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>448</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355516,355660</PointerOffset>
@@ -4421,7 +4423,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>449</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355520,355664</PointerOffset>
@@ -4429,7 +4431,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>450</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355524,355668</PointerOffset>
@@ -4437,7 +4439,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>451</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355528,355672</PointerOffset>
@@ -4445,7 +4447,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>452</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355532,355676</PointerOffset>
@@ -4453,7 +4455,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>453</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355536</PointerOffset>
@@ -4461,7 +4463,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>454</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355540</PointerOffset>
@@ -4469,7 +4471,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>455</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355544</PointerOffset>
@@ -4477,7 +4479,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>456</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355548</PointerOffset>
@@ -4485,7 +4487,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>457</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355552</PointerOffset>
@@ -4493,7 +4495,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>458</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355556</PointerOffset>
@@ -4501,7 +4503,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>459</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355560</PointerOffset>
@@ -4509,7 +4511,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>460</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355564</PointerOffset>
@@ -4517,7 +4519,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>461</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355568</PointerOffset>
@@ -4525,7 +4527,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>462</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355572</PointerOffset>
@@ -4533,7 +4535,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>463</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355576</PointerOffset>
@@ -4541,7 +4543,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>464</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355580</PointerOffset>
@@ -4549,7 +4551,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>465</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355584</PointerOffset>
@@ -4557,7 +4559,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>466</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355588</PointerOffset>
@@ -4565,7 +4567,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>467</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355592</PointerOffset>
@@ -4573,7 +4575,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>468</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355596</PointerOffset>
@@ -4581,7 +4583,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>469</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355600</PointerOffset>
@@ -4589,7 +4591,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>470</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355604</PointerOffset>
@@ -4597,7 +4599,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>471</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355608</PointerOffset>
@@ -4605,7 +4607,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>472</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355612</PointerOffset>
@@ -4613,7 +4615,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>473</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355616</PointerOffset>
@@ -4621,7 +4623,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>474</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355620</PointerOffset>
@@ -4629,7 +4631,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>475</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355624</PointerOffset>
@@ -4637,7 +4639,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>476</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355628</PointerOffset>
@@ -4645,7 +4647,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>477</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355632</PointerOffset>
@@ -4653,7 +4655,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>478</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355636</PointerOffset>
@@ -4661,7 +4663,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>479</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355640</PointerOffset>
@@ -4669,7 +4671,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>480</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355644</PointerOffset>
@@ -4677,7 +4679,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>481</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355648</PointerOffset>
@@ -4685,7 +4687,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>482</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355652</PointerOffset>
@@ -4693,7 +4695,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>483</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355680</PointerOffset>
@@ -4701,7 +4703,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>484</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355684</PointerOffset>
@@ -4709,7 +4711,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>485</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355688</PointerOffset>
@@ -4717,7 +4719,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>486</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355692</PointerOffset>
@@ -4725,7 +4727,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>487</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355696,355752</PointerOffset>
@@ -4733,7 +4735,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>488</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355700</PointerOffset>
@@ -4741,7 +4743,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>489</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355704</PointerOffset>
@@ -4749,7 +4751,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>490</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355708,355788</PointerOffset>
@@ -4757,7 +4759,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>491</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355712</PointerOffset>
@@ -4765,7 +4767,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>492</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355716</PointerOffset>
@@ -4773,7 +4775,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>493</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355720</PointerOffset>
@@ -4781,7 +4783,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>494</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355724</PointerOffset>
@@ -4789,7 +4791,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>495</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355728,355780</PointerOffset>
@@ -4797,7 +4799,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>496</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355732</PointerOffset>
@@ -4805,7 +4807,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>497</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355736</PointerOffset>
@@ -4813,7 +4815,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>498</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355740</PointerOffset>
@@ -4821,7 +4823,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>499</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355744</PointerOffset>
@@ -4829,7 +4831,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>500</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355748</PointerOffset>
@@ -4837,7 +4839,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>501</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355756</PointerOffset>
@@ -4845,7 +4847,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>502</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355760</PointerOffset>
@@ -4853,7 +4855,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>503</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355764</PointerOffset>
@@ -4861,7 +4863,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>504</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355768</PointerOffset>
@@ -4869,7 +4871,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>505</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355772</PointerOffset>
@@ -4877,7 +4879,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>506</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355776</PointerOffset>
@@ -4885,7 +4887,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>507</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355784</PointerOffset>
@@ -4893,7 +4895,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>508</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355792</PointerOffset>
@@ -4901,7 +4903,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>509</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355796</PointerOffset>
@@ -4909,7 +4911,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>510</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355800</PointerOffset>
@@ -4917,7 +4919,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>511</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355804</PointerOffset>
@@ -4925,7 +4927,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>512</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355808</PointerOffset>
@@ -4933,7 +4935,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>513</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355812</PointerOffset>
@@ -4941,7 +4943,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>514</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355816</PointerOffset>
@@ -4949,7 +4951,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>515</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355820</PointerOffset>
@@ -4957,7 +4959,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>516</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355824</PointerOffset>
@@ -4965,7 +4967,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>517</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355828</PointerOffset>
@@ -4973,7 +4975,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>518</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355832</PointerOffset>
@@ -4981,7 +4983,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>519</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355836</PointerOffset>
@@ -4989,7 +4991,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>520</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355840</PointerOffset>
@@ -4997,7 +4999,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>521</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355844</PointerOffset>
@@ -5005,7 +5007,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>522</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355848</PointerOffset>
@@ -5013,7 +5015,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>523</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355852</PointerOffset>
@@ -5021,7 +5023,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>524</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355856</PointerOffset>
@@ -5029,7 +5031,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>525</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355860</PointerOffset>
@@ -5037,7 +5039,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>526</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355864</PointerOffset>
@@ -5045,7 +5047,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>527</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355868</PointerOffset>
@@ -5053,7 +5055,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>528</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355872</PointerOffset>
@@ -5061,7 +5063,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>529</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355876</PointerOffset>
@@ -5069,7 +5071,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>530</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355880</PointerOffset>
@@ -5077,7 +5079,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>531</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355884</PointerOffset>
@@ -5085,7 +5087,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>532</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355888</PointerOffset>
@@ -5093,7 +5095,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>533</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355892</PointerOffset>
@@ -5101,7 +5103,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>534</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355896</PointerOffset>
@@ -5109,7 +5111,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>535</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355900</PointerOffset>
@@ -5117,7 +5119,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>536</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355904</PointerOffset>
@@ -5126,7 +5128,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>537</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355920</PointerOffset>
@@ -5134,7 +5136,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>538</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355924</PointerOffset>
@@ -5142,7 +5144,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>539</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355928</PointerOffset>
@@ -5150,7 +5152,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>540</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355932</PointerOffset>
@@ -5158,7 +5160,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>541</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355936</PointerOffset>
@@ -5166,7 +5168,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>542</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355940</PointerOffset>
@@ -5174,7 +5176,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>543</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355944</PointerOffset>
@@ -5182,7 +5184,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>544</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355948</PointerOffset>
@@ -5190,7 +5192,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>545</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355952</PointerOffset>
@@ -5198,7 +5200,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>546</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355956</PointerOffset>
@@ -5206,7 +5208,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>547</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355960</PointerOffset>
@@ -5214,7 +5216,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>548</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355964</PointerOffset>
@@ -5222,7 +5224,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>549</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355968</PointerOffset>
@@ -5230,7 +5232,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>550</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355972</PointerOffset>
@@ -5238,7 +5240,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>551</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355976</PointerOffset>
@@ -5246,7 +5248,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>552</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355980</PointerOffset>
@@ -5254,7 +5256,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>553</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355984</PointerOffset>
@@ -5262,7 +5264,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>554</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355988</PointerOffset>
@@ -5270,7 +5272,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>555</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355992</PointerOffset>
@@ -5278,7 +5280,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>556</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>355996</PointerOffset>
@@ -5286,7 +5288,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>557</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356000</PointerOffset>
@@ -5294,7 +5296,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>558</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356004</PointerOffset>
@@ -5302,7 +5304,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>559</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356008</PointerOffset>
@@ -5310,7 +5312,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>560</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356012</PointerOffset>
@@ -5318,7 +5320,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>561</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356016</PointerOffset>
@@ -5326,7 +5328,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>562</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356020</PointerOffset>
@@ -5334,7 +5336,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>563</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356024</PointerOffset>
@@ -5342,7 +5344,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>564</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356028</PointerOffset>
@@ -5350,7 +5352,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>565</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356032</PointerOffset>
@@ -5358,7 +5360,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>566</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356036</PointerOffset>
@@ -5366,7 +5368,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>567</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356040</PointerOffset>
@@ -5374,7 +5376,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>568</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356044</PointerOffset>
@@ -5382,7 +5384,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>569</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356048</PointerOffset>
@@ -5390,7 +5392,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>570</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356052</PointerOffset>
@@ -5398,7 +5400,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>571</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356056</PointerOffset>
@@ -5406,7 +5408,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>572</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356060</PointerOffset>
@@ -5414,7 +5416,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>573</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356064</PointerOffset>
@@ -5422,7 +5424,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>574</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356068</PointerOffset>
@@ -5430,7 +5432,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>575</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356072</PointerOffset>
@@ -5438,7 +5440,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>576</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356076</PointerOffset>
@@ -5446,7 +5448,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>577</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356080</PointerOffset>
@@ -5454,7 +5456,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>578</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356084</PointerOffset>
@@ -5462,7 +5464,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>579</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356088</PointerOffset>
@@ -5470,7 +5472,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>580</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356092</PointerOffset>
@@ -5478,7 +5480,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>581</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356096</PointerOffset>
@@ -5486,7 +5488,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>582</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356100</PointerOffset>
@@ -5494,7 +5496,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>583</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356104</PointerOffset>
@@ -5502,7 +5504,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>584</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356108</PointerOffset>
@@ -5510,7 +5512,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>585</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356112</PointerOffset>
@@ -5518,7 +5520,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>586</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356116</PointerOffset>
@@ -5526,7 +5528,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>587</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356120</PointerOffset>
@@ -5534,7 +5536,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>588</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356124</PointerOffset>
@@ -5542,7 +5544,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>589</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356128</PointerOffset>
@@ -5550,7 +5552,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>590</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356132</PointerOffset>
@@ -5558,7 +5560,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>591</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356136</PointerOffset>
@@ -5566,7 +5568,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>592</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356140</PointerOffset>
@@ -5574,7 +5576,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>593</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356144</PointerOffset>
@@ -5582,7 +5584,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>594</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356148</PointerOffset>
@@ -5590,7 +5592,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>595</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356152</PointerOffset>
@@ -5598,7 +5600,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>596</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356156</PointerOffset>
@@ -5606,7 +5608,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>597</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356160</PointerOffset>
@@ -5614,7 +5616,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>598</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356164</PointerOffset>
@@ -5622,7 +5624,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>599</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356168</PointerOffset>
@@ -5630,7 +5632,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>600</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356172</PointerOffset>
@@ -5638,7 +5640,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>601</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356176</PointerOffset>
@@ -5646,7 +5648,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>602</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356180</PointerOffset>
@@ -5654,7 +5656,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>603</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356184</PointerOffset>
@@ -5662,7 +5664,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>604</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356188</PointerOffset>
@@ -5670,7 +5672,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>605</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356192</PointerOffset>
@@ -5678,7 +5680,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>606</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356196</PointerOffset>
@@ -5686,7 +5688,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>607</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356200</PointerOffset>
@@ -5694,7 +5696,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>608</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356204</PointerOffset>
@@ -5702,7 +5704,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>609</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356208</PointerOffset>
@@ -5710,7 +5712,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>610</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356212</PointerOffset>
@@ -5718,7 +5720,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>611</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356216</PointerOffset>
@@ -5726,7 +5728,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>612</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356220</PointerOffset>
@@ -5734,7 +5736,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>613</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356224</PointerOffset>
@@ -5742,7 +5744,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>614</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356228</PointerOffset>
@@ -5750,7 +5752,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>615</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356232</PointerOffset>
@@ -5758,7 +5760,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>616</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356236</PointerOffset>
@@ -5766,7 +5768,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>617</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356240</PointerOffset>
@@ -5774,7 +5776,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>618</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356244</PointerOffset>
@@ -5782,7 +5784,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>619</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356248</PointerOffset>
@@ -5790,7 +5792,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>620</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356252</PointerOffset>
@@ -5798,7 +5800,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>621</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356256</PointerOffset>
@@ -5806,7 +5808,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>622</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356260</PointerOffset>
@@ -5814,7 +5816,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>623</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356264</PointerOffset>
@@ -5822,7 +5824,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>624</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356268</PointerOffset>
@@ -5830,7 +5832,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>625</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356272</PointerOffset>
@@ -5838,7 +5840,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>626</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356276</PointerOffset>
@@ -5846,7 +5848,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>627</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356280</PointerOffset>
@@ -5854,7 +5856,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>628</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356284</PointerOffset>
@@ -5862,7 +5864,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>629</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356288</PointerOffset>
@@ -5870,7 +5872,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>630</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356292</PointerOffset>
@@ -5878,7 +5880,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>631</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356296</PointerOffset>
@@ -5886,7 +5888,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>632</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356300</PointerOffset>
@@ -5894,7 +5896,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>633</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356304</PointerOffset>
@@ -5902,7 +5904,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>634</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356308</PointerOffset>
@@ -5910,7 +5912,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>635</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356312</PointerOffset>
@@ -5918,7 +5920,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>636</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356316</PointerOffset>
@@ -5926,7 +5928,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>637</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356320</PointerOffset>
@@ -5934,7 +5936,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>638</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356324</PointerOffset>
@@ -5942,7 +5944,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>639</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356328</PointerOffset>
@@ -5950,7 +5952,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>640</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356332</PointerOffset>
@@ -5958,7 +5960,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>641</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356336</PointerOffset>
@@ -5966,7 +5968,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>642</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356340</PointerOffset>
@@ -5974,7 +5976,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>643</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356344</PointerOffset>
@@ -5982,7 +5984,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>644</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356348</PointerOffset>
@@ -5990,7 +5992,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>645</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356352</PointerOffset>
@@ -5998,7 +6000,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>646</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356356</PointerOffset>
@@ -6006,7 +6008,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>647</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356360</PointerOffset>
@@ -6014,7 +6016,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>648</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356364</PointerOffset>
@@ -6022,7 +6024,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>649</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356368</PointerOffset>
@@ -6030,7 +6032,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>650</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356372</PointerOffset>
@@ -6038,7 +6040,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>651</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356376</PointerOffset>
@@ -6046,7 +6048,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>652</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356380</PointerOffset>
@@ -6054,7 +6056,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>653</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356384</PointerOffset>
@@ -6062,7 +6064,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>654</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356388</PointerOffset>
@@ -6070,7 +6072,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>655</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356392</PointerOffset>
@@ -6078,7 +6080,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>656</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356396</PointerOffset>
@@ -6086,7 +6088,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>657</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356400</PointerOffset>
@@ -6094,7 +6096,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>658</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356404</PointerOffset>
@@ -6102,7 +6104,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>659</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356408</PointerOffset>
@@ -6110,7 +6112,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>660</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356412</PointerOffset>
@@ -6118,7 +6120,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>661</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356416</PointerOffset>
@@ -6126,7 +6128,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>662</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356420</PointerOffset>
@@ -6134,7 +6136,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>663</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356424</PointerOffset>
@@ -6142,7 +6144,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>664</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356428</PointerOffset>
@@ -6150,7 +6152,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>665</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356432</PointerOffset>
@@ -6158,7 +6160,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>666</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356436</PointerOffset>
@@ -6166,7 +6168,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>667</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356440</PointerOffset>
@@ -6174,7 +6176,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>668</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356444</PointerOffset>
@@ -6182,7 +6184,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>669</Id>
-      <Status>Done</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>356448</PointerOffset>
@@ -6251,10 +6253,10 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>356480</PointerOffset>
       <JapaneseText>レグタイト戦</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Legtight Battle</EnglishText>
       <Notes/>
       <Id>678</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356484</PointerOffset>
@@ -6283,10 +6285,10 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>356496</PointerOffset>
       <JapaneseText>トミッチ部下戦</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Tomich Underligns Battle</EnglishText>
       <Notes/>
       <Id>682</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356500</PointerOffset>
@@ -6315,10 +6317,10 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>356512</PointerOffset>
       <JapaneseText>ペトナジャンカ周辺RE</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Petnadjanka Area RE</EnglishText>
       <Notes/>
       <Id>686</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356516</PointerOffset>
@@ -6371,18 +6373,18 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>356540</PointerOffset>
       <JapaneseText>分身ミリッツァ戦</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Militsa Battle</EnglishText>
       <Notes/>
       <Id>693</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356544</PointerOffset>
       <JapaneseText>ミリッツァ戦</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Militsa Battle</EnglishText>
       <Notes/>
       <Id>694</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356548</PointerOffset>
@@ -6443,10 +6445,10 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>356576</PointerOffset>
       <JapaneseText>ワルトゥ・ミリッツァ戦</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Walto and Militsa Battle</EnglishText>
       <Notes/>
       <Id>702</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356580</PointerOffset>
@@ -6475,10 +6477,10 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>356592</PointerOffset>
       <JapaneseText>トーマ・サレ戦</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Tohma and Saleh Battle</EnglishText>
       <Notes/>
       <Id>706</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356596</PointerOffset>
@@ -6611,10 +6613,10 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>356660</PointerOffset>
       <JapaneseText>海上RE</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Ocean RE</EnglishText>
       <Notes/>
       <Id>723</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356664</PointerOffset>
@@ -6763,10 +6765,10 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>356748</PointerOffset>
       <JapaneseText>ユリス戦</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Yuris Battle</EnglishText>
       <Notes/>
       <Id>742</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>356752</PointerOffset>
@@ -6830,15 +6832,15 @@ I'll overcome myself!
     <Entry>
       <PointerOffset>368952</PointerOffset>
       <JapaneseText>CANNOT ESCAPE</JapaneseText>
-      <EnglishText/>
+      <EnglishText>CANNOT ESCAPE</EnglishText>
       <Notes/>
       <Id>750</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>368956</PointerOffset>
       <JapaneseText>ESCAPE GAGE</JapaneseText>
-      <EnglishText>ESCAPE GAUGE</EnglishText>
+      <EnglishText>ESCAPED GAUGE</EnglishText>
       <Notes/>
       <Id>751</Id>
       <Status>Editing</Status>
@@ -6850,10 +6852,10 @@ I'll overcome myself!
         <lo>3167780</lo>
       </EmbedOffset>
       <JapaneseText>ESCAPED</JapaneseText>
-      <EnglishText/>
+      <EnglishText>ESCAPED</EnglishText>
       <Notes/>
       <Id>752</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -6865,10 +6867,10 @@ I'll overcome myself!
         <lo>3146352</lo>
       </EmbedOffset>
       <JapaneseText>HP%6d</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HP%6d</EnglishText>
       <Notes/>
       <Id>753</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6877,10 +6879,10 @@ I'll overcome myself!
         <lo>3146384</lo>
       </EmbedOffset>
       <JapaneseText>HP ???</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HP ???</EnglishText>
       <Notes/>
       <Id>754</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6889,10 +6891,10 @@ I'll overcome myself!
         <lo>3146556</lo>
       </EmbedOffset>
       <JapaneseText>%s:</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>%s: </EnglishText>
+      <Notes>added a white space after the : just in case</Notes>
       <Id>755</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6901,10 +6903,10 @@ I'll overcome myself!
         <lo>3146712</lo>
       </EmbedOffset>
       <JapaneseText>　</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText> </EnglishText>
+      <Notes>changed it to a wnglish white space instead of a japanese white space</Notes>
       <Id>756</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6913,10 +6915,10 @@ I'll overcome myself!
         <lo>3147572</lo>
       </EmbedOffset>
       <JapaneseText>%s</JapaneseText>
-      <EnglishText/>
+      <EnglishText>%s</EnglishText>
       <Notes/>
       <Id>757</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6925,10 +6927,10 @@ I'll overcome myself!
         <lo>3155024</lo>
       </EmbedOffset>
       <JapaneseText>BATTLE MENU %dP</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>BATTLE MENU %dP</EnglishText>
+      <Notes>for exemple: BATTLE MENU 1P </Notes>
       <Id>758</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6937,10 +6939,10 @@ I'll overcome myself!
         <lo>3162360</lo>
       </EmbedOffset>
       <JapaneseText>NEW RECORD!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>NEW RECORD!</EnglishText>
       <Notes/>
       <Id>759</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6949,10 +6951,10 @@ I'll overcome myself!
         <lo>3161248,3163044</lo>
       </EmbedOffset>
       <JapaneseText>%3d</JapaneseText>
-      <EnglishText/>
+      <EnglishText>%3d</EnglishText>
       <Notes/>
       <Id>760</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6961,10 +6963,10 @@ I'll overcome myself!
         <lo>3161996</lo>
       </EmbedOffset>
       <JapaneseText>HITS</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HITS</EnglishText>
       <Notes/>
       <Id>761</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6973,10 +6975,11 @@ I'll overcome myself!
         <lo>3162396</lo>
       </EmbedOffset>
       <JapaneseText>%s OVER!</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>OVER %s!</EnglishText>
+      <Notes>original: 10 HITS OVER!
+changed: OVER 10 HITS!</Notes>
       <Id>762</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -6988,7 +6991,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>763</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -7000,7 +7003,7 @@ I'll overcome myself!
       <EnglishText/>
       <Notes/>
       <Id>764</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -7009,10 +7012,10 @@ I'll overcome myself!
         <lo>3176048</lo>
       </EmbedOffset>
       <JapaneseText> </JapaneseText>
-      <EnglishText/>
+      <EnglishText> </EnglishText>
       <Notes/>
       <Id>765</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -7021,10 +7024,10 @@ I'll overcome myself!
         <lo>3327924</lo>
       </EmbedOffset>
       <JapaneseText>BATTLE HELP</JapaneseText>
-      <EnglishText/>
+      <EnglishText>BATTLE HELP</EnglishText>
       <Notes/>
       <Id>766</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -7033,10 +7036,10 @@ I'll overcome myself!
         <lo>3318440</lo>
       </EmbedOffset>
       <JapaneseText>GALD</JapaneseText>
-      <EnglishText/>
+      <EnglishText>GALD</EnglishText>
       <Notes/>
       <Id>767</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -7045,10 +7048,10 @@ I'll overcome myself!
         <lo>3318548</lo>
       </EmbedOffset>
       <JapaneseText>BONUS EP</JapaneseText>
-      <EnglishText/>
+      <EnglishText>BONUS EP</EnglishText>
       <Notes/>
       <Id>768</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -7057,10 +7060,10 @@ I'll overcome myself!
         <lo>3220068</lo>
       </EmbedOffset>
       <JapaneseText>DEFEAT</JapaneseText>
-      <EnglishText/>
+      <EnglishText>DEFEAT</EnglishText>
       <Notes/>
       <Id>769</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
 </MenuText>
