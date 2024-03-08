@@ -135,6 +135,15 @@ extra_syscall_ret:
 .org 0x105E18
     li   v0, 0x1
 
+;Synopsis linebreak fixes by Julian
+.org 0x108C0C
+	nop
+	nop
+
+.org 0x108D14
+	nop
+	nop
+
 ;Cutscene Text Var Width fix
 .org 0x11CC60
 ;sets bool flag for ascii to 0
@@ -144,6 +153,10 @@ extra_syscall_ret:
 .org 0x11D494
 ;skips stright to the good stuff
     b    0x0011D4A4
+
+.org 0x175984
+;Prevents some font memes in the Synopsis
+	nop
 
 .org 0x1CF680
 ;Shoves font blob into the exe (I'M SORRY KAJI)
