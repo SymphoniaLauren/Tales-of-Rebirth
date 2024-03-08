@@ -64,7 +64,7 @@
 				"style": "P"
 			},
 			{
-				"section": "Monster Names",
+				"section": "Nonster Names",
 				"pointers_start": 1061008,
 				"pointers_end": 1061756,
 				"style": "P"
@@ -866,7 +866,7 @@
 		"file_path": "./DAT/OVL/11217.ovl",
 		"friendly_name": "mnu_monster",
 		"is_pak": false,
-		"split_sections": true,
+		"split_sections": false,
 		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x2DF470,0x02EBE00],
@@ -1024,6 +1024,7 @@
 		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x02E3AF0,0x02E41E0],
+            [0x02E7180,0x02EDC00],
 		],
 		"sections": [
 			{
@@ -1043,6 +1044,7 @@
 		"base_offset": 0x2D8900,
 		"safe_areas": [
 			[0x02E5670,0x02E5D60],
+            [0x02E90C0,0x02EDC00],
 		],
 		"sections": [
 			{
@@ -1171,7 +1173,7 @@
 			{
 				"section": "Character Bios",
 				"pointers_start": 0xC,
-				"pointers_end": 0x84,
+				"pointers_end": 0x70,
 				"style": "4P"
 			}
 		],
