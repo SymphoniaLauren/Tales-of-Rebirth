@@ -81,10 +81,10 @@
       </EmbedOffset>
       <JapaneseText>&lt;Yellow&gt;&lt;italic:60&gt;Ｔａｌｅｓ ｏｆ Ｒｅｂｉｒｔｈ&lt;/Italic&gt;&lt;White&gt; の
 ディスクをセットして下さい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please insert the &lt;Yellow&gt;&lt;italic:60&gt;Tales of Rebirth&lt;/Italic&gt;&lt;White&gt; disk.</EnglishText>
       <Notes/>
       <Id>3836</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -95,10 +95,11 @@
       <JapaneseText>ディスクが違います。
 &lt;Yellow&gt;&lt;italic:60&gt;Ｔａｌｅｓ ｏｆ Ｒｅｂｉｒｔｈ&lt;/Italic&gt;&lt;White&gt; の
 ディスクをセットして下さい。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Wrong disk.
+Please insert the &lt;Yellow&gt;&lt;italic:60&gt;Tales of Rebirth&lt;/Italic&gt;&lt;White&gt; disk.</EnglishText>
       <Notes/>
       <Id>3837</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -107,10 +108,10 @@
         <lo>1107952</lo>
       </EmbedOffset>
       <JapaneseText>ディスクの確認をしています。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Checking the disk.</EnglishText>
       <Notes/>
       <Id>3838</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -119,10 +120,10 @@
         <lo>1107956</lo>
       </EmbedOffset>
       <JapaneseText>しばらくお待ち下さい</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Please wait a moment.</EnglishText>
       <Notes/>
       <Id>3839</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -143,10 +144,10 @@
         <lo>1203436,1203496,1203564,1204176</lo>
       </EmbedOffset>
       <JapaneseText>%dつ</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>x%d</EnglishText>
+      <Notes>in general this would be replaced by an x since "tsu" is used as a counter in japanese</Notes>
       <Id>3841</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -158,10 +159,13 @@
 全部は持てません。
 　&lt;var:2&gt;取り、&lt;var:3&gt;捨てる
 　宝箱に戻す　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You found &lt;var:0&gt; &lt;var:1&gt;
+but you can't take them all.
+Take &lt;var:2&gt;, discard &lt;var:3&gt;
+Put them back in the chest</EnglishText>
       <Notes/>
       <Id>3842</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -170,10 +174,10 @@
         <lo>1203792</lo>
       </EmbedOffset>
       <JapaneseText>&lt;speed:0&gt;からっぽでした。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;It was empty.</EnglishText>
       <Notes/>
       <Id>3843</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -196,10 +200,11 @@
       </EmbedOffset>
       <JapaneseText>&lt;speed:0&gt;&lt;var:0&gt;を&lt;var:1&gt;
 手に入れました。</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>&lt;speed:0&gt;&lt;var:0&gt; &lt;var:1&gt; 
+acquired.</EnglishText>
+      <Notes>3x Banana acquired.</Notes>
       <Id>3845</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -209,10 +214,11 @@
       </EmbedOffset>
       <JapaneseText>&lt;speed:0&gt;&lt;var:0&gt;を
 手に入れました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;&lt;var:0&gt;
+acquired.</EnglishText>
       <Notes/>
       <Id>3846</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -222,10 +228,11 @@
       </EmbedOffset>
       <JapaneseText>&lt;speed:0&gt;&lt;var:0&gt;がありましたが
 いっぱいでこれ以上持てません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;You found a &lt;var:0&gt; but
+you can't carry any more.</EnglishText>
       <Notes/>
       <Id>3847</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -235,10 +242,10 @@
       </EmbedOffset>
       <JapaneseText>&lt;speed:0&gt;&lt;var:0&gt;を
 発見しました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;Discovered &lt;var:0&gt;.</EnglishText>
       <Notes/>
       <Id>3848</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -271,10 +278,10 @@
         <lo>1213228</lo>
       </EmbedOffset>
       <JapaneseText>たち</JapaneseText>
-      <EnglishText/>
+      <EnglishText> and friends were</EnglishText>
       <Notes/>
       <Id>3851</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -283,10 +290,10 @@
         <lo>1213268</lo>
       </EmbedOffset>
       <JapaneseText>彼ら</JapaneseText>
-      <EnglishText/>
+      <EnglishText>They were</EnglishText>
       <Notes/>
       <Id>3852</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -295,10 +302,10 @@
         <lo>1213280</lo>
       </EmbedOffset>
       <JapaneseText>彼</JapaneseText>
-      <EnglishText/>
+      <EnglishText>He was</EnglishText>
       <Notes/>
       <Id>3853</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
@@ -308,10 +315,10 @@
       </EmbedOffset>
       <JapaneseText>その後、&lt;var:0&gt;&lt;var:1&gt;の行方を知るものは
 誰もいなかった……&lt;cr&gt;</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;var:0&gt;&lt;var:1&gt; never heard from again...&lt;cr&gt;</EnglishText>
       <Notes/>
       <Id>3854</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset></PointerOffset>
