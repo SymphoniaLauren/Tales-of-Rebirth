@@ -24,10 +24,14 @@
 敵に勝利する事で
 経験値を得る事ができます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Level represents a character's overall strength.
+When the amount of Experience a character
+accumulates reaches a specific threshold,
+LV inceases. You gain Experience by defeating
+enemies in battle.</EnglishText>
       <Notes/>
       <Id>207</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20644</PointerOffset>
@@ -62,10 +66,16 @@
 戦闘不能状態を回復するには
 ライフボトルや料理が必要です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hit Points represent a character's vitality.
+HP Decreases as a character gets hit by
+enemy attacks, and increases when restored
+by Artes or items. When a character's HP
+reaches 0 they are Knocked Out and unable
+to fight. Life Bottles and cooking can be used
+to recover from KO.</EnglishText>
       <Notes/>
       <Id>211</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20664</PointerOffset>
@@ -92,10 +102,16 @@
 敵のＲＧの増減が激しくなり、
 自らの攻撃力が上がります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Rush Gauge ranges from 0-100.
+At lower values, the amount of damage given
+or taken is decreased, while HP recovery and
+spell speed is increased. At higher values, the
+amount of damage given or taken is increased,
+as well as the amount you can affect enemy
+RG, but spells take longer to cast.</EnglishText>
       <Notes/>
       <Id>214</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20684</PointerOffset>
@@ -122,70 +138,78 @@
 最大限の能力を発揮します。
 操作：&lt;icon:10&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Force Gauge is used for Artes a character
+has equipped. The four segments correspond to
+each direction: Top, Bottom, Forward and Back.
+The Artes you equip to each direction can be
+used at will, but their full potential is
+unleashed when FG is filled.
+Input: &lt;icon:10&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>217</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20704</PointerOffset>
       <JapaneseText>斬撃攻撃力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Slash</EnglishText>
       <Notes/>
       <Id>218</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20716</PointerOffset>
       <JapaneseText>武器攻撃での斬撃による攻撃力。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This governs the power of slashing attacks.</EnglishText>
       <Notes/>
       <Id>219</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20724</PointerOffset>
       <JapaneseText>打撃攻撃力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Blunt</EnglishText>
       <Notes/>
       <Id>220</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20736</PointerOffset>
       <JapaneseText>武器攻撃での打撃による攻撃力。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This governs the power of blunt strikes or
+impacts.</EnglishText>
       <Notes/>
       <Id>221</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20744</PointerOffset>
       <JapaneseText>術攻撃力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force</EnglishText>
       <Notes/>
       <Id>222</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20756</PointerOffset>
       <JapaneseText>導術攻撃、または術力のこもった
 武器の攻撃力。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This governs the damage inflicted by a Force
+attack or a Force enhanced weapon.</EnglishText>
       <Notes/>
       <Id>223</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20764</PointerOffset>
       <JapaneseText>斬撃防御力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Slash Defense</EnglishText>
       <Notes/>
       <Id>224</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20776</PointerOffset>
@@ -193,46 +217,48 @@
 武器による斬撃を受けた時の
 ダメージ軽減力。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This reduces damage from slashing attacks
+such as those from blades or claws.</EnglishText>
       <Notes/>
       <Id>225</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20784</PointerOffset>
       <JapaneseText>打撃防御力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Blunt Defense</EnglishText>
       <Notes/>
       <Id>226</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20796</PointerOffset>
       <JapaneseText>殴打・衝撃などの打撃を
 受けた時のダメージ軽減力。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This reduces damage from blunt strikes or
+impacts.</EnglishText>
       <Notes/>
       <Id>227</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20804</PointerOffset>
       <JapaneseText>術防御力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Defense</EnglishText>
       <Notes/>
       <Id>228</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20816</PointerOffset>
       <JapaneseText>導術攻撃、術力のこもった攻撃を
 受けた時のダメージ軽減力。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This reduces damage from Force attacks.</EnglishText>
       <Notes/>
       <Id>229</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20824</PointerOffset>
@@ -249,10 +275,13 @@
 この値が高いほど、ＨＰ回復の
 度合いが大きくなります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>HP Regen governs the amount of Hit Points
+a character will recover during battle. The 
+higher this value is, the more HP
+is recovered through Artes.</EnglishText>
       <Notes/>
       <Id>231</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20844</PointerOffset>
@@ -269,10 +298,13 @@
 この値が高いほど、ＦＧ回復の
 度合いが大きくなります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>FG Regen governs the amount of FG
+a character will automatically recover during
+battle. The higher this value is, the more FG
+is recovered automatically.</EnglishText>
       <Notes/>
       <Id>233</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20864</PointerOffset>
@@ -293,18 +325,20 @@
 弱めの敵と戦って経験値を
 ためてみましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>A character's Experience Points represents the
+amount of experience they have with combat.
+As EXP is accumulated, Level is increased at specif</EnglishText>
       <Notes/>
       <Id>235</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20884</PointerOffset>
       <JapaneseText>鋼体・鋼体時間</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Iron Stance/Iron Stance Duration</EnglishText>
       <Notes/>
       <Id>236</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20896</PointerOffset>
@@ -315,10 +349,14 @@
 長所がありますが、ダメージは
 受けるので注意が必要です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Iron Stance allows you to continue attacking
+without being interrupted by enemy attacks.
+Artes with Iron Stance have an advantage at
+close range, but damage is still inflicted
+through Iron Stance.</EnglishText>
       <Notes/>
       <Id>237</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20904</PointerOffset>
@@ -337,18 +375,23 @@
 成長させられます。
 メニュー：術技
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Force Cube is the embodiment of a
+character's Force. Each corner of the cube
+has an added effect that you can set to each
+arte a character has equipped by rotating the
+cube. Access the Force Cube through the Force
+option on the Menu.</EnglishText>
       <Notes/>
       <Id>239</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20924</PointerOffset>
       <JapaneseText>特技</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Arte</EnglishText>
       <Notes/>
       <Id>240</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20936</PointerOffset>
@@ -359,18 +402,21 @@
 連携する事ができます。
 操作：&lt;icon:1F&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Powerful weapon attacks. You can earn a
+"Technical Smash" bonus by finishing an enemy
+off using a Force Arte.
+Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>241</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20944</PointerOffset>
       <JapaneseText>導術</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Magic</EnglishText>
       <Notes/>
       <Id>242</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20956</PointerOffset>
@@ -380,18 +426,23 @@
 属性がつき、術によっては
 ふたつの属性を持っています。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Magic can attack from a distance after
+a short spellcasting time. These types of Artes
+always have one of the following elements:
+Earth, Water, Fire, Wind, Light and Darkness.
+Some Force Magic attacks even have multiple
+elements.</EnglishText>
       <Notes/>
       <Id>243</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20964</PointerOffset>
       <JapaneseText>陣術</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Ritual</EnglishText>
       <Notes/>
       <Id>244</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20976</PointerOffset>
@@ -400,18 +451,21 @@
 あるいは敵に影響を与える術。
 ＨＰの回復能力も備えています。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Rituals form Ritual Circles on the ground
+that provide a variety of effects to allies or
+enemies within the circle. They can also
+recover the HP of allied party members.</EnglishText>
       <Notes/>
       <Id>245</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20984</PointerOffset>
       <JapaneseText>錬術</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Ability</EnglishText>
       <Notes/>
       <Id>246</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20996</PointerOffset>
@@ -426,18 +480,23 @@
 特定の状態異常を防止するなど、
 様々な副次効果があります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Artes that can buff the character using them
+or allied party members. These artes are not
+affected by the Force Cube and can only be
+used when FG is filled. They can provide a
+variety of effects and enable new strategies
+or prevent negative status effects.</EnglishText>
       <Notes/>
       <Id>247</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21004</PointerOffset>
       <JapaneseText>奥義</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Fusionic Force Arte</EnglishText>
       <Notes/>
       <Id>248</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21012</PointerOffset>
@@ -456,10 +515,15 @@
 奥義習得が可能です。
 操作：&lt;icon:1F&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Fusionic Force Artes are enhanced Artes. They
+are a higher level derivatives of Force Artes
+that can't be set by themselves. You can learn
+them by highlighting an Arte in the Force
+menu and pressing right.
+Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>250</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21024</PointerOffset>
