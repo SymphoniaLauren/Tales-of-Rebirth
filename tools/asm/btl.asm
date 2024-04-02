@@ -43,4 +43,9 @@
     jal        strCatKanji
     move       a0,sp
     nop
+
+;Walto WORDSWORDSWORDS fix (Credit Julian)
+.org 0x2f2208
+    li         a3, 0x90
+
 .close
