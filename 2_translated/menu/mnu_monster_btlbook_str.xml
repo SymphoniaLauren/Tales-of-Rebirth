@@ -24,12 +24,13 @@
 敵に勝利する事で
 経験値を得る事ができます。
 </JapaneseText>
-      <EnglishText>Level represents a character's overall
-strength. When the amount of
-Experience a character accumulates
-reaches a specific threshold, 
-LV inceases. You gain Experience by
-defeating enemies in battle.</EnglishText>
+      <EnglishText>Level represents a character's
+overall strength.
+When the amount of Experience
+a character accumulates reaches
+a specific threshold, LV inceases.
+You gain Experience by defeating
+enemies in battle.</EnglishText>
       <Notes/>
       <Id>207</Id>
       <Status>Editing</Status>
@@ -68,13 +69,14 @@ defeating enemies in battle.</EnglishText>
 ライフボトルや料理が必要です。
 </JapaneseText>
       <EnglishText>Hit Points represent a character's
-vitality. HP Decreases as a 
-character gets hit by enemy attacks,
-and increases when restored by Artes
-or items. When a character's HP
-reaches 0 they are Knocked Out and
-unable to fight. Life Bottles and cooking
-can be used to recover from KO.</EnglishText>
+vitality. As a character gets hit by
+enemy attacks their HP decreases,
+and increases when restored by
+Artes or items. When a character's
+HP reaches 0 they are Knocked
+Out and unable to fight. Life
+Bottles and cooking can be used
+to recover from KO.</EnglishText>
       <Notes/>
       <Id>211</Id>
       <Status>Editing</Status>
@@ -105,13 +107,14 @@ can be used to recover from KO.</EnglishText>
 自らの攻撃力が上がります。
 </JapaneseText>
       <EnglishText>The Rush Gauge ranges from 0-100.
-At lower values, the amount of
-damage given or taken is decreased,
-while HP recovery and spell speed is
-increased. At higher values, the amount
-of damage given or taken is increased,
-as well as the amount you can affect enemy
-RG, but spells take longer to cast.</EnglishText>
+Damage that is taken or given is 
+decreased at lower values, while
+HP recovery and spell speed is
+increased. The amount of damage
+given or taken increases, as does
+the amount you can affect enemy
+RG, but spells take longer to cast
+at higher values.</EnglishText>
       <Notes/>
       <Id>214</Id>
       <Status>Editing</Status>
@@ -144,11 +147,11 @@ RG, but spells take longer to cast.</EnglishText>
       <EnglishText>The Force Gauge is used for Artes
 a character has equipped. The four
 segments correspond to each
-direction: Top, Bottom, Forward and
-Back. The Artes you equip to each
-direction can be used at will, but their
-full potential is unleashed when FG
-is filled. Input: &lt;icon:10&gt;＋&lt;icon:41&gt;</EnglishText>
+direction: Top, Bottom, Forward
+and Back. The Artes you equip to
+each direction can be used at will,
+but their full potential is unleashed
+when FG is filled. Input: &lt;icon:10&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>217</Id>
       <Status>Editing</Status>
@@ -224,8 +227,8 @@ enhanced weapon.</EnglishText>
 ダメージ軽減力。
 </JapaneseText>
       <EnglishText>This reduces damage from slashing
-attacks such as those from blades or
-claws.</EnglishText>
+attacks such as those from blades
+or claws.</EnglishText>
       <Notes/>
       <Id>225</Id>
       <Status>Editing</Status>
@@ -285,9 +288,9 @@ Force attacks.</EnglishText>
 </JapaneseText>
       <EnglishText>HP Regen governs the amount of
 Hit Points a character will recover
-during battle. The higher this value
-is, the more HP is recovered through
-Artes.</EnglishText>
+during battle. The higher this
+value, the more HP is recovered
+through Artes.</EnglishText>
       <Notes/>
       <Id>231</Id>
       <Status>Editing</Status>
@@ -335,14 +338,14 @@ recovered automatically.</EnglishText>
 弱めの敵と戦って経験値を
 ためてみましょう。
 </JapaneseText>
-      <EnglishText>A character's Experience Points
-represents the amount of experience
-they have with combat.
+      <EnglishText>A character's EXP represents the
+amount of experience they have
+with combat.
 As EXP is accumulated, Level is
 increased at specif</EnglishText>
       <Notes>Not fully translated.</Notes>
       <Id>235</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20884</PointerOffset>
@@ -394,7 +397,8 @@ of the cube has an added effect
 that you can set to each arte a
 character has equipped by rotating
 the cube. Access the Force Cube
-through the Force option on the Menu.</EnglishText>
+through the Force option on the
+Menu.</EnglishText>
       <Notes/>
       <Id>239</Id>
       <Status>Editing</Status>
@@ -440,10 +444,11 @@ Force Arte. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 属性がつき、術によっては
 ふたつの属性を持っています。
 </JapaneseText>
-      <EnglishText>Force Magic can attack from a
-distance after a short spellcasting
-time. These types of Artes always
-have one of the following elements:
+      <EnglishText>From a distance, Force Magic can
+attack after a short spellcasting
+time.
+These types of Artes always have
+one of the following elements:
 Earth, Water, Fire, Wind, Light and
 Darkness. Some Force Magic attacks
 even have multiple elements.</EnglishText>
@@ -466,11 +471,12 @@ even have multiple elements.</EnglishText>
 あるいは敵に影響を与える術。
 ＨＰの回復能力も備えています。
 </JapaneseText>
-      <EnglishText>Force Rituals form Ritual Circles on
-the ground that provide a variety of
-effects to allies or enemies within
-the circle. They can also recover the
-HP of allied party members.</EnglishText>
+      <EnglishText>Force Rituals form Ritual Circles
+on the ground that provide a
+variety of effects to allies or
+enemies within the circle. They
+can also recover the HP of allied
+party members.</EnglishText>
       <Notes/>
       <Id>245</Id>
       <Status>Editing</Status>
@@ -496,14 +502,14 @@ HP of allied party members.</EnglishText>
 特定の状態異常を防止するなど、
 様々な副次効果があります。
 </JapaneseText>
-      <EnglishText>Artes that can buff the character
-using them or allied party members.
-These artes are not affected by the
-Force Cube and can only be used
-when FG is filled. They can provide
-a variety of effects and enable new
-strategies or prevent negative status
-effects.</EnglishText>
+      <EnglishText>Artes that can buff the user or
+allied party members.
+These artes are not affected by
+the Force Cube and can only be
+used when FG is filled.
+They can provide a variety of
+effects and enable new strategies
+or prevent negative status effects.</EnglishText>
       <Notes/>
       <Id>247</Id>
       <Status>Editing</Status>
