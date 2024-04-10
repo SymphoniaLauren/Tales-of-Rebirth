@@ -4,7 +4,7 @@
     <Entry>
       <PointerOffset>1060528</PointerOffset>
       <JapaneseText>１・目の前の敵を狙え</JapaneseText>
-      <EnglishText>1- Aim at the enemies in front of you</EnglishText>
+      <EnglishText>1 - Target close enemies</EnglishText>
       <Notes/>
       <Id>1691</Id>
       <Status>Editing</Status>
@@ -12,7 +12,7 @@
     <Entry>
       <PointerOffset>1060532</PointerOffset>
       <JapaneseText>　自分のライン上にいる敵を優先して狙う</JapaneseText>
-      <EnglishText> Aim at enemies on the same line as you</EnglishText>
+      <EnglishText> Target enemies on the same line as you.</EnglishText>
       <Notes/>
       <Id>1692</Id>
       <Status>Editing</Status>
@@ -20,7 +20,7 @@
     <Entry>
       <PointerOffset>1060536</PointerOffset>
       <JapaneseText>２・奥の敵を狙え</JapaneseText>
-      <EnglishText>2 - Aim at the enemies in the backline</EnglishText>
+      <EnglishText>2 - Target far enemies</EnglishText>
       <Notes/>
       <Id>1693</Id>
       <Status>Editing</Status>
@@ -28,7 +28,7 @@
     <Entry>
       <PointerOffset>1060540</PointerOffset>
       <JapaneseText>　奥の敵、あるいは詠唱中の敵を狙う</JapaneseText>
-      <EnglishText>Target farthest or enemies casting arts</EnglishText>
+      <EnglishText> Target farthest or enemies casting magic.</EnglishText>
       <Notes/>
       <Id>1694</Id>
       <Status>Editing</Status>
@@ -36,7 +36,7 @@
     <Entry>
       <PointerOffset>1060544</PointerOffset>
       <JapaneseText>３・ガードを崩せ</JapaneseText>
-      <EnglishText>3- Break the enemy's guard</EnglishText>
+      <EnglishText>3 - Break enemy's guard</EnglishText>
       <Notes/>
       <Id>1695</Id>
       <Status>Editing</Status>
@@ -44,8 +44,7 @@
     <Entry>
       <PointerOffset>1060548</PointerOffset>
       <JapaneseText>　ガードされても攻撃し、こまめにチャージする</JapaneseText>
-      <EnglishText> Attack enemies even if they're guarding
- and charge frequently</EnglishText>
+      <EnglishText> Attack guarding enemies, Charge often.</EnglishText>
       <Notes/>
       <Id>1696</Id>
       <Status>Editing</Status>
@@ -53,24 +52,23 @@
     <Entry>
       <PointerOffset>1060552</PointerOffset>
       <JapaneseText>４・後衛を援護せよ</JapaneseText>
-      <EnglishText>4 - Cover the rear guard</EnglishText>
-      <Notes/>
+      <EnglishText>4 - Stay near back</EnglishText>
+      <Notes>後衛</Notes>
       <Id>1697</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1060556</PointerOffset>
       <JapaneseText>　隊列設定の後ろにいるキャラのラインを保ち戦う</JapaneseText>
-      <EnglishText> Stay near the line of the allies 
- on the back and keep fighting</EnglishText>
-      <Notes>Not totally sure about this "on the back" part - Kaizen</Notes>
+      <EnglishText>Stay on line at back of formation.</EnglishText>
+      <Notes>characters at back of formation stay on same line and fight.</Notes>
       <Id>1698</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1060560</PointerOffset>
       <JapaneseText>５・前衛についていけ</JapaneseText>
-      <EnglishText>5 - Follow the forward defence</EnglishText>
+      <EnglishText>5 - Stay near front</EnglishText>
       <Notes/>
       <Id>1699</Id>
       <Status>Editing</Status>
@@ -78,11 +76,10 @@
     <Entry>
       <PointerOffset>1060564</PointerOffset>
       <JapaneseText>　隊列設定の前にいるキャラのラインを保ち戦う</JapaneseText>
-      <EnglishText> Stay near the line of the allies 
- on the front and keep fighting</EnglishText>
-      <Notes>Not totally sure about this "on the front" part - Kaizen</Notes>
+      <EnglishText>Stay on line at front of formation.</EnglishText>
+      <Notes>characters at front of formation stay on same line and fight.</Notes>
       <Id>1700</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1060568</PointerOffset>
@@ -95,16 +92,15 @@
     <Entry>
       <PointerOffset>1060572</PointerOffset>
       <JapaneseText>　近くの隊列位置の味方と別ラインの敵を狙う</JapaneseText>
-      <EnglishText> Aim for allies near to you 
- and enemies on different lines</EnglishText>
-      <Notes/>
+      <EnglishText> Target enemies away from allies.</EnglishText>
+      <Notes>target enemies on a different line then your allies close in formation.</Notes>
       <Id>1702</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1060576</PointerOffset>
       <JapaneseText>７・敵の数を減らせ</JapaneseText>
-      <EnglishText>7 - Reduce the number of enemies</EnglishText>
+      <EnglishText>7 - Target weak enemies</EnglishText>
       <Notes/>
       <Id>1703</Id>
       <Status>Editing</Status>
@@ -112,7 +108,7 @@
     <Entry>
       <PointerOffset>1060580</PointerOffset>
       <JapaneseText>　ＨＰの低い敵を優先して狙う</JapaneseText>
-      <EnglishText> Target low HP enemies</EnglishText>
+      <EnglishText> Target enemies with low HP.</EnglishText>
       <Notes/>
       <Id>1704</Id>
       <Status>Editing</Status>
@@ -120,7 +116,7 @@
     <Entry>
       <PointerOffset>1060584</PointerOffset>
       <JapaneseText>８・強敵はまかせた</JapaneseText>
-      <EnglishText>8 - Target the strong enemies</EnglishText>
+      <EnglishText>8 - Target strong enemies</EnglishText>
       <Notes/>
       <Id>1705</Id>
       <Status>Editing</Status>
@@ -128,8 +124,7 @@
     <Entry>
       <PointerOffset>1060588</PointerOffset>
       <JapaneseText>　ＨＰの高い敵を狙い集中攻撃する</JapaneseText>
-      <EnglishText> Aim at enemies with high HP and
- concentrate on attacking them</EnglishText>
+      <EnglishText> Target enemies with high HP.</EnglishText>
       <Notes/>
       <Id>1706</Id>
       <Status>Editing</Status>
@@ -137,7 +132,7 @@
     <Entry>
       <PointerOffset>1060592</PointerOffset>
       <JapaneseText>１・退避に徹せよ</JapaneseText>
-      <EnglishText>1 - Safety first</EnglishText>
+      <EnglishText>1 - Safety first!</EnglishText>
       <Notes/>
       <Id>1707</Id>
       <Status>Editing</Status>
@@ -146,10 +141,9 @@
       <PointerOffset>1060596</PointerOffset>
       <JapaneseText>　とにかく攻撃しないで逃げ回る。防御を崩される
 危険もあるので注意</JapaneseText>
-      <EnglishText> Run away without attacking at any 
-rate. There's a risk of having your 
-defence broken, so be careful.</EnglishText>
-      <Notes/>
+      <EnglishText> Don't attack and avoid enemies.
+ Beware of Guard Breaks.</EnglishText>
+      <Notes>When RG -&gt; 0 and character is attacked when guarding, guard break occurs.</Notes>
       <Id>1708</Id>
       <Status>Editing</Status>
     </Entry>
@@ -165,9 +159,8 @@ defence broken, so be careful.</EnglishText>
       <PointerOffset>1060604</PointerOffset>
       <JapaneseText>　できるだけＲＧを下げてＨＰ回復量を上げる。
 防御・回避を優先</JapaneseText>
-      <EnglishText> Lower your RG as much as possible and
-increase HP recovery. Priority given to
-defence and evasion</EnglishText>
+      <EnglishText> Lower RG as much as possible and increase HP
+ recovery. Priority given to defence and evasion.</EnglishText>
       <Notes/>
       <Id>1710</Id>
       <Status>Editing</Status>
@@ -184,8 +177,8 @@ defence and evasion</EnglishText>
       <PointerOffset>1060612</PointerOffset>
       <JapaneseText>　ＲＧを０にも１００にもしないように戦う
 ＦＧが少ないときは防御優先</JapaneseText>
-      <EnglishText> Fight keeping your RG between 0 and 100.
-Give priority to defending when FG is low.</EnglishText>
+      <EnglishText> Maintain RG between 0 and 100.
+ Priority given to defending when FG low.</EnglishText>
       <Notes/>
       <Id>1712</Id>
       <Status>Editing</Status>
@@ -193,7 +186,7 @@ Give priority to defending when FG is low.</EnglishText>
     <Entry>
       <PointerOffset>1060616</PointerOffset>
       <JapaneseText>４・勇敢に戦え</JapaneseText>
-      <EnglishText>4 - Fight bravely</EnglishText>
+      <EnglishText>4 - Fight valiantly</EnglishText>
       <Notes/>
       <Id>1713</Id>
       <Status>Editing</Status>
@@ -202,8 +195,8 @@ Give priority to defending when FG is low.</EnglishText>
       <PointerOffset>1060620</PointerOffset>
       <JapaneseText>　戦況に応じてＲＧを上げるように
 攻撃行動主体で戦う</JapaneseText>
-      <EnglishText> Depending of the situation, fight mainly 
-with attacks in order to raise up your RG.</EnglishText>
+      <EnglishText> Depending of the situation, attack most
+ of the time in order to keep RG high.</EnglishText>
       <Notes/>
       <Id>1714</Id>
       <Status>Editing</Status>
@@ -220,8 +213,8 @@ with attacks in order to raise up your RG.</EnglishText>
       <PointerOffset>1060628</PointerOffset>
       <JapaneseText>　ＲＧ、ＨＰ回復を気にせずに敵に攻撃を
 繰り返す</JapaneseText>
-      <EnglishText> Attack repeatedly without regard to
-RG and HP recovery.</EnglishText>
+      <EnglishText> Attack repeatedly without regard
+ to RG and HP recovery.</EnglishText>
       <Notes/>
       <Id>1716</Id>
       <Status>Editing</Status>
@@ -238,8 +231,8 @@ RG and HP recovery.</EnglishText>
       <PointerOffset>1060636,1060676</PointerOffset>
       <JapaneseText>　術技はほとんど使用せず、
 攻撃は通常攻撃で行う</JapaneseText>
-      <EnglishText> Don't use Force as much as possible and
-fight with normal attacks.</EnglishText>
+      <EnglishText> Don't use Force and fight with
+ normal attacks.</EnglishText>
       <Notes/>
       <Id>1718</Id>
       <Status>Editing</Status>
@@ -247,7 +240,7 @@ fight with normal attacks.</EnglishText>
     <Entry>
       <PointerOffset>1060640</PointerOffset>
       <JapaneseText>２・切り札は取っておけ</JapaneseText>
-      <EnglishText>2 - Hold your trump cards</EnglishText>
+      <EnglishText>2 - Keep upper hand</EnglishText>
       <Notes/>
       <Id>1719</Id>
       <Status>Editing</Status>
@@ -257,7 +250,7 @@ fight with normal attacks.</EnglishText>
       <JapaneseText>　２つ以上のゲージを保つように
 低めの頻度で術技を使用</JapaneseText>
       <EnglishText> Keep 2 or more Gauges full by using 
-skills infrequently.</EnglishText>
+ Force infrequently.</EnglishText>
       <Notes/>
       <Id>1720</Id>
       <Status>Editing</Status>
@@ -275,7 +268,7 @@ skills infrequently.</EnglishText>
       <JapaneseText>　詠唱時間が少ないか、FG消費の少ない術技を
 優先して使う。術技頻度は中程度</JapaneseText>
       <EnglishText> Prioritize skills with lower casting times 
-and FG requirements. Use Force moderately.</EnglishText>
+ and FG requirements. Use Force moderately.</EnglishText>
       <Notes/>
       <Id>1722</Id>
       <Status>Editing</Status>
@@ -292,9 +285,8 @@ and FG requirements. Use Force moderately.</EnglishText>
       <PointerOffset>1060660</PointerOffset>
       <JapaneseText>　敵に効果のある術技を優先し、
 使用可能なら奥義を使用</JapaneseText>
-      <EnglishText> Gives priority to Force that is effective 
-against the enemy, and uses Fusionic Force
-Artes if available.</EnglishText>
+      <EnglishText> Prioritize Force that is effective against the enemy
+ and use Fusionic Force Artes if available.</EnglishText>
       <Notes/>
       <Id>1724</Id>
       <Status>Editing</Status>
@@ -302,7 +294,7 @@ Artes if available.</EnglishText>
     <Entry>
       <PointerOffset>1060664,1060704</PointerOffset>
       <JapaneseText>５・術技優先でいけ</JapaneseText>
-      <EnglishText>5 - Give priority to Force</EnglishText>
+      <EnglishText>5 - Prioritize Force</EnglishText>
       <Notes/>
       <Id>1725</Id>
       <Status>Editing</Status>
@@ -311,8 +303,8 @@ Artes if available.</EnglishText>
       <PointerOffset>1060668</PointerOffset>
       <JapaneseText>　使用可能な術技はすぐに使うように
 攻撃を組み立てる</JapaneseText>
-      <EnglishText> Set up attacks so that you can use Force
-immediately when available.</EnglishText>
+      <EnglishText> Use Force as soon as they are
+ availiable.</EnglishText>
       <Notes/>
       <Id>1726</Id>
       <Status>Editing</Status>
@@ -320,7 +312,7 @@ immediately when available.</EnglishText>
     <Entry>
       <PointerOffset>1060680</PointerOffset>
       <JapaneseText>２・仲間の危機を救え</JapaneseText>
-      <EnglishText>2 - Save your friends when in trouble</EnglishText>
+      <EnglishText>2 - Protect allies</EnglishText>
       <Notes/>
       <Id>1727</Id>
       <Status>Editing</Status>
@@ -330,7 +322,7 @@ immediately when available.</EnglishText>
       <JapaneseText>　状態異常・ＨＰが少ない味方の
 近くで弧法陣を張るように行動</JapaneseText>
       <EnglishText> Draw Ritual Circles near allies with Status 
-Effects or low HP.</EnglishText>
+ Effects or low HP.</EnglishText>
       <Notes/>
       <Id>1728</Id>
       <Status>Editing</Status>
@@ -338,7 +330,7 @@ Effects or low HP.</EnglishText>
     <Entry>
       <PointerOffset>1060688</PointerOffset>
       <JapaneseText>３・後方を援護しろ</JapaneseText>
-      <EnglishText>3 - Protect the rearguard.</EnglishText>
+      <EnglishText>3 - Support casters</EnglishText>
       <Notes/>
       <Id>1729</Id>
       <Status>Editing</Status>
@@ -347,17 +339,16 @@ Effects or low HP.</EnglishText>
       <PointerOffset>1060692</PointerOffset>
       <JapaneseText>　後衛支援系の陣術を優先的に使用し、
 後方に弧法陣を展開する機会を高める</JapaneseText>
-      <EnglishText>Give priority to Force Rituals that will 
-increase the chances for the spellcasters
-in the rear back to deploy Ritual Circles.</EnglishText>
+      <EnglishText> Prioritize Force Rituals that benefit casters
+ and deploy them towards backline.</EnglishText>
       <Notes/>
       <Id>1730</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1060696</PointerOffset>
       <JapaneseText>４・前線を援護しろ</JapaneseText>
-      <EnglishText>4 - Support vanguard</EnglishText>
+      <EnglishText>4 - Support melee</EnglishText>
       <Notes/>
       <Id>1731</Id>
       <Status>Editing</Status>
@@ -366,10 +357,8 @@ in the rear back to deploy Ritual Circles.</EnglishText>
       <PointerOffset>1060700</PointerOffset>
       <JapaneseText>　前衛支援系の陣術を優先的に使用し、
 最前線に弧法陣を展開する機会を高める</JapaneseText>
-      <EnglishText> Give priority to skills that will
-support allies on the frontlines and
-increase the chances of deploying 
-Ritual Circles.</EnglishText>
+      <EnglishText> Prioritize Force Rituals that benefit melee
+ attackers and deploy them towards frontline.</EnglishText>
       <Notes/>
       <Id>1732</Id>
       <Status>Editing</Status>
@@ -378,9 +367,8 @@ Ritual Circles.</EnglishText>
       <PointerOffset>1060708</PointerOffset>
       <JapaneseText>　使用可能な陣術から平均的に使用し、
 常に弧法陣が展開されるようにする</JapaneseText>
-      <EnglishText> On average, use skills from the 
-available Force Rituals and ensure 
-that Ritual Circles are always deployed.</EnglishText>
+      <EnglishText> Deploy Force Rituals whenever availiable
+ and ensure one is always on the field.</EnglishText>
       <Notes/>
       <Id>1733</Id>
       <Status>Editing</Status>
@@ -397,14 +385,9 @@ that Ritual Circles are always deployed.</EnglishText>
       <PointerOffset>1060716</PointerOffset>
       <JapaneseText>つまり戦闘態勢。言霊で戦闘能力アップな気持ち。
 汎用的な作戦展開時に。</JapaneseText>
-      <EnglishText>In other words, you're ready to fight. 
-These words give the feeling of powering 
-up one's battle capabilities. For when you 
-deploy a general purpose strategy.</EnglishText>
-      <Notes>SymphoniaLauren's note: These are too long and technically can be whatever (because they're only used to rename strategies)
-So I'm going to literaly translate for posterity's sake and then wing it for the not default ones.
-Default one's will get a more closer translation
-Sorry for any inconvenience.</Notes>
+      <EnglishText>Words that mean you're ready to
+fight. A general battle strategy.</EnglishText>
+      <Notes/>
       <Id>1735</Id>
       <Status>Editing</Status>
     </Entry>
@@ -421,8 +404,7 @@ Sorry for any inconvenience.</Notes>
       <JapaneseText>頼んでおけばあとは自分勝手に行動してよい。
 わけない。応用を利かせた作戦展開時に。</JapaneseText>
       <EnglishText>Rely on your friends so you're free to
-do as you please during the deployment
-of the battle strategy you're using.</EnglishText>
+do as you please.</EnglishText>
       <Notes/>
       <Id>1737</Id>
       <Status>Editing</Status>
@@ -430,7 +412,7 @@ of the battle strategy you're using.</EnglishText>
     <Entry>
       <PointerOffset>1060728</PointerOffset>
       <JapaneseText>導術でせめろ！</JapaneseText>
-      <EnglishText>Attack with Force magic!</EnglishText>
+      <EnglishText>Attack with magic!</EnglishText>
       <Notes/>
       <Id>1738</Id>
       <Status>Editing</Status>
@@ -440,8 +422,7 @@ of the battle strategy you're using.</EnglishText>
       <JapaneseText>前衛さんは後衛さんのために壁になろう。
 そうして一発大逆転の術を繰り出せ！</JapaneseText>
       <EnglishText>It's time to let the spellcasters shine. 
-Keep the mages safe so they can pop 
-off spells!</EnglishText>
+Melee will keep the spellcasters safe.</EnglishText>
       <Notes/>
       <Id>1739</Id>
       <Status>Editing</Status>
@@ -449,7 +430,7 @@ off spells!</EnglishText>
     <Entry>
       <PointerOffset>1060736</PointerOffset>
       <JapaneseText>今は耐えろ！</JapaneseText>
-      <EnglishText>Endure it!</EnglishText>
+      <EnglishText>Wait it out.</EnglishText>
       <Notes/>
       <Id>1740</Id>
       <Status>Editing</Status>
@@ -459,16 +440,17 @@ off spells!</EnglishText>
       <JapaneseText>いったん攻撃の手を緩めつつ体力の回復を
 はかるのだ！　その後復讐に燃えろ！　いいの？</JapaneseText>
       <EnglishText>Now's the time to take a breather and 
+recuperate! After that, we'll be all fired up!</EnglishText>
+      <Notes>Now's the time to take a breather and 
 recuperate! After that we'll be burning for 
-revenge! Got it?</EnglishText>
-      <Notes/>
+revenge! Got it?</Notes>
       <Id>1741</Id>
       <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1060744</PointerOffset>
       <JapaneseText>俺にまかせろ</JapaneseText>
-      <EnglishText>Leave it to me.</EnglishText>
+      <EnglishText>Leave it to me!</EnglishText>
       <Notes/>
       <Id>1742</Id>
       <Status>Editing</Status>
@@ -495,12 +477,11 @@ It's not worth losing to the enemies.</EnglishText>
       <PointerOffset>1060756</PointerOffset>
       <JapaneseText>溜めに溜めて疲労しながら我慢した作戦を今こそ
 披露するときですな！　ぜひカスタムした作戦を。</JapaneseText>
-      <EnglishText>Now it's the time to show the strategy
-that you've been accumulating and enduring!
-Put up a custom made strategy.</EnglishText>
+      <EnglishText>Now it's time to show off your strategizing
+skills! Customize this one to your heart's content.</EnglishText>
       <Notes/>
       <Id>1745</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1060760</PointerOffset>
@@ -549,7 +530,7 @@ until they run for the hills.</EnglishText>
     <Entry>
       <PointerOffset>1060780</PointerOffset>
       <JapaneseText>術技のダメージを増加させます</JapaneseText>
-      <EnglishText>Raises damage of skill.</EnglishText>
+      <EnglishText>Raises damage of Force</EnglishText>
       <Notes/>
       <Id>1751</Id>
       <Status>Editing</Status>
@@ -613,7 +594,7 @@ until they run for the hills.</EnglishText>
     <Entry>
       <PointerOffset>1060812</PointerOffset>
       <JapaneseText>追加攻撃で射撃を行います</JapaneseText>
-      <EnglishText>Fires an extra attack.</EnglishText>
+      <EnglishText>Fires arrows after attacking.</EnglishText>
       <Notes/>
       <Id>1759</Id>
       <Status>Editing</Status>
@@ -661,8 +642,7 @@ until they run for the hills.</EnglishText>
     <Entry>
       <PointerOffset>1060836</PointerOffset>
       <JapaneseText>弧法陣発動時に攻撃判定を持ちます</JapaneseText>
-      <EnglishText>When deploting Ritual Circles, decide
-to attack.</EnglishText>
+      <EnglishText>Ritual damages enemies.</EnglishText>
       <Notes/>
       <Id>1765</Id>
       <Status>Editing</Status>
@@ -702,15 +682,15 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060856</PointerOffset>
       <JapaneseText>レット</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Follow</EnglishText>
       <Notes>nani</Notes>
       <Id>1770</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1060860</PointerOffset>
       <JapaneseText>弧法陣が発動者を追尾します</JapaneseText>
-      <EnglishText>Circle follows the caster.</EnglishText>
+      <EnglishText>Ritual follows caster.</EnglishText>
       <Notes/>
       <Id>1771</Id>
       <Status>Editing</Status>
@@ -726,7 +706,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060868</PointerOffset>
       <JapaneseText>術の吹き飛ばし効果を増加させます</JapaneseText>
-      <EnglishText>Increases knockback of a skill.</EnglishText>
+      <EnglishText>Increases knockback of Force.</EnglishText>
       <Notes/>
       <Id>1773</Id>
       <Status>Editing</Status>
@@ -742,7 +722,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060876</PointerOffset>
       <JapaneseText>術技後の硬直を短くします</JapaneseText>
-      <EnglishText>Decreases rigidity after using skill.</EnglishText>
+      <EnglishText>Decreases rigidity after using Force.</EnglishText>
       <Notes/>
       <Id>1775</Id>
       <Status>Editing</Status>
@@ -774,7 +754,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060892</PointerOffset>
       <JapaneseText>弧法陣が近くの敵へ移動します</JapaneseText>
-      <EnglishText>Circle moves toward close enemies.</EnglishText>
+      <EnglishText>Ritual follows nearby enemies.</EnglishText>
       <Notes/>
       <Id>1779</Id>
       <Status>Editing</Status>
@@ -790,7 +770,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060900</PointerOffset>
       <JapaneseText>ＦＧの回復が早くなります</JapaneseText>
-      <EnglishText>Recovers FG faster.</EnglishText>
+      <EnglishText>Recover FG faster.</EnglishText>
       <Notes/>
       <Id>1781</Id>
       <Status>Editing</Status>
@@ -806,7 +786,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060908</PointerOffset>
       <JapaneseText>ヒット時に敵を浮かせます</JapaneseText>
-      <EnglishText>Sends enemy upwards after a hit.</EnglishText>
+      <EnglishText>Sends enemy upwards after hit.</EnglishText>
       <Notes/>
       <Id>1783</Id>
       <Status>Editing</Status>
@@ -822,7 +802,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060916</PointerOffset>
       <JapaneseText>弧法陣の効果時間を延ばします</JapaneseText>
-      <EnglishText>Extends Circle's duration.</EnglishText>
+      <EnglishText>Extends Ritual's duration.</EnglishText>
       <Notes/>
       <Id>1785</Id>
       <Status>Editing</Status>
@@ -838,7 +818,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060924</PointerOffset>
       <JapaneseText>自分のＲＧを下げます</JapaneseText>
-      <EnglishText>Lowers RG of oneself.</EnglishText>
+      <EnglishText>Lowers self RG.</EnglishText>
       <Notes/>
       <Id>1787</Id>
       <Status>Editing</Status>
@@ -846,7 +826,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060928</PointerOffset>
       <JapaneseText>ミスティ</JapaneseText>
-      <EnglishText>Mysty</EnglishText>
+      <EnglishText>Mystic</EnglishText>
       <Notes/>
       <Id>1788</Id>
       <Status>Editing</Status>
@@ -854,7 +834,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060932</PointerOffset>
       <JapaneseText>術の詠唱時間を短くします</JapaneseText>
-      <EnglishText>Lowers spell's casting time.</EnglishText>
+      <EnglishText>Lowers casting time.</EnglishText>
       <Notes/>
       <Id>1789</Id>
       <Status>Editing</Status>
@@ -870,7 +850,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060940</PointerOffset>
       <JapaneseText>弧法陣の半径を広げます</JapaneseText>
-      <EnglishText> Widens the radius of a circle.</EnglishText>
+      <EnglishText>Widens radius of ritual.</EnglishText>
       <Notes/>
       <Id>1791</Id>
       <Status>Editing</Status>
@@ -934,7 +914,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060972</PointerOffset>
       <JapaneseText>術技の敵硬直時間を延ばします</JapaneseText>
-      <EnglishText>Increases enemy's rigidity.</EnglishText>
+      <EnglishText>Increases hitstun.</EnglishText>
       <Notes/>
       <Id>1799</Id>
       <Status>Editing</Status>
@@ -966,7 +946,7 @@ to attack.</EnglishText>
     <Entry>
       <PointerOffset>1060988</PointerOffset>
       <JapaneseText>術に状態異常効果を付与します</JapaneseText>
-      <EnglishText>Skill may cause status effects.</EnglishText>
+      <EnglishText>Chance to cause status effects.</EnglishText>
       <Notes/>
       <Id>1803</Id>
       <Status>Editing</Status>
