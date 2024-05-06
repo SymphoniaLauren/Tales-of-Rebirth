@@ -4,3 +4,5 @@
 .include "3dfield.asm"
 .include "12406.asm"
 .include "00014.asm"
+.include "mnu_name.asm"
+.include "mnu_status.asm"
