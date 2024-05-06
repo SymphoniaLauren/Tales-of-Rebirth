@@ -6,3 +6,4 @@
 .include "00014.asm"
 .include "mnu_name.asm"
 .include "mnu_status.asm"
+.include "mnu_monster.asm"
