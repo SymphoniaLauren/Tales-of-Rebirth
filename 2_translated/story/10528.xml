@@ -11,7 +11,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2480,2785,3160,1333,6447,6650,7255,7926,8527,8738,9095,9239,9475,5463,5596,5926</PointerOffset>
+      <PointerOffset>1333,2480,2785,3160,5463,5596,5926,6447,6650,7255,7926,8527,8738,9095,9239,9475</PointerOffset>
       <JapaneseText>&lt;Eugene&gt;</JapaneseText>
       <EnglishText>&lt;Eugene&gt;</EnglishText>
       <Notes/>
@@ -19,7 +19,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2593,1421,6679,6766,6833,6919,7118,8223,8263,8483,9124,9379,5787,5861</PointerOffset>
+      <PointerOffset>1421,2593,5787,5861,6679,6766,6833,6919,7118,8223,8263,8483,9124,9379</PointerOffset>
       <JapaneseText>&lt;Annie&gt;</JapaneseText>
       <EnglishText>&lt;Annie&gt;</EnglishText>
       <Notes/>
@@ -27,7 +27,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2630,2735,3062,1246,6252,6726,7023,7147,8136,8413,9202,9339,9558,5640,5747,5824</PointerOffset>
+      <PointerOffset>1246,2630,2735,3062,5640,5747,5824,6252,6726,7023,7147,8136,8413,9202,9339,9558</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
@@ -35,7 +35,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2707,2823,2930,2995,3122,3196,6299,6372,6553,6811,6862,7169,7315,7981,8084,8384,8834,9051,9286,9529,9598,4217,4411,4464,4703,5021,11056,11129,11177,11227,11257,10727,10808,10858,10898,10929,10477,10558,10587,10618,10205,10278,10308,10337,10368,9873,9946,9976,10026,10090,890,1023</PointerOffset>
+      <PointerOffset>890,1023,2707,2823,2930,2995,3122,3196,4217,4411,4464,4703,5021,6299,6372,6553,6811,6862,7169,7315,7981,8084,8384,8834,9051,9286,9529,9598,9873,9946,9976,10026,10090,10205,10278,10308,10337,10368,10477,10558,10587,10618,10727,10808,10858,10898,10929,11056,11129,11177,11227,11257</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
@@ -43,7 +43,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2893,2958,3033,3139,636,737,1745,6225,6606,7383,7450,7537,7702,8025,8046,9431,5083,11100,11205,10771,10836,10984,10521,10673,10249,10423,9917,10004,10151,5525,5674,5890,1186</PointerOffset>
+      <PointerOffset>636,737,1186,1745,2893,2958,3033,3139,5083,5525,5674,5890,6225,6606,7383,7450,7537,7702,8025,8046,9431,9917,10004,10151,10249,10423,10521,10673,10771,10836,10984,11100,11205</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
@@ -59,7 +59,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1644,1610,1576,1509,1542,1454,1366,1279</PointerOffset>
+      <PointerOffset>1279,1366,1454,1509,1542,1576,1610,1644</PointerOffset>
       <JapaneseText>&lt;unk19:222280&gt;
 </JapaneseText>
       <EnglishText>&lt;unk19:222280&gt;
@@ -69,7 +69,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>6147,6147,6147,6147,6147,6147,6147,6147,4329,4329,4329,4329,4329,4329</PointerOffset>
+      <PointerOffset>4329,6147</PointerOffset>
       <JapaneseText>謎の男</JapaneseText>
       <EnglishText>Mysterious Man</EnglishText>
       <Notes/>
@@ -77,7 +77,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7400,7400,7400</PointerOffset>
+      <PointerOffset>7400</PointerOffset>
       <JapaneseText>ハイマウンテンシーフ</JapaneseText>
       <EnglishText>High Mountain Thief</EnglishText>
       <Notes/>
@@ -111,6 +111,14 @@
       <Id>2</Id>
       <Status>Done</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>777</PointerOffset>
+      <JapaneseText>&lt;icon:20&gt; 拾う</JapaneseText>
+      <EnglishText>&lt;icon:20&gt;Pick Up</EnglishText>
+      <Notes>could be gather also?</Notes>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
   </Strings>
   <Strings>
     <Section>entry</Section>
@@ -124,7 +132,7 @@ for wood that can be
 used to repair the raft.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
+      <Id>4</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -136,7 +144,7 @@ used to repair the raft.</EnglishText>
 somewhat famished...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>4</Id>
+      <Id>5</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -148,7 +156,7 @@ somewhat famished...</EnglishText>
 eat while we gather the wood.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>5</Id>
+      <Id>6</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -162,7 +170,7 @@ mushrooms around here are
 known for being delicious!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>6</Id>
+      <Id>7</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -174,7 +182,7 @@ known for being delicious!</EnglishText>
 where would we cook them?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>7</Id>
+      <Id>8</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -186,7 +194,7 @@ where would we cook them?</EnglishText>
 dock, so we can use that.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
+      <Id>9</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -197,7 +205,7 @@ dock, so we can use that.</EnglishText>
 meal, then I'm your guy!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>9</Id>
+      <Id>10</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -207,7 +215,7 @@ meal, then I'm your guy!</EnglishText>
       <EnglishText>...You can cook?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>10</Id>
+      <Id>11</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -221,7 +229,7 @@ not look like it, but my cooking
 is the talk of the town!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>11</Id>
+      <Id>12</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -231,7 +239,7 @@ is the talk of the town!</EnglishText>
       <EnglishText>You and talking go hand in hand.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>12</Id>
+      <Id>13</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -243,7 +251,7 @@ is the talk of the town!</EnglishText>
 to give a compliment!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>13</Id>
+      <Id>14</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -253,7 +261,7 @@ to give a compliment!</EnglishText>
       <EnglishText>...You don't get sarcasm, do you.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>14</Id>
+      <Id>15</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -266,7 +274,7 @@ maybe try &lt;Italic&gt;roasting&lt;/Italic&gt; him instead?
 Or something~!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>15</Id>
+      <Id>16</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -277,7 +285,7 @@ Or something~!</EnglishText>
       <EnglishText>Wahahaha! &lt;Mao&gt;, you crack me up!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>16</Id>
+      <Id>17</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -286,7 +294,7 @@ Or something~!</EnglishText>
       <EnglishText>???</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>17</Id>
+      <Id>18</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -298,7 +306,7 @@ Or something~!</EnglishText>
 here to get lumber!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>18</Id>
+      <Id>19</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -312,7 +320,7 @@ you've gathered the mushrooms,
 just bring them on over to me.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>19</Id>
+      <Id>20</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -322,7 +330,7 @@ just bring them on over to me.</EnglishText>
       <EnglishText>This should be enough...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>20</Id>
+      <Id>21</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -332,7 +340,7 @@ just bring them on over to me.</EnglishText>
       <EnglishText>This should be enough...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>21</Id>
+      <Id>22</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -346,7 +354,7 @@ just bring them on over to me.</EnglishText>
 is poisonous.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>22</Id>
+      <Id>23</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -355,7 +363,7 @@ is poisonous.</EnglishText>
       <EnglishText>&lt;Green&gt;You threw away the Funny Fungus.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>23</Id>
+      <Id>24</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -364,7 +372,7 @@ is poisonous.</EnglishText>
       <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;&lt;Green&gt;Found &lt;unk17:340480&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>24</Id>
+      <Id>25</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -376,7 +384,7 @@ is poisonous.</EnglishText>
       <EnglishText>Which mushrooms are good to pick?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>25</Id>
+      <Id>26</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -390,7 +398,7 @@ is poisonous.</EnglishText>
 lot of mushrooms!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>26</Id>
+      <Id>27</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -402,7 +410,7 @@ lot of mushrooms!</EnglishText>
       <EnglishText>Which mushrooms are edible?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>27</Id>
+      <Id>28</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -416,7 +424,7 @@ lot of mushrooms!</EnglishText>
 Ninon is going to be!</EnglishText>
       <Notes>idk who Ninon is. marking problematic just in case. -dragon</Notes>
       <SpeakerId>6</SpeakerId>
-      <Id>28</Id>
+      <Id>29</Id>
       <Status>Problematic</Status>
     </Entry>
     <Entry>
@@ -427,7 +435,7 @@ Ninon is going to be!</EnglishText>
 forward to my cooking!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>29</Id>
+      <Id>30</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -441,7 +449,7 @@ forward to my cooking!</EnglishText>
 poisonous, again...?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>30</Id>
+      <Id>31</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -452,7 +460,7 @@ poisonous, again...?</EnglishText>
 are poisonous, but...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>31</Id>
+      <Id>32</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -466,7 +474,7 @@ are poisonous, but...</EnglishText>
 are poisonous.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>32</Id>
+      <Id>33</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -477,7 +485,7 @@ are poisonous.</EnglishText>
 on the ground.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>33</Id>
+      <Id>34</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -493,7 +501,7 @@ mushrooms growing in this
 forest, just like always.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>34</Id>
+      <Id>35</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -506,7 +514,7 @@ looking mushrooms
 growing in these woods.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>35</Id>
+      <Id>36</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -522,7 +530,7 @@ been waiting for you,
 foolish Force users.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>36</Id>
+      <Id>37</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -534,7 +542,7 @@ foolish Force users.</EnglishText>
 with the &lt;Blue&gt;Royal Shield&lt;White&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>37</Id>
+      <Id>38</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -545,7 +553,7 @@ with the &lt;Blue&gt;Royal Shield&lt;White&gt;?</EnglishText>
 Force reactions!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>38</Id>
+      <Id>39</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -557,7 +565,7 @@ Force reactions!</EnglishText>
 he know about my sister...?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>39</Id>
+      <Id>40</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -570,7 +578,7 @@ the &lt;Blue&gt;Royal Shield&lt;White&gt; when they
 passed through here.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>40</Id>
+      <Id>41</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -587,7 +595,7 @@ with his Force user friends in tow
 to try and rescue her.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>41</Id>
+      <Id>42</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -600,7 +608,7 @@ to try and rescue her.</EnglishText>
 supposed to be me!?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>42</Id>
+      <Id>43</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -612,7 +620,7 @@ supposed to be me!?</EnglishText>
 right into my hands.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>43</Id>
+      <Id>44</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -622,7 +630,7 @@ right into my hands.</EnglishText>
       <EnglishText>What are you talking about?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>44</Id>
+      <Id>45</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -636,7 +644,7 @@ what we lack in powers, we
 make up for with tools.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>45</Id>
+      <Id>46</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -651,7 +659,7 @@ even become tools themselves.
 Ain't that right, &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>46</Id>
+      <Id>47</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -661,7 +669,7 @@ Ain't that right, &lt;Tytree&gt;?</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>47</Id>
+      <Id>48</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -675,7 +683,7 @@ didn't actually put that bottle of
 poison in our food, did you...?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>48</Id>
+      <Id>49</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -685,7 +693,7 @@ poison in our food, did you...?</EnglishText>
       <EnglishText>Poison?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>49</Id>
+      <Id>50</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -698,7 +706,7 @@ poison in our food, did you...?</EnglishText>
 had earlier, didn't you...?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>50</Id>
+      <Id>51</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -708,7 +716,7 @@ had earlier, didn't you...?</EnglishText>
       <EnglishText>&lt;Annie&gt;, did you see something?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>51</Id>
+      <Id>52</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -718,7 +726,7 @@ had earlier, didn't you...?</EnglishText>
       <EnglishText>Yes...but...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>52</Id>
+      <Id>53</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -728,7 +736,7 @@ had earlier, didn't you...?</EnglishText>
       <EnglishText>Hehehe...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>53</Id>
+      <Id>54</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -738,7 +746,7 @@ had earlier, didn't you...?</EnglishText>
       <EnglishText>&lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>54</Id>
+      <Id>55</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -750,7 +758,7 @@ had earlier, didn't you...?</EnglishText>
 AHAHAHAHAHA!!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>55</Id>
+      <Id>56</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -760,7 +768,7 @@ AHAHAHAHAHA!!</EnglishText>
       <EnglishText>No way...!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>56</Id>
+      <Id>57</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -770,7 +778,7 @@ AHAHAHAHAHA!!</EnglishText>
       <EnglishText>Huh...!?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>57</Id>
+      <Id>58</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -780,7 +788,7 @@ AHAHAHAHAHA!!</EnglishText>
       <EnglishText>He...Hehehehe...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>58</Id>
+      <Id>59</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -790,7 +798,7 @@ AHAHAHAHAHA!!</EnglishText>
       <EnglishText>Ahaha... Ahahahaha...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>59</Id>
+      <Id>60</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -800,7 +808,7 @@ AHAHAHAHAHA!!</EnglishText>
       <EnglishText>Wahahahaha...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>60</Id>
+      <Id>61</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -810,7 +818,7 @@ AHAHAHAHAHA!!</EnglishText>
       <EnglishText>Mhm...hmhmhmhm...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>61</Id>
+      <Id>62</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -826,7 +834,7 @@ Well done, &lt;Tytree&gt;! You make a
 fine chef.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>62</Id>
+      <Id>63</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -839,7 +847,7 @@ fine chef.</EnglishText>
 Ahahahaha...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>63</Id>
+      <Id>64</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -853,7 +861,7 @@ us handsomely, so we're gonna
 make sure we finish the job.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>64</Id>
+      <Id>65</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -865,7 +873,7 @@ make sure we finish the job.</EnglishText>
 this for money?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>65</Id>
+      <Id>66</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -878,7 +886,7 @@ this for money?</EnglishText>
 We hate Force users!</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>66</Id>
+      <Id>67</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -890,7 +898,7 @@ We hate Force users!</EnglishText>
 full of Force users, too!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>67</Id>
+      <Id>68</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -898,13 +906,13 @@ full of Force users, too!</EnglishText>
       <VoiceId>14000097</VoiceId>
       <JapaneseText>そうさ、あのバカどもからも
 たんまりと巻き上げてやったぜ！</JapaneseText>
-      <EnglishText>That's right, and we ripped
-off a good chunk of Gald
-from those idiots!</EnglishText>
+      <EnglishText>That's right, and we scammed
+those idiots out of a good
+deal of money!</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>68</Id>
-      <Status>Proofreading</Status>
+      <Id>69</Id>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>7503</PointerOffset>
@@ -918,7 +926,7 @@ the poison, but we'll make
 quick work of them!</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>69</Id>
+      <Id>70</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -930,7 +938,7 @@ quick work of them!</EnglishText>
 Everyone, get it together!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>70</Id>
+      <Id>71</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -940,7 +948,7 @@ Everyone, get it together!</EnglishText>
       <EnglishText>...Well, that's that.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>71</Id>
+      <Id>72</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -954,7 +962,7 @@ worn off, as well. Care to
 explain yourself, &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>72</Id>
+      <Id>73</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -964,7 +972,7 @@ explain yourself, &lt;Tytree&gt;?</EnglishText>
       <EnglishText>...You doubt me?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>73</Id>
+      <Id>74</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -976,7 +984,7 @@ explain yourself, &lt;Tytree&gt;?</EnglishText>
 of poison from those guys.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>74</Id>
+      <Id>75</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -989,7 +997,7 @@ of poison from those guys.</EnglishText>
 you'd really go through with it.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>75</Id>
+      <Id>76</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1006,7 +1014,7 @@ before I poisoned my friends.
 That's how I roll!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>76</Id>
+      <Id>77</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1019,7 +1027,7 @@ That's how I roll!</EnglishText>
 you carrying the bottle, too?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>77</Id>
+      <Id>78</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1030,7 +1038,7 @@ you carrying the bottle, too?</EnglishText>
       <EnglishText>He threw it away immediately.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>78</Id>
+      <Id>79</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1044,7 +1052,7 @@ say earlier, but then
 &lt;Tytree&gt; started laughing...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>79</Id>
+      <Id>80</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1054,7 +1062,7 @@ say earlier, but then
       <EnglishText>Yeah, pretty much.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>80</Id>
+      <Id>81</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1066,7 +1074,7 @@ say earlier, but then
 just happened...?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>81</Id>
+      <Id>82</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1081,7 +1089,7 @@ very similar to those you get after
 consuming poisonous mushrooms.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>82</Id>
+      <Id>83</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1094,7 +1102,7 @@ consuming poisonous mushrooms.</EnglishText>
 mushrooms growing around here...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>83</Id>
+      <Id>84</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1104,7 +1112,7 @@ mushrooms growing around here...</EnglishText>
       <EnglishText>...Would be the "Funny Fungus."</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>84</Id>
+      <Id>85</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1116,7 +1124,7 @@ mushrooms growing around here...</EnglishText>
 is this one over here...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>85</Id>
+      <Id>86</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1126,7 +1134,7 @@ is this one over here...</EnglishText>
       <EnglishText>These ones, right?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>86</Id>
+      <Id>87</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1141,7 +1149,7 @@ fragrance and an exquisite
 taste and texture.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>87</Id>
+      <Id>88</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1154,7 +1162,7 @@ earlier contained large
 quantities of Funny Fungus...?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>88</Id>
+      <Id>89</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1164,7 +1172,7 @@ quantities of Funny Fungus...?</EnglishText>
       <EnglishText>&lt;Tytree&gt;!!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>89</Id>
+      <Id>90</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1174,7 +1182,7 @@ quantities of Funny Fungus...?</EnglishText>
       <EnglishText>So the truth comes out.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>90</Id>
+      <Id>91</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1189,7 +1197,7 @@ that's all! Please forgive
 me, I'm begging you!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>91</Id>
+      <Id>92</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1201,7 +1209,7 @@ me, I'm begging you!</EnglishText>
 such benevolent souls, after all.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>92</Id>
+      <Id>93</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1213,7 +1221,7 @@ such benevolent souls, after all.</EnglishText>
 need to apologize that much...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>93</Id>
+      <Id>94</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1225,7 +1233,7 @@ need to apologize that much...</EnglishText>
 nothing bad happened.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>94</Id>
+      <Id>95</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1238,7 +1246,7 @@ mistake again. And with that,
 this matter is resolved.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>95</Id>
+      <Id>96</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1254,7 +1262,7 @@ your kindness. I'll make sure
 to get it right next time!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>96</Id>
+      <Id>97</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1268,7 +1276,7 @@ Wait, "next time!?" You plan
 on cooking for us again!?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>97</Id>
+      <Id>98</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1283,7 +1291,7 @@ Next time, I'll make you a meal
 fit for a king!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>98</Id>
+      <Id>99</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1292,7 +1300,7 @@ fit for a king!</EnglishText>
       <EnglishText>[VARIABLE]</EnglishText>
       <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
       <SpeakerId>5</SpeakerId>
-      <Id>99</Id>
+      <Id>100</Id>
       <Status>Done</Status>
     </Entry>
   </Strings>
@@ -1307,7 +1315,7 @@ fit for a king!</EnglishText>
 the hell are you!?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>100</Id>
+      <Id>101</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1317,7 +1325,7 @@ the hell are you!?</EnglishText>
       <EnglishText>Shh! Keep your voice down.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>101</Id>
+      <Id>102</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1327,7 +1335,7 @@ the hell are you!?</EnglishText>
       <EnglishText>You're &lt;Tytree&gt;, right?</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>102</Id>
+      <Id>103</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1338,7 +1346,7 @@ the hell are you!?</EnglishText>
       <EnglishText>H-How do you know my name?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>103</Id>
+      <Id>104</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1354,7 +1362,7 @@ companions. If you do, then we'll
 hand over your precious sister.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>104</Id>
+      <Id>105</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1364,7 +1372,7 @@ hand over your precious sister.</EnglishText>
       <EnglishText>Selena!?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>105</Id>
+      <Id>106</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1376,7 +1384,7 @@ hand over your precious sister.</EnglishText>
 your voice down!</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>106</Id>
+      <Id>107</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1390,7 +1398,7 @@ you want to save your sister,
 then I suggest you do as I say.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>107</Id>
+      <Id>108</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1400,7 +1408,7 @@ then I suggest you do as I say.</EnglishText>
       <EnglishText>Don't let me down, partner.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>108</Id>
+      <Id>109</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1410,7 +1418,7 @@ then I suggest you do as I say.</EnglishText>
       <EnglishText>Selena...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>109</Id>
+      <Id>110</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1424,7 +1432,7 @@ Have you collected some
 scrumptious ingredients?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>110</Id>
+      <Id>111</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1434,7 +1442,7 @@ scrumptious ingredients?</EnglishText>
       <EnglishText>...Here's what I found.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>111</Id>
+      <Id>112</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1444,7 +1452,7 @@ scrumptious ingredients?</EnglishText>
       <EnglishText>O-Oh no...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>112</Id>
+      <Id>113</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1454,7 +1462,7 @@ scrumptious ingredients?</EnglishText>
       <EnglishText>What's the matter?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>113</Id>
+      <Id>114</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1467,7 +1475,7 @@ with white polka-dots on them
 are poisonous!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>114</Id>
+      <Id>115</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1484,7 +1492,7 @@ laughter for a good while
 if you eat them.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>115</Id>
+      <Id>116</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1494,7 +1502,7 @@ if you eat them.</EnglishText>
       <EnglishText>Poisonous mushrooms...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>116</Id>
+      <Id>117</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1511,7 +1519,7 @@ some too, otherwise we'd be out
 of a meal.</EnglishText>
       <Notes>lit. Since there's the ones that I picked, I won't have a problem cooking.</Notes>
       <SpeakerId>3</SpeakerId>
-      <Id>117</Id>
+      <Id>118</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1523,7 +1531,7 @@ of a meal.</EnglishText>
 you can't really help it.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>118</Id>
+      <Id>119</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1534,7 +1542,7 @@ you can't really help it.</EnglishText>
 you one star for these...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>119</Id>
+      <Id>120</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1544,7 +1552,7 @@ you one star for these...</EnglishText>
       <EnglishText>What's the matter?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>120</Id>
+      <Id>121</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1557,7 +1565,7 @@ white polka-dots are a poisonous
 fungus called the "Funny Fungus."</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>121</Id>
+      <Id>122</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1567,7 +1575,7 @@ fungus called the "Funny Fungus."</EnglishText>
       <EnglishText>“Funny Fungus?”</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>122</Id>
+      <Id>123</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1581,7 +1589,7 @@ uncontrollable fits of laughter for
 a good while after you eat it.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>123</Id>
+      <Id>124</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1597,7 +1605,7 @@ if we add those to mine, we
 should have enough for a meal.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>124</Id>
+      <Id>125</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1613,7 +1621,7 @@ Deluxe Mushroom" menu!
 I hope you're excited!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>125</Id>
+      <Id>126</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1623,7 +1631,7 @@ I hope you're excited!</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>126</Id>
+      <Id>127</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1636,7 +1644,7 @@ mushrooms with the white
 polka-dots are poisonous.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>127</Id>
+      <Id>128</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1646,7 +1654,7 @@ polka-dots are poisonous.</EnglishText>
       <EnglishText>Is that so?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>128</Id>
+      <Id>129</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1664,7 +1672,7 @@ of laughter for a good while
 if you eat them.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>129</Id>
+      <Id>130</Id>
       <Status>Problematic</Status>
     </Entry>
     <Entry>
@@ -1678,7 +1686,7 @@ good to eat. I'd give your
 performance about three stars.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>130</Id>
+      <Id>131</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1694,7 +1702,7 @@ Deluxe Mushroom" menu!
 I hope you're excited!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>131</Id>
+      <Id>132</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1704,7 +1712,7 @@ I hope you're excited!</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>132</Id>
+      <Id>133</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1720,7 +1728,7 @@ got a real knack for hunting
 mushrooms, &lt;Veigue&gt;!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>133</Id>
+      <Id>134</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1730,7 +1738,7 @@ mushrooms, &lt;Veigue&gt;!</EnglishText>
       <EnglishText>Is that so?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>134</Id>
+      <Id>135</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1743,7 +1751,7 @@ wasn't here, this bunch would've
 been perfect.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>135</Id>
+      <Id>136</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1760,7 +1768,7 @@ uncontrollable fits of laughter
 for a good while if you eat it.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>136</Id>
+      <Id>137</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1770,7 +1778,7 @@ for a good while if you eat it.</EnglishText>
       <EnglishText>Well, I'll just throw it away...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>137</Id>
+      <Id>138</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1786,7 +1794,7 @@ Deluxe Mushroom" menu!
 I hope you're excited!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>138</Id>
+      <Id>139</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1796,7 +1804,7 @@ I hope you're excited!</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>139</Id>
+      <Id>140</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1809,7 +1817,7 @@ stars right there! Don't
 tell me you knew?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>140</Id>
+      <Id>141</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1819,7 +1827,7 @@ tell me you knew?</EnglishText>
       <EnglishText>What are you talking about?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>141</Id>
+      <Id>142</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1831,7 +1839,7 @@ tell me you knew?</EnglishText>
 picked. They're all edible!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>142</Id>
+      <Id>143</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1848,7 +1856,7 @@ with polka dots on it that if you
 eat it, you can't stop laughing.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>143</Id>
+      <Id>144</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1858,7 +1866,7 @@ eat it, you can't stop laughing.</EnglishText>
       <EnglishText>Is that so?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>144</Id>
+      <Id>145</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1872,7 +1880,7 @@ Could it be that you're a
 mushroom hunting genius!?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>145</Id>
+      <Id>146</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1888,7 +1896,7 @@ Deluxe Mushroom" menu!
 I hope you're excited!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>146</Id>
+      <Id>147</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1898,7 +1906,7 @@ I hope you're excited!</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>147</Id>
+      <Id>148</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1910,7 +1918,7 @@ I hope you're excited!</EnglishText>
 gathered any wood?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>148</Id>
+      <Id>149</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1920,7 +1928,7 @@ gathered any wood?</EnglishText>
       <EnglishText>This is all I could find...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>149</Id>
+      <Id>150</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1934,7 +1942,7 @@ the rest that we gathered, this
 should be enough for the repairs.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>150</Id>
+      <Id>151</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1945,7 +1953,7 @@ should be enough for the repairs.</EnglishText>
       <EnglishText>Huh? Where are &lt;Annie&gt; and &lt;Tytree&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>151</Id>
+      <Id>152</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1959,7 +1967,7 @@ food with the mushrooms
 we picked. As for &lt;Annie&gt;...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>152</Id>
+      <Id>153</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1969,7 +1977,7 @@ we picked. As for &lt;Annie&gt;...</EnglishText>
       <EnglishText>How'd you do, &lt;Annie&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>153</Id>
+      <Id>154</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1984,7 +1992,7 @@ but I noticed &lt;Tytree&gt; was
 acting somewhat funny...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>154</Id>
+      <Id>155</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1995,7 +2003,7 @@ acting somewhat funny...</EnglishText>
       <EnglishText>Isn't he always kinda funny?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>155</Id>
+      <Id>156</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2005,7 +2013,7 @@ acting somewhat funny...</EnglishText>
       <EnglishText>Not in that sense...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>156</Id>
+      <Id>157</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2015,7 +2023,7 @@ acting somewhat funny...</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>157</Id>
+      <Id>158</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2028,7 +2036,7 @@ acting somewhat funny...</EnglishText>
 for us. Let's deliver the wood.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>158</Id>
+      <Id>159</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -2041,7 +2049,7 @@ for us. Let's deliver the wood.</EnglishText>
       <EnglishText>Hey! Where are you going?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>159</Id>
+      <Id>160</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2051,7 +2059,7 @@ for us. Let's deliver the wood.</EnglishText>
       <EnglishText>Hey! Where are you going?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>160</Id>
+      <Id>161</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -2067,7 +2075,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>161</Id>
+      <Id>162</Id>
       <Status>Done</Status>
     </Entry>
   </Strings>
@@ -2080,7 +2088,7 @@ No</EnglishText>
 further in the woods.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>162</Id>
+      <Id>163</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>

@@ -35,7 +35,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1073,1622,1816,981</PointerOffset>
+      <PointerOffset>981,1073,1622,1816</PointerOffset>
       <JapaneseText>ナッツ</JapaneseText>
       <EnglishText>Natz</EnglishText>
       <Notes/>
@@ -43,7 +43,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1808,1808,925,925,869,869,813,813,757,757,701,701</PointerOffset>
+      <PointerOffset>701,757,813,869,925,1808</PointerOffset>
       <JapaneseText>女の人</JapaneseText>
       <EnglishText>Woman</EnglishText>
       <Notes/>
@@ -67,7 +67,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>676,640,604</PointerOffset>
+      <PointerOffset>604,640,676</PointerOffset>
       <JapaneseText/>
       <EnglishText/>
       <Notes/>
@@ -93,6 +93,14 @@
       <Id>2</Id>
       <Status>Done</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>131</PointerOffset>
+      <JapaneseText>&lt;icon:20&gt; 見る</JapaneseText>
+      <EnglishText>&lt;icon:20&gt;Look</EnglishText>
+      <Notes>Action button text</Notes>
+      <Id>3</Id>
+      <Status>Editing</Status>
+    </Entry>
   </Strings>
   <Strings>
     <Section>entry</Section>
@@ -103,7 +111,7 @@
       <EnglishText>Where's &lt;Claire&gt;?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
+      <Id>4</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -113,7 +121,7 @@
       <EnglishText>She doesn't seem to be in here.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>4</Id>
+      <Id>5</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -128,7 +136,7 @@ sure Claire's in another
 room. Let's hurry.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>5</Id>
+      <Id>6</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -139,7 +147,7 @@ room. Let's hurry.</EnglishText>
       <EnglishText>Everyone, please come with us.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>6</Id>
+      <Id>7</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -149,7 +157,7 @@ room. Let's hurry.</EnglishText>
       <EnglishText>&lt;Claire&gt;...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
+      <Id>8</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -159,7 +167,7 @@ room. Let's hurry.</EnglishText>
       <EnglishText>Wait... You're not &lt;Claire&gt;...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
+      <Id>9</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -174,7 +182,7 @@ She was taken away just a
 moment ago! Please save her!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>9</Id>
+      <Id>10</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -184,7 +192,7 @@ moment ago! Please save her!</EnglishText>
       <EnglishText>Where did they take her!?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
+      <Id>11</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -200,7 +208,7 @@ get her, she said "Her Majesty is
 waiting. The ritual is about to begin."</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>11</Id>
+      <Id>12</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -212,7 +220,7 @@ waiting. The ritual is about to begin."</EnglishText>
 is it being held!?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>12</Id>
+      <Id>13</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -226,7 +234,7 @@ they could do it would be
 on the ceremonial dais!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>13</Id>
+      <Id>14</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -236,7 +244,7 @@ on the ceremonial dais!</EnglishText>
       <EnglishText>Leave the rest to me!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>14</Id>
+      <Id>15</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -246,7 +254,7 @@ on the ceremonial dais!</EnglishText>
       <EnglishText>Let's hurry!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>15</Id>
+      <Id>16</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -260,7 +268,7 @@ on the ceremonial dais!</EnglishText>
 You go on ahead.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>16</Id>
+      <Id>17</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -274,7 +282,7 @@ You go on ahead.</EnglishText>
 queen trying to do?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>17</Id>
+      <Id>18</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -285,7 +293,7 @@ queen trying to do?</EnglishText>
 to think of this...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>18</Id>
+      <Id>19</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -299,7 +307,7 @@ to think of this...</EnglishText>
 encouraging to me.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>19</Id>
+      <Id>20</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -313,7 +321,7 @@ please tell her that Natalie
 said: "Thank you"? </EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>20</Id>
+      <Id>21</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -328,7 +336,7 @@ said: "Thank you"? </EnglishText>
 here is like being a princess.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>21</Id>
+      <Id>22</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -339,7 +347,7 @@ here is like being a princess.</EnglishText>
 really want to go back home. </EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>22</Id>
+      <Id>23</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -355,7 +363,7 @@ she did something to me,
 but I can't remember what.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>23</Id>
+      <Id>24</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -364,7 +372,7 @@ but I can't remember what.</EnglishText>
       <EnglishText>It felt...kind of creepy...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>24</Id>
+      <Id>25</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -377,7 +385,7 @@ but I can't remember what.</EnglishText>
       <EnglishText>I...I'm...so scared...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>25</Id>
+      <Id>26</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -387,7 +395,7 @@ but I can't remember what.</EnglishText>
       <EnglishText>It's okay to go now... Isn't it?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>26</Id>
+      <Id>27</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -403,7 +411,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>27</Id>
+      <Id>28</Id>
       <Status>Done</Status>
     </Entry>
   </Strings>
@@ -419,7 +427,7 @@ There is a delicious looking
 apple on it.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>28</Id>
+      <Id>29</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -436,7 +444,7 @@ The game has reached a checkmate.
 White seems to have won.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>29</Id>
+      <Id>30</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -457,7 +465,7 @@ The artist of this statue is
 believed to be a woman.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>30</Id>
+      <Id>31</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
