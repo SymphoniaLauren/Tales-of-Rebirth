@@ -11,7 +11,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7403,2754,3049,3384,3636,1308,5914,1611,1886</PointerOffset>
+      <PointerOffset>1308,1611,1886,2754,3049,3384,3636,5914,7403</PointerOffset>
       <JapaneseText>select</JapaneseText>
       <EnglishText>Select</EnglishText>
       <Notes/>
@@ -19,7 +19,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4382,1009</PointerOffset>
+      <PointerOffset>1009,4382</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
@@ -27,7 +27,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4406,4455,201,4555,4579</PointerOffset>
+      <PointerOffset>201,4406,4455,4555,4579</PointerOffset>
       <JapaneseText>notice</JapaneseText>
       <EnglishText>Notice</EnglishText>
       <Notes/>
@@ -35,7 +35,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>4610,872</PointerOffset>
+      <PointerOffset>872,4610</PointerOffset>
       <JapaneseText/>
       <EnglishText/>
       <Notes/>
@@ -43,7 +43,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629,2629</PointerOffset>
+      <PointerOffset>2629</PointerOffset>
       <JapaneseText>食材屋「太陽の恵み」</JapaneseText>
       <EnglishText>Grocer</EnglishText>
       <Notes/>
@@ -51,7 +51,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1200,1200</PointerOffset>
+      <PointerOffset>1200</PointerOffset>
       <JapaneseText>宿屋「オーシャンビュー」</JapaneseText>
       <EnglishText>Inn</EnglishText>
       <Notes/>
@@ -59,7 +59,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613,5613</PointerOffset>
+      <PointerOffset>5613</PointerOffset>
       <JapaneseText>カレギア兵</JapaneseText>
       <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
@@ -133,6 +133,14 @@
       <Id>3</Id>
       <Status>Done</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>314</PointerOffset>
+      <JapaneseText>&lt;icon:20&gt; つまみ食い</JapaneseText>
+      <EnglishText>&lt;icon:20&gt;Sneak a Bite</EnglishText>
+      <Notes>Action button text</Notes>
+      <Id>4</Id>
+      <Status>Editing</Status>
+    </Entry>
   </Strings>
   <Strings>
     <Section>s2-0</Section>
@@ -146,7 +154,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
+      <Id>5</Id>
       <Status>Done</Status>
     </Entry>
   </Strings>
@@ -162,7 +170,7 @@ tasty here! Lemme take an itty
 bitty bite...</EnglishText>
       <Notes>idk where the dupes are for this.</Notes>
       <SpeakerId>1</SpeakerId>
-      <Id>5</Id>
+      <Id>6</Id>
       <Status>Problematic</Status>
     </Entry>
     <Entry>
@@ -171,7 +179,7 @@ bitty bite...</EnglishText>
       <EnglishText>&lt;Green&gt;Ate "&lt;item:20000005&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>6</Id>
+      <Id>7</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -180,7 +188,7 @@ bitty bite...</EnglishText>
       <EnglishText>&lt;Green&gt;Obtained recipe for "&lt;item:20000005&gt;"!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>7</Id>
+      <Id>8</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -189,7 +197,7 @@ bitty bite...</EnglishText>
       <EnglishText>[VARIABLE]</EnglishText>
       <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
       <SpeakerId>2</SpeakerId>
-      <Id>8</Id>
+      <Id>9</Id>
       <Status>Done</Status>
     </Entry>
     <Entry>
@@ -198,7 +206,7 @@ bitty bite...</EnglishText>
       <EnglishText>&lt;Green&gt;There's some "&lt;item:20000005&gt;" here.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>9</Id>
+      <Id>10</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -209,7 +217,7 @@ bitty bite...</EnglishText>
 you refrained from doing so.</EnglishText>
       <Notes>idk where the dupes are</Notes>
       <SpeakerId>2</SpeakerId>
-      <Id>10</Id>
+      <Id>11</Id>
       <Status>Problematic</Status>
     </Entry>
     <Entry>
@@ -220,7 +228,7 @@ you refrained from doing so.</EnglishText>
 &lt;Mao&gt; already snuck a bite of this.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>11</Id>
+      <Id>12</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -236,7 +244,7 @@ You can let them rest
 downstairs. Go on, hurry!</EnglishText>
       <Notes>previous is "What!? Someone's sick? Hurry and get a room downstairs so they can rest! Now!" but i feel like that takes on a more urgent tone than the JP</Notes>
       <SpeakerId>4</SpeakerId>
-      <Id>12</Id>
+      <Id>13</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -249,7 +257,7 @@ something, anything! Just please
 don't fight here!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>13</Id>
+      <Id>14</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -262,7 +270,7 @@ Talk
 Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
+      <Id>15</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -274,7 +282,7 @@ you can break anything else
 just don't wreck my store!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>15</Id>
+      <Id>16</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -288,7 +296,7 @@ going on a rampage outside,
 but please give me a break...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>16</Id>
+      <Id>17</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -302,7 +310,7 @@ Huma like you, but, as they say: "He
 who does not work, shall not eat."</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>17</Id>
+      <Id>18</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -314,7 +322,7 @@ who does not work, shall not eat."</EnglishText>
 most welcome here!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>18</Id>
+      <Id>19</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -327,7 +335,7 @@ you why--but you Humas are
 such an eyesore!</EnglishText>
       <Notes>changed coz awkwardly worded</Notes>
       <SpeakerId>4</SpeakerId>
-      <Id>19</Id>
+      <Id>20</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -340,7 +348,7 @@ such an eyesore!</EnglishText>
 I hated Humas so much...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>20</Id>
+      <Id>21</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -352,7 +360,7 @@ I hated Humas so much...</EnglishText>
 feel like picking a fight with them...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>21</Id>
+      <Id>22</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -364,7 +372,7 @@ feel like picking a fight with them...</EnglishText>
 with you Huma!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>22</Id>
+      <Id>23</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -377,7 +385,7 @@ with you Huma!</EnglishText>
 I hated Humas so much...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>23</Id>
+      <Id>24</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -389,7 +397,7 @@ I hated Humas so much...</EnglishText>
 feel like picking a fight with them...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>24</Id>
+      <Id>25</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -401,7 +409,7 @@ feel like picking a fight with them...</EnglishText>
 with you Huma!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>25</Id>
+      <Id>26</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -413,7 +421,7 @@ with you Huma!</EnglishText>
 not time to worry about race!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>26</Id>
+      <Id>27</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -427,7 +435,7 @@ with each other when there
 was an oncoming tidal wave...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>27</Id>
+      <Id>28</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -439,7 +447,7 @@ was an oncoming tidal wave...</EnglishText>
 We're all in this together!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>28</Id>
+      <Id>29</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -451,7 +459,7 @@ We're all in this together!</EnglishText>
 a reasonable price!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>29</Id>
+      <Id>30</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -463,7 +471,7 @@ a reasonable price!</EnglishText>
 sunblessed crops!</EnglishText>
       <Notes>Sunblessed could be correct or we could go with Sun-Blessed.</Notes>
       <SpeakerId>4</SpeakerId>
-      <Id>30</Id>
+      <Id>31</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -474,7 +482,7 @@ sunblessed crops!</EnglishText>
 please do it far away from me?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>31</Id>
+      <Id>32</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -486,7 +494,7 @@ please do it far away from me?</EnglishText>
 this... rumbling...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>32</Id>
+      <Id>33</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -496,7 +504,7 @@ this... rumbling...</EnglishText>
       <EnglishText>Yes, welcome!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>33</Id>
+      <Id>34</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -506,7 +514,7 @@ this... rumbling...</EnglishText>
       <EnglishText>Yes, how can I help you?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>34</Id>
+      <Id>35</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -519,7 +527,7 @@ Talk
 Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>35</Id>
+      <Id>36</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -529,7 +537,7 @@ Cancel</EnglishText>
       <EnglishText>Feel free to come again whenever!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>36</Id>
+      <Id>37</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -540,7 +548,7 @@ Cancel</EnglishText>
 need something...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>37</Id>
+      <Id>38</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -550,7 +558,7 @@ need something...</EnglishText>
       <EnglishText>Feel free to come again whenever!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>38</Id>
+      <Id>39</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -561,7 +569,7 @@ need something...</EnglishText>
 need something...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>39</Id>
+      <Id>40</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -571,7 +579,7 @@ need something...</EnglishText>
       <EnglishText>Yes, welcome!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>40</Id>
+      <Id>41</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -581,7 +589,7 @@ need something...</EnglishText>
       <EnglishText>Tch... What do you want?</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>41</Id>
+      <Id>42</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -594,7 +602,7 @@ Talk
 Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>42</Id>
+      <Id>43</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -604,7 +612,7 @@ Cancel</EnglishText>
       <EnglishText>Feel free to come again whenever!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>43</Id>
+      <Id>44</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -615,7 +623,7 @@ Cancel</EnglishText>
 need something...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>44</Id>
+      <Id>45</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -625,7 +633,7 @@ need something...</EnglishText>
       <EnglishText>Feel free to come again whenever!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>45</Id>
+      <Id>46</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -636,7 +644,7 @@ need something...</EnglishText>
 need something...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>46</Id>
+      <Id>47</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -646,7 +654,7 @@ need something...</EnglishText>
       <EnglishText>Yes, welcome!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>47</Id>
+      <Id>48</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -659,7 +667,7 @@ Talk
 Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>48</Id>
+      <Id>49</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -669,7 +677,7 @@ Cancel</EnglishText>
       <EnglishText>Feel free to come again whenever!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>49</Id>
+      <Id>50</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -679,7 +687,7 @@ Cancel</EnglishText>
       <EnglishText>Feel free to come again whenever!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>50</Id>
+      <Id>51</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -696,7 +704,7 @@ that room so they can rest. Don't
 you worry about the cost.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>51</Id>
+      <Id>52</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -710,7 +718,7 @@ But I'll stay here and protect
 my turtles and my shop!</EnglishText>
       <Notes>suuuuuuper </Notes>
       <SpeakerId>5</SpeakerId>
-      <Id>52</Id>
+      <Id>53</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -723,7 +731,7 @@ Talk
 Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>53</Id>
+      <Id>54</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -734,7 +742,7 @@ Cancel</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>54</Id>
+      <Id>55</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -745,7 +753,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>55</Id>
+      <Id>56</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -756,7 +764,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>56</Id>
+      <Id>57</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -767,7 +775,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>57</Id>
+      <Id>58</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -778,7 +786,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>58</Id>
+      <Id>59</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -789,7 +797,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>59</Id>
+      <Id>60</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -800,7 +808,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>60</Id>
+      <Id>61</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -811,7 +819,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>61</Id>
+      <Id>62</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -822,7 +830,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>62</Id>
+      <Id>63</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -833,7 +841,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>63</Id>
+      <Id>64</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -844,7 +852,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>64</Id>
+      <Id>65</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -855,7 +863,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>65</Id>
+      <Id>66</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -866,7 +874,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>66</Id>
+      <Id>67</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -877,7 +885,7 @@ Stay here?</EnglishText>
 Stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>67</Id>
+      <Id>68</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -886,7 +894,7 @@ Stay here?</EnglishText>
       <EnglishText>&lt;font:80000002&gt;Spend &lt;unk17:340C80&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>68</Id>
+      <Id>69</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -895,7 +903,7 @@ Stay here?</EnglishText>
       <EnglishText>&lt;font:80000002&gt;Spend &lt;unk17:340C80&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>69</Id>
+      <Id>70</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -904,7 +912,7 @@ Stay here?</EnglishText>
       <EnglishText>&lt;font:80000002&gt;Spend &lt;unk17:340C80&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>70</Id>
+      <Id>71</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -913,7 +921,7 @@ Stay here?</EnglishText>
       <EnglishText>&lt;font:80000002&gt;Spend &lt;unk17:340C80&gt; Gald to rest here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>71</Id>
+      <Id>72</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -927,7 +935,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>72</Id>
+      <Id>73</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -936,7 +944,7 @@ No</EnglishText>
       <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>73</Id>
+      <Id>74</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -945,7 +953,7 @@ No</EnglishText>
       <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>74</Id>
+      <Id>75</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -954,7 +962,7 @@ No</EnglishText>
       <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>75</Id>
+      <Id>76</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -963,7 +971,7 @@ No</EnglishText>
       <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>76</Id>
+      <Id>77</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -972,7 +980,7 @@ No</EnglishText>
       <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>77</Id>
+      <Id>78</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -981,7 +989,7 @@ No</EnglishText>
       <EnglishText>...Hm...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>78</Id>
+      <Id>79</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -990,7 +998,7 @@ No</EnglishText>
       <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>79</Id>
+      <Id>80</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -999,7 +1007,7 @@ No</EnglishText>
       <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>80</Id>
+      <Id>81</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1008,7 +1016,7 @@ No</EnglishText>
       <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>81</Id>
+      <Id>82</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1017,7 +1025,7 @@ No</EnglishText>
       <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>82</Id>
+      <Id>83</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1026,7 +1034,7 @@ No</EnglishText>
       <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>83</Id>
+      <Id>84</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1035,7 +1043,7 @@ No</EnglishText>
       <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>84</Id>
+      <Id>85</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1044,7 +1052,7 @@ No</EnglishText>
       <EnglishText>Please have a good rest.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>85</Id>
+      <Id>86</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1053,7 +1061,7 @@ No</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>86</Id>
+      <Id>87</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1062,7 +1070,7 @@ No</EnglishText>
       <EnglishText>Sweet dreams.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>87</Id>
+      <Id>88</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1071,7 +1079,7 @@ No</EnglishText>
       <EnglishText>Rest well.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>88</Id>
+      <Id>89</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1080,7 +1088,7 @@ No</EnglishText>
       <EnglishText>Sweet dreams.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>89</Id>
+      <Id>90</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1089,7 +1097,7 @@ No</EnglishText>
       <EnglishText>Have a good rest!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>90</Id>
+      <Id>91</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1098,7 +1106,7 @@ No</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>91</Id>
+      <Id>92</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1107,7 +1115,7 @@ No</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>92</Id>
+      <Id>93</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1116,7 +1124,7 @@ No</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>93</Id>
+      <Id>94</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1125,7 +1133,7 @@ No</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>94</Id>
+      <Id>95</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1134,7 +1142,7 @@ No</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>95</Id>
+      <Id>96</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1145,7 +1153,7 @@ No</EnglishText>
 here without any money?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>96</Id>
+      <Id>97</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1154,7 +1162,7 @@ here without any money?</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>97</Id>
+      <Id>98</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1163,7 +1171,7 @@ here without any money?</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>98</Id>
+      <Id>99</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1172,7 +1180,7 @@ here without any money?</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>99</Id>
+      <Id>100</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1181,7 +1189,7 @@ here without any money?</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>100</Id>
+      <Id>101</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1190,7 +1198,7 @@ here without any money?</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>101</Id>
+      <Id>102</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1199,7 +1207,7 @@ here without any money?</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>102</Id>
+      <Id>103</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1208,7 +1216,7 @@ here without any money?</EnglishText>
       <EnglishText>You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>103</Id>
+      <Id>104</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1217,7 +1225,7 @@ here without any money?</EnglishText>
       <EnglishText>You're broke.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>104</Id>
+      <Id>105</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1228,7 +1236,7 @@ here without any money?</EnglishText>
 You've got no money.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>105</Id>
+      <Id>106</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1237,7 +1245,7 @@ You've got no money.</EnglishText>
       <EnglishText>But we seem to have no money...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>106</Id>
+      <Id>107</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1246,7 +1254,7 @@ You've got no money.</EnglishText>
       <EnglishText>We've got no money...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>107</Id>
+      <Id>108</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1255,7 +1263,7 @@ You've got no money.</EnglishText>
       <EnglishText>It seems we don't have enough money...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>108</Id>
+      <Id>109</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1265,7 +1273,7 @@ You've got no money.</EnglishText>
       <EnglishText>Come back any time.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>109</Id>
+      <Id>110</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1274,7 +1282,7 @@ You've got no money.</EnglishText>
       <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>110</Id>
+      <Id>111</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1283,7 +1291,7 @@ You've got no money.</EnglishText>
       <EnglishText>Please come again.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>111</Id>
+      <Id>112</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1292,7 +1300,7 @@ You've got no money.</EnglishText>
       <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>112</Id>
+      <Id>113</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1301,7 +1309,7 @@ You've got no money.</EnglishText>
       <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>113</Id>
+      <Id>114</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1312,7 +1320,7 @@ You've got no money.</EnglishText>
 Window-shoppers...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>114</Id>
+      <Id>115</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1321,7 +1329,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Come back any time.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>115</Id>
+      <Id>116</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1330,7 +1338,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>116</Id>
+      <Id>117</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1339,7 +1347,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>117</Id>
+      <Id>118</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1348,7 +1356,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>118</Id>
+      <Id>119</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1357,7 +1365,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Come back any time.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>119</Id>
+      <Id>120</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1366,7 +1374,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Come back any time.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>120</Id>
+      <Id>121</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1375,7 +1383,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Please come again soon.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>121</Id>
+      <Id>122</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1385,7 +1393,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Do you not want to sleep here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>122</Id>
+      <Id>123</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1394,7 +1402,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>You're always welcome here!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>123</Id>
+      <Id>124</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1403,7 +1411,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Come back anytime.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>124</Id>
+      <Id>125</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1412,7 +1420,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Take care...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>125</Id>
+      <Id>126</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1421,7 +1429,7 @@ Window-shoppers...</EnglishText>
       <EnglishText>Do you not want to stay here?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>126</Id>
+      <Id>127</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1433,7 +1441,7 @@ Window-shoppers...</EnglishText>
 whenever you're in a bind! Come again!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>127</Id>
+      <Id>128</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1447,7 +1455,7 @@ I just want to live in comfort
 with my turtles...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>128</Id>
+      <Id>129</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1461,7 +1469,7 @@ want Huma sleeping here...
 But a job's a job...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>129</Id>
+      <Id>130</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1473,7 +1481,7 @@ But a job's a job...</EnglishText>
 suuuper welcome!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>130</Id>
+      <Id>131</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1486,7 +1494,7 @@ actually suuuper busy. Go talk
 to someone else instead.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>131</Id>
+      <Id>132</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1499,7 +1507,7 @@ and, worse of all, there are some
 Huma kids are staying at the inn...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>132</Id>
+      <Id>133</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1512,7 +1520,7 @@ them away either because a
 Huma owns this building.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>133</Id>
+      <Id>134</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1525,7 +1533,7 @@ actually suuuper busy. Go talk
 to someone else instead.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>134</Id>
+      <Id>135</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1538,7 +1546,7 @@ conflicts within the town,
 and my customers too...</EnglishText>
       <Notes>not sure what this means.</Notes>
       <SpeakerId>6</SpeakerId>
-      <Id>135</Id>
+      <Id>136</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1549,7 +1557,7 @@ and my customers too...</EnglishText>
 dangerous lately, huh?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>136</Id>
+      <Id>137</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1561,7 +1569,7 @@ dangerous lately, huh?</EnglishText>
 is suuuper irritating.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>137</Id>
+      <Id>138</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1574,7 +1582,7 @@ to the little girl upstairs, I
 finally realized...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>138</Id>
+      <Id>139</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1587,7 +1595,7 @@ after we fight and told me that people
 will get along better if they do.</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>139</Id>
+      <Id>140</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1601,7 +1609,7 @@ on my actions and make up
 with people I offended!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>140</Id>
+      <Id>141</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1613,7 +1621,7 @@ I also suuuper like turtle
 themed goods, too!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>141</Id>
+      <Id>142</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1625,7 +1633,7 @@ buy that turtle armor at the
 armor shop...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>142</Id>
+      <Id>143</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1638,7 +1646,7 @@ must whenever you're in a bind!
 Don't forget that!</EnglishText>
       <Notes>changed the last line cause psp doesnt have it</Notes>
       <SpeakerId>6</SpeakerId>
-      <Id>143</Id>
+      <Id>144</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1650,7 +1658,7 @@ Don't forget that!</EnglishText>
 sound? I'm suuuper worried...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>144</Id>
+      <Id>145</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1660,7 +1668,7 @@ sound? I'm suuuper worried...</EnglishText>
       <EnglishText>Thank you, come again!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>145</Id>
+      <Id>146</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1670,7 +1678,7 @@ sound? I'm suuuper worried...</EnglishText>
       <EnglishText>What?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>146</Id>
+      <Id>147</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1683,7 +1691,7 @@ Talk
 Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>147</Id>
+      <Id>148</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1693,7 +1701,7 @@ Cancel</EnglishText>
       <EnglishText>See ya suuuper next time!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>148</Id>
+      <Id>149</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1703,7 +1711,7 @@ Cancel</EnglishText>
       <EnglishText>Goodbye...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>149</Id>
+      <Id>150</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1714,7 +1722,7 @@ Cancel</EnglishText>
 welcome to come by!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>150</Id>
+      <Id>151</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1724,7 +1732,7 @@ welcome to come by!</EnglishText>
       <EnglishText>Goodbye...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>151</Id>
+      <Id>152</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1734,7 +1742,7 @@ welcome to come by!</EnglishText>
       <EnglishText>Thank you, come again!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>152</Id>
+      <Id>153</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1747,7 +1755,7 @@ Talk
 Cancel</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>153</Id>
+      <Id>154</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1757,7 +1765,7 @@ Cancel</EnglishText>
       <EnglishText>See ya suuuper next time!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>154</Id>
+      <Id>155</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1768,7 +1776,7 @@ Cancel</EnglishText>
 welcome to come by!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>155</Id>
+      <Id>156</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -1785,7 +1793,7 @@ In Sunnytown, Turtles have long
 been rumored to bring fortune.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>156</Id>
+      <Id>157</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1798,7 +1806,7 @@ Judging by its size, it has
 to be over ten years old...</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>157</Id>
+      <Id>158</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1815,7 +1823,7 @@ diet containing vegetables.</EnglishText>
 
 https://petkraze.com/blog/59482/turtle-shell-care</Notes>
       <SpeakerId>7</SpeakerId>
-      <Id>158</Id>
+      <Id>159</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1826,7 +1834,7 @@ https://petkraze.com/blog/59482/turtle-shell-care</Notes>
 seen one around Sulz...</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>159</Id>
+      <Id>160</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1837,7 +1845,7 @@ seen one around Sulz...</EnglishText>
 I'll have to go ask Eugene.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>160</Id>
+      <Id>161</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1848,7 +1856,7 @@ I'll have to go ask Eugene.</EnglishText>
 their little beady eyes...</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>161</Id>
+      <Id>162</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1860,7 +1868,7 @@ their little beady eyes...</EnglishText>
 soothing vibe, huh...</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
-      <Id>162</Id>
+      <Id>163</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1872,7 +1880,7 @@ soothing vibe, huh...</EnglishText>
 the same color as my hair, too!</EnglishText>
       <Notes/>
       <SpeakerId>10</SpeakerId>
-      <Id>163</Id>
+      <Id>164</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1886,7 +1894,7 @@ shell, but I don't think I have it
 in me.</EnglishText>
       <Notes/>
       <SpeakerId>11</SpeakerId>
-      <Id>164</Id>
+      <Id>165</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>

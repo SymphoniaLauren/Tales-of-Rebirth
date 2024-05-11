@@ -11,7 +11,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>961,2778,2778,2778,2778,2778,2778,17373,17395,17527,17560,9529,9582,11026,11187</PointerOffset>
+      <PointerOffset>961,2778,9529,9582,11026,11187,17373,17395,17527,17560</PointerOffset>
       <JapaneseText>ワン・ギン</JapaneseText>
       <EnglishText>Wang Gin</EnglishText>
       <Notes/>
@@ -19,7 +19,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>969,1709,1709,1709,17805</PointerOffset>
+      <PointerOffset>969,1709,17805</PointerOffset>
       <JapaneseText>クウ・ホウ</JapaneseText>
       <EnglishText>Ke Hao</EnglishText>
       <Notes/>
@@ -67,7 +67,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>15221,842,814,786,754</PointerOffset>
+      <PointerOffset>754,786,814,842,15221</PointerOffset>
       <JapaneseText/>
       <EnglishText/>
       <Notes/>
@@ -75,7 +75,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>9250,5694</PointerOffset>
+      <PointerOffset>5694,9250</PointerOffset>
       <JapaneseText>select</JapaneseText>
       <EnglishText>Select</EnglishText>
       <Notes/>
@@ -119,6 +119,14 @@ Auction Hall</EnglishText>
       <Id>3</Id>
       <Status>Done</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>16076</PointerOffset>
+      <JapaneseText>&lt;icon:33&gt; 値段をつり上げる　&lt;icon:32&gt; 探りを入れる　&lt;icon:31&gt; あきらめる</JapaneseText>
+      <EnglishText/>
+      <Notes>Action button text</Notes>
+      <Id>4</Id>
+      <Status>To Do</Status>
+    </Entry>
   </Strings>
   <Strings>
     <Section>entry</Section>
@@ -134,7 +142,7 @@ nicer clothes, and see to it
 that she looks presentable.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
+      <Id>5</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -144,7 +152,7 @@ that she looks presentable.</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>5</Id>
+      <Id>6</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -154,7 +162,7 @@ that she looks presentable.</EnglishText>
       <EnglishText>What happened?!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>6</Id>
+      <Id>7</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -165,7 +173,7 @@ that she looks presentable.</EnglishText>
 among our guests...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>7</Id>
+      <Id>8</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -175,7 +183,7 @@ among our guests...</EnglishText>
       <EnglishText>Where's &lt;Claire&gt;?!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>8</Id>
+      <Id>9</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -187,7 +195,7 @@ among our guests...</EnglishText>
 no longer... here...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>9</Id>
+      <Id>10</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -198,7 +206,7 @@ no longer... here...</EnglishText>
 you talking about?!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>10</Id>
+      <Id>11</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -208,7 +216,7 @@ you talking about?!</EnglishText>
       <EnglishText>Uuh...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>11</Id>
+      <Id>12</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -219,7 +227,7 @@ you talking about?!</EnglishText>
 lost consciousness.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>12</Id>
+      <Id>13</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -229,7 +237,7 @@ lost consciousness.</EnglishText>
       <EnglishText>Damnit... Where is &lt;Claire&gt;?!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>13</Id>
+      <Id>14</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -241,7 +249,7 @@ lost consciousness.</EnglishText>
 How much would you like?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
+      <Id>15</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -251,7 +259,7 @@ How much would you like?</EnglishText>
       <EnglishText>What?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>15</Id>
+      <Id>16</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -265,7 +273,7 @@ offer you as much money as you
 like. Just name your price...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>16</Id>
+      <Id>17</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -279,7 +287,7 @@ you?! Money, money, money,
 money! Who CARES?!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>17</Id>
+      <Id>18</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -292,7 +300,7 @@ you had Claire locked up
 in a room instead?!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>18</Id>
+      <Id>19</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -305,7 +313,7 @@ that I could keep my
 guests &lt;Italic&gt;satisfied&lt;/Italic&gt;...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>19</Id>
+      <Id>20</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -315,7 +323,7 @@ guests &lt;Italic&gt;satisfied&lt;/Italic&gt;...</EnglishText>
       <EnglishText>WHAT?!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>20</Id>
+      <Id>21</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -329,7 +337,7 @@ of itself is more than enough
 to line my pockets. Hohoho...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>21</Id>
+      <Id>22</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -339,7 +347,7 @@ to line my pockets. Hohoho...</EnglishText>
       <EnglishText>You son of a...!!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>22</Id>
+      <Id>23</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -352,7 +360,7 @@ throwing hands, then we're not
 going to be able to...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>23</Id>
+      <Id>24</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -362,7 +370,7 @@ going to be able to...</EnglishText>
       <EnglishText>Just let me have one punch!</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>24</Id>
+      <Id>25</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -372,7 +380,7 @@ going to be able to...</EnglishText>
       <EnglishText>&lt;Veigue&gt;!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
-      <Id>25</Id>
+      <Id>26</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -386,7 +394,7 @@ Do you really think that kind
 of behavior is a good idea?!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>26</Id>
+      <Id>27</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -399,7 +407,7 @@ there! Hurry up and kick
 these brutes out of here!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>27</Id>
+      <Id>28</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -410,7 +418,7 @@ these brutes out of here!</EnglishText>
 with the auction.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>28</Id>
+      <Id>29</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -419,7 +427,7 @@ with the auction.</EnglishText>
       <EnglishText>Our next commodity is...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>29</Id>
+      <Id>30</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -429,7 +437,7 @@ with the auction.</EnglishText>
       <EnglishText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;This &lt;item:0&gt;!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>30</Id>
+      <Id>31</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -443,7 +451,7 @@ at &lt;unk17:38059480&gt; Gald.
 Let us begin.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>31</Id>
+      <Id>32</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -453,7 +461,7 @@ Let us begin.</EnglishText>
       <EnglishText>&lt;speed:0&gt;&lt;font:9&gt;&lt;unk18:48A00580&gt;</EnglishText>
       <Notes>Just a variable for the item in the auction i guess</Notes>
       <SpeakerId>7</SpeakerId>
-      <Id>32</Id>
+      <Id>33</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -466,7 +474,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>33</Id>
+      <Id>34</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -478,7 +486,7 @@ No</EnglishText>
 Bid &lt;unk17:38059480&gt; gald.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>34</Id>
+      <Id>35</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -489,7 +497,7 @@ Bid &lt;unk17:38059480&gt; gald.</EnglishText>
 was unsuccessful.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>35</Id>
+      <Id>36</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -498,7 +506,7 @@ was unsuccessful.</EnglishText>
       <EnglishText>[VARIABLE]</EnglishText>
       <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
       <SpeakerId>9</SpeakerId>
-      <Id>36</Id>
+      <Id>37</Id>
       <Status>Done</Status>
     </Entry>
     <Entry>
@@ -508,7 +516,7 @@ was unsuccessful.</EnglishText>
 end the auction?</EnglishText>
       <Notes>Need to check in game if you can still throw bids.</Notes>
       <SpeakerId>0</SpeakerId>
-      <Id>37</Id>
+      <Id>38</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -519,7 +527,7 @@ end the auction?</EnglishText>
 Do you wish to continue?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>38</Id>
+      <Id>39</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -528,7 +536,7 @@ Do you wish to continue?</EnglishText>
       <EnglishText>Current bid is at &lt;unk17:38059480&gt; gald.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>39</Id>
+      <Id>40</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -540,8 +548,163 @@ Do you wish to continue?</EnglishText>
 Here's your &lt;item:0&gt;.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>40</Id>
+      <Id>41</Id>
       <Status>Proofreading</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>16085</PointerOffset>
+      <JapaneseText>      &lt;unk17:38940580&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>42</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>16093</PointerOffset>
+      <JapaneseText>     &lt;unk17:38940580&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>43</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>16101</PointerOffset>
+      <JapaneseText>    &lt;unk17:38940580&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>44</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>16109</PointerOffset>
+      <JapaneseText>   &lt;unk17:38940580&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>45</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>16117</PointerOffset>
+      <JapaneseText>  &lt;unk17:38940580&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>46</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>16125</PointerOffset>
+      <JapaneseText> &lt;unk17:38940580&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>47</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>16133</PointerOffset>
+      <JapaneseText>&lt;unk17:38940580&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>48</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>15444</PointerOffset>
+      <JapaneseText>&lt;Red&gt;&lt;unk18:48A40580&gt;&lt;White&gt;/&lt;unk17:C0E05F80&gt;G</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>49</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>15462</PointerOffset>
+      <JapaneseText>&lt;Yellow&gt;&lt;unk18:48A40580&gt;&lt;White&gt;/&lt;unk17:C0E05F80&gt;G</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>50</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>15473</PointerOffset>
+      <JapaneseText>&lt;White&gt;&lt;unk18:48A40580&gt;&lt;White&gt;/&lt;unk17:C0E05F80&gt;G</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>51</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8844</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:344880&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>52</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8851</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:344480&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>53</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8858</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:344080&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>54</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8865</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:343C80&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>55</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8872</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:343880&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>56</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8879</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:343480&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>57</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>8886</PointerOffset>
+      <JapaneseText>&lt;speed:0&gt;&lt;unk17:343080&gt;</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>58</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>10999</PointerOffset>
+      <JapaneseText>現在、&lt;unk17:38940580&gt;ガルドです。
+落札でよろしいですね？</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>59</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>10999</PointerOffset>
+      <JapaneseText>現在、&lt;unk17:38940580&gt;ガルドです。
+落札でよろしいですね？</JapaneseText>
+      <EnglishText/>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <SpeakerId>0</SpeakerId>
+      <Id>60</Id>
+      <Status>To Do</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -552,7 +715,7 @@ Here's your &lt;item:0&gt;.</EnglishText>
       <EnglishText>He is out cold.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>41</Id>
+      <Id>61</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -564,7 +727,7 @@ Here's your &lt;item:0&gt;.</EnglishText>
       <EnglishText>He is out cold.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>42</Id>
+      <Id>62</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -576,7 +739,7 @@ Here's your &lt;item:0&gt;.</EnglishText>
       <EnglishText>He is out cold.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>43</Id>
+      <Id>63</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -592,7 +755,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
-      <Id>44</Id>
+      <Id>64</Id>
       <Status>Done</Status>
     </Entry>
   </Strings>
@@ -610,7 +773,7 @@ Nei San. It presents characters based
 on animals jumping and playing.</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
-      <Id>45</Id>
+      <Id>65</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>

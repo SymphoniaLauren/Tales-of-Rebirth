@@ -266,5 +266,8 @@ extra_syscall_ret:
 ;em dash width
     .byte 01, 01
 
+;use debug death notice
+.org 0x1282A0
+    nop
 
 .close

@@ -11,7 +11,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1708,2626,2700,2760,2975,3816,3838,5380,5478,5604,5658,5718,6417,6493,7073,7112,8222,2057</PointerOffset>
+      <PointerOffset>1708,2057,2626,2700,2760,2975,3816,3838,5380,5478,5604,5658,5718,6417,6493,7073,7112,8222</PointerOffset>
       <JapaneseText>&lt;Tytree&gt;</JapaneseText>
       <EnglishText>&lt;Tytree&gt;</EnglishText>
       <Notes/>
@@ -27,7 +27,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2517,2517,2847,3556,3556,3556,3556,9571,9571,9571,9571,9571,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324,12324</PointerOffset>
+      <PointerOffset>2517,2847,3556,9571,12324</PointerOffset>
       <JapaneseText>男の人</JapaneseText>
       <EnglishText>Man</EnglishText>
       <Notes/>
@@ -35,7 +35,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2650,2650,7984,9555,9555,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480,13480</PointerOffset>
+      <PointerOffset>2650,7984,9555,13480</PointerOffset>
       <JapaneseText>おじいさん</JapaneseText>
       <EnglishText>Old Man</EnglishText>
       <Notes/>
@@ -51,7 +51,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2809,7149,8370,9726,9791,1989,2125,9152,8780</PointerOffset>
+      <PointerOffset>1989,2125,2809,7149,8370,8780,9152,9726,9791</PointerOffset>
       <JapaneseText>&lt;Veigue&gt;</JapaneseText>
       <EnglishText>&lt;Veigue&gt;</EnglishText>
       <Notes/>
@@ -75,7 +75,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>3548,3548,3548,3548,3548</PointerOffset>
+      <PointerOffset>3548</PointerOffset>
       <JapaneseText>宿屋のおかみ</JapaneseText>
       <EnglishText>Inn Hostess</EnglishText>
       <Notes/>
@@ -83,7 +83,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>5294,5799,6454,6709,6776,6843,10171,9173,8874</PointerOffset>
+      <PointerOffset>5294,5799,6454,6709,6776,6843,8874,9173,10171</PointerOffset>
       <JapaneseText>&lt;Mao&gt;</JapaneseText>
       <EnglishText>&lt;Mao&gt;</EnglishText>
       <Notes/>
@@ -99,7 +99,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7968,9563,9563,9563</PointerOffset>
+      <PointerOffset>7968,9563</PointerOffset>
       <JapaneseText>おばあさん</JapaneseText>
       <EnglishText>Old Woman</EnglishText>
       <Notes/>
@@ -107,7 +107,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>7976,7976,9547,9547,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961,11050,1961</PointerOffset>
+      <PointerOffset>1961,7976,9547,11050</PointerOffset>
       <JapaneseText>女の人</JapaneseText>
       <EnglishText>Woman</EnglishText>
       <Notes/>
@@ -115,7 +115,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>15190,15190,15190</PointerOffset>
+      <PointerOffset>15190</PointerOffset>
       <JapaneseText>馬車屋</JapaneseText>
       <EnglishText>Carriage Coach</EnglishText>
       <Notes/>
@@ -131,7 +131,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>12829,11341,11432,11477,11557</PointerOffset>
+      <PointerOffset>11341,11432,11477,11557,12829</PointerOffset>
       <JapaneseText>&lt;unk19:D0FF1FC822E00C80&gt;
 </JapaneseText>
       <EnglishText>&lt;unk19:D0FF1FC822E00C80&gt;
@@ -1333,6 +1333,14 @@ other towns are faring.</EnglishText>
       <Id>98</Id>
       <Status>Proofreading</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>4769</PointerOffset>
+      <JapaneseText>フランツ</JapaneseText>
+      <EnglishText>Franz</EnglishText>
+      <Notes>&lt;ADDED&gt;</Notes>
+      <Id>99</Id>
+      <Status>Editing</Status>
+    </Entry>
   </Strings>
   <Strings>
     <Section>s0-0</Section>
@@ -1345,7 +1353,7 @@ carriages are not available
 for use at the moment.</EnglishText>
       <Notes/>
       <SpeakerId>13</SpeakerId>
-      <Id>99</Id>
+      <Id>100</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1358,7 +1366,7 @@ The fee for using the carriage
 is &lt;nmb:12C&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>13</SpeakerId>
-      <Id>100</Id>
+      <Id>101</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1370,7 +1378,7 @@ carriage? The fare is a
 flat rate of &lt;nmb:12C&gt; Gald.</EnglishText>
       <Notes/>
       <SpeakerId>13</SpeakerId>
-      <Id>101</Id>
+      <Id>102</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1383,7 +1391,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>102</Id>
+      <Id>103</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1392,7 +1400,7 @@ No</EnglishText>
       <EnglishText/>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>103</Id>
+      <Id>104</Id>
       <Status>Done</Status>
     </Entry>
     <Entry>
@@ -1402,7 +1410,7 @@ No</EnglishText>
       <EnglishText>Sulz</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>104</Id>
+      <Id>105</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1412,7 +1420,7 @@ No</EnglishText>
       <EnglishText>Minal</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>105</Id>
+      <Id>106</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1422,7 +1430,7 @@ No</EnglishText>
       <EnglishText>Petnadjanka</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>106</Id>
+      <Id>107</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1432,7 +1440,7 @@ No</EnglishText>
       <EnglishText>Sunnytown</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>107</Id>
+      <Id>108</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1442,7 +1450,7 @@ No</EnglishText>
       <EnglishText>Anikamal</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>108</Id>
+      <Id>109</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1452,7 +1460,7 @@ No</EnglishText>
       <EnglishText>Babilograd</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>109</Id>
+      <Id>110</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1462,7 +1470,7 @@ No</EnglishText>
       <EnglishText>Cancel</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>110</Id>
+      <Id>111</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1472,7 +1480,7 @@ No</EnglishText>
       <EnglishText>Razilda</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>111</Id>
+      <Id>112</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1482,7 +1490,7 @@ No</EnglishText>
       <EnglishText>Pipista</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>112</Id>
+      <Id>113</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1492,7 +1500,7 @@ No</EnglishText>
       <EnglishText>Kyogen</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>113</Id>
+      <Id>114</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1502,7 +1510,7 @@ No</EnglishText>
       <EnglishText>Nolzen</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>114</Id>
+      <Id>115</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1512,7 +1520,7 @@ No</EnglishText>
       <EnglishText>Mocrado</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>115</Id>
+      <Id>116</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1528,7 +1536,7 @@ No</EnglishText>
 </EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>116</Id>
+      <Id>117</Id>
       <Status>Done</Status>
     </Entry>
     <Entry>
@@ -1545,7 +1553,7 @@ No
 </EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>117</Id>
+      <Id>118</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -1557,7 +1565,7 @@ No
       <EnglishText>Ask someone else!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>118</Id>
+      <Id>119</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1566,7 +1574,7 @@ No
       <EnglishText>Leave!!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>119</Id>
+      <Id>120</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1577,7 +1585,7 @@ No
 sickness in our village...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>120</Id>
+      <Id>121</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1591,7 +1599,7 @@ should change our attitude
 towards strangers...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>121</Id>
+      <Id>122</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1603,7 +1611,7 @@ towards strangers...</EnglishText>
 you look fine... How so?</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>122</Id>
+      <Id>123</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1616,7 +1624,7 @@ looking Huma flying out of
 the village. That was great!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>123</Id>
+      <Id>124</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1628,7 +1636,7 @@ distance unless you want to
 get slugged!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>124</Id>
+      <Id>125</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1640,7 +1648,7 @@ get slugged!</EnglishText>
 with those Huma.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>125</Id>
+      <Id>126</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1652,7 +1660,7 @@ with those Huma.</EnglishText>
 those Huma are gone!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>126</Id>
+      <Id>127</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1664,7 +1672,7 @@ those Huma are gone!</EnglishText>
 much welcome!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>127</Id>
+      <Id>128</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1674,7 +1682,7 @@ much welcome!</EnglishText>
       <EnglishText>If only that Huma wasn't here...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>128</Id>
+      <Id>129</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1684,7 +1692,7 @@ much welcome!</EnglishText>
 up and disappear!</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>129</Id>
+      <Id>130</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1698,7 +1706,7 @@ a lot of problems can accumulate
 over many years...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>130</Id>
+      <Id>131</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1711,7 +1719,7 @@ be easy getting along with
 Huma like before...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>131</Id>
+      <Id>132</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1723,7 +1731,7 @@ Huma like before...</EnglishText>
 tail whenever a rumbling occurs.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>132</Id>
+      <Id>133</Id>
       <Status>Problematic</Status>
     </Entry>
     <Entry>
@@ -1736,7 +1744,7 @@ goblin will come from under
 ones' feet and eat it.</EnglishText>
       <Notes> Yokai Watch?</Notes>
       <SpeakerId>3</SpeakerId>
-      <Id>133</Id>
+      <Id>134</Id>
       <Status>Problematic</Status>
     </Entry>
     <Entry>
@@ -1748,7 +1756,7 @@ ones' feet and eat it.</EnglishText>
 are also fighting in other cities.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>134</Id>
+      <Id>135</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1760,7 +1768,7 @@ are also fighting in other cities.</EnglishText>
 just cooperated with each other.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>135</Id>
+      <Id>136</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1773,7 +1781,7 @@ with me for decades won't
 just disappear overnight, but...</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>136</Id>
+      <Id>137</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1784,7 +1792,7 @@ just disappear overnight, but...</EnglishText>
 along with others.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>137</Id>
+      <Id>138</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -1797,7 +1805,7 @@ along with others.</EnglishText>
       <EnglishText>You're in my way! Move!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>138</Id>
+      <Id>139</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1808,7 +1816,7 @@ along with others.</EnglishText>
 You harbingers of death!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>139</Id>
+      <Id>140</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1821,7 +1829,7 @@ You harbingers of death!</EnglishText>
 horrible things to you...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>140</Id>
+      <Id>141</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1836,7 +1844,7 @@ not have any Huma. I wish
 I was born in the past...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>141</Id>
+      <Id>142</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1849,7 +1857,7 @@ I was born in the past...</EnglishText>
 you don't give off that feeling.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>142</Id>
+      <Id>143</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1864,7 +1872,7 @@ by Gajuma! Don't walk around
 like you own the place!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>143</Id>
+      <Id>144</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1875,7 +1883,7 @@ like you own the place!</EnglishText>
 was saying some strange things.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>144</Id>
+      <Id>145</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1888,7 +1896,7 @@ horns and stuff... As if
 there's a Huma that has...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>145</Id>
+      <Id>146</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1899,7 +1907,7 @@ there's a Huma that has...</EnglishText>
 Did she mean Halfs!?</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
-      <Id>146</Id>
+      <Id>147</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1912,7 +1920,7 @@ Did she mean Halfs!?</EnglishText>
 she saw a Huma with horns!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>147</Id>
+      <Id>148</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1924,7 +1932,7 @@ she saw a Huma with horns!</EnglishText>
 among you, right!?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>148</Id>
+      <Id>149</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1938,7 +1946,7 @@ adding horns to them would
 just make it even weirder!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>149</Id>
+      <Id>150</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1950,7 +1958,7 @@ just make it even weirder!</EnglishText>
 you if you stay with them!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>150</Id>
+      <Id>151</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1964,7 +1972,7 @@ when I thought those
 Huma were already gone...!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>151</Id>
+      <Id>152</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1976,7 +1984,7 @@ Huma were already gone...!</EnglishText>
 in Eastalia exclusively for Gajuma.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>152</Id>
+      <Id>153</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -1988,7 +1996,7 @@ paradise just like that! Just
 like how it used to be!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>153</Id>
+      <Id>154</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2000,7 +2008,7 @@ don't desecrate this Gajuma
 paradise any more!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>154</Id>
+      <Id>155</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2012,7 +2020,7 @@ paradise any more!</EnglishText>
 at the moment... Please leave.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>155</Id>
+      <Id>156</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2026,7 +2034,7 @@ hear it from far away, it's
 making me anxious.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>156</Id>
+      <Id>157</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2040,7 +2048,7 @@ and Huma are both
 different races, right...?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>157</Id>
+      <Id>158</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2053,7 +2061,7 @@ different races, right...?</EnglishText>
 them as the same, isn't it?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>158</Id>
+      <Id>159</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2066,7 +2074,7 @@ look bad, I know that even
 they have their good points.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>159</Id>
+      <Id>160</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2080,7 +2088,7 @@ right? Don't you think it's weird
 to deny that?</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>160</Id>
+      <Id>161</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2092,7 +2100,7 @@ middle of this village. It's an
 important part of our daily lives.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>161</Id>
+      <Id>162</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2105,7 +2113,7 @@ up in the middle of the
 desert? Well, that's...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>162</Id>
+      <Id>163</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2114,7 +2122,7 @@ desert? Well, that's...</EnglishText>
       <EnglishText>I have no idea!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>163</Id>
+      <Id>164</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -2129,7 +2137,7 @@ desert? Well, that's...</EnglishText>
 know where we can find a doctor?</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>164</Id>
+      <Id>165</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2139,7 +2147,7 @@ know where we can find a doctor?</EnglishText>
       <EnglishText>I have no idea.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>165</Id>
+      <Id>166</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2151,7 +2159,7 @@ know where we can find a doctor?</EnglishText>
 But you live here?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>166</Id>
+      <Id>167</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2163,7 +2171,7 @@ But you live here?</EnglishText>
 me, go away.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>167</Id>
+      <Id>168</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2173,7 +2181,7 @@ me, go away.</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>168</Id>
+      <Id>169</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2184,7 +2192,7 @@ me, go away.</EnglishText>
 go somewhere else!?</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>169</Id>
+      <Id>170</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2195,7 +2203,7 @@ go somewhere else!?</EnglishText>
 Go somewhere else!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>170</Id>
+      <Id>171</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2206,7 +2214,7 @@ Go somewhere else!</EnglishText>
 that had happened before...</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>171</Id>
+      <Id>172</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2219,7 +2227,7 @@ Th-there was a Huma with
 horns... At Karez...</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>172</Id>
+      <Id>173</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2232,7 +2240,7 @@ but they don't believe me!!
 I really did saw one!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>173</Id>
+      <Id>174</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2242,7 +2250,7 @@ I really did saw one!</EnglishText>
       <EnglishText>Could they be...a Half?</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
-      <Id>174</Id>
+      <Id>175</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2256,7 +2264,7 @@ but I really did see one of
 you with horns!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>175</Id>
+      <Id>176</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2267,7 +2275,7 @@ you with horns!</EnglishText>
 Where'd they go!?</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
-      <Id>176</Id>
+      <Id>177</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2276,7 +2284,7 @@ Where'd they go!?</EnglishText>
       <EnglishText>Karez! Th-They went to Karez!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>177</Id>
+      <Id>178</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2285,7 +2293,7 @@ Where'd they go!?</EnglishText>
       <EnglishText>Karez...</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
-      <Id>178</Id>
+      <Id>179</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2296,7 +2304,7 @@ Where'd they go!?</EnglishText>
 a Huma with horns there!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>179</Id>
+      <Id>180</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2306,7 +2314,7 @@ a Huma with horns there!</EnglishText>
       <EnglishText>Are they...a Half!? Where...!?</EnglishText>
       <Notes/>
       <SpeakerId>15</SpeakerId>
-      <Id>180</Id>
+      <Id>181</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2319,7 +2327,7 @@ You might not believe me, but
 it's true! Go see for yourself!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>181</Id>
+      <Id>182</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2332,7 +2340,7 @@ before, but now I think I
 hate Huma even more.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>182</Id>
+      <Id>183</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2345,7 +2353,7 @@ me. I'm jealous that you can
 stay with them for so long.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>183</Id>
+      <Id>184</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2358,7 +2366,7 @@ yet, I don't feel irritated
 when near you... I wonder...?</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>184</Id>
+      <Id>185</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2371,7 +2379,7 @@ when near you... I wonder...?</EnglishText>
 don't want to see any Huma!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>185</Id>
+      <Id>186</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2383,7 +2391,7 @@ don't want to see any Huma!</EnglishText>
 around with Huma!?</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>186</Id>
+      <Id>187</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2394,7 +2402,7 @@ around with Huma!?</EnglishText>
       <EnglishText>Why are you here, Huma? Leave!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>187</Id>
+      <Id>188</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2406,7 +2414,7 @@ around with Huma!?</EnglishText>
 place for your kind!</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>188</Id>
+      <Id>189</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2420,7 +2428,7 @@ but...I wonder if...we can
 still get along?</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>189</Id>
+      <Id>190</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2434,7 +2442,7 @@ like I used to not think
 about such things, before.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>190</Id>
+      <Id>191</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2448,7 +2456,7 @@ Huma have changed, but...
 I can't just let this continue.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>191</Id>
+      <Id>192</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2460,7 +2468,7 @@ I can't just let this continue.</EnglishText>
 Is there a sandstorm coming?</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>192</Id>
+      <Id>193</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2474,7 +2482,7 @@ seen the sky like this...
 What on earth is happening?</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>193</Id>
+      <Id>194</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2488,7 +2496,7 @@ Huma have changed, but...
 I can't just let this continue.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>194</Id>
+      <Id>195</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2499,7 +2507,7 @@ I can't just let this continue.</EnglishText>
 in the middle of the desert.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>195</Id>
+      <Id>196</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2513,7 +2521,7 @@ a pool of water to quench
 the traveler's thirst.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>196</Id>
+      <Id>197</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2522,7 +2530,7 @@ the traveler's thirst.</EnglishText>
       <EnglishText>It's goes by many names.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
-      <Id>197</Id>
+      <Id>198</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -2536,7 +2544,7 @@ the traveler's thirst.</EnglishText>
       <EnglishText>Waah!!</EnglishText>
       <Notes/>
       <SpeakerId>16</SpeakerId>
-      <Id>198</Id>
+      <Id>199</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2548,7 +2556,7 @@ the traveler's thirst.</EnglishText>
       <EnglishText>Damnit! There's still more?</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>199</Id>
+      <Id>200</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2559,7 +2567,7 @@ the traveler's thirst.</EnglishText>
       <EnglishText>Over there!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>200</Id>
+      <Id>201</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2570,7 +2578,7 @@ the traveler's thirst.</EnglishText>
       <EnglishText>Was that the last of them?</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>201</Id>
+      <Id>202</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -2581,7 +2589,7 @@ the traveler's thirst.</EnglishText>
       <EnglishText>No, there's more that way!</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
-      <Id>202</Id>
+      <Id>203</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -2597,7 +2605,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>14</SpeakerId>
-      <Id>203</Id>
+      <Id>204</Id>
       <Status>Done</Status>
     </Entry>
   </Strings>
@@ -2621,7 +2629,7 @@ taste like it's 10 years old. Take
 heed that some merchants abuse this.</EnglishText>
       <Notes/>
       <SpeakerId>17</SpeakerId>
-      <Id>204</Id>
+      <Id>205</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
