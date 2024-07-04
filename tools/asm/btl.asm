@@ -46,6 +46,6 @@
 
 ;Walto WORDSWORDSWORDS fix (Credit Julian)
 .org 0x2f2208
-    li         a3, 0x90
+    li         a3, 0xC8
 
 .close
