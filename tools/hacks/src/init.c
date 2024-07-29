@@ -1,0 +1,239 @@
+#include "types.h"
+#include "rebirth.h"
+#include "sceio.h"
+
+#define CUSTOM_FILE_SIZE 0x40
+
+extern void* custom;
+extern void* custom_temp;
+extern void* _gp;
+extern void (*rotate_thread_func)(void*);
+extern int rotate_thread_id;
+extern int rotate_thread_stack[];
+
+void* memset(void*, int, unsigned int);
+int printf(char*, ...);
+
+typedef struct unk_main_struct {
+    u8 pad[1638];
+    u8 unk666;
+    u8 unk667;
+} unk_main_struct;
+
+extern unk_main_struct gMain;
+
+typedef struct ThreadParam {
+    s32     status;
+    void    (*entry)(void *);
+    void    *stack;
+    s32     stackSize;
+    void    *gpReg;
+    s32     initPriority;
+    s32     currentPriority;
+    u32     attr;
+    u32     option;
+    s32     waitType;
+    s32     waitId;
+    s32     wakeupCount;
+} ThreadParam;
+
+typedef struct unk_struct {
+    s32 unk0;
+    s32 unk4;
+    s32 unk8;
+    s32 unkC;
+    s32 unk10;
+    s32 unk14;
+    u16 unk18;
+    u16 unk1A;
+} unk_struct;
+
+void func_00101EA8(void) {
+    int pd0;
+    ThreadParam thread;
+    int i;
+    int pd1;
+    int local_328;
+    u32 cd_mode;
+    int pd2;
+    u8 *local_31c;
+    u8 pad[0x2B0];
+    file_desc file;
+    unk_struct mnuenv_maybe;
+
+    func_001002A8();
+    cd_mode = 2;
+    init_heap();
+    sceSifInitRpc(0);
+    sceCdInit(0);
+    sceCdMode(cd_mode);
+    sceCdInit(5);
+    sceSifExitCmd();
+    while (!sceSifRebootIop("cdrom0:\\IOPRP300.IMG;1"));
+    while (!sceSifSyncIop());
+    sceSifInitRpc(0);
+    sceSifLoadFileReset();
+    sceFsReset();
+    sceCdInit(0);
+    sceCdMode(cd_mode);
+    sceSifInitIopHeap();
+    sceDevVif0Reset();
+    sceDevVu0Reset();
+    sceVpu0Reset();
+    sceDmaReset(1);
+    sceGsResetPath();
+    ChangeThreadPriority(GetThreadId(), 0x60);
+    thread.entry = &rotate_thread_func;
+    thread.stack = &rotate_thread_stack;
+    thread.stackSize = 0x400;
+    thread.gpReg = &_gp;
+    thread.initPriority = 0x7f;
+    rotate_thread_id = CreateThread(&thread);
+    StartThread(rotate_thread_id, 0);
+    func_0010E1E8();
+    func_0010F830();
+    // There's a weird problem when calling init BOOT.IRX
+    asm volatile ("nop":);
+    asm volatile ("nop":);
+    asm volatile ("nop":);
+    asm volatile ("nop":);
+    asm volatile ("nop":);
+    asm volatile ("nop":);
+    asm volatile ("nop":);
+    asm volatile ("nop":);
+    func_00101CA8();
+
+    gMain.unk666 = 1;
+    gMain.unk667 = 1;
+
+
+    // {
+    //     int fd;
+    //     int filesize;
+    //     u8 buf[255];
+
+    //     // open a file to read and check its size
+    //     fd = sceOpen("host0:hello.txt", SCE_RDONLY);
+    //     if (fd < 0) {
+    //         printf("Cannot open %s\n", "host0:hello.txt");
+    //     }
+
+    //     filesize = sceLseek(fd, 0, SCE_SEEK_END);
+    //     sceLseek(fd, 0, SCE_SEEK_SET);
+
+    //     sceRead(fd, &buf, filesize);
+    //     printf("%s\n", &buf);
+    //     sceClose(fd);
+    // }
+
+    func_0010F148();
+    func_0010ED38();
+    // func_0010BD10(); // It's empty
+    sceGsResetGraph(0, 1, 2, 1);
+    func_00102608();
+    sceGsPutDispEnv(&gMain);
+    local_328 = func_0010EEF8();
+    gMain.unk666 ^= 1;
+    func_0010ED38();
+    while (local_328 != func_0010EEF8()) {
+        func_0010ED38();
+    }
+    func_0012B268();
+    func_0012ACA8(1, 0, 0);
+    func_001045F0();
+    func_00108710();
+    // func_0010D408(); // It's empty
+    func_001002E8();
+    custom_memcpy(&custom_temp, &custom, 0x88);
+    func_001407F0(0x800);
+    func_00119010();
+    func_0010D288();
+    func_00117120();
+    func_00118C50();
+    func_0010ED38();
+    func_00104620(); // Load images
+    func_00113BC0();
+    func_00108668();
+
+    // Load custom file test
+    memset(&file, 0, sizeof(file));
+    file.file_id = 10227; // Custom file ID
+    file.file_size = get_file_size(file.file_id, 0);
+    file.addr = alloc_EE(file.file_size, 0, 0);
+    file.flags = IS_COMPRESSED; // Seems to be SYNC flag 
+    file.unk12 = 0;
+    file_pls(&file);
+    
+    printf("###########################\n");
+    printf("%s\n", file.addr);
+    printf("###########################\n");
+
+    // Won't free it :)
+
+    memset(&file, 0, sizeof(file));
+
+    while ((local_31c = sceSifAllocSysMemory(1, 0x1c000, 0)) == 0);
+    file.addr = local_31c;
+    file.start_offset = file.file_size = 0;
+    file.flags = IS_COMPRESSED | FROM_DAT_BIN | IS_IOP_MODULE;
+    file.unk12 = 0;
+    for (i = 0; i < 5; i++) {
+        file.file_id = i + 3;
+        file_pls(&file);
+    }
+    init_controller();
+    init_memorycard();
+    func_0012D940(0);
+    generate_sin();
+    func_0011A2C0();
+    init_party_data(0);
+    func_00171C18();
+    while (!func_001312D8()) {
+        func_0010F3E0();
+    }
+    while (func_00131990() == 1) {
+        func_0010F3E0();
+    }
+    if ((func_00131950() & 8) == 0) {
+        memset(&mnuenv_maybe, 0, sizeof(unk_struct));
+        mnuenv_maybe.unk4 = alloc_EE(0x80000, 0, 0);
+        mnuenv_maybe.unk8 = 0x80000;
+        mnuenv_maybe.unkC = 4;
+        mnuenv_maybe.unk18 = 0x8000;
+        mnuenv_maybe.unk1A = 0x8000;
+        func_00176C80(&mnuenv_maybe);
+        func_00171F18(0xf, 0);
+        free_EE(mnuenv_maybe.unk4);
+    }
+    func_00103100();
+    file.addr = local_31c;
+    file.start_offset = file.file_size = 0;
+    file.flags = IS_COMPRESSED | FROM_DAT_BIN | IS_IOP_MODULE;
+    file.unk12 = 0;
+    for (i = 5; i < 10; i++) {
+        file.file_id = i + 3;
+        file_pls(&file);
+    }
+    sceSifFreeSysMemory(local_31c);
+    func_0017A5A0();
+    func_00101E18();
+    sceMpegInit();
+    func_001492B8();
+    func_00121460();
+    func_0017A660();
+    func_001005A8();
+    // dbg_print("initialize debug window\n");
+    // func_0010D440();
+    // dbg_print("initialize field res data\n");
+    func_001533C0();
+    // dbg_print("initialize actinfo\n");
+    func_0012BF58();
+    // dbg_print("initialize res chr\n");
+    func_00100760();
+    func_0013FFB0();
+    func_00103650();
+    func_0010ED38();
+    func_00102608();
+    func_0012D9D0();
+    func_0010EA78();
+}
