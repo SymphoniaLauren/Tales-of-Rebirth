@@ -1,4 +1,5 @@
 .relativeinclude on
+.include "asm/custom_file.asm"
 .include "asm/slps.asm"
 .include "asm/btl.asm"
 .include "asm/3dfield.asm"

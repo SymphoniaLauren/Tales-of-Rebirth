@@ -11,6 +11,14 @@
 ; .definelabel blk_memcpy, 0x108F20
 ; .definelabel memset, 0x1BFC34
 
+.include "glue.asm"
+
+; Replace init function
+.org 0x00101EA8
+.area 0x001024C8-., 0x00
+.importobj "./build/init.o"
+.endarea
+
 .org 0x122F98
     j extra_syscall
     lhu        v1,0x40(sp)
