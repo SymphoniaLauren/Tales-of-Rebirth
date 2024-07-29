@@ -2,14 +2,14 @@
 .open __SLPS_PATH__, 0x00FF000
 ;credits to Ethanol (he's the man) and SymphoniaLauren
 
-.definelabel gPartyData, 0x232D80
-gPartyData_size equ 0x3A94
-.definelabel gVMData, 0x246000
-gVMData_size equ 0x400
-.definelabel alloc_EE, 0x109500
-.definelabel free_EE, 0x109538
-.definelabel blk_memcpy, 0x108F20
-.definelabel memset, 0x1BFC34
+; .definelabel gPartyData, 0x232D80
+; gPartyData_size equ 0x3A94
+; .definelabel gVMData, 0x246000
+; gVMData_size equ 0x400
+; .definelabel alloc_EE, 0x109500
+; .definelabel free_EE, 0x109538
+; .definelabel blk_memcpy, 0x108F20
+; .definelabel memset, 0x1BFC34
 
 .org 0x122F98
     j extra_syscall
@@ -160,7 +160,7 @@ extra_syscall_ret:
 
 .org 0x1CF680
 ;Shoves font blob into the exe (I'M SORRY KAJI)
-    .incbin "fonttiles.bin"
+    .incbin "../assets/fonttiles.bin"
 
 .org 0x1CA240
 ;ASCII width table

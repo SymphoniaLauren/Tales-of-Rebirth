@@ -1,5 +1,5 @@
 .ps2
-.open "..\..\1_extracted\DAT\OVL\11224.ovl", "..\..\3_patched\patched_temp\DAT\OVL\11224.ovl", 0x02edc00
+.open "..\..\..\1_extracted\DAT\OVL\11224.ovl", "..\..\..\3_patched\patched_temp\DAT\OVL\11224.ovl", 0x02edc00
 
 NUM_COLUMNS equ 0xD
 NUM_ROWS equ 0x5

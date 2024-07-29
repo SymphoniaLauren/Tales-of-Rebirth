@@ -1,5 +1,5 @@
 .ps2
-.open "..\..\1_extracted\DAT\OVL\12406.ovl", "..\..\3_patched\patched_temp\DAT\OVL\12406.ovl", 0x0358d00
+.open "..\..\..\1_extracted\DAT\OVL\12406.ovl", "..\..\..\3_patched\patched_temp\DAT\OVL\12406.ovl", 0x0358d00
 
 ;Fix by SymphoniaLauren
 ;Instruction edited to match new location of voice clips

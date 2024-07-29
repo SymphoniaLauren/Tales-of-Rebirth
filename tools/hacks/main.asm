@@ -1,0 +1,9 @@
+.relativeinclude on
+.include "asm/slps.asm"
+.include "asm/btl.asm"
+.include "asm/3dfield.asm"
+.include "asm/12406.asm"
+.include "asm/00014.asm"
+.include "asm/mnu_name.asm"
+.include "asm/mnu_status.asm"
+.include "asm/mnu_monster.asm"
