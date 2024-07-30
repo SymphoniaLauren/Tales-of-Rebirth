@@ -19,6 +19,13 @@
 .importobj "./build/init.o"
 .endarea
 
+
+; Enable dummied out debug print call
+.org 0x0010d380
+    j        printf
+    nop
+
+
 .org 0x122F98
     j extra_syscall
     lhu        v1,0x40(sp)
