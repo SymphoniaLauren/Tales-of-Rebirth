@@ -19,7 +19,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2928,2928,2928,2928,2928</PointerOffset>
+      <PointerOffset>2928</PointerOffset>
       <JapaneseText>サレ</JapaneseText>
       <EnglishText>Saleh</EnglishText>
       <Notes/>
@@ -27,7 +27,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>2835,2801,2767</PointerOffset>
+      <PointerOffset>2767,2801,2835</PointerOffset>
       <JapaneseText>カレギア兵</JapaneseText>
       <EnglishText>Callegean Soldier</EnglishText>
       <Notes/>
@@ -61,6 +61,14 @@
       <Id>2</Id>
       <Status>Done</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>662</PointerOffset>
+      <JapaneseText>町の人たちが祈りを捧げている。</JapaneseText>
+      <EnglishText>The townsfolk are all praying.</EnglishText>
+      <Notes>Floating text</Notes>
+      <Id>3</Id>
+      <Status>Done</Status>
+    </Entry>
   </Strings>
   <Strings>
     <Section>entry</Section>
@@ -74,7 +82,7 @@ have been granted entry
 without your help.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>3</Id>
+      <Id>4</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -90,7 +98,7 @@ to protect the Queen. Isn't
 that right, Queen Agarte?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>4</Id>
+      <Id>5</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -100,7 +108,7 @@ that right, Queen Agarte?</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
+      <Id>6</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -112,7 +120,7 @@ that right, Queen Agarte?</EnglishText>
 Zilva, she is at the ritual dais.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>6</Id>
+      <Id>7</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -122,7 +130,7 @@ Zilva, she is at the ritual dais.</EnglishText>
       <EnglishText>The ritual dais?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
+      <Id>8</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -133,7 +141,7 @@ Zilva, she is at the ritual dais.</EnglishText>
 to begin, you see.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>8</Id>
+      <Id>9</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -143,7 +151,7 @@ to begin, you see.</EnglishText>
       <EnglishText>What are you talking about?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
+      <Id>10</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -151,10 +159,11 @@ to begin, you see.</EnglishText>
       <VoiceId>340000c2</VoiceId>
       <JapaneseText>自分の目でお確かめになっては
 いかがです？</JapaneseText>
-      <EnglishText>Why don't you go see for yourself?</EnglishText>
+      <EnglishText>Why don't you go
+see for yourself?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>10</Id>
+      <Id>11</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -165,7 +174,7 @@ to begin, you see.</EnglishText>
       <EnglishText>Just what do you have planned?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>11</Id>
+      <Id>12</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -179,7 +188,7 @@ of people who are earnest in
 their endeavors. Hehehe...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>12</Id>
+      <Id>13</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -189,7 +198,7 @@ their endeavors. Hehehe...</EnglishText>
       <EnglishText>...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>13</Id>
+      <Id>14</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -207,7 +216,7 @@ differences. We need to
 face this crisis together!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>14</Id>
+      <Id>15</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -222,7 +231,7 @@ face this crisis together!</EnglishText>
 tell them to come here.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>15</Id>
+      <Id>16</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -235,7 +244,7 @@ tell them to come here.</EnglishText>
       <EnglishText>You will be safe in this hall.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>16</Id>
+      <Id>17</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -251,7 +260,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>17</Id>
+      <Id>18</Id>
       <Status>Done</Status>
     </Entry>
   </Strings>

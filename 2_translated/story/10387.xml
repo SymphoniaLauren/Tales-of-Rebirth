@@ -11,7 +11,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909,1909</PointerOffset>
+      <PointerOffset>1909</PointerOffset>
       <JapaneseText>おばあさん</JapaneseText>
       <EnglishText>Old Woman</EnglishText>
       <Notes/>
@@ -19,7 +19,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958,958</PointerOffset>
+      <PointerOffset>958</PointerOffset>
       <JapaneseText>おじいさん</JapaneseText>
       <EnglishText>Old Man</EnglishText>
       <Notes/>
@@ -35,7 +35,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>933,897,861</PointerOffset>
+      <PointerOffset>861,897,933</PointerOffset>
       <JapaneseText/>
       <EnglishText/>
       <Notes/>
@@ -51,7 +51,7 @@
       <Status>Done</Status>
     </Entry>
     <Entry>
-      <PointerOffset>683,732,183,806,830</PointerOffset>
+      <PointerOffset>183,683,732,806,830</PointerOffset>
       <JapaneseText>notice</JapaneseText>
       <EnglishText>Notice</EnglishText>
       <Notes/>
@@ -85,6 +85,14 @@
       <Id>3</Id>
       <Status>Done</Status>
     </Entry>
+    <Entry>
+      <PointerOffset>235</PointerOffset>
+      <JapaneseText>&lt;icon:20&gt; つまみ食い</JapaneseText>
+      <EnglishText>&lt;icon:20&gt;Sneak a Bite</EnglishText>
+      <Notes>Action button text</Notes>
+      <Id>4</Id>
+      <Status>Done</Status>
+    </Entry>
   </Strings>
   <Strings>
     <Section>s0-0</Section>
@@ -95,7 +103,7 @@
       <EnglishText>I'm sorry, but I'm currently busy...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>4</Id>
+      <Id>5</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -104,11 +112,10 @@
 病気をうつしたら、
 承知しませんからね!?</JapaneseText>
       <EnglishText>I'll never forgive you if
-my husband catches your
-illness, got that!?</EnglishText>
+my husband gets sick!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>5</Id>
+      <Id>6</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -116,12 +123,12 @@ illness, got that!?</EnglishText>
       <JapaneseText>本当に申し訳ありませんでした。
 何もありませんが、
 ゆっくりしていってください。</JapaneseText>
-      <EnglishText>I deeply apologize for what I
-said before. Please, take your
-time and relax here.</EnglishText>
+      <EnglishText>I deeply apologize for what
+I said before. Please, make
+yourselves at home.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>6</Id>
+      <Id>7</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -135,7 +142,7 @@ strange ever since the
 &lt;Blue&gt;Day of Goldba&lt;White&gt;.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>7</Id>
+      <Id>8</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -144,11 +151,11 @@ strange ever since the
 でも、それがイヤだからって
 部屋にこもってるんです。</JapaneseText>
       <EnglishText>He started picking fights with Huma.
-But he hated that, so he started
-shutting himself indoors.</EnglishText>
+But he hated that, so he's confined
+himself indoors.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>8</Id>
+      <Id>9</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -158,7 +165,7 @@ shutting himself indoors.</EnglishText>
       <EnglishText>I wonder what's gotten into him?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>9</Id>
+      <Id>10</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -172,7 +179,7 @@ into my husband, as well
 as the rest of the village?</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>10</Id>
+      <Id>11</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -180,11 +187,12 @@ as the rest of the village?</EnglishText>
       <JapaneseText>同じ村の仲間だった
 人たちを追い出すなんて……
 </JapaneseText>
-      <EnglishText>Of all things, I can't believe we had
-to chase away our fellow neighbors...</EnglishText>
+      <EnglishText>I can't believe we've kicked
+those who used to be our
+neighbors out of the village...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>11</Id>
+      <Id>12</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -193,22 +201,22 @@ to chase away our fellow neighbors...</EnglishText>
 この状態を治めるのも
 ままなりません。
 </JapaneseText>
-      <EnglishText>I'm too old to do
-anything about this.</EnglishText>
+      <EnglishText>But, I'm too old to
+do anything about it.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>12</Id>
+      <Id>13</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2288</PointerOffset>
       <JapaneseText>皆さんの力でなんとか……！
 </JapaneseText>
-      <EnglishText>Please, with everyone's
-cooperations we can--!</EnglishText>
+      <EnglishText>If we all work together,
+we can fix things—!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>13</Id>
+      <Id>14</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -216,12 +224,12 @@ cooperations we can--!</EnglishText>
       <JapaneseText>バチが……
 バチが当たったんです……
 村の中にバイラスなんて……</JapaneseText>
-      <EnglishText>We're being punished...
-Because of what we've done,
-the Biruses have...!</EnglishText>
+      <EnglishText>These Biruses in the village
+must be divine punishment
+for what we've done...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>14</Id>
+      <Id>15</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -235,7 +243,7 @@ however, I don't think everything
 will go back to normal immediately...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>15</Id>
+      <Id>16</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -249,7 +257,7 @@ a day when we'll all smile
 just like we used to.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>16</Id>
+      <Id>17</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -263,7 +271,7 @@ a day when we'll all smile
 just like we used to.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>17</Id>
+      <Id>18</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -273,11 +281,11 @@ just like we used to.</EnglishText>
 不安で不安で眠れません……
 </JapaneseText>
       <EnglishText>I-I wonder... If something
-happened...? I-I can't help
-but worry...</EnglishText>
+happened...? I'm too worried
+to get any sleep...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>18</Id>
+      <Id>19</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -287,10 +295,11 @@ but worry...</EnglishText>
 元気になって……
 </JapaneseText>
       <EnglishText>Everyone here has started to change,
-my husband is lively like before.</EnglishText>
+and my husband is starting to act
+cheery like he used to be...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>19</Id>
+      <Id>20</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -298,12 +307,12 @@ my husband is lively like before.</EnglishText>
       <JapaneseText>こんな状況ですけど、この村はきっと、
 以前のようになります……
 </JapaneseText>
-      <EnglishText>In spite of this situation,
-I'm sure everything will
-go back to normal.</EnglishText>
+      <EnglishText>In spite of what happened, I'm
+sure the village will return to
+how it used to be...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>20</Id>
+      <Id>21</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -313,19 +322,19 @@ go back to normal.</EnglishText>
 いきませんよ。
 </JapaneseText>
       <EnglishText>I can't just rest here while my
-husband's working hard for me.</EnglishText>
+husband is doing all the work.</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>21</Id>
+      <Id>22</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>2576</PointerOffset>
       <JapaneseText>ええと……何かする事は……</JapaneseText>
-      <EnglishText>Now, how should I help...?</EnglishText>
+      <EnglishText>Now, what should I do...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
-      <Id>22</Id>
+      <Id>23</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -335,10 +344,11 @@ husband's working hard for me.</EnglishText>
       <PointerOffset>1007</PointerOffset>
       <JapaneseText>なんだ！
 勝手に入って来て!?</JapaneseText>
-      <EnglishText>What do you think you're doing!?</EnglishText>
+      <EnglishText>You can't just barge
+into someone's house!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>23</Id>
+      <Id>24</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -347,29 +357,29 @@ husband's working hard for me.</EnglishText>
       <EnglishText>Get out!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>24</Id>
+      <Id>25</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1079</PointerOffset>
       <JapaneseText>ばあさんに病気を
 うつしたら、許さんぞ！</JapaneseText>
-      <EnglishText>I'll never forgive you if my
-wife catches your sickness!</EnglishText>
+      <EnglishText>I'll never forgive you if
+you get my wife sick!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>25</Id>
+      <Id>26</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1129</PointerOffset>
       <JapaneseText>すっかり忘れておったよ、
 昔の事など……</JapaneseText>
-      <EnglishText>I've completely forgotten
-what happened back then...</EnglishText>
+      <EnglishText>I had completely forgotten
+about those events...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>26</Id>
+      <Id>27</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -377,11 +387,12 @@ what happened back then...</EnglishText>
       <JapaneseText>まさかあの薬が……
 なんて恥ずかしい事を
 したんだ……</JapaneseText>
-      <EnglishText>I'm ashamed of myself. To
-think such a medicine exists...</EnglishText>
+      <EnglishText>I am ashamed of myself,
+knowing that such a
+medicine exists...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>27</Id>
+      <Id>28</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -395,7 +406,7 @@ me? Just talking to Huma
 gets me riled up...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>28</Id>
+      <Id>29</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -409,7 +420,7 @@ and burn this soothing Belde
 grass incense.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>29</Id>
+      <Id>30</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -419,11 +430,11 @@ grass incense.</EnglishText>
 よくないんだ……
 </JapaneseText>
       <EnglishText>I'm sorry, but my blood pressure
-rises when I talk to Huma. It's
-not really good for me.</EnglishText>
+rises when I talk to Huma. It's as
+bad for my body as it is for my soul.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>30</Id>
+      <Id>31</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -435,7 +446,7 @@ not really good for me.</EnglishText>
 stay away from me?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>31</Id>
+      <Id>32</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -445,13 +456,13 @@ stay away from me?</EnglishText>
 だが、ヤツらが陰でガジュマを
 バカにしているのを聞いてしまった。
 </JapaneseText>
-      <EnglishText>Until now, I never realized why
+      <EnglishText>I used to not understand why
 Huma made me so angry, but
-earlier I heard some of them
-making fun of Gajuma in secret.</EnglishText>
+I just heard some Huma making
+fun of Gajuma behind our backs.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>32</Id>
+      <Id>33</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -459,23 +470,25 @@ making fun of Gajuma in secret.</EnglishText>
       <JapaneseText>あいつらはヒューマは美しい、
 ガジュマは醜いと、差別する
 心を持っていたんだ！</JapaneseText>
-      <EnglishText>How dare they! Saying that us
-Gajuma are unsightly and Huma not!</EnglishText>
+      <EnglishText>They were saying that Gajuma
+are unsightly and Huma are
+beautiful! How can they be
+so discriminatory!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>33</Id>
+      <Id>34</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1398</PointerOffset>
       <JapaneseText>そんなヤツらと一緒には暮らせん！
 追い出されて当然だ！</JapaneseText>
-      <EnglishText>I don't want to live with those
-kinds of people! They have to
-leave this village!</EnglishText>
+      <EnglishText>I can't live with people like
+that! Of course we kicked
+them out of the village!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>34</Id>
+      <Id>35</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -483,11 +496,11 @@ leave this village!</EnglishText>
       <JapaneseText>ヒューマが何の断りもなく
 入ってきて……出てけ！
 </JapaneseText>
-      <EnglishText>How dare you barge in
-without notice, Huma! Leave!</EnglishText>
+      <EnglishText>How dare you barge into
+my house, Huma... Get out!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>35</Id>
+      <Id>36</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -497,7 +510,7 @@ without notice, Huma! Leave!</EnglishText>
       <EnglishText>You're going to the oasis?</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>36</Id>
+      <Id>37</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -505,12 +518,12 @@ without notice, Huma! Leave!</EnglishText>
       <JapaneseText>優しいのもよいが、
 ヒューマになんぞ、
 情けをかけずともよいものを……</JapaneseText>
-      <EnglishText>While being kind is indeed a virtue,
-there's no need for you to spare
-any mercy for those...Huma.</EnglishText>
+      <EnglishText>While kindness is indeed a
+virtue, showing no mercy
+to Huma is also virtuous...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>37</Id>
+      <Id>38</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -518,11 +531,11 @@ any mercy for those...Huma.</EnglishText>
       <JapaneseText>ああ……オアシスでも
 どこへでも行くがよい。
 </JapaneseText>
-      <EnglishText>Go to the oasis, or
-wherever you want.</EnglishText>
+      <EnglishText>You can go to the oasis. Heck, 
+you can go anywhere you like.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>38</Id>
+      <Id>39</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -533,7 +546,7 @@ wherever you want.</EnglishText>
       <EnglishText>Just don't come back here again.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>39</Id>
+      <Id>40</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -541,11 +554,12 @@ wherever you want.</EnglishText>
       <JapaneseText>バイラスが外で……
 いつ……いつ中へ……
 </JapaneseText>
-      <EnglishText>Th-The Birus...!
-H-How did they get--!?</EnglishText>
+      <EnglishText>There are Biruses outside...
+When did they get in the
+village...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>40</Id>
+      <Id>41</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -554,11 +568,12 @@ H-How did they get--!?</EnglishText>
 だが……ヒューマはワシらを
 醜いと思っているんだ……
 </JapaneseText>
-      <EnglishText>We were supposed to be &lt;Yellow&gt;neighbors&lt;White&gt;,
-yet I thought Huma were unsightly...</EnglishText>
+      <EnglishText>We used to be &lt;Yellow&gt;neighbors&lt;White&gt;, and
+yet those Huma thought we
+were all unsightly...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>41</Id>
+      <Id>42</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -566,12 +581,12 @@ yet I thought Huma were unsightly...</EnglishText>
       <JapaneseText>そんな風に思われているのに
 笑顔であいさつなど……
 </JapaneseText>
-      <EnglishText>Thinking about that, how could
-I face and greet them with a
-smile on my face...?</EnglishText>
+      <EnglishText>I find it hard to greet them
+with a smile on my face when
+I think back to that...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>42</Id>
+      <Id>43</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -580,11 +595,12 @@ smile on my face...?</EnglishText>
 だが……ヒューマはワシらを
 醜いと思っているんだ……
 </JapaneseText>
-      <EnglishText>We were supposed to be &lt;Yellow&gt;neighbors&lt;White&gt;,
-yet I thought Huma were unsightly...</EnglishText>
+      <EnglishText>We used to be &lt;Yellow&gt;neighbors&lt;White&gt;, and
+yet those Huma thought we
+were all unsightly...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>43</Id>
+      <Id>44</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -592,12 +608,12 @@ yet I thought Huma were unsightly...</EnglishText>
       <JapaneseText>そんな風に思われているのに
 笑顔であいさつなど……
 </JapaneseText>
-      <EnglishText>Thinking about that, how could
-I face and greet them with a
-smile on my face...?</EnglishText>
+      <EnglishText>I find it hard to greet them
+with a smile on my face when
+I think back to that...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>44</Id>
+      <Id>45</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -606,12 +622,12 @@ smile on my face...?</EnglishText>
 せっかくのお香でも、
 落ち着けんよ……
 </JapaneseText>
-      <EnglishText>The ground's rumbling... I don't
+      <EnglishText>The ground's shaking... I don't
 think this incense will be enough
 to calm me down.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>45</Id>
+      <Id>46</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -619,11 +635,11 @@ to calm me down.</EnglishText>
       <JapaneseText>天変地異が起こっているそうだが、
 この村は大丈夫だ……
 </JapaneseText>
-      <EnglishText>Some natural disaster might happen,
-but this village is going to be fine.</EnglishText>
+      <EnglishText>Even if a natural disaster occurs,
+this village will get through it...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>46</Id>
+      <Id>47</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -631,11 +647,12 @@ but this village is going to be fine.</EnglishText>
       <JapaneseText>種族を越えて、再び
 まとまり始めておる……
 </JapaneseText>
-      <EnglishText>We've already gotten past our racial 
-differences. Now, we stand as one.</EnglishText>
+      <EnglishText>We've overcome our racial
+differences and are working
+together as one again.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>47</Id>
+      <Id>48</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -646,18 +663,18 @@ differences. Now, we stand as one.</EnglishText>
       <EnglishText>I'm busy making curry.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>48</Id>
+      <Id>49</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1860</PointerOffset>
       <JapaneseText>今日はワシが食事当番じゃ。
 </JapaneseText>
-      <EnglishText>Since I'm currently the one
-in charge of cooking today.</EnglishText>
+      <EnglishText>I'm in charge of the
+cooking today.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>49</Id>
+      <Id>50</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -665,11 +682,11 @@ in charge of cooking today.</EnglishText>
       <JapaneseText>ばあさんには
 ゆっくり休んでおいて
 もらわんとな。</JapaneseText>
-      <EnglishText>I want grandma to take
-it easy and rest.</EnglishText>
+      <EnglishText>I want my wife to take
+things easy and rest.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
-      <Id>50</Id>
+      <Id>51</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -685,7 +702,7 @@ Yes
 No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
-      <Id>51</Id>
+      <Id>52</Id>
       <Status>Done</Status>
     </Entry>
   </Strings>
@@ -707,7 +724,7 @@ burned within it. You give a
 sigh of relief.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>52</Id>
+      <Id>53</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -721,13 +738,13 @@ sigh of relief.</EnglishText>
 置いてあるアクセサリーは
 それほど良いものでもない。</JapaneseText>
       <EnglishText>&lt;speed:0&gt;- Concave Shelf -
-A high-class shelf crafted from the
-wood of a tree found in Anikamal.
+A high-quality shelf crafted of
+wood from an Anikamal tree.
 There are accessories on it,
 but they're of low quality.</EnglishText>
       <Notes/>
       <SpeakerId>3</SpeakerId>
-      <Id>53</Id>
+      <Id>54</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
@@ -743,7 +760,7 @@ tasty over there! Lemme take a
 teeny tiny bite...</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
-      <Id>54</Id>
+      <Id>55</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -752,7 +769,7 @@ teeny tiny bite...</EnglishText>
       <EnglishText>&lt;Green&gt;Ate "&lt;item:20000006&gt;."</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>55</Id>
+      <Id>56</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -761,7 +778,7 @@ teeny tiny bite...</EnglishText>
       <EnglishText>&lt;Green&gt;Obtained recipe for "&lt;item:20000006&gt;"!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>56</Id>
+      <Id>57</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -770,7 +787,7 @@ teeny tiny bite...</EnglishText>
       <EnglishText>[VARIABLE]</EnglishText>
       <Notes>DON'T EDIT THIS, IT'S A DUMMY ENTRY</Notes>
       <SpeakerId>5</SpeakerId>
-      <Id>57</Id>
+      <Id>58</Id>
       <Status>Done</Status>
     </Entry>
     <Entry>
@@ -779,7 +796,7 @@ teeny tiny bite...</EnglishText>
       <EnglishText>&lt;Green&gt;There's some "&lt;item:20000006&gt;" here.</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
-      <Id>58</Id>
+      <Id>59</Id>
       <Status>Proofreading</Status>
     </Entry>
     <Entry>
@@ -790,7 +807,7 @@ teeny tiny bite...</EnglishText>
 refrained from doing so.</EnglishText>
       <Notes>dupes</Notes>
       <SpeakerId>5</SpeakerId>
-      <Id>59</Id>
+      <Id>60</Id>
       <Status>Problematic</Status>
     </Entry>
     <Entry>
@@ -801,7 +818,7 @@ refrained from doing so.</EnglishText>
 &lt;Mao&gt; already snuck a bite of this.</EnglishText>
       <Notes>Double check/context</Notes>
       <SpeakerId>3</SpeakerId>
-      <Id>60</Id>
+      <Id>61</Id>
       <Status>Proofreading</Status>
     </Entry>
   </Strings>
