@@ -501,10 +501,10 @@ or prevent negative status effects.</EnglishText>
     <Entry>
       <PointerOffset>21012</PointerOffset>
       <JapaneseText>発動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Fusionic Force Arte</EnglishText>
       <Notes/>
       <Id>249</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21016</PointerOffset>
@@ -568,10 +568,10 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
     <Entry>
       <PointerOffset>21104</PointerOffset>
       <JapaneseText>操作一覧</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Controls</EnglishText>
       <Notes/>
       <Id>256</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21116</PointerOffset>
@@ -584,18 +584,25 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 &lt;icon:3D&gt;：ターゲット変更
 &lt;icon:3C&gt;：作戦変更
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:40&gt;: Normal Attack
+&lt;icon:41&gt;: Arte
+&lt;icon:3A&gt;: Guard
+&lt;icon:43&gt;: Battle Menu
+&lt;icon:11&gt;&lt;icon:11&gt;: Lane Switch Upwards
+&lt;icon:12&gt;&lt;icon:12&gt;: Lane Switch Downwards
+&lt;icon:3D&gt;: Target
+&lt;icon:3C&gt;: Strategy</EnglishText>
       <Notes/>
       <Id>257</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21124</PointerOffset>
       <JapaneseText>通常攻撃</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Normal Attack</EnglishText>
       <Notes/>
       <Id>258</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21136</PointerOffset>
@@ -607,26 +614,34 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 &lt;icon:12&gt;＋&lt;icon:40&gt;：低い敵に対応できる。
 攻撃は何度か連続して出す事が
 できます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Basic strikes using your equipped weapon.
+You can use this attack regardless of the
+status of your Force gauge.
+(Controls assume you're facing right)
+&lt;icon:11&gt;＋&lt;icon:40&gt;: Anti-air attack for flying enemies.
+&lt;icon:D&gt;＋&lt;icon:40&gt;: Attack with longer reach.
+&lt;icon:12&gt;＋&lt;icon:40&gt;: Attack low to the ground.
+Press the attack button repeatedly for a basic
+combo.</EnglishText>
       <Notes/>
       <Id>259</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21144</PointerOffset>
       <JapaneseText>防御</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Guard</EnglishText>
       <Notes/>
       <Id>260</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21152</PointerOffset>
       <JapaneseText>力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Power</EnglishText>
       <Notes/>
       <Id>261</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21156</PointerOffset>
@@ -637,18 +652,22 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 勝利への近道です。
 操作：&lt;icon:3A&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Guarding reduces the damage and distance a
+character gets pushed back from attacks.
+Knowing when to guard and when to strike
+is the key to victory!
+Controls:&lt;icon:3A&gt;</EnglishText>
       <Notes/>
       <Id>262</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21164</PointerOffset>
       <JapaneseText>前進防御</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Advancing Guard</EnglishText>
       <Notes/>
       <Id>263</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21176</PointerOffset>
@@ -657,18 +676,23 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 ＦＧも同時に回復します。
 操作：&lt;icon:3A&gt;＋&lt;icon:18&gt;（右向き時）
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Step forward while defending to minimize
+damage. A successful Advancing Guard also
+restores FG. Contact with a guarding enemy
+during Advancing Guard can break the enemy's
+guard.
+Controls:&lt;icon:3A&gt;＋&lt;icon:18&gt;(When facing right)</EnglishText>
       <Notes/>
       <Id>264</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21184</PointerOffset>
       <JapaneseText>バックステップ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Backstep</EnglishText>
       <Notes/>
       <Id>265</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21196</PointerOffset>
@@ -677,18 +701,20 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 ＲＧも減ります。
 操作：&lt;icon:3A&gt;＋&lt;icon:14&gt;（右向き時）
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Step backwards quickly to dodge attacks.
+RG is reduced when backstepping.
+Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
       <Notes/>
       <Id>266</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21204</PointerOffset>
       <JapaneseText>奥ライン移動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Lane Switch Upwards</EnglishText>
       <Notes/>
       <Id>267</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21216</PointerOffset>
@@ -697,18 +723,21 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 誘い込む移動方法。
 操作：&lt;icon:11&gt;&lt;icon:11&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to move your controlled character one
+lane upwards. You can dodge attacks or lure
+enemies to another lane this way.
+Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
       <Notes/>
       <Id>268</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21224</PointerOffset>
       <JapaneseText>手前ライン移動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Lane Switch Downwards</EnglishText>
       <Notes/>
       <Id>269</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21236</PointerOffset>
@@ -717,18 +746,21 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 誘い込む移動方法。
 操作：&lt;icon:12&gt;&lt;icon:12&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to move your controlled character one
+lane downwards. You can dodge attacks or lure
+enemies to another lane this way.
+Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
       <Notes/>
       <Id>270</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21244</PointerOffset>
       <JapaneseText>戦闘メニュー</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Battle Menu</EnglishText>
       <Notes/>
       <Id>271</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21256</PointerOffset>
@@ -737,18 +769,20 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 専用メニュー。
 操作：&lt;icon:43&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Open a special menu during battle to change
+Equipment, use Items or more.
+Controls:&lt;icon:43&gt;</EnglishText>
       <Notes/>
       <Id>272</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21264</PointerOffset>
       <JapaneseText>ターゲット変更</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Targeting</EnglishText>
       <Notes/>
       <Id>273</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21276</PointerOffset>
@@ -760,18 +794,23 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 　&lt;icon:45&gt;をクリックすると、
 　近い敵に自動変更されます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to switch which enemy you are
+targeting mid-battle.
+Controls:&lt;icon:3D&gt;+&lt;icon:1F&gt;.
+Hold &lt;icon:3D&gt; down to pause and change targets.
+Tap &lt;icon:45&gt; to instantly target the enemy
+nearest to your controlled character.</EnglishText>
       <Notes/>
       <Id>274</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21284</PointerOffset>
       <JapaneseText>作戦変更</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Strategy</EnglishText>
       <Notes/>
       <Id>275</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21296</PointerOffset>
@@ -781,10 +820,14 @@ Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 　押している間はオートキャラが
 　隊列位置へ移動します。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Changes the strategy you set for the party.
+Controls: &lt;icon:3C&gt;+&lt;icon:D&gt;(Takes effect when the
+buttons are released)
+hold the buttons down to move CPU controlled
+party members to the set positions.</EnglishText>
       <Notes/>
       <Id>276</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21304</PointerOffset>
