@@ -24,12 +24,10 @@
 敵に勝利する事で
 経験値を得る事ができます。
 </JapaneseText>
-      <EnglishText>Level represents a character's
-overall strength.
-When the amount of Experience
-a character accumulates reaches
-a specific threshold, LV inceases.
-You gain Experience by defeating
+      <EnglishText>Level represents a character's overall strength.
+When the amount of Experience a character
+accumulates reaches a specific threshold,
+LV inceases. You gain Experience by defeating
 enemies in battle.</EnglishText>
       <Notes/>
       <Id>207</Id>
@@ -68,14 +66,12 @@ enemies in battle.</EnglishText>
 戦闘不能状態を回復するには
 ライフボトルや料理が必要です。
 </JapaneseText>
-      <EnglishText>Hit Points represent a character's
-vitality. As a character gets hit by
-enemy attacks their HP decreases,
-and increases when restored by
-Artes or items. When a character's
-HP reaches 0 they are Knocked
-Out and unable to fight. Life
-Bottles and cooking can be used
+      <EnglishText>Hit Points represent a character's vitality.
+HP Decreases as a character gets hit by
+enemy attacks, and increases when restored
+by Artes or items. When a character's HP
+reaches 0 they are Knocked Out and unable
+to fight. Life Bottles and cooking can be used
 to recover from KO.</EnglishText>
       <Notes/>
       <Id>211</Id>
@@ -107,14 +103,12 @@ to recover from KO.</EnglishText>
 自らの攻撃力が上がります。
 </JapaneseText>
       <EnglishText>The Rush Gauge ranges from 0-100.
-Damage that is taken or given is 
-decreased at lower values, while
-HP recovery and spell speed is
-increased. The amount of damage
-given or taken increases, as does
-the amount you can affect enemy
-RG, but spells take longer to cast
-at higher values.</EnglishText>
+At lower values, the amount of damage given
+or taken is decreased, while HP recovery and
+spell speed is increased. At higher values, the
+amount of damage given or taken is increased,
+as well as the amount you can affect enemy
+RG, but spells take longer to cast.</EnglishText>
       <Notes/>
       <Id>214</Id>
       <Status>Editing</Status>
@@ -144,14 +138,13 @@ at higher values.</EnglishText>
 最大限の能力を発揮します。
 操作：&lt;icon:10&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText>The Force Gauge is used for Artes
-a character has equipped. The four
-segments correspond to each
-direction: Top, Bottom, Forward
-and Back. The Artes you equip to
-each direction can be used at will,
-but their full potential is unleashed
-when FG is filled. Input: &lt;icon:10&gt;＋&lt;icon:41&gt;</EnglishText>
+      <EnglishText>The Force Gauge is used for Artes a character
+has equipped. The four segments correspond to
+each direction: Top, Bottom, Forward and Back.
+The Artes you equip to each direction can be
+used at will, but their full potential is
+unleashed when FG is filled.
+Input: &lt;icon:10&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>217</Id>
       <Status>Editing</Status>
@@ -168,8 +161,7 @@ when FG is filled. Input: &lt;icon:10&gt;＋&lt;icon:41&gt;</EnglishText>
       <PointerOffset>20716</PointerOffset>
       <JapaneseText>武器攻撃での斬撃による攻撃力。
 </JapaneseText>
-      <EnglishText>This governs the power
-of slashing attacks.</EnglishText>
+      <EnglishText>This governs the power of slashing attacks.</EnglishText>
       <Notes/>
       <Id>219</Id>
       <Status>Editing</Status>
@@ -186,8 +178,8 @@ of slashing attacks.</EnglishText>
       <PointerOffset>20736</PointerOffset>
       <JapaneseText>武器攻撃での打撃による攻撃力。
 </JapaneseText>
-      <EnglishText>This governs the power of
-blunt strikes or impacts.</EnglishText>
+      <EnglishText>This governs the power of blunt strikes or
+impacts.</EnglishText>
       <Notes/>
       <Id>221</Id>
       <Status>Editing</Status>
@@ -205,9 +197,8 @@ blunt strikes or impacts.</EnglishText>
       <JapaneseText>導術攻撃、または術力のこもった
 武器の攻撃力。
 </JapaneseText>
-      <EnglishText>This governs the damage inflicted
-by a Force attack or a Force
-enhanced weapon.</EnglishText>
+      <EnglishText>This governs the damage inflicted by a Force
+attack or a Force enhanced weapon.</EnglishText>
       <Notes/>
       <Id>223</Id>
       <Status>Editing</Status>
@@ -226,9 +217,8 @@ enhanced weapon.</EnglishText>
 武器による斬撃を受けた時の
 ダメージ軽減力。
 </JapaneseText>
-      <EnglishText>This reduces damage from slashing
-attacks such as those from blades
-or claws.</EnglishText>
+      <EnglishText>This reduces damage from slashing attacks
+such as those from blades or claws.</EnglishText>
       <Notes/>
       <Id>225</Id>
       <Status>Editing</Status>
@@ -246,8 +236,8 @@ or claws.</EnglishText>
       <JapaneseText>殴打・衝撃などの打撃を
 受けた時のダメージ軽減力。
 </JapaneseText>
-      <EnglishText>This reduces damage from blunt
-strikes or impacts.</EnglishText>
+      <EnglishText>This reduces damage from blunt strikes or
+impacts.</EnglishText>
       <Notes/>
       <Id>227</Id>
       <Status>Editing</Status>
@@ -265,8 +255,7 @@ strikes or impacts.</EnglishText>
       <JapaneseText>導術攻撃、術力のこもった攻撃を
 受けた時のダメージ軽減力。
 </JapaneseText>
-      <EnglishText>This reduces damage from
-Force attacks.</EnglishText>
+      <EnglishText>This reduces damage from Force attacks.</EnglishText>
       <Notes/>
       <Id>229</Id>
       <Status>Editing</Status>
@@ -286,11 +275,10 @@ Force attacks.</EnglishText>
 この値が高いほど、ＨＰ回復の
 度合いが大きくなります。
 </JapaneseText>
-      <EnglishText>HP Regen governs the amount of
-Hit Points a character will recover
-during battle. The higher this
-value, the more HP is recovered
-through Artes.</EnglishText>
+      <EnglishText>HP Regen governs the amount of Hit Points
+a character will recover during battle. The 
+higher this value is, the more HP
+is recovered through Artes.</EnglishText>
       <Notes/>
       <Id>231</Id>
       <Status>Editing</Status>
@@ -310,11 +298,10 @@ through Artes.</EnglishText>
 この値が高いほど、ＦＧ回復の
 度合いが大きくなります。
 </JapaneseText>
-      <EnglishText>FG Regen governs the amount of
-FG a character will automatically
-recover during battle. The higher
-this value is, the more FG is
-recovered automatically.</EnglishText>
+      <EnglishText>FG Regen governs the amount of FG
+a character will automatically recover during
+battle. The higher this value is, the more FG
+is recovered automatically.</EnglishText>
       <Notes/>
       <Id>233</Id>
       <Status>Editing</Status>
@@ -338,12 +325,10 @@ recovered automatically.</EnglishText>
 弱めの敵と戦って経験値を
 ためてみましょう。
 </JapaneseText>
-      <EnglishText>A character's EXP represents the
-amount of experience they have
-with combat.
-As EXP is accumulated, Level is
-increased at specif</EnglishText>
-      <Notes>Not fully translated.</Notes>
+      <EnglishText>A character's Experience Points represents the
+amount of experience they have with combat.
+As EXP is accumulated, Level is increased at specif</EnglishText>
+      <Notes/>
       <Id>235</Id>
       <Status>Editing</Status>
     </Entry>
@@ -351,9 +336,9 @@ increased at specif</EnglishText>
       <PointerOffset>20884</PointerOffset>
       <JapaneseText>鋼体・鋼体時間</JapaneseText>
       <EnglishText>Iron Stance/Iron Stance Duration</EnglishText>
-      <Notes>Too long for window. Suggestion "Iron Stance/Duration"</Notes>
+      <Notes/>
       <Id>236</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20896</PointerOffset>
@@ -364,11 +349,10 @@ increased at specif</EnglishText>
 長所がありますが、ダメージは
 受けるので注意が必要です。
 </JapaneseText>
-      <EnglishText>Iron Stance allows you to continue
-attacking without being interrupted
-by enemy attacks. Artes with Iron
-Stance have an advantage at close
-range, but damage is still inflicted
+      <EnglishText>Iron Stance allows you to continue attacking
+without being interrupted by enemy attacks.
+Artes with Iron Stance have an advantage at
+close range, but damage is still inflicted
 through Iron Stance.</EnglishText>
       <Notes/>
       <Id>237</Id>
@@ -391,14 +375,12 @@ through Iron Stance.</EnglishText>
 成長させられます。
 メニュー：術技
 </JapaneseText>
-      <EnglishText>The Force Cube is the embodiment
-of a character's Force. Each corner
-of the cube has an added effect
-that you can set to each arte a
-character has equipped by rotating
-the cube. Access the Force Cube
-through the Force option on the
-Menu.</EnglishText>
+      <EnglishText>The Force Cube is the embodiment of a
+character's Force. Each corner of the cube
+has an added effect that you can set to each
+arte a character has equipped by rotating the
+cube. Access the Force Cube through the Force
+option on the Menu.</EnglishText>
       <Notes/>
       <Id>239</Id>
       <Status>Editing</Status>
@@ -420,10 +402,10 @@ Menu.</EnglishText>
 連携する事ができます。
 操作：&lt;icon:1F&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText>Powerful weapon attacks. You can
-earn a "Technical Smash" bonus by
-finishing an enemy off using a
-Force Arte. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
+      <EnglishText>Powerful weapon attacks. You can earn a
+"Technical Smash" bonus by finishing an enemy
+off using a Force Arte.
+Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>241</Id>
       <Status>Editing</Status>
@@ -444,14 +426,12 @@ Force Arte. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 属性がつき、術によっては
 ふたつの属性を持っています。
 </JapaneseText>
-      <EnglishText>From a distance, Force Magic can
-attack after a short spellcasting
-time.
-These types of Artes always have
-one of the following elements:
-Earth, Water, Fire, Wind, Light and
-Darkness. Some Force Magic attacks
-even have multiple elements.</EnglishText>
+      <EnglishText>Force Magic can attack from a distance after
+a short spellcasting time. These types of Artes
+always have one of the following elements:
+Earth, Water, Fire, Wind, Light and Darkness.
+Some Force Magic attacks even have multiple
+elements.</EnglishText>
       <Notes/>
       <Id>243</Id>
       <Status>Editing</Status>
@@ -471,12 +451,10 @@ even have multiple elements.</EnglishText>
 あるいは敵に影響を与える術。
 ＨＰの回復能力も備えています。
 </JapaneseText>
-      <EnglishText>Force Rituals form Ritual Circles
-on the ground that provide a
-variety of effects to allies or
-enemies within the circle. They
-can also recover the HP of allied
-party members.</EnglishText>
+      <EnglishText>Force Rituals form Ritual Circles on the ground
+that provide a variety of effects to allies or
+enemies within the circle. They can also
+recover the HP of allied party members.</EnglishText>
       <Notes/>
       <Id>245</Id>
       <Status>Editing</Status>
@@ -502,13 +480,11 @@ party members.</EnglishText>
 特定の状態異常を防止するなど、
 様々な副次効果があります。
 </JapaneseText>
-      <EnglishText>Artes that can buff the user or
-allied party members.
-These artes are not affected by
-the Force Cube and can only be
-used when FG is filled.
-They can provide a variety of
-effects and enable new strategies
+      <EnglishText>Artes that can buff the character using them
+or allied party members. These artes are not
+affected by the Force Cube and can only be
+used when FG is filled. They can provide a
+variety of effects and enable new strategies
 or prevent negative status effects.</EnglishText>
       <Notes/>
       <Id>247</Id>
@@ -525,10 +501,10 @@ or prevent negative status effects.</EnglishText>
     <Entry>
       <PointerOffset>21012</PointerOffset>
       <JapaneseText>発動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Fusionic Force Arte</EnglishText>
       <Notes/>
       <Id>249</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21016</PointerOffset>
@@ -539,13 +515,12 @@ or prevent negative status effects.</EnglishText>
 奥義習得が可能です。
 操作：&lt;icon:1F&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText>Fusionic Force Artes are enhanced
-Artes. They are a higher level
-derivatives of Force Artes that
-can't be set by themselves. 
-You can learn them by highlighting
-an Arte in the Force menu and
-pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
+      <EnglishText>Fusionic Force Artes are enhanced Artes. They
+are a higher level derivatives of Force Artes
+that can't be set by themselves. You can learn
+them by highlighting an Arte in the Force
+menu and pressing right.
+Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>250</Id>
       <Status>Editing</Status>
@@ -593,10 +568,10 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
     <Entry>
       <PointerOffset>21104</PointerOffset>
       <JapaneseText>操作一覧</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Controls</EnglishText>
       <Notes/>
       <Id>256</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21116</PointerOffset>
@@ -609,18 +584,25 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 &lt;icon:3D&gt;：ターゲット変更
 &lt;icon:3C&gt;：作戦変更
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:40&gt;: Normal Attack
+&lt;icon:41&gt;: Arte
+&lt;icon:3A&gt;: Guard
+&lt;icon:43&gt;: Battle Menu
+&lt;icon:11&gt;&lt;icon:11&gt;: Lane Switch Upwards
+&lt;icon:12&gt;&lt;icon:12&gt;: Lane Switch Downwards
+&lt;icon:3D&gt;: Target
+&lt;icon:3C&gt;: Strategy</EnglishText>
       <Notes/>
       <Id>257</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21124</PointerOffset>
       <JapaneseText>通常攻撃</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Normal Attack</EnglishText>
       <Notes/>
       <Id>258</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21136</PointerOffset>
@@ -632,26 +614,34 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 &lt;icon:12&gt;＋&lt;icon:40&gt;：低い敵に対応できる。
 攻撃は何度か連続して出す事が
 できます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Basic strikes using your equipped weapon.
+You can use this attack regardless of the
+status of your Force gauge.
+(Controls assume you're facing right)
+&lt;icon:11&gt;＋&lt;icon:40&gt;: Anti-air attack for flying enemies.
+&lt;icon:D&gt;＋&lt;icon:40&gt;: Attack with longer reach.
+&lt;icon:12&gt;＋&lt;icon:40&gt;: Attack low to the ground.
+Press the attack button repeatedly for a basic
+combo.</EnglishText>
       <Notes/>
       <Id>259</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21144</PointerOffset>
       <JapaneseText>防御</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Guard</EnglishText>
       <Notes/>
       <Id>260</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21152</PointerOffset>
       <JapaneseText>力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Power</EnglishText>
       <Notes/>
       <Id>261</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21156</PointerOffset>
@@ -662,18 +652,22 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 勝利への近道です。
 操作：&lt;icon:3A&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Guarding reduces the damage and distance a
+character gets pushed back from attacks.
+Knowing when to guard and when to strike
+is the key to victory!
+Controls:&lt;icon:3A&gt;</EnglishText>
       <Notes/>
       <Id>262</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21164</PointerOffset>
       <JapaneseText>前進防御</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Advancing Guard</EnglishText>
       <Notes/>
       <Id>263</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21176</PointerOffset>
@@ -682,18 +676,23 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 ＦＧも同時に回復します。
 操作：&lt;icon:3A&gt;＋&lt;icon:18&gt;（右向き時）
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Step forward while defending to minimize
+damage. A successful Advancing Guard also
+restores FG. Contact with a guarding enemy
+during Advancing Guard can break the enemy's
+guard.
+Controls:&lt;icon:3A&gt;＋&lt;icon:18&gt;(When facing right)</EnglishText>
       <Notes/>
       <Id>264</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21184</PointerOffset>
       <JapaneseText>バックステップ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Backstep</EnglishText>
       <Notes/>
       <Id>265</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21196</PointerOffset>
@@ -702,18 +701,20 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 ＲＧも減ります。
 操作：&lt;icon:3A&gt;＋&lt;icon:14&gt;（右向き時）
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Step backwards quickly to dodge attacks.
+RG is reduced when backstepping.
+Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
       <Notes/>
       <Id>266</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21204</PointerOffset>
       <JapaneseText>奥ライン移動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Lane Switch Upwards</EnglishText>
       <Notes/>
       <Id>267</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21216</PointerOffset>
@@ -722,18 +723,21 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 誘い込む移動方法。
 操作：&lt;icon:11&gt;&lt;icon:11&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to move your controlled character one
+lane upwards. You can dodge attacks or lure
+enemies to another lane this way.
+Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
       <Notes/>
       <Id>268</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21224</PointerOffset>
       <JapaneseText>手前ライン移動</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Lane Switch Downwards</EnglishText>
       <Notes/>
       <Id>269</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21236</PointerOffset>
@@ -742,18 +746,21 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 誘い込む移動方法。
 操作：&lt;icon:12&gt;&lt;icon:12&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to move your controlled character one
+lane downwards. You can dodge attacks or lure
+enemies to another lane this way.
+Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
       <Notes/>
       <Id>270</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21244</PointerOffset>
       <JapaneseText>戦闘メニュー</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Battle Menu</EnglishText>
       <Notes/>
       <Id>271</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21256</PointerOffset>
@@ -762,18 +769,20 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 専用メニュー。
 操作：&lt;icon:43&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Open a special menu during battle to change
+Equipment, use Items or more.
+Controls:&lt;icon:43&gt;</EnglishText>
       <Notes/>
       <Id>272</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21264</PointerOffset>
       <JapaneseText>ターゲット変更</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Targeting</EnglishText>
       <Notes/>
       <Id>273</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21276</PointerOffset>
@@ -785,18 +794,23 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 　&lt;icon:45&gt;をクリックすると、
 　近い敵に自動変更されます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to switch which enemy you are
+targeting mid-battle.
+Controls:&lt;icon:3D&gt;+&lt;icon:1F&gt;.
+Hold &lt;icon:3D&gt; down to pause and change targets.
+Tap &lt;icon:45&gt; to instantly target the enemy
+nearest to your controlled character.</EnglishText>
       <Notes/>
       <Id>274</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21284</PointerOffset>
       <JapaneseText>作戦変更</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Strategy</EnglishText>
       <Notes/>
       <Id>275</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21296</PointerOffset>
@@ -806,10 +820,14 @@ pressing right. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 　押している間はオートキャラが
 　隊列位置へ移動します。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Changes the strategy you set for the party.
+Controls: &lt;icon:3C&gt;+&lt;icon:D&gt;(Takes effect when the
+buttons are released)
+hold the buttons down to move CPU controlled
+party members to the set positions.</EnglishText>
       <Notes/>
       <Id>276</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21304</PointerOffset>
