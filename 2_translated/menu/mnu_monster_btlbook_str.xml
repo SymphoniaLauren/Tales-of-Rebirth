@@ -832,10 +832,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21304</PointerOffset>
       <JapaneseText>ポーズ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Pause</EnglishText>
       <Notes/>
       <Id>277</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21316</PointerOffset>
@@ -844,18 +844,21 @@ party members to the set positions.</EnglishText>
 もう一回押すと再開します。
 操作：STARTボタン
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>You can Pause the game during Battle by
+pressing the START Button! Pressing START
+again will unpause and resume the game.
+Controls: START Button</EnglishText>
       <Notes/>
       <Id>278</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21324</PointerOffset>
       <JapaneseText>プレイヤー操作変更</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Changing Control Styles</EnglishText>
       <Notes/>
       <Id>279</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21336</PointerOffset>
@@ -878,10 +881,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21344</PointerOffset>
       <JapaneseText>方向キーでのターゲット設定</JapaneseText>
-      <EnglishText/>
+      <EnglishText>D-Pad Targetting</EnglishText>
       <Notes/>
       <Id>281</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21356</PointerOffset>
@@ -899,10 +902,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21364</PointerOffset>
       <JapaneseText>逃走</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Escape</EnglishText>
       <Notes/>
       <Id>283</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21376</PointerOffset>
@@ -924,10 +927,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21384</PointerOffset>
       <JapaneseText>術技</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Arte</EnglishText>
       <Notes/>
       <Id>285</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21396</PointerOffset>
@@ -950,10 +953,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21404</PointerOffset>
       <JapaneseText>ラッシュチャージ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Rush Charge</EnglishText>
       <Notes/>
       <Id>287</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21416</PointerOffset>
@@ -973,10 +976,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21424</PointerOffset>
       <JapaneseText>クールチャージ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Cool Charge</EnglishText>
       <Notes/>
       <Id>289</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21436</PointerOffset>
@@ -996,10 +999,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21444</PointerOffset>
       <JapaneseText>ラインフィールド</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Lane Switching</EnglishText>
       <Notes/>
       <Id>291</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21456</PointerOffset>
@@ -1039,10 +1042,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21484</PointerOffset>
       <JapaneseText>セミオートについて</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The difference between Auto and Semi-Auto</EnglishText>
       <Notes/>
       <Id>295</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21496</PointerOffset>
@@ -1063,10 +1066,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21504</PointerOffset>
       <JapaneseText>連携</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Attack Chaining</EnglishText>
       <Notes/>
       <Id>297</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21516</PointerOffset>
@@ -1083,10 +1086,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21524</PointerOffset>
       <JapaneseText>連続ヒット</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Combo Counter</EnglishText>
       <Notes/>
       <Id>299</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21536</PointerOffset>
@@ -1098,18 +1101,23 @@ party members to the set positions.</EnglishText>
 ヒット数が表示され、連続ヒットが
 一定数を超えると、
 ＥＰにボーナスが入ります。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You create Combos by continuously attacking
+before an enemy can recover. Each time you
+start a Combo, a Combo Counter appears in
+the top right, keeping track of how many
+Hits a Combo has before it ends. With enough
+hits in a combo, you can get an EP bonus.</EnglishText>
       <Notes/>
       <Id>300</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21544</PointerOffset>
       <JapaneseText>テクニカルスマッシュ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Technical Smash!</EnglishText>
       <Notes/>
       <Id>301</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21556</PointerOffset>
@@ -1130,18 +1138,18 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21564</PointerOffset>
       <JapaneseText>ＨＰの回復方法</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HP Recovery Methods</EnglishText>
       <Notes/>
       <Id>303</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21568</PointerOffset>
       <JapaneseText>ＨＰの回復</JapaneseText>
-      <EnglishText/>
+      <EnglishText>HP Recovery</EnglishText>
       <Notes/>
       <Id>304</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21576</PointerOffset>
@@ -1159,10 +1167,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21584</PointerOffset>
       <JapaneseText>戦闘でのＨＰテクニック</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Maintaining HP in Battle</EnglishText>
       <Notes/>
       <Id>306</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21596</PointerOffset>
@@ -1174,18 +1182,22 @@ party members to the set positions.</EnglishText>
 いろいろ試しながら、
 戦闘してみましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Instead of focusing on recovering HP you lose,
+try approaching battles with the mindset of
+keeping your HP high. Keep an eye on the
+situation, experiment and adapt your tactics
+to avoid taking hits and having to heal HP.</EnglishText>
       <Notes/>
       <Id>307</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21604</PointerOffset>
       <JapaneseText>ＦＧの回復方法</JapaneseText>
-      <EnglishText/>
+      <EnglishText>FG Recovery Methods</EnglishText>
       <Notes/>
       <Id>308</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21616</PointerOffset>
@@ -1202,10 +1214,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21624</PointerOffset>
       <JapaneseText>ＲＧの上昇方法</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Increasing RG</EnglishText>
       <Notes/>
       <Id>310</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21636</PointerOffset>
@@ -1224,10 +1236,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21644</PointerOffset>
       <JapaneseText>ＲＧの減少方法</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Decreasing RG</EnglishText>
       <Notes/>
       <Id>312</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21656</PointerOffset>
@@ -1244,10 +1256,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21664</PointerOffset>
       <JapaneseText>敵が強い</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Battles are too hard!</EnglishText>
       <Notes/>
       <Id>314</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21676</PointerOffset>
@@ -1265,10 +1277,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21684</PointerOffset>
       <JapaneseText>敵が弱い</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Now battles are too easy.</EnglishText>
       <Notes/>
       <Id>316</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21696</PointerOffset>
@@ -1285,10 +1297,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21704</PointerOffset>
       <JapaneseText>敵のＲＧをチェック</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Keep an eye on Enemy RG!</EnglishText>
       <Notes/>
       <Id>318</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21716</PointerOffset>
@@ -1310,10 +1322,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21724</PointerOffset>
       <JapaneseText>フォルスキューブの★</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Cube Levels *</EnglishText>
       <Notes/>
       <Id>320</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21736</PointerOffset>
@@ -1353,18 +1365,18 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21764</PointerOffset>
       <JapaneseText>敵の耐性種別</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Types of Enemy Resistance</EnglishText>
       <Notes/>
       <Id>324</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21768</PointerOffset>
       <JapaneseText>耐性</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Enemy Resistances</EnglishText>
       <Notes/>
       <Id>325</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21776</PointerOffset>
@@ -1433,10 +1445,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21904</PointerOffset>
       <JapaneseText>エンハンスの流れ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The basic Enhancement Process</EnglishText>
       <Notes/>
       <Id>333</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21916</PointerOffset>
@@ -1529,10 +1541,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>21984</PointerOffset>
       <JapaneseText>武具強化方法</JapaneseText>
-      <EnglishText/>
+      <EnglishText>How To Enhance Equipment</EnglishText>
       <Notes/>
       <Id>342</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21996</PointerOffset>
@@ -1551,10 +1563,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22004</PointerOffset>
       <JapaneseText>戦闘終了時にチェック</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Enhance Executable!</EnglishText>
       <Notes/>
       <Id>344</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22016</PointerOffset>
@@ -1573,10 +1585,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22024</PointerOffset>
       <JapaneseText>武具強化レベル上限</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Equipment Enhancement Limit</EnglishText>
       <Notes/>
       <Id>346</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22036</PointerOffset>
@@ -1593,18 +1605,18 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22044</PointerOffset>
       <JapaneseText>強化能力一覧</JapaneseText>
-      <EnglishText/>
+      <EnglishText>List of Enhancement Effects</EnglishText>
       <Notes/>
       <Id>348</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22048</PointerOffset>
       <JapaneseText>強化能力</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Enhancement Effects</EnglishText>
       <Notes/>
       <Id>349</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22056</PointerOffset>
@@ -1670,7 +1682,7 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22104</PointerOffset>
       <JapaneseText>武具継承</JapaneseText>
-      <EnglishText>Weapon Inheritence</EnglishText>
+      <EnglishText>Weapon Inheritance</EnglishText>
       <Notes/>
       <Id>355</Id>
       <Status>Editing</Status>
@@ -1678,7 +1690,7 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22108</PointerOffset>
       <JapaneseText>継承</JapaneseText>
-      <EnglishText>Inheritence</EnglishText>
+      <EnglishText>Inheritance</EnglishText>
       <Notes/>
       <Id>356</Id>
       <Status>Editing</Status>
@@ -1686,10 +1698,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22112</PointerOffset>
       <JapaneseText>効果</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Inheritance effects</EnglishText>
       <Notes/>
       <Id>357</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22116</PointerOffset>
@@ -1713,10 +1725,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22124</PointerOffset>
       <JapaneseText>継承効果</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Inheritance Effects</EnglishText>
       <Notes/>
       <Id>359</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22136</PointerOffset>
@@ -1738,10 +1750,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22144</PointerOffset>
       <JapaneseText>名前をつけましょう</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Give it a name!</EnglishText>
       <Notes/>
       <Id>361</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22156</PointerOffset>
@@ -1760,10 +1772,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22164</PointerOffset>
       <JapaneseText>武具の所持上限</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Weapon Inventory Limit</EnglishText>
       <Notes/>
       <Id>363</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22176</PointerOffset>
@@ -1781,10 +1793,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22184</PointerOffset>
       <JapaneseText>フォルスキューブ強化の流れ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Basics of Force Cube Enhancement</EnglishText>
       <Notes/>
       <Id>365</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22196</PointerOffset>
@@ -1805,10 +1817,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22204</PointerOffset>
       <JapaneseText>フォルスキューブとは</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What does the Force Cube do?</EnglishText>
       <Notes/>
       <Id>367</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22216</PointerOffset>
@@ -1828,10 +1840,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22224</PointerOffset>
       <JapaneseText>フォルスキューブの強化方法</JapaneseText>
-      <EnglishText/>
+      <EnglishText>How To Enhance The Force Cube</EnglishText>
       <Notes/>
       <Id>369</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22236</PointerOffset>
@@ -1854,10 +1866,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22244</PointerOffset>
       <JapaneseText>フォルスキューブの回転方法</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Rotating The Force Cube</EnglishText>
       <Notes/>
       <Id>371</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22256</PointerOffset>
@@ -1878,10 +1890,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22264</PointerOffset>
       <JapaneseText>強化能力の注意点</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Things to note about Force Cube Enhancements</EnglishText>
       <Notes/>
       <Id>373</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22276</PointerOffset>
@@ -1905,10 +1917,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22284</PointerOffset>
       <JapaneseText>錬術とフォルスキューブ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Abilities and the Force Cube</EnglishText>
       <Notes/>
       <Id>375</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22296</PointerOffset>
@@ -1934,10 +1946,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22324</PointerOffset>
       <JapaneseText>奥義習得の流れ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Fusionic Force Basics</EnglishText>
       <Notes/>
       <Id>378</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22336</PointerOffset>
@@ -1979,10 +1991,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22364</PointerOffset>
       <JapaneseText>奥義について</JapaneseText>
-      <EnglishText/>
+      <EnglishText>About Fusionic Force</EnglishText>
       <Notes/>
       <Id>382</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22376</PointerOffset>
@@ -2005,10 +2017,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22384</PointerOffset>
       <JapaneseText>奥義の使用条件</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Using Fusionic Force</EnglishText>
       <Notes/>
       <Id>384</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22396</PointerOffset>
@@ -2029,10 +2041,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22404</PointerOffset>
       <JapaneseText>スマッシュポイント</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Smash Points</EnglishText>
       <Notes/>
       <Id>386</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22416</PointerOffset>
@@ -2054,10 +2066,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22424</PointerOffset>
       <JapaneseText>奥義習得方法</JapaneseText>
-      <EnglishText/>
+      <EnglishText>How To Learn Fusionic Force</EnglishText>
       <Notes/>
       <Id>388</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22436</PointerOffset>
@@ -2077,10 +2089,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22444</PointerOffset>
       <JapaneseText>別の奥義を習得したい時</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Learning New Fusionic Force</EnglishText>
       <Notes/>
       <Id>390</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22456</PointerOffset>
@@ -2111,10 +2123,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22484</PointerOffset>
       <JapaneseText>秘奥義発動方法（１）</JapaneseText>
-      <EnglishText/>
+      <EnglishText>How to use Fusionic Force Finality (1)</EnglishText>
       <Notes/>
       <Id>393</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22496</PointerOffset>
@@ -2137,10 +2149,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22504</PointerOffset>
       <JapaneseText>秘奥義発動方法（２）</JapaneseText>
-      <EnglishText/>
+      <EnglishText>How to use Fusionic Force Finality (2)</EnglishText>
       <Notes/>
       <Id>395</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22516</PointerOffset>
@@ -2161,10 +2173,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22524</PointerOffset>
       <JapaneseText>新たな秘奥義の習得には</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Learning new Fusionic Force Finalities</EnglishText>
       <Notes/>
       <Id>397</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22536</PointerOffset>
@@ -2186,10 +2198,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22544</PointerOffset>
       <JapaneseText>秘奥義の使い分け方</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Using Different Fusionic Force Finalities</EnglishText>
       <Notes/>
       <Id>399</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22556</PointerOffset>
@@ -2232,10 +2244,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22624</PointerOffset>
       <JapaneseText>料理と戦闘</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Fighting first, then Food</EnglishText>
       <Notes/>
       <Id>404</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22636</PointerOffset>
@@ -2256,10 +2268,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>22644</PointerOffset>
       <JapaneseText>新たな料理の覚え方</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Learning new Recipes</EnglishText>
       <Notes/>
       <Id>406</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22656</PointerOffset>
@@ -2578,10 +2590,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>23084</PointerOffset>
       <JapaneseText>隊列位置による攻撃頻度</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Aggressive Formation</EnglishText>
       <Notes/>
       <Id>438</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23096</PointerOffset>
@@ -2600,10 +2612,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>23104</PointerOffset>
       <JapaneseText>自分と仲間のＨＰが回復</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Recovery Formation</EnglishText>
       <Notes/>
       <Id>440</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23116</PointerOffset>
@@ -2800,10 +2812,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>23284</PointerOffset>
       <JapaneseText>能力変化</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Buffs and Debuffs</EnglishText>
       <Notes/>
       <Id>458</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23296</PointerOffset>
@@ -2845,10 +2857,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>23324</PointerOffset>
       <JapaneseText>グレードの種類・その１</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grade Bonuses (1)</EnglishText>
       <Notes/>
       <Id>462</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23336</PointerOffset>
@@ -2869,10 +2881,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>23344</PointerOffset>
       <JapaneseText>グレードの種類・その２</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Grade Bonuses (2)</EnglishText>
       <Notes/>
       <Id>464</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23356</PointerOffset>
@@ -2893,10 +2905,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>23364</PointerOffset>
       <JapaneseText>グレード獲得ルール</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The rules of Grade acquisition</EnglishText>
       <Notes/>
       <Id>466</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23376</PointerOffset>
@@ -2918,10 +2930,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>23384</PointerOffset>
       <JapaneseText>総獲得グレードの確認</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Where to find your Total Grade</EnglishText>
       <Notes/>
       <Id>468</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23396</PointerOffset>
@@ -2969,10 +2981,10 @@ party members to the set positions.</EnglishText>
     <Entry>
       <PointerOffset>23484</PointerOffset>
       <JapaneseText>宝石とは</JapaneseText>
-      <EnglishText/>
+      <EnglishText>What are gems?</EnglishText>
       <Notes/>
       <Id>474</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23496</PointerOffset>
