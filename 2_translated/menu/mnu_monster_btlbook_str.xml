@@ -873,10 +873,16 @@ Controls: START Button</EnglishText>
 　完全に自動操作
 操作：SELECTボタン
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Party members have three different styles of
+control, which can be changed freely.
+&lt;color:2040A0A0&gt;[MANUAL]&lt;color:80000000&gt;: Allows direct control of a character
+&lt;color:2040A0A0&gt;[SEMI-AUTO]&lt;color:80000000&gt;:Characters will automatically move
+into position before performing attacks.
+&lt;color:2040A0A0&gt;[AUTO]&lt;color:80000000&gt;: Characters will fight automatically.
+Controls: SELECT Button</EnglishText>
       <Notes/>
       <Id>280</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21344</PointerOffset>
@@ -894,10 +900,13 @@ Controls: START Button</EnglishText>
 設定したターゲットを狙う場合は
 &lt;icon:D&gt;を押さずに&lt;icon:40&gt;OR&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Holding &lt;icon:D&gt; and pressing &lt;icon:40&gt; or &lt;icon:41&gt;
+switches your target to an enemy on the line
+in that direction. You can face your target by
+pressing &lt;icon:40&gt; or &lt;icon:41&gt; without pressing &lt;icon:D&gt;</EnglishText>
       <Notes/>
       <Id>282</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21364</PointerOffset>
@@ -919,10 +928,17 @@ Controls: START Button</EnglishText>
 操作：戦闘フィールド左端で&lt;icon:5&gt;
 　　　　戦闘フィールド右端で&lt;icon:9&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you do not wish to battle, you can Escape.
+Keep in mind that you can't escape mandatory
+battles such as boss fights, and walls or
+objects may obstruct you from escaping in a
+certain direction.
+Controls:
+&lt;icon:5&gt; on the left side of the screen
+&lt;icon:9&gt; on the right side of the screen</EnglishText>
       <Notes/>
       <Id>284</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21384</PointerOffset>
@@ -1130,10 +1146,16 @@ hits in a combo, you can get an EP bonus.</EnglishText>
 ボーナスがもらえたりしますので、
 いろいろ試してみましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you defeat an enemy in a skillful way,
+such as through a Team Combo, you may see 
+the words "&lt;color:2040A0A0&gt;TECHNICAL SMASH!&lt;color:80000000&gt;" on the top
+left of the screen. Technical Smashes increase
+drop rates and Smash Points acquired, so try
+experimenting with different ways to trigger a
+Technical Smash.</EnglishText>
       <Notes/>
       <Id>302</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21564</PointerOffset>
@@ -1513,10 +1535,13 @@ to avoid taking hits and having to heal HP.</EnglishText>
 ためる事で武具強化を行えます。
 取得ポイントは連続ヒットを上げると
 ボーナスがつく事もあります。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Your equipment accumulates Enhancement Points 
+after battle. You can start enhancing once you
+have 15 EP. You also gain bonus EP for
+higher hitcounts on the Combo Counter.</EnglishText>
       <Notes/>
       <Id>339</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21964</PointerOffset>
@@ -1533,10 +1558,12 @@ to avoid taking hits and having to heal HP.</EnglishText>
 エンハンスを行うと、
 その分が消費されます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This is the amount of EP an enhancement
+costs. The amount indicated is deducted from
+your total EP after an enhancement.</EnglishText>
       <Notes/>
       <Id>341</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21984</PointerOffset>
