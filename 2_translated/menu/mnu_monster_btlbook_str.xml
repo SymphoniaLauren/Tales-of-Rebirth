@@ -711,7 +711,7 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
     <Entry>
       <PointerOffset>21204</PointerOffset>
       <JapaneseText>奥ライン移動</JapaneseText>
-      <EnglishText>Lane Switch Upwards</EnglishText>
+      <EnglishText>Line Switch Upwards</EnglishText>
       <Notes/>
       <Id>267</Id>
       <Status>Editing</Status>
@@ -724,7 +724,7 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 操作：&lt;icon:11&gt;&lt;icon:11&gt;
 </JapaneseText>
       <EnglishText>Use this to move your controlled character one
-lane upwards. You can dodge attacks or lure
+line upwards. You can dodge attacks or lure
 enemies to another lane this way.
 Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
       <Notes/>
@@ -734,7 +734,7 @@ Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
     <Entry>
       <PointerOffset>21224</PointerOffset>
       <JapaneseText>手前ライン移動</JapaneseText>
-      <EnglishText>Lane Switch Downwards</EnglishText>
+      <EnglishText>Line Switch Downwards</EnglishText>
       <Notes/>
       <Id>269</Id>
       <Status>Editing</Status>
@@ -747,7 +747,7 @@ Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
 操作：&lt;icon:12&gt;&lt;icon:12&gt;
 </JapaneseText>
       <EnglishText>Use this to move your controlled character one
-lane downwards. You can dodge attacks or lure
+line downwards. You can dodge attacks or lure
 enemies to another lane this way.
 Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
       <Notes/>
@@ -961,10 +961,16 @@ Controls:
 より高いダメージを与える事が
 できます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Special moves that use your Force Gauge are
+called Artes. You can set Artes you have
+learned to one of four slots corresponding to a
+cardinal direction. You can use any arte you
+set by pressing the D-pad in that direction
+and &lt;icon:41&gt;. With enough FG, Artes can heal
+your party members or deal increased damage.</EnglishText>
       <Notes/>
       <Id>286</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21404</PointerOffset>
@@ -984,10 +990,16 @@ Controls:
 
 操作：&lt;icon:3A&gt;＋&lt;icon:11&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This action allows you to increase RG at will.
+&lt;color:2040A0A0&gt;Attacks following a Rush Charge cannot be
+guarded against.&lt;color:80000000&gt; Some enemies tend to block
+your attacks when your Rush Gauge is low,
+so Rush Charge can be an effective way to
+attack such enemies unimpeded.
+Controls: &lt;icon:3A&gt;+&lt;icon:11&gt;</EnglishText>
       <Notes/>
       <Id>288</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21424</PointerOffset>
@@ -1007,15 +1019,21 @@ Controls:
 
 操作：&lt;icon:3A&gt;＋&lt;icon:12&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This action allows you to decrease RG at will.
+&lt;color:2040A0A0&gt;Attacks following a Cool Charge cannot be
+guarded against.&lt;color:80000000&gt; Some enemies tend to block
+your attacks when your Rush Gauge is high,
+so switch between using Rush Charge and Cool
+Charge as the situation demands it.
+Controls: &lt;icon:3A&gt;+&lt;icon:12&gt;</EnglishText>
       <Notes/>
       <Id>290</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21444</PointerOffset>
       <JapaneseText>ラインフィールド</JapaneseText>
-      <EnglishText>Lane Switching</EnglishText>
+      <EnglishText>Line Switching</EnglishText>
       <Notes/>
       <Id>291</Id>
       <Status>Editing</Status>
@@ -1028,10 +1046,16 @@ Controls:
 &lt;icon:11&gt;&lt;icon:11&gt;で奥へ
 &lt;icon:12&gt;&lt;icon:12&gt;で手前へ
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Three Line Linear Motion Battle System
+divides the the battlefield into three Lines.
+You can freely switch between these three
+Lines as you battle.
+Controls:
+&lt;icon:11&gt;&lt;icon:11&gt; to Line Switch upwards.
+&lt;icon:12&gt;&lt;icon:12&gt; to Line Switch downwards.</EnglishText>
       <Notes/>
       <Id>292</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21464</PointerOffset>
@@ -1050,10 +1074,13 @@ Controls:
 戦闘に苦戦している方は、
 チェックしてみましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This section fills with information the more
+your party levels increase. Be sure to refer
+back to this section as you progress to avoid
+having trouble with new battle mechanics.</EnglishText>
       <Notes/>
       <Id>294</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21484</PointerOffset>
@@ -1074,10 +1101,17 @@ Controls:
 攻撃前に&lt;icon:45&gt;を短く押す
 習慣をつけてみましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>When a character is set to Auto, they will
+move, attack and defend without plaer input.
+Characters set to Semi-Auto will automatically
+defend when the player does not press any
+buttons, but the player must still direct them
+to move and attack. By the way, regardless
+of Semi-Auto or Manual, try getting used to
+tapping &lt;icon:45&gt; to target the nearest enemy.</EnglishText>
       <Notes/>
       <Id>296</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21504</PointerOffset>
@@ -1094,10 +1128,16 @@ Controls:
 次の攻撃を行える場合があります。
 基本は　通常攻撃＋特技　です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you input another attack while a character
+is already attacking, they'll smoothly transition
+to the next attack without having to take
+time to recover from the previous attack. This
+is called Attack Chaining. For a basic Attack
+Chain, try performing a Normal Attack first,
+then an Arte during the Normal Attack.</EnglishText>
       <Notes/>
       <Id>298</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21524</PointerOffset>
@@ -1278,7 +1318,7 @@ to avoid taking hits and having to heal HP.</EnglishText>
     <Entry>
       <PointerOffset>21664</PointerOffset>
       <JapaneseText>敵が強い</JapaneseText>
-      <EnglishText>Battles are too hard!</EnglishText>
+      <EnglishText>Help, Battles are getting too hard!</EnglishText>
       <Notes/>
       <Id>314</Id>
       <Status>Editing</Status>
@@ -2706,10 +2746,16 @@ your total EP after an enhancement.</EnglishText>
 状態異常を防止する護符などで
 対処するのが賢明です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Status Effects are negative conditions that may
+occur to characters in battle. Characters can
+automatically recover from any status effect
+after enough time has passed, or after battle.
+Experience gain is reduced if status effects are
+removed after battle, so be proactive about
+equipping status resistant equipment.</EnglishText>
       <Notes/>
       <Id>445</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23164</PointerOffset>
@@ -2725,10 +2771,13 @@ your total EP after an enhancement.</EnglishText>
 地系に属し、地属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This status effect slows down a character's
+movement speed. Slow is associated with
+Earth, so enemies that resist Earth will resist
+the Slow effect as well.</EnglishText>
       <Notes/>
       <Id>447</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23184</PointerOffset>
@@ -2744,10 +2793,13 @@ your total EP after an enhancement.</EnglishText>
 風系に属し、風属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This Status Effect prevents FG recovery. Weak
+is associated with Wind, so enemies that 
+resist Wind will resist the Weak effect as 
+well.</EnglishText>
       <Notes/>
       <Id>449</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23204</PointerOffset>
@@ -2766,10 +2818,15 @@ your total EP after an enhancement.</EnglishText>
 火系に属し、火属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This Status Effect increases RG until it reaches
+100, and causes HP to drop. HP cannot be
+restored at 100 RG so this one is particularly
+dangerous. Poison is associated with Fire, so
+enemies that resist Fire will resist the Poison
+status effect as well.</EnglishText>
       <Notes/>
       <Id>451</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23224</PointerOffset>
@@ -2787,10 +2844,15 @@ your total EP after an enhancement.</EnglishText>
 水系に属し、水属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This Status Effect prevents a character from
+moving entirely, as they will be frozen.
+Taking damage while frozen will allow you
+to move again. Freeze is naturally associated
+with Water, so enemies that resist Water will
+resist Freeze as well.</EnglishText>
       <Notes/>
       <Id>453</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23244</PointerOffset>
@@ -2809,10 +2871,15 @@ your total EP after an enhancement.</EnglishText>
 光系に属し、光属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you attempt to attack or use artes while
+afflicted with this Status Effect, you may find
+yourself unable to act. You can still use items
+to restore your status while Paralyzed.
+Paralysis is associated with Light so enemies
+that resist Light will resist Paralysis as well.</EnglishText>
       <Notes/>
       <Id>455</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23264</PointerOffset>
@@ -2831,10 +2898,16 @@ your total EP after an enhancement.</EnglishText>
 闇系に属し、闇属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>While Panicking, a characters RG reduces until
+they get Knocked Out. If you remove this
+Status Effect before a KO happens, you'll take
+no damage, so it's better to take care of it
+immediately. Panic is associated with Dark,
+so enemies that resist Dark will resist Panic
+as well.</EnglishText>
       <Notes/>
       <Id>457</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23284</PointerOffset>
