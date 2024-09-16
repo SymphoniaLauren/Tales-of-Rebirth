@@ -1,0 +1,129 @@
+select
+[ENDBLOCK]
+#<07:00000000><size:140>休憩しますか？
+#　はい　
+#　いいえ　
+<07:00000000><size:140>Do you want to take a break?
+　Yes　
+　No　
+[ENDBLOCK]
+#<Green><size:140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:140><07:00000000><0E:80000002>{19}{34}{04}{80} has joined the party.
+[ENDBLOCK]
+#<Green><size:140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:140><07:00000000><0E:80000002>{19}{34}{10}{80} will accompany you.
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+
+[ENDBLOCK]
+#シーラグ橋
+Sheelagh Bridge
+[ENDBLOCK]
+
+[ENDBLOCK]
+#ペトナジャンカ方面とあります。
+#入りますか？<07:00000000>
+# はい
+# いいえ
+This way leads to Petnadjanka.
+Do you want to proceed?<07:00000000>
+ Yes
+ No
+[ENDBLOCK]
+
+[ENDBLOCK]
+#サニイタウン方面とありますが
+#険しくて登れません……。
+This way leads to Sannytown.
+It's too steep to climb...
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#<Green>陸地を歩いていると、特定の場所で
+#何かを発見する事があります。
+#これから、いろいろな場所を歩く事で、
+#様々な種類のものを発見できるでしょう。
+<Green>When walking on the World Map, you may
+discover something in a particular place.
+From now on, by exploring different places,
+you will discover a variety of things.
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#<Green>この発見が、どういった意味を持つのか、
+#それは、後ほどのお楽しみです。
+<Green>We'll have to wait and see what the
+implications of these discoveries are.
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#宝箱を引き揚げました!!
+The treasure chest has been salvaged!
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#宝箱は見つかりませんでした……
+No treasure chest was found...
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#<07:00000000><Green> 「シャオルーン　操作説明」<White>
+#　
+#　<button:30>　前進　　<button:32>　後退
+#　<button:1C>　旋回　　<button:13>　上昇・降下
+#　<button:31>　地上に降りる
+#　　　※<Green>山の上<White>や<Cyan>氷の上<White>には
+#　　　　<Red>降りる事はできません<White>
+#　
+#　<button:50>　旋回・上昇・降下
+# <button:34><button:35> 旋回
+<07:00000000><Green> Riding Shaorune<White>
+　
+　<button:30>　Forwards 　<button:32>　Backwards
+　<button:1C>　Turn　　   <button:13>　Ascend/Descend
+　<button:31>　Land
+　　　※<Red>You can neither land on<Green>mountains
+　　　　<Red>nor on <Cyan>ice<White>
+　
+　<button:50>　Turn・Ascend・Descend
+ <button:34><button:35> Turn
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#<07:00000000><Green>　「シャオルーン　搭乗時の操作説明」<White>
+#　
+#　<button:32>　<White>「<button:20> シャオルーンに乗る」表示
+#　<button:31>　<White>「<button:20> シャオルーンに乗る」表示消去
+<07:00000000><Green>　Boarding Shaorune<White>
+　
+　<button:32>　<White>「<button:20> Board Shaorune」Show
+　<button:31>　<White>「<button:20> Board Shaorune」Hide
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#<07:00000000><Green> 「フリーシップ　操作説明」<White>
+#　
+#　<button:30>　前進　　<button:32>　後退
+#　<button:1C>　方向転換
+#　<button:31>　船を降りる
+#　　　※岸辺に近づき、船首を
+#　　　　降りたい方向に向けてから
+#　　　　ボタンを押して下さい。
+#　
+#　<button:50>　方向転換（アナログ）
+# <button:34><button:35> 方向転換
+<07:00000000><Green> Freeship Controls<White>
+　
+　<button:30>　Forwards　　<button:32>　Backwards
+　<button:1C>　Change direction
+　<button:31>　Disembark
+　　　※Approach the shore, point the
+　　　　bow in the direction you want to
+　　　　disembark, and press the button.
+　
+　<button:50>　Change direction（Analog）
+ <button:34><button:35> Change direction
+[ENDBLOCK]
+notice
+[ENDBLOCK]

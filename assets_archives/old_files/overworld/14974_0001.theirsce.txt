@@ -1,0 +1,68 @@
+select
+[ENDBLOCK]
+#<07:00000000><size:140>休憩しますか？
+#　はい　
+#　いいえ　
+<07:00000000><size:140>Do you want to take a break?
+　Yes　
+　No　
+[ENDBLOCK]
+#<Green><size:140><07:00000000><0E:80000002>{19}{34}{04}{80}が仲間になりました。
+<Green><size:140><07:00000000><0E:80000002>{19}{34}{04}{80} has joined the party.
+[ENDBLOCK]
+#<Green><size:140><07:00000000><0E:80000002>{19}{34}{10}{80}が同行します。
+<Green><size:140><07:00000000><0E:80000002>{19}{34}{10}{80} will accompany you.
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+
+[ENDBLOCK]
+#シーラグ橋
+Sheelagh Bridge
+[ENDBLOCK]
+
+[ENDBLOCK]
+#ペトナジャンカ方面とあります。
+#入りますか？<07:00000000>
+# はい
+# いいえ
+This way leads to Petnadjanka.
+Do you want to proceed?<07:00000000>
+ Yes
+ No
+[ENDBLOCK]
+
+[ENDBLOCK]
+#サニイタウン方面とありますが
+#険しくて登れません……。
+This way leads to Sannytown.
+It's too steep to climb...
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#<Green>陸地を歩いていると、特定の場所で
+#何かを発見する事があります。
+#これから、いろいろな場所を歩く事で、
+#様々な種類のものを発見できるでしょう。
+<Green>When walking on the World Map, you may
+discover something in a particular place.
+From now on, by exploring different places,
+you will discover a variety of things.
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#<Green>この発見が、どういった意味を持つのか、
+#それは、後ほどのお楽しみです。
+<Green>We'll have to wait and see what the
+implications of these discoveries are.
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#宝箱を引き揚げました!!
+The treasure chest has been salvaged!
+[ENDBLOCK]
+notice
+[ENDBLOCK]
+#宝箱は見つかりませんでした……
+No treasure chest was found...
+[ENDBLOCK]
