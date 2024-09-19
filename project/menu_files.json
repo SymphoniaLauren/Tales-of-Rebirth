@@ -521,6 +521,7 @@
 		"files": [
 			{
 				"file": 5,
+				"is_sce": false,
 				"friendly_name": "Triangle Menu",
 				"split_sections": false,
 				"base_offset": 0,
@@ -546,6 +547,7 @@
 		"files": [
 			{
 				"file": 0,
+				"is_sce": false,
 				"friendly_name": "Mini Game 1",
 				"split_sections": false,
 				"base_offset": 0,
@@ -564,6 +566,7 @@
 			},
 			{
 				"file": 2,
+				"is_sce": false,
 				"friendly_name": "Mini Game 2",
 				"split_sections": false,
 				"base_offset": 0,
@@ -589,6 +592,7 @@
 		"files": [
 			{
 				"file": 0,
+				"is_sce": false,
 				"friendly_name": "Battle Overlay",
 				"split_sections": false,
 				"base_offset": 0x2EF680,
@@ -747,6 +751,7 @@
 			},
 			{
 				"file": 2,
+				"is_sce": false,
 				"friendly_name": "3dfield Overlay",
 				"split_sections": false,
 				"base_offset": 0x2EF680,
@@ -1064,6 +1069,7 @@
 		"files": [
 			{
 				"file": 2,
+				"is_sce": false,
 				"friendly_name": "mnu_sound",
 				"split_sections": false,
 				"base_offset": 0x2D8900,
@@ -1228,5 +1234,41 @@
 				"LO": [0x2F174C],
 			}
 		]
-	}
+	},
+	{
+		"file_path": "./DAT/PAK0/14972.pak0",
+		"is_pak": true,
+		"pak_type": 0,
+		"files": [
+			{
+				"file": 1,
+				"is_sce": true,
+				"friendly_name": "3dfield 1"
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/PAK0/14973.pak0",
+		"is_pak": true,
+		"pak_type": 0,
+		"files": [
+			{
+				"file": 1,
+				"is_sce": true,
+				"friendly_name": "3dfield 2"
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/PAK0/14974.pak0",
+		"is_pak": true,
+		"pak_type": 0,
+		"files": [
+			{
+				"file": 1,
+				"is_sce": true,
+				"friendly_name": "3dfield 3"
+			}
+		]
+	},
 ]
