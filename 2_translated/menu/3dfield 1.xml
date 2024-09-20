@@ -1,4 +1,39 @@
-<MenuText>
+<SceneText>
+  <Speakers>
+    <Section>Speaker</Section>
+    <Entry>
+      <PointerOffset/>
+      <JapaneseText>[VARIABLE]</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>-1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>1921</PointerOffset>
+      <JapaneseText>select</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>0</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>3766,9938,9962,10012,10177,17283,17307,17378</PointerOffset>
+      <JapaneseText>notice</JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>1</Id>
+      <Status>To Do</Status>
+    </Entry>
+    <Entry>
+      <PointerOffset>9582,9608,9900</PointerOffset>
+      <JapaneseText></JapaneseText>
+      <EnglishText/>
+      <Notes/>
+      <Id>2</Id>
+      <Status>To Do</Status>
+    </Entry>
+  </Speakers>
   <Strings>
     <Section>Story</Section>
     <Entry>
@@ -6,38 +41,40 @@
       <JapaneseText>&lt;speed:0&gt;&lt;scale:140&gt;休憩しますか？
 　はい　
 　いいえ　</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Would you like to rest?
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3592</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;&lt;font:80000002&gt;&lt;unk19:340480&gt;が仲間になりました。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;&lt;font:80000002&gt;&lt;unk19:340480&gt; joined the party.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>2</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3670</PointerOffset>
       <JapaneseText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;&lt;font:80000002&gt;&lt;unk19:341080&gt;が同行します。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;&lt;scale:140&gt;&lt;speed:0&gt;&lt;font:80000002&gt;&lt;unk19:341080&gt; is now travelling with you.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9585</PointerOffset>
       <JapaneseText>シーラグ橋</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Shirag Bridge</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>4</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9611</PointerOffset>
@@ -45,21 +82,25 @@
 入りますか？&lt;speed:0&gt;
  はい
  いいえ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This way leads to Petnadjanka.
+Do you want to proceed? &lt;speed:0&gt;
+Yes
+No</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>5</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9903</PointerOffset>
       <JapaneseText>サニイタウン方面とありますが
 険しくて登れません……。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>This way leads to Sunnytown.
+It's too steep to climb...</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>6</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9941</PointerOffset>
@@ -67,39 +108,45 @@
 何かを発見する事があります。
 これから、いろいろな場所を歩く事で、
 様々な種類のものを発見できるでしょう。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;When walking on the World Map, you may
+discover something in a particular place.
+From now on, by exploring different places,
+you will discover a variety of things.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>7</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>9965</PointerOffset>
       <JapaneseText>&lt;Green&gt;この発見が、どういった意味を持つのか、
 それは、後ほどのお楽しみです。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;Green&gt;We'll have to wait and see what the
+implications of these discoveries are.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>8</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>10015</PointerOffset>
       <JapaneseText>宝箱を引き揚げました!!</JapaneseText>
-      <EnglishText/>
+      <EnglishText>The treasure chest
+has been salvaged!</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>9</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>10180</PointerOffset>
       <JapaneseText>宝箱は見つかりませんでした……</JapaneseText>
-      <EnglishText/>
+      <EnglishText>No treasure chest 
+was found...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>10</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>17286</PointerOffset>
@@ -113,11 +160,20 @@
 　
 　&lt;icon:50&gt;　旋回・上昇・降下
  &lt;icon:34&gt;&lt;icon:35&gt; 旋回</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;&lt;Green&gt; Riding Shaorune&lt;White&gt;
+　
+　&lt;icon:30&gt;　Forwards 　&lt;icon:32&gt;　Backwards
+　&lt;icon:1C&gt;　Turn　　   &lt;icon:13&gt;　Ascend/Descend
+　&lt;icon:31&gt;　Land
+　　　&lt;Red&gt;You can neither land on
+　　　&lt;Green&gt;mountains&lt;Red&gt; nor on &lt;Cyan&gt;ice&lt;White&gt;
+　
+　&lt;icon:50&gt;　Turn / Ascend / Descend
+ &lt;icon:34&gt;&lt;icon:35&gt; Turn</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>11</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>17310</PointerOffset>
@@ -125,11 +181,14 @@
 　
 　&lt;icon:32&gt;　&lt;White&gt;「&lt;icon:20&gt; シャオルーンに乗る」表示
 　&lt;icon:31&gt;　&lt;White&gt;「&lt;icon:20&gt; シャオルーンに乗る」表示消去</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;&lt;Green&gt;　Boarding Shaorune&lt;White&gt;
+　
+　&lt;icon:32&gt;　&lt;White&gt;(&lt;icon:20&gt; Board Shaorune) Show
+　&lt;icon:31&gt;　&lt;White&gt;(&lt;icon:20&gt; Board Shaorune) Hide</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>12</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>17381</PointerOffset>
@@ -144,19 +203,30 @@
 　
 　&lt;icon:50&gt;　方向転換（アナログ）
  &lt;icon:34&gt;&lt;icon:35&gt; 方向転換</JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;speed:0&gt;&lt;Green&gt; Freeship Controls&lt;White&gt;
+　
+　&lt;icon:30&gt;　Forwards　　&lt;icon:32&gt;　Backwards
+　&lt;icon:1C&gt;　Change direction
+　&lt;icon:31&gt;　Disembark
+  
+　　　*Approach the shore, point the bow
+　　　　in the direction you want to
+　　　　disembark, and press the button.
+　
+　&lt;icon:50&gt;　Change direction (Analog)
+ &lt;icon:34&gt;&lt;icon:35&gt; Change direction</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>13</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>17693</PointerOffset>
       <JapaneseText>notice</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Notice</EnglishText>
       <Notes/>
       <Id>14</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
-</MenuText>
+</SceneText>
