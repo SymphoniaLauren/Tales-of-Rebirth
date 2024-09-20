@@ -24,10 +24,14 @@
 敵に勝利する事で
 経験値を得る事ができます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Level represents a character's overall strength.
+When the amount of Experience a character
+accumulates reaches a specific threshold,
+LV inceases. You gain Experience by defeating
+enemies in battle.</EnglishText>
       <Notes/>
       <Id>207</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20644</PointerOffset>
@@ -62,10 +66,16 @@
 戦闘不能状態を回復するには
 ライフボトルや料理が必要です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Hit Points represent a character's vitality.
+HP Decreases as a character gets hit by
+enemy attacks, and increases when restored
+by Artes or items. When a character's HP
+reaches 0 they are Knocked Out and unable
+to fight. Life Bottles and cooking can be used
+to recover from KO.</EnglishText>
       <Notes/>
       <Id>211</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20664</PointerOffset>
@@ -92,10 +102,16 @@
 敵のＲＧの増減が激しくなり、
 自らの攻撃力が上がります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Rush Gauge ranges from 0-100.
+At lower values, the amount of damage given
+or taken is decreased, while HP recovery and
+spell speed is increased. At higher values, the
+amount of damage given or taken is increased,
+as well as the amount you can affect enemy
+RG, but spells take longer to cast.</EnglishText>
       <Notes/>
       <Id>214</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20684</PointerOffset>
@@ -259,10 +275,13 @@ impacts.</EnglishText>
 この値が高いほど、ＨＰ回復の
 度合いが大きくなります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>HP Regen governs the amount of Hit Points
+a character will recover during battle. The 
+higher this value is, the more HP
+is recovered through Artes.</EnglishText>
       <Notes/>
       <Id>231</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20844</PointerOffset>
@@ -279,10 +298,13 @@ impacts.</EnglishText>
 この値が高いほど、ＦＧ回復の
 度合いが大きくなります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>FG Regen governs the amount of FG
+a character will automatically recover during
+battle. The higher this value is, the more FG
+is recovered automatically.</EnglishText>
       <Notes/>
       <Id>233</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20864</PointerOffset>
@@ -303,10 +325,12 @@ impacts.</EnglishText>
 弱めの敵と戦って経験値を
 ためてみましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>A character's Experience Points represents the
+amount of experience they have with combat.
+As EXP is accumulated, Level is increased at specif</EnglishText>
       <Notes/>
       <Id>235</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20884</PointerOffset>
@@ -325,10 +349,14 @@ impacts.</EnglishText>
 長所がありますが、ダメージは
 受けるので注意が必要です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Iron Stance allows you to continue attacking
+without being interrupted by enemy attacks.
+Artes with Iron Stance have an advantage at
+close range, but damage is still inflicted
+through Iron Stance.</EnglishText>
       <Notes/>
       <Id>237</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20904</PointerOffset>
@@ -347,10 +375,15 @@ impacts.</EnglishText>
 成長させられます。
 メニュー：術技
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Force Cube is the embodiment of a
+character's Force. Each corner of the cube
+has an added effect that you can set to each
+arte a character has equipped by rotating the
+cube. Access the Force Cube through the Force
+option on the Menu.</EnglishText>
       <Notes/>
       <Id>239</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20924</PointerOffset>
@@ -369,10 +402,13 @@ impacts.</EnglishText>
 連携する事ができます。
 操作：&lt;icon:1F&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Powerful weapon attacks. You can earn a
+"Technical Smash" bonus by finishing an enemy
+off using a Force Arte.
+Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>241</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20944</PointerOffset>
@@ -390,10 +426,15 @@ impacts.</EnglishText>
 属性がつき、術によっては
 ふたつの属性を持っています。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Magic can attack from a distance after
+a short spellcasting time. These types of Artes
+always have one of the following elements:
+Earth, Water, Fire, Wind, Light and Darkness.
+Some Force Magic attacks even have multiple
+elements.</EnglishText>
       <Notes/>
       <Id>243</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20964</PointerOffset>
@@ -410,10 +451,13 @@ impacts.</EnglishText>
 あるいは敵に影響を与える術。
 ＨＰの回復能力も備えています。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Force Rituals form Ritual Circles on the ground
+that provide a variety of effects to allies or
+enemies within the circle. They can also
+recover the HP of allied party members.</EnglishText>
       <Notes/>
       <Id>245</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20984</PointerOffset>
@@ -436,10 +480,15 @@ impacts.</EnglishText>
 特定の状態異常を防止するなど、
 様々な副次効果があります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Artes that can buff the character using them
+or allied party members. These artes are not
+affected by the Force Cube and can only be
+used when FG is filled. They can provide a
+variety of effects and enable new strategies
+or prevent negative status effects.</EnglishText>
       <Notes/>
       <Id>247</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21004</PointerOffset>
@@ -466,10 +515,15 @@ impacts.</EnglishText>
 奥義習得が可能です。
 操作：&lt;icon:1F&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Fusionic Force Artes are enhanced Artes. They
+are a higher level derivatives of Force Artes
+that can't be set by themselves. You can learn
+them by highlighting an Arte in the Force
+menu and pressing right.
+Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes/>
       <Id>250</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21024</PointerOffset>
@@ -530,10 +584,17 @@ impacts.</EnglishText>
 &lt;icon:3D&gt;：ターゲット変更
 &lt;icon:3C&gt;：作戦変更
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>&lt;icon:40&gt;: Normal Attack
+&lt;icon:41&gt;: Arte
+&lt;icon:3A&gt;: Guard
+&lt;icon:43&gt;: Battle Menu
+&lt;icon:11&gt;&lt;icon:11&gt;: Lane Switch Upwards
+&lt;icon:12&gt;&lt;icon:12&gt;: Lane Switch Downwards
+&lt;icon:3D&gt;: Target
+&lt;icon:3C&gt;: Strategy</EnglishText>
       <Notes/>
       <Id>257</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21124</PointerOffset>
@@ -553,10 +614,18 @@ impacts.</EnglishText>
 &lt;icon:12&gt;＋&lt;icon:40&gt;：低い敵に対応できる。
 攻撃は何度か連続して出す事が
 できます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Basic strikes using your equipped weapon.
+You can use this attack regardless of the
+status of your Force gauge.
+(Controls assume you're facing right)
+&lt;icon:11&gt;＋&lt;icon:40&gt;: Anti-air attack for flying enemies.
+&lt;icon:D&gt;＋&lt;icon:40&gt;: Attack with longer reach.
+&lt;icon:12&gt;＋&lt;icon:40&gt;: Attack low to the ground.
+Press the attack button repeatedly for a basic
+combo.</EnglishText>
       <Notes/>
       <Id>259</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21144</PointerOffset>
@@ -583,10 +652,14 @@ impacts.</EnglishText>
 勝利への近道です。
 操作：&lt;icon:3A&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Guarding reduces the damage and distance a
+character gets pushed back from attacks.
+Knowing when to guard and when to strike
+is the key to victory!
+Controls:&lt;icon:3A&gt;</EnglishText>
       <Notes/>
       <Id>262</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21164</PointerOffset>
@@ -638,7 +711,7 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
     <Entry>
       <PointerOffset>21204</PointerOffset>
       <JapaneseText>奥ライン移動</JapaneseText>
-      <EnglishText>Lane Switch Upwards</EnglishText>
+      <EnglishText>Line Switch Upwards</EnglishText>
       <Notes/>
       <Id>267</Id>
       <Status>Editing</Status>
@@ -650,15 +723,18 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 誘い込む移動方法。
 操作：&lt;icon:11&gt;&lt;icon:11&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to move your controlled character one
+line upwards. You can dodge attacks or lure
+enemies to another lane this way.
+Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
       <Notes/>
       <Id>268</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21224</PointerOffset>
       <JapaneseText>手前ライン移動</JapaneseText>
-      <EnglishText>Lane Switch Downwards</EnglishText>
+      <EnglishText>Line Switch Downwards</EnglishText>
       <Notes/>
       <Id>269</Id>
       <Status>Editing</Status>
@@ -670,10 +746,13 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 誘い込む移動方法。
 操作：&lt;icon:12&gt;&lt;icon:12&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to move your controlled character one
+line downwards. You can dodge attacks or lure
+enemies to another lane this way.
+Controls:&lt;icon:11&gt;&lt;icon:11&gt;</EnglishText>
       <Notes/>
       <Id>270</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21244</PointerOffset>
@@ -690,10 +769,12 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 専用メニュー。
 操作：&lt;icon:43&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Open a special menu during battle to change
+Equipment, use Items or more.
+Controls:&lt;icon:43&gt;</EnglishText>
       <Notes/>
       <Id>272</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21264</PointerOffset>
@@ -713,10 +794,15 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 　&lt;icon:45&gt;をクリックすると、
 　近い敵に自動変更されます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Use this to switch which enemy you are
+targeting mid-battle.
+Controls:&lt;icon:3D&gt;+&lt;icon:1F&gt;.
+Hold &lt;icon:3D&gt; down to pause and change targets.
+Tap &lt;icon:45&gt; to instantly target the enemy
+nearest to your controlled character.</EnglishText>
       <Notes/>
       <Id>274</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21284</PointerOffset>
@@ -734,10 +820,14 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 　押している間はオートキャラが
 　隊列位置へ移動します。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Changes the strategy you set for the party.
+Controls: &lt;icon:3C&gt;+&lt;icon:D&gt;(Takes effect when the
+buttons are released)
+hold the buttons down to move CPU controlled
+party members to the set positions.</EnglishText>
       <Notes/>
       <Id>276</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21304</PointerOffset>
@@ -754,10 +844,13 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 もう一回押すと再開します。
 操作：STARTボタン
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>You can Pause the game during Battle by
+pressing the START Button! Pressing START
+again will unpause and resume the game.
+Controls: START Button</EnglishText>
       <Notes/>
       <Id>278</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21324</PointerOffset>
@@ -780,10 +873,16 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 　完全に自動操作
 操作：SELECTボタン
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Party members have three different styles of
+control, which can be changed freely.
+&lt;color:2040A0A0&gt;[MANUAL]&lt;color:80000000&gt;: Allows direct control of a character
+&lt;color:2040A0A0&gt;[SEMI-AUTO]&lt;color:80000000&gt;:Characters will automatically move
+into position before performing attacks.
+&lt;color:2040A0A0&gt;[AUTO]&lt;color:80000000&gt;: Characters will fight automatically.
+Controls: SELECT Button</EnglishText>
       <Notes/>
       <Id>280</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21344</PointerOffset>
@@ -801,10 +900,13 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 設定したターゲットを狙う場合は
 &lt;icon:D&gt;を押さずに&lt;icon:40&gt;OR&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Holding &lt;icon:D&gt; and pressing &lt;icon:40&gt; or &lt;icon:41&gt;
+switches your target to an enemy on the line
+in that direction. You can face your target by
+pressing &lt;icon:40&gt; or &lt;icon:41&gt; without pressing &lt;icon:D&gt;</EnglishText>
       <Notes/>
       <Id>282</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21364</PointerOffset>
@@ -826,10 +928,17 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 操作：戦闘フィールド左端で&lt;icon:5&gt;
 　　　　戦闘フィールド右端で&lt;icon:9&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you do not wish to battle, you can Escape.
+Keep in mind that you can't escape mandatory
+battles such as boss fights, and walls or
+objects may obstruct you from escaping in a
+certain direction.
+Controls:
+&lt;icon:5&gt; on the left side of the screen
+&lt;icon:9&gt; on the right side of the screen</EnglishText>
       <Notes/>
       <Id>284</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21384</PointerOffset>
@@ -852,10 +961,16 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 より高いダメージを与える事が
 できます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Special moves that use your Force Gauge are
+called Artes. You can set Artes you have
+learned to one of four slots corresponding to a
+cardinal direction. You can use any arte you
+set by pressing the D-pad in that direction
+and &lt;icon:41&gt;. With enough FG, Artes can heal
+your party members or deal increased damage.</EnglishText>
       <Notes/>
       <Id>286</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21404</PointerOffset>
@@ -875,10 +990,16 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 
 操作：&lt;icon:3A&gt;＋&lt;icon:11&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This action allows you to increase RG at will.
+&lt;color:2040A0A0&gt;Attacks following a Rush Charge cannot be
+guarded against.&lt;color:80000000&gt; Some enemies tend to block
+your attacks when your Rush Gauge is low,
+so Rush Charge can be an effective way to
+attack such enemies unimpeded.
+Controls: &lt;icon:3A&gt;+&lt;icon:11&gt;</EnglishText>
       <Notes/>
       <Id>288</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21424</PointerOffset>
@@ -898,15 +1019,21 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 
 操作：&lt;icon:3A&gt;＋&lt;icon:12&gt;
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This action allows you to decrease RG at will.
+&lt;color:2040A0A0&gt;Attacks following a Cool Charge cannot be
+guarded against.&lt;color:80000000&gt; Some enemies tend to block
+your attacks when your Rush Gauge is high,
+so switch between using Rush Charge and Cool
+Charge as the situation demands it.
+Controls: &lt;icon:3A&gt;+&lt;icon:12&gt;</EnglishText>
       <Notes/>
       <Id>290</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21444</PointerOffset>
       <JapaneseText>ラインフィールド</JapaneseText>
-      <EnglishText>Lane Switching</EnglishText>
+      <EnglishText>Line Switching</EnglishText>
       <Notes/>
       <Id>291</Id>
       <Status>Editing</Status>
@@ -919,10 +1046,16 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 &lt;icon:11&gt;&lt;icon:11&gt;で奥へ
 &lt;icon:12&gt;&lt;icon:12&gt;で手前へ
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The Three Line Linear Motion Battle System
+divides the the battlefield into three Lines.
+You can freely switch between these three
+Lines as you battle.
+Controls:
+&lt;icon:11&gt;&lt;icon:11&gt; to Line Switch upwards.
+&lt;icon:12&gt;&lt;icon:12&gt; to Line Switch downwards.</EnglishText>
       <Notes/>
       <Id>292</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21464</PointerOffset>
@@ -941,10 +1074,13 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 戦闘に苦戦している方は、
 チェックしてみましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This section fills with information the more
+your party levels increase. Be sure to refer
+back to this section as you progress to avoid
+having trouble with new battle mechanics.</EnglishText>
       <Notes/>
       <Id>294</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21484</PointerOffset>
@@ -965,10 +1101,17 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 攻撃前に&lt;icon:45&gt;を短く押す
 習慣をつけてみましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>When a character is set to Auto, they will
+move, attack and defend without plaer input.
+Characters set to Semi-Auto will automatically
+defend when the player does not press any
+buttons, but the player must still direct them
+to move and attack. By the way, regardless
+of Semi-Auto or Manual, try getting used to
+tapping &lt;icon:45&gt; to target the nearest enemy.</EnglishText>
       <Notes/>
       <Id>296</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21504</PointerOffset>
@@ -985,10 +1128,16 @@ Controls:&lt;icon:3A&gt;＋&lt;icon:14&gt;(When facing right)</EnglishText>
 次の攻撃を行える場合があります。
 基本は　通常攻撃＋特技　です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you input another attack while a character
+is already attacking, they'll smoothly transition
+to the next attack without having to take
+time to recover from the previous attack. This
+is called Attack Chaining. For a basic Attack
+Chain, try performing a Normal Attack first,
+then an Arte during the Normal Attack.</EnglishText>
       <Notes/>
       <Id>298</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21524</PointerOffset>
@@ -1169,7 +1318,7 @@ to avoid taking hits and having to heal HP.</EnglishText>
     <Entry>
       <PointerOffset>21664</PointerOffset>
       <JapaneseText>敵が強い</JapaneseText>
-      <EnglishText>Battles are too hard!</EnglishText>
+      <EnglishText>Help, Battles are getting too hard!</EnglishText>
       <Notes/>
       <Id>314</Id>
       <Status>Editing</Status>
@@ -2597,10 +2746,16 @@ your total EP after an enhancement.</EnglishText>
 状態異常を防止する護符などで
 対処するのが賢明です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Status Effects are negative conditions that may
+occur to characters in battle. Characters can
+automatically recover from any status effect
+after enough time has passed, or after battle.
+Experience gain is reduced if status effects are
+removed after battle, so be proactive about
+equipping status resistant equipment.</EnglishText>
       <Notes/>
       <Id>445</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23164</PointerOffset>
@@ -2616,10 +2771,13 @@ your total EP after an enhancement.</EnglishText>
 地系に属し、地属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This status effect slows down a character's
+movement speed. Slow is associated with
+Earth, so enemies that resist Earth will resist
+the Slow effect as well.</EnglishText>
       <Notes/>
       <Id>447</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23184</PointerOffset>
@@ -2635,10 +2793,13 @@ your total EP after an enhancement.</EnglishText>
 風系に属し、風属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This Status Effect prevents FG recovery. Weak
+is associated with Wind, so enemies that 
+resist Wind will resist the Weak effect as 
+well.</EnglishText>
       <Notes/>
       <Id>449</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23204</PointerOffset>
@@ -2657,10 +2818,15 @@ your total EP after an enhancement.</EnglishText>
 火系に属し、火属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This Status Effect increases RG until it reaches
+100, and causes HP to drop. HP cannot be
+restored at 100 RG so this one is particularly
+dangerous. Poison is associated with Fire, so
+enemies that resist Fire will resist the Poison
+status effect as well.</EnglishText>
       <Notes/>
       <Id>451</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23224</PointerOffset>
@@ -2678,10 +2844,15 @@ your total EP after an enhancement.</EnglishText>
 水系に属し、水属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>This Status Effect prevents a character from
+moving entirely, as they will be frozen.
+Taking damage while frozen will allow you
+to move again. Freeze is naturally associated
+with Water, so enemies that resist Water will
+resist Freeze as well.</EnglishText>
       <Notes/>
       <Id>453</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23244</PointerOffset>
@@ -2700,10 +2871,15 @@ your total EP after an enhancement.</EnglishText>
 光系に属し、光属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>If you attempt to attack or use artes while
+afflicted with this Status Effect, you may find
+yourself unable to act. You can still use items
+to restore your status while Paralyzed.
+Paralysis is associated with Light so enemies
+that resist Light will resist Paralysis as well.</EnglishText>
       <Notes/>
       <Id>455</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23264</PointerOffset>
@@ -2722,10 +2898,16 @@ your total EP after an enhancement.</EnglishText>
 闇系に属し、闇属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>While Panicking, a characters RG reduces until
+they get Knocked Out. If you remove this
+Status Effect before a KO happens, you'll take
+no damage, so it's better to take care of it
+immediately. Panic is associated with Dark,
+so enemies that resist Dark will resist Panic
+as well.</EnglishText>
       <Notes/>
       <Id>457</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23284</PointerOffset>
