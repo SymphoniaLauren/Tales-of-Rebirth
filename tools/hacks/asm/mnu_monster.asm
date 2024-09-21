@@ -1,6 +1,8 @@
 .ps2
 .open __MNU_MONSTER_OVL_PATH__, 0x002D8900
 
+
+; Window size hack
 .org 0x2DEBC4
 .hword 0x6E60
 

@@ -155,20 +155,29 @@ void func_00101EA8(void) {
     func_00113BC0();
     func_00108668();
 
+    // Load custom files
+    // load_mnu_monster();
+
     // Load custom file test
+    // memset(&file, 0, sizeof(file));
+    // file.file_id = 10227; // Custom file ID
+    // file.file_size = get_file_size(file.file_id, 0);
+    // file.addr = alloc_EE(file.file_size, 0, 0);
+    // file.flags = IS_COMPRESSED; // Seems to be SYNC flag 
+    // file.unk12 = 0;
+    // file_pls(&file);
+    
+    // printf("###########################\n");
+    // printf("%s\n", file.addr);
+    // printf("###########################\n");
+
     memset(&file, 0, sizeof(file));
-    file.file_id = 10227; // Custom file ID
+    file.file_id = 10264; // Custom file ID
     file.file_size = get_file_size(file.file_id, 0);
-    file.addr = alloc_EE(file.file_size, 0, 0);
+    file.addr = 0x00391400; // old heap start address
     file.flags = IS_COMPRESSED; // Seems to be SYNC flag 
     file.unk12 = 0;
     file_pls(&file);
-    
-    printf("###########################\n");
-    printf("%s\n", file.addr);
-    printf("###########################\n");
-
-    // Won't free it :)
 
     memset(&file, 0, sizeof(file));
 
