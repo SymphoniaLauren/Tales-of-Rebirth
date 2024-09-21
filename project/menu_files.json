@@ -1236,6 +1236,23 @@
 		]
 	},
 	{
+		"file_path": "./DAT/OVL/14962.ovl",
+		"friendly_name": "fld_event_ship",
+		"is_pak": false,
+		"split_sections": false,
+		"base_offset": 0x383780,
+		"safe_areas": [
+			[0x0384940,0x0384950],
+		],
+		"sections": [],
+		"embedded": [
+			{
+				"HI": [0x383E6C,0x384510],
+				"LO": [0x383E74,0x384518],
+			},
+		]
+	},
+	{
 		"file_path": "./DAT/PAK0/14972.pak0",
 		"is_pak": true,
 		"pak_type": 0,
