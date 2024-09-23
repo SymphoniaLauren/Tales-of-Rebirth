@@ -521,6 +521,7 @@
 		"files": [
 			{
 				"file": 5,
+				"is_sce": false,
 				"friendly_name": "Triangle Menu",
 				"split_sections": false,
 				"base_offset": 0,
@@ -546,6 +547,7 @@
 		"files": [
 			{
 				"file": 0,
+				"is_sce": false,
 				"friendly_name": "Mini Game 1",
 				"split_sections": false,
 				"base_offset": 0,
@@ -564,6 +566,7 @@
 			},
 			{
 				"file": 2,
+				"is_sce": false,
 				"friendly_name": "Mini Game 2",
 				"split_sections": false,
 				"base_offset": 0,
@@ -589,6 +592,7 @@
 		"files": [
 			{
 				"file": 0,
+				"is_sce": false,
 				"friendly_name": "Battle Overlay",
 				"split_sections": false,
 				"base_offset": 0x2EF680,
@@ -747,6 +751,7 @@
 			},
 			{
 				"file": 2,
+				"is_sce": false,
 				"friendly_name": "3dfield Overlay",
 				"split_sections": false,
 				"base_offset": 0x2EF680,
@@ -1064,6 +1069,7 @@
 		"files": [
 			{
 				"file": 2,
+				"is_sce": false,
 				"friendly_name": "mnu_sound",
 				"split_sections": false,
 				"base_offset": 0x2D8900,
@@ -1071,6 +1077,18 @@
 					[0x02E5670,0x02E5D60],
 				],
 				"sections": [
+					{
+						"section": "sdmd_menu_title",
+						"pointers_start": 0x3F70,
+						"pointers_end": 0x3FC0,
+						"style": "T16"
+					},
+					{
+						"section": "sdmd_bgm_cate_name",
+						"pointers_start": 0x3FD8,
+						"pointers_end": 0x4048,
+						"style": "T16"
+					},
 					{
 						"section": "sdmd_bgm_cate_in_name_title",
 						"pointers_start": 0x4068,
@@ -1228,5 +1246,58 @@
 				"LO": [0x2F174C],
 			}
 		]
-	}
+	},
+	{
+		"file_path": "./DAT/OVL/14962.ovl",
+		"friendly_name": "fld_event_ship",
+		"is_pak": false,
+		"split_sections": false,
+		"base_offset": 0x383780,
+		"safe_areas": [
+			[0x0384940,0x0384950],
+		],
+		"sections": [],
+		"embedded": [
+			{
+				"HI": [0x383E6C,0x384510],
+				"LO": [0x383E74,0x384518],
+			},
+		]
+	},
+	{
+		"file_path": "./DAT/PAK0/14972.pak0",
+		"is_pak": true,
+		"pak_type": 0,
+		"files": [
+			{
+				"file": 1,
+				"is_sce": true,
+				"friendly_name": "3dfield 1"
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/PAK0/14973.pak0",
+		"is_pak": true,
+		"pak_type": 0,
+		"files": [
+			{
+				"file": 1,
+				"is_sce": true,
+				"friendly_name": "3dfield 2"
+			}
+		]
+	},
+	{
+		"file_path": "./DAT/PAK0/14974.pak0",
+		"is_pak": true,
+		"pak_type": 0,
+		"files": [
+			{
+				"file": 1,
+				"is_sce": true,
+				"friendly_name": "3dfield 3"
+			}
+		]
+	},
 ]
