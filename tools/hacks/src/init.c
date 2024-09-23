@@ -1,66 +1,73 @@
 #include "types.h"
 #include "rebirth.h"
 #include "sceio.h"
+#include "init.h"
 
 #define CUSTOM_FILE_SIZE 0x40
+#define OLD_HEAP_BASE 0x00391400
+#define CUSTOM_CODE_FID 10227
+#define MNU_MONSTER_FID 10264
 
-extern void* custom;
-extern void* custom_temp;
-extern void* _gp;
-extern void (*rotate_thread_func)(void*);
-extern int rotate_thread_id;
-extern int rotate_thread_stack[];
+void load_custom_files() {
+    file_desc file;
 
-void* memset(void*, int, unsigned int);
-int printf(char*, ...);
+    // Load custom code file
+    memset(&file, 0, sizeof(file));
+    file.file_id = CUSTOM_CODE_FID;
+    file.file_size = get_file_size(file.file_id, 0);
+    file.addr = alloc_EE(file.file_size, 0, 0);
+    file.flags = LOAD_BLOCKING;
+    file.unk12 = 0;
+    file_pls(&file);
+    
+    printf("###########################\n");
+    printf("%s\n", file.addr);
+    printf("###########################\n");
+    
+    // Load custom mnu_monster file
+    // as it's loaded in the old heap_base
+    // it's outside the malloc realm
+    memset(&file, 0, sizeof(file));
+    file.file_id = MNU_MONSTER_FID;
+    file.file_size = get_file_size(file.file_id, 0);
+    file.addr = OLD_HEAP_BASE;
+    file.flags = LOAD_BLOCKING;
+    file.unk12 = 0;
+    file_pls(&file);
+}
 
-typedef struct unk_main_struct {
-    u8 pad[1638];
-    u8 unk666;
-    u8 unk667;
-} unk_main_struct;
+// void load_from_host0() {
+//     int fd;
+//     int filesize;
+//     u8 buf[255];
 
-extern unk_main_struct gMain;
+//     // open a file to read and check its size
+//     fd = sceOpen("host0:hello.txt", SCE_RDONLY);
+//     if (fd < 0) {
+//         printf("Couldn't open host0 file\n");
+//     } else {
+//         filesize = sceLseek(fd, 0, SCE_SEEK_END);
+//         sceLseek(fd, 0, SCE_SEEK_SET);
 
-typedef struct ThreadParam {
-    s32     status;
-    void    (*entry)(void *);
-    void    *stack;
-    s32     stackSize;
-    void    *gpReg;
-    s32     initPriority;
-    s32     currentPriority;
-    u32     attr;
-    u32     option;
-    s32     waitType;
-    s32     waitId;
-    s32     wakeupCount;
-} ThreadParam;
+//         sceRead(fd, &buf, filesize);
+//         printf("%s\n", &buf);
+//         sceClose(fd);
+//     }
+// }
 
-typedef struct unk_struct {
-    s32 unk0;
-    s32 unk4;
-    s32 unk8;
-    s32 unkC;
-    s32 unk10;
-    s32 unk14;
-    u16 unk18;
-    u16 unk1A;
-} unk_struct;
-
-void func_00101EA8(void) {
-    int pd0;
+void init_all_the_things(void) {
     ThreadParam thread;
     int i;
-    int pd1;
     int local_328;
     u32 cd_mode;
-    int pd2;
     u8 *local_31c;
-    u8 pad[0x2B0];
     file_desc file;
     unk_struct mnuenv_maybe;
 
+    // Init file system IOP module needs the stack
+    // aligned to 0x10, so ensure that's the case
+    STACK_ALIGN();
+    
     func_001002A8();
     cd_mode = 2;
     init_heap();
@@ -92,39 +99,10 @@ void func_00101EA8(void) {
     StartThread(rotate_thread_id, 0);
     func_0010E1E8();
     func_0010F830();
-    // There's a weird problem when calling init BOOT.IRX
-    asm volatile ("nop":);
-    asm volatile ("nop":);
-    asm volatile ("nop":);
-    asm volatile ("nop":);
-    asm volatile ("nop":);
-    asm volatile ("nop":);
-    asm volatile ("nop":);
-    asm volatile ("nop":);
-    func_00101CA8();
+    init_filesystem(); // init IOP filesystem module
 
     gMain.unk666 = 1;
     gMain.unk667 = 1;
-
-
-    // {
-    //     int fd;
-    //     int filesize;
-    //     u8 buf[255];
-
-    //     // open a file to read and check its size
-    //     fd = sceOpen("host0:hello.txt", SCE_RDONLY);
-    //     if (fd < 0) {
-    //         printf("Cannot open %s\n", "host0:hello.txt");
-    //     }
-
-    //     filesize = sceLseek(fd, 0, SCE_SEEK_END);
-    //     sceLseek(fd, 0, SCE_SEEK_SET);
-
-    //     sceRead(fd, &buf, filesize);
-    //     printf("%s\n", &buf);
-    //     sceClose(fd);
-    // }
 
     func_0010F148();
     func_0010ED38();
@@ -156,35 +134,13 @@ void func_00101EA8(void) {
     func_00108668();
 
     // Load custom files
-    // load_mnu_monster();
-
-    // Load custom file test
-    // memset(&file, 0, sizeof(file));
-    // file.file_id = 10227; // Custom file ID
-    // file.file_size = get_file_size(file.file_id, 0);
-    // file.addr = alloc_EE(file.file_size, 0, 0);
-    // file.flags = IS_COMPRESSED; // Seems to be SYNC flag 
-    // file.unk12 = 0;
-    // file_pls(&file);
-    
-    // printf("###########################\n");
-    // printf("%s\n", file.addr);
-    // printf("###########################\n");
+    load_custom_files();
 
     memset(&file, 0, sizeof(file));
-    file.file_id = 10264; // Custom file ID
-    file.file_size = get_file_size(file.file_id, 0);
-    file.addr = 0x00391400; // old heap start address
-    file.flags = IS_COMPRESSED; // Seems to be SYNC flag 
-    file.unk12 = 0;
-    file_pls(&file);
-
-    memset(&file, 0, sizeof(file));
-
     while ((local_31c = sceSifAllocSysMemory(1, 0x1c000, 0)) == 0);
     file.addr = local_31c;
     file.start_offset = file.file_size = 0;
-    file.flags = IS_COMPRESSED | FROM_DAT_BIN | IS_IOP_MODULE;
+    file.flags = LOAD_BLOCKING | IS_COMPRESSED | IS_IOP_MODULE;
     file.unk12 = 0;
     for (i = 0; i < 5; i++) {
         file.file_id = i + 3;
@@ -217,7 +173,7 @@ void func_00101EA8(void) {
     func_00103100();
     file.addr = local_31c;
     file.start_offset = file.file_size = 0;
-    file.flags = IS_COMPRESSED | FROM_DAT_BIN | IS_IOP_MODULE;
+    file.flags = LOAD_BLOCKING | IS_COMPRESSED | IS_IOP_MODULE;
     file.unk12 = 0;
     for (i = 5; i < 10; i++) {
         file.file_id = i + 3;

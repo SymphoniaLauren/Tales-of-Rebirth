@@ -39,6 +39,8 @@
 .importobj "./build/init.o"
 .endarea
 
+.org 0x00100248
+    jal      init_all_the_things ; defined in init.o
 
 ; Enable dummied out debug print call
 .org 0x0010d380
