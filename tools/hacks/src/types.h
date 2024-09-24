@@ -6,6 +6,7 @@
 #else
 #define PACKED
 #define __attribute__(x)
+#define asm(x)
 #endif
 
 typedef signed char      s8;
