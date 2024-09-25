@@ -3,7 +3,7 @@
 
 #include "types.h"
 
-#define STACK_ALIGN() { vu128 pad __attribute__((aligned(16))); asm("":"=r"(pad):); }
+#define STACK_ALIGN() { u128 pad __attribute__((aligned(16))); asm("":"=r"(pad):); }
 
 typedef enum PACKED FILE_FLAGS {
     UNK_FLAG_0        = 0,
