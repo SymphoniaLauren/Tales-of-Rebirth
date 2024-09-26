@@ -3,11 +3,13 @@
 
 #include "types.h"
 
+#define STACK_ALIGN() { u128 pad __attribute__((aligned(16))); asm("":"=r"(pad):); }
+
 typedef enum PACKED FILE_FLAGS {
     UNK_FLAG_0        = 0,
     IS_OVERLAY_LIKELY = (1 << 0),
-    IS_COMPRESSED     = (1 << 1),
-    FROM_DAT_BIN      = (1 << 2),
+    LOAD_BLOCKING     = (1 << 1),
+    IS_COMPRESSED     = (1 << 2),
     UNK_FLAG_3        = (1 << 3),
     IS_IOP_MODULE     = (1 << 4),
     UNK_FLAG_10       = (1 << 10),

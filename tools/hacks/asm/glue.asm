@@ -5,6 +5,7 @@
 
 ; Extern function references
 .definelabel init_party_data,      0x00100360
+.definelabel init_filesystem,      0x00101CA8
 .definelabel rotate_thread_func,   0x001025B8
 .definelabel custom_memcpy,        0x00108F20
 .definelabel alloc_EE,             0x00109500
@@ -60,7 +61,6 @@
 .definelabel func_001002E8,        0x001002E8
 .definelabel func_001005A8,        0x001005A8
 .definelabel func_00100760,        0x00100760
-.definelabel func_00101CA8,        0x00101CA8
 .definelabel func_00101E18,        0x00101E18
 .definelabel func_00102608,        0x00102608
 .definelabel func_00103100,        0x00103100
