@@ -1332,7 +1332,7 @@ to avoid taking hits and having to heal HP.</EnglishText>
     <Entry>
       <PointerOffset>21664</PointerOffset>
       <JapaneseText>敵が強い</JapaneseText>
-      <EnglishText>Help, Battles are getting too hard!</EnglishText>
+      <EnglishText>Help, Battles are too hard!</EnglishText>
       <Notes/>
       <Id>314</Id>
       <Status>Editing</Status>
@@ -1345,10 +1345,12 @@ to avoid taking hits and having to heal HP.</EnglishText>
 　武具をエンハンスによって
 　強化・育成してみましょう。
 難易度の変更：メニュー「カスタム」</JapaneseText>
-      <EnglishText/>
+      <EnglishText>-Try attacking when enemies aren't defending.
+-Try buying stronger equipment, or enhancing
+equipment you already have.</EnglishText>
       <Notes/>
       <Id>315</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21684</PointerOffset>
@@ -1365,10 +1367,13 @@ to avoid taking hits and having to heal HP.</EnglishText>
 ・難易度を上げて武具を鍛えると、
 　珍しい効果がつくことが
 　あるかも知れません。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>-For a more enjoyable challenge, increase the
+difficulty level and try for longer combos!
+-Enhancing equipment on higher difficulty
+may cause special effects.</EnglishText>
       <Notes/>
       <Id>317</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21704</PointerOffset>
@@ -1439,10 +1444,14 @@ air where they cannot break out or counter.</EnglishText>
 火と水が相反関係、
 光と闇が相反関係にあります。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>There are six elemental attributes that form
+opposing pairs:
+Earth and Wind
+Fire and Water
+Light and Dark</EnglishText>
       <Notes/>
       <Id>323</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21764</PointerOffset>
@@ -1544,10 +1553,13 @@ air where they cannot break out or counter.</EnglishText>
 ４．それを繰り返すことで
 　　未知の効果を見つけましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>1. Battle to gain EP and Enhance equipment
+2. Enhance equipment to gain Latent Abilities
+3. Inherit Enhancements on stronger equipment
+4. Repeat to find all kinds of Latent Abilities</EnglishText>
       <Notes/>
       <Id>334</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21924</PointerOffset>
@@ -1565,10 +1577,13 @@ air where they cannot break out or counter.</EnglishText>
 育てた武器は継承を繰り返す事で
 新たな効果を生む可能性を無限に
 広げる事ができます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Enhance equipment multiple times to awaken
+Latent Abilities. Since there's no limit to the
+amount of times you can inherit enhanced
+equipment, the possibilities are endless!</EnglishText>
       <Notes/>
       <Id>336</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>21944</PointerOffset>
@@ -1642,10 +1657,15 @@ your total EP after an enhancement.</EnglishText>
 消費ＥＰは、エンハンスを行う度に
 １ポイントずつ増えていきますので
 鍛える順番も重要です。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Select Enhance in the Menu.
+1. Select a weapon.
+2. Select which stat to enhance.
+3. Confirm.
+Each Enhancement raises the EP cost by one,
+so prioritize which stats to enhance first.</EnglishText>
       <Notes/>
       <Id>343</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22004</PointerOffset>
@@ -1664,10 +1684,13 @@ your total EP after an enhancement.</EnglishText>
 出たら、そのキャラクターの
 装備武具をエンハンスできます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>After battle, &lt;color:2040A0A0&gt;ENHANCE EXECUTABLE!&lt;color:80000000&gt; may
+appear to indicate you can enhance equipment.
+An icon of a Hammer above a character's HP
+indicates you can enhance their equipment.</EnglishText>
       <Notes/>
       <Id>345</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22024</PointerOffset>
@@ -1684,15 +1707,17 @@ your total EP after an enhancement.</EnglishText>
 最大レベルが増える場合があり、
 継承効果によって増える可能性
 もあります。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Equipment is limited to 3 enhancements by
+default, with higher limits for higher rank
+equipment or through Inheritance.</EnglishText>
       <Notes/>
       <Id>347</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22044</PointerOffset>
       <JapaneseText>強化能力一覧</JapaneseText>
-      <EnglishText>List of Enhancement Effects</EnglishText>
+      <EnglishText>List of Enhanceeable Stats</EnglishText>
       <Notes/>
       <Id>348</Id>
       <Status>Editing</Status>
@@ -1700,7 +1725,7 @@ your total EP after an enhancement.</EnglishText>
     <Entry>
       <PointerOffset>22048</PointerOffset>
       <JapaneseText>強化能力</JapaneseText>
-      <EnglishText>Enhancement Effects</EnglishText>
+      <EnglishText>Enhanceable Stats</EnglishText>
       <Notes/>
       <Id>349</Id>
       <Status>Editing</Status>
@@ -1714,10 +1739,16 @@ your total EP after an enhancement.</EnglishText>
 　
 潜在能力が発現すると
 覚醒率も強化できます。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Slash Attack/Defense
+Strike Attack/Defense
+Force Attack/Defense
+FG Recovery/HP Recovery
+
+You can also enhance the Awakening Rate of
+a Latent Ability after learning it.</EnglishText>
       <Notes/>
       <Id>350</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22064</PointerOffset>
@@ -1739,10 +1770,16 @@ your total EP after an enhancement.</EnglishText>
 「武具潜在能力一覧」で、取得した
 潜在能力を確認できます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Special effects hidden in equipment. Enhancing
+equipment multiple times brings out inherent
+Latent Abilities that can be activated during
+battle depending on the Awakening Rate. The
+more Latent Abilities you find, the higher
+chance you'll find new ones. The Latent
+Ability List has all of the ones you've found.</EnglishText>
       <Notes/>
       <Id>352</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22084</PointerOffset>
@@ -1761,10 +1798,14 @@ your total EP after an enhancement.</EnglishText>
 ごくまれに、覚醒率が非常に高い
 武具が見つかるかもしれません。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>The chance of a Latent Ability activating in
+battle. The ability itself generally determines
+the usual Awakening rate, but depending on
+the weapon you may find an unusually high
+Awakening Rate.</EnglishText>
       <Notes/>
       <Id>354</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22104</PointerOffset>
@@ -1804,10 +1845,15 @@ your total EP after an enhancement.</EnglishText>
 &lt;color:2040A0A0&gt;特定の武器屋・防具屋でのみ可能
 &lt;color:80000000&gt;です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Inheritance transfers Enhancements from old
+equipment to new, &lt;color:2040A0A0&gt;unenhanced equipment&lt;color:80000000&gt;.
+The new equipment will gain the increased
+stats and bonus EP, but you will lose the
+old equipment. Inheritance is available
+&lt;color:2040A0A0&gt;only at certain weapon and armor shops&lt;color:80000000&gt;.</EnglishText>
       <Notes/>
       <Id>358</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22124</PointerOffset>
@@ -1851,10 +1897,13 @@ your total EP after an enhancement.</EnglishText>
 継承を行う際には、
 名前も引き継げます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Selecting "Rename" at Weapon and Armor
+shops allows you to rename equipment with
+&lt;color:2040A0A0&gt;awakened latent abilities.&lt;color:80000000&gt; Inheritance will
+transfer the name to new equipment too.</EnglishText>
       <Notes/>
       <Id>362</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22164</PointerOffset>
@@ -1872,10 +1921,12 @@ your total EP after an enhancement.</EnglishText>
 困りますので、不要な武具は
 早めに継承するか、
 売却するようにしましょう。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Each character can only carry 10 pieces of
+weapons or armor each, so be sure to inherit
+or sell old gear to make room for new gear.</EnglishText>
       <Notes/>
       <Id>364</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22184</PointerOffset>
@@ -2045,10 +2096,13 @@ your total EP after an enhancement.</EnglishText>
 　ためましょう。
 ２．ＬＶとスマッシュポイントが
 　たまったら奥義を習得しましょう。</JapaneseText>
-      <EnglishText/>
+      <EnglishText>1. Defeat enemies with Artes and combos to
+earn Smash Points through Technical Smashes.
+2. After gaining enough Smash Points and
+Levels, learn Fusionic Force in the Arte menu.</EnglishText>
       <Notes/>
       <Id>379</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22344</PointerOffset>
@@ -2145,10 +2199,14 @@ your total EP after an enhancement.</EnglishText>
 などによって、獲得ポイントが
 増えます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Earn Smash Points with the following methods
+-Technical Smashes give bonus Smash Points.
+-Use a variety of different Artes per battle.
+-Defeat multiple enemies simultaneously.
+-Use Force Abilities or Force Rituals.</EnglishText>
       <Notes/>
       <Id>387</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22424</PointerOffset>
