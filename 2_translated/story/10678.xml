@@ -77,7 +77,7 @@
     <Entry>
       <PointerOffset>1920,1534,1559,878</PointerOffset>
       <JapaneseText>カレギアの紋章の石碑</JapaneseText>
-      <EnglishText>Callegean Crest Stone Tablet</EnglishText>
+      <EnglishText>Callegean Crest Stele</EnglishText>
       <Notes/>
       <Id>8</Id>
       <Status>Done</Status>
@@ -85,7 +85,7 @@
     <Entry>
       <PointerOffset>2028,2106,2184,2262,2340,2418,2496,1126,1214,1254,1288,1322,1356,1390,1424,1458</PointerOffset>
       <JapaneseText>石碑の解読内容</JapaneseText>
-      <EnglishText>Stone Tablet's Deciphered Contents</EnglishText>
+      <EnglishText>Stele's Deciphered Contents</EnglishText>
       <Notes/>
       <Id>9</Id>
       <Status>Done</Status>
@@ -111,7 +111,7 @@
     <Entry>
       <PointerOffset>1483</PointerOffset>
       <JapaneseText>聖なる戦いの石碑</JapaneseText>
-      <EnglishText>Sacred War Stone Tablet</EnglishText>
+      <EnglishText>Stele of the Sacred War</EnglishText>
       <Notes/>
       <Id>12</Id>
       <Status>Done</Status>
@@ -355,14 +355,13 @@ care of it.</EnglishText>
       <JapaneseText>やあ、君たち！
 この石碑の解読を進めているんだ。
 内容を聞きたいかい？</JapaneseText>
-      <EnglishText>Hey, guys! I'm trying to
-decipher this stone tablet.
-Do you want to know
+      <EnglishText>Hey, guys! I'm trying to decipher
+this stele. Do you want to know
 what it says?</EnglishText>
       <Notes>who is "we" in this context? Or is it supposed to be "I"?</Notes>
       <SpeakerId>6</SpeakerId>
       <Id>20</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1751</PointerOffset>
@@ -370,12 +369,12 @@ what it says?</EnglishText>
 石碑の解読は進んでるよ。
 内容を聞きたいかい？</JapaneseText>
       <EnglishText>Hey, guys! I'm making progress
-in deciphering this stone tablet.
-Do you want to know what it says?</EnglishText>
+in deciphering this stele. Do you
+want to know what it says?</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>21</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1774</PointerOffset>
@@ -387,7 +386,7 @@ Cancel</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>22</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1835</PointerOffset>
@@ -395,10 +394,9 @@ Cancel</EnglishText>
 聞きたくなったら来てよね。
 がんばって解読するからさ。
 </JapaneseText>
-      <EnglishText>All right. Come back when
-you want to know more about
-the stone tablet. I'll do my
-best to decipher it.</EnglishText>
+      <EnglishText>All right. Come back when you want
+to know more about the stele. I'll do
+my best to decipher it.</EnglishText>
       <Notes>say no</Notes>
       <SpeakerId>6</SpeakerId>
       <Id>23</Id>
@@ -409,7 +407,7 @@ best to decipher it.</EnglishText>
       <JapaneseText>まずは、右の石碑から説明しよう。
 これは比較的簡単だったよ。
 石碑の内容はね……</JapaneseText>
-      <EnglishText>Let's start with the stone tablet
+      <EnglishText>Let's start with the stele
 on the right. This one was
 relatively easy to figure out.
 The contents of the stone
@@ -425,15 +423,15 @@ monument say...</EnglishText>
 　友愛と団結の旗の下　共に戦い歩み　
 　安らぎを大地にもたらさん。　</JapaneseText>
       <EnglishText>"Uniting our two bodies under
-one heart,　under the flag of
+one heart, under the flag of
 friendship and unity, we will
-fight side by side and make 
+fight side by side and make
 steps towards bringing peace
 to the land."</EnglishText>
       <Notes>workshopped it a bit, but I want it checked.</Notes>
       <SpeakerId>8</SpeakerId>
       <Id>25</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1945</PointerOffset>
@@ -441,9 +439,9 @@ to the land."</EnglishText>
 それから、こっちの石碑だけど、
 壊れてる部分もあるし、
 今、わかってるのはこれだけさ……</JapaneseText>
-      <EnglishText>That's what it says. This stone tablet
-over here is broken in a few places,
-so this is all I can gleam from it... </EnglishText>
+      <EnglishText>That's what it says. This stele over
+here is broken in a few places, so
+this is all I can gleam from it...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>26</Id>
@@ -472,22 +470,27 @@ so this is all I can gleam from it... </EnglishText>
 六人の聖者は聖なる力を合わせて思念を浄化し、
 王の精神をゴルドバの月と呼ばれる石に封じた。
 これが聖なる戦いである。</JapaneseText>
-      <EnglishText>&lt;speed:0&gt;The Sacred King and the Six Saints confronted each other over the 
-treatment of Huma, who tried to rule over the Gajuma. The Sacred 
-King had wanted to destroy the Huma, and the six saints combined 
-their powers of darkness, fire, wind, water, light, and earth in order 
-to combat him. The world was then thrown into chaos, and after a 
-long battle, the king was left defeated and his body destroyed. 
-But even then, his anger and ideals lingered, transforming into 
-something of a scourge. This scourge haunted the people, increasing 
-their hatred and creating conflict. The Six Saints combined their holy 
-power to purify the scourge and sealed the king's spirit in a stone 
-called the Moon of Goldba.
-This is the story of the Sacred War.</EnglishText>
-      <Notes>power of darkness or shade?</Notes>
+      <EnglishText>&lt;speed:0&gt;The Sacred King and the Six Saints confronted
+each other over the treatment of Huma, who
+tried to rule over the Gajuma. The Sacred King
+had wanted to destroy the Huma, and the six
+saints combined their powers of darkness, fire,
+wind, water, light, and earth in order to combat
+him. The world was then thrown into chaos, and
+after a long battle, the king was left defeated
+and his body destroyed. &lt;cr&gt;
+But even then, his anger and ideals lingered,
+transforming into something of a scourge. This
+scourge haunted the people, increasing their
+hatred and creating conflict.  The Six Saints
+combined their holy power to purify the scourge
+and sealed the king's spirit in a stone called
+the Moon of Goldba. This is the story of the
+Sacred War.</EnglishText>
+      <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>28</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2053</PointerOffset>
@@ -719,28 +722,28 @@ No</EnglishText>
 　といった内容が、古代カレギア文字で
 　刻まれている。</JapaneseText>
       <EnglishText>&lt;speed:0&gt;&lt;Cyan&gt;"Two bodies...one heart... Flag of
-  friendship and unity... Fight side by side...
-  Steps towards...peace..."&lt;White&gt;
-　These are inscribed in ancient 
-  Callegean scripture.</EnglishText>
+friendship and unity... Fight side
+by side... Steps towards...peace..."&lt;White&gt;
+These are inscribed in ancient 
+Callegean writing.</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>43</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>1562</PointerOffset>
       <JapaneseText>&lt;speed:0&gt;　我ら　ふたつの身体をひとつの心とし　
 　友愛と団結の旗の下　共に戦い歩み　
 　安らぎを大地にもたらさん。　</JapaneseText>
-      <EnglishText>&lt;speed:0&gt;　Uniting our two bodies under one heart,　
+      <EnglishText>&lt;speed:0&gt;Uniting our two bodies under one heart,　
 under the flag of friendship and unity, 
 we will fight side by side and make 
 steps towards bringing peace to the land.　</EnglishText>
       <Notes/>
       <SpeakerId>8</SpeakerId>
       <Id>44</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -751,13 +754,13 @@ steps towards bringing peace to the land.　</EnglishText>
 　石碑を見る　
 　やめる　
 </JapaneseText>
-      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Read Tablet
-Examine Tablet
+      <EnglishText>&lt;speed:0&gt;&lt;scale:140&gt;Read Stele
+Examine Stele
 Cancel</EnglishText>
       <Notes/>
       <SpeakerId>7</SpeakerId>
       <Id>45</Id>
-      <Status>Proofreading</Status>
+      <Status>Done</Status>
     </Entry>
     <Entry>
       <PointerOffset>1129</PointerOffset>
@@ -771,22 +774,27 @@ Cancel</EnglishText>
 六人の聖者は聖なる力を合わせて思念を浄化し、
 王の精神をゴルドバの月と呼ばれる石に封じた。
 これが聖なる戦いである。</JapaneseText>
-      <EnglishText>&lt;speed:0&gt;The Sacred King and the Six Saints confronted each other over the 
-treatment of Huma, who tried to rule over the Gajuma. The Sacred 
-King had wanted to destroy the Huma, and the six saints combined 
-their powers of darkness, fire, wind, water, light, and earth in order 
-to combat him. The world was then thrown into chaos, and after a 
-long battle, the king was left defeated and his body destroyed. 
-But even then, his anger and ideals lingered, transforming into 
-something of a scourge. This scourge haunted the people, increasing 
-their hatred and creating conflict. The Six Saints combined their holy 
-power to purify the scourge and sealed the king's spirit in a stone 
-called the Moon of Goldba.
-This is the story of the Sacred War.</EnglishText>
+      <EnglishText>&lt;speed:0&gt;The Sacred King and the Six Saints confronted
+each other over the treatment of Huma, who
+tried to rule over the Gajuma. The Sacred King
+had wanted to destroy the Huma, and the six
+saints combined their powers of darkness, fire,
+wind, water, light, and earth in order to combat
+him. The world was then thrown into chaos, and
+after a long battle, the king was left defeated
+and his body destroyed. &lt;cr&gt;
+But even then, his anger and ideals lingered,
+transforming into something of a scourge. This
+scourge haunted the people, increasing their
+hatred and creating conflict.  The Six Saints
+combined their holy power to purify the scourge
+and sealed the king's spirit in a stone called
+the Moon of Goldba. This is the story of the
+Sacred War.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>46</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1173</PointerOffset>
@@ -827,22 +835,27 @@ Hack's memo...? </EnglishText>
 六人の聖者は聖なる力を合わせて思念を浄化し、
 王の精神をゴルドバの月と呼ばれる石に封じた。
 これが聖なる戦いである。</JapaneseText>
-      <EnglishText>&lt;speed:0&gt;The Sacred King and the Six Saints confronted each other over the 
-treatment of Huma, who tried to rule over the Gajuma. The Sacred 
-King had wanted to destroy the Huma, and the six saints combined 
-their powers of darkness, fire, wind, water, light, and earth in order 
-to combat him. The world was then thrown into chaos, and after a 
-long battle, the king was left defeated and his body destroyed. 
-But even then, his anger and ideals lingered, transforming into 
-something of a scourge. This scourge haunted the people, increasing 
-their hatred and creating conflict. The Six Saints combined their holy 
-power to purify the scourge and sealed the king's spirit in a stone 
-called the Moon of Goldba.
-This is the story of the Sacred War.</EnglishText>
+      <EnglishText>&lt;speed:0&gt;The Sacred King and the Six Saints confronted
+each other over the treatment of Huma, who
+tried to rule over the Gajuma. The Sacred King
+had wanted to destroy the Huma, and the six
+saints combined their powers of darkness, fire,
+wind, water, light, and earth in order to combat
+him. The world was then thrown into chaos, and
+after a long battle, the king was left defeated
+and his body destroyed. &lt;cr&gt;
+But even then, his anger and ideals lingered,
+transforming into something of a scourge. This
+scourge haunted the people, increasing their
+hatred and creating conflict.  The Six Saints
+combined their holy power to purify the scourge
+and sealed the king's spirit in a stone called
+the Moon of Goldba. This is the story of the
+Sacred War.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>49</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1257</PointerOffset>
@@ -856,22 +869,27 @@ This is the story of the Sacred War.</EnglishText>
 六人の聖者は聖なる力を合わせて思念を浄化し、
 王の精神をゴルドバの月と呼ばれる石に封じた。
 これが聖なる戦いである。</JapaneseText>
-      <EnglishText>&lt;speed:0&gt;The Sacred King and the Six Saints confronted each other over the 
-treatment of Huma, who tried to rule over the Gajuma. The Sacred 
-King had wanted to destroy the Huma, and the six saints combined 
-their powers of darkness, fire, wind, water, light, and earth in order 
-to combat him. The world was then thrown into chaos, and after a 
-long battle, the king was left defeated and his body destroyed. 
-But even then, his anger and ideals lingered, transforming into 
-something of a scourge. This scourge haunted the people, increasing 
-their hatred and creating conflict. The Six Saints combined their holy 
-power to purify the scourge and sealed the king's spirit in a stone 
-called the Moon of Goldba.
-This is the story of the Sacred War.</EnglishText>
+      <EnglishText>&lt;speed:0&gt;The Sacred King and the Six Saints confronted
+each other over the treatment of Huma, who
+tried to rule over the Gajuma. The Sacred King
+had wanted to destroy the Huma, and the six
+saints combined their powers of darkness, fire,
+wind, water, light, and earth in order to combat
+him. The world was then thrown into chaos, and
+after a long battle, the king was left defeated
+and his body destroyed. &lt;cr&gt;
+But even then, his anger and ideals lingered,
+transforming into something of a scourge. This
+scourge haunted the people, increasing their
+hatred and creating conflict.  The Six Saints
+combined their holy power to purify the scourge
+and sealed the king's spirit in a stone called
+the Moon of Goldba. This is the story of the
+Sacred War.</EnglishText>
       <Notes/>
       <SpeakerId>9</SpeakerId>
       <Id>50</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1291</PointerOffset>
@@ -995,16 +1013,15 @@ Saints combined their holy power to purify the scourge.</EnglishText>
 　といった内容が、古代カレギア文字で
 　刻まれている。</JapaneseText>
       <EnglishText>&lt;speed:0&gt;&lt;Cyan&gt;"The Sacred King and the...Saints...
-  combat...Sacred King...defeated...
-　King's anger... hatred... conflict...
-　Saints...holy power...
-  scourge... crisis"&lt;White&gt;
-　These are inscribed in ancient 
-  Callegean scripture.</EnglishText>
+combat...Sacred King...defeated...
+King's anger... hatred... conflict...
+Saints...holy power...scourge...crisis"&lt;White&gt;
+These are inscribed in ancient 
+Callegean scripture.</EnglishText>
       <Notes/>
       <SpeakerId>12</SpeakerId>
       <Id>57</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -1405,7 +1422,7 @@ Huma and Gajuma.</EnglishText>
 　……歩み……安らぎ……」&lt;White&gt;
 　といった内容が、古代カレギア文字で
 　刻まれている。</JapaneseText>
-      <EnglishText>&lt;Cyan&gt;"Two bodies...one heart... Flag of
+      <EnglishText>&lt;speed:0&gt;&lt;Cyan&gt;"Two bodies...one heart... Flag of
 friendship and unity... Fight side
 by side... Steps towards...peace..."&lt;White&gt;
 These are inscribed in ancient 

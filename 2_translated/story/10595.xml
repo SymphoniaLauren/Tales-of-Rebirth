@@ -29,10 +29,10 @@
     <Entry>
       <PointerOffset>1910,1910,1910</PointerOffset>
       <JapaneseText>ラジルダの装備品屋</JapaneseText>
-      <EnglishText>Razildan Equipment Shopkeeper</EnglishText>
+      <EnglishText>Shopkeeper</EnglishText>
       <Notes/>
       <Id>2</Id>
-      <Status>Done</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>3639,1347,820</PointerOffset>
@@ -53,10 +53,10 @@
     <Entry>
       <PointerOffset>1750,1750,1750</PointerOffset>
       <JapaneseText>樫の樹</JapaneseText>
-      <EnglishText>Oak Tree</EnglishText>
+      <EnglishText>Shopkeeper</EnglishText>
       <Notes/>
       <Id>5</Id>
-      <Status>Done</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>719,719,719,719,719,719,719,719,719,719,719</PointerOffset>
@@ -100,48 +100,50 @@
       <PointerOffset>2090</PointerOffset>
       <JapaneseText>店員がヒューマになったと
 思ったら……</JapaneseText>
-      <EnglishText>Just when I thought this
-shop was run by Huma...</EnglishText>
+      <EnglishText>Even though the shop is
+now being staffed by a
+Huma...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>4</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2112</PointerOffset>
       <JapaneseText>争いの原因になるから
 住民は買ってはいかんのだと……</JapaneseText>
-      <EnglishText>Turns out in order to prevent
-violence, we're not allowed
-to make purchases...</EnglishText>
+      <EnglishText>It turns out that in order to
+prevent violence, residents aren't
+allowed to purchase weapons...</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>5</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2134</PointerOffset>
       <JapaneseText>せっかくガジュマを
 追い出すための武器を……
 ……いやいや……</JapaneseText>
-      <EnglishText>After going through all this 
-trouble to get anti-Gajuma 
-weaponry... No no no...</EnglishText>
-      <Notes>"no no no" is clunky and weird. -dragon</Notes>
+      <EnglishText>Even though I wanted to
+get some so I could kick
+out the Gajuma... Er, forget
+I said anything...</EnglishText>
+      <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>6</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>2176</PointerOffset>
       <JapaneseText>い、いつかおまえらガジュマを
 この街から追い出してやる……!!</JapaneseText>
-      <EnglishText>One of these days.... I'll rid this
-town of all Gajuma! All of them!</EnglishText>
+      <EnglishText>O-One of these days I'll rid
+this town of you Gajuma!</EnglishText>
       <Notes/>
       <SpeakerId>0</SpeakerId>
       <Id>7</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -150,13 +152,13 @@ town of all Gajuma! All of them!</EnglishText>
       <PointerOffset>2043</PointerOffset>
       <JapaneseText>年をとって軍を引退したら、
 実家の店でも継ぐかな。</JapaneseText>
-      <EnglishText>One day when I'm old and 
-retired, maybe I'll take over 
-the family business.</EnglishText>
+      <EnglishText>Maybe when I'm older and free
+from military service, I'll take
+over the family business...</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>8</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -166,11 +168,11 @@ the family business.</EnglishText>
       <JapaneseText>言わなくてもわかるだろう？
 ヒューマがキライなのよ！</JapaneseText>
       <EnglishText>Do I really gotta say it?
-I despise Huma!</EnglishText>
+I hate you Huma!</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>9</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1978</PointerOffset>
@@ -187,12 +189,12 @@ I make you leave!</EnglishText>
       <PointerOffset>2009</PointerOffset>
       <JapaneseText>注文はカウンター越しに
 お願いしますね。</JapaneseText>
-      <EnglishText>Please come around the 
-counter to make a purchase.</EnglishText>
+      <EnglishText>Please go in front of the
+coutner to make a purchase.</EnglishText>
       <Notes/>
       <SpeakerId>2</SpeakerId>
       <Id>11</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -221,15 +223,16 @@ No</EnglishText>
 看板代わりに外に出しておいたら、
 イタズラされたので、今はここに
 置かれている。</JapaneseText>
-      <EnglishText>&lt;speed:0&gt;- Shield of The Silver Fanged Duke, Rumer -
-(NOT FOR SALE) A shield used by General
+      <EnglishText>&lt;speed:0&gt;- Shield of The Silver Fanged Duke, Rumer - (Not for Sale)
+A shield used by General
 Rumer, King Ladras's trusty right-hand man.
-It was made into a signboard just outside
-as a prank, so now it rests here.</EnglishText>
+It used to be outside advertising the store,
+but after an act of vandalism, it was brought
+inside.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>13</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1808</PointerOffset>
@@ -246,23 +249,23 @@ here right now, Huma!</EnglishText>
       <PointerOffset>1841</PointerOffset>
       <JapaneseText>汚い手で触らないで、
 このヒューマ!!</JapaneseText>
-      <EnglishText>Keep your stinking hands off 
-me you damn, dirty Huma!</EnglishText>
+      <EnglishText>Keep your dirty hands off
+of it, Huma!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>15</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1871</PointerOffset>
       <JapaneseText>ひやかしならお断り！
 早く帰れ！</JapaneseText>
-      <EnglishText>Who cares why you're here!?
-Just leave already!</EnglishText>
+      <EnglishText>Quit window shopping
+and get the hell out!</EnglishText>
       <Notes/>
       <SpeakerId>5</SpeakerId>
       <Id>16</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -289,12 +292,12 @@ quite sharp.</EnglishText>
       <JapaneseText>&lt;speed:0&gt;『商品』
 防具を着せられた人形がある。</JapaneseText>
       <EnglishText>&lt;speed:0&gt;- Merchandise -
-A figure outfitted with
+A mannequin outfitted with
 protective gear.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>18</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -307,14 +310,14 @@ protective gear.</EnglishText>
 公式的な場で使うものまで
 さまざまなものが並んでいる。</JapaneseText>
       <EnglishText>&lt;speed:0&gt;- Merchandise -
-Rods are placed about. There's a
+Rods are placed here. There's a
 good variety on display, from ones
 made for mundane use to those
 with a more ceremonial purpose.</EnglishText>
       <Notes/>
       <SpeakerId>4</SpeakerId>
       <Id>19</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -381,13 +384,13 @@ while you're here?</EnglishText>
       <JapaneseText>俺の実家は店をやっていた。
 商売には慣れている。
 安心して買っていくといい。</JapaneseText>
-      <EnglishText>My folks ran a store back home,
-so I'm used to doing business.
-Just leave the deals to me.</EnglishText>
+      <EnglishText>My folks run a store, so I feel
+at home behind a counter. 
+No need to worry.</EnglishText>
       <Notes/>
       <SpeakerId>1</SpeakerId>
       <Id>25</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1544</PointerOffset>
@@ -408,11 +411,11 @@ while you're here?</EnglishText>
       <JapaneseText>ふん……
 ヒューマかい……
 </JapaneseText>
-      <EnglishText>Hmm... Huma...</EnglishText>
+      <EnglishText>Hmph... Huma...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>27</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>800</PointerOffset>
@@ -500,35 +503,36 @@ I have nothing to say to Huma.</EnglishText>
       <JapaneseText>花？　花ねえ……
 私、装備品屋だから
 よくわからないけど……</JapaneseText>
-      <EnglishText>Flowers? Flowers... ah, 
-I deal in weaponry, so I 
-know nothing about that.</EnglishText>
+      <EnglishText>Flowers? Flowers... I sell
+weapons, so I'm not all
+too familiar with flowers...</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>35</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1177</PointerOffset>
       <JapaneseText>ここラジルダで一番偉いのは
 フォグマ様よ。</JapaneseText>
-      <EnglishText>The greatest in all of 
-Razilda is Sir Fogma!</EnglishText>
+      <EnglishText>The greatest man in all of 
+Razilda is Chief Fogma!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>36</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1199</PointerOffset>
       <JapaneseText>イーガなんて偉そうにしてるけど、
 たかがヒューマじゃない！</JapaneseText>
-      <EnglishText>Chief Iger's a real big shot,
-and not just because he's huma!</EnglishText>
+      <EnglishText>Iger may act all high and
+mighty, but he's nothing
+more than a Huma!</EnglishText>
       <Notes/>
       <SpeakerId>6</SpeakerId>
       <Id>37</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>1050</PointerOffset>
