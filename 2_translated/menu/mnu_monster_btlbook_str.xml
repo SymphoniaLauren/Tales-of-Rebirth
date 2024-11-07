@@ -2834,18 +2834,24 @@ amount of ingredients the facility provides.</EnglishText>
 戦闘開始時は中央の設定で開始。
 メインメニュー・戦闘中に選択可能。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>In the Strategy menu, you can set strategies
+for characters that aren't player controlled to
+fight more effectively. The three options are
+Mobility, Attack Rate and Force Condition.
+You can save three strategy presets to switch
+between during battle, with the middle preset
+being the default.</EnglishText>
       <Notes/>
       <Id>435</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23064</PointerOffset>
       <JapaneseText>隊列効果</JapaneseText>
-      <EnglishText>Formation Effects</EnglishText>
+      <EnglishText>Formation Buffs</EnglishText>
       <Notes>idk if effect should be pluralize or maybe another word we should use</Notes>
       <Id>436</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23076</PointerOffset>
@@ -2857,15 +2863,21 @@ amount of ingredients the facility provides.</EnglishText>
 作戦に合わせた隊列位置を
 組み合わせるのが重要です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>You can receive buffs by placing characters
+accordingly in the strategy menu. The buffs
+are listed on the top right, allowing you to
+increase certain stats or &lt;color:2040A0A0&gt;disperse HP recovery
+through arte usage among the whole party.
+Experiment and find a formation that works
+for your strategy!</EnglishText>
       <Notes/>
       <Id>437</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23084</PointerOffset>
       <JapaneseText>隊列位置による攻撃頻度</JapaneseText>
-      <EnglishText>Aggressive Formation</EnglishText>
+      <EnglishText>Vanguards and Attack Rate</EnglishText>
       <Notes/>
       <Id>438</Id>
       <Status>Editing</Status>
@@ -2879,15 +2891,19 @@ amount of ingredients the facility provides.</EnglishText>
 攻撃頻度を微調整したい場合に
 有効です。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>Characters placed on the right side of the
+Formation are considered the "Vanguard".
+The closer to the right, the more aggressively
+they will attack, which helps you adjust
+the attack rate alongside the chosen strategy.</EnglishText>
       <Notes/>
       <Id>439</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23104</PointerOffset>
       <JapaneseText>自分と仲間のＨＰが回復</JapaneseText>
-      <EnglishText>Recovery Formation</EnglishText>
+      <EnglishText>You don't have to heal alone</EnglishText>
       <Notes/>
       <Id>440</Id>
       <Status>Editing</Status>
@@ -2904,10 +2920,16 @@ amount of ingredients the facility provides.</EnglishText>
 個人で多く回復させるかどうかを
 よく考えて隊列を決めましょう。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>When Characters with the HP Regen+
+formation buff (denoted by a green circle)
+uses an arte with full FG, the HP recovery
+will be shared with party members. This way
+you can decide whether a character heals
+themself or the whole party.
+</EnglishText>
       <Notes/>
       <Id>441</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23124</PointerOffset>
@@ -2930,10 +2952,15 @@ amount of ingredients the facility provides.</EnglishText>
 よい作戦が見つかるかもしれません。
 もちろんそのまま使えます。
 </JapaneseText>
-      <EnglishText/>
+      <EnglishText>In the strategy menu, press &lt;icon:37&gt; to select
+from 8 different strategies. If you're not
+confident in being able to make a proper
+formation for a particular strategy, you can
+press &lt;icon:33&gt; to use a recommended formation
+to go along with the strategy. </EnglishText>
       <Notes/>
       <Id>443</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>23144</PointerOffset>
