@@ -67,16 +67,16 @@ by  defeating enemies in battle.</EnglishText>
 戦闘不能状態を回復するには
 ライフボトルや料理が必要です。
 </JapaneseText>
-      <EnglishText>Hit Points represent a character's vitality.
-HP Decreases as a character gets hit by
-enemy attacks, and increases when restored
-by Artes or items. When a character's HP
-reaches 0 they are Knocked Out and unable
-to fight. Life Bottles and cooking can be used
-to recover from KO.</EnglishText>
+      <EnglishText>HP represents vitality. HP Decreases
+as a character gets hit by enemy
+attacks, and can be restored by
+Artes or items. When a character's
+HP reaches 0, they are KO'd and
+cannot fight. Use Cooking and Life
+Bottles to recover from KO.</EnglishText>
       <Notes>has an illustration, so it won't fit. -dragon</Notes>
       <Id>211</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>20664</PointerOffset>
@@ -104,15 +104,15 @@ to recover from KO.</EnglishText>
 自らの攻撃力が上がります。
 </JapaneseText>
       <EnglishText>The Rush Gauge ranges from 0-100.
-At lower values, the amount of damage given
-or taken is decreased, while HP recovery and
-spell speed is increased. At higher values, the
-amount of damage given or taken is increased,
-as well as the amount you can affect enemy
-RG, but spells take longer to cast.</EnglishText>
+When it's lower, damage given and
+taken is decreased, while HP regen
+and casting speed is increased. When
+it's higher, damage given, taken, and
+how well you can affect enemy RG
+increases, but spell casting is slower.</EnglishText>
       <Notes>has an illustration, so it won't fit. -dragon</Notes>
       <Id>214</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>20684</PointerOffset>
@@ -139,16 +139,17 @@ RG, but spells take longer to cast.</EnglishText>
 最大限の能力を発揮します。
 操作：&lt;icon:10&gt;＋&lt;icon:41&gt;
 </JapaneseText>
-      <EnglishText>The Force Gauge is used for Artes a character
-has equipped. The four segments correspond to
-each direction: Top, Bottom, Forward and Back.
-The Artes you equip to each direction can be
-used at will, but their full potential is
-unleashed when FG is filled.
-Input: &lt;icon:10&gt;＋&lt;icon:41&gt;</EnglishText>
+      <EnglishText>The Force Gauge is used for Artes
+a character has equipped. The four
+slots correspond to each direction:
+Top, Bottom, Forward and Back.
+The Artes you equip to each
+direction can be used at will, but
+their full potential is unleashed
+when FG is filled. Input: &lt;icon:10&gt;＋&lt;icon:41&gt;</EnglishText>
       <Notes>has an illustration, so it won't fit. -dragon</Notes>
       <Id>217</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>20704</PointerOffset>
@@ -174,7 +175,7 @@ attacks.</EnglishText>
       <EnglishText>Blunt</EnglishText>
       <Notes>blunt or blow or strike?</Notes>
       <Id>220</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>20736</PointerOffset>
@@ -392,13 +393,12 @@ of a character's Force. Each corner
 of the cube has an added effect
 that you can set to each arte a
 character has equipped by rotating
-the cube. Access the Force Cube
-through the Force option on the
-Menu.</EnglishText>
+the cube. Access the Cube through
+the Force option in the Menu.</EnglishText>
       <Notes>It does fit, but the illustration hangs a little under the battle book box.
 make it one line shorter and it will be perfect.-dragon</Notes>
       <Id>239</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>20924</PointerOffset>
@@ -1034,16 +1034,16 @@ deal increased damage.</EnglishText>
 
 操作：&lt;icon:3A&gt;＋&lt;icon:11&gt;
 </JapaneseText>
-      <EnglishText>This action allows you to increase RG at will.
-&lt;color:2040A0A0&gt;Attacks following a Rush Charge cannot be
-guarded against.&lt;color:80000000&gt; Some enemies tend to block
-your attacks when your Rush Gauge is low,
-so Rush Charge can be an effective way to
-attack such enemies unimpeded.
+      <EnglishText>Use this to increase RG at will.
+&lt;color:2040A0A0&gt;Attacks following a Rush Charge
+&lt;color:2040A0A0&gt;are unblockable.&lt;color:80000000&gt; Some foes tend to
+block your attacks when your RG
+is low, so Rush Charge can be an
+effective way to counter them.
 Controls: &lt;icon:3A&gt;+&lt;icon:11&gt;</EnglishText>
       <Notes>this ain't gonna fit. -dragon</Notes>
       <Id>288</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>21424</PointerOffset>
@@ -1063,16 +1063,16 @@ Controls: &lt;icon:3A&gt;+&lt;icon:11&gt;</EnglishText>
 
 操作：&lt;icon:3A&gt;＋&lt;icon:12&gt;
 </JapaneseText>
-      <EnglishText>This action allows you to decrease RG at will.
-&lt;color:2040A0A0&gt;Attacks following a Cool Charge cannot be
-guarded against.&lt;color:80000000&gt; Some enemies tend to block
-your attacks when your Rush Gauge is high,
-so switch between using Rush Charge and Cool
-Charge as the situation demands it.
-Controls: &lt;icon:3A&gt;+&lt;icon:12&gt;</EnglishText>
+      <EnglishText>Use this to decrease RG at will.
+&lt;color:2040A0A0&gt;Attacks following a Cool Charge
+&lt;color:2040A0A0&gt;are unblockable.&lt;color:80000000&gt; Some foes tend to
+block your attacks when your RG
+is high, so switch between using
+Rush Charge and Cool Charge as
+needed. Controls: &lt;icon:3A&gt;+&lt;icon:12&gt;</EnglishText>
       <Notes>this ain't gonna fit. -dragon</Notes>
       <Id>290</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>21444</PointerOffset>
@@ -2186,19 +2186,17 @@ direction.</EnglishText>
       <EnglishText>-Artes enhance based on the
 corresponding corner of the Force
 Cube. Even if you set the same
-arte on each corner, its properties 
+arte on each corner, its properties
 change for each direction.
--You can't rotate the cube
-during battle.
+-You can't rotate the cube in battle.
 -Enhancements differ for Force Artes,
 Force Magic and Force Rituals.
 -Force Artes and Magic must hit
 enemies to count.
--Be sure to set the entire
-party's cubes!</EnglishText>
+-Be sure to set your party's cubes!</EnglishText>
       <Notes>doesn't fit. -dragon</Notes>
       <Id>374</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>22284</PointerOffset>
@@ -2347,18 +2345,18 @@ recovery than Base Artes.</EnglishText>
 ＦＧの色が赤い時が目安です。
 </JapaneseText>
       <EnglishText>&lt;Yellow&gt;Force Artes:&lt;White&gt;：
--Fusionic Force must be chained
-into from another arte, so two
-FG must be filled.
+-Fusion Force must be chained
+into from another arte, which
+requires two FG.
 &lt;Yellow&gt;Force Magic and Force Rituals&lt;White&gt;:
--Fusionic Force can be activated
+-Fusion Force can be activated
 within two seconds of casting the
 last spell. You'll know you can use
-a Fusionic Force if the corresponding
-FG segment flashes red.</EnglishText>
-      <Notes>need to double check in game because I could have sworn you can do an uncharged arte into a fusionic force if the second arte is charged and your rush guage is filled.. -dragon.</Notes>
+a Fusion Force if the corresponding
+FG slot flashes red.</EnglishText>
+      <Notes/>
       <Id>385</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>22404</PointerOffset>
@@ -3010,16 +3008,16 @@ middle preset being the default.</EnglishText>
 作戦に合わせた隊列位置を
 組み合わせるのが重要です。
 </JapaneseText>
-      <EnglishText>You can receive buffs by placing characters
-accordingly in the strategy menu. The buffs
-are listed on the top right, allowing you to
-increase certain stats or &lt;color:2040A0A0&gt;disperse HP recovery
-through arte usage among the whole party.
-Experiment and find a formation that works
-for your strategy!</EnglishText>
+      <EnglishText>You can receive buffs by positioning
+characters in the strategy menu.
+Buffs are listed on the top right,
+allowing you to increase certain stats
+or &lt;color:2040A0A0&gt;disperse HP regen via arte usage
+among the whole party. Experiment
+to find your ideal formation!</EnglishText>
       <Notes>this isn't going to fit. -dragonbleapiece</Notes>
       <Id>437</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>23084</PointerOffset>
