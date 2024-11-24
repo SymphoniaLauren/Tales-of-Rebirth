@@ -103,3 +103,11 @@
 .definelabel func_00176C80,        0x00176C80
 .definelabel func_0017A5A0,        0x0017A5A0
 .definelabel func_0017A660,        0x0017A660
+
+.definelabel fntenv_make_default,  0x00104eb8
+.definelabel draw_string,          0x00104868
+.definelabel btl_font_env,         0x00357ED0
+.definelabel get_str_width,        0x00104a48
+.definelabel sprintf,              0x001c0ed0
+.definelabel getBtlVoiceTimer,     0x00330108
+.definelabel battle_pause,         0x00354A4F

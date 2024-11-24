@@ -3,7 +3,7 @@
 EE_INCS := -I. $(EE_INCS)
 
 # Optimization compiler flags
-EE_OPTFLAGS ?= -O2
+EE_OPTFLAGS ?= -O0
 
 # Warning compiler flags
 EE_WARNFLAGS ?= -Wall

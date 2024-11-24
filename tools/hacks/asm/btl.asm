@@ -4,6 +4,44 @@
 .definelabel strCatKanji, 0x32C508
 .definelabel getBtlStr, 0x306048
 
+; BATTLE SUBS
+.org 0x002f1adc
+    jal draw_sub_wrapper    ; in battle main loop to draw subs
+
+.org 0x0032f8e0
+    ;sd ra, 0x0(sp)      ; repeat, moved instruction up so we have space to jal
+    ;jal CallBtlVoiceWrapper     ; need to repeat lw a1,0x440(s1) inside function
+    ;sq s5,0x10(sp)      ; repeat   
+    ; replaced with calling from directly inside registBtlChrVoice's below
+
+.org 0x0032ef6c
+    jal registBtlChrVoice_wrapper
+
+.org 0x0032fa24
+    jal registBtlChrVoice_wrapper
+
+.org 0x0032fa84
+    jal registBtlChrVoice_wrapper
+
+.org 0x002ef890
+    jal endBattle_wrapper
+
+.org 0x0032F610
+    jal playAbsVoice_wrapper
+
+; move post battle stuff around
+; move ENHANCE EXECUTABLE! down
+.org 0x002FD444
+    li v0, 0x8700
+
+; move the blue background for ENHANCE EXECUTABLE! down
+.org 0x002fd374 
+    li v1, 0x8700
+
+; move item window up a bit to give space for subs
+.org 0x0032d4e0 
+    li a0, 0x9A0    ; orig 0xA60
+
 ; move around the params for を習得
 .org 0x032C044
     li         a0,0x5F
@@ -13,7 +51,6 @@
 
 .org 0x032C080
     li         a0,0x63
-
 
 ; move around the params for を料理しました。
 ; Be careful about changing the amount of instructions
