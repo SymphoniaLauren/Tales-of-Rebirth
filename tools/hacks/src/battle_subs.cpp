@@ -4,7 +4,7 @@
 #include "battle_subs.h"
 
 #define DEBUG_X 0x6d00				// debug x
-#define DEBUG_Y 0x8300//0x7920				// debug y
+#define DEBUG_Y 0x7920				// debug y
 #define LINE_1_Y 0x8300				// y for type 1
 #define LINE_2_Y 0x8580				// y for type 2
 #define LINE_3_Y 0x8300				// y for type 3
