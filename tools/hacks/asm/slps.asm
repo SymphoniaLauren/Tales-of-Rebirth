@@ -181,6 +181,20 @@ extra_syscall_ret:
 	nop
 	nop
 
+; Hooks for skit centering
+.org 0x0013E114
+    jal add_skit_line_hook
+
+.org 0x0013e2e4
+    jal draw_skit
+
+.org 0x0013d04c
+    jal clear_skit_hook
+
+; Move skit prompt up
+.org 0x0012b7cc
+    jal move_skit_prompt
+
 ;Cutscene Text Var Width fix
 .org 0x11CC60
 ;sets bool flag for ascii to 0
