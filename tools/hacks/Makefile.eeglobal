@@ -17,13 +17,13 @@ EE_CXXFLAGS := -D_EE -G0 $(EE_OPTFLAGS) $(EE_WARNFLAGS) $(EE_DBGINFOFLAGS) $(EE_
 # Command for ensuring the output directory for the rule exists.
 DIR_GUARD = @$(MKDIR) -p $(@D)
 
-build/%.o: src/%.c
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c makefile
 	$(DIR_GUARD)
-	$(EE_CC) $(EE_CFLAGS) $(EE_INCS) -c $< -o $@
+	$(EE_CC) $(EE_CFLAGS) $(EE_INCS) -MMD -MP -c $< -o $@
 
-build/%.o: src/%.cpp
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp makefile
 	$(DIR_GUARD)
-	$(EE_CXX) $(EE_CXXFLAGS) $(EE_INCS) -c $< -o $@
+	$(EE_CXX) $(EE_CXXFLAGS) $(EE_INCS) -MMD -MP -c $< -o $@
 
 $(EE_LIB): $(EE_OBJS)
 	$(DIR_GUARD)
