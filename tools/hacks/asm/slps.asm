@@ -181,6 +181,12 @@ extra_syscall_ret:
 	nop
 	nop
 
+; monospace on +items
+.org 0x0016AD34 
+    nop
+.org 0x0016ad48
+    nop
+
 ; Hooks for skit centering
 .org 0x0013E114
     jal add_skit_line_hook
