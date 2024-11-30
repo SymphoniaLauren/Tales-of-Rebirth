@@ -9,6 +9,9 @@
 #define asm(x)
 #endif
 
+#define NULL ((void*)0)
+#define DATA __attribute__((section(".data")))
+
 typedef signed char      s8;
 typedef signed short     s16;
 typedef signed int       s32;
@@ -38,5 +41,11 @@ typedef volatile u128 vu128;
 
 typedef volatile float  vf32;
 typedef volatile double vf64;
+
+// sce types
+typedef unsigned char      u_char;
+typedef unsigned short     u_short;
+typedef unsigned int       u_int;
+typedef unsigned long long u_long;
 
 #endif /* __TYPES_H__ */

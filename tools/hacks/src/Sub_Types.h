@@ -1,4 +1,5 @@
 #pragma once
+#include "types.h"
 
 #define EXPORT extern "C"
 
@@ -7,14 +8,6 @@
 #else
 #define NOINLINE  __attribute__ ((noinline))
 #endif
-
-typedef unsigned char u8;
-typedef unsigned short u16;
-typedef unsigned int u32;
-
-typedef char s8;
-typedef short s16;
-typedef int s32;
 
 #define HALFWORD(x) (*(u16*)(x))
 #define SIGNEDHALFWORD(x) (*(s16*)(x))
@@ -41,46 +34,6 @@ struct Voice_Table;
 struct btl_chr_struct;
 struct fontenv_struct;
 
-struct fontenv_struct {
-	u16 font_type;
-	u16 unk_02;
-	u16 unk_04;
-	u16 unk_06;
-	u32 unk_08;
-	u16 x;
-	u16 y;
-	u16 scale_x;
-	u16 scale_y;
-	u16 scale_x2;
-	u16 scale_y2;
-	u32 unk_18;
-	u32 color;
-	u16 unk_20;
-	u16 unk_22;
-	u16 unk_24;
-	u16 unk_26;
-	u16 unk_28;
-	u16 unk_2a;
-	u16 unk_2c;
-	u16 unk_2e;
-	u32 unk_30;
-	u32 unk_34;
-	u32 unk_38;
-	u32 width;
-	u32 height;
-	u32 unk_44;
-	u32 unk_48;
-	u32 unk_4c;
-};
-
-struct btl_chr_struct {
-	u8 unk_00[0x440];
-	u32 char_id;			// 440
-	u32 unk_444;			// 444
-	u32 playing_voice_id;	// 448
-	u8 unk_44c[0x38];		// 44c
-	u32 queued_voice_id;	// 484
-};
 struct Voice_Line
 {
 	u8 Type;

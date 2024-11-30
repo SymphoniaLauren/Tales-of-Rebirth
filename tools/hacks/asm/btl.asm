@@ -32,15 +32,15 @@
 ; move post battle stuff around
 ; move ENHANCE EXECUTABLE! down
 .org 0x002FD444
-    li v0, 0x8700
+    ori v0, zero, y_coord(448)
 
 ; move the blue background for ENHANCE EXECUTABLE! down
 .org 0x002fd374 
-    li v1, 0x8700
+    ori v1, zero, y_coord(448)
 
 ; move item window up a bit to give space for subs
 .org 0x0032d4e0 
-    li a0, 0x9A0    ; orig 0xA60
+    ori a0, zero, y_coord(154)    ; orig y_coord(166)
 
 ; move around the params for を習得
 .org 0x032C044

@@ -16,15 +16,15 @@
 ; the insatiable mnu_monster file text
 
 ; original value -> 0x00391400
-.definelabel __heap_start, 0x003AA400
-.definelabel __malloc_sbrk_base, 0x00210550
+.definelabel __heap_start, 0x003A0000
+.definelabel __heap_ptr, 0x0020E448
 
 ; Repoint __heap_start symbol to be later
 .org 0x001001D0 :: lui        a0,hi(__heap_start)
 .org 0x001001D8 :: addiu      a0,a0,lo(__heap_start)
 
 ; Repoint malloc base
-.org __malloc_sbrk_base :: .word __heap_start
+.org __heap_ptr :: .word __heap_start
 
 ; Repoint memory manage alloc size
 .org 0x0010BC10 :: lui        a0,hi(__heap_start)
@@ -180,6 +180,12 @@ extra_syscall_ret:
 .org 0x108D14
 	nop
 	nop
+
+; monospace on +items
+.org 0x0016AD34 
+    nop
+.org 0x0016ad48
+    nop
 
 ; Hooks for skit centering
 .org 0x0013E114

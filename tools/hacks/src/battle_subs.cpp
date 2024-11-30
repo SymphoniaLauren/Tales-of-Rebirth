@@ -1,31 +1,33 @@
+#include "types.h"
+#include "rebirth.h"
 #include "Externs.h"
 #include "Sub_Types.h"
 #include "battle_subs_text.h"
 #include "battle_subs.h"
 
-#define DEBUG_X 0x6d00				// debug x
-#define DEBUG_Y 0x7920				// debug y
-#define LINE_1_Y 0x8300				// y for type 1
-#define LINE_2_Y 0x8580				// y for type 2
-#define LINE_3_Y 0x8300				// y for type 3
+#define DEBUG_X GS_X_COORD(16)		// debug x
+#define DEBUG_Y GS_Y_COORD(4)		// debug y
+#define LINE_1_Y GS_Y_COORD(320)	// y for type 1
+#define LINE_2_Y GS_Y_COORD(400)	// y for type 2
+#define LINE_3_Y GS_Y_COORD(320)	// y for type 3
 #define NUM_VOICE_QUEUES 6			// slots to hold active/pending voice data, 6 is fine
 #define NUM_TEXT_CONTAINERS 2		// number of active sub lines - may need to adj code if increasing
 #define POST_FRAME_COUNT 20			// number of frames for fade out animation
 
 extern "C"
 {
-	fontenv_struct fontenv __attribute__((section(".data")));
-	int is_init __attribute__((section(".data")));
-	int debug_id __attribute__((section(".data")));
-	int max_debug_frames __attribute__((section(".data")));
-	int debug_frame __attribute__((section(".data")));
-	btl_chr_struct* debug_btl_chr __attribute__((section(".data")));
+	DATA fontenv_struct fontenv;
+	DATA int is_init;
+	DATA int debug_id;
+	DATA int max_debug_frames;
+	DATA int debug_frame;
+	DATA btl_chr_struct* debug_btl_chr;
 	extern u8 battle_pause;
 	extern u16 DEBUG_MODE;
 	extern u16 VERBOSE_MODE;
-	Voice_Queue voice_queue[NUM_VOICE_QUEUES] __attribute__((section(".data")));
-	Text_Container text_container[NUM_TEXT_CONTAINERS] __attribute__((section(".data")));
-	Skit_Container skit_container __attribute__((section(".data")));
+	DATA Voice_Queue voice_queue[NUM_VOICE_QUEUES];
+	DATA Text_Container text_container[NUM_TEXT_CONTAINERS];
+	DATA Skit_Container skit_container;
 
 	////////////////////////
 	// HELPER FUNCTIONS
@@ -35,7 +37,7 @@ extern "C"
 	void center_text(fontenv_struct* font, const char* str)
 	{
 		get_str_width(font, str, 0, 0);
-		font->x = 0x8000 - (font->width / 2);
+		font->x = GS_X_COORD(SCREEN_WIDTH / 2) - (font->width / 2);
 	}
 
 	////////////////////////
@@ -107,7 +109,7 @@ extern "C"
 		if (skit_container.num_lines == 1)
 		{
 			// set y for centered
-			font->y = 0x85C0;
+			font->y = GS_X_COORD(408);
 			// center and draw line
 			center_text(font, skit_container.string_1);
 			draw_string(font, skit_container.string_1);
@@ -115,13 +117,13 @@ extern "C"
 		else
 		{
 			// set y for two liness
-			font->y = 0x8560;
+			font->y = GS_X_COORD(408);
 			// center and draw line 1
 			center_text(font, skit_container.string_1);
 			draw_string(font, skit_container.string_1);
 			// increase y
 			// center and draw line 2
-			font->y = 0x8560 + 0xc0;
+			font->y = GS_X_COORD(396 + 24);
 			center_text(font, skit_container.string_2);
 			draw_string(font, skit_container.string_2);
 		}
@@ -136,10 +138,10 @@ extern "C"
 	{
 		if (!is_init)
 		{
-			fontenv.scale_x = 0x180;
-			fontenv.scale_y = 0xb0;
-			fontenv.scale_x2 = 0x100;
-			fontenv.scale_y2 = 0x100;
+			fontenv.scale_x = TO_FP16(24);
+			fontenv.scale_y = TO_FP16(11);
+			fontenv.scale_x2 = TO_FP16(16);
+			fontenv.scale_y2 = TO_FP16(16);
 			fontenv.color = 0x80808080;
 			fontenv.unk_18 = 0x7fffff0;
 			is_init = 1;
@@ -278,7 +280,7 @@ extern "C"
 				}
 				// should be c0? b0? adjust if needed
 				// increases y for second line
-				text_container[i].y = y + (0xB8 * text_container[i].Container_Id); // chg if needed
+				text_container[i].y = y + (Y_COORD(11.5) * text_container[i].Container_Id); // chg if needed
 				return &text_container[i];
 			}
 		}
