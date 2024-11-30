@@ -16,7 +16,7 @@
 ; the insatiable mnu_monster file text
 
 ; original value -> 0x00391400
-.definelabel __heap_start, 0x003AA400
+.definelabel __heap_start, 0x003A0000
 .definelabel __heap_ptr, 0x0020E448
 
 ; Repoint __heap_start symbol to be later

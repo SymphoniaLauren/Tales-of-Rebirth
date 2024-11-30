@@ -1,5 +1,5 @@
 .ps2
-.createfile "..\..\..\3_patched\patched_temp\DAT\BIN\10227.bin", 0x04CD500
+.createfile "..\..\..\3_patched\patched_temp\DAT\BIN\10227.bin", 0x00393000
 
 .asciiz "Hello world from a custom file!"
 
