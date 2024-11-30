@@ -3,6 +3,17 @@
 
 #include "types.h"
 
+#define SCREEN_WIDTH 640
+#define SCREEN_HEIGHT 224
+
+#define TO_FP16(v) ((u32)((v) * 16))
+#define TO_COORD(v) TO_FP16(v)
+#define X_COORD(x) TO_COORD(x)
+#define Y_COORD(y) TO_COORD(y)
+
+#define GS_X_COORD(x) TO_FP16((2048 - (SCREEN_WIDTH  / 2) + (x)))
+#define GS_Y_COORD(y) TO_FP16((2048 - (SCREEN_HEIGHT / 2) + (y / 2)))
+
 #define STACK_ALIGN() { u128 pad __attribute__((aligned(16))); asm("":"=r"(pad):); }
 
 typedef enum PACKED FILE_FLAGS {
@@ -35,7 +46,11 @@ typedef struct fontenv_struct {
     u16 unk_04;
     u16 unk_06;
     u32 unk_08;
+    // X coord in the primitive coordinate system
+    // use GS_X_COORD to get primitive coords from screen coords
     u16 x;
+    // Y coord in the primitive coordinate system
+    // use GS_Y_COORD to get primitive coords from screen coords
     u16 y;
     u16 scale_x;
     u16 scale_y;
@@ -54,18 +69,22 @@ typedef struct fontenv_struct {
     u32 unk_30;
     u32 unk_34;
     u32 unk_38;
+    // width in FP16
     u32 width;
+    // height in FP16
     u32 height;
     u32 unk_44;
     u32 unk_48;
     u32 unk_4c;
 } fontenv_struct;
 
-typedef struct btl_chr_struct{
-    u8 unk_00[0x440];
-    u32 char_id;
-    u32 unk_444;
-    u32 playing_voice_id;
-} btl_chr_struct;
+struct btl_chr_struct {
+	u8 unk_00[0x440];
+	u32 char_id;			// 440
+	u32 unk_444;			// 444
+	u32 playing_voice_id;	// 448
+	u8 unk_44c[0x38];		// 44c
+	u32 queued_voice_id;	// 484
+};
 
 #endif /* __REBIRTH_TYPES_H__ */

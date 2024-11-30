@@ -121,8 +121,8 @@ VERBOSE_MODE:
     lw s0, 0x0(s0)
 
     beq s0, zero, @@end
-    li v1, 0x8660   ; original
-    li v1, 0x8500   ; new, if beq not zero
+    ori v1, zero, gs_x_coord(428)   ; original
+    ori v1, zero, gs_x_coord(384)   ; new, if beq not zero
 @@end:
     lw s0, 0x8(sp)
     lw ra, 0xc(sp)
