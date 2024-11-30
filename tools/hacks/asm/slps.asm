@@ -222,16 +222,16 @@ extra_syscall_ret:
 .org 0x1CA240
 ;ASCII width table
 ; Char         | L  | R
-/* ０ */ .byte   05 , 05
-/* １ */ .byte   06 , 05
-/* ２ */ .byte   05 , 05
-/* ３ */ .byte   05 , 06
-/* ４ */ .byte   04 , 07
-/* ５ */ .byte   06 , 06
-/* ６ */ .byte   06 , 06
+/* ０ */ .byte   05 , 07
+/* １ */ .byte   06 , 09
+/* ２ */ .byte   05 , 07
+/* ３ */ .byte   06 , 06
+/* ４ */ .byte   05 , 07
+/* ５ */ .byte   05 , 06
+/* ６ */ .byte   06 , 05
 /* ７ */ .byte   06 , 07
-/* ８ */ .byte   04 , 05
-/* ９ */ .byte   04 , 04
+/* ８ */ .byte   06 , 08
+/* ９ */ .byte   04 , 06
 /* Ａ */ .byte   04 , 06
 /* Ｂ */ .byte   05 , 06
 /* Ｃ */ .byte   05 , 06
@@ -303,7 +303,7 @@ extra_syscall_ret:
 /* ＝ */ .byte   04 , 03
 /* ＜ */ .byte   03 , 03
 /* ＞ */ .byte   03 , 03
-/* ％ */ .byte   02 , 09
+/* ％ */ .byte   02 , 04
 /* ＃ */ .byte   04 , 04
 /* ＆ */ .byte   02 , 04
 /* ＊ */ .byte   04 , 04
