@@ -9,4 +9,7 @@
 .org 0x2DEBCC
 .hword 0x2340
 
+; replace name compare
+.org 0x02df458
+.word monster_book_name_compare
 .close
