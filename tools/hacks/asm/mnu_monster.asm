@@ -1,6 +1,12 @@
 .ps2
 .open __MNU_MONSTER_OVL_PATH__, 0x002D8900
 
+; Use normal fonts
+.org 0x2df175
+    .byte 0
+
+.org 0x02df189
+    .byte 0
 
 ; Window size hack
 .org 0x2DEBC4
