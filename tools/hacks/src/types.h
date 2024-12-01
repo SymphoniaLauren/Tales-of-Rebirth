@@ -9,6 +9,11 @@
 #define asm(x)
 #endif
 
+// TODO: Perhaps move TS_TO_FRAMES
+#define TS_TO_FRAMES(min, sec, mili) ((int)((min * 60 * 60) + (sec * 60) + (mili / 1000.0)))
+#define ARRAY_COUNT(arr) (s32)(sizeof(arr) / sizeof(arr[0]))
+#define ARRAY_COUNTU(arr) (u32)(sizeof(arr) / sizeof(arr[0]))
+
 #define NULL ((void*)0)
 #define DATA __attribute__((section(".data")))
 

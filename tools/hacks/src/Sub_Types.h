@@ -1,5 +1,6 @@
 #pragma once
 #include "types.h"
+#include "rebirth_text.h"
 
 #define EXPORT extern "C"
 
@@ -15,6 +16,11 @@
 
 #define TRUE 1
 #define FALSE 0
+
+#define FRAME_MAX 0xFFFF
+#define CAT_PAIR_TO_ID(cat, i) (((cat & 0xFF) << 0x18) | (i & 0xFFFFFF))
+
+#define NAME(x) CYAN x WHITE
 
 #define TYPE_NORMAL 0
 #define TYPE_BOTTOM 1
