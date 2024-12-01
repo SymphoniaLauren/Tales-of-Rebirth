@@ -4,6 +4,13 @@
 .definelabel strCatKanji, 0x32C508
 .definelabel getBtlStr, 0x306048
 
+; Use normal fonts
+.org 0x30021c
+    nop
+
+.org 0x300220
+    li    a1, 0
+
 ; BATTLE SUBS
 .org 0x002f1adc
     jal draw_sub_wrapper    ; in battle main loop to draw subs
