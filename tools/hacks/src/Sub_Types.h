@@ -46,13 +46,13 @@ struct Battle_Subs_Table
 {
 	u32 voice_id;
 	int num_lines;
-	Voice_Line** Lines;
-	inline bool operator ==(const u32& b)
+	const Voice_Line** Lines;
+	inline bool operator ==(const u32& b) const
 	{
 		return voice_id == b;
 	}
 
-	inline bool operator <(const u32& b)
+	inline bool operator <(const u32& b) const
 	{
 		return voice_id < b;
 	}
@@ -60,7 +60,7 @@ struct Battle_Subs_Table
 struct Voice_Queue
 {
 	btl_chr_struct* btl_chr;
-	Battle_Subs_Table* table;
+	const Battle_Subs_Table* table;
 	u8 queue_state;
 	u32 current_frame;
 };
@@ -73,7 +73,7 @@ struct Text_Container
 	u8 container_state;
 	btl_chr_struct* btl_chr;
 	u32 Battle_Voice_Id;
-	Voice_Line* Line;
+	const Voice_Line* Line;
 	u32 Current_Post_Frame;
 	u32 Extra_Frames;
 	u32 Current_Frame;
