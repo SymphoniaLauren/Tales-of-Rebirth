@@ -111,3 +111,7 @@
 .definelabel sprintf,              0x001c0ed0
 .definelabel getBtlVoiceTimer,     0x00330108
 .definelabel battle_pause,         0x00354A4F
+.definelabel getMonsterName,       0x00149f48 
+.definelabel custom_strcmp,        0x00170a10
+.definelabel strcmp,               0x001bfe1c
+.definelabel getEncodedCharName,   0x00107138

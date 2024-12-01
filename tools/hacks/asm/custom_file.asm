@@ -145,6 +145,19 @@ VERBOSE_MODE:
 	addiu sp, sp, 0x10
 .endfunc
 
+.func monster_book_name_compare
+	addiu sp, sp, -0x10
+	sw ra, 0xc(sp)
+
+    lbu a0, 0x0(a0)
+    jal monster_book_compare
+    lbu a1, 0x0(a1)
+
+    lw ra, 0xc(sp)
+	jr ra
+	addiu sp, sp, 0x10
+.endfunc
+
 .importobj "./build/hack.o"
 .importobj "./build/battle_subs.o"
 

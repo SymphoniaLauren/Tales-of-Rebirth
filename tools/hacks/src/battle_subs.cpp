@@ -39,6 +39,20 @@ extern "C"
 		get_str_width(font, str, 0, 0);
 		font->x = GS_X_COORD(SCREEN_WIDTH / 2) - (font->width / 2);
 	}
+	int monster_book_compare(int id1, int id2)
+	{
+		char* name1 = getMonsterName(id1);
+		char* name2 = getMonsterName(id2);
+		if (id1 < 7)
+		{
+			name1 = getEncodedCharName(0xb, id1);
+		}
+		if (id2 < 7)
+		{
+			name2 = getEncodedCharName(0xb, id2);
+		}
+		return strcmp(name1, name2);
+	}
 
 	////////////////////////
 	// SKIT CENTERING CODE
