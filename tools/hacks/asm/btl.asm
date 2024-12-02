@@ -8,6 +8,10 @@
 .org 0x30021c
     nop
 
+; Except for HP string
+.org 0x3002b4
+    j btl_big_hp
+
 .org 0x300220
     li    a1, 0
 

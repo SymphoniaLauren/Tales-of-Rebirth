@@ -115,3 +115,4 @@
 .definelabel custom_strcmp,        0x00170a10
 .definelabel strcmp,               0x001bfe1c
 .definelabel getEncodedCharName,   0x00107138
+.definelabel printbtlwindowstr,    0x00303898

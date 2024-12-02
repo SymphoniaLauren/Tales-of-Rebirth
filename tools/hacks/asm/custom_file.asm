@@ -11,6 +11,23 @@ DEBUG_MODE:
 VERBOSE_MODE:
 .halfword 0
 
+.definelabel gBattle_fontenv_0, 0x357ED0
+
+.func btl_big_hp
+    ; s1 is discarded by the caller
+    la         s1, gBattle_fontenv_0
+    lh         at, 0(s1)
+    ori        at, 1
+    sh         at, 0(s1)
+    jal        printBtlWindowStr
+    nop
+    lh         at, 0(s1)
+    andi       at, ~1
+    sh         at, 0(s1)
+    j          0x3002BC
+    nop
+.endfunc
+
 .func draw_sub_wrapper
 	addiu sp, sp, -0x10
 	sw ra, 0xc(sp)

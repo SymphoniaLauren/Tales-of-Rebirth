@@ -219,6 +219,24 @@ extra_syscall_ret:
 .org 0x136144
     li    a1, 0x0
 
+;Prevent funny font in Farm Fresh Groceries
+.org 0x136588
+    li   a1, 0x0
+
+;Use sexier font for numbers in Farm Fresh Groceries
+.org 0x1365b8
+    li   a2, 0x1
+
+;Don't monospace number in Magical Pot
+;window in Farm Fresh Groceries
+.org 0x136ce4
+    li   a1, 0x0
+
+;Use sexier font for numbers in Magical Pot
+;window in Farm Fresh Groceries
+.org 0x136d14
+    li   a2, 0x1
+
 .org 0x1CF680
 ;Shoves font blob into the exe (I'M SORRY KAJI)
     .incbin "../assets/fonttiles.bin"
@@ -310,7 +328,7 @@ extra_syscall_ret:
 /* ％ */ .byte   02 , 04
 /* ＃ */ .byte   04 , 04
 /* ＆ */ .byte   02 , 04
-/* ＊ */ .byte   04 , 04
+/* ＊ */ .byte   06 , 08
 /* ＠ */ .byte   00 , 01
 /* ｜ */ .byte   08 , 08
 /*  ” */ .byte   01 , 15
