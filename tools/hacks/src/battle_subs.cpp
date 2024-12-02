@@ -39,6 +39,20 @@ extern "C"
 		get_str_width(font, str, 0, 0);
 		font->x = GS_X_COORD(SCREEN_WIDTH / 2) - (font->width / 2);
 	}
+	int monster_book_compare(int id1, int id2)
+	{
+		char* name1 = getMonsterName(id1);
+		char* name2 = getMonsterName(id2);
+		if (id1 < 7)
+		{
+			name1 = getEncodedCharName(0xb, id1);
+		}
+		if (id2 < 7)
+		{
+			name2 = getEncodedCharName(0xb, id2);
+		}
+		return strcmp(name1, name2);
+	}
 
 	////////////////////////
 	// SKIT CENTERING CODE
@@ -195,7 +209,7 @@ extern "C"
 	}
 
 	// add battle sub item to voice queue
-	void add_to_queue(btl_chr_struct* btl_chr, Battle_Subs_Table* table)
+	void add_to_queue(btl_chr_struct* btl_chr, const Battle_Subs_Table* table)
 	{
 		// first check if this table is already in our queue
 		for (int i = 0; i < NUM_VOICE_QUEUES; i++)
@@ -254,7 +268,7 @@ extern "C"
 	}
 
 	// initialize text container with voice data
-	Text_Container* init_container(btl_chr_struct* btl_chr, Voice_Line* line, u32 voice_id)
+	Text_Container* init_container(btl_chr_struct* btl_chr, const Voice_Line* line, u32 voice_id)
 	{
 		// loop through containers
 		for (int i = 0; i < NUM_TEXT_CONTAINERS; i++)
@@ -471,8 +485,8 @@ extern "C"
 			voice_id = voice_id | (btl_chr->char_id << 24);
 		}
 		// binary search for the voice
-		Battle_Subs_Table* table =
-			bsearch<Battle_Subs_Table, u32>(battle_subs_tables, Battle_Table_Count, voice_id);
+		const Battle_Subs_Table* table =
+			bsearch<const Battle_Subs_Table, u32>(battle_subs_tables, Battle_Table_Count, voice_id);
 		if (table != 0)
 		{
 			// found, add to voice queue

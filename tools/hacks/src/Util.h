@@ -2,7 +2,7 @@
 #define __UTIL_H__
 
 template <class T, class V>
-inline T* bsearch(T* data, int numElems, const V compare)
+inline T* bsearch(const T* data, int numElems, const V compare)
 {
 	s32 first = 0;
 	s32 last = numElems-1;

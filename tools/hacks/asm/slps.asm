@@ -215,6 +215,10 @@ extra_syscall_ret:
 ;Prevents some font memes in the Synopsis
 	nop
 
+;Prevents funny font with Magical Pot
+.org 0x136144
+    li    a1, 0x0
+
 .org 0x1CF680
 ;Shoves font blob into the exe (I'M SORRY KAJI)
     .incbin "../assets/fonttiles.bin"
