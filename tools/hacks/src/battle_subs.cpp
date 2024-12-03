@@ -7,9 +7,9 @@
 
 #define DEBUG_X GS_X_COORD(16)		// debug x
 #define DEBUG_Y GS_Y_COORD(4)		// debug y
-#define LINE_1_Y GS_Y_COORD(320)	// y for type 1
+#define LINE_1_Y GS_Y_COORD(316)	// y for type 1
 #define LINE_2_Y GS_Y_COORD(400)	// y for type 2
-#define LINE_3_Y GS_Y_COORD(320)	// y for type 3
+#define LINE_3_Y GS_Y_COORD(316)	// y for type 3
 #define NUM_VOICE_QUEUES 6			// slots to hold active/pending voice data, 6 is fine
 #define NUM_TEXT_CONTAINERS 2		// number of active sub lines - may need to adj code if increasing
 #define POST_FRAME_COUNT 20			// number of frames for fade out animation
@@ -25,6 +25,9 @@ extern "C"
 	extern u8 battle_pause;
 	extern u16 DEBUG_MODE;
 	extern u16 VERBOSE_MODE;
+	extern u16 btl_auto_cooking;
+	extern u8 btl_item_count;
+	extern int btl_cooking_flag;
 	DATA Voice_Queue voice_queue[NUM_VOICE_QUEUES];
 	DATA Text_Container text_container[NUM_TEXT_CONTAINERS];
 	DATA Skit_Container skit_container;
@@ -268,7 +271,7 @@ extern "C"
 	}
 
 	// initialize text container with voice data
-	Text_Container* init_container(btl_chr_struct* btl_chr, const Voice_Line* line, u32 voice_id)
+	Text_Container* init_container(btl_chr_struct* btl_chr, const Voice_Line* line, u32 voice_id, int num_lines)
 	{
 		// loop through containers
 		for (int i = 0; i < NUM_TEXT_CONTAINERS; i++)
@@ -291,10 +294,24 @@ extern "C"
 				else if (text_container[i].Line->Type == TYPE_POST_BATTLE)
 				{
 					y = LINE_3_Y;
+					if ((btl_cooking_flag != -1) && ((btl_auto_cooking & 2) == 0))
+					{
+						y = GS_Y_COORD(268);
+					}
+					if (btl_item_count > 0)
+					{
+						int rows = ((btl_item_count + 1) / 2) - 1;
+						int coord = 256 - (28 * rows);
+						y = GS_Y_COORD(coord);
+					}
+					if (num_lines == 1 && text_container[i].Container_Id == 0)
+					{
+						y += Y_COORD(11);
+					}
 				}
 				// should be c0? b0? adjust if needed
 				// increases y for second line
-				text_container[i].y = y + (Y_COORD(11.5) * text_container[i].Container_Id); // chg if needed
+				text_container[i].y = y + (Y_COORD(11) * text_container[i].Container_Id); // chg if needed
 				return &text_container[i];
 			}
 		}
@@ -350,7 +367,7 @@ extern "C"
 						if (voice_queue[i].table->Lines[j]->Start_Frame == voice_queue[i].current_frame)
 						{
 							// if so, initialize a text container with that line
-							init_container(voice_queue[i].btl_chr, voice_queue[i].table->Lines[j], voice_queue[i].table->voice_id);
+							init_container(voice_queue[i].btl_chr, voice_queue[i].table->Lines[j], voice_queue[i].table->voice_id, voice_queue[i].table->num_lines);
 						}
 					}
 					if (!battle_pause)

@@ -17,5 +17,5 @@ extern "C"
 	void add_to_queue(btl_chr_struct* btl_chr, const Battle_Subs_Table* table);
 	void clear_queue_item(Voice_Queue* queue);
 	void clear_container_item(Text_Container* txt);
-	Text_Container* init_container(btl_chr_struct* btl_chr, const Voice_Line* line, u32 voice_id);
+	Text_Container* init_container(btl_chr_struct* btl_chr, const Voice_Line* line, u32 voice_id, int num_lines);
 }
