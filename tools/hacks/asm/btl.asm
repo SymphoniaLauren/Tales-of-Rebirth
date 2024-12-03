@@ -43,15 +43,16 @@
 ; move post battle stuff around
 ; move ENHANCE EXECUTABLE! down
 .org 0x002FD444
-    ori v0, zero, y_coord(448)
+    ori v0, zero, GS_Y_COORD(448)
 
 ; move the blue background for ENHANCE EXECUTABLE! down
 .org 0x002fd374 
-    ori v1, zero, y_coord(448)
+    ori v1, zero, GS_Y_COORD(448)
 
-; move item window up a bit to give space for subs
+; move item window down a bit to give space for subs
 .org 0x0032d4e0 
-    ori a0, zero, y_coord(154)    ; orig y_coord(166)
+    ori a0, zero, y_coord(174)
+    ;ori a0, zero, y_coord(154)    ; orig y_coord(166)
 
 ; move around the params for を習得
 .org 0x032C044

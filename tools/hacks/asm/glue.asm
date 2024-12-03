@@ -116,3 +116,6 @@
 .definelabel strcmp,               0x001bfe1c
 .definelabel getEncodedCharName,   0x00107138
 .definelabel printbtlwindowstr,    0x00303898
+.definelabel btl_item_count,       0x00357E8C
+.definelabel btl_auto_cooking,     0x00236090
+.definelabel btl_cooking_flag,     0x00357EAC
