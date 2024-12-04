@@ -5,10 +5,17 @@
 #include "Sub_Types.h"
 #include "Util.h"
 
-const int Battle_Table_Count = 343;
+const int Battle_Table_Count = 411;
 
 #pragma region Lines
     #pragma region Lines for Category 0x01
+        const Voice_Line line_00353_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(VEIGUE) ": " "This isn't good...!"
+        };
         const Voice_Line line_00374_0 = {
             TYPE_BOTTOM,
             0,
@@ -37,7 +44,491 @@ const int Battle_Table_Count = 343;
             FRAME_MAX,
             NAME(VEIGUE) ": " "Looks like we're surrounded."
         };
+        const Voice_Line line_00379_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(VEIGUE) ": " "We're changing strategies!"
+        };
+        const Voice_Line line_00381_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(VEIGUE) ": " "Understood."
+        };
+        const Voice_Line line_00382_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(VEIGUE) ": " "Let's put a stop to this."
+        };
     #pragma endregion Lines for Category 0x01
+
+    #pragma region Lines for Category 0x02
+        const Voice_Line line_00436_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "Things aren't looking good..."
+        };
+        const Voice_Line line_00440_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "On to the next!"
+        };
+        const Voice_Line line_00441_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "Let's skidaddle!"
+        };
+        const Voice_Line line_00457_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "Let's do this!"
+        };
+        const Voice_Line line_00458_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "Let's get this done in a jiffy!"
+        };
+        const Voice_Line line_00459_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "Looks like enemies!"
+        };
+        const Voice_Line line_00460_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "No fair!"
+        };
+        const Voice_Line line_00461_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "They look strong..."
+        };
+        const Voice_Line line_00462_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "We're chaning strategies!"
+        };
+        const Voice_Line line_00464_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(MAO) ": " "Okay!"
+        };
+    #pragma endregion Lines for Category 0x02
+
+    #pragma region Lines for Category 0x03
+        const Voice_Line line_00526_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "I'm sorry..."
+        };
+        const Voice_Line line_00529_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "It's not over yet!"
+        };
+        const Voice_Line line_00532_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "I'm using this."
+        };
+        const Voice_Line line_00533_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "Thank you."
+        };
+        const Voice_Line line_00534_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "Sorry for the trouble."
+        };
+        const Voice_Line line_00535_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "I'm not going down here!"
+        };
+        const Voice_Line line_00546_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "Ready when you are."
+        };
+        const Voice_Line line_00547_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "Brace yourselves."
+        };
+        const Voice_Line line_00548_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "Here they come."
+        };
+        const Voice_Line line_00549_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "We're surrounded."
+        };
+        const Voice_Line line_00550_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "Don't die!"
+        };
+        const Voice_Line line_00551_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "We're changing strategies!"
+        };
+        const Voice_Line line_00553_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(EUGENE) ": " "Understood!"
+        };
+    #pragma endregion Lines for Category 0x03
+
+    #pragma region Lines for Category 0x04
+        const Voice_Line line_00597_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Oh no..."
+        };
+        const Voice_Line line_00598_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "I can't go on..."
+        };
+        const Voice_Line line_00599_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "My body...!"
+        };
+        const Voice_Line line_00601_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "There's more!"
+        };
+        const Voice_Line line_00604_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Here."
+        };
+        const Voice_Line line_00605_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Thank you!"
+        };
+        const Voice_Line line_00606_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "I was worried what would happen to me."
+        };
+        const Voice_Line line_00607_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "I have no intentions of losing!"
+        };
+        const Voice_Line line_00618_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Let's do our best."
+        };
+        const Voice_Line line_00619_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Enemies!"
+        };
+        const Voice_Line line_00620_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "We shall perservere!"
+        };
+        const Voice_Line line_00621_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Oh dear..."
+        };
+        const Voice_Line line_00622_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Something is different..."
+        };
+        const Voice_Line line_00623_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Let's change our strategy."
+        };
+        const Voice_Line line_00625_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Understood."
+        };
+        const Voice_Line line_00626_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Let's do our best, everyone!"
+        };
+        const Voice_Line line_00627_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(ANNIE) ": " "Um, understood!"
+        };
+    #pragma endregion Lines for Category 0x04
+
+    #pragma region Lines for Category 0x05
+        const Voice_Line line_00668_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "This is bad..."
+        };
+        const Voice_Line line_00669_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "Sorry..."
+        };
+        const Voice_Line line_00670_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "What happened?!"
+        };
+        const Voice_Line line_00672_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "Who's next?"
+        };
+        const Voice_Line line_00673_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "Running is winning!"
+        };
+        const Voice_Line line_00677_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "Who was it that knocked me down?!"
+        };
+        const Voice_Line line_00678_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "The world is calling me!"
+        };
+        const Voice_Line line_00689_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "Alright, let's do this!"
+        };
+        const Voice_Line line_00690_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "Let's get this over with quick!"
+        };
+        const Voice_Line line_00691_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "We've got company~"
+        };
+        const Voice_Line line_00692_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "What is this, a sandwich?"
+        };
+        const Voice_Line line_00694_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "We're changing strategies！"
+        };
+        const Voice_Line line_00696_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(TYTREE) ": " "Got it!"
+        };
+    #pragma endregion Lines for Category 0x05
+
+    #pragma region Lines for Category 0x06
+        const Voice_Line line_00746_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "How embarrasing..."
+        };
+        const Voice_Line line_00750_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "Goodbye."
+        };
+        const Voice_Line line_00752_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "Here!"
+        };
+        const Voice_Line line_00753_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "Thank you."
+        };
+        const Voice_Line line_00755_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "I'm not going down!"
+        };
+        const Voice_Line line_00766_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "Well, are we ready?"
+        };
+        const Voice_Line line_00767_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "Let's do this!"
+        };
+        const Voice_Line line_00768_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "Are we ready to go?"
+        };
+        const Voice_Line line_00769_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "We seem to be surrounded."
+        };
+        const Voice_Line line_00770_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "This, too, was fate."
+        };
+        const Voice_Line line_00771_0 = {
+            TYPE_BOTTOM,
+            0,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            NAME(HILDA) ": " "We're changing strategies."
+        };
+    #pragma endregion Lines for Category 0x06
 
     #pragma region Lines for Category 0x07
         const Voice_Line line_00829_0 = {
@@ -1814,7 +2305,7 @@ const int Battle_Table_Count = 343;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Geyorkias") ": " "Know ye, mortals, of the foolishness of defying me!"
+            NAME("Geyorkias") ": " "Know ye, mortals, the foolishness of defying me!"
         };
         const Voice_Line line_09688_0 = {
             TYPE_BOTTOM,
@@ -2172,7 +2663,7 @@ const int Battle_Table_Count = 343;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-             ": " "Pretty good! How would you like to be my subordinate?"
+            NAME("Ginnar") ": " "Pretty good! How would you like to be my subordinate?"
         };
         const Voice_Line line_09837_0 = {
             TYPE_BOTTOM,
@@ -2361,7 +2852,7 @@ const int Battle_Table_Count = 343;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Saleh") ": " "Claire, Claire, Claire, Claire...! What are you, stupid?"
+            NAME("Saleh") ": " "Claire, Claire, Claire, Claire! ...What are you, stupid?"
         };
         const Voice_Line line_09869_0 = {
             TYPE_BOTTOM,
@@ -2697,6 +3188,10 @@ const int Battle_Table_Count = 343;
 
 
 #pragma region Line pointers
+    const Voice_Line* lines_00353[1] = {
+        &line_00353_0
+    };
+
     const Voice_Line* lines_00374[1] = {
         &line_00374_0
     };
@@ -2711,6 +3206,274 @@ const int Battle_Table_Count = 343;
 
     const Voice_Line* lines_00377[1] = {
         &line_00377_0
+    };
+
+    const Voice_Line* lines_00379[1] = {
+        &line_00379_0
+    };
+
+    const Voice_Line* lines_00381[1] = {
+        &line_00381_0
+    };
+
+    const Voice_Line* lines_00382[1] = {
+        &line_00382_0
+    };
+
+    const Voice_Line* lines_00436[1] = {
+        &line_00436_0
+    };
+
+    const Voice_Line* lines_00440[1] = {
+        &line_00440_0
+    };
+
+    const Voice_Line* lines_00441[1] = {
+        &line_00441_0
+    };
+
+    const Voice_Line* lines_00457[1] = {
+        &line_00457_0
+    };
+
+    const Voice_Line* lines_00458[1] = {
+        &line_00458_0
+    };
+
+    const Voice_Line* lines_00459[1] = {
+        &line_00459_0
+    };
+
+    const Voice_Line* lines_00460[1] = {
+        &line_00460_0
+    };
+
+    const Voice_Line* lines_00461[1] = {
+        &line_00461_0
+    };
+
+    const Voice_Line* lines_00462[1] = {
+        &line_00462_0
+    };
+
+    const Voice_Line* lines_00464[1] = {
+        &line_00464_0
+    };
+
+    const Voice_Line* lines_00526[1] = {
+        &line_00526_0
+    };
+
+    const Voice_Line* lines_00529[1] = {
+        &line_00529_0
+    };
+
+    const Voice_Line* lines_00532[1] = {
+        &line_00532_0
+    };
+
+    const Voice_Line* lines_00533[1] = {
+        &line_00533_0
+    };
+
+    const Voice_Line* lines_00534[1] = {
+        &line_00534_0
+    };
+
+    const Voice_Line* lines_00535[1] = {
+        &line_00535_0
+    };
+
+    const Voice_Line* lines_00546[1] = {
+        &line_00546_0
+    };
+
+    const Voice_Line* lines_00547[1] = {
+        &line_00547_0
+    };
+
+    const Voice_Line* lines_00548[1] = {
+        &line_00548_0
+    };
+
+    const Voice_Line* lines_00549[1] = {
+        &line_00549_0
+    };
+
+    const Voice_Line* lines_00550[1] = {
+        &line_00550_0
+    };
+
+    const Voice_Line* lines_00551[1] = {
+        &line_00551_0
+    };
+
+    const Voice_Line* lines_00553[1] = {
+        &line_00553_0
+    };
+
+    const Voice_Line* lines_00597[1] = {
+        &line_00597_0
+    };
+
+    const Voice_Line* lines_00598[1] = {
+        &line_00598_0
+    };
+
+    const Voice_Line* lines_00599[1] = {
+        &line_00599_0
+    };
+
+    const Voice_Line* lines_00601[1] = {
+        &line_00601_0
+    };
+
+    const Voice_Line* lines_00604[1] = {
+        &line_00604_0
+    };
+
+    const Voice_Line* lines_00605[1] = {
+        &line_00605_0
+    };
+
+    const Voice_Line* lines_00606[1] = {
+        &line_00606_0
+    };
+
+    const Voice_Line* lines_00607[1] = {
+        &line_00607_0
+    };
+
+    const Voice_Line* lines_00618[1] = {
+        &line_00618_0
+    };
+
+    const Voice_Line* lines_00619[1] = {
+        &line_00619_0
+    };
+
+    const Voice_Line* lines_00620[1] = {
+        &line_00620_0
+    };
+
+    const Voice_Line* lines_00621[1] = {
+        &line_00621_0
+    };
+
+    const Voice_Line* lines_00622[1] = {
+        &line_00622_0
+    };
+
+    const Voice_Line* lines_00623[1] = {
+        &line_00623_0
+    };
+
+    const Voice_Line* lines_00625[1] = {
+        &line_00625_0
+    };
+
+    const Voice_Line* lines_00626[1] = {
+        &line_00626_0
+    };
+
+    const Voice_Line* lines_00627[1] = {
+        &line_00627_0
+    };
+
+    const Voice_Line* lines_00668[1] = {
+        &line_00668_0
+    };
+
+    const Voice_Line* lines_00669[1] = {
+        &line_00669_0
+    };
+
+    const Voice_Line* lines_00670[1] = {
+        &line_00670_0
+    };
+
+    const Voice_Line* lines_00672[1] = {
+        &line_00672_0
+    };
+
+    const Voice_Line* lines_00673[1] = {
+        &line_00673_0
+    };
+
+    const Voice_Line* lines_00677[1] = {
+        &line_00677_0
+    };
+
+    const Voice_Line* lines_00678[1] = {
+        &line_00678_0
+    };
+
+    const Voice_Line* lines_00689[1] = {
+        &line_00689_0
+    };
+
+    const Voice_Line* lines_00690[1] = {
+        &line_00690_0
+    };
+
+    const Voice_Line* lines_00691[1] = {
+        &line_00691_0
+    };
+
+    const Voice_Line* lines_00692[1] = {
+        &line_00692_0
+    };
+
+    const Voice_Line* lines_00694[1] = {
+        &line_00694_0
+    };
+
+    const Voice_Line* lines_00696[1] = {
+        &line_00696_0
+    };
+
+    const Voice_Line* lines_00746[1] = {
+        &line_00746_0
+    };
+
+    const Voice_Line* lines_00750[1] = {
+        &line_00750_0
+    };
+
+    const Voice_Line* lines_00752[1] = {
+        &line_00752_0
+    };
+
+    const Voice_Line* lines_00753[1] = {
+        &line_00753_0
+    };
+
+    const Voice_Line* lines_00755[1] = {
+        &line_00755_0
+    };
+
+    const Voice_Line* lines_00766[1] = {
+        &line_00766_0
+    };
+
+    const Voice_Line* lines_00767[1] = {
+        &line_00767_0
+    };
+
+    const Voice_Line* lines_00768[1] = {
+        &line_00768_0
+    };
+
+    const Voice_Line* lines_00769[1] = {
+        &line_00769_0
+    };
+
+    const Voice_Line* lines_00770[1] = {
+        &line_00770_0
+    };
+
+    const Voice_Line* lines_00771[1] = {
+        &line_00771_0
     };
 
     const Voice_Line* lines_00829[1] = {
@@ -4107,6 +4870,11 @@ const int Battle_Table_Count = 343;
 const Battle_Subs_Table battle_subs_tables[Battle_Table_Count] = {
     // Category 0x01
     {
+        CAT_PAIR_TO_ID(1, 16),
+        ARRAY_COUNT(lines_00353),
+        lines_00353
+    },
+    {
         CAT_PAIR_TO_ID(1, 37),
         ARRAY_COUNT(lines_00374),
         lines_00374
@@ -4125,6 +4893,351 @@ const Battle_Subs_Table battle_subs_tables[Battle_Table_Count] = {
         CAT_PAIR_TO_ID(1, 40),
         ARRAY_COUNT(lines_00377),
         lines_00377
+    },
+    {
+        CAT_PAIR_TO_ID(1, 42),
+        ARRAY_COUNT(lines_00379),
+        lines_00379
+    },
+    {
+        CAT_PAIR_TO_ID(1, 44),
+        ARRAY_COUNT(lines_00381),
+        lines_00381
+    },
+    {
+        CAT_PAIR_TO_ID(1, 45),
+        ARRAY_COUNT(lines_00382),
+        lines_00382
+    },
+
+    // Category 0x02
+    {
+        CAT_PAIR_TO_ID(2, 16),
+        ARRAY_COUNT(lines_00436),
+        lines_00436
+    },
+    {
+        CAT_PAIR_TO_ID(2, 20),
+        ARRAY_COUNT(lines_00440),
+        lines_00440
+    },
+    {
+        CAT_PAIR_TO_ID(2, 21),
+        ARRAY_COUNT(lines_00441),
+        lines_00441
+    },
+    {
+        CAT_PAIR_TO_ID(2, 37),
+        ARRAY_COUNT(lines_00457),
+        lines_00457
+    },
+    {
+        CAT_PAIR_TO_ID(2, 38),
+        ARRAY_COUNT(lines_00458),
+        lines_00458
+    },
+    {
+        CAT_PAIR_TO_ID(2, 39),
+        ARRAY_COUNT(lines_00459),
+        lines_00459
+    },
+    {
+        CAT_PAIR_TO_ID(2, 40),
+        ARRAY_COUNT(lines_00460),
+        lines_00460
+    },
+    {
+        CAT_PAIR_TO_ID(2, 41),
+        ARRAY_COUNT(lines_00461),
+        lines_00461
+    },
+    {
+        CAT_PAIR_TO_ID(2, 42),
+        ARRAY_COUNT(lines_00462),
+        lines_00462
+    },
+    {
+        CAT_PAIR_TO_ID(2, 44),
+        ARRAY_COUNT(lines_00464),
+        lines_00464
+    },
+
+    // Category 0x03
+    {
+        CAT_PAIR_TO_ID(3, 17),
+        ARRAY_COUNT(lines_00526),
+        lines_00526
+    },
+    {
+        CAT_PAIR_TO_ID(3, 20),
+        ARRAY_COUNT(lines_00529),
+        lines_00529
+    },
+    {
+        CAT_PAIR_TO_ID(3, 23),
+        ARRAY_COUNT(lines_00532),
+        lines_00532
+    },
+    {
+        CAT_PAIR_TO_ID(3, 24),
+        ARRAY_COUNT(lines_00533),
+        lines_00533
+    },
+    {
+        CAT_PAIR_TO_ID(3, 25),
+        ARRAY_COUNT(lines_00534),
+        lines_00534
+    },
+    {
+        CAT_PAIR_TO_ID(3, 26),
+        ARRAY_COUNT(lines_00535),
+        lines_00535
+    },
+    {
+        CAT_PAIR_TO_ID(3, 37),
+        ARRAY_COUNT(lines_00546),
+        lines_00546
+    },
+    {
+        CAT_PAIR_TO_ID(3, 38),
+        ARRAY_COUNT(lines_00547),
+        lines_00547
+    },
+    {
+        CAT_PAIR_TO_ID(3, 39),
+        ARRAY_COUNT(lines_00548),
+        lines_00548
+    },
+    {
+        CAT_PAIR_TO_ID(3, 40),
+        ARRAY_COUNT(lines_00549),
+        lines_00549
+    },
+    {
+        CAT_PAIR_TO_ID(3, 41),
+        ARRAY_COUNT(lines_00550),
+        lines_00550
+    },
+    {
+        CAT_PAIR_TO_ID(3, 42),
+        ARRAY_COUNT(lines_00551),
+        lines_00551
+    },
+    {
+        CAT_PAIR_TO_ID(3, 44),
+        ARRAY_COUNT(lines_00553),
+        lines_00553
+    },
+
+    // Category 0x04
+    {
+        CAT_PAIR_TO_ID(4, 16),
+        ARRAY_COUNT(lines_00597),
+        lines_00597
+    },
+    {
+        CAT_PAIR_TO_ID(4, 17),
+        ARRAY_COUNT(lines_00598),
+        lines_00598
+    },
+    {
+        CAT_PAIR_TO_ID(4, 18),
+        ARRAY_COUNT(lines_00599),
+        lines_00599
+    },
+    {
+        CAT_PAIR_TO_ID(4, 20),
+        ARRAY_COUNT(lines_00601),
+        lines_00601
+    },
+    {
+        CAT_PAIR_TO_ID(4, 23),
+        ARRAY_COUNT(lines_00604),
+        lines_00604
+    },
+    {
+        CAT_PAIR_TO_ID(4, 24),
+        ARRAY_COUNT(lines_00605),
+        lines_00605
+    },
+    {
+        CAT_PAIR_TO_ID(4, 25),
+        ARRAY_COUNT(lines_00606),
+        lines_00606
+    },
+    {
+        CAT_PAIR_TO_ID(4, 26),
+        ARRAY_COUNT(lines_00607),
+        lines_00607
+    },
+    {
+        CAT_PAIR_TO_ID(4, 37),
+        ARRAY_COUNT(lines_00618),
+        lines_00618
+    },
+    {
+        CAT_PAIR_TO_ID(4, 38),
+        ARRAY_COUNT(lines_00619),
+        lines_00619
+    },
+    {
+        CAT_PAIR_TO_ID(4, 39),
+        ARRAY_COUNT(lines_00620),
+        lines_00620
+    },
+    {
+        CAT_PAIR_TO_ID(4, 40),
+        ARRAY_COUNT(lines_00621),
+        lines_00621
+    },
+    {
+        CAT_PAIR_TO_ID(4, 41),
+        ARRAY_COUNT(lines_00622),
+        lines_00622
+    },
+    {
+        CAT_PAIR_TO_ID(4, 42),
+        ARRAY_COUNT(lines_00623),
+        lines_00623
+    },
+    {
+        CAT_PAIR_TO_ID(4, 44),
+        ARRAY_COUNT(lines_00625),
+        lines_00625
+    },
+    {
+        CAT_PAIR_TO_ID(4, 45),
+        ARRAY_COUNT(lines_00626),
+        lines_00626
+    },
+    {
+        CAT_PAIR_TO_ID(4, 46),
+        ARRAY_COUNT(lines_00627),
+        lines_00627
+    },
+
+    // Category 0x05
+    {
+        CAT_PAIR_TO_ID(5, 16),
+        ARRAY_COUNT(lines_00668),
+        lines_00668
+    },
+    {
+        CAT_PAIR_TO_ID(5, 17),
+        ARRAY_COUNT(lines_00669),
+        lines_00669
+    },
+    {
+        CAT_PAIR_TO_ID(5, 18),
+        ARRAY_COUNT(lines_00670),
+        lines_00670
+    },
+    {
+        CAT_PAIR_TO_ID(5, 20),
+        ARRAY_COUNT(lines_00672),
+        lines_00672
+    },
+    {
+        CAT_PAIR_TO_ID(5, 21),
+        ARRAY_COUNT(lines_00673),
+        lines_00673
+    },
+    {
+        CAT_PAIR_TO_ID(5, 25),
+        ARRAY_COUNT(lines_00677),
+        lines_00677
+    },
+    {
+        CAT_PAIR_TO_ID(5, 26),
+        ARRAY_COUNT(lines_00678),
+        lines_00678
+    },
+    {
+        CAT_PAIR_TO_ID(5, 37),
+        ARRAY_COUNT(lines_00689),
+        lines_00689
+    },
+    {
+        CAT_PAIR_TO_ID(5, 38),
+        ARRAY_COUNT(lines_00690),
+        lines_00690
+    },
+    {
+        CAT_PAIR_TO_ID(5, 39),
+        ARRAY_COUNT(lines_00691),
+        lines_00691
+    },
+    {
+        CAT_PAIR_TO_ID(5, 40),
+        ARRAY_COUNT(lines_00692),
+        lines_00692
+    },
+    {
+        CAT_PAIR_TO_ID(5, 42),
+        ARRAY_COUNT(lines_00694),
+        lines_00694
+    },
+    {
+        CAT_PAIR_TO_ID(5, 44),
+        ARRAY_COUNT(lines_00696),
+        lines_00696
+    },
+
+    // Category 0x06
+    {
+        CAT_PAIR_TO_ID(6, 17),
+        ARRAY_COUNT(lines_00746),
+        lines_00746
+    },
+    {
+        CAT_PAIR_TO_ID(6, 21),
+        ARRAY_COUNT(lines_00750),
+        lines_00750
+    },
+    {
+        CAT_PAIR_TO_ID(6, 23),
+        ARRAY_COUNT(lines_00752),
+        lines_00752
+    },
+    {
+        CAT_PAIR_TO_ID(6, 24),
+        ARRAY_COUNT(lines_00753),
+        lines_00753
+    },
+    {
+        CAT_PAIR_TO_ID(6, 26),
+        ARRAY_COUNT(lines_00755),
+        lines_00755
+    },
+    {
+        CAT_PAIR_TO_ID(6, 37),
+        ARRAY_COUNT(lines_00766),
+        lines_00766
+    },
+    {
+        CAT_PAIR_TO_ID(6, 38),
+        ARRAY_COUNT(lines_00767),
+        lines_00767
+    },
+    {
+        CAT_PAIR_TO_ID(6, 39),
+        ARRAY_COUNT(lines_00768),
+        lines_00768
+    },
+    {
+        CAT_PAIR_TO_ID(6, 40),
+        ARRAY_COUNT(lines_00769),
+        lines_00769
+    },
+    {
+        CAT_PAIR_TO_ID(6, 41),
+        ARRAY_COUNT(lines_00770),
+        lines_00770
+    },
+    {
+        CAT_PAIR_TO_ID(6, 42),
+        ARRAY_COUNT(lines_00771),
+        lines_00771
     },
 
     // Category 0x07
