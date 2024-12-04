@@ -71,10 +71,14 @@ NUM_ROWS equ 0x5
     .halfword 0x100		; font height
 
 ; fix highlight width and start pos
-.org 0x002EE3E8
-    li a3, 0x1a0    ; new width, incr from c0
+;.org 0x002EE3E8
+;    li a3, 0x1a0    ; new width, incr from c0
 
-.org 0x002EE3DC
-    addiu a1, s3, -0x70     ; move left 0x10
+;.org 0x002EE3DC
+;    addiu a1, s3, -0x70     ; move left 0x10
+
+; screw it just nop the transform
+.org 0x02ee420
+    nop
 
 .close
