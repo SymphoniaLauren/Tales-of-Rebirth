@@ -59,7 +59,6 @@ NUM_ROWS equ 0x5
     nop
     nop
 
-
 ;font env stuff
 .org 0x002EF224
     .halfword 0xF0		; move typed letters left
@@ -70,5 +69,16 @@ NUM_ROWS equ 0x5
     .halfword 0x100		; letter height
     .halfword 0x1f0		; font width
     .halfword 0x100		; font height
+
+; fix highlight width and start pos
+;.org 0x002EE3E8
+;    li a3, 0x1a0    ; new width, incr from c0
+
+;.org 0x002EE3DC
+;    addiu a1, s3, -0x70     ; move left 0x10
+
+; screw it just nop the transform
+.org 0x02ee420
+    nop
 
 .close
