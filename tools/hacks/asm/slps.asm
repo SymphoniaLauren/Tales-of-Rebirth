@@ -237,6 +237,20 @@ extra_syscall_ret:
 .org 0x136d14
     li   a2, 0x1
 
+;adjusting the whitespace lenght 
+;base is 12 pixel aka /2 the lenght of monospace
+; Menu text and char names whitespace
+.org 0x105ea0
+srl s2,s2,2
+
+; Story text whitespace
+.org 0x11d508
+srl a3,s0,1
+
+; Item name (concat) whitespace
+.org 0x105f3c
+srl s1,s2,0x01
+
 .org 0x1CF680
 ;Shoves font blob into the exe (I'M SORRY KAJI)
     .incbin "../assets/fonttiles.bin"
