@@ -325,7 +325,7 @@ srl s1,s2,0x01
 /* ｙ */ .byte   06 , 07
 /* ｚ */ .byte   06 , 08
 /* ， */ .byte   01 , 15
-/* ． */ .byte   01 , 16
+/* ． */ .byte   01 , 15
 /* ・ */ .byte   08 , 08
 /* ： */ .byte   09 , 09
 /* ； */ .byte   08 , 09
@@ -366,5 +366,10 @@ srl s1,s2,0x01
 ;use debug death notice
 .org 0x1282A0
     nop
+
+;apple gel sellprice fix
+.orga 0x106dd4
+.byte 0x19
+
 
 .close
