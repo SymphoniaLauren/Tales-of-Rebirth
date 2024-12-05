@@ -251,6 +251,10 @@ srl a3,s0,1
 .org 0x105f3c
 srl s1,s2,0x01
 
+; Fix semicolon that showed up as colon
+.org 0x1ca1b5
+.byte 0x47
+
 .org 0x1CF680
 ;Shoves font blob into the exe (I'M SORRY KAJI)
     .incbin "../assets/fonttiles.bin"
@@ -294,7 +298,7 @@ srl s1,s2,0x01
 /* Ｘ */ .byte   05 , 07
 /* Ｙ */ .byte   05 , 08
 /* Ｚ */ .byte   06 , 07
-/* ａ */ .byte   06 , 08
+/* ａ */ .byte   06 , 07
 /* ｂ */ .byte   06 , 07
 /* ｃ */ .byte   07 , 08
 /* ｄ */ .byte   06 , 07
@@ -317,11 +321,11 @@ srl s1,s2,0x01
 /* ｕ */ .byte   06 , 07
 /* ｖ */ .byte   05 , 07
 /* ｗ */ .byte   04 , 04
-/* ｘ */ .byte   06 , 08
+/* ｘ */ .byte   07 , 07
 /* ｙ */ .byte   06 , 07
 /* ｚ */ .byte   06 , 08
 /* ， */ .byte   01 , 15
-/* ． */ .byte   01 , 16
+/* ． */ .byte   01 , 15
 /* ・ */ .byte   08 , 08
 /* ： */ .byte   09 , 09
 /* ； */ .byte   08 , 09
