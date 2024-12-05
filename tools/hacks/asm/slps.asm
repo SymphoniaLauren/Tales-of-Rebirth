@@ -367,4 +367,9 @@ srl s1,s2,0x01
 .org 0x1282A0
     nop
 
+;apple gel sellprice fix
+.orga 0x106dd4
+.byte 0x19
+
+
 .close
