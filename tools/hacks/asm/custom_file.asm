@@ -34,6 +34,9 @@ is_map2d_debug_enabled:
 
     j          0x002EF81C
     nop
+.endfunc
+.importobj "./build/2dmap.o"
+
 .func fmv_hijack
     addiu      sp, sp, -0x50
     sd         s0, 0x00(sp)
