@@ -262,8 +262,7 @@ const fmv_sub fmv_17[92] = {
     {
         TS_TO_FRAMES(2, 38, 320),
         "If there is ever a time where you eat a" NL
-        "pie...a peach pie..." NL
-        "pie... a peach pie..."
+        "pie...a peach pie..."
     },
     {
         TS_TO_FRAMES(2, 42, 400),
