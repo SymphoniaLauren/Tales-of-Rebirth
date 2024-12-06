@@ -10,56 +10,56 @@ const int Battle_Table_Count = 411;
 #pragma region Lines
     #pragma region Lines for Category 0x01
         const Voice_Line line_00353_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "This isn't good...!"
         };
         const Voice_Line line_00374_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Here they come!"
         };
         const Voice_Line line_00375_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Let's go all in!"
         };
         const Voice_Line line_00376_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "What a nuisance."
         };
         const Voice_Line line_00377_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Looks like we're surrounded."
         };
         const Voice_Line line_00379_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "We're changing strategies!"
         };
         const Voice_Line line_00381_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Understood."
         };
         const Voice_Line line_00382_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -69,70 +69,70 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x02
         const Voice_Line line_00436_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "Things aren't looking good..."
         };
         const Voice_Line line_00440_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "On to the next!"
         };
         const Voice_Line line_00441_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "Let's skidaddle!"
         };
         const Voice_Line line_00457_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "Let's do this!"
         };
         const Voice_Line line_00458_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "Let's get this done in a jiffy!"
         };
         const Voice_Line line_00459_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "Looks like enemies!"
         };
         const Voice_Line line_00460_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "No fair!"
         };
         const Voice_Line line_00461_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "They look strong..."
         };
         const Voice_Line line_00462_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "We're chaning strategies!"
         };
         const Voice_Line line_00464_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -142,91 +142,91 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x03
         const Voice_Line line_00526_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "I'm sorry..."
         };
         const Voice_Line line_00529_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "It's not over yet!"
         };
         const Voice_Line line_00532_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "I'm using this."
         };
         const Voice_Line line_00533_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Thank you."
         };
         const Voice_Line line_00534_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Sorry for the trouble."
         };
         const Voice_Line line_00535_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "I'm not going down here!"
         };
         const Voice_Line line_00546_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Ready when you are."
         };
         const Voice_Line line_00547_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Brace yourselves."
         };
         const Voice_Line line_00548_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Here they come."
         };
         const Voice_Line line_00549_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "We're surrounded."
         };
         const Voice_Line line_00550_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Don't die!"
         };
         const Voice_Line line_00551_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "We're changing strategies!"
         };
         const Voice_Line line_00553_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -236,119 +236,119 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x04
         const Voice_Line line_00597_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Oh no..."
         };
         const Voice_Line line_00598_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "I can't go on..."
         };
         const Voice_Line line_00599_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "My body...!"
         };
         const Voice_Line line_00601_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "There's more!"
         };
         const Voice_Line line_00604_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Here."
         };
         const Voice_Line line_00605_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Thank you!"
         };
         const Voice_Line line_00606_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "I was worried what would happen to me."
         };
         const Voice_Line line_00607_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "I have no intentions of losing!"
         };
         const Voice_Line line_00618_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Let's do our best."
         };
         const Voice_Line line_00619_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Enemies!"
         };
         const Voice_Line line_00620_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "We shall perservere!"
         };
         const Voice_Line line_00621_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Oh dear..."
         };
         const Voice_Line line_00622_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Something is different..."
         };
         const Voice_Line line_00623_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Let's change our strategy."
         };
         const Voice_Line line_00625_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Understood."
         };
         const Voice_Line line_00626_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Let's do our best, everyone!"
         };
         const Voice_Line line_00627_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -358,91 +358,91 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x05
         const Voice_Line line_00668_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "This is bad..."
         };
         const Voice_Line line_00669_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Sorry..."
         };
         const Voice_Line line_00670_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "What happened?!"
         };
         const Voice_Line line_00672_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Who's next?"
         };
         const Voice_Line line_00673_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Running is winning!"
         };
         const Voice_Line line_00677_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Who was it that knocked me down?!"
         };
         const Voice_Line line_00678_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "The world is calling me!"
         };
         const Voice_Line line_00689_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Alright, let's do this!"
         };
         const Voice_Line line_00690_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Let's get this over with quick!"
         };
         const Voice_Line line_00691_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "We've got company~"
         };
         const Voice_Line line_00692_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "What is this, a sandwich?"
         };
         const Voice_Line line_00694_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "We're changing strategies！"
         };
         const Voice_Line line_00696_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -452,77 +452,77 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x06
         const Voice_Line line_00746_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "How embarrasing..."
         };
         const Voice_Line line_00750_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Goodbye."
         };
         const Voice_Line line_00752_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Here!"
         };
         const Voice_Line line_00753_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Thank you."
         };
         const Voice_Line line_00755_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "I'm not going down!"
         };
         const Voice_Line line_00766_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Well, are we ready?"
         };
         const Voice_Line line_00767_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Let's do this!"
         };
         const Voice_Line line_00768_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Are we ready to go?"
         };
         const Voice_Line line_00769_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "We seem to be surrounded."
         };
         const Voice_Line line_00770_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "This, too, was fate."
         };
         const Voice_Line line_00771_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -1815,63 +1815,63 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x45
         const Voice_Line line_09553_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "I'm not going to go easy on you."
         };
         const Voice_Line line_09554_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "Looks like you were all bark, no bite. Hahahaha!"
         };
         const Voice_Line line_09555_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "That's it? Guess you died for nothing!"
         };
         const Voice_Line line_09556_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "Haha... I lost? I won't accept this... I can't accept this!"
         };
         const Voice_Line line_09557_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "I won't accept this... I can't accept this!"
         };
         const Voice_Line line_09558_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "Oh? I can use Gels as well."
         };
         const Voice_Line line_09559_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "Are you afraid to die? Too bad."
         };
         const Voice_Line line_09560_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "I'm tired of you all. Now, die!"
         };
         const Voice_Line line_09561_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -1881,77 +1881,77 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x46
         const Voice_Line line_09568_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Damned Huma!"
         };
         const Voice_Line line_09569_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Kh, done in by an ugly Half!"
         };
         const Voice_Line line_09572_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Looks like I didn't need to get serious after all."
         };
         const Voice_Line line_09574_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Tch, I screwed around too much."
         };
         const Voice_Line line_09575_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "I can't believe this!"
         };
         const Voice_Line line_09576_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Three against one? Not like I care."
         };
         const Voice_Line line_09577_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Don't make me laugh! Do you really think that's gonna work?"
         };
         const Voice_Line line_09578_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Is that all the " YELLOW "Force of Ice" WHITE " can do?"
         };
         const Voice_Line line_09579_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Now this..."
         };
         const Voice_Line line_09580_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "...is how you use Force!"
         };
         const Voice_Line line_09581_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -1961,28 +1961,28 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x47
         const Voice_Line line_09593_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Militsa") ": " "Begone!"
         };
         const Voice_Line line_09594_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Militsa") ": " "Weak."
         };
         const Voice_Line line_09596_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Militsa") ": " "This is the only place I belong!"
         };
         const Voice_Line line_09597_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -1992,42 +1992,42 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x48
         const Voice_Line line_09606_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Walto") ": " "I'll make this quick and painless!"
         };
         const Voice_Line line_09607_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Walto") ": " "May you rest in peace!"
         };
         const Voice_Line line_09608_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Walto") ": " "Is this what you wanted, Commander?"
         };
         const Voice_Line line_09609_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Walto") ": " "Do not underestimate the Royal Shield."
         };
         const Voice_Line line_09610_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Walto") ": " "Commander...!"
         };
         const Voice_Line line_09611_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2037,49 +2037,49 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x49
         const Voice_Line line_09616_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Milhaust") ": " "I will protect everything, even if it costs me my life!"
         };
         const Voice_Line line_09617_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Milhaust") ": " "This is it! Fidelity Testament!"
         };
         const Voice_Line line_09618_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Milhaust") ": " "Take my signature arte!"
         };
         const Voice_Line line_09626_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Milhaust") ": " "My victory belongs to Callegea."
         };
         const Voice_Line line_09627_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Milhaust") ": " "An uncertain heart leads to an uncertain blade."
         };
         const Voice_Line line_09630_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Milhaust") ": " "We pledge that our swords are for those we must protect!"
         };
         const Voice_Line line_09631_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2089,119 +2089,119 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x4A
         const Voice_Line line_09632_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Morons!"
         };
         const Voice_Line line_09633_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Garbage!"
         };
         const Voice_Line line_09634_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Insects!"
         };
         const Voice_Line line_09635_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Idiots!"
         };
         const Voice_Line line_09643_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Time for your punishment!"
         };
         const Voice_Line line_09645_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Hurry up and die!"
         };
         const Voice_Line line_09646_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Praise be to the moon, as you crumble before it!"
         };
         const Voice_Line line_09647_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Kneel before my magic!"
         };
         const Voice_Line line_09648_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Who wants to die?"
         };
         const Voice_Line line_09649_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "My world has no need for the likes of you!"
         };
         const Voice_Line line_09650_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Giving up?"
         };
         const Voice_Line line_09651_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Idiot! Where do you think you're aiming?"
         };
         const Voice_Line line_09652_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Hahaha! Disappear!"
         };
         const Voice_Line line_09653_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "My new era awaits!"
         };
         const Voice_Line line_09655_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Shall we begin?"
         };
         const Voice_Line line_09656_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "It's high time I got serious."
         };
         const Voice_Line line_09657_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2211,28 +2211,28 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x4B
         const Voice_Line line_09663_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Shaorune") ": " "Never underestimate the " BLUE "Power of Water" WHITE "!"
         };
         const Voice_Line line_09667_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Shaorune") ": " "I guess I overestimated you..."
         };
         const Voice_Line line_09668_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Shaorune") ": " "You can do it if you have the strength!"
         };
         const Voice_Line line_09669_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2242,28 +2242,28 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x4C
         const Voice_Line line_09676_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Eephon") ": " "May you experience it firsthand!"
         };
         const Voice_Line line_09677_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Eephon") ": " "This is the " BLUE "Power of Shade" WHITE "!"
         };
         const Voice_Line line_09681_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Eephon") ": " "It looks as though you were all talk."
         };
         const Voice_Line line_09682_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2273,140 +2273,140 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x4D
         const Voice_Line line_09683_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Show me your true power!"
         };
         const Voice_Line line_09684_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Perish!"
         };
         const Voice_Line line_09685_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Disappear!"
         };
         const Voice_Line line_09686_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Know your place!"
         };
         const Voice_Line line_09687_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Know ye, mortals, the foolishness of defying me!"
         };
         const Voice_Line line_09688_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Shatter to dust and return to the earth!"
         };
         const Voice_Line line_09689_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Violent gales, rend everything in your wake!"
         };
         const Voice_Line line_09690_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Burn in the crimson flames!"
         };
         const Voice_Line line_09691_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Pure water, wash away the unclean!"
         };
         const Voice_Line line_09692_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Blades of light, strike down the wicked!"
         };
         const Voice_Line line_09693_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Be torn apart by the darkness of avarice!"
         };
         const Voice_Line line_09694_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "May both Man and earth be torn asunder!"
         };
         const Voice_Line line_09695_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Be driven mad by fear, and dance in the storm!"
         };
         const Voice_Line line_09696_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Burn, until only ashes remain!"
         };
         const Voice_Line line_09697_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "May you find eternal sleep in the depths of the sea!"
         };
         const Voice_Line line_09698_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "The lightning of judgement shall lead you to your deaths!"
         };
         const Voice_Line line_09699_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Unto you the cry of death, the song of despair!"
         };
         const Voice_Line line_09700_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Farewell... Perish alongside the eternal truth!"
         };
         const Voice_Line line_09701_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Geyorkias") ": " "Hear ye, o " YELLOW "Man" WHITE ", for I am the King of the Sacred Beasts."
         };
         const Voice_Line line_09702_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2416,21 +2416,21 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x4F
         const Voice_Line line_09718_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Donel") ": " "Enjoy your dirtnap! Dohahaha!"
         };
         const Voice_Line line_09719_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Donel") ": " "I-I-I've hit rock bottom!"
         };
         const Voice_Line line_09720_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2440,56 +2440,56 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x50
         const Voice_Line line_09723_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Ginnar") ": " "Roar, mine blade!"
         };
         const Voice_Line line_09724_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Ginnar") ": " "Hahaha! A magnificent victory!"
         };
         const Voice_Line line_09725_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Ginnar") ": " "I-I've won despite my loss!"
         };
         const Voice_Line line_09726_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Ginnar") ": " "Come and face me!"
         };
         const Voice_Line line_09727_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Ginnar") ": " "Gaze upon our beautiful brigade!"
         };
         const Voice_Line line_09728_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Ginnar") ": " "Our offense and defense are flawless!"
         };
         const Voice_Line line_09732_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Ginnar") ": " "I shall eliminate my adversaries."
         };
         const Voice_Line line_09734_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2499,35 +2499,35 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x51
         const Voice_Line line_09738_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Drombe") ": " "Won we have! Won we have!"
         };
         const Voice_Line line_09740_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Drombe") ": " "Unmatched is my fighting spirit!"
         };
         const Voice_Line line_09741_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Drombe") ": " "Nice team work!"
         };
         const Voice_Line line_09742_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Drombe") ": " "Ironclad is our defense!"
         };
         const Voice_Line line_09746_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2537,49 +2537,49 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x52
         const Voice_Line line_09751_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Yucia") ": " "O beautiful Force!"
         };
         const Voice_Line line_09752_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Yucia") ": " "Did you get burned by a bombshell?"
         };
         const Voice_Line line_09753_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Yucia") ": " "I'm a pacifist!"
         };
         const Voice_Line line_09754_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Yucia") ": " "Come and get me!"
         };
         const Voice_Line line_09756_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Yucia") ": " "Too weak!"
         };
         const Voice_Line line_09760_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Yucia") ": " "They have been eliminated."
         };
         const Voice_Line line_09762_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
@@ -2589,595 +2589,595 @@ const int Battle_Table_Count = 411;
 
     #pragma region Lines for Category 0x5F
         const Voice_Line line_09826_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " 
         };
         const Voice_Line line_09827_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " 
         };
         const Voice_Line line_09828_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " 
         };
         const Voice_Line line_09829_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " 
         };
         const Voice_Line line_09830_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "That was pretty good, " VEIGUE "!"
         };
         const Voice_Line line_09831_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Now's not the time to talk."
         };
         const Voice_Line line_09832_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "He's pretty strong..."
         };
         const Voice_Line line_09833_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "The waiting game is over... Let's go!"
         };
         const Voice_Line line_09834_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "What was that technique...?"
         };
         const Voice_Line line_09835_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "You can do it too, " VEIGUE "!"
         };
         const Voice_Line line_09836_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Ginnar") ": " "Pretty good! How would you like to be my subordinate?"
         };
         const Voice_Line line_09837_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "As if."
         };
         const Voice_Line line_09838_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "I'm going to avenge my father!"
         };
         const Voice_Line line_09839_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "Wait, " ANNIE "!"
         };
         const Voice_Line line_09840_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "We have to fight her, " EUGENE "."
         };
         const Voice_Line line_09841_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "I know... I know..."
         };
         const Voice_Line line_09842_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Gh... So this is the " YELLOW "Force of Fangs" WHITE "..."
         };
         const Voice_Line line_09843_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Are you all right, " ANNIE "?"
         };
         const Voice_Line line_09844_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(ANNIE) ": " "Don't you worry about me!"
         };
         const Voice_Line line_09845_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "This Birus is strong!"
         };
         const Voice_Line line_09846_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Gh, we can't lose here!"
         };
         const Voice_Line line_09847_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "We're not getting anywhere!"
         };
         const Voice_Line line_09848_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "I've never seen a Force go wild like this before..."
         };
         const Voice_Line line_09849_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "He's going to die if we keep this up..."
         };
         const Voice_Line line_09850_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Is there nothing we can do to save him?"
         };
         const Voice_Line line_09851_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "We need to put a stop to this. " MAO ", let's use that attack to finish this!"
         };
         const Voice_Line line_09852_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "Yeah, guess we've got no other options. Let's do this!"
         };
         const Voice_Line line_09857_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Looks like it's up to me..."
         };
         const Voice_Line line_09858_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Calm down, come to your senses!"
         };
         const Voice_Line line_09859_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Aaaaagh!!"
         };
         const Voice_Line line_09860_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Militsa, listen to me!"
         };
         const Voice_Line line_09862_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " ANNIE "... Hang in there..."
         };
         const Voice_Line line_09863_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Walto, why is Her Majesty kidnapping Huma girls?!"
         };
         const Voice_Line line_09864_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Walto") ": " "It is all for the sake of Callegea..."
         };
         const Voice_Line line_09865_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("<Eugene") ": " "What does that mean?!"
         };
         const Voice_Line line_09866_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Where is Claire? Let her go!"
         };
         const Voice_Line line_09867_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Saleh! Let Claire go!"
         };
         const Voice_Line line_09868_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "Claire, Claire, Claire, Claire! ...What are you, stupid?"
         };
         const Voice_Line line_09869_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Shut the hell up!"
         };
         const Voice_Line line_09870_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Saleh") ": " "Heheh, what a riot!"
         };
         const Voice_Line line_09871_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "So this is the power of the King of the Sacred Beasts..."
         };
         const Voice_Line line_09872_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "He's strong... He's really strong..."
         };
         const Voice_Line line_09873_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "But we can't fall now..."
         };
         const Voice_Line line_09874_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " EUGENE "! Please stop this!"
         };
         const Voice_Line line_09875_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Graaaaagh!!"
         };
         const Voice_Line line_09876_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "I'll save you... I'm going to save you, " EUGENE "!"
         };
         const Voice_Line line_09878_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("? Tytree?") ": " "Heh, I guess the party's getting started. Let's do this!"
         };
         const Voice_Line line_09879_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " "It looks pretty strong..."
         };
         const Voice_Line line_09880_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Let's just get this over with!"
         };
         const Voice_Line line_09881_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Be careful. This Birus is much stronger than the others in the area."
         };
         const Voice_Line line_09882_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Manage your offense and defense wisely. Let's take it on together!"
         };
         const Voice_Line line_09883_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "These guys are much stronger than they used to be...!"
         };
         const Voice_Line line_09884_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Saleh did such a terrible thing to them... Damnit!"
         };
         const Voice_Line line_09885_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Die alongside your mother!"
         };
         const Voice_Line line_09886_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "Tohma... You're not getting away with this!"
         };
         const Voice_Line line_09887_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Tohma") ": " "Muhahaha, come!"
         };
         const Voice_Line line_09888_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(HILDA) ": " "I will win. I shall conquer myself!"
         };
         const Voice_Line line_09889_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Ghh... Ugh..."
         };
         const Voice_Line line_09890_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(MAO) ": " VEIGUE "!"
         };
         const Voice_Line line_09891_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Open your eyes, " VEIGUE "!"
         };
         const Voice_Line line_09892_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("<Annie") ": " "Zilva...!"
         };
         const Voice_Line line_09893_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "Do you hate me?"
         };
         const Voice_Line line_09894_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(EUGENE) ": " "Zilva, I won't let you get away with this any longer!"
         };
         const Voice_Line line_09895_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME("Zilva") ": " "You moron! It's too late!"
         };
         const Voice_Line line_09896_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
              ": " "We need to give it our all! I know we can do it! We'll defeat Yuris!"
         };
         const Voice_Line line_09897_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Orya!"
         };
         const Voice_Line line_09898_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Haagh!"
         };
         const Voice_Line line_09899_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "How's that?"
         };
         const Voice_Line line_09900_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "I'm not done yet!"
         };
         const Voice_Line line_09901_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Feel like talking?"
         };
         const Voice_Line line_09902_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Shut up!"
         };
         const Voice_Line line_09903_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Talk to me!"
         };
         const Voice_Line line_09904_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "No!"
         };
         const Voice_Line line_09905_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "You're obstinate!"
         };
         const Voice_Line line_09906_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "I know!"
         };
         const Voice_Line line_09907_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "You're unreasonable!"
         };
         const Voice_Line line_09908_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Am not!"
         };
         const Voice_Line line_09909_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "How's this!"
         };
         const Voice_Line line_09910_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Is that it?"
         };
         const Voice_Line line_09911_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "You're stubborn!"
         };
         const Voice_Line line_09912_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Is that bad?!"
         };
         const Voice_Line line_09913_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "Yes it is!!"
         };
         const Voice_Line line_09914_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(VEIGUE) ": " "Why do you care?!"
         };
         const Voice_Line line_09915_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
             NAME(TYTREE) ": " "This is it!"
         };
         const Voice_Line line_09916_0 = {
-            TYPE_BOTTOM,
+            TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
