@@ -3,6 +3,37 @@
 
 .asciiz "Hello world from a custom file!"
 
+is_map2d_debug_enabled:
+.byte 1
+
+.func map2d_hijack
+    addiu      sp, sp, -0x50
+    sd         s0, 0x00(sp)
+    sd         s1, 0x08(sp)
+    sd         s2, 0x10(sp)
+    sd         s3, 0x18(sp)
+    sd         s4, 0x20(sp)
+    sd         s5, 0x28(sp)
+    sd         s6, 0x30(sp)
+    sd         s7, 0x38(sp)
+    sd         s8, 0x40(sp)
+    sd         ra, 0x48(sp)
+    jal        show_debug_view
+    nop
+    ld         s0, 0x00(sp)
+    ld         s1, 0x08(sp)
+    ld         s2, 0x10(sp)
+    ld         s3, 0x18(sp)
+    ld         s4, 0x20(sp)
+    ld         s5, 0x28(sp)
+    ld         s6, 0x30(sp)
+    ld         s7, 0x38(sp)
+    ld         s8, 0x40(sp)
+    ld         ra, 0x48(sp)
+    addiu      sp, sp, 0x50
+
+    j          0x002EF81C
+    nop
 .func fmv_hijack
     addiu      sp, sp, -0x50
     sd         s0, 0x00(sp)
