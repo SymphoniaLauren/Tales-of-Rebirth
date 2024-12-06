@@ -5,4 +5,4 @@
 .expfunc X_COORD(x), to_fp16(x)
 .expfunc Y_COORD(y), to_fp16(y)
 .expfunc GS_X_COORD(x), int(to_fp16(2048 - (get_screen_width()  / 2) + (x)))
-.expfunc GS_Y_COORD(y), int(to_fp16(2048 - (get_screen_height() / 2) + (y / 2)))
+.expfunc GS_Y_COORD(y), int(to_fp16(2048 - (get_screen_height() / 2) + ((y) / 2)))

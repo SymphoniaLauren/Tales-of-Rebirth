@@ -12,7 +12,7 @@
 #define Y_COORD(y) TO_COORD(y)
 
 #define GS_X_COORD(x) TO_FP16((2048 - (SCREEN_WIDTH  / 2) + (x)))
-#define GS_Y_COORD(y) TO_FP16((2048 - (SCREEN_HEIGHT / 2) + (y / 2)))
+#define GS_Y_COORD(y) TO_FP16((2048 - (SCREEN_HEIGHT / 2) + ((y) / 2)))
 
 #define STACK_ALIGN() { u128 pad __attribute__((aligned(16))); asm("":"=r"(pad):); }
 
