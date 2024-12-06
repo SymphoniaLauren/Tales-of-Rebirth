@@ -3,6 +3,41 @@
 
 .asciiz "Hello world from a custom file!"
 
+.func fmv_hijack
+    addiu      sp, sp, -0x50
+    sd         s0, 0x00(sp)
+    sd         s1, 0x08(sp)
+    sd         s2, 0x10(sp)
+    sd         s3, 0x18(sp)
+    sd         s4, 0x20(sp)
+    sd         s5, 0x28(sp)
+    sd         s6, 0x30(sp)
+    sd         s7, 0x38(sp)
+    sd         s8, 0x40(sp)
+    sd         ra, 0x48(sp)
+    jal        init_fmv_subs
+    nop
+    ld         s0, 0x00(sp)
+    ld         s1, 0x08(sp)
+    ld         s2, 0x10(sp)
+    ld         s3, 0x18(sp)
+    ld         s4, 0x20(sp)
+    ld         s5, 0x28(sp)
+    ld         s6, 0x30(sp)
+    ld         s7, 0x38(sp)
+    ld         s8, 0x40(sp)
+    ld         ra, 0x48(sp)
+    addiu      sp, sp, 0x50
+
+    ; original code 
+    addiu      sp, sp, -0xa0
+    sq         s1, 0x80(sp)
+    j          0x001378A8
+    nop
+.endfunc
+
+.importobj "./build/fmv_subs.o"
+
 ; Set this to 1 to enable debug mode
 DEBUG_MODE:
 .halfword 0

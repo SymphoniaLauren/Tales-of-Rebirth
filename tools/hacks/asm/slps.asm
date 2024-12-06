@@ -39,6 +39,10 @@
 .importobj "./build/init.o"
 .endarea
 
+.org 0x001378A0
+    j        fmv_hijack
+    nop
+
 .org 0x00100248
     jal      init_all_the_things ; defined in init.o
 
