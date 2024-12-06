@@ -1533,7 +1533,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(VEIGUE) "&" NAME(MAO) ": " "Mystic Arte! Embrace End!"
+            NAME(VEIGUE) " and " NAME(MAO) ": " "Mystic Arte! Embrace End!"
         };
         const Voice_Line line_00955_0 = {
             TYPE_BOTTOM,
@@ -1561,7 +1561,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(VEIGUE) "&" NAME(ANNIE) ": " "Wyrm Wrath!"
+            NAME(VEIGUE) " and " NAME(ANNIE) ": " "Wyrm Wrath!"
         };
         const Voice_Line line_00960_0 = {
             TYPE_BOTTOM,
@@ -1596,7 +1596,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(VEIGUE) "&" NAME(HILDA) ": " "Mystic Arte! Celcius Calibur!"
+            NAME(VEIGUE) " and " NAME(HILDA) ": " "Mystic Arte! Celcius Calibur!"
         };
         const Voice_Line line_00967_0 = {
             TYPE_BOTTOM,
@@ -1617,7 +1617,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) "&" NAME(MAO) ": " "Mystic Arte! Inferno Drive!"
+            NAME(EUGENE) " and " NAME(MAO) ": " "Mystic Arte! Inferno Drive!"
         };
         const Voice_Line line_00970_0 = {
             TYPE_BOTTOM,
@@ -1638,7 +1638,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) "&" NAME(ANNIE) ": " "Light Blast!"
+            NAME(EUGENE) " and " NAME(ANNIE) ": " "Light Blast!"
         };
         const Voice_Line line_00973_0 = {
             TYPE_BOTTOM,
@@ -1673,7 +1673,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) "&" NAME(HILDA) ": " "Dual the Sun!"
+            NAME(EUGENE) " and " NAME(HILDA) ": " "Dual the Sun!"
         };
         const Voice_Line line_00978_0 = {
             TYPE_BOTTOM,
@@ -1701,7 +1701,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(TYTREE) "&" NAME(MAO) ": " "Crimson Skies!"
+            NAME(TYTREE) " and " NAME(MAO) ": " "Crimson Skies!"
         };
         const Voice_Line line_00983_0 = {
             TYPE_BOTTOM,
@@ -1729,7 +1729,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(TYTREE) "&" NAME(MAO) ": " "Infinitia Strike!"
+            NAME(TYTREE) " and " NAME(MAO) ": " "Infinitia Strike!"
         };
         const Voice_Line line_00988_0 = {
             TYPE_BOTTOM,
@@ -1750,7 +1750,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(TYTREE) "&" NAME(HILDA) ": " "Thousand Braver!"
+            NAME(TYTREE) " and " NAME(HILDA) ": " "Thousand Braver!"
         };
     #pragma endregion Lines for Category 0x08
 
