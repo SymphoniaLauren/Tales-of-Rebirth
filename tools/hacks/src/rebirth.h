@@ -12,9 +12,42 @@
 #define Y_COORD(y) TO_COORD(y)
 
 #define GS_X_COORD(x) TO_FP16((2048 - (SCREEN_WIDTH  / 2) + (x)))
-#define GS_Y_COORD(y) TO_FP16((2048 - (SCREEN_HEIGHT / 2) + (y / 2)))
+#define GS_Y_COORD(y) TO_FP16((2048 - (SCREEN_HEIGHT / 2) + ((y) / 2)))
 
 #define STACK_ALIGN() { u128 pad __attribute__((aligned(16))); asm("":"=r"(pad):); }
+
+extern int SCRATCHPAD_ADDR;
+
+typedef int (*fmv_cb0)(void);
+typedef void (*fmv_cb1)(int);
+
+typedef struct _fmv_data {
+    u8 fmv_id; 
+    u8 strm2v_channel; 
+    u8 strAdpcm_channel;
+    u8 flags;
+    u16 width_related;
+    u16 height_related; 
+    fmv_cb0* callback_0;
+    fmv_cb1* callback_1;
+} fmv_data;
+
+typedef struct _gMain_s {
+    u8 pad0[0x666];
+    u8 unk666;
+    u8 unk667;
+    u8 pad668[0x6A0-0x668];
+    fmv_data fmv_info;
+} gMain_s;
+
+extern gMain_s gMain;
+
+typedef struct _RGBA_color {
+    u8 r;
+    u8 g;
+    u8 b;
+    u8 a;
+} RGBA_color;
 
 typedef enum PACKED FILE_FLAGS {
     UNK_FLAG_0        = 0,

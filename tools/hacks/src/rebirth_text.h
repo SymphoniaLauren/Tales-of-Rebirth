@@ -6,6 +6,8 @@
 #define NL "\x01"
 #define CR "\x02"
 
+#define EM_DASH "\x9A\xF3"
+
 #define TAG_BASE(t, b0, b1, b2, b3) _STR(\x##b0) _STR(\x##b1) _STR(\x##b2) _STR(\x##b3)
 
 #define VAR(b0, b1, b2, b3) TAG_BASE(04, b0, b1, b2, b3)

@@ -39,6 +39,10 @@
 .importobj "./build/init.o"
 .endarea
 
+.org 0x001378A0
+    j        fmv_hijack
+    nop
+
 .org 0x00100248
     jal      init_all_the_things ; defined in init.o
 
@@ -366,5 +370,10 @@ srl s1,s2,0x01
 ;use debug death notice
 .org 0x1282A0
     nop
+
+;apple gel sellprice fix
+.orga 0x106dd4
+.byte 0x19
+
 
 .close

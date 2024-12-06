@@ -9,3 +9,5 @@
 .include "asm/mnu_name.asm"
 .include "asm/mnu_status.asm"
 .include "asm/mnu_monster.asm"
+.include "asm/shop_ovl.asm"
+.include "asm/world_ovl.asm"
