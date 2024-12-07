@@ -12,6 +12,11 @@
 .org 0x3002b4
     j btl_big_hp
 
+; Icons in battle
+.org 0x3003c4
+    j btl_icon_fix
+    nop
+
 .org 0x300220
     li    a1, 0
 

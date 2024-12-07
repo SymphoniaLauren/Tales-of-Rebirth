@@ -8,6 +8,17 @@ int printf(char*, ...);
 
 #define DATA_CACHE_FLUSH 0
 
+#define SCE_GS_SET_TEX0_1   SCE_GS_SET_TEX0
+#define SCE_GS_SET_TEX0_2   SCE_GS_SET_TEX0
+#define SCE_GS_SET_TEX0(tbp, tbw, psm, tw, th, tcc, tfx, \
+            cbp, cpsm, csm, csa, cld) \
+    ((u_long)(tbp)         | ((u_long)(tbw) << 14) | \
+    ((u_long)(psm) << 20)  | ((u_long)(tw) << 26) | \
+    ((u_long)(th) << 30)   | ((u_long)(tcc) << 34) | \
+    ((u_long)(tfx) << 35)  | ((u_long)(cbp) << 37) | \
+    ((u_long)(cpsm) << 51) | ((u_long)(csm) << 55) | \
+    ((u_long)(csa) << 56)  | ((u_long)(cld) << 61))
+
 #define SCE_GS_SET_CLAMP_1 SCE_GS_SET_CLAMP
 #define SCE_GS_SET_CLAMP_2 SCE_GS_SET_CLAMP
 #define SCE_GS_SET_CLAMP(wms, wmt, minu, maxu, minv, maxv) \

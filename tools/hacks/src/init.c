@@ -212,4 +212,5 @@ void init_all_the_things(void) {
     func_00102608();
     func_0012D9D0();
     func_0010EA78();
+    update_tex0();
 }
