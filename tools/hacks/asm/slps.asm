@@ -229,7 +229,7 @@ extra_syscall_ret:
 
 ;Use sexier font for numbers in Farm Fresh Groceries
 .org 0x1365b8
-    li   a2, 0x1
+    li   a1, 0x1
 
 ;Don't monospace number in Magical Pot
 ;window in Farm Fresh Groceries
@@ -239,7 +239,7 @@ extra_syscall_ret:
 ;Use sexier font for numbers in Magical Pot
 ;window in Farm Fresh Groceries
 .org 0x136d14
-    li   a2, 0x1
+    li   a1, 0x1
 
 ;adjusting the whitespace lenght 
 ;base is 12 pixel aka /2 the lenght of monospace
