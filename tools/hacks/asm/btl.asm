@@ -4,17 +4,9 @@
 .definelabel strCatKanji, 0x32C508
 .definelabel getBtlStr, 0x306048
 
-; Use normal fonts
-.org 0x30021c
-    nop
-
-; Except for HP string
-.org 0x3002b4
-    j btl_big_hp
-
-; Icons in battle
-.org 0x3003c4
-    j btl_icon_fix
+; Replace printBtlEnemyStatusDisp
+.org 0x300150
+    j  printBtlEnemyStatusDisp
     nop
 
 .org 0x300220

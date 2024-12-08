@@ -383,8 +383,25 @@ srl s1,s2,0x01
     .byte 01, 01
 
 ;use debug death notice
-.org 0x1282A0
+.org 0x128320
+    li a2,0
+.org 0x12832c
+    li a2,1
+.org 0x128360
+    li a2,2
+.org 0x128354
+    li a2,3
+.org 0x12838c
     nop
+.org 0x128364
+    b 0x1282a8
+    nop
+.org 0x128334
+    b 0x1282a8
+    nop
+.org 0x1282ac
+    sll v0,a2,2
+
 
 ;apple gel sellprice fix
 .orga 0x106dd4

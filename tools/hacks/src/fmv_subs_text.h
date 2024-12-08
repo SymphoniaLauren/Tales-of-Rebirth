@@ -6,7 +6,11 @@
 #include "fmv_subs.h"
 #include "rebirth_text.h"
 
-const fmv_sub fmv_17[92] = {
+const fmv_sub fmv_17[93] = {
+    {
+        TS_TO_FRAMES(0, 0, 0),
+        (char*)NULL
+    },
     {
         TS_TO_FRAMES(0, 27, 560),
         "Everyone, please listen to me."
@@ -393,7 +397,11 @@ const fmv_sub fmv_17[92] = {
     }
 };
 
-const fmv_sub fmv_18[94] = {
+const fmv_sub fmv_18[95] = {
+    {
+        TS_TO_FRAMES(0, 0, 0),
+        (char*)NULL
+    },
     {
         TS_TO_FRAMES(0, 6, 640),
         "The sky is beautiful..."
@@ -784,7 +792,11 @@ const fmv_sub fmv_18[94] = {
     }
 };
 
-const fmv_sub fmv_19[28] = {
+const fmv_sub fmv_19[29] = {
+    {
+        TS_TO_FRAMES(0, 0, 0),
+        (char*)NULL
+    },
     {
         TS_TO_FRAMES(1, 2, 720),
         "Your Majesty!"

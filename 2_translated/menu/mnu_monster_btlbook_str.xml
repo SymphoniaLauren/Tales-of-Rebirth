@@ -156,10 +156,10 @@ had to squish</Notes>
     <Entry>
       <PointerOffset>20704</PointerOffset>
       <JapaneseText>斬撃攻撃力</JapaneseText>
-      <EnglishText>Slash</EnglishText>
+      <EnglishText>Slash Attack</EnglishText>
       <Notes/>
       <Id>218</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20716</PointerOffset>
@@ -174,10 +174,10 @@ attacks.</EnglishText>
     <Entry>
       <PointerOffset>20724</PointerOffset>
       <JapaneseText>打撃攻撃力</JapaneseText>
-      <EnglishText>Blunt</EnglishText>
+      <EnglishText>Blunt Attack</EnglishText>
       <Notes>blunt or blow or strike?</Notes>
       <Id>220</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20736</PointerOffset>
@@ -192,10 +192,10 @@ strikes or impacts.</EnglishText>
     <Entry>
       <PointerOffset>20744</PointerOffset>
       <JapaneseText>術攻撃力</JapaneseText>
-      <EnglishText>Force</EnglishText>
+      <EnglishText>Force Attack</EnglishText>
       <Notes/>
       <Id>222</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>20756</PointerOffset>
@@ -205,9 +205,9 @@ strikes or impacts.</EnglishText>
       <EnglishText>This governs the damage inflicted
 by a Force attack or a Force
 enhanced weapon.</EnglishText>
-      <Notes/>
+      <Notes>need Force Magic in there for highlights</Notes>
       <Id>223</Id>
-      <Status>Proofreading</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>20764</PointerOffset>
@@ -264,9 +264,9 @@ blunt strikes or impacts.</EnglishText>
 </JapaneseText>
       <EnglishText>This reduces damage from Force
 attacks.</EnglishText>
-      <Notes/>
+      <Notes>need Force Magic in there for highlights</Notes>
       <Id>229</Id>
-      <Status>Proofreading</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>20824</PointerOffset>
@@ -447,8 +447,8 @@ Force Arte. Input: &lt;icon:1F&gt;＋&lt;icon:41&gt;</EnglishText>
 distance after a short spellcasting
 time. These types of Artes always
 have one of the following
-elements: Earth, Water, Fire,
-Wind, Light and Dark. Some Force
+elements: Earth, Wind, Fire,
+Water, Light and Dark. Some Force
 Magic attacks even have multiple
 elements.</EnglishText>
       <Notes/>
@@ -1516,10 +1516,12 @@ Force Cube.</EnglishText>
 </JapaneseText>
       <EnglishText>There are six elemental attributes
 that form opposing pairs:
-Earth and Wind
-Fire and Water
-Light and Dark</EnglishText>
-      <Notes/>
+&lt;icon:6&gt;Earth and &lt;icon:7&gt;Wind
+&lt;icon:8&gt;Fire and &lt;icon:A&gt;Water
+&lt;icon:B&gt;Light and &lt;icon:C&gt;Dark</EnglishText>
+      <Notes>地 -&gt; &lt;icon:6&gt;      風 -&gt; &lt;icon:7&gt;     
+ 火 -&gt; &lt;icon:8&gt;     水 -&gt; &lt;icon:A&gt;      
+光 -&gt; &lt;icon:B&gt;      闇 -&gt; &lt;icon:C&gt;</Notes>
       <Id>323</Id>
       <Status>Proofreading</Status>
     </Entry>
@@ -1830,17 +1832,17 @@ equipment or through Inheritance.</EnglishText>
 　
 潜在能力が発現すると
 覚醒率も強化できます。</JapaneseText>
-      <EnglishText>Slash Attack/Defense
-Blunt Attack/Defense
-Force Attack/Defense
-FG Recovery/HP Recovery
+      <EnglishText>Slash Attack / Slash Defense
+Blunt Attack / Blunt Defense
+Force Attack / Force Defense
+FG Regen / HP Regen
 
 You can also enhance the
-Awakening Rate of a Latent
-Ability after learning it.</EnglishText>
+Awakening Rate of a
+Latent Ability after learning it.</EnglishText>
       <Notes/>
       <Id>350</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22064</PointerOffset>
@@ -1878,10 +1880,10 @@ Ability after learning it.</EnglishText>
     <Entry>
       <PointerOffset>22084</PointerOffset>
       <JapaneseText>覚醒率</JapaneseText>
-      <EnglishText>Awakening</EnglishText>
+      <EnglishText>Awakening Rate</EnglishText>
       <Notes/>
       <Id>353</Id>
-      <Status>Proofreading</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22096</PointerOffset>
@@ -2214,7 +2216,7 @@ change for each direction.
 錬術使用によってカウントは
 加算されます。
 </JapaneseText>
-      <EnglishText>When setting Force Abilities, the
+      <EnglishText>When setting a Force Ability, the
 matching corner of the Force Cube
 will be darkened and the ability
 will not be Enhanced, but the
@@ -2223,7 +2225,7 @@ Force counter will still increment.
 artes.)</EnglishText>
       <Notes>added more text to explain what force abilities are to prevent confusion. -dragon</Notes>
       <Id>376</Id>
-      <Status>Problematic</Status>
+      <Status>Editing</Status>
     </Entry>
     <Entry>
       <PointerOffset>22304</PointerOffset>
