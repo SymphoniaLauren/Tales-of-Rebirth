@@ -38,6 +38,7 @@ is_map2d_debug_enabled:
 .endfunc
 .importobj "./build/2dmap.o"
 
+.align 4
 .func fmv_hijack
     addiu      sp, sp, -0x50
     sd         s0, 0x00(sp)
@@ -72,48 +73,6 @@ is_map2d_debug_enabled:
 .endfunc
 
 .importobj "./build/fmv_subs.o"
-
-; incomplete
-.func btl_icon_fix
-    addiu      sp, sp, -0x50
-    sd         s0, 0x00(sp)
-    sd         s1, 0x08(sp)
-    sd         s2, 0x10(sp)
-    sd         s3, 0x18(sp)
-    sd         s4, 0x20(sp)
-    sd         s5, 0x28(sp)
-    sd         s6, 0x30(sp)
-    sd         s7, 0x38(sp)
-    sd         s8, 0x40(sp)
-    sd         ra, 0x48(sp)
-    move s0,v0
-    jal custom_strlen
-    move a0,v0
-    move s1,v0
-    jal strlen
-    nop
-    addu at,s7,s1
-    sb   zero,0x1(a0)
-    addu a0,s7,v0
-    move a1,s0
-    jal memcpy
-    move a2,s1
-    nop
-    ld         s0, 0x00(sp)
-    ld         s1, 0x08(sp)
-    ld         s2, 0x10(sp)
-    ld         s3, 0x18(sp)
-    ld         s4, 0x20(sp)
-    ld         s5, 0x28(sp)
-    ld         s6, 0x30(sp)
-    ld         s7, 0x38(sp)
-    ld         s8, 0x40(sp)
-    ld         ra, 0x48(sp)
-    addiu      sp, sp, 0x50
-
-    j 0x3003CC
-    nop
-.endfunc
 
 ; Set this to 1 to enable debug mode
 DEBUG_MODE:

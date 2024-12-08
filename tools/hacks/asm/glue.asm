@@ -136,3 +136,11 @@
 .definelabel pad_held_buttons,     0x00242DDC
 .definelabel fontenv_tex0,         0x002376F0
 .definelabel story_tex0,           0x00249628
+.definelabel status_disp_colors,   0x00349618
+.definelabel status_disp_349630,   0x00349630
+.definelabel func_0014b218,        0x0014b218
+.definelabel func_00149f48,        0x00149f48
+.definelabel getbtlrevisionstr,    0x00300700
+.definelabel func_00149f30,        0x00149f30
+.definelabel strcat,               0x001bfcec
+.definelabel gBtlStruct,           0x0034b900
