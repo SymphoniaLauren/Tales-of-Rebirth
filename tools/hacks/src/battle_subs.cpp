@@ -36,6 +36,13 @@ extern "C"
 	// HELPER FUNCTIONS
 	////////////////////////
 
+	void vblank_test() {
+		init_subs();
+		fontenv.x = DEBUG_X;
+		fontenv.y = DEBUG_Y;
+		draw_string(&fontenv, "Life Bottle Productions");
+	}
+
 	// centering text to center of the screen :)
 	void center_text(fontenv_struct* font, const char* str)
 	{
@@ -126,7 +133,7 @@ extern "C"
 		if (skit_container.num_lines == 1)
 		{
 			// set y for centered
-			font->y = GS_X_COORD(408);
+			font->y = GS_Y_COORD(408);
 			// center and draw line
 			center_text(font, skit_container.string_1);
 			draw_string(font, skit_container.string_1);
@@ -134,13 +141,13 @@ extern "C"
 		else
 		{
 			// set y for two liness
-			font->y = GS_X_COORD(408);
+			font->y = GS_Y_COORD(396);
 			// center and draw line 1
 			center_text(font, skit_container.string_1);
 			draw_string(font, skit_container.string_1);
 			// increase y
 			// center and draw line 2
-			font->y = GS_X_COORD(396 + 24);
+			font->y = GS_Y_COORD(396 + 24);
 			center_text(font, skit_container.string_2);
 			draw_string(font, skit_container.string_2);
 		}
