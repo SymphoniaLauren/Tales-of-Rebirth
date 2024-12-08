@@ -388,9 +388,9 @@ srl s1,s2,0x01
 .org 0x12832c
     li a2,1
 .org 0x128360
-    li a2,3
+    li a2,2
 .org 0x128354
-    li a2,4
+    li a2,3
 .org 0x12838c
     nop
 .org 0x128364
