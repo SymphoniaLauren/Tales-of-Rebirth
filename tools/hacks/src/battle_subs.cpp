@@ -7,9 +7,9 @@
 
 #define DEBUG_X GS_X_COORD(16)		// debug x
 #define DEBUG_Y GS_Y_COORD(4)		// debug y
-#define LINE_1_Y GS_Y_COORD(316)	// y for type 1
-#define LINE_2_Y GS_Y_COORD(400)	// y for type 2
-#define LINE_3_Y GS_Y_COORD(316)	// y for type 3
+#define LINE_Y_ABOVE_UI GS_Y_COORD(316)	// y for type 1
+#define LINE_Y_BEHIND_UI GS_Y_COORD(400)	// y for type 2
+#define LINE_Y_POSTBATTLE_BASE GS_Y_COORD(316)	// y for type 3
 #define NUM_VOICE_QUEUES 6			// slots to hold active/pending voice data, 6 is fine
 #define NUM_TEXT_CONTAINERS 2		// number of active sub lines - may need to adj code if increasing
 #define POST_FRAME_COUNT 20			// number of frames for fade out animation
@@ -35,6 +35,11 @@ extern "C"
 	extern u16 btl_auto_cooking;
 	extern u8 btl_item_count;
 	extern int btl_cooking_flag;
+	extern u8 btl_unka790;
+	extern u8 btl_unk8151;
+	extern u16 btl_unk813e;
+	extern u16 encount_group_no;
+	extern bool checkBtlFinality();
 	DATA Voice_Queue voice_queue[NUM_VOICE_QUEUES];
 	DATA Text_Container text_container[NUM_TEXT_CONTAINERS];
 	DATA Skit_Container skit_container;
@@ -360,14 +365,19 @@ extern "C"
 				text_container[i].Battle_Voice_Id = voice_id;
 				text_container[i].x = DEBUG_X;
 				// change y depending on line type
-				int y = LINE_1_Y;
-				if (text_container[i].Line->Type == TYPE_BOTTOM)
+				int y = LINE_Y_BEHIND_UI;
+				if (text_container[i].Line->Type == TYPE_BOTTOM || text_container[i].Line->Type == TYPE_NORMAL)
 				{
-					y = LINE_2_Y;
+					// check for character UI display to change the y to above UI if its displayed
+					if (checkBtlFinality() == 0 && btl_unka790 != 5 && btl_unk813e == 0 && 
+						btl_unk8151 == 0 && encount_group_no != 0x31)
+					{
+						y = LINE_Y_ABOVE_UI;
+					}
 				}
 				else if (text_container[i].Line->Type == TYPE_POST_BATTLE)
 				{
-					y = LINE_3_Y;
+					y = LINE_Y_POSTBATTLE_BASE;
 					if ((btl_cooking_flag != -1) && ((btl_auto_cooking & 2) == 0))
 					{
 						y = GS_Y_COORD(268);
