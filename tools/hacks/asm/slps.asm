@@ -202,9 +202,6 @@ extra_syscall_ret:
 .org 0x0013e2e4
     jal draw_skit
 
-.org 0x0013d04c
-    jal clear_skit_hook
-
 ; Move skit prompt up
 .org 0x0012b7cc
     jal move_skit_prompt

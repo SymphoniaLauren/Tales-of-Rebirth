@@ -144,3 +144,10 @@
 .definelabel func_00149f30,        0x00149f30
 .definelabel strcat,               0x001bfcec
 .definelabel gBtlStruct,           0x0034b900
+.definelabel func_00104F30,        0x00104F30
+.definelabel func_001052F0,        0x001052F0
+.definelabel fontenv_render,        0x001062C8
+.definelabel func_00105030,        0x00105030
+.definelabel func_00105568,        0x00105568
+.definelabel func_00105268,        0x00105268
+.definelabel fontenv_glyphs,       0x00237518
