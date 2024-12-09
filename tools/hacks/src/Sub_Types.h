@@ -88,7 +88,6 @@ struct Text_Container
 
 struct Skit_Container
 {
-	char* string_1;
-	char* string_2;
+	char* string;
 	int num_lines;
 };

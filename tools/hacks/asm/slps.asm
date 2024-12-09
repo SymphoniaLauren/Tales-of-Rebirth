@@ -202,9 +202,6 @@ extra_syscall_ret:
 .org 0x0013e2e4
     jal draw_skit
 
-.org 0x0013d04c
-    jal clear_skit_hook
-
 ; Move skit prompt up
 .org 0x0012b7cc
     jal move_skit_prompt
@@ -374,7 +371,7 @@ srl s1,s2,0x01
 /* 「 */ .byte   10 , 01
 /* 」 */ .byte   01 , 11
 /* 〜 */ .byte   05 , 06
-/* ＿ */ .byte   00 , 00
+/* ＿ */ .byte   05 , 06
 /* 、 */ .byte   00 , 13
 /* 。 */ .byte   01 , 12
 

@@ -14,6 +14,8 @@ DATA credit_line current_line;
 void draw_line(int arg0);
 void populate_screen(const fmv_sub *sub);
 void fntenv_make_default(fontenv_struct *);
+int count_lines(char *);
+extern void fontenv_draw_centered(fontenv_struct *, char *);
 
 int update_sub_callback(void)
 {
@@ -56,13 +58,42 @@ void populate_screen(const fmv_sub *sub)
 
     if (sub->text != NULL)
     {
+        int lines = count_lines(sub->text);
         func_00104F78(&fnt_env, 0x100, 0xE0);
         get_str_width(&fnt_env, sub->text, &width, &height);
         current_line.text = sub->text;
         current_line.color = 7;
         current_line.x = GS_X_COORD((SCREEN_WIDTH / 2)) - (width / 2);
-        current_line.y = GS_Y_COORD(400 + 25) - (height / 2);
+        if (lines == 1)
+        {
+            current_line.y = GS_Y_COORD(404);
+        }
+        else
+        {
+            current_line.y = GS_Y_COORD(393);
+        }
     }
+}
+
+int count_lines(char *str)
+{
+    int lines = 1;
+    u8 chr;
+    // shitty loop thru text until we find 01
+    for (; (chr = str[0]) != 0; str++)
+    {
+        // check for command chars 4 thru f
+        if (chr >= 0x4 && chr <= 0xf)
+        {
+            // if find one, ignore next 4 bytes
+            str += 5;
+        }
+        else if (chr == 0x01)
+        {
+            lines = 2;
+        }
+    }
+    return lines;
 }
 
 void draw_line(int arg0)
@@ -76,7 +107,8 @@ void draw_line(int arg0)
         fontenv_set_palette(&fnt_env, current_line.color, 0x80);
         func_00104F78(&fnt_env, 0x100, 0xE0);
         func_00104F60(&fnt_env, current_line.x, current_line.y);
-        draw_string(&fnt_env, current_line.text);
+        fontenv_draw_centered(&fnt_env, current_line.text);
+        // draw_string(&fnt_env, current_line.text);
     }
 }
 

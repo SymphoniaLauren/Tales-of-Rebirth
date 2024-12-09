@@ -218,21 +218,6 @@ VERBOSE_MODE:
 	addiu sp, sp, 0x10
 .endfunc
 
-.func clear_skit_hook
-	addiu sp, sp, -0x10
-	sw ra, 0xc(sp)
-    
-    jal clear_skit
-    nop
-
-    jal 0x0013feb0  ; repeat, clears out skit data
-    nop
-
-    lw ra, 0xc(sp)
-	jr ra
-	addiu sp, sp, 0x10
-.endfunc
-
 .func monster_book_name_compare
 	addiu sp, sp, -0x10
 	sw ra, 0xc(sp)
