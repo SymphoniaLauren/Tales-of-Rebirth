@@ -16,6 +16,13 @@
 
 extern "C"
 {
+	extern void func_00104F30(fontenv_unk2*);
+	extern char* func_00105568(fontenv_struct*, fontenv_unk1*, char*);
+	extern char* func_001052F0(fontenv_struct*, fontenv_unk1*, char*);
+	extern char* func_00105030(fontenv_struct*, fontenv_unk1*, fontenv_unk2*, char*);
+	extern char* fontenv_render(fontenv_struct*, fontenv_unk1*);
+	extern char* func_00105268(fontenv_struct*, fontenv_struct*, char*);
+	void fontenv_draw_centered(fontenv_struct*, char*);
 	DATA fontenv_struct fontenv;
 	DATA int is_init;
 	DATA int debug_id;
@@ -49,6 +56,7 @@ extern "C"
 		get_str_width(font, str, 0, 0);
 		font->x = GS_X_COORD(SCREEN_WIDTH / 2) - (font->width / 2);
 	}
+	
 	int monster_book_compare(int id1, int id2)
 	{
 		char* name1 = getMonsterName(id1);
@@ -68,27 +76,12 @@ extern "C"
 	// SKIT CENTERING CODE
 	////////////////////////
 
-	// clear skit container, run when skit ends
-	void clear_skit()
-	{
-		skit_container.num_lines = 0;
-		skit_container.string_1 = 0;
-		skit_container.string_2 = 0;
-	}
-
-	// when skit triggered, process text and split string into two
+	// when skit triggered, process text and set amount of lines
 	void process_skit_line(char* str)
 	{
-		// first, if there is a previous 2nd string, repair the \0 with a \n
-		if (skit_container.string_2 != 0)
-		{
-			skit_container.string_2[-1] = 1;	// replace previous index with new line
-		}
-
 		// initialize skit container
 		skit_container.num_lines = 1;
-		skit_container.string_1 = str;
-		skit_container.string_2 = 0;
+		skit_container.string = str;
 
 		// shitty loop thru text until we find 01
 		while (true)
@@ -105,10 +98,6 @@ extern "C"
 				if (chr == 0x01)
 				{
 					// newline!
-					str[0] = 0; // set it to 0
-					str += 1;
-					// and adjust skit container for 2nd string
-					skit_container.string_2 = str;
 					skit_container.num_lines = 2;
 					return;
 				}
@@ -124,33 +113,111 @@ extern "C"
 			}
 		}
 	}
+
+	// func_00105430
+	char* fontenv_process_lines(fontenv_struct* font, fontenv_unk1* font_meta, char* text)
+	{
+		fontenv_struct font_copy;
+		s32 is_page_break;
+
+		// copy the fontenv just in case the width calculation
+		// is destructive, game often makes copies so I guess it is
+		font_copy = *font;
+		// The copy won't be drawn, so we add the NO_DRAW flag so
+		// we only get the width calculations without setting up
+		// any unintended global data
+		font_copy.font_type |= 0x20; 
+		
+		font->unk_38 = 0;
+		font->unk_34 = 0;
+		font->unk_06 = font->y;
+		font->unk_2a = 0;
+		is_page_break = 0;
+		while(*text != 0 && is_page_break == 0) {
+			// Calculate widths for the text using the copy
+			func_00105568(&font_copy, font_meta, text);
+			
+			// Center da line
+			font->x = GS_X_COORD(SCREEN_WIDTH / 2) - (font_copy.unk_2c / 2);
+
+			// Now that it's centered we let the game go on its way
+			// font_meta will keep track of the relevant tags for us
+			// quite convenient I must say
+			text = func_00105568(font, font_meta, text);
+
+			if (font->unk_34 < font->unk_2c) {
+				font->unk_34 = font->unk_2c;
+			}
+
+			font->unk_38 += font->unk_30;
+			if (font->unk_2c != 0) {
+				font->unk_2a++;
+			}
+
+			switch (*text) {
+			case 1:
+				// ignore new line char
+				text += 1;
+				break;
+			case 2:
+				// End of paragraph
+				is_page_break = 1;
+				break;
+			}
+			text = func_001052F0(font, font_meta, text);
+		}
+		return text;
+	}
+
+    // func_00105380
+	char* fontenv_process_paragraph(fontenv_struct* font, fontenv_unk1* font_meta, char* text)
+	{
+		font->width = 0;
+		font->height = 0;
+		while(*text != 0) {
+			text = fontenv_process_lines(font, font_meta, text);
+			
+			if (font->width < font->unk_34) {
+				font->width = font->unk_34;
+			}
+			
+			if (font->height < font->unk_38) {
+				font->height = font->unk_38;
+			}
+			
+			if (*text == 2) {
+				text = text + 1;
+			}
+			text = func_001052F0(font, font_meta, text);
+		}
+		return text;
+	}
 	
 	// processed each frame, replace original draw_string with our multi-draw string
 	// also centering both strings, replacing the game's original center
 	void draw_skit(fontenv_struct* font)
 	{
-		// if only one line
+		// set y for vertically centered
 		if (skit_container.num_lines == 1)
 		{
-			// set y for centered
 			font->y = GS_Y_COORD(408);
-			// center and draw line
-			center_text(font, skit_container.string_1);
-			draw_string(font, skit_container.string_1);
 		}
 		else
 		{
-			// set y for two liness
 			font->y = GS_Y_COORD(396);
-			// center and draw line 1
-			center_text(font, skit_container.string_1);
-			draw_string(font, skit_container.string_1);
-			// increase y
-			// center and draw line 2
-			font->y = GS_Y_COORD(396 + 24);
-			center_text(font, skit_container.string_2);
-			draw_string(font, skit_container.string_2);
 		}
+		fontenv_draw_centered(font, skit_container.string);
+	}
+
+	void fontenv_draw_centered(fontenv_struct* font, char* text)
+	{
+		fontenv_struct font_copy = *font;
+		fontenv_unk1 fnt1 = {};
+		fontenv_unk2 fnt2 = {};
+		func_00105030(&font_copy, &fnt1, &fnt2, text);
+		fontenv_process_paragraph(&font_copy, &fnt1, text);
+		fontenv_render(&font_copy, &fnt1);
+		// text = func_001052F0(&font_copy, 0x0, text);
 	}
 
 	////////////////////////

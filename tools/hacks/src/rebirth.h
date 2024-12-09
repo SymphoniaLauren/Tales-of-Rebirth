@@ -73,6 +73,27 @@ typedef struct file_desc {
     u8 unk13;
 } file_desc;
 
+typedef struct fontenv_unk1 {
+    s16 flags;
+    s16 unk2;
+    u8 color_r;
+    u8 color_g;
+    u8 color_b;
+    u8 color_a;
+    u16 unk8;
+    u16 unkA;
+} fontenv_unk1;
+
+typedef struct fontenv_unk2 {
+    u32 unk0;
+    u8 unk4;
+    u8 unk5;
+    u8 unk6;
+    u8 unk7;
+    char* unk8[5];
+    fontenv_unk1 unk1c[5];
+} fontenv_unk2;
+
 typedef struct fontenv_struct {
     u16 font_type;
     u16 unk_02;
@@ -106,7 +127,7 @@ typedef struct fontenv_struct {
     u32 width;
     // height in FP16
     u32 height;
-    u32 unk_44;
+    fontenv_unk2* unk_44;
     u32 unk_48;
     u32 unk_4c;
 } fontenv_struct;
