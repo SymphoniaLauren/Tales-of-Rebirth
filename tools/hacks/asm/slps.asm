@@ -16,15 +16,15 @@
 ; the insatiable mnu_monster file text
 
 ; original value -> 0x00391400
-.definelabel __heap_start, 0x003AA400
-.definelabel __malloc_sbrk_base, 0x00210550
+.definelabel __heap_start, 0x003A0000
+.definelabel __heap_ptr, 0x0020E448
 
 ; Repoint __heap_start symbol to be later
 .org 0x001001D0 :: lui        a0,hi(__heap_start)
 .org 0x001001D8 :: addiu      a0,a0,lo(__heap_start)
 
 ; Repoint malloc base
-.org __malloc_sbrk_base :: .word __heap_start
+.org __heap_ptr :: .word __heap_start
 
 ; Repoint memory manage alloc size
 .org 0x0010BC10 :: lui        a0,hi(__heap_start)
@@ -39,6 +39,10 @@
 .importobj "./build/init.o"
 .endarea
 
+.org 0x001378A0
+    j        fmv_hijack
+    nop
+
 .org 0x00100248
     jal      init_all_the_things ; defined in init.o
 
@@ -47,6 +51,10 @@
     j        printf
     nop
 
+; alloc more image mem for palettes
+;.org 0x1045fc
+;    li a1,0x80
+;    li a2,0x80
 
 .org 0x122F98
     j extra_syscall
@@ -181,6 +189,23 @@ extra_syscall_ret:
 	nop
 	nop
 
+; monospace on +items
+.org 0x0016AD34 
+    nop
+.org 0x0016ad48
+    nop
+
+; Hooks for skit centering
+.org 0x0013E114
+    jal add_skit_line_hook
+
+.org 0x0013e2e4
+    jal draw_skit
+
+; Move skit prompt up
+.org 0x0012b7cc
+    jal move_skit_prompt
+
 ;Cutscene Text Var Width fix
 .org 0x11CC60
 ;sets bool flag for ascii to 0
@@ -195,6 +220,57 @@ extra_syscall_ret:
 ;Prevents some font memes in the Synopsis
 	nop
 
+;Prevents funny font with Magical Pot
+.org 0x136144
+    li    a1, 0x0
+
+;Prevent funny font in Farm Fresh Groceries
+.org 0x136588
+    li   a1, 0x0
+
+;Use sexier font for numbers in Farm Fresh Groceries
+.org 0x1365b8
+    li   a1, 0x1
+
+;Don't monospace number in Magical Pot
+;window in Farm Fresh Groceries
+.org 0x136ce4
+    li   a1, 0x0
+
+;Use sexier font for numbers in Magical Pot
+;window in Farm Fresh Groceries
+.org 0x136d14
+    li   a1, 0x1
+
+;adjusting the whitespace lenght 
+;base is 12 pixel aka /2 the lenght of monospace
+; Menu text and char names whitespace
+.org 0x105ea0
+srl s2,s2,2
+
+; Story text whitespace
+.org 0x11d508
+srl a3,s0,1
+
+; Item name (concat) whitespace
+.org 0x105f3c
+srl s1,s2,0x01
+
+; Fix semicolon that showed up as colon
+.org 0x1ca1b5
+.byte 0x47
+
+.org 0x1C9D34
+;for our shiny new element icons
+/* Earth */ .byte 0x18, 0x00, 0x40, 0x00, 0x18, 0x18, 0x10, 0x00, 0x00, 0x00, 0x00, 0x00
+/* Wind */  .byte 0x30, 0x00, 0x40, 0x00, 0x18, 0x18, 0x11, 0x00, 0x00, 0x00, 0x00, 0x00
+/* Fire */  .byte 0x48, 0x00, 0x40, 0x00, 0x18, 0x18, 0x12, 0x00, 0x00, 0x00, 0x00, 0x00
+
+.org 0x1C9D64
+/* Water */ .byte 0x60, 0x00, 0x40, 0x00, 0x18, 0x18, 0x13, 0x00, 0x00, 0x00, 0x00, 0x00
+/* Light */ .byte 0x78, 0x00, 0x40, 0x00, 0x18, 0x18, 0x14, 0x00, 0x00, 0x00, 0x00, 0x00
+/* Dark */  .byte 0x90, 0x00, 0x40, 0x00, 0x18, 0x18, 0x15, 0x00, 0x00, 0x00, 0x00, 0x00
+
 .org 0x1CF680
 ;Shoves font blob into the exe (I'M SORRY KAJI)
     .incbin "../assets/fonttiles.bin"
@@ -202,43 +278,43 @@ extra_syscall_ret:
 .org 0x1CA240
 ;ASCII width table
 ; Char         | L  | R
-/* ０ */ .byte   05 , 05
-/* １ */ .byte   06 , 05
-/* ２ */ .byte   05 , 05
-/* ３ */ .byte   05 , 06
-/* ４ */ .byte   04 , 07
+/* ０ */ .byte   05 , 06
+/* １ */ .byte   06 , 08
+/* ２ */ .byte   06 , 07
+/* ３ */ .byte   06 , 07
+/* ４ */ .byte   05 , 06
 /* ５ */ .byte   06 , 06
 /* ６ */ .byte   06 , 06
 /* ７ */ .byte   06 , 07
-/* ８ */ .byte   04 , 05
-/* ９ */ .byte   04 , 04
+/* ８ */ .byte   06 , 06
+/* ９ */ .byte   06 , 06
 /* Ａ */ .byte   04 , 06
-/* Ｂ */ .byte   05 , 06
-/* Ｃ */ .byte   05 , 06
+/* Ｂ */ .byte   06 , 06
+/* Ｃ */ .byte   06 , 06
 /* Ｄ */ .byte   05 , 06
-/* Ｅ */ .byte   05 , 07
-/* Ｆ */ .byte   05 , 08
+/* Ｅ */ .byte   06 , 07
+/* Ｆ */ .byte   06 , 08
 /* Ｇ */ .byte   05 , 07
 /* Ｈ */ .byte   05 , 07
 /* Ｉ */ .byte   08 , 09
 /* Ｊ */ .byte   07 , 08
-/* Ｋ */ .byte   05 , 06
-/* Ｌ */ .byte   05 , 08
+/* Ｋ */ .byte   06 , 06
+/* Ｌ */ .byte   07 , 08
 /* Ｍ */ .byte   05 , 05
 /* Ｎ */ .byte   05 , 06
 /* Ｏ */ .byte   05 , 05
-/* Ｐ */ .byte   05 , 06
+/* Ｐ */ .byte   06 , 06
 /* Ｑ */ .byte   05 , 05
 /* Ｒ */ .byte   05 , 07
 /* Ｓ */ .byte   06 , 07
-/* Ｔ */ .byte   05 , 07
+/* Ｔ */ .byte   06 , 07
 /* Ｕ */ .byte   05 , 06
 /* Ｖ */ .byte   05 , 06
-/* Ｗ */ .byte   05 , 03
+/* Ｗ */ .byte   03 , 03
 /* Ｘ */ .byte   05 , 07
 /* Ｙ */ .byte   05 , 08
-/* Ｚ */ .byte   05 , 05
-/* ａ */ .byte   06 , 08
+/* Ｚ */ .byte   06 , 07
+/* ａ */ .byte   06 , 07
 /* ｂ */ .byte   06 , 07
 /* ｃ */ .byte   07 , 08
 /* ｄ */ .byte   06 , 07
@@ -246,47 +322,47 @@ extra_syscall_ret:
 /* ｆ */ .byte   07 , 09
 /* ｇ */ .byte   06 , 07
 /* ｈ */ .byte   06 , 07
-/* ｉ */ .byte   08 , 09
+/* ｉ */ .byte   09 , 09
 /* ｊ */ .byte   09 , 10
-/* ｋ */ .byte   05 , 07
+/* ｋ */ .byte   06 , 07
 /* ｌ */ .byte   09 , 09
 /* ｍ */ .byte   03 , 05
 /* ｎ */ .byte   06 , 07
 /* ｏ */ .byte   06 , 07
 /* ｐ */ .byte   06 , 07
 /* ｑ */ .byte   06 , 07
-/* ｒ */ .byte   07 , 09
+/* ｒ */ .byte   07 , 08
 /* ｓ */ .byte   07 , 08
-/* ｔ */ .byte   07 , 08
+/* ｔ */ .byte   08 , 08
 /* ｕ */ .byte   06 , 07
 /* ｖ */ .byte   05 , 07
-/* ｗ */ .byte   03 , 04
-/* ｘ */ .byte   06 , 08
-/* ｙ */ .byte   05 , 07
-/* ｚ */ .byte   06 , 07
+/* ｗ */ .byte   04 , 04
+/* ｘ */ .byte   07 , 07
+/* ｙ */ .byte   06 , 07
+/* ｚ */ .byte   06 , 08
 /* ， */ .byte   01 , 15
 /* ． */ .byte   01 , 15
-/* ・ */ .byte   06 , 08
-/* ： */ .byte   08 , 08
-/* ； */ .byte   07 , 08
-/* ？ */ .byte   04 , 05
-/* ！ */ .byte   07 , 09
-/* ／ */ .byte   00 , 01
+/* ・ */ .byte   08 , 08
+/* ： */ .byte   09 , 09
+/* ； */ .byte   08 , 09
+/* ？ */ .byte   07 , 07
+/* ！ */ .byte   09 , 09
+/* ／ */ .byte   06 , 07
 /* （ */ .byte   12 , 01
 /* ） */ .byte   01 , 13
 /* ［ */ .byte   13 , 01
 /* ］ */ .byte   01 , 11
 /* ｛ */ .byte   14 , 01
 /* ｝ */ .byte   01 , 14
-/* ＋ */ .byte   03 , 06
-/* － */ .byte   06 , 07
+/* ＋ */ .byte   05 , 06
+/* － */ .byte   08 , 07
 /* ＝ */ .byte   04 , 03
 /* ＜ */ .byte   03 , 03
 /* ＞ */ .byte   03 , 03
-/* ％ */ .byte   02 , 09
+/* ％ */ .byte   03 , 04
 /* ＃ */ .byte   04 , 04
-/* ＆ */ .byte   02 , 04
-/* ＊ */ .byte   04 , 04
+/* ＆ */ .byte   05 , 04
+/* ＊ */ .byte   06 , 08
 /* ＠ */ .byte   00 , 01
 /* ｜ */ .byte   08 , 08
 /*  ” */ .byte   01 , 15
@@ -295,7 +371,7 @@ extra_syscall_ret:
 /* 「 */ .byte   10 , 01
 /* 」 */ .byte   01 , 11
 /* 〜 */ .byte   05 , 06
-/* ＿ */ .byte   00 , 00
+/* ＿ */ .byte   05 , 06
 /* 、 */ .byte   00 , 13
 /* 。 */ .byte   01 , 12
 
@@ -304,7 +380,29 @@ extra_syscall_ret:
     .byte 01, 01
 
 ;use debug death notice
-.org 0x1282A0
+.org 0x128320
+    li a2,0
+.org 0x12832c
+    li a2,1
+.org 0x128360
+    li a2,2
+.org 0x128354
+    li a2,3
+.org 0x12838c
     nop
+.org 0x128364
+    b 0x1282a8
+    nop
+.org 0x128334
+    b 0x1282a8
+    nop
+.org 0x1282ac
+    sll v0,a2,2
+
+
+;apple gel sellprice fix
+.orga 0x106dd4
+.byte 0x19
+
 
 .close

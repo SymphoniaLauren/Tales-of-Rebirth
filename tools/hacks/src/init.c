@@ -5,17 +5,21 @@
 
 #define CUSTOM_FILE_SIZE 0x40
 #define OLD_HEAP_BASE 0x00391400
+#define NEW_HEAP_BASE 0x003A0000
+#define MAX_MONSTER_SIZE 0x1C00
 #define CUSTOM_CODE_FID 10227
+#define CUSTOM_CODE_BASE 0x00393000
 #define MNU_MONSTER_FID 10264
 
 void load_custom_files() {
     file_desc file;
+    int code_size, monster_size, used_size;
 
     // Load custom code file
     memset(&file, 0, sizeof(file));
     file.file_id = CUSTOM_CODE_FID;
-    file.file_size = get_file_size(file.file_id, 0);
-    file.addr = alloc_EE(file.file_size, 0, 0);
+    file.file_size = code_size = get_file_size(file.file_id, 0);
+    file.addr = CUSTOM_CODE_BASE;
     file.flags = LOAD_BLOCKING;
     file.unk12 = 0;
     file_pls(&file);
@@ -25,15 +29,22 @@ void load_custom_files() {
     printf("###########################\n");
     
     // Load custom mnu_monster file
-    // as it's loaded in the old heap_base
-    // it's outside the malloc realm
     memset(&file, 0, sizeof(file));
     file.file_id = MNU_MONSTER_FID;
-    file.file_size = get_file_size(file.file_id, 0);
+    file.file_size = monster_size = get_file_size(file.file_id, 0);
     file.addr = OLD_HEAP_BASE;
     file.flags = LOAD_BLOCKING;
     file.unk12 = 0;
     file_pls(&file);
+
+    // The files above are loaded outside the heap area
+    // so check we aren't overflowing
+    used_size = OLD_HEAP_BASE + monster_size + code_size;
+    if (monster_size > MAX_MONSTER_SIZE || used_size > NEW_HEAP_BASE) {
+        printf("Data beyond max size!!!");
+        // Avoid bad behavior and just loop forever
+        while(1);
+    }
 }
 
 // void load_from_host0() {
@@ -201,4 +212,5 @@ void init_all_the_things(void) {
     func_00102608();
     func_0012D9D0();
     func_0010EA78();
+    update_tex0();
 }

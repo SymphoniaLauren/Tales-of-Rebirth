@@ -10,17 +10,6 @@ extern void (*rotate_thread_func)(void*);
 extern int rotate_thread_id;
 extern int rotate_thread_stack[];
 
-void* memset(void*, int, unsigned int);
-int printf(char*, ...);
-
-typedef struct unk_main_struct {
-    u8 pad[1638];
-    u8 unk666;
-    u8 unk667;
-} unk_main_struct;
-
-extern unk_main_struct gMain;
-
 typedef struct ThreadParam {
     s32     status;
     void    (*entry)(void *);

@@ -9,6 +9,14 @@
 #define asm(x)
 #endif
 
+// TODO: Perhaps move TS_TO_FRAMES
+#define TS_TO_FRAMES(min, sec, mili) ((int)((min * 60 * 60) + (sec * 60) + (mili / 1000.0)))
+#define ARRAY_COUNT(arr) (s32)(sizeof(arr) / sizeof(arr[0]))
+#define ARRAY_COUNTU(arr) (u32)(sizeof(arr) / sizeof(arr[0]))
+
+#define NULL ((void*)0)
+#define DATA __attribute__((section(".data")))
+
 typedef signed char      s8;
 typedef signed short     s16;
 typedef signed int       s32;
@@ -38,5 +46,11 @@ typedef volatile u128 vu128;
 
 typedef volatile float  vf32;
 typedef volatile double vf64;
+
+// sce types
+typedef unsigned char      u_char;
+typedef unsigned short     u_short;
+typedef unsigned int       u_int;
+typedef unsigned long long u_long;
 
 #endif /* __TYPES_H__ */

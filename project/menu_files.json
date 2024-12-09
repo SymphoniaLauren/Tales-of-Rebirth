@@ -28,6 +28,12 @@
 				"style": "P"
 			},
 			{
+				"section": "Game Over",
+				"pointers_start": 942752,
+				"pointers_end": 942768,
+				"style": "P"
+			},
+			{
 				"section": "Action 1",
 				"pointers_start": 945440,
 				"pointers_end": 945548,
@@ -748,6 +754,16 @@
 						"LO": [0x312264],
 					},
 				]
+			},
+			{
+				"file": 1,
+				"is_sce": false,
+				"friendly_name": "2dmap Overlay",
+				"split_sections": false,
+				"base_offset": 0x2EF680,
+				"safe_areas": [],
+				"sections": [],
+				"embedded": []
 			},
 			{
 				"file": 2,
