@@ -2060,7 +2060,7 @@ gear to make room for new gear.</EnglishText>
 　
 ４．フォルスキューブが強化されます。</JapaneseText>
       <EnglishText>1. Rotate the Force Cube.
-2. Match Enhancements to artes.
+2. Match passive effects to artes.
 3. Use artes in battle.
 4. The Force Cube grows stronger!</EnglishText>
       <Notes/>
@@ -2090,7 +2090,7 @@ user's Force, so they can be
 strengthened by Force itself.
 The Force Cube represents the
 Force of its user, with arte
-enhancements placed on each
+passive effects placed on each
 corner of the cube.</EnglishText>
       <Notes/>
       <Id>368</Id>
@@ -2117,18 +2117,19 @@ corner of the cube.</EnglishText>
 カウントを更に増やせば、
 最大４レベルまで強化可能です。
 </JapaneseText>
-      <EnglishText>The four frontmost corners of the
-cube correspond to the four artes
-set on each direction. Using an
-arte with full FG increases its
-Force count by 1, Using artes
-this way enough times will cause
-a star to appear, enhancing the
-arte. Force can be levelled until
-you reach a maximum of four stars.</EnglishText>
+      <EnglishText>&lt;scale:400000EA&gt;The four frontmost corners of the cube
+&lt;scale:400000EA&gt;correspond to the four artes set on each
+&lt;scale:400000EA&gt;direction. Using an arte with full FG
+&lt;scale:400000EA&gt;increases the counter corresponding to
+&lt;scale:400000EA&gt;the arte by 1, Using artes this way
+&lt;scale:400000EA&gt;enough times will cause a star to appear,
+&lt;scale:400000EA&gt;enabling the passive effect for the arte.
+&lt;scale:400000EA&gt;Force can be leveled until you reach a
+&lt;scale:400000EA&gt;maximum of four stars. The more stars
+&lt;scale:400000EA&gt;you get, the stronger the passive.</EnglishText>
       <Notes/>
       <Id>370</Id>
-      <Status>Proofreading</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>22244</PointerOffset>
@@ -2185,20 +2186,20 @@ direction.</EnglishText>
 ・操作キャラ以外のキューブも
 　忘れずにセットしましょう。
 </JapaneseText>
-      <EnglishText>-Artes enhance based on the
-corresponding corner of the Force
+      <EnglishText>-Artes are given a passive effect on
+the corresponding corner of the Force
 Cube. Even if you set the same
 arte on each corner, its properties
 change for each direction.
 &lt;scale:400000EA&gt;-You can't rotate the cube in battle.
-&lt;scale:400000EA&gt;-Enhancements differ for Force Artes,
+&lt;scale:400000EA&gt;-Passive effects differ for Force Artes,
 &lt;scale:400000EA&gt;Force Magic and Force Rituals.
 &lt;scale:400000EA&gt;-Force Artes and Magic must hit
 &lt;scale:400000EA&gt;enemies to count.
 &lt;scale:400000EA&gt;-Be sure to set your party's cubes!</EnglishText>
       <Notes>doesn't fit. -dragon</Notes>
       <Id>374</Id>
-      <Status>Problematic</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>22284</PointerOffset>
@@ -2219,13 +2220,14 @@ change for each direction.
       <EnglishText>When setting a Force Ability, the
 matching corner of the Force Cube
 will be darkened and the ability
-will not be Enhanced, but the
-Force counter will still increment.
-("Force Abilities" refers to utility
-artes.)</EnglishText>
+will not benefit from any passive
+effects, but the Force counter will
+still increment.
+("Force Ability" refers to utility
+artes. Click the term for more info.)</EnglishText>
       <Notes>added more text to explain what force abilities are to prevent confusion. -dragon</Notes>
       <Id>376</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset>22304</PointerOffset>
@@ -2738,7 +2740,7 @@ battle will decide which is made.</EnglishText>
 ingredients for the right moment,
 you can press &lt;icon:22&gt; to disable an
 individual recipe from Automatic
-cooking. &lt;Blue&gt;"A"&lt;color:80000000&gt; denotes that a
+cooking. "&lt;Red&gt;A&lt;color:80000000&gt;" denotes that a
 recipe is enabled for automatic
 cooking.</EnglishText>
       <Notes/>
@@ -3187,14 +3189,13 @@ resist the Slow effect as well.</EnglishText>
 風系に属し、風属性に耐性のある
 敵には効かない場合が多いです。
 </JapaneseText>
-      <EnglishText>This Status Effect prevents FG
-recovery. Weak is associated with
-Wind, so enemies that resist
-Wind will resist the Weak effect
-as well.</EnglishText>
+      <EnglishText>This Status Effect prevents FG Regen
+Weak is associated with Wind, so
+enemies that resist Wind will resist
+the Weak effect as well.</EnglishText>
       <Notes/>
       <Id>449</Id>
-      <Status>Proofreading</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset>23204</PointerOffset>
