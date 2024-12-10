@@ -20,7 +20,7 @@ extern void fontenv_draw_centered(fontenv_struct *, char *);
 int update_sub_callback(void)
 {
     // remove callbacks so the fmv will resume upon termination
-    if (sub_index == sub_count)
+    if (sub_index == (sub_count-1))
     {
         gMain.fmv_info.callback_0 = NULL;
         gMain.fmv_info.callback_1 = NULL;

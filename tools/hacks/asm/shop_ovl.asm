@@ -1,5 +1,5 @@
 .ps2
-.open "..\..\..\1_extracted\DAT\OVL\11222.ovl", "..\..\..\3_patched\patched_temp\DAT\OVL\11222.ovl", 0x2d8900
+.open "..\..\..\3_patched\patched_temp\DAT\OVL\11222.ovl", 0x2d8900
 
 ; sulz shop, add the apple gel in the list then push he other item further
 .orga 0x90D8

@@ -151,3 +151,8 @@
 .definelabel func_00105568,        0x00105568
 .definelabel func_00105268,        0x00105268
 .definelabel fontenv_glyphs,       0x00237518
+.definelabel encount_group_no,     0x00236fe0       ; halfword
+.definelabel checkBtlFinality,     0x0030c0c8       
+.definelabel btl_unk813e,          0x00353A3E       ; halfword
+.definelabel btl_unka790,          0x00356090       ; byte
+.definelabel btl_unk8151,          0x00353A51       ; byte - intro demo battle flag
