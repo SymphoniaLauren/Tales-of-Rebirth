@@ -522,7 +522,7 @@ const fmv_sub fmv_18[95] = {
     {
         TS_TO_FRAMES(0, 58, 660),
         "I was able to do this one thing..." NL
-        "for the sake of Mankind."
+        "for the sake of " YELLOW "Mankind" WHITE "."
     },
     {
         TS_TO_FRAMES(1, 0, 860),
@@ -652,7 +652,7 @@ const fmv_sub fmv_18[95] = {
     },
     {
         TS_TO_FRAMES(2, 46, 800),
-        "So that this nation...can experience a rebirth."
+        "So that this nation...can experience a " CYAN "rebirth" WHITE "."
     },
     {
         TS_TO_FRAMES(2, 49, 560),
@@ -660,7 +660,7 @@ const fmv_sub fmv_18[95] = {
     },
     {
         TS_TO_FRAMES(2, 50, 80),
-        "Mankind will have to build relationships anew."
+        YELLOW "Mankind" WHITE " will have to build relationships anew."
     },
     {
         TS_TO_FRAMES(2, 54, 520),
@@ -684,8 +684,8 @@ const fmv_sub fmv_18[95] = {
     },
     {
         TS_TO_FRAMES(3, 0, 940),
-        "A time will come where everyone" NL
-        "will see eye to eye. Just like we have."
+        "A time will come where everyone will" NL
+        "see eye to eye. Just like we have."
     },
     {
         TS_TO_FRAMES(3, 6, 0),
@@ -693,7 +693,7 @@ const fmv_sub fmv_18[95] = {
     },
     {
         TS_TO_FRAMES(3, 6, 300),
-        "We are all one Mankind."
+        "We are all one " YELLOW "Mankind" WHITE "."
     },
     {
         TS_TO_FRAMES(3, 8, 360),
@@ -718,7 +718,7 @@ const fmv_sub fmv_18[95] = {
     },
     {
         TS_TO_FRAMES(3, 21, 360),
-        "A nation reborn..."
+        "A nation " CYAN "reborn" WHITE "..."
     },
     {
         TS_TO_FRAMES(3, 22, 960),
@@ -767,7 +767,7 @@ const fmv_sub fmv_18[95] = {
     },
     {
         TS_TO_FRAMES(3, 53, 960),
-        "Mankind will follow whatever path you choose."
+        YELLOW "Mankind" WHITE " will follow whatever path you choose."
     },
     {
         TS_TO_FRAMES(3, 56, 500),
