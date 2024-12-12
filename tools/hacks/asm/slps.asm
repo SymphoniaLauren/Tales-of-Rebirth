@@ -258,7 +258,7 @@ srl s1,s2,0x01
 
 ; Fix semicolon that showed up as colon
 .org 0x1ca1b5
-.byte 0x47
+.byte 0x84
 
 .org 0x1C9D34
 ;for our shiny new element icons
