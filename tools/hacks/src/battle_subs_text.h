@@ -575,10 +575,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_00834_0 = {
             TYPE_POST_BATTLE,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(TYTREE) ": " "I'm pretty sure we've fought them three times already!"
+            NAME(TYTREE) ": " "I'm pretty sure we've fought them"
+        };
+        const Voice_Line line_00834_1 = {
+            TYPE_POST_BATTLE,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "three times already!"
         };
         const Voice_Line line_00835_0 = {
             TYPE_POST_BATTLE,
@@ -1247,10 +1254,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_00915_0 = {
             TYPE_POST_BATTLE,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(TYTREE) ": " "You'll never beat me with that sullied spirit of yours."
+            NAME(TYTREE) ": " "You'll never beat me with"
+        };
+        const Voice_Line line_00915_1 = {
+            TYPE_POST_BATTLE,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "that sullied spirit of yours."
         };
         const Voice_Line line_00917_0 = {
             TYPE_POST_BATTLE,
@@ -1275,10 +1289,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_00921_0 = {
             TYPE_POST_BATTLE,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(TYTREE) ": " "That took too long! My soup's probably gone cold."
+            NAME(TYTREE) ": " "That took too long!"
+        };
+        const Voice_Line line_00921_1 = {
+            TYPE_POST_BATTLE,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "My soup's probably gone cold."
         };
         const Voice_Line line_00922_0 = {
             TYPE_POST_BATTLE,
@@ -1436,10 +1457,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_00941_0 = {
             TYPE_POST_BATTLE,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(HILDA) ": " "That was lackluster, we ought to make some adjustments."
+            NAME(HILDA) ": " "That was lackluster, we ought"
+        };
+        const Voice_Line line_00941_1 = {
+            TYPE_POST_BATTLE,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "to make some adjustments."
         };
         const Voice_Line line_00942_0 = {
             TYPE_POST_BATTLE,
@@ -1450,12 +1478,19 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_00942_1 = {
             TYPE_POST_BATTLE,
-            0,
+            255,
             TS_TO_FRAMES(0, 1, 78),
             TS_TO_FRAMES(0, 5, 25),
-            NAME(HILDA) ": " "Well, we could start by ditching feeble frontliners."
+            NAME(HILDA) ": " "Well, we could start by"
         };
         const Voice_Line line_00942_2 = {
+            TYPE_POST_BATTLE,
+            255,
+            TS_TO_FRAMES(0, 1, 78),
+            TS_TO_FRAMES(0, 5, 25),
+            "ditching feeble frontliners."
+        };
+        const Voice_Line line_00942_3 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 5, 25),
@@ -1485,10 +1520,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_00945_0 = {
             TYPE_POST_BATTLE,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(HILDA) ": " "That's what happens when you get ahead of yourself."
+            NAME(HILDA) ": " "That's what happens when"
+        };
+        const Voice_Line line_00945_1 = {
+            TYPE_POST_BATTLE,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "you get ahead of yourself."
         };
         const Voice_Line line_00947_0 = {
             TYPE_POST_BATTLE,
@@ -1607,10 +1649,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_00968_0 = {
             TYPE_BOTTOM,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) ": " "This is the spear of conflagration that will render all unto ashes!"
+            NAME(EUGENE) ": " "This is the spear of conflagration"
+        };
+        const Voice_Line line_00968_1 = {
+            TYPE_BOTTOM,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "that will render all unto ashes!"
         };
         const Voice_Line line_00969_0 = {
             TYPE_BOTTOM,
@@ -1628,10 +1677,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_00971_0 = {
             TYPE_BOTTOM,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) ": " "An instant into an eternity... We will risk everything in this moment!"
+            NAME(EUGENE) ": " "An instant into an eternity..."
+        };
+        const Voice_Line line_00971_1 = {
+            TYPE_BOTTOM,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "We will risk everything in this moment!"
         };
         const Voice_Line line_00972_0 = {
             TYPE_BOTTOM,
@@ -1823,10 +1879,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09554_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Saleh") ": " "Looks like you were all bark, no bite. Hahahaha!"
+            NAME("Saleh") ": " "Looks like you were all"
+        };
+        const Voice_Line line_09554_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "bark, no bite. Hahahaha!"
         };
         const Voice_Line line_09555_0 = {
             TYPE_NORMAL,
@@ -1837,10 +1900,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09556_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Saleh") ": " "Haha... I lost? I won't accept this... I can't accept this!"
+            NAME("Saleh") ": " "Haha... I lost? I won't accept this..."
+        };
+        const Voice_Line line_09556_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "I can't accept this!"
         };
         const Voice_Line line_09557_0 = {
             TYPE_NORMAL,
@@ -1872,10 +1942,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09561_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Saleh") ": " "The desperation in your eyes... How I want to torment you!"
+            NAME("Saleh") ": " "The desperation in your eyes..."
+        };
+        const Voice_Line line_09561_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "How I want to torment you!"
         };
     #pragma endregion Lines for Category 0x45
 
@@ -1924,10 +2001,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09577_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Tohma") ": " "Don't make me laugh! Do you really think that's gonna work?"
+            NAME("Tohma") ": " "Don't make me laugh! Do you"
+        };
+        const Voice_Line line_09577_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "really think that's gonna work?"
         };
         const Voice_Line line_09578_0 = {
             TYPE_NORMAL,
@@ -2038,10 +2122,17 @@ const int Battle_Table_Count = 411;
     #pragma region Lines for Category 0x49
         const Voice_Line line_09616_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Milhaust") ": " "I will protect everything, even if it costs me my life!"
+            NAME("Milhaust") ": " "I will protect everything,"
+        };
+        const Voice_Line line_09616_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "even if it costs me my life!"
         };
         const Voice_Line line_09617_0 = {
             TYPE_NORMAL,
@@ -2073,17 +2164,31 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09630_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Milhaust") ": " "We pledge that our swords are for those we must protect!"
+            NAME("Milhaust") ": " "We pledge that our swords"
+        };
+        const Voice_Line line_09630_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "are for those we must protect!"
         };
         const Voice_Line line_09631_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Milhaust") ": " "I pledge that my sword is for those I must protect!"
+            NAME("Milhaust") ": " "I pledge that my sword is"
+        };
+        const Voice_Line line_09631_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "for those I must protect!"
         };
     #pragma endregion Lines for Category 0x49
 
@@ -2302,10 +2407,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09687_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Geyorkias") ": " "Know ye, mortals, the foolishness of defying me!"
+            NAME("Geyorkias") ": " "Know ye, mortals, the"
+        };
+        const Voice_Line line_09687_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "foolishness of defying me!"
         };
         const Voice_Line line_09688_0 = {
             TYPE_NORMAL,
@@ -2372,38 +2484,73 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09697_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Geyorkias") ": " "May you find eternal sleep in the depths of the sea!"
+            NAME("Geyorkias") ": " "May you find eternal sleep"
+        };
+        const Voice_Line line_09697_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "in the depths of the sea!"
         };
         const Voice_Line line_09698_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Geyorkias") ": " "The lightning of judgement shall lead you to your deaths!"
+            NAME("Geyorkias") ": " "The lightning of judgement shall"
+        };
+        const Voice_Line line_09698_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "send you to your deaths!"
         };
         const Voice_Line line_09699_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Geyorkias") ": " "Unto you the cry of death, the song of despair!"
+            NAME("Geyorkias") ": " "Unto you the cry of"
+        };
+        const Voice_Line line_09699_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "death, the song of despair!"
         };
         const Voice_Line line_09700_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Geyorkias") ": " "Farewell... Perish alongside the eternal truth!"
+            NAME("Geyorkias") ": " "Farewell... Perish alongside"
+        };
+        const Voice_Line line_09700_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "the eternal truth!"
         };
         const Voice_Line line_09701_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Geyorkias") ": " "Hear ye, o " YELLOW "Man" WHITE ", for I am the King of the Sacred Beasts."
+            NAME("Geyorkias") ": " "Hear ye, o " YELLOW "Man" WHITE ", for I am the"
+        };
+        const Voice_Line line_09701_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "King of the Sacred Beasts."
         };
         const Voice_Line line_09702_0 = {
             TYPE_NORMAL,
@@ -2431,10 +2578,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09720_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Donel") ": " "I'm going to dig a grave for every last one of you!"
+            NAME("Donel") ": " "I'm going to dig a grave"
+        };
+        const Voice_Line line_09720_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "for every last one of you!"
         };
     #pragma endregion Lines for Category 0x4F
 
@@ -2660,10 +2814,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09836_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Ginnar") ": " "Pretty good! How would you like to be my subordinate?"
+            NAME("Ginnar") ": " "Pretty good! How would you"
+        };
+        const Voice_Line line_09836_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "like to be my subordinate?"
         };
         const Voice_Line line_09837_0 = {
             TYPE_NORMAL,
@@ -2744,10 +2905,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09848_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) ": " "I've never seen a Force go wild like this before..."
+            NAME(EUGENE) ": " "I've never seen a Force go"
+        };
+        const Voice_Line line_09848_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "wild like this before..."
         };
         const Voice_Line line_09849_0 = {
             TYPE_NORMAL,
@@ -2765,17 +2933,31 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09851_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) ": " "We need to put a stop to this. " MAO ", let's use that attack to finish this!"
+            NAME(EUGENE) ": " "We need to put a stop to this. " MAO ","
+        };
+        const Voice_Line line_09851_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "let's use that attack to finish this!"
         };
         const Voice_Line line_09852_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(MAO) ": " "Yeah, guess we've got no other options. Let's do this!"
+            NAME(MAO) ": " "Yeah, guess we've got no"
+        };
+        const Voice_Line line_09852_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "other options. Let's do this!"
         };
         const Voice_Line line_09857_0 = {
             TYPE_NORMAL,
@@ -2814,10 +2996,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09863_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) ": " "Walto, why is Her Majesty kidnapping Huma girls?!"
+            NAME(EUGENE) ": " "Walto, why is Her Majesty"
+        };
+        const Voice_Line line_09863_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "kidnapping Huma girls?!"
         };
         const Voice_Line line_09864_0 = {
             TYPE_NORMAL,
@@ -2849,10 +3038,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09868_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Saleh") ": " "Claire, Claire, Claire, Claire! ...What are you, stupid?"
+            NAME("Saleh") ": " "\"Claire, Claire, Claire, Claire!\""
+        };
+        const Voice_Line line_09868_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "...What are you, stupid?"
         };
         const Voice_Line line_09869_0 = {
             TYPE_NORMAL,
@@ -2870,10 +3066,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09871_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(HILDA) ": " "So this is the power of the King of the Sacred Beasts..."
+            NAME(HILDA) ": " "So this is the power of the"
+        };
+        const Voice_Line line_09871_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "King of the Sacred Beasts..."
         };
         const Voice_Line line_09872_0 = {
             TYPE_NORMAL,
@@ -2912,10 +3115,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09878_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("? Tytree?") ": " "Heh, I guess the party's getting started. Let's do this!"
+            NAME(TYTREE) ": " "Heh, I guess the party's getting"
+        };
+        const Voice_Line line_09878_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "started. Let's do this!"
         };
         const Voice_Line line_09879_0 = {
             TYPE_NORMAL,
@@ -2933,24 +3143,45 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09881_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) ": " "Be careful. This Birus is much stronger than the others in the area."
+            NAME(EUGENE) ": " "Be careful. This Birus is much stronger"
+        };
+        const Voice_Line line_09881_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "than the others in the area."
         };
         const Voice_Line line_09882_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) ": " "Manage your offense and defense wisely. Let's take it on together!"
+            NAME(EUGENE) ": " "Manage your offense and defense wisely."
+        };
+        const Voice_Line line_09882_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "Let's take it on together!"
         };
         const Voice_Line line_09883_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(VEIGUE) ": " "These guys are much stronger than they used to be...!"
+            NAME(VEIGUE) ": " "These guys are much stronger"
+        };
+        const Voice_Line line_09883_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "than they used to be...!"
         };
         const Voice_Line line_09884_0 = {
             TYPE_NORMAL,
@@ -3024,10 +3255,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09894_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(EUGENE) ": " "Zilva, I won't let you get away with this any longer!"
+            NAME(EUGENE) ": " "Zilva, I won't let you get"
+        };
+        const Voice_Line line_09894_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "away with this any longer!"
         };
         const Voice_Line line_09895_0 = {
             TYPE_NORMAL,
@@ -3038,10 +3276,17 @@ const int Battle_Table_Count = 411;
         };
         const Voice_Line line_09896_0 = {
             TYPE_NORMAL,
-            0,
+            255,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-             ": " "We need to give it our all! I know we can do it! We'll defeat Yuris!"
+            NAME(VEIGUE) ": " "We need to give it our all! I know"
+        };
+        const Voice_Line line_09896_1 = {
+            TYPE_NORMAL,
+            255,
+            TS_TO_FRAMES(0, 0, 0),
+            FRAME_MAX,
+            "we can do it! We'll defeat Yuris!"
         };
         const Voice_Line line_09897_0 = {
             TYPE_NORMAL,
@@ -3497,8 +3742,9 @@ const int Battle_Table_Count = 411;
         &line_00833_0
     };
 
-    const Voice_Line* lines_00834[1] = {
-        &line_00834_0
+    const Voice_Line* lines_00834[2] = {
+        &line_00834_0,
+        &line_00834_1
     };
 
     const Voice_Line* lines_00835[1] = {
@@ -3812,8 +4058,9 @@ const int Battle_Table_Count = 411;
         &line_00914_0
     };
 
-    const Voice_Line* lines_00915[1] = {
-        &line_00915_0
+    const Voice_Line* lines_00915[2] = {
+        &line_00915_0,
+        &line_00915_1
     };
 
     const Voice_Line* lines_00917[1] = {
@@ -3828,8 +4075,9 @@ const int Battle_Table_Count = 411;
         &line_00920_0
     };
 
-    const Voice_Line* lines_00921[1] = {
-        &line_00921_0
+    const Voice_Line* lines_00921[2] = {
+        &line_00921_0,
+        &line_00921_1
     };
 
     const Voice_Line* lines_00922[3] = {
@@ -3905,14 +4153,16 @@ const int Battle_Table_Count = 411;
         &line_00939_0
     };
 
-    const Voice_Line* lines_00941[1] = {
-        &line_00941_0
+    const Voice_Line* lines_00941[2] = {
+        &line_00941_0,
+        &line_00941_1
     };
 
-    const Voice_Line* lines_00942[3] = {
+    const Voice_Line* lines_00942[4] = {
         &line_00942_0,
         &line_00942_1,
-        &line_00942_2
+        &line_00942_2,
+        &line_00942_3
     };
 
     const Voice_Line* lines_00943[1] = {
@@ -3924,8 +4174,9 @@ const int Battle_Table_Count = 411;
         &line_00944_1
     };
 
-    const Voice_Line* lines_00945[1] = {
-        &line_00945_0
+    const Voice_Line* lines_00945[2] = {
+        &line_00945_0,
+        &line_00945_1
     };
 
     const Voice_Line* lines_00947[1] = {
@@ -3992,8 +4243,9 @@ const int Battle_Table_Count = 411;
         &line_00967_0
     };
 
-    const Voice_Line* lines_00968[1] = {
-        &line_00968_0
+    const Voice_Line* lines_00968[2] = {
+        &line_00968_0,
+        &line_00968_1
     };
 
     const Voice_Line* lines_00969[1] = {
@@ -4004,8 +4256,9 @@ const int Battle_Table_Count = 411;
         &line_00970_0
     };
 
-    const Voice_Line* lines_00971[1] = {
-        &line_00971_0
+    const Voice_Line* lines_00971[2] = {
+        &line_00971_0,
+        &line_00971_1
     };
 
     const Voice_Line* lines_00972[1] = {
@@ -4109,16 +4362,18 @@ const int Battle_Table_Count = 411;
         &line_09553_0
     };
 
-    const Voice_Line* lines_09554[1] = {
-        &line_09554_0
+    const Voice_Line* lines_09554[2] = {
+        &line_09554_0,
+        &line_09554_1
     };
 
     const Voice_Line* lines_09555[1] = {
         &line_09555_0
     };
 
-    const Voice_Line* lines_09556[1] = {
-        &line_09556_0
+    const Voice_Line* lines_09556[2] = {
+        &line_09556_0,
+        &line_09556_1
     };
 
     const Voice_Line* lines_09557[1] = {
@@ -4137,8 +4392,9 @@ const int Battle_Table_Count = 411;
         &line_09560_0
     };
 
-    const Voice_Line* lines_09561[1] = {
-        &line_09561_0
+    const Voice_Line* lines_09561[2] = {
+        &line_09561_0,
+        &line_09561_1
     };
 
     const Voice_Line* lines_09568[1] = {
@@ -4165,8 +4421,9 @@ const int Battle_Table_Count = 411;
         &line_09576_0
     };
 
-    const Voice_Line* lines_09577[1] = {
-        &line_09577_0
+    const Voice_Line* lines_09577[2] = {
+        &line_09577_0,
+        &line_09577_1
     };
 
     const Voice_Line* lines_09578[1] = {
@@ -4225,8 +4482,9 @@ const int Battle_Table_Count = 411;
         &line_09611_0
     };
 
-    const Voice_Line* lines_09616[1] = {
-        &line_09616_0
+    const Voice_Line* lines_09616[2] = {
+        &line_09616_0,
+        &line_09616_1
     };
 
     const Voice_Line* lines_09617[1] = {
@@ -4245,12 +4503,14 @@ const int Battle_Table_Count = 411;
         &line_09627_0
     };
 
-    const Voice_Line* lines_09630[1] = {
-        &line_09630_0
+    const Voice_Line* lines_09630[2] = {
+        &line_09630_0,
+        &line_09630_1
     };
 
-    const Voice_Line* lines_09631[1] = {
-        &line_09631_0
+    const Voice_Line* lines_09631[2] = {
+        &line_09631_0,
+        &line_09631_1
     };
 
     const Voice_Line* lines_09632[1] = {
@@ -4369,8 +4629,9 @@ const int Battle_Table_Count = 411;
         &line_09686_0
     };
 
-    const Voice_Line* lines_09687[1] = {
-        &line_09687_0
+    const Voice_Line* lines_09687[2] = {
+        &line_09687_0,
+        &line_09687_1
     };
 
     const Voice_Line* lines_09688[1] = {
@@ -4409,24 +4670,29 @@ const int Battle_Table_Count = 411;
         &line_09696_0
     };
 
-    const Voice_Line* lines_09697[1] = {
-        &line_09697_0
+    const Voice_Line* lines_09697[2] = {
+        &line_09697_0,
+        &line_09697_1
     };
 
-    const Voice_Line* lines_09698[1] = {
-        &line_09698_0
+    const Voice_Line* lines_09698[2] = {
+        &line_09698_0,
+        &line_09698_1
     };
 
-    const Voice_Line* lines_09699[1] = {
-        &line_09699_0
+    const Voice_Line* lines_09699[2] = {
+        &line_09699_0,
+        &line_09699_1
     };
 
-    const Voice_Line* lines_09700[1] = {
-        &line_09700_0
+    const Voice_Line* lines_09700[2] = {
+        &line_09700_0,
+        &line_09700_1
     };
 
-    const Voice_Line* lines_09701[1] = {
-        &line_09701_0
+    const Voice_Line* lines_09701[2] = {
+        &line_09701_0,
+        &line_09701_1
     };
 
     const Voice_Line* lines_09702[1] = {
@@ -4441,8 +4707,9 @@ const int Battle_Table_Count = 411;
         &line_09719_0
     };
 
-    const Voice_Line* lines_09720[1] = {
-        &line_09720_0
+    const Voice_Line* lines_09720[2] = {
+        &line_09720_0,
+        &line_09720_1
     };
 
     const Voice_Line* lines_09723[1] = {
@@ -4565,8 +4832,9 @@ const int Battle_Table_Count = 411;
         &line_09835_0
     };
 
-    const Voice_Line* lines_09836[1] = {
-        &line_09836_0
+    const Voice_Line* lines_09836[2] = {
+        &line_09836_0,
+        &line_09836_1
     };
 
     const Voice_Line* lines_09837[1] = {
@@ -4613,8 +4881,9 @@ const int Battle_Table_Count = 411;
         &line_09847_0
     };
 
-    const Voice_Line* lines_09848[1] = {
-        &line_09848_0
+    const Voice_Line* lines_09848[2] = {
+        &line_09848_0,
+        &line_09848_1
     };
 
     const Voice_Line* lines_09849[1] = {
@@ -4625,12 +4894,14 @@ const int Battle_Table_Count = 411;
         &line_09850_0
     };
 
-    const Voice_Line* lines_09851[1] = {
-        &line_09851_0
+    const Voice_Line* lines_09851[2] = {
+        &line_09851_0,
+        &line_09851_1
     };
 
-    const Voice_Line* lines_09852[1] = {
-        &line_09852_0
+    const Voice_Line* lines_09852[2] = {
+        &line_09852_0,
+        &line_09852_1
     };
 
     const Voice_Line* lines_09857[1] = {
@@ -4653,8 +4924,9 @@ const int Battle_Table_Count = 411;
         &line_09862_0
     };
 
-    const Voice_Line* lines_09863[1] = {
-        &line_09863_0
+    const Voice_Line* lines_09863[2] = {
+        &line_09863_0,
+        &line_09863_1
     };
 
     const Voice_Line* lines_09864[1] = {
@@ -4673,8 +4945,9 @@ const int Battle_Table_Count = 411;
         &line_09867_0
     };
 
-    const Voice_Line* lines_09868[1] = {
-        &line_09868_0
+    const Voice_Line* lines_09868[2] = {
+        &line_09868_0,
+        &line_09868_1
     };
 
     const Voice_Line* lines_09869[1] = {
@@ -4685,8 +4958,9 @@ const int Battle_Table_Count = 411;
         &line_09870_0
     };
 
-    const Voice_Line* lines_09871[1] = {
-        &line_09871_0
+    const Voice_Line* lines_09871[2] = {
+        &line_09871_0,
+        &line_09871_1
     };
 
     const Voice_Line* lines_09872[1] = {
@@ -4709,8 +4983,9 @@ const int Battle_Table_Count = 411;
         &line_09876_0
     };
 
-    const Voice_Line* lines_09878[1] = {
-        &line_09878_0
+    const Voice_Line* lines_09878[2] = {
+        &line_09878_0,
+        &line_09878_1
     };
 
     const Voice_Line* lines_09879[1] = {
@@ -4721,16 +4996,19 @@ const int Battle_Table_Count = 411;
         &line_09880_0
     };
 
-    const Voice_Line* lines_09881[1] = {
-        &line_09881_0
+    const Voice_Line* lines_09881[2] = {
+        &line_09881_0,
+        &line_09881_1
     };
 
-    const Voice_Line* lines_09882[1] = {
-        &line_09882_0
+    const Voice_Line* lines_09882[2] = {
+        &line_09882_0,
+        &line_09882_1
     };
 
-    const Voice_Line* lines_09883[1] = {
-        &line_09883_0
+    const Voice_Line* lines_09883[2] = {
+        &line_09883_0,
+        &line_09883_1
     };
 
     const Voice_Line* lines_09884[1] = {
@@ -4773,16 +5051,18 @@ const int Battle_Table_Count = 411;
         &line_09893_0
     };
 
-    const Voice_Line* lines_09894[1] = {
-        &line_09894_0
+    const Voice_Line* lines_09894[2] = {
+        &line_09894_0,
+        &line_09894_1
     };
 
     const Voice_Line* lines_09895[1] = {
         &line_09895_0
     };
 
-    const Voice_Line* lines_09896[1] = {
-        &line_09896_0
+    const Voice_Line* lines_09896[2] = {
+        &line_09896_0,
+        &line_09896_1
     };
 
     const Voice_Line* lines_09897[1] = {
