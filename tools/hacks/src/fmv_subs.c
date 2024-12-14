@@ -118,7 +118,7 @@ void init_fmv_subs()
     int fmv_id;
     printf("Playing fmv -> %d - Flags -> %x\n", gMain.fmv_info.fmv_id, gMain.fmv_info.flags);
 
-    frame_counter = 0;
+    frame_counter = -1;
     sub_index = 0;
 
     fmv_id = gMain.fmv_info.fmv_id - 17;
