@@ -18,7 +18,7 @@ Npc Translator: GoodGuy3
 Npc Translator: Astrozana  
 Npc Translator: Maxle  
 Npc Translator: Kaizen/Julito  
-Npc Translator: CAAAAW 
+Npc Translator: CAAAAW  
 Npc Translator: Rama  
 Npc & Menu Translator: Khayyaam  
 Npc & Menu Translator: Nix  
