@@ -131,7 +131,7 @@ void init_fmv_subs()
     }
 
     // Hack for the speech cutscene which has lower black bars
-    if (fmv_id == 17) {
+    if (fmv_id == 0) {
         sub_offset = 7;
     } else {
         sub_offset = 0;
