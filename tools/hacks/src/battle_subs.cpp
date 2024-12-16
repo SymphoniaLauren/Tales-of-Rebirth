@@ -87,7 +87,12 @@ extern "C"
 		draw_string(fnt, "Life Bottle Productions ver 0.9");
 		fnt->x = 0x8130;	// idk just put a new coord
 		fnt->y = 0x85D8;
-		draw_string(fnt, "     Patch serial: 202412161700");
+		#ifndef PATCH_SERIAL
+		draw_string(fnt, "     Patch serial: 0000000000");
+		#else
+		#define EXP_Q(str) _STR(str)
+		draw_string(fnt, "     Patch serial: " EXP_Q(PATCH_SERIAL));
+		#endif
 	}
 
 	////////////////////////
