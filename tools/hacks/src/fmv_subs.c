@@ -10,6 +10,7 @@ DATA int sub_count = 0;
 DATA const fmv_sub *current_subs;
 DATA fontenv_struct fnt_env;
 DATA credit_line current_line;
+DATA u8 sub_offset = 0;
 
 void draw_line(int arg0);
 void populate_screen(const fmv_sub *sub);
@@ -66,11 +67,11 @@ void populate_screen(const fmv_sub *sub)
         current_line.x = GS_X_COORD((SCREEN_WIDTH / 2)) - (width / 2);
         if (lines == 1)
         {
-            current_line.y = GS_Y_COORD(404);
+            current_line.y = GS_Y_COORD(404 + sub_offset);
         }
         else
         {
-            current_line.y = GS_Y_COORD(393);
+            current_line.y = GS_Y_COORD(393 + sub_offset);
         }
     }
 }
@@ -127,6 +128,13 @@ void init_fmv_subs()
     if (fmv_id < 0 || fmv_id > 3)
     {
         return;
+    }
+
+    // Hack for the speech cutscene which has lower black bars
+    if (fmv_id == 17) {
+        sub_offset = 7;
+    } else {
+        sub_offset = 0;
     }
 
     fmv = &fmv_table[fmv_id];
