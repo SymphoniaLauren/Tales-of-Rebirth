@@ -82,12 +82,12 @@ extern "C"
 		// first draw the existing string we replaced
 		// can edit fontenv fntenv here before the draw if needed
 		draw_string(fnt, original_string);
-		fnt->x = 0x78c0;	// idk just put a new coord
+		fnt->x = 0x8130;	// idk just put a new coord
 		fnt->y = 0x8520;
 		draw_string(fnt, "Life Bottle Productions ver 0.9");
-		fnt->x = 0x78c0;	// idk just put a new coord
-		fnt->y = 0x8620;
-		draw_string(fnt, "Patch serial 202412161700");
+		fnt->x = 0x8130;	// idk just put a new coord
+		fnt->y = 0x85D8;
+		draw_string(fnt, "     Patch serial: 202412161700");
 	}
 
 	////////////////////////
