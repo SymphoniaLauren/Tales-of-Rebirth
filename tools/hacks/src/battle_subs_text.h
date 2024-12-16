@@ -1476,7 +1476,7 @@ const int Battle_Table_Count = 411;
             TS_TO_FRAMES(0, 5, 250),
             NAME(HILDA) ": " "Well, we could start by ditching feeble frontliners."
         };
-        const Voice_Line line_00942_3 = {
+        const Voice_Line line_00942_2 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 5, 250),
@@ -1631,7 +1631,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(MAO) ": " "Crimson explosion, dwell within my ally!"
+            NAME(MAO) ": " "Crimson explosion, empower my ally!"
         };
         const Voice_Line line_00968_0 = {
             TYPE_BOTTOM,
@@ -1778,7 +1778,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(HILDA) ": " "Eternal lightning, dwell within him!"
+            NAME(HILDA) ": " "Eternal lightning, grant him your power!"
         };
         const Voice_Line line_00989_0 = {
             TYPE_BOTTOM,
@@ -4146,7 +4146,7 @@ const int Battle_Table_Count = 411;
     const Voice_Line* lines_00942[3] = {
         &line_00942_0,
         &line_00942_1,
-        &line_00942_3
+        &line_00942_2
     };
 
     const Voice_Line* lines_00943[1] = {
