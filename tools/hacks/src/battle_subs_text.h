@@ -535,1008 +535,994 @@ const int Battle_Table_Count = 411;
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(VEIGUE) ": " "I was the only one pulling my weight there."
         };
         const Voice_Line line_00830_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 70),
+            TS_TO_FRAMES(0, 1, 700),
             NAME(MAO) ": " "Fighting is all about teamwork!"
         };
         const Voice_Line line_00830_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 70),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 700),
+            TS_TO_FRAMES(0, 3, 170),
             NAME(TYTREE) ": " "Let me in on the limelight too!"
         };
         const Voice_Line line_00831_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(VEIGUE) ": " "You picked the wrong guy to mess with."
         };
         const Voice_Line line_00832_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 0),
             NAME(TYTREE) ": " ITALIC(60,00,00,00) "I" NO_ITALIC " picked the wrong guy to mess with."
         };
         const Voice_Line line_00833_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(VEIGUE) ": " "There won't be a rematch."
         };
         const Voice_Line line_00834_0 = {
             TYPE_POST_BATTLE,
             255,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(TYTREE) ": " "I'm pretty sure we've fought them"
         };
         const Voice_Line line_00834_1 = {
             TYPE_POST_BATTLE,
             255,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             "three times already!"
         };
         const Voice_Line line_00835_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 0),
             NAME(VEIGUE) ": " "Out of my sight..."
         };
         const Voice_Line line_00836_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(MAO) ": " "They're not around anymore, though."
         };
         const Voice_Line line_00837_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 890),
             NAME(VEIGUE) ": " "Whew..."
         };
         const Voice_Line line_00838_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(ANNIE) ": " "You did well out there, " VEIGUE "."
         };
         const Voice_Line line_00839_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(VEIGUE) ": " "Let's get a move on."
         };
         const Voice_Line line_00840_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(ANNIE) ": " "I need to treat your wounds first."
         };
         const Voice_Line line_00841_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(VEIGUE) ": " "That was a waste of time."
         };
         const Voice_Line line_00843_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(VEIGUE) ": " "That was a tough one."
         };
         const Voice_Line line_00845_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(VEIGUE) ": " "Don't make me get serious."
         };
         const Voice_Line line_00846_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 14),
+            TS_TO_FRAMES(0, 1, 140),
             NAME(TYTREE) ": " "You mean we weren't being serious?"
         };
         const Voice_Line line_00846_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 14),
-            TS_TO_FRAMES(0, 2, 44),
+            TS_TO_FRAMES(0, 1, 140),
+            TS_TO_FRAMES(0, 2, 440),
             NAME(HILDA) ": " "Coming from a slacker like you?"
         };
         const Voice_Line line_00846_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 2, 44),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 440),
+            TS_TO_FRAMES(0, 3, 570),
             NAME(TYTREE) ": " "What'd you say?!"
         };
         const Voice_Line line_00847_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(VEIGUE) ": " "I'm still not strong enough..."
         };
         const Voice_Line line_00849_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 680),
             NAME(MAO) ": " "Thus closes another chapter of Mao's triumphs!"
         };
         const Voice_Line line_00850_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 42),
+            TS_TO_FRAMES(0, 1, 420),
             NAME(TYTREE) ": " "Next time I want to be the main protagonist!"
         };
         const Voice_Line line_00850_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 42),
-            TS_TO_FRAMES(0, 2, 52),
+            TS_TO_FRAMES(0, 1, 420),
+            TS_TO_FRAMES(0, 2, 520),
             NAME(VEIGUE) ": " "Count me out."
         };
         const Voice_Line line_00850_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 2, 52),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 520),
+            TS_TO_FRAMES(0, 3, 770),
             NAME(ANNIE) ": " "What a shame~"
         };
         const Voice_Line line_00851_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(MAO) ": " "That was a piece of cake!"
         };
         const Voice_Line line_00852_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(TYTREE) ": " "Maybe try something more nutritious?"
         };
         const Voice_Line line_00853_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 180),
             NAME(MAO) ": " "Yehaw!"
         };
         const Voice_Line line_00854_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 18),
+            TS_TO_FRAMES(0, 1, 180),
             NAME(ANNIE) ": " "Yehaw!"
         };
         const Voice_Line line_00854_1 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 18),
+            TS_TO_FRAMES(0, 1, 180),
             NAME(TYTREE) ": " "Yehaw!"
         };
         const Voice_Line line_00854_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 82),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 820),
+            TS_TO_FRAMES(0, 3, 200),
             NAME(VEIGUE) ": " "...Don't expect me to say anything."
         };
         const Voice_Line line_00855_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(MAO) ": " "Is that how it's done?"
         };
         const Voice_Line line_00856_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 0, 74),
+            TS_TO_FRAMES(0, 0, 740),
             NAME(TYTREE) ": " "That's how it's done!"
         };
         const Voice_Line line_00856_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 0, 74),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 740),
+            TS_TO_FRAMES(0, 1, 780),
             NAME(HILDA) ": " "What are you even doing?"
         };
         const Voice_Line line_00857_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 490),
             NAME(MAO) ": " "That was so-so."
         };
         const Voice_Line line_00858_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 490),
             NAME(ANNIE) ": " "So-so indeed."
         };
         const Voice_Line line_00859_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(MAO) ": " "That's all folks!"
         };
         const Voice_Line line_00860_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(VEIGUE) ": " "Let's get a move on."
         };
         const Voice_Line line_00861_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(MAO) ": " "That took way too long..."
         };
         const Voice_Line line_00862_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 34),
+            TS_TO_FRAMES(0, 1, 340),
             NAME(TYTREE) ": " "Yeah! And whose fault was that?"
         };
         const Voice_Line line_00862_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 34),
-            TS_TO_FRAMES(0, 2, 42),
+            TS_TO_FRAMES(0, 1, 340),
+            TS_TO_FRAMES(0, 2, 420),
             NAME(MAO) ": " "Since you asked, yours!"
         };
         const Voice_Line line_00862_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 2, 42),
-            TS_TO_FRAMES(0, 3, 40),
+            TS_TO_FRAMES(0, 2, 420),
+            TS_TO_FRAMES(0, 3, 530),
             NAME(TYTREE) ": " "What do you mean, since I asked?!"
         };
         const Voice_Line line_00862_3 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 3, 40),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 3, 400),
+            TS_TO_FRAMES(0, 4, 760),
             NAME(EUGENE) ": " "Knock it off, you two."
         };
         const Voice_Line line_00863_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(MAO) ": " "Whew, that was a close call!"
         };
         const Voice_Line line_00865_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(MAO) ": " "I'm still not even giving it my all!"
         };
         const Voice_Line line_00866_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 62),
+            TS_TO_FRAMES(0, 1, 620),
             NAME(HILDA) ": " "Because you're just a kid."
         };
         const Voice_Line line_00866_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 62),
-            TS_TO_FRAMES(0, 2, 98),
+            TS_TO_FRAMES(0, 1, 620),
+            TS_TO_FRAMES(0, 2, 980),
             NAME(MAO) ": " "Jealous of my youth, there?"
         };
         const Voice_Line line_00866_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 3, 26),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 3, 260),
+            TS_TO_FRAMES(0, 4, 100),
             NAME(HILDA) ": " "...I'm going to smack you."
         };
         const Voice_Line line_00867_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 680),
             NAME(MAO) ": " "I leveled up! ...Or something."
         };
         const Voice_Line line_00869_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(EUGENE) ": " "No foes can stand before my spear!"
         };
         const Voice_Line line_00870_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 6),
+            TS_TO_FRAMES(0, 1, 60),
             NAME(TYTREE) ": " "I'll stand behind it then."
         };
         const Voice_Line line_00870_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 24),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 240),
+            TS_TO_FRAMES(0, 1, 980),
             NAME(EUGENE) ": " "Hm?"
         };
         const Voice_Line line_00871_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 990),
             NAME(EUGENE) ": " "Weaklings!"
         };
         const Voice_Line line_00872_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 990),
             NAME(MAO) ": " "Eep..."
         };
         const Voice_Line line_00873_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(EUGENE) ": " "Alright, who's next!"
         };
         const Voice_Line line_00874_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(MAO) ": " "Can't we take a break first?"
         };
         const Voice_Line line_00875_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(EUGENE) ": " "Is anyone hurt?"
         };
         const Voice_Line line_00876_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(VEIGUE) ": " "What about you?"
         };
         const Voice_Line line_00877_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 890),
             NAME(EUGENE) ": " "Hm."
         };
         const Voice_Line line_00878_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 0, 38),
+            TS_TO_FRAMES(0, 0, 580),
             NAME(TYTREE) ": " "What's up?"
         };
         const Voice_Line line_00878_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 0, 86),
-            TS_TO_FRAMES(0, 1, 30),
+            TS_TO_FRAMES(0, 0, 860),
+            TS_TO_FRAMES(0, 1, 400),
             NAME(HILDA) ": " "Hm."
         };
         const Voice_Line line_00878_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 82),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 820),
+            TS_TO_FRAMES(0, 2, 680),
             NAME(TYTREE) ": " "Well, what's up!?"
         };
         const Voice_Line line_00879_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(EUGENE) ": " "Forgive me."
         };
         const Voice_Line line_00881_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(EUGENE) ": " "That was amateurish."
         };
         const Voice_Line line_00882_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 990),
             NAME(VEIGUE) ": " "My bad."
         };
         const Voice_Line line_00883_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(EUGENE) ": " "That was rough."
         };
         const Voice_Line line_00884_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 390),
             NAME(TYTREE) ": " "Don't stress it!"
         };
         const Voice_Line line_00885_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(EUGENE) ": " "Was that too much excitement?"
         };
         const Voice_Line line_00886_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 0, 96),
+            TS_TO_FRAMES(0, 1, 190),
             NAME(HILDA) ": " "Perhaps for a child."
         };
         const Voice_Line line_00886_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 0, 96),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 960),
+            TS_TO_FRAMES(0, 2, 180),
             NAME(MAO) ": " "What do you mean by that?!"
         };
         const Voice_Line line_00887_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(EUGENE) ": " "The fruits of my commitment!"
         };
         const Voice_Line line_00889_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(ANNIE) ": " "I did my best!"
         };
         const Voice_Line line_00890_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(TYTREE) ": " "Don't ask us what we think..."
         };
         const Voice_Line line_00891_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(ANNIE) ": " "What a nice feeling!"
         };
         const Voice_Line line_00892_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 980),
             NAME(MAO) ": " "I ain't feeling too hot here..."
         };
         const Voice_Line line_00893_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 990),
             NAME(ANNIE) ": " "Well done."
         };
         const Voice_Line line_00894_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 990),
             NAME(HILDA) ": " "Indeed."
         };
         const Voice_Line line_00895_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(ANNIE) ": " "Finally, I can breathe a sigh of relief."
         };
         const Voice_Line line_00896_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 0, 98),
+            TS_TO_FRAMES(0, 1, 180),
             NAME(TYTREE) ": " "And I'm gonna take a breather!"
         };
         const Voice_Line line_00896_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 0, 98),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 980),
+            TS_TO_FRAMES(0, 2, 580),
             NAME(VEIGUE) ": " "You're getting left behind, then."
         };
         const Voice_Line line_00897_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(ANNIE) ": " "That wasn't a problem at all."
         };
         const Voice_Line line_00898_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(VEIGUE) ": " "No, not at all."
         };
         const Voice_Line line_00899_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(ANNIE) ": " "Somehow we managed to pull through."
         };
         const Voice_Line line_00900_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(EUGENE) ": " "Yes, we did well."
         };
         const Voice_Line line_00901_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(ANNIE) ": " "That took longer than expected."
         };
         const Voice_Line line_00902_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(TYTREE) ": " "I'm telling you, don't worry about it!"
         };
         const Voice_Line line_00903_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(ANNIE) ": " "I'm a little winded..."
         };
         const Voice_Line line_00905_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 880),
             NAME(ANNIE) ": " "Take some time to reflect on your actions!"
         };
         const Voice_Line line_00906_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 42),
+            TS_TO_FRAMES(0, 1, 620),
             NAME(VEIGUE) ": " "She's right, you'd better do some reflecting."
         };
         const Voice_Line line_00906_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 46),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 460),
+            TS_TO_FRAMES(0, 3, 470),
             NAME(TYTREE) ": " "Wh-What does this have to do with me?"
         };
         const Voice_Line line_00907_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(ANNIE) ": " "I'm getting stronger."
         };
         const Voice_Line line_00908_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 0, 88),
+            TS_TO_FRAMES(0, 1, 190),
             NAME(TYTREE) ": " "Like Hilda is?"
         };
         const Voice_Line line_00908_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 48),
-            TS_TO_FRAMES(0, 2, 0),
+            TS_TO_FRAMES(0, 1, 480),
+            TS_TO_FRAMES(0, 2, 400),
             NAME(ANNIE) ": " "Um."
         };
         const Voice_Line line_00908_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 2, 58),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
+            TS_TO_FRAMES(0, 4, 660),
             NAME(HILDA) ": " "Did you hesitate there?"
         };
         const Voice_Line line_00909_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(TYTREE) ": " "That was a one-man show!"
         };
         const Voice_Line line_00910_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 34),
+            TS_TO_FRAMES(0, 1, 540),
             NAME(MAO) ": " "What do you mean by a \"one-man show\"?"
         };
         const Voice_Line line_00910_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 48),
-            TS_TO_FRAMES(0, 3, 8),
+            TS_TO_FRAMES(0, 1, 480),
+            TS_TO_FRAMES(0, 3, 80),
             NAME(TYTREE) ": " "It means I took center stage."
         };
         const Voice_Line line_00910_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 3, 8),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 3, 80),
+            TS_TO_FRAMES(0, 4, 660),
             NAME(VEIGUE) ": " "Doesn't seem like you have an audience."
         };
         const Voice_Line line_00911_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 990),
             NAME(TYTREE) ": " "Easy!"
         };
         const Voice_Line line_00912_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 0, 74),
+            TS_TO_FRAMES(0, 0, 990),
             NAME(MAO) ": " "A breeze!"
         };
         const Voice_Line line_00912_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 0, 74),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 740),
+            TS_TO_FRAMES(0, 1, 780),
             NAME(ANNIE) ": " "Breezy~!"
         };
         const Voice_Line line_00913_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 990),
             NAME(TYTREE) ": " "Alright!"
         };
         const Voice_Line line_00914_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 990),
             NAME(ANNIE) ": " "Well done."
         };
         const Voice_Line line_00915_0 = {
             TYPE_POST_BATTLE,
             255,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 3, 470),
             NAME(TYTREE) ": " "You'll never beat me with"
         };
         const Voice_Line line_00915_1 = {
             TYPE_POST_BATTLE,
             255,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 3, 470),
             "that sullied spirit of yours."
         };
         const Voice_Line line_00917_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(TYTREE) ": " "Alright, who's next?"
         };
         const Voice_Line line_00919_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 680),
             NAME(TYTREE) ": " "Well, that's over!"
         };
         const Voice_Line line_00920_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(VEIGUE) ": " "Let's get a move on."
         };
         const Voice_Line line_00921_0 = {
             TYPE_POST_BATTLE,
             255,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(TYTREE) ": " "That took too long!"
         };
         const Voice_Line line_00921_1 = {
             TYPE_POST_BATTLE,
             255,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             "My soup's probably gone cold."
         };
         const Voice_Line line_00922_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 0, 84),
+            TS_TO_FRAMES(0, 0, 840),
             NAME(MAO) ": " "It has!"
         };
         const Voice_Line line_00922_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 0, 84),
-            TS_TO_FRAMES(0, 2, 10),
+            TS_TO_FRAMES(0, 0, 840),
+            TS_TO_FRAMES(0, 2, 100),
             NAME(HILDA) ": " "Completely chilled."
         };
         const Voice_Line line_00922_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 2, 10),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 100),
+            TS_TO_FRAMES(0, 3, 670),
             NAME(TYTREE) ": " "Don't go eating my soup!"
         };
         const Voice_Line line_00923_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 680),
             NAME(TYTREE) ": " "Man, that had me on edge."
         };
         const Voice_Line line_00924_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(MAO) ": " "That was a close call."
         };
         const Voice_Line line_00925_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 680),
             NAME(TYTREE) ": " "I'm too unbeatable for my own good."
         };
         const Voice_Line line_00926_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(EUGENE) ": " "They say that pride goeth before a fall."
         };
         const Voice_Line line_00927_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(TYTREE) ": " "My looks keep getting better and better!"
         };
         const Voice_Line line_00928_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 880),
             NAME(VEIGUE) ": " "So your fighting skills aren't getting any better?"
         };
         const Voice_Line line_00929_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(HILDA) ": " "Too easy."
         };
         const Voice_Line line_00931_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(HILDA) ": " "Oh, over already?"
         };
         const Voice_Line line_00932_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 680),
             NAME(TYTREE) ": " "You go girl!"
         };
         const Voice_Line line_00933_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 290),
             NAME(HILDA) ": " "Not worth the effort."
         };
         const Voice_Line line_00934_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 0, 76),
+            TS_TO_FRAMES(0, 1, 190),
             NAME(MAO) ": " "Then why'd you bother?"
         };
         const Voice_Line line_00934_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 0, 76),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 0, 760),
+            TS_TO_FRAMES(0, 2, 680),
             NAME(HILDA) ": " "That's beside the point..."
         };
         const Voice_Line line_00935_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(HILDA) ": " "That was fun."
         };
         const Voice_Line line_00936_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 64),
+            TS_TO_FRAMES(0, 1, 640),
             NAME(MAO) ": " "Elegant as always!"
         };
         const Voice_Line line_00936_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 78),
-            TS_TO_FRAMES(0, 2, 88),
+            TS_TO_FRAMES(0, 1, 780),
+            TS_TO_FRAMES(0, 2, 980),
             NAME(ANNIE) ": " "That was fun."
         };
         const Voice_Line line_00936_2 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 3, 4),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 3, 40),
+            TS_TO_FRAMES(0, 4, 660),
             NAME(MAO) ": " "You're kinda forcing it, Annie."
         };
         const Voice_Line line_00937_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 590),
             NAME(HILDA) ": " "That was underwhelming."
         };
         const Voice_Line line_00938_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(EUGENE) ": " "The likes of them were no match for us."
         };
         const Voice_Line line_00939_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 580),
             NAME(HILDA) ": " "That's not enough to stop me."
         };
         const Voice_Line line_00941_0 = {
             TYPE_POST_BATTLE,
-            255,
+            253,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
-            NAME(HILDA) ": " "That was lackluster, we ought"
-        };
-        const Voice_Line line_00941_1 = {
-            TYPE_POST_BATTLE,
-            255,
-            TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
-            "to make some adjustments."
+            TS_TO_FRAMES(0, 2, 680),
+            NAME(HILDA) ": " "That was lackluster, we ought to make some adjustments."
         };
         const Voice_Line line_00942_0 = {
             TYPE_POST_BATTLE,
-            0,
+            254,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 74),
+            TS_TO_FRAMES(0, 1, 740),
             NAME(TYTREE) ": " "Any changes in particular?"
         };
         const Voice_Line line_00942_1 = {
             TYPE_POST_BATTLE,
             255,
-            TS_TO_FRAMES(0, 1, 78),
-            TS_TO_FRAMES(0, 5, 25),
-            NAME(HILDA) ": " "Well, we could start by"
-        };
-        const Voice_Line line_00942_2 = {
-            TYPE_POST_BATTLE,
-            255,
-            TS_TO_FRAMES(0, 1, 78),
-            TS_TO_FRAMES(0, 5, 25),
-            "ditching feeble frontliners."
+            TS_TO_FRAMES(0, 1, 780),
+            TS_TO_FRAMES(0, 5, 250),
+            NAME(HILDA) ": " "Well, we could start by ditching feeble frontliners."
         };
         const Voice_Line line_00942_3 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 5, 25),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 5, 250),
+            TS_TO_FRAMES(0, 6, 150),
             NAME(TYTREE) ": " "...Wait, that's me!"
         };
         const Voice_Line line_00943_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 780),
             NAME(HILDA) ": " "(Ancient Callegean)"
         };
         const Voice_Line line_00944_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 1, 70),
+            TS_TO_FRAMES(0, 1, 700),
             NAME(MAO) ": " "Huh? What'd she say just now?"
         };
         const Voice_Line line_00944_1 = {
             TYPE_POST_BATTLE,
             0,
-            TS_TO_FRAMES(0, 1, 92),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 920),
+            TS_TO_FRAMES(0, 4, 860),
             NAME(EUGENE) ": " "\"Where there is life there is hope.\""
         };
         const Voice_Line line_00945_0 = {
             TYPE_POST_BATTLE,
             255,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 870),
             NAME(HILDA) ": " "That's what happens when"
         };
         const Voice_Line line_00945_1 = {
             TYPE_POST_BATTLE,
             255,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 2, 870),
             "you get ahead of yourself."
         };
         const Voice_Line line_00947_0 = {
             TYPE_POST_BATTLE,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            FRAME_MAX,
+            TS_TO_FRAMES(0, 1, 190),
             NAME(HILDA) ": " "More strength...!"
         };
     #pragma endregion Lines for Category 0x07
@@ -1638,7 +1624,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(VEIGUE) " and " NAME(HILDA) ": " "Mystic Arte! Celcius Calibur!"
+            NAME(VEIGUE) " and " NAME(HILDA) ": " "Mystic Arte! Celsius Calibur!"
         };
         const Voice_Line line_00967_0 = {
             TYPE_BOTTOM,
@@ -1857,13 +1843,13 @@ const int Battle_Table_Count = 411;
             TYPE_BOTTOM,
             0,
             TS_TO_FRAMES(0, 0, 0),
-            TS_TO_FRAMES(0, 2, 40),
+            TS_TO_FRAMES(0, 2, 400),
             NAME(MAO) ": " "Tch! I let my guard down."
         };
         const Voice_Line line_01035_1 = {
             TYPE_BOTTOM,
             0,
-            TS_TO_FRAMES(0, 2, 44),
+            TS_TO_FRAMES(0, 2, 440),
             FRAME_MAX,
             NAME(MAO) ": " "That's enough!"
         };
@@ -4153,15 +4139,13 @@ const int Battle_Table_Count = 411;
         &line_00939_0
     };
 
-    const Voice_Line* lines_00941[2] = {
-        &line_00941_0,
-        &line_00941_1
+    const Voice_Line* lines_00941[1] = {
+        &line_00941_0
     };
 
-    const Voice_Line* lines_00942[4] = {
+    const Voice_Line* lines_00942[3] = {
         &line_00942_0,
         &line_00942_1,
-        &line_00942_2,
         &line_00942_3
     };
 
