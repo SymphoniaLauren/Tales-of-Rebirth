@@ -1,5 +1,6 @@
 # Currently unused
 EE_LIB = build/battle_subs.a
+PATCH_SERIAL ?= 000000000000
 
 # Optimization options
 EE_C_OPTFLAGS := -O2
@@ -32,7 +33,7 @@ EE_FLAGS := -mabi=eabi -mno-abicalls -mlong32 -fno-builtin-printf
 
 # Specialized compilation flags
 EE_CFLAGS := $(EE_FLAGS) -Wno-implicit-function-declaration -Wno-unused-variable -Wno-incompatible-pointer-types -Wno-int-conversion
-EE_CXXFLAGS := $(EE_FLAGS) -fno-exceptions -fno-rtti
+EE_CXXFLAGS := $(EE_FLAGS) -fno-exceptions -fno-rtti -DPATCH_SERIAL=$(PATCH_SERIAL)
 
 # Targets
 all: $(EE_LIB) $(EE_OBJS)
