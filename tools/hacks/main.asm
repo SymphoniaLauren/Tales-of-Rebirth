@@ -12,3 +12,4 @@
 .include "asm/mnu_monster.asm"
 .include "asm/shop_ovl.asm"
 .include "asm/world_ovl.asm"
+.include "asm/title.asm"
