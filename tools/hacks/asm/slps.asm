@@ -11,6 +11,8 @@
 ; .definelabel blk_memcpy, 0x108F20
 ; .definelabel memset, 0x1BFC34
 
+; Increase text limit
+.org 0x0020982C :: .word 0x180
 
 ; Let's create a permanent pocket of data for
 ; the insatiable mnu_monster file text
