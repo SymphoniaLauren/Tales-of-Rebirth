@@ -15,8 +15,15 @@ DATA u8 sub_offset = 0;
 void draw_line(int arg0);
 void populate_screen(const fmv_sub *sub);
 void fntenv_make_default(fontenv_struct *);
-int count_lines(char *);
-extern void fontenv_draw_centered(fontenv_struct *, char *);
+int count_lines(const char *);
+extern void fontenv_draw_centered(fontenv_struct *, const char *);
+extern void write_register(u32, u64);
+extern void func_00104F50(fontenv_struct*, u16, u16);
+extern void func_00104F60(fontenv_struct*, u16, u16);
+extern void func_00104F70(fontenv_struct*, u32);
+extern void func_00104F78(fontenv_struct*, u16, u16);
+extern void get_str_width(fontenv_struct*, const char*, u16*, u16*);
+extern void fontenv_set_palette(fontenv_struct*, int, int);
 
 int update_sub_callback(void)
 {
@@ -76,7 +83,7 @@ void populate_screen(const fmv_sub *sub)
     }
 }
 
-int count_lines(char *str)
+int count_lines(const char *str)
 {
     int lines = 1;
     u8 chr;

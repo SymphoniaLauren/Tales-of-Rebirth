@@ -27,7 +27,7 @@ typedef struct ThreadParam {
 
 typedef struct unk_struct {
     s32 unk0;
-    s32 unk4;
+    void* unk4;
     s32 unk8;
     s32 unkC;
     s32 unk10;

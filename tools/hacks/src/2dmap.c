@@ -69,16 +69,20 @@ typedef struct _spoint {
 
 extern btl_struct gBtlStruct;
 
-char* func_00149F30(int);
+int func_0014B218(u8);
+u8* func_00149F30(int);
 char* func_00149F48(int);
 char* getBtlStr(int);
-char* custom_strlen(char*);
+int custom_strlen(u8*);
 int sprintf(char*, const char*, ...);
 char* strcat(char*, char*);
+u32 strlen(char*);
+void* memcpy(void*,void*,u32);
 char* getBtlRevisionStr(u8);
+void printBtlWindowStr(char*,int,int,spoint*,int,void*);
 
 extern u8 status_disp_colors;
-extern u8 status_disp_349630;
+extern char status_disp_349630;
 
 // TODO: Move these 2 functions
 void printBtlEnemyStatusDisp(void) {
@@ -139,7 +143,7 @@ void printBtlEnemyStatusDisp(void) {
         // 鋼体 (Iron S.)
         // 半減 (Resist)
         // 防御 (Durab.)
-        sprintf(final_string, "%s:", func_00149F30(k + 0x5));
+        sprintf(final_string, "%s: ", func_00149F30(k + 0x5));
         current_str_len = strlen(final_string);
         if (uStack_c0[k] <= cVar5) {
             for (i = 0; i < 8; i++) {
@@ -152,7 +156,7 @@ void printBtlEnemyStatusDisp(void) {
                     // 水 (Water)
                     // 光 (Light)
                     // 闇 (Dark)
-                    char* element_str = func_00149F30(i + 0x9);
+                    u8* element_str = func_00149F30(i + 0x9);
                     int element_str_len = custom_strlen(element_str);
                     memcpy(&final_string[current_str_len], element_str, element_str_len);
                     current_str_len += element_str_len;
@@ -179,8 +183,8 @@ void printBtlEnemyStatusDisp(void) {
     }
 
     if (j != 0x0) {
-        pbVar14 = (char*)getBtlRevisionStr(temp_s3->unk320[local_100[(gBtlStruct.unk8120 / 0x30) % j]].unk0);
-        printBtlWindowStr(pbVar14, 0x1, opacity, &coord, 0x1, (var_s0_1->unk0 & 0x80) ? &colors[3] : &colors[1]);
+        pbVar14 = (u8*)getBtlRevisionStr(temp_s3->unk320[local_100[(gBtlStruct.unk8120 / 0x30) % j]].unk0);
+        printBtlWindowStr((char*)pbVar14, 0x1, opacity, &coord, 0x1, (var_s0_1->unk0 & 0x80) ? &colors[3] : &colors[1]);
     } else {
         printBtlWindowStr(" ", 0x1, opacity, &coord, 0x1, NULL);
     }
@@ -233,7 +237,7 @@ void printBtlEnemyStatusDisp(void) {
 
         if (((pbVar14 != 0x0) && (0x0 < iVar8)) && (iVar8 < 0x4)) {
             // "%s:%s", 防御行動 (Guards)
-            sprintf(final_string, func_00149F30(0x13), func_00149F30(0x12), pbVar14);
+            sprintf(final_string, (char*)func_00149F30(0x13), func_00149F30(0x12), pbVar14);
             printBtlWindowStr(final_string, 0x1, opacity, &coord, 0x1, NULL);
         }
     }
@@ -255,6 +259,9 @@ void update_tex0() {
     fontenv_tex0 |= SCE_GS_SET_TEX0(0, 0, 0, 0, 0, 0, 0, 0x3AE3, 0, 0, 0, 0);
     story_tex0 |= SCE_GS_SET_TEX0(0, 0, 0, 0, 0, 0, 0, 0x3AE3, 0, 0, 0, 0);
 }
+
+extern void map2d_DebugInit();
+extern void map2d_DebugMessage();
 
 void show_debug_view() {
     u16 buttons = pad_held_buttons;
