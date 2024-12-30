@@ -11,6 +11,9 @@
 ; .definelabel blk_memcpy, 0x108F20
 ; .definelabel memset, 0x1BFC34
 
+; Menu background fix (For emulator)
+.org 0x173B6C :: li t1,0x1
+
 ; Increase text limit
 .org 0x0020982C :: .word 0x180
 
