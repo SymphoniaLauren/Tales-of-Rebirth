@@ -1,6 +1,7 @@
-#include "rebirth.h"
 #include "types.h"
+#include "rebirth.h"
 #include "sceio.h"
+#include "2dmap.h"
 
 extern u16 func_0010FC50();
 
@@ -9,76 +10,22 @@ extern u8 map2d_linehit;
 extern u16 pad_held_buttons;
 extern u8 is_map2d_debug_enabled;
 
-typedef struct unk_btl_sub1 {
-    u8 unk0[0x49];
-    u8 unk49[4];
-    u8 unk4D;
-    u8 unk4E;
-    u8 unk4F;
-    u8 unk50;
-    u8 unk51;
-    u8 unk52;
-    u8 unk53;
-    u8 unk54;
-    u8 unk55;
-    u8 unk56;
-    u8 unk57;
-    u8 unk58;
-    u8 unk59;
-    s8 unk5A;
-    u8 unk5B;
-    u8 unk5C;
-    u8 unk5D;
-} unk_btl_sub1;
-
-typedef struct unk_btl_sub2 {
-    s16 unk0;
-    s16 unk2;
-    s16 unk4;
-} unk_btl_sub2;
-
-typedef struct unk_btl_sub0 {
-    u8 unk0[0x2e4];
-    u32 unk2E4;
-    u8 unk2E8[0x320 - 0x2E8];
-    unk_btl_sub2 unk320[1];
-    u8 unk326[0x340 - 0x326];
-    unk_btl_sub1* unk340;
-    u8 unk344[0x419 - 0x344];
-    u8 unk419;
-} unk_btl_sub0;
-
-// typedef struct unk_struct_0 {
-//     u8 color_rgba[0x14];
-// } unk_struct_0;
-
-typedef struct _btl_struct {
-    u8 unk0[0x8120];
-    u32 unk8120;
-    u8 unk8124[0xb388 - 0x8124];
-    s8 unkB388;
-    unk_btl_sub0* unkB38C;
-    u8 unkC5CF[0xc5cf - 0xB390];
-    fontenv_struct fontenv_0;
-} btl_struct;
-
-typedef struct _spoint {
-    u16 x;
-    u16 y;
-} spoint;
-
 extern btl_struct gBtlStruct;
 
-char* func_00149F30(int);
+int func_0014B218(u8);
+u8* func_00149F30(int);
 char* func_00149F48(int);
 char* getBtlStr(int);
-char* custom_strlen(char*);
+int custom_strlen(u8*);
 int sprintf(char*, const char*, ...);
 char* strcat(char*, char*);
+u32 strlen(char*);
+void* memcpy(void*,void*,u32);
 char* getBtlRevisionStr(u8);
+void printBtlWindowStr(char*,int,int,spoint*,int,void*);
 
 extern u8 status_disp_colors;
-extern u8 status_disp_349630;
+extern char status_disp_349630;
 
 // TODO: Move these 2 functions
 void printBtlEnemyStatusDisp(void) {
@@ -139,7 +86,7 @@ void printBtlEnemyStatusDisp(void) {
         // 鋼体 (Iron S.)
         // 半減 (Resist)
         // 防御 (Durab.)
-        sprintf(final_string, "%s:", func_00149F30(k + 0x5));
+        sprintf(final_string, "%s: ", func_00149F30(k + 0x5));
         current_str_len = strlen(final_string);
         if (uStack_c0[k] <= cVar5) {
             for (i = 0; i < 8; i++) {
@@ -152,7 +99,7 @@ void printBtlEnemyStatusDisp(void) {
                     // 水 (Water)
                     // 光 (Light)
                     // 闇 (Dark)
-                    char* element_str = func_00149F30(i + 0x9);
+                    u8* element_str = func_00149F30(i + 0x9);
                     int element_str_len = custom_strlen(element_str);
                     memcpy(&final_string[current_str_len], element_str, element_str_len);
                     current_str_len += element_str_len;
@@ -179,8 +126,8 @@ void printBtlEnemyStatusDisp(void) {
     }
 
     if (j != 0x0) {
-        pbVar14 = (char*)getBtlRevisionStr(temp_s3->unk320[local_100[(gBtlStruct.unk8120 / 0x30) % j]].unk0);
-        printBtlWindowStr(pbVar14, 0x1, opacity, &coord, 0x1, (var_s0_1->unk0 & 0x80) ? &colors[3] : &colors[1]);
+        pbVar14 = (u8*)getBtlRevisionStr(temp_s3->unk320[local_100[(gBtlStruct.unk8120 / 0x30) % j]].unk0);
+        printBtlWindowStr((char*)pbVar14, 0x1, opacity, &coord, 0x1, (var_s0_1->unk0 & 0x80) ? &colors[3] : &colors[1]);
     } else {
         printBtlWindowStr(" ", 0x1, opacity, &coord, 0x1, NULL);
     }
@@ -233,7 +180,7 @@ void printBtlEnemyStatusDisp(void) {
 
         if (((pbVar14 != 0x0) && (0x0 < iVar8)) && (iVar8 < 0x4)) {
             // "%s:%s", 防御行動 (Guards)
-            sprintf(final_string, func_00149F30(0x13), func_00149F30(0x12), pbVar14);
+            sprintf(final_string, (char*)func_00149F30(0x13), func_00149F30(0x12), pbVar14);
             printBtlWindowStr(final_string, 0x1, opacity, &coord, 0x1, NULL);
         }
     }
@@ -255,6 +202,9 @@ void update_tex0() {
     fontenv_tex0 |= SCE_GS_SET_TEX0(0, 0, 0, 0, 0, 0, 0, 0x3AE3, 0, 0, 0, 0);
     story_tex0 |= SCE_GS_SET_TEX0(0, 0, 0, 0, 0, 0, 0, 0x3AE3, 0, 0, 0, 0);
 }
+
+extern void map2d_DebugInit();
+extern void map2d_DebugMessage();
 
 void show_debug_view() {
     u16 buttons = pad_held_buttons;

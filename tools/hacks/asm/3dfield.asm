@@ -1,6 +1,9 @@
 .ps2
 .open __3DFIELD_OVL_PATH__, 0x002EF680
 
+; Fix anikamal load bug (from original game)
+.org 0x2F196C :: li a1, 0x1
+
 ; Double box size
 .org 0x2F1780
 	li a3, 0x1D0

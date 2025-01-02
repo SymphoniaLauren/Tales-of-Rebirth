@@ -32,7 +32,7 @@ DEPENDS += $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.d,$(EE_C_SRCS))
 EE_FLAGS := -mabi=eabi -mno-abicalls -mlong32 -fno-builtin-printf 
 
 # Specialized compilation flags
-EE_CFLAGS := $(EE_FLAGS) -Wno-implicit-function-declaration -Wno-unused-variable -Wno-incompatible-pointer-types -Wno-int-conversion
+EE_CFLAGS := $(EE_FLAGS) -Wno-unused-variable -Wno-incompatible-pointer-types
 EE_CXXFLAGS := $(EE_FLAGS) -fno-exceptions -fno-rtti -DPATCH_SERIAL=$(PATCH_SERIAL)
 
 # Targets

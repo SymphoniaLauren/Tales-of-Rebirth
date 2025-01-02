@@ -5,6 +5,14 @@
 #include "battle_subs_text.h"
 #include "battle_subs.h"
 
+#define TITLE_LINE_1 "Life Bottle Productions ver 0.9"
+#ifndef PATCH_SERIAL
+#define TITLE_LINE_2 "Patch serial: 0000000000"
+#else
+#define EXP_Q(str) _STR(str)
+#define TITLE_LINE_2 "Patch serial: " EXP_Q(PATCH_SERIAL)
+#endif
+
 #define DEBUG_X GS_X_COORD(16)		// debug x
 #define DEBUG_Y GS_Y_COORD(4)		// debug y
 #define LINE_Y_ABOVE_UI GS_Y_COORD(316)	// y for type 1
@@ -48,13 +56,6 @@ extern "C"
 	// HELPER FUNCTIONS
 	////////////////////////
 
-	void vblank_test() {
-		init_subs();
-		fontenv.x = DEBUG_X;
-		fontenv.y = DEBUG_Y;
-		draw_string(&fontenv, "Life Bottle Productions");
-	}
-
 	// centering text to center of the screen :)
 	void center_text(fontenv_struct* font, const char* str)
 	{
@@ -76,23 +77,26 @@ extern "C"
 		}
 		return strcmp(name1, name2);
 	}
+
 	// title screen
 	void write_title_strings(fontenv_struct* fnt, const char* original_string)
 	{
+		u16 width;
 		// first draw the existing string we replaced
 		// can edit fontenv fntenv here before the draw if needed
 		draw_string(fnt, original_string);
-		fnt->x = 0x8130;	// idk just put a new coord
-		fnt->y = 0x8520;
-		draw_string(fnt, "Life Bottle Productions ver 0.9");
-		fnt->x = 0x8130;	// idk just put a new coord
-		fnt->y = 0x85D8;
-		#ifndef PATCH_SERIAL
-		draw_string(fnt, "     Patch serial: 0000000000");
-		#else
-		#define EXP_Q(str) _STR(str)
-		draw_string(fnt, "     Patch serial: " EXP_Q(PATCH_SERIAL));
-		#endif
+
+		// X coord is right-aligned to screen_width-12, mimicking Inomata's text
+		get_str_width(fnt, TITLE_LINE_1, &width, 0);
+		fnt->x = GS_X_COORD(628) - width;
+		fnt->y = GS_Y_COORD(388);
+		draw_string(fnt, TITLE_LINE_1);
+
+		// X coord is right-aligned to screen_width-12, mimicking Namco's text
+		get_str_width(fnt, TITLE_LINE_2, &width, 0);
+		fnt->x = GS_X_COORD(628) - width;
+		fnt->y = GS_Y_COORD(411);
+		draw_string(fnt, TITLE_LINE_2);
 	}
 
 	////////////////////////

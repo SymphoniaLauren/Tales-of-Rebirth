@@ -4,18 +4,18 @@
 #include "init.h"
 
 #define CUSTOM_FILE_SIZE 0x40
-#define OLD_HEAP_BASE 0x00391400
+#define OLD_HEAP_BASE (void*)0x00391400
 #define NEW_HEAP_BASE 0x003A0000
 #define MAX_MONSTER_SIZE 0x1C00
 #define CUSTOM_CODE_FID 10227
-#define CUSTOM_CODE_BASE 0x00393000
+#define CUSTOM_CODE_BASE (void*)0x00393000
 #define MNU_MONSTER_FID 10264
 
 void load_custom_files() {
     file_desc file;
     int code_size, monster_size, used_size;
 
-    // Load custom code file
+    // // Load custom code file
     memset(&file, 0, sizeof(file));
     file.file_id = CUSTOM_CODE_FID;
     file.file_size = code_size = get_file_size(file.file_id, 0);
@@ -27,6 +27,7 @@ void load_custom_files() {
     printf("###########################\n");
     printf("%s\n", file.addr);
     printf("###########################\n");
+    // load_from_host0();
     
     // Load custom mnu_monster file
     memset(&file, 0, sizeof(file));
@@ -39,7 +40,7 @@ void load_custom_files() {
 
     // The files above are loaded outside the heap area
     // so check we aren't overflowing
-    used_size = OLD_HEAP_BASE + monster_size + code_size;
+    used_size = (u32)OLD_HEAP_BASE + monster_size + code_size;
     if (monster_size > MAX_MONSTER_SIZE || used_size > NEW_HEAP_BASE) {
         printf("Data beyond max size!!!");
         // Avoid bad behavior and just loop forever
@@ -50,21 +51,23 @@ void load_custom_files() {
 // void load_from_host0() {
 //     int fd;
 //     int filesize;
-//     u8 buf[255];
+//     void* addr;
 
 //     // open a file to read and check its size
-//     fd = sceOpen("host0:hello.txt", SCE_RDONLY);
+//     fd = sceOpen("host0:10227.bin", SCE_RDONLY);
 //     if (fd < 0) {
 //         printf("Couldn't open host0 file\n");
 //     } else {
 //         filesize = sceLseek(fd, 0, SCE_SEEK_END);
 //         sceLseek(fd, 0, SCE_SEEK_SET);
+//         addr = alloc_EE(filesize, 0, 0);
 
-//         sceRead(fd, &buf, filesize);
-//         printf("%s\n", &buf);
+//         sceRead(fd, addr, filesize);
 //         sceClose(fd);
 //     }
 // }
+
+extern void update_tex0();
 
 void init_all_the_things(void) {
     ThreadParam thread;
