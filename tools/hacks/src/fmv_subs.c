@@ -18,27 +18,29 @@ void fntenv_make_default(fontenv_struct *);
 int count_lines(const char *);
 extern void fontenv_draw_centered(fontenv_struct *, const char *);
 extern void write_register(u32, u64);
-extern void func_00104F50(fontenv_struct*, u16, u16);
-extern void func_00104F60(fontenv_struct*, u16, u16);
-extern void func_00104F70(fontenv_struct*, u32);
-extern void func_00104F78(fontenv_struct*, u16, u16);
-extern void get_str_width(fontenv_struct*, const char*, u16*, u16*);
-extern void fontenv_set_palette(fontenv_struct*, int, int);
+extern void func_00104F50(fontenv_struct *, u16, u16);
+extern void func_00104F60(fontenv_struct *, u16, u16);
+extern void func_00104F70(fontenv_struct *, u32);
+extern void func_00104F78(fontenv_struct *, u16, u16);
+extern void get_str_width(fontenv_struct *, const char *, u16 *, u16 *);
+extern void fontenv_set_palette(fontenv_struct *, int, int);
 
 int update_sub_callback(void)
 {
     // remove callbacks so the fmv will resume upon termination
-    if (sub_index == (sub_count-1))
+    if (sub_index == sub_count)
     {
         gMain.fmv_info.callback_0 = NULL;
         gMain.fmv_info.callback_1 = NULL;
     }
-
-    frame_counter++;
-    if (current_subs[sub_index + 1].start_frame <= frame_counter)
+    else
     {
-        sub_index++;
-        populate_screen(&current_subs[sub_index]);
+        frame_counter++;
+        if (current_subs[sub_index + 1].start_frame <= frame_counter)
+        {
+            sub_index++;
+            populate_screen(&current_subs[sub_index]);
+        }
     }
 
     return 0;
@@ -138,9 +140,12 @@ void init_fmv_subs()
     }
 
     // Hack for the speech cutscene which has lower black bars
-    if (fmv_id == 0) {
+    if (fmv_id == 0)
+    {
         sub_offset = 7;
-    } else {
+    }
+    else
+    {
         sub_offset = 0;
     }
 
@@ -148,7 +153,7 @@ void init_fmv_subs()
 
     gMain.fmv_info.callback_0 = &update_sub_callback;
     gMain.fmv_info.callback_1 = &draw_text_callback;
-    sub_count = fmv->sub_count;
+    sub_count = fmv->sub_count - 1;
     current_subs = fmv->subs;
     return;
 }
