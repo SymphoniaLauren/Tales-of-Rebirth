@@ -14,6 +14,11 @@
 ; Menu background fix (For emulator)
 .org 0x173B6C :: li t1,0x1
 
+; Move text palette to new index so it
+; isn't corrupted by element icons palettes
+.org 0x1088a4 :: addiu a0, v0, 0x16
+.org 0x1088c0 :: addiu a1, v0, 0x16
+
 ; Increase text limit
 .org 0x0020982C :: .word 0x180
 
