@@ -456,7 +456,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME(HILDA) ": " "How embarrasing..."
+            NAME(HILDA) ": " "How embarrassing..."
         };
         const Voice_Line line_00750_0 = {
             TYPE_NORMAL,
@@ -2360,16 +2360,16 @@ const int Battle_Table_Count = 411;
             FRAME_MAX,
             NAME("Eephon") ": " "Impressive!"
         };
-    #pragma endregion Lines for Category 0x4C
-
-    #pragma region Lines for Category 0x4D
         const Voice_Line line_09683_0 = {
             TYPE_NORMAL,
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("Geyorkias") ": " "Show me your true power!"
+            NAME("Eephon") ": " "Show me your true power!"
         };
+    #pragma endregion Lines for Category 0x4C
+
+    #pragma region Lines for Category 0x4D
         const Voice_Line line_09684_0 = {
             TYPE_NORMAL,
             0,
@@ -3006,7 +3006,7 @@ const int Battle_Table_Count = 411;
             0,
             TS_TO_FRAMES(0, 0, 0),
             FRAME_MAX,
-            NAME("<Eugene") ": " "What does that mean?!"
+            NAME(EUGENE) ": " "What does that mean?!"
         };
         const Voice_Line line_09866_0 = {
             TYPE_NORMAL,
@@ -6580,105 +6580,105 @@ const Battle_Subs_Table battle_subs_tables[Battle_Table_Count] = {
         ARRAY_COUNT(lines_09682),
         lines_09682
     },
+    {
+        CAT_PAIR_TO_ID(76, 13),
+        ARRAY_COUNT(lines_09683),
+        lines_09683
+    },
 
     // Category 0x4D
     {
         CAT_PAIR_TO_ID(77, 0),
-        ARRAY_COUNT(lines_09683),
-        lines_09683
-    },
-    {
-        CAT_PAIR_TO_ID(77, 1),
         ARRAY_COUNT(lines_09684),
         lines_09684
     },
     {
-        CAT_PAIR_TO_ID(77, 2),
+        CAT_PAIR_TO_ID(77, 1),
         ARRAY_COUNT(lines_09685),
         lines_09685
     },
     {
-        CAT_PAIR_TO_ID(77, 3),
+        CAT_PAIR_TO_ID(77, 2),
         ARRAY_COUNT(lines_09686),
         lines_09686
     },
     {
-        CAT_PAIR_TO_ID(77, 4),
+        CAT_PAIR_TO_ID(77, 3),
         ARRAY_COUNT(lines_09687),
         lines_09687
     },
     {
-        CAT_PAIR_TO_ID(77, 5),
+        CAT_PAIR_TO_ID(77, 4),
         ARRAY_COUNT(lines_09688),
         lines_09688
     },
     {
-        CAT_PAIR_TO_ID(77, 6),
+        CAT_PAIR_TO_ID(77, 5),
         ARRAY_COUNT(lines_09689),
         lines_09689
     },
     {
-        CAT_PAIR_TO_ID(77, 7),
+        CAT_PAIR_TO_ID(77, 6),
         ARRAY_COUNT(lines_09690),
         lines_09690
     },
     {
-        CAT_PAIR_TO_ID(77, 8),
+        CAT_PAIR_TO_ID(77, 7),
         ARRAY_COUNT(lines_09691),
         lines_09691
     },
     {
-        CAT_PAIR_TO_ID(77, 9),
+        CAT_PAIR_TO_ID(77, 8),
         ARRAY_COUNT(lines_09692),
         lines_09692
     },
     {
-        CAT_PAIR_TO_ID(77, 10),
+        CAT_PAIR_TO_ID(77, 9),
         ARRAY_COUNT(lines_09693),
         lines_09693
     },
     {
-        CAT_PAIR_TO_ID(77, 11),
+        CAT_PAIR_TO_ID(77, 10),
         ARRAY_COUNT(lines_09694),
         lines_09694
     },
     {
-        CAT_PAIR_TO_ID(77, 12),
+        CAT_PAIR_TO_ID(77, 11),
         ARRAY_COUNT(lines_09695),
         lines_09695
     },
     {
-        CAT_PAIR_TO_ID(77, 13),
+        CAT_PAIR_TO_ID(77, 12),
         ARRAY_COUNT(lines_09696),
         lines_09696
     },
     {
-        CAT_PAIR_TO_ID(77, 14),
+        CAT_PAIR_TO_ID(77, 13),
         ARRAY_COUNT(lines_09697),
         lines_09697
     },
     {
-        CAT_PAIR_TO_ID(77, 15),
+        CAT_PAIR_TO_ID(77, 14),
         ARRAY_COUNT(lines_09698),
         lines_09698
     },
     {
-        CAT_PAIR_TO_ID(77, 16),
+        CAT_PAIR_TO_ID(77, 15),
         ARRAY_COUNT(lines_09699),
         lines_09699
     },
     {
-        CAT_PAIR_TO_ID(77, 17),
+        CAT_PAIR_TO_ID(77, 16),
         ARRAY_COUNT(lines_09700),
         lines_09700
     },
     {
-        CAT_PAIR_TO_ID(77, 18),
+        CAT_PAIR_TO_ID(77, 17),
         ARRAY_COUNT(lines_09701),
         lines_09701
     },
     {
-        CAT_PAIR_TO_ID(77, 19),
+        CAT_PAIR_TO_ID(77, 18),
         ARRAY_COUNT(lines_09702),
         lines_09702
     },
