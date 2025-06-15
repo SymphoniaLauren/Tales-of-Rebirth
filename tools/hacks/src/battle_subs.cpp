@@ -15,11 +15,11 @@
 
 #define DEBUG_X GS_X_COORD(16)		// debug x
 #define DEBUG_Y GS_Y_COORD(4)		// debug y
-#define LINE_Y_ABOVE_UI GS_Y_COORD(316)	// y for type 1
-#define LINE_Y_BEHIND_UI GS_Y_COORD(400)	// y for type 2
-#define LINE_Y_POSTBATTLE_BASE GS_Y_COORD(316)	// y for type 3
-#define NUM_VOICE_QUEUES 6			// slots to hold active/pending voice data, 6 is fine
-#define NUM_TEXT_CONTAINERS 2		// number of active sub lines - may need to adj code if increasing
+#define LINE_Y_ABOVE_UI GS_Y_COORD(316) + Y_COORD(11) 	// y for type 1
+#define LINE_Y_BEHIND_UI GS_Y_COORD(400) + Y_COORD(11) 	// y for type 2
+#define LINE_Y_POSTBATTLE_BASE GS_Y_COORD(316) + Y_COORD(11)	// y for type 3
+#define NUM_VOICE_QUEUES 10			// slots to hold active/pending voice data, 6 is fine
+#define NUM_TEXT_CONTAINERS 10		// number of active sub lines - may need to adj code if increasing
 #define POST_FRAME_COUNT 20			// number of frames for fade out animation
 
 extern "C"
@@ -363,12 +363,85 @@ extern "C"
 	{
 		txt->container_state = CONTAINER_OFF;
 		txt->btl_chr = 0;
+		txt->position = 0;
 		txt->Battle_Voice_Id = 0;
 		txt->Line = 0;
 		txt->Current_Post_Frame = 0;
 		txt->Extra_Frames = 0;
 		txt->Current_Frame = 0;
 		txt->Total_Lines = 0;
+	}
+
+	void add_container_position(Text_Container* txt) 
+	{
+		// Find the highest position that needs to be moved
+		// (we only need to shift positions that are consecutive starting from 1)
+		u8 max_consecutive = 0;
+		
+		for (u8 pos = 1; pos < NUM_TEXT_CONTAINERS+1; pos++) {
+			bool found = false;
+			
+			for (int i = 0; i < NUM_TEXT_CONTAINERS; i++) {
+				if (text_container[i].position == pos) {
+					found = true;
+					break;
+				}
+			}
+			
+			if (found) {
+				max_consecutive = pos;
+			} else {
+				break; // We found a gap, no need to continue
+			}
+		}
+		
+		// Shift positions, starting from the highest consecutive position
+		for (u8 pos = max_consecutive; pos >= 1; pos--) {
+			for (int i = 0; i < 10; i++) {
+				if (text_container[i].position == pos) {
+					text_container[i].position = pos + 1;
+				}
+			}
+		}
+		
+		// Set the new container's position to 1
+		txt->position = 1;
+	}
+
+	// function to update Y's
+	void update_ys()
+	{
+		for (int i = 0; i < NUM_TEXT_CONTAINERS; i++)
+		{
+			if (text_container[i].container_state)
+			{
+				int y = LINE_Y_BEHIND_UI;
+				if (text_container[i].Line->Type == TYPE_BOTTOM || text_container[i].Line->Type == TYPE_NORMAL)
+				{
+					// check for character UI display to change the y to above UI if its displayed
+					if (checkBtlFinality() == 0 && btl_unka790 != 5 && btl_unk813e == 0 && 
+						btl_unk8151 == 0 && encount_group_no != 0x31)
+					{
+						y = LINE_Y_ABOVE_UI;
+					}
+				}
+				else if (text_container[i].Line->Type == TYPE_POST_BATTLE)
+				{
+					y = LINE_Y_POSTBATTLE_BASE;
+					if ((btl_cooking_flag != -1) && ((btl_auto_cooking & 2) == 0))
+					{
+						y = GS_Y_COORD(268) + Y_COORD(11);
+					}
+					if (btl_item_count > 0)
+					{
+						int rows = ((btl_item_count + 1) / 2) - 1;
+						int coord = 256 - (28 * rows);
+						y = GS_Y_COORD(coord) + Y_COORD(11);
+					}
+				}
+				text_container[i].y = y - (Y_COORD(11) * (text_container[i].position-1));
+			}
+		}
 	}
 
 	// initialize text container with voice data
@@ -388,37 +461,7 @@ extern "C"
 				text_container[i].Current_Frame = start_frame;
 				text_container[i].x = DEBUG_X;
 				// change y depending on line type
-				int y = LINE_Y_BEHIND_UI;
-				if (text_container[i].Line->Type == TYPE_BOTTOM || text_container[i].Line->Type == TYPE_NORMAL)
-				{
-					// check for character UI display to change the y to above UI if its displayed
-					if (checkBtlFinality() == 0 && btl_unka790 != 5 && btl_unk813e == 0 && 
-						btl_unk8151 == 0 && encount_group_no != 0x31)
-					{
-						y = LINE_Y_ABOVE_UI;
-					}
-				}
-				else if (text_container[i].Line->Type == TYPE_POST_BATTLE)
-				{
-					y = LINE_Y_POSTBATTLE_BASE;
-					if ((btl_cooking_flag != -1) && ((btl_auto_cooking & 2) == 0))
-					{
-						y = GS_Y_COORD(268);
-					}
-					if (btl_item_count > 0)
-					{
-						int rows = ((btl_item_count + 1) / 2) - 1;
-						int coord = 256 - (28 * rows);
-						y = GS_Y_COORD(coord);
-					}
-					if (num_lines == 1 && text_container[i].Container_Id == 0)
-					{
-						y += Y_COORD(11);
-					}
-				}
-				// should be c0? b0? adjust if needed
-				// increases y for second line
-				text_container[i].y = y + (Y_COORD(11) * text_container[i].Container_Id); // chg if needed
+				add_container_position(&text_container[i]);
 				return &text_container[i];
 			}
 		}
@@ -568,7 +611,7 @@ extern "C"
 		draw_debug();			// draw debug
 		check_queues();			// check queue for items to add to containers, or to remove from queue
 		check_containers();		// check container for items that are done, handle frame counting
-	
+		update_ys();			// update y values
 		// loop through text containers
 		for (int i = 0; i < NUM_TEXT_CONTAINERS; i++)
 		{

@@ -115,9 +115,6 @@ VERBOSE_MODE:
     jal 0x018c610   ; repeat
     nop
 
-    jal clear_subs
-    nop
-
     li a0, 0
     jal setup_text      ; register the text with no btl chr struct
     move a1, s0

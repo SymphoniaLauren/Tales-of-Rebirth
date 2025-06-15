@@ -77,6 +77,7 @@ struct Text_Container
 	u16 x;
 	u16 y;
 	u8 container_state;
+	u8 position;
 	btl_chr_struct* btl_chr;
 	u32 Battle_Voice_Id;
 	const Voice_Line* Line;
