@@ -173,7 +173,6 @@ void init_all_the_things(void) {
     while (func_00131990() == 1) {
         func_0010F3E0();
     }
-    update_tex0();
     if ((func_00131950() & 8) == 0) {
         memset(&mnuenv_maybe, 0, sizeof(unk_struct));
         mnuenv_maybe.unk4 = alloc_EE(0x80000, 0, 0);
